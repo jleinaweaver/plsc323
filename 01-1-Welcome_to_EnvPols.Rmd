@@ -1,0 +1,415 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: middle, center, slideblue
+
+.size50[**PLSC 152: Intro to International Relations**]
+
+<br>
+
+.size50[
+
+Name one .textblue[**positive**] and one .textred[**negative**] thing the US has done on the world stage in the last 20 years.
+
+]
+
+<br>
+
+.size40[
+  Justin Leinaweaver (Spring 2022)
+]
+
+???
+
+* As students come in, encourage discussion of a big question *
+
+ON BALANCE OVER THE LAST TWENTY YEARS, HAS AMERICA HAD A NET POSITIVE OR NET NEGATIVE IMPACT ON THE WORLD?
+
+* ON BOARD *
+
+
+
+
+
+
+---
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[
+
+1. What do we explore in International Relations (IR)?
+
+2. Plan for the semester
+
+]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+Welcome to PLSC 152: Introduction to International Relations
+
+IS EVERYBODY IN THE RIGHT PLACE?
+
+Today's Agenda
+1. What do we explore in International Relations (IR)?
+2. Plan for the semester
+
+
+
+---
+
+class: slideblue, middle
+
+.size80[**Introductions**]
+
+.size60[
+1. Name
+
+2. Year in school
+
+3. Major
+]
+
+???
+
+Let's go around the room for introductions.
+- I'll go first.
+
+1. I'm Dr. Justin Leinaweaver.
+
+2. FSU undergrad, masters in IR at UCD and PhD at Trinity.
+  + My ninth year at Drury
+
+3. I'm a political scientist
+  + Research interests: international politics, environmental politics and bargaining / negotiations.
+
+<br>
+
+YOUR TURN:
+1) NAME,
+2) YEAR, and
+3) MAJOR
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[**Learning Outcome 1**]
+
+<br>
+
+.size40[**Content Knowledge**: Students should have substantial familiarity with the basic concepts and theoretical approaches in international relations.]
+
+--
+
+<br>
+
+.size40[**Translated**: Learn the big ideas and basic definitions you need to explain international events.]
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[**Learning Outcome 2**]
+
+<br>
+
+.size40[**Methods Knowledge**: Students should demonstrate an introductory level facility with the methods and approaches of international relations research.]
+
+--
+
+<br>
+
+.size40[**Translated**: Learn to use the tools of social scientists for analyzing the world.]
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[**Learning Outcome 3**]
+
+<br>
+
+.size40[**Critical Thinking & Problem Solving Skills**: Students should be able to understand, analyze, and produce arguments, and evaluate evidence, on contemporary questions of international relations.]
+
+--
+
+<br>
+
+.size40[**Translated**: Practice applying those tools to solve big problems and answer important questions.]
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[**Learning Outcome 4**]
+
+<br>
+
+.size40[**Communication Skills**: Students should demonstrate effective written communication skills.]
+
+--
+
+<br>
+
+.size40[**Translated**: Learn to write logical, clear, credible and critical arguments so good that they will convince smart people you are right!]
+
+???
+
+EVERYBODY GOOD WITH THESE?
+
+ANY QUESTIONS OR CONCERNS SO FAR?
+
+
+
+
+---
+
+class: middle, center
+
+.size60[**Course Grade**]
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Participation", "Argument Paper 1", "Argument Paper 2", "Argument Paper 3", "Total"),
+  col2 = c("", "(Feb 11)", "(Apr 1)", "(Final Exam)", ""),
+  col3 = c(rep(20, 4), 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 50) |>
+  kableExtra::column_spec(1, width = "11em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 5), bold = TRUE, background = "#b3ccff")
+
+```
+
+
+
+---
+
+class: middle, slidepurple
+
+.size60[**Participation**]
+
+.size50[
++ Get to class on time,
+
++ Have the materials you need to be productive,
+
++ Be engaged while in class (e.g., no sleeping, playing with your gadgets, leaving early, arriving late).
+]
+
+???
+
+Let's talk participation.
+
+In order for me to ensure you make progress on our learning objectives I need you in class and playing along.
+
+This class is a seminar, not a lecture.
+
+I want you to be a well informed citizen of the world and that means taking ownership of the process.
+
+Therefore, I have made participation worth 20% of the final grade, AND
+
+I expect you to earn a participation point in every class.
+
+How?
+1. Do the reading,
+
+2. Bring the reading, and
+
+3. Be actively engaged in class (no sleeping, playing with your gadgets, leaving early, arriving late).
+
+QUESTIONS?
+
+These are basically free points for everybody.
+
+The two most common ways people lose these points?
+
+- Come to class late, or 
+
+- come to class without the assignment completed for the day
+
+
+
+---
+
+background-image: url('libs/Images/01_1-coyote.jpg')
+background-size: 85%
+class: center
+
+???
+
+The only way I can ensure everyone makes progress on the LOs is by being in class and doing the work.
+
+This means I have to make sure you are here!
+
+So, this class has an attendance cliff.
+
+If you have more than five unexcused absences during the semester you will not be able to earn greater than a C+.
+
+Regardless of assignment grades.
+
+
+
+---
+
+class: middle, slidepurple
+
+.pull-left[
+
+<br>
+
+```{r, fig.align = 'center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_1-office_space.jpg")
+```
+
+]
+
+.pull-right[
+.center[
+
+.size60[**Excused absence coming up?**]
+
+<br>
+
+.size50[
+Complete a make-up assignment to earn your participation.
+
+]]]
+
+???
+
+Excused absence? Illness? Sports?
+
+Let me know ahead of time and I'll give you an assignment to complete. Easy peasy.
+
+<br>
+
+Here's the other part of this deal.
+
+Covid is still a GIANT pain in the ass and life always gets hectic during the semester.
+
+Keep me in the loop and I will have your back!
+
+I am not here to make your life harder.
+
+I genuinely want you to learn this material.
+
+So, if things are getting rough for you please come talk to me.
+
+I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+
+SOUND FAIR?
+
+<br>
+
+ANY QUESTIONS ON ATTENDANCE AND PARTICIPATION?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-matrix_meme.jpg')
+background-size: 95%
+class: center
+
+???
+
+Your first job is to download the syllabus from Moodle and read it carefully.
+
+It includes detail on everything you need to know.
+- Assignment deadlines
+- Readings
+- Drury policies
+
+ALSO, I can see who downloaded it, so don’t delay!
+
+<br>
+
+We'll be using Moodle for submitting assignments and sharing readings.
+
+Let me know if you have trouble using our Moodle site.
+
+
+
+---
+
+class: middle, slidegreen
+
+.size60[**For Friday**]
+
+.size40[
+1. Labossiere, M. (2008, March 13). Argument Basics.
+
+2. Boot, Max. (2021, Aug 11). The Biden administration’s response to the Taliban offensive is delusional. *The Washington Post*.
+
+3. Hayes, Mike. (2021, Apr 29). President Biden Made the Right Choice to Withdraw from Afghanistan. *Time*.
+]
+
+???
+
+The world of science is a world of making arguments.
+
+So, your readings for Friday will help us practice what that means.
+
+These are in the syllabus and the readings are on Moodle if the web links don't work.
+
+Read these and be ready to analyze their arguments in class on Friday.
+
+QUESTIONS?
