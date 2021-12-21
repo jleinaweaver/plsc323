@@ -30,54 +30,20 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = NA)
 ```
 
-class: middle, center, slideblue
+class: middle, slideblue
 
-.size50[**PLSC 152: Intro to International Relations**]
+.center[
+.size55[
+**Issues in Environmental Policy (PLSC 323)**
+]]
 
 <br>
 
-.size50[
+.size45[**Today's Agenda**
 
-Name one .textblue[**positive**] and one .textred[**negative**] thing the US has done on the world stage in the last 20 years.
-
+Reviewing our plan for the semester
 ]
 
-<br>
-
-.size40[
-  Justin Leinaweaver (Spring 2022)
-]
-
-???
-
-* As students come in, encourage discussion of a big question *
-
-ON BALANCE OVER THE LAST TWENTY YEARS, HAS AMERICA HAD A NET POSITIVE OR NET NEGATIVE IMPACT ON THE WORLD?
-
-* ON BOARD *
-
-
-
-
-
-
----
-
-class: slideblue
-
-.size80[**Today's Agenda**]
-
-<br>
-
-.size50[
-
-1. What do we explore in International Relations (IR)?
-
-2. Plan for the semester
-
-]
-
-<br>
 <br>
 
 .center[.size40[
@@ -86,28 +52,40 @@ class: slideblue
 
 ???
 
-Welcome to PLSC 152: Introduction to International Relations
+## Prep for Class
+1. ...
+
+Welcome to PLSC 323: Issues in Environmental Policy
 
 IS EVERYBODY IN THE RIGHT PLACE?
-
-Today's Agenda
-1. What do we explore in International Relations (IR)?
-2. Plan for the semester
 
 
 
 ---
 
-class: slideblue, middle
+The Certificate
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-class: center
+
+class: middle
 
 .size80[**Introductions**]
 
-.size60[
+.size55[
 1. Name
 
 2. Year in school
 
 3. Major
+
+4. Certificate courses completed?
 ]
 
 ???
@@ -134,80 +112,68 @@ YOUR TURN:
 
 ---
 
-class: middle, slidepurple
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle, center
 
-.size50[**Learning Outcome 1**]
-
-<br>
-
-.size40[**Content Knowledge**: Students should have substantial familiarity with the basic concepts and theoretical approaches in international relations.]
-
---
-
-<br>
-
-.size40[**Translated**: Learn the big ideas and basic definitions you need to explain international events.]
-
-
-
----
-
-class: middle, slidepurple
-
-.size50[**Learning Outcome 2**]
-
-<br>
-
-.size40[**Methods Knowledge**: Students should demonstrate an introductory level facility with the methods and approaches of international relations research.]
-
---
-
-<br>
-
-.size40[**Translated**: Learn to use the tools of social scientists for analyzing the world.]
-
-
-
----
-
-class: middle, slidepurple
-
-.size50[**Learning Outcome 3**]
-
-<br>
-
-.size40[**Critical Thinking & Problem Solving Skills**: Students should be able to understand, analyze, and produce arguments, and evaluate evidence, on contemporary questions of international relations.]
-
---
-
-<br>
-
-.size40[**Translated**: Practice applying those tools to solve big problems and answer important questions.]
-
-
-
----
-
-class: middle, slidepurple
-
-.size50[**Learning Outcome 4**]
-
-<br>
-
-.size40[**Communication Skills**: Students should demonstrate effective written communication skills.]
-
---
-
-<br>
-
-.size40[**Translated**: Learn to write logical, clear, credible and critical arguments so good that they will convince smart people you are right!]
+# LO1: Content Knowledge
+.size55[
+Students should demonstrate the ability to organize the investigation of an environmental problem in terms of its key stakeholders, institutions and uncertainties involved.
+]
 
 ???
 
-EVERYBODY GOOD WITH THESE?
 
-ANY QUESTIONS OR CONCERNS SO FAR?
 
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle, center
+
+# LO2: Critical Thinking and Problem-Solving Skills
+.size50[
+Students should demonstrate policy-based problem-solving skills by designing plans that balance the interests of stakeholders against the constraints of established institutions and uncertainty.
+
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle, center
+
+# LO3: Communication Skills
+.size55[
+Students should demonstrate the ability to communicate their policy proposals in clear, concise ways that are tailored to the relevant audiences.
+]
+
+???
+
+
+
+---
+
+Class is a seminar designed around helping you tackle a project rooted in real world problem solving
+
+
+
+---
+
+That in mind, what's going on in the world of environmental problems / politics?
+
+Global?
+
+National?
+
+Local?
 
 
 
@@ -215,34 +181,28 @@ ANY QUESTIONS OR CONCERNS SO FAR?
 
 class: middle, center
 
-.size60[**Course Grade**]
+.size55[**Course Grade**]
 
-```{css, echo=F}
-/* Change the background color to white for shaded rows (even rows) */
-.remark-slide thead, .remark-slide tr:nth-child(2n) {
-      background-color: white;
-}
-```
+<br>
 
 ```{r}
 tibble(
-  col1 = c("Participation", "Argument Paper 1", "Argument Paper 2", "Argument Paper 3", "Total"),
-  col2 = c("", "(Feb 11)", "(Apr 1)", "(Final Exam)", ""),
-  col3 = c(rep(20, 4), 100)
+  col1 = c("Participation", "Paper 1: The Problem", "Paper 2: Complicating Factors", "Paper 3: Policy Design", "Total"),
+  col2 = c("", "(Feb 18)", "(Apr 1)", "(Final)", ""),
+  col3 = c(40, rep(20, 3), 100)
 ) |>
   kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 50) |>
-  kableExtra::column_spec(1, width = "11em") |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
   kableExtra::column_spec(2, width = "7em") |>
   kableExtra::row_spec(c(0, 5), bold = TRUE, background = "#b3ccff")
-
 ```
 
 
 
 ---
 
-class: middle, slidepurple
+class: middle, slideblue
 
 .size60[**Participation**]
 
@@ -291,7 +251,7 @@ The two most common ways people lose these points?
 
 background-image: url('libs/Images/01_1-coyote.jpg')
 background-size: 85%
-class: center
+background-class: center
 
 ???
 
@@ -309,35 +269,19 @@ Regardless of assignment grades.
 
 ---
 
-class: middle, slidepurple
-
-.pull-left[
-
-<br>
-
-```{r, fig.align = 'center', out.width='100%'}
-knitr::include_graphics("libs/Images/01_1-office_space.jpg")
-```
-
-]
-
-.pull-right[
-.center[
-
-.size60[**Excused absence coming up?**]
-
-<br>
-
-.size50[
-Complete a make-up assignment to earn your participation.
-
-]]]
+background-image: url('libs/Images/01_1-office_space.jpg')
+background-size: 65%
+background-class: center
 
 ???
 
-Excused absence? Illness? Sports?
+**Excused absence coming up?**
 
-Let me know ahead of time and I'll give you an assignment to complete. Easy peasy.
+Illness? Sports?
+
+Let me know **ahead of time** and I'll give you an assignment to complete to earn your lost participation points. 
+
+Easy peasy.
 
 <br>
 
@@ -353,7 +297,7 @@ I genuinely want you to learn this material.
 
 So, if things are getting rough for you please come talk to me.
 
-I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+**I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!**
 
 SOUND FAIR?
 
@@ -367,7 +311,7 @@ ANY QUESTIONS ON ATTENDANCE AND PARTICIPATION?
 
 background-image: url('libs/Images/01_1-matrix_meme.jpg')
 background-size: 95%
-class: center
+background-class: center
 
 ???
 
@@ -390,26 +334,18 @@ Let me know if you have trouble using our Moodle site.
 
 ---
 
-class: middle, slidegreen
+class: middle, slideblue
 
 .size60[**For Friday**]
 
 .size40[
-1. Labossiere, M. (2008, March 13). Argument Basics.
+1. 
 
-2. Boot, Max. (2021, Aug 11). The Biden administration’s response to the Taliban offensive is delusional. *The Washington Post*.
+2. 
 
-3. Hayes, Mike. (2021, Apr 29). President Biden Made the Right Choice to Withdraw from Afghanistan. *Time*.
+3. 
 ]
 
 ???
-
-The world of science is a world of making arguments.
-
-So, your readings for Friday will help us practice what that means.
-
-These are in the syllabus and the readings are on Moodle if the web links don't work.
-
-Read these and be ready to analyze their arguments in class on Friday.
 
 QUESTIONS?
