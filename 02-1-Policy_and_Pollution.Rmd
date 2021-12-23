@@ -37,7 +37,7 @@ class: slideblue
 <br>
 
 .size45[
-+ How does a society decide how to decide?
++ What should government do? "Deciding How to Decide"
 
 + Introducing the basic economics of pollution
 ]
@@ -53,18 +53,83 @@ class: slideblue
 ## Prep for Class
 1. ...
 
+<br>
+
+Seminar style, circle the chairs!
+
+This week we explore the policy process, especially as it pertains to environmental problems.
+
+
+Plan:
+1. Talk through the Munger chapter for our high level thinking about policy
+
+2. How does the Munger chapter connect to the economics of pollution?
+  + Pollution a public or private concern?
+  + Most common failures? 
+  + Whose wisdom is relevant? (All three!)
+
+3. Introduce public policy and policy analysis process
+
 
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/02-1-Burke_Quote.jpg')
 background-size: 100%
 background-position: center
-class: middle
 
-.size45[
+???
+
+Let's talk through the Munger chapter.
+
 Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
-]
+
+Why does he open with this quote?
+
+Compare and contrast with our definition of politics from last week.
+
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-1.png')
+background-size: 60%
+background-position: center
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-2.png')
+background-size: 75%
+background-position: center
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-3.png')
+background-size: 55%
+background-position: center
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-4.png')
+background-size: 67%
+background-position: center
+
+???
+
+
 
 
 
@@ -79,12 +144,44 @@ class: middle
 OpenStax. (2016). 12.1 The Economics of Pollution. In *Principles of Economics*.
 ]
 
-02-1-Fig1_1.png
 
-02-1-Fig1_2.png
 
-02-1-Table2.png
+---
 
+background-image: url('libs/Images/02-1-Fig1_1.png')
+background-size: 50%
+background-position: right
+
+.pull-left[
+
+<br>
+
+.size30[
+Figure 1. Taking Social Costs into Account: A Supply Shift. 
+
+If the firm takes only its own costs of production into account, then its supply curve will be S<sub>private</sub>, and the market equilibrium will occur at E<sub>0</sub>. Accounting for additional external costs of $100 for every unit produced, the firm’s supply curve will be S<sub>social</sub>. The new equilibrium will occur at E<sub>1</sub>.
+]]
+???
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Table2.png')
+background-size: 90%
+background-position: center
+
+???
+
+
+
+--- 
+
+Key Concepts
+
+
+
+???
 
 additional external cost
     additional costs incurred by third parties outside the production process when a unit of output is produced
@@ -100,13 +197,69 @@ negative externality
 
 positive externality
     a situation where a third party, outside the transaction, benefits from a market transaction by others 
-    
 
 social costs
     costs that include both the private costs incurred by firms and also additional costs incurred by third parties outside the production process, like costs of pollution
 
 spillover
     see externality 
+    
+    
+    
+---
+
+Public policy in the US is...
++ a democratic process for solving problems.
++ the sum of government activities that have an influence on the lives of citizens.
++ an attempt to identify and implement the "best" thing to do given a set of constraints.
+
+???
+
+Here are three ways public policy can be defined.
+
+These three perspectives differ a bit based on their key focus. 
+
+- What is the implied focus of the first? (Process and Problems)
+- The second? (Government actions)
+- The third? (The policy)
+
+
+
+---
+
+The Five Stages of Policy Analysis
+1. Problem Formulation (Framing)
+2. Selection of Criteria for Making a Decision
+  + Focus on ends, not means
+  + Should imply a measure
+  + Should be complete
+  + Should be mutually exclusive
+3. Comparison of Alternatives and Policy Selection
+4. Consideration of Political and Organizational Constraints
+5. Implementation and Evaluation
+  + Market Accountability
+  + Political Accountability
+  + Expert Analysis
+  
+???
+
+Does our selected policy have a snowball’s chance of being made law?
+
+- Political Feasibility: Will elected officials vote for it?
+- Organizational Feasibility: Will appointed officials (bureaucrats) support and implement the law?
+
+
+
+---
+
+Policy Analysis requires:
+
++ Skills in making an argument to enable us to communicate with the policymaking process.
++ Knowledge of the processes by which US government functions in specific policy areas.
++ Tools for evaluating alternative policy choices.
+
+
+
 
 ---
 

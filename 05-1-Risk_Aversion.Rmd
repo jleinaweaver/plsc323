@@ -54,6 +54,8 @@ class: slideblue
 1. ...
 
 
+CHECK OLD PUBLIC POLICY CLASS SLIDES ON RISK AVERSION 14.1
+
 
 ---
 
