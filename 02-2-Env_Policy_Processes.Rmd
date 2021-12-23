@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-???
+What are the key elements of a domestic process that aims to solve environmental problems?
 
 ]]
 
@@ -57,29 +57,335 @@ class: slideblue
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/02-2-politics1.png')
 background-size: 100%
-background-class: center
+background-position: center
 
 class: middle
 
 ???
+
+REFRESH MY MEMORY, HOW HAVE WE BEEN DEFINING "POLITICS" IN CLASS SO FAR THIS TERM?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+???
+
+QUESTIONS ON THIS?
+
+
+
+---
+
+background-image: url('libs/Images/01-2-trouble_wilderness.png')
+background-size: 100%
+background-position: center
+
+???
+
+To help us think about the environment in a more active way we then read an article by William Cronon.
+
+WHAT IS THE TROUBLE WITH WILDERNESS ACCORDING TO WILLIAM CRONON'S ARTICLE?
+
+(The wilderness is a human construct and as currently defined it is hugely destructive)
+
+- Humanity is not separate from nature
+- Nature does not only exist in distant, pristine lands
+- We are responsible for it everywhere and must own that
+
+<br>
+
+MORE IMPORTANTLY, WHAT DOES HIS ARGUMENT MEAN WE HAVE TO THINK ABOUT WHEN TRYING TO SOLVE ENVIRONMENTAL PROBLEMS?
+
++ (Problem definitions and framing matters A TON!)
+
++ If we all define the problem / goal too differently, no durable solution will be possible.
 
 
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**For Next Class**]
+.size55[**What are the key elements of a domestic process that aims to solve environmental problems?**]
 
 .size40[
-1. 
++ Hughes (2007)
 
-2. 
++ Kraft (2011)
 
-3. 
++ Clarke and Peterson (2016)
+]
+
+???
+
+All of this brings us to our work for today.
+
+There are many, many textbooks out there all grappling with environmental problems from a variety of perspectives.
+
+I've tried to pick out the chapter from each that describes its central approach to our challenge.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**What are the key elements of a domestic process that aims to solve environmental problems?**]
+
+.size35[
++ DOC'S KEY approach (Hughes 2007, ch4)
+
++ The Policy Process Model (Kraft 2011, ch3)
+
++ The Collaborative Approach to Environmental Conflict (Clarke and Peterson 2016, ch1 and 2)
+]
+
+???
+
+Our job today is to synthesize the ideas in these texts in order to draw out what we will argue are the key elements of a domestic process that aims to solve environmental problems.
+
+From Hughes (2007) we get a book from an independent publisher that aims to be user friendly and accessible.
+
+From Kraft (2011) we get a specialist in American public policy mapping out the policy process.
+
+And from Clarke and Peterson (2016) we get an approach rooted in the communications and management literatures.
+
+<br>
+
+DID ANY ONE OF THEM SPEAK TO YOU PERSONALLY MORE THAN THE OTHERS?
+
++ WHY OR WHY NOT?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+**DOC'S KEY approach**
+
++ Hughes, J. W. (2007). Environmental problem solving: A how-to guide. University Press of New England.
+]
+
+<br>
+
+.size45[.center[**What are the most important pieces of advice for environmental problem-solvers?**]]
+
+???
+
+Before we start synthesizing as a class, let's get our thoughts in order.
+
+<br>
+
+Keep our prompt in your mind and take 5 minutes to reflect on the DOC'S KEY approach in Hughes (2007).
+
+As you reflect I want you to identify the most important pieces of advice for environmental problem-solvers
+
+I'm not looking for you to rewrite the process described by the chapter.
+
+Instead, I want you to think about what this process tells us about environmental problem-solving at the domestic level.
+
+If these are the steps that matter, then what IS the system and how DOES it work?
+
+ANY QUESTION ON THIS?
+
+Get to it!
+
+<br>
+
+Let's keep this train rolling!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+**The Policy Process Model**
+
++ Kraft, M. E. (2011). Environmental Policy and Politics (5th ed.). Longman.
+]
+
+<br>
+
+.size45[.center[**What are the most important pieces of advice for environmental problem-solvers?**]]
+
+???
+
+The policy process described in Kraft (2011) is a bit denser, so let's take 10 minutes on this one.
+
+Keep our big aim in mind!
+
+Don't worry about being comprehensive, this is about extracting usable ideas and suggestions.
+
+<br>
+
+*After time expires*
+
+EVERYBODY DOING OK?
+
+Last one!
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+**The Collaborative Approach to Environmental Conflict**
+
++ Clarke, T., & Peterson, T. R. (2016). Environmental Conflict Management. SAGE Publications, Inc.
+]
+
+<br>
+
+.size45[.center[**What are the most important pieces of advice for environmental problem-solvers?**]]
+
+???
+
+5 minutes to reflect on the Collaborative Approach to Environmental Conflict by Clarke and Peterson.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**What are the key elements of a domestic process that aims to solve environmental problems?**]
+
+.size35[
++ DOC'S KEY approach (Hughes 2007, ch4)
+
++ The Policy Process Model (Kraft 2011, ch3)
+
++ The Collaborative Approach to Environmental Conflict (Clarke and Peterson 2016, ch1 and 2)
+]
+
+???
+
+** Split class into four groups **
+
+Groups, take 15 minutes to develop an answer to this big question.
+
+BASED ON YOUR ANALYSES AND REFLECTIONS, WHAT ARE THE KEY ELEMENTS OF A DOMESTIC PROCESS THAT AIMS TO SOLVE ENVIRONMENTAL PROBLEMS?
+
+<br>
+
+*ON BOARD*
+
+LET'S GO, WHAT CONCLUSIONS HAVE WE TENTATIVELY REACHED?
+
+<br>
+
+**What stood out for me?**
+
+### Hughes 2007
+- Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should')
+
+### Kraft 2011
+- Can be used to figure out where in the process to target different kinds of pressure. The "right" strategy depends on stage of the process
+- On the other hand, are we convinced these "stages" are really so distinct? How many feedback loops? How often does something go cleanly through the process?
+- In other words, how much does the end of that chapter (the complexities of the US system) put the lie to the process in the first half?
+
+### C&P 2016
+- Makes a strong case for why a collaborative approach matters but the "required conditions" sound incredibly hard to achieve at anything but the very local level
+- Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+
+<br>
+
+## OTHER QUESTIONS FOR THE CLASS TO CONSIDER
+
+- WHO OR WHAT DOES OUR PROCESS NEED TO ACCOUNT FOR?
+
+- WHAT ARE THE OPPORTUNITIES FOR NORMAL PEOPLE TO INFLUCENCE THE PROCESS?
+
+- HOW OPTIMISTIC SHOULD WE BE ABOUT SOLVING ENVIRONMENTAL PROBLEMS?
+
+- IS THIS PROCESS BETTER AT ADDRESSING SOME KINDS OF PROBLEMS AND NOT OTHERS?
+
+- WHAT PARTS OF THIS PROCESS DO WE NEED MORE EVIDENCE ON TO FEEL CONFIDENT IN IT?
+
+<br>
+
+## My NOTES
+
+DOC'S KEY approach (Hughes 2007, ch4)
+
+- People matter and perspectives differ (even on identical events)
+- Three types of problem and unstructured are the hardest to solve
+- DOC'S KEY: Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), Objectives (set clear targets), Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), Strategies (Brainstorm and be creative), Keepers (Choose the best strategy), Experiment (Test a strategy and adapt), Yes! (Implement)
+
+The Policy Process Model (Kraft 2011, ch3)
+
+Stages
+1. Agenda setting (critical stage, how a problem is perceived and how public reacts to it)
+2. Policy formulation
+3. Policy legitimation (giving legal force to decisions AND is the action perceived as legitimate)
+4. Policy implementation (Put the program into effect, fund and staff it)
+5. Policy and program evaluation
+6. Policy change
+
+Chapter ends by noting some of the unique complexities of the federal system of government in the US
+
+The Collaborative Approach to Environmental Conflict (C&P 2016, ch1 and 2)
+
+Chapter 1: Frames environmental conflict management as a communication process (2). Environmental problem-solving requires interdisciplinary approaches (4) to produce solutions that respect the identity (4) and culture (5) of the stakeholders, accounts for scientific uncertainty (7) and the discrepancies between issues and political boundaries (8).
+
+Chapter 2:
+
+- Complexity and difficulty of solving env problems encourage us to use a process that includes 11 important elements (p12)
+- Collaborative process should be adaptable, rely on appropriate science and tech, be implementable and have low transaction costs, has appropriate funding, is measurable, is socially legitimate
+- Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+- Benefits listed p18-
+
+
+
+---
+
+background-image: url('libs/Images/background-gentle_lines_green.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**Next Week**
+
+The Role of Stakeholders in Environmental Problem-Solving
 ]
 
 ???

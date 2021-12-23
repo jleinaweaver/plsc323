@@ -59,7 +59,7 @@ class: slideblue
 
 background-image: url('libs/Images/background-forest.png')
 background-size: 100%
-background-class: center
+background-position: center
 
 class: middle
 

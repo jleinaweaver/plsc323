@@ -36,11 +36,11 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+.size45[
++ How does a society decide how to decide?
 
-???
-
-]]
++ Introducing the basic economics of pollution
+]
 
 <br>
 
@@ -59,14 +59,54 @@ class: slideblue
 
 background-image: url('libs/Images/background-forest.png')
 background-size: 100%
-background-class: center
-
+background-position: center
 class: middle
 
-???
+.size45[
+Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
+]
 
 
 
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+OpenStax. (2016). 12.1 The Economics of Pollution. In *Principles of Economics*.
+]
+
+02-1-Fig1_1.png
+
+02-1-Fig1_2.png
+
+02-1-Table2.png
+
+
+additional external cost
+    additional costs incurred by third parties outside the production process when a unit of output is produced
+
+externality
+    a market exchange that affects a third party who is outside or “external” to the exchange; sometimes called a “spillover”
+
+market failure
+    When the market on its own does not allocate resources efficiently in a way that balances social costs and benefits; externalities are one example of a market failure
+
+negative externality
+    a situation where a third party, outside the transaction, suffers from a market transaction by others
+
+positive externality
+    a situation where a third party, outside the transaction, benefits from a market transaction by others 
+    
+
+social costs
+    costs that include both the private costs incurred by firms and also additional costs incurred by third parties outside the production process, like costs of pollution
+
+spillover
+    see externality 
 
 ---
 

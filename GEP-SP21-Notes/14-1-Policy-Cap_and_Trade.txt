@@ -1,0 +1,139 @@
+What are the pros and cons of using cap and trade for addressing climate change?
+
+Readings
+1. (EDF 2020) Cap and trade basics
+2. (Haites 2018, p961-963) Overview of effectiveness 
+- YOU use figs and tables from Bayer and Aklin 2020 to show EU ETS effective despite low prices
+3. Debates
+- (Johnson 2020) California's experience shows that trading away regulations for cap and trade can impose more harms on the vulnerable who live next to power plants no longer regulated.
+- (Green 2019) A strong critique of carbon pricing plans rooted in how it makes achieving political change harder.
+- (Schmalensee and Stavins 2019) Need to find something laying out the green positions on all this, e.g. cap and trade designed like X is what we need...
+###############################################################
+
+
+## Prep for Class
+1. ...
+
+
+
+SLIDE
+
+Today we briefly consider cap and trade as a policy option for addressing climate change.
+
+- And as an option for your third memo.
+
+Let's make sure we're all on the same page first.
+
+HOW DOES A GENERIC CAP AND TRADE PLAN INVOLVE BOTH "CARROTS" AND "STICKS"?
+
+(Stick:)
+- The cap is a firm limit on pollution.
+- The cap gets stricter over time
+
+(Carrot:)
+- Emissions allowances (permits to emit a set amount of carbon) may be traded or banked (saved for future use).
+- Under your limit? Sell the alllowances for a profit!
+- Over your limit? Do whichever is cheapest, cut your emissions or buy more permits.
+
+
+
+
+Let's explore this policy option similarly to how we did this in week 12.
+
+Imagine you have chosen cap and trade as your preferred policy option for the US.
+
+SLIDE
+
+Help us build two lists:
+
+1. The 'pros' are the reason you chose the policy.
+
+2. The 'cons' are the problems you will have to consider and hopefully address when selling stakeholders on your plan.
+
+
+
+Everybody start by reflecting on the readings on your own.
+
+10 minutes, start brainstorming these lists.
+
+
+
+Ok, pair up, 10 minutes to consolidate your lists!
+
+
+
+Alright class, let's get our lists up on the board!
+
+* You go from group to group adding to list on board, no discussion just make the lists *
+
+* ON BOARD *
+
+
+
+Pairs into groups of four.
+
+Remember, these lists are here to help you outline your paper.
+
+New group, take 10 minutes to reflect on the lists in order to identify the most important items on each list.
+
+- Is everything in the right column?
+
+
+
+* Class discuss *
+
+
+
+SLIDE
+
+BOTTOM LINE, UNDER WHAT SPECIFIC CONDITIONS IS "CAP AND TRADE" LIKELY TO BE OUR PREFERRED POLICY APPROACH FOR ADDRESSING CLIMATE CHANGE?
+
+
+
+SLIDE
+
+Thursday we analyze the US submissions to the Paris Agreement (2015).
+
+Be ready to discuss the two NDCs submitted by the USA to the Paris Agreement (2015).
+
+How effective is the second NDC likely to be?
+
+
+
+
+
+
+
+SLIDES at end in case
+
+Bayer and Aklin 2020
+- Show EU ETS prices low and have fallen over time across the three periods.
+- HOWEVER, despite low price emissions cuts achieved.
+- Not an argument that these are the best possoble cuts, but show it can work even when hampered by politics.
+- Method is complex, involves constructing a counter-factual emissions record and comparing to average using a generalized synthetic control method.
+- "In our case, we use the synthetic control method to predict
+counterfactual emissions for sectors covered under the EU ETS
+(ETS sectors)—i.e., we estimate what CO 2 emissions would have
+been without the EU ETS policy—from observable emissions in
+those sectors that are not covered under it (non-ETS sectors).
+Importantly, this means that our estimate of EU ETS effec-
+tiveness is not just the difference between emissions in ETS
+and non-ETS sectors; instead, counterfactual emissions (control
+group) against which we compare actual emissions from ETS
+sectors (treatment group) are estimated from, and are hence
+not simply identical to, non-ETS sector emissions. This estima-
+tion part in our empirical strategy is critical because it ensures
+that counterfactual and ETS sector emissions are comparable as
+much as possible, even if emission levels of ETS and non-ETS
+sectors differ." (p8806)
+
+
+
+You can use the research article it pulls from
+- (No access) Schmalensee, R., & Stavins, R. N. (2017). Lessons Learned from Three Decades of Experience with Cap and Trade. Review of Environmental Economics and Policy, 11(1), 59–79.
+- Schmalensee, R., & Stavins, R. N. (2017). The design of environmental markets: What have we learned from experience with cap and trade? Oxford Review of Economic Policy, 33(4), 572–588. 
+- Also Victor 2009 has 500 words on the politics of it
+
+Other
+- Livermore 2009 on why the EU ETS is failing
+- ETS is doing good https://www.imperial.ac.uk/media/imperial-college/grantham-institute/public/publications/briefing-papers/Evaluating-the-EU-emissions-trading-system_Grantham-BP-21_web.pdf

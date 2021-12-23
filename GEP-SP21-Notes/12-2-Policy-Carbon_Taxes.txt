@@ -1,0 +1,159 @@
+R) (See articles below) 
+Carbon Tax: Pigovian taxes in efficient action. A price is set on the generator of the negative externality and, now that it is priced into behavior, actors will seek to reduce those costs (the market adapts)
+##################################################################
+
+## Prep for Class
+1. ...
+
+
+* Skipping the individual brainstorming to save time for the compariosn of the two plans at the end *
+
+
+
+This week we have been exploring the "government as stick" metaphor for solving environmental problems.
+
+SLIDE
+
+On Tuesday we explored command and control approaches.
+
+WHAT WERE OUR KEY TAKEAWAYS?
+
+- BIG REASONS TO CHOOSE THIS APPROACH?
+
+- THINGS ANY C&C POLICY MUST INCLUDE TO MAKE IT FEASIBLE AND EFFECTIVE?
+
+
+
+
+Today we shift to carbon taxes as a different kind of "stick."
+
+** You then talked them through the econ basics **
+
+Imagine your nextdoor neighbor loves to grill and the tons of smoke from their backyard constantly blows into your yard and house.
+
+WHAT WOULD YOU DO?
+
+
+Arthur Pigou and Pigovian taxes
+- A Pigovian (Pigouvian) tax is a tax assessed against private individuals or businesses for engaging in activities that create adverse side effects for society. Adverse side effects are those costs that are not included as a part of the product's market price.
+- A Pigovian tax (also spelled Pigouvian tax) is a tax on any market activity that generates negative externalities (costs not included in the market price). The tax is intended to correct an undesirable or inefficient market outcome (a market failure), and does so by being set equal to the external marginal cost of the negative externalities.
+
+So, government applies a tax to wood, charcoal or the use of grills at the level of the harm done by the smoke.
+
+
+
+Ronald Coase and the Problem of Social Cost
+- The Coase Theorem is a legal and economic theory developed by economist Ronald Coase regarding property rights, which states that where there are complete competitive markets with no transaction costs and an efficient set of inputs and outputs, an optimal decision will be selected.
+- In law and economics, the Coase theorem (/ˈkoʊs/) describes the economic efficiency of an economic allocation or outcome in the presence of externalities. The theorem states that if trade in an externality is possible and there are sufficiently low transaction costs, bargaining will lead to a Pareto efficient outcome regardless of the initial allocation of property. In practice, obstacles to bargaining or poorly defined property rights can prevent Coasean bargaining. This 'theorem' is commonly attributed to Nobel Prize winner Ronald Coase.
+
+So, it doesn't matter who has the rights.
+- You to clean air or them to emit smoke.
+
+Either side should be able to bargain to an efficient outcome.
+- You pay the griller to grill less OR they pay you to let them grill (install a fan, insulate your windows)
+
+
+
+
+Let's use a similar structure to how we tackled this on Tuesday.
+
+SLIDE
+
+What are the pros and cons of using carbon taxes for addressing climate change?
+
+Be sure to consider the relevant stakeholders, the institutional framework, AND the likelihood of long-term effectiveness.
+
+We'll save the two plans I linked to on the syllabus after this discussion.
+
+
+
+
+Remember, your perspective right now is as if you have selected carbon taxes as the argument in your memo.
+
+Ok, everybody start on your own.
+
+Based on the readings, take 10 minutes to start building these lists on your own.
+
+
+
+
+Ok, pair up, 10 minutes to consolidate your lists!
+
+
+
+
+Alright class, let's get our lists up on the board!
+
+* You go from group to group adding to list on board, no discussion just make the lists *
+
+* ON BOARD *
+
+
+
+
+Pairs into groups of four.
+
+SLIDE
+
+Think of these two lists as an outline of your pro-carbon tax policy memo.
+
+The pro column is why you picked this approach and the cons are the issues you'd have to address in your proposal.
+
+10 mins to review / debate / revise these lists.
+
+- Is everything in the right column?
+
+* Discuss *
+
+
+
+
+Ok, form new groups of four! 10 mins
+
+SLIDE
+
+Let's take a look at the proposals I linked to in the syllabus.
+
+THE QUESTIONS IS, WHICH OF THE TWO PROPOSALS LINKED IN THE SYLLABUS IS "BETTER"?
+
+- IN OTHER WORDS, WHICH ONE BUILDS ON THE PROS LIST AND CONTRACTS THE CONS LIST MORE THAN THE OTHER?
+
+
+The Green Groups' Plan
+- The Citizens' Climate Lobby proposal
+- "The Energy Innovation and Carbon Dividend Act"
+- https://energyinnovationact.org/
+
+The Corporate Plan
+- Climate Leadership Council's
+- The Baker Shultz Carbon Dividends Plan
+- Bipartisan Climate Roadmap
+- https://clcouncil.org/Bipartisan-Climate-Roadmap.pdf
+- Make sure to focus on pillar 3.
+
+
+** Discuss **
+
+
+
+SLIDE
+
+BOTTOM LINE, UNDER WHAT SPECIFIC CONDITIONS IS A CARBON TAX LIKELY TO BE OUR PREFERRED POLICY APPROACH FOR ADDRESSING CLIMATE CHANGE?
+
+
+
+
+
+##################################################################
+1. (Parry 2019) Back to Basics: What is Carbon Taxation?
+2. (Haites 2018, ONLY p955-961) Evidence so far
+3. Stakeholder positions re Civic Opposition
+- (Ewall N.D.) Greens: Are Carbon Taxes Another False Solution? by Mike Ewall, Energy Justice Network http://www.energyjustice.net/content/are-carbon-taxes-another-false-solution
+- (Loris 2019) Business: Why the Carbon Tax Would Backfire on America, https://www.heritage.org/energy-economics/commentary/why-the-carbon-tax-would-backfire-america
+
+
+4. Stakeholder positions re policy design: Debating the Rebate
+- (Lavelle 2019) Give them the article about the differences, recommend they look at the two plans
+- Suggest they review the two plans:
+i) (The Energy Innovation and Carbon Dividend Act) Greens: Review The Citizens' Climate Lobby proposal "The Energy Innovation and Carbon Dividend Act" at https://energyinnovationact.org/
+ii) (The Baker Shultz Carbon Dividends Plan: Bipartisan Climate Roadmap) Corporate: Review the Climate Leadership Council's competing plan at https://clcouncil.org/Bipartisan-Climate-Roadmap.pdf. Make sure to focus on pillar 3.
