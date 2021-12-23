@@ -36,11 +36,11 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+.size45[
++ Case Study: CAFE Standards in the USA
 
-???
-
-]]
++ Exploring the Role of Stakeholders in Policy-making
+]
 
 <br>
 
@@ -57,7 +57,7 @@ class: slideblue
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/03-1-CAFE_Standards_DoE.jpeg')
 background-size: 100%
 background-position: center
 
@@ -65,6 +65,15 @@ class: middle
 
 ???
 
+While CAFE standards are interesting and continue to be debated as a pollution control / energy independence tool, our focus today is on analyzing the role of stakeholders and advocacy in policy-making.
+
+- Identify the key stakeholders and their competing framings of the problem
+
+- What were the primary institutional settings? e.g. Where did they compete to shape policy and how?
+
+- Strongest arguments on each side?
+
+- Why did this policy ultimately get made? Can we tell from this?
 
 
 
@@ -72,14 +81,26 @@ class: middle
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size35[
+EPA's New Goal: Reach a projected industry-wide target of 161 grams CO2 /mile, or 40 miles per gallon value on fuel economy window stickers in 2026.
 
-.size40[
-1. 
++ The final emission standards targets for 2023-2026 increase in stringency by between 5-10 percent in each model year.
 
-2. 
++ The standards they replace increased in stringency by only 1.5 percent year over year.
 
-3. 
++ By MY2026 the final emissions targets are 47 grams of CO2 /mile lower than the standards they replace.
+]
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size80[**Thursday**]
+
+.size65[
+Welcome to local stakeholders working on environmental policy!
 ]
 
 ???

@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-???
+Welcome to our local stakeholders working on environmental policy!
 
 ]]
 
@@ -57,31 +57,40 @@ class: slideblue
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
-background-size: 100%
-background-position: center
+The who!
 
-class: middle
-
-???
 
 
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
 
-.size60[**For Next Class**]
+class: middle
 
+## Next Week: Paper 1
 .size40[
-1. 
++ Write a report introducing us to the specific, local environmental problem you intend to target this semester
+]
 
-2. 
+--
 
-3. 
+## For Tuesday
+.size40[
++ Bring to class a news story or piece of evidence describing a local environmental problem
+
+    + Describe the problem and identify the key stakeholders
 ]
 
 ???
+
+Let's get to work on the paper!
+
+Everybody brings in a case (or two for EC!) we can discuss on Tuesday.
+
+<br>
 
 QUESTIONS?

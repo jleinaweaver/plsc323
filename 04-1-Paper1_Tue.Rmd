@@ -32,15 +32,21 @@ knitr::opts_chunk$set(echo = FALSE,
 
 class: slideblue
 
-.size80[**Today's Agenda**]
+.size75[**Today's Agenda**]
 
 <br>
 
-.size50[.center[
+.size45[
 
-???
+Work on Paper 1
 
-]]
++ Choose Cases, 
+
++ Clarify key components, and
+
++ Plan next steps
+
+]
 
 <br>
 
@@ -51,7 +57,105 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Paper 1 description on Moodle Assignment
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+## This Week: Paper 1
+.size40[
++ Write a report introducing us to the specific, local environmental problem you intend to target this semester
+]
+
+## For Today
+.size40[
++ Bring to class a news story or piece of evidence describing a local environmental problem
+
+    + Describe the problem and identify the key stakeholders
+]
+
+???
+
+EVERYBODY READY TO GO WITH THEIR CASES?
+
+<br>
+
+Ok, here's what we need to keep in mind in order to give useful feedback on the cases today.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.center[.size55[**Solving a Local Environmental Problem**]]
+
+<br>
+
+.size40[
+Paper 1: Present the basics of your problem
+
+Paper 2: Analyze the complicating factors
+
+Paper 3: Propose a policy to address the problem
+]
+
+???
+
+Your projects this term are represented by three argument papers.
+
+This week we start building and writing the first one.
+
+SLIDE: Details on paper 1
+
+
+---
+
+class: middle, slideblue
+
+### Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
+
+.size30[
+Be sure to clarify the following elements and support your claims with evidence:
+
+- Why is this an "environmental" issue?
+
+- Why is this a "problem"? Be specific about who it impacts and in what ways.
+
+- What are the causes of the problem you want to focus on?
+
+- What data is available to allow us to measure the problem?
+]
+
+???
+
+I'll post this description on the Moodle assignment.
+
+ANY QUESTIONS ON THE ASSIGNMENT?
+
+<br>
+
+Ok, let's hear and discuss the cases you brought today.
+
+As we listen let's try to help each other think about if this case lends itself well to our work this semester.
+
+Given the 3 papers you have to write is this a good choice? Why or why not?
+
+- Is it specific enough?
+
+*Present and discuss each*
 
 
 
@@ -63,25 +167,20 @@ background-position: center
 
 class: middle
 
-???
-
-
-
-
----
-
-class: middle, slideblue
-
-.size60[**For Next Class**]
+.size60[**For Thursday**]
 
 .size40[
-1. 
+1. Choose your environmental problem,
 
-2. 
+2. Start outlining your paper, and
 
-3. 
+3. Find us data to measure the problem!
 ]
 
 ???
+
+What kind of data do you need to measure this? How many different ways could we measure this?
+
+Assignment for Tuesday: Go find us that data
 
 QUESTIONS?
