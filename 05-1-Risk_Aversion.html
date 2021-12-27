@@ -1,40 +1,23 @@
----
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>05-1-Risk_Aversion.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
 
-library(tidyverse)
-library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
 
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
-```
 
 class: slideblue
 
 .size65[**Today's Agenda**]
 
-<br>
+&lt;br&gt;
 
 .size45[
 What are the Complicating Factors in Environmental Policymaking?
@@ -42,7 +25,7 @@ What are the Complicating Factors in Environmental Policymaking?
 + Risk Aversion / Acceptance
 ]
 
-<br>
+&lt;br&gt;
 
 .center[.size40[
   Justin Leinaweaver (Spring 2022)
@@ -56,7 +39,7 @@ What are the Complicating Factors in Environmental Policymaking?
 3. Consider updating weather forecast slide to current
 4. Prep email with link to Google Doc for collecting citations
 
-<br>
+&lt;br&gt;
 
 ### SETUP NOTES FOR YOU
 + CORE201 FA15 1.2 and FA17 1.2
@@ -89,13 +72,13 @@ KEY TAKEAWAYS FROM SECTION 1?
 (- Identify stakeholders and what they want)
 (- Think carefully about processes for bringing stakeholders together)
 
-<br>
+&lt;br&gt;
 
 Let's focus today on our first major complicating factor: Risk!
 
 You'll see that differences in risk perceptions often underpin why different stakeholders have different ways of defining the key problem. 
 
-<br>
+&lt;br&gt;
 
 Ok, in order to talk risk we have to make sure we understand the basics of probability.
 
@@ -111,9 +94,7 @@ class: slideblue, middle
 
 .pull-left[
 
-```{r, out.width='75%', fig.align='center'}
-knitr::include_graphics("libs/Images/05-1-penny.jpg")
-```
+&lt;img src="libs/Images/05-1-penny.jpg" width="75%" style="display: block; margin: auto;" /&gt;
 ]
 
 ???
@@ -124,7 +105,7 @@ LET’S START WITH THIS, WHAT IS THE PROBABILITY OF GETTING HEADS WHEN YOU FLIP 
 
 - HOW DO YOU KNOW?
 
-<br>
+&lt;br&gt;
 
 ASSUMING A PROBABILITY OF 50%, HOW MANY HEADS WOULD YOU EXPECT IF I ASKED YOU TO FLIP YOUR COIN TEN TIMES?
 
@@ -134,7 +115,7 @@ Ok, everybody do it!
 
 Flip your penny ten times and record the number of heads.
 
-<br>
+&lt;br&gt;
 
 *Gather results and update next slide*
 
@@ -142,26 +123,7 @@ Flip your penny ten times and record the number of heads.
 
 ---
 
-```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width = '95%', fig.width=5}
-## Gather results 
-classsize <- 17
-
-d <- tibble(
-  heads = rbinom(n = classsize, size = 10, prob = .5)
-  #heads = c()
-)
-
-## Make bar plot
-p1 <- ggplot(d, aes(x = heads)) +
-  geom_bar() +
-  labs(y = "", x = "Number of Heads in Ten Flips") +
-  scale_x_continuous(breaks = 0:10, limits = c(0,10)) +
-  geom_hline(yintercept = seq(2,6,2), color = "white") +
-  theme_minimal()
-  #ggthemes::theme_hc()
-
-p1
-```
+&lt;img src="05-1-Risk_Aversion_files/figure-html/unnamed-chunk-3-1.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -169,11 +131,11 @@ WHAT DO WE LEARN FROM OUR EXPERIMENT?
 
 + WAS OUR ESTIMATE OF THE PROBABILITY OF GETTING HEADS WRONG OR DID WE DO OUR EXPERIMENT WRONG?
 
-<br>
+&lt;br&gt;
 
 Over just a few flips of the coin, many results are possible.
 
-However, as a class you just flipped the coin `r classsize*10` times.
+However, as a class you just flipped the coin 170 times.
 
 That is plenty times to start to zoom in on the actual probability of these pennies. 
 
@@ -185,19 +147,13 @@ If we average all of your flips together we get:
 
 ---
 
-```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width = '95%', fig.width=5}
-## Make bar plot with mean
-p1 +
-  geom_vline(xintercept = mean(d$heads), color = "red", size = 1.2) +
-  annotate("text", x = 8, y = 5, label = str_c("Mean: ", round(mean(d$heads), 1)), color = "red", size = 6)
-
-```
+&lt;img src="05-1-Risk_Aversion_files/figure-html/unnamed-chunk-4-1.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 GIVEN THIS RESULT, WHAT IS THE PROBABILITY OF HEADS USING OUR PENNIES?
 
-<br>
+&lt;br&gt;
 
 Ok, let's make sure we're clear.
 
@@ -230,7 +186,7 @@ If you lived this day one hundred times, it would rain approximately 25 times.
 
 SO, WHAT DOES THIS MEAN FOR US, A GROUP OF PEOPLE WHO WILL ONLY LIVE TODAY ONE TIME?
 
-<br>
+&lt;br&gt;
 
 WHEN THE WEATHER PERSON TELLS YOU THERE IS A 50% CHANCE OF RAIN TODAY, WHAT DOES THAT ACTUALLY MEAN?
 
@@ -238,7 +194,7 @@ WHEN THE WEATHER PERSON TELLS YOU THERE IS A 50% CHANCE OF RAIN TODAY, WHAT DOES
 
 + In other words, they have no idea what is going to happen today.
 
-<br>
+&lt;br&gt;
 
 DON’T WORRY ABOUT THE MATH, JUST TELL ME, DOES THE INTUITION OF PROBABILITIES MAKE SENSE?
 
@@ -262,7 +218,7 @@ Imagine you are at the county fair with your best girl or guy and you come acros
 
 .size40[.center[.content-box-green[**Heads you win, Tails you lose**]]]
 
-<br>
+&lt;br&gt;
 
 .size30[.center[.content-box-green[Flip a fair coin: Heads pays you $5, tails you get nothing]]]
 
@@ -270,7 +226,7 @@ Imagine you are at the county fair with your best girl or guy and you come acros
 
 The game: Flip a fair coin, heads pays $5, tails you get nothing.
 
-<br>
+&lt;br&gt;
 
 Everybody take a minute to think about this game.
 
@@ -289,7 +245,7 @@ background-position: center
 
 .size40[.center[.content-box-green[**Heads you win, Tails you lose**]]]
 
-<br>
+&lt;br&gt;
 
 .size30[.center[.content-box-green[Flip a fair coin: Heads pays you $100, tails you get nothing]]]
 
@@ -297,13 +253,13 @@ background-position: center
 
 Take another minute, now write down the maximum amount you would pay to play this game if heads paid you $100.
 
-<br>
+&lt;br&gt;
 
 *Collect reponses*
 
 ON BOARD (2 cols: $5 game, $100 game)
 
-<br>
+&lt;br&gt;
 
 Let's compare and contrast these amounts.
 
@@ -311,7 +267,7 @@ WHAT DO WE LEARN FROM THESE ANSWERS?
 
 + IS THERE A CORRECT ANSWER?
 
-<br>
+&lt;br&gt;
 
 No, Everyone has a different relationship with risk.
 
@@ -321,19 +277,19 @@ Not right or wrong, just different willingness to risk.
 
 - Some people are more risk acceptant and others are more risk averse.
 
-<br>
+&lt;br&gt;
 
 WHY AREN'T ALL THE NUMBERS IN THE $100 GAME EXACTLY 20 TIMES THE ANSWERS IN THE $5 GAME COLUMN?
 
 - WHAT DOES ALL THIS TELL US ABOUT HUMAN DECISION-MAKING?
 
-<br>
+&lt;br&gt;
 
 Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
 
 - Some people will be willing to accept risk when the reward is huge, but not when it is small (e.g. playing the lottery)
 
-<br>
+&lt;br&gt;
 
 For our purposes, we should keep in mind that two people presented with the same rules may each choose to behave differently because of their different willingness to accept risk.
 
@@ -358,7 +314,7 @@ HOW DO STOP LIGHTS ILLUSTRATE DIFFERENT PEOPLES' LEVELS OF RISK AVERSION?
 
 Run a red light and get home faster (value!), BUT some probability of getting pulled over or an accident or hurting someone...
 
-<br>
+&lt;br&gt;
 
 ANY QUESTIONS ABOUT PROBABILITIES OR RISK AVERSION?
 
@@ -374,7 +330,7 @@ background-position: center
 class: middle
 
 .size50[
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
+Ehrlich, P. &amp; Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
 ]
 
 ???
@@ -385,7 +341,7 @@ WHICH PERSPECTIVE ON RISK DOES THE EHRLICH AND EHRLICH PIECE REPRESENT? RISK ACC
 
 --
 
-<br>
+&lt;br&gt;
 
 .size45[.center[**What is the conclusion of this argument?**]]
 
@@ -403,10 +359,10 @@ background-position: center
 class: middle
 
 .size50[
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
+Ehrlich, P. &amp; Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
 ]
 
-<br>
+&lt;br&gt;
 
 .size45[.center[**What are the key premises that lead to this conclusion?**]]
 
@@ -430,7 +386,7 @@ class: middle
 Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 ]
 
-<br>
+&lt;br&gt;
 
 .size45[.center[**What is the conclusion of this argument?**]]
 
@@ -443,7 +399,7 @@ WHICH PERSPECTIVE ON RISK DOES THE SIMON PIECE REPRESENT? RISK ACCEPTANCE OR AVE
 
 (Acceptance!)
 
-<br>
+&lt;br&gt;
 
 AND WHAT IS THE CONCLUSION OF THE ARTICLE?
 
@@ -459,14 +415,14 @@ background-position: center
 class: middle
 
 .size50[
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
+Ehrlich, P. &amp; Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
 ]
 
 .size50[
 Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 ]
 
-<br>
+&lt;br&gt;
 
 .size45[.center[**What are the key premises that lead to this conclusion?**]]
 
@@ -483,7 +439,7 @@ background-position: center
 class: middle
 
 .size45[
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
+Ehrlich, P. &amp; Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
 ]
 
 .size45[
@@ -494,11 +450,11 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 
 BOTTOM LINE, WHICH SIDE IS MORE CONVINCING TO YOU? WHY?
 
-<br>
+&lt;br&gt;
 
 IS YOUR FEELING ON THIS CONSISTENT WITH YOUR RISK LEVEL AS DETERMINED BY OUR GAME TO START CLASS?
 
-<br>
+&lt;br&gt;
 
 IS EVERYBODY CLEAR ON HOW DIFFERING LEVELS OF RISK AVERSION COMPLICATE ENVIRONMENTAL PROBLEM-SOLVING?
 
@@ -527,7 +483,7 @@ Each week in section 2 of the class we will focus on one of these complications.
 
 ANY QUESTIONS ON THE PAPER ASSIGNMENT?
 
-<br>
+&lt;br&gt;
 
 To help us build up to the paper AND to help us deepen our understanding of risk aversion let's go find some mroe real-world cases!
 
@@ -566,3 +522,127 @@ Submit the citation to your case before class.
 Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
 
 QUESTIONS?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

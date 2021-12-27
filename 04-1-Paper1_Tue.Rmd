@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 class: slideblue
 
-.size75[**Today's Agenda**]
+.size70[**Today's Agenda**]
 
 <br>
 
@@ -41,9 +41,7 @@ class: slideblue
 Work on Paper 1
 
 + Choose Cases, 
-
 + Clarify key components, and
-
 + Plan next steps
 
 ]
@@ -57,38 +55,7 @@ Work on Paper 1
 ???
 
 ## Prep for Class
-1. Paper 1 description on Moodle Assignment
-
-
-
----
-
-background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
-background-size: 100%
-background-position: center
-
-class: middle
-
-## This Week: Paper 1
-.size40[
-+ Write a report introducing us to the specific, local environmental problem you intend to target this semester
-]
-
-## For Today
-.size40[
-+ Bring to class a news story or piece of evidence describing a local environmental problem
-
-    + Describe the problem and identify the key stakeholders
-]
-
-???
-
-EVERYBODY READY TO GO WITH THEIR CASES?
-
-<br>
-
-Ok, here's what we need to keep in mind in order to give useful feedback on the cases today.
-
+1. ...
 
 
 
@@ -114,36 +81,57 @@ Paper 3: Propose a policy to address the problem
 
 ???
 
-Your projects this term are represented by three argument papers.
+This week we continue your work on the first paper AND our broader project! 
 
-This week we start building and writing the first one.
-
-SLIDE: Details on paper 1
 
 
 ---
 
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
 class: middle, slideblue
 
-### Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
+## Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
 
-.size30[
-Be sure to clarify the following elements and support your claims with evidence:
+.size35[
++ Why is this an "environmental" issue?
 
-- Why is this an "environmental" issue?
++ Who is this a "problem" for? Be specific.
 
-- Why is this a "problem"? Be specific about who it impacts and in what ways.
++ What are the causes of the problem you want to focus on?
 
-- What are the causes of the problem you want to focus on?
-
-- What data is available to allow us to measure the problem?
++ What data is available to allow us to measure any progress?
 ]
 
 ???
 
-I'll post this description on the Moodle assignment.
-
 ANY QUESTIONS ON THE ASSIGNMENT?
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# For Today: Brainstorming
+.size40[
++ Bring to class a news story or piece of evidence describing a local environmental problem
+
++ Be ready to present it to the class:
+    + What is the specific problem?
+    + Who are the key stakeholders?
+    + How could we measure progress?
+]
+
+???
+
+EVERYBODY READY TO GO WITH THEIR CASES?
 
 <br>
 

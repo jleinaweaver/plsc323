@@ -51,7 +51,7 @@ Welcome to our local stakeholders working on environmental policy!
 ???
 
 ## Prep for Class
-1. ...
+1. Save ten minutes at end for assignment for next week
 
 
 
@@ -60,6 +60,28 @@ Welcome to our local stakeholders working on environmental policy!
 The who!
 
 
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle, slideblue
+
+## Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
+
+.size35[
++ Why is this an "environmental" issue?
+
++ Who is this a "problem" for? Be specific.
+
++ What are the causes of the problem you want to focus on?
+
++ What data is available to allow us to measure any progress?
+]
+
+???
 
 
 
@@ -71,18 +93,14 @@ background-position: center
 
 class: middle
 
-## Next Week: Paper 1
-.size40[
-+ Write a report introducing us to the specific, local environmental problem you intend to target this semester
-]
-
---
-
-## For Tuesday
+# For Tuesday: Brainstorming
 .size40[
 + Bring to class a news story or piece of evidence describing a local environmental problem
 
-    + Describe the problem and identify the key stakeholders
++ Be ready to present it to the class:
+    + What is the specific problem?
+    + Who are the key stakeholders?
+    + How could we measure progress?
 ]
 
 ???

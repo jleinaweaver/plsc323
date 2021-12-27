@@ -51,7 +51,7 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Make sure to save time at end of class to discuss Thursday plan and the paper projects.
 
 
 
@@ -82,7 +82,7 @@ While CAFE standards are interesting and continue to be debated as a pollution c
 class: middle, slideblue
 
 .size35[
-EPA's New Goal: Reach a projected industry-wide target of 161 grams CO2 /mile, or 40 miles per gallon value on fuel economy window stickers in 2026.
+**Biden's New Rule**: Reach a projected industry-wide target of 161 grams CO2 /mile, or 40 miles per gallon value on fuel economy window stickers in 2026.
 
 + The final emission standards targets for 2023-2026 increase in stringency by between 5-10 percent in each model year.
 
@@ -95,14 +95,104 @@ EPA's New Goal: Reach a projected industry-wide target of 161 grams CO2 /mile, o
 
 ---
 
-class: middle, center, slideblue
+class: middle, slideblue
 
-.size80[**Thursday**]
+.size70[**Thursday**]
 
-.size65[
+.center[.size60[
 Welcome to local stakeholders working on environmental policy!
+]]
+
+.size45[
++ Shane Keek, Sierra Club
+
++ ?
+
++ ?
 ]
 
 ???
 
-QUESTIONS?
+We have a few goals for our discussion on Thursday
+
+1. Familiarize ourselves with local environmental groups (stakeholders), and
+
+2. Gather some info to help us with our paper projects.
+
+<br>
+
+Let's talk about the papers for a moment.
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.center[.size55[**Solving a Local Environmental Problem**]]
+
+<br>
+
+.size40[
+Paper 1: Present the basics of your problem
+
+Paper 2: Analyze the complicating factors
+
+Paper 3: Propose a policy to address the problem
+]
+
+???
+
+Your papers this semester are designed to help you develop some expertise in a local environmental problem and attempt to outline a policy to address it.
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle, slideblue
+
+## Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
+
+.size35[
++ Why is this an "environmental" issue?
+
++ Who is this a "problem" for? Be specific.
+
++ What are the causes of the problem you want to focus on?
+
++ What data is available to allow us to measure any progress?
+]
+
+???
+
+I'll post this description on the Moodle assignment.
+
+The first paper requires you to select a local environmental problem and to begin to frame it as a policy problem we can solve.
+
+<br>
+
+THIS is the context I want you to bring to our class on Thursday.
+
+Our local activists should have lots of information about the landscape of environmental problems in SW MO.
+
+BUT I REALLY don't want you asking them to do the paper for you.
+
+PLEASE come to class WITH at least a half an idea.
+
+BEFORE class you should start looking around at the options.
+
+Start thinking about what you might want to focus on this term.
+
+QUESTIONS ON THE ASSIGNMENT OR THE GUESTS COMING ON THURSDAY?
+
+
+
+

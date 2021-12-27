@@ -58,6 +58,32 @@ CHECK OLD PUBLIC POLICY CLASS SLIDES ON TEMPORAL DISCOUNTING 14.2
 
 
 
+---
+
+background-image: url('libs/Images/05-1-Discounting.webp')
+background-size: 90%
+background-position: center
+
+class: middle
+
+???
+
+Discounting is a hugely important concept in environmental problem-solving.
+
+It simply means: To count at less than face value.
+
+I'm hoping you covered this in some depth in Environmental Economics.
+
+<br>
+
+Last week we focused on risk.
+
+HOW IS RISK A FORM OF DISCOUNTING SIMILAR TO WHAT YOU READ ABOUT FOR CLASS TODAY?
+
+(Some people may be more or less risk acceptant BECAUSE they discount the future!)
+
+
+
 
 
 ---
