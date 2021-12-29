@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-???
+Review our environmental racism / justice cases and brainstorm strategies for addressing these complications
 
 ]]
 
@@ -51,20 +51,50 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Check citations on shared Google sheet.
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
 
 class: middle
 
+# Paper 2
+.size45[
+Write a report analyzing your environmental problem in terms of its complications.
+
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
+
++ Support all claims with evidence
+]
+
 ???
 
+Keep your eyes on the next prize!
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**For Thursday: Environmental Racism Cases**]
+
+.size40[
+Find us a **recent, real world example** of an environmental problem being framed in terms of its **disparate impact on a minority group**.
+
+Be ready to help us **brainstorm strategies** for addressing these complications.
+]
+
+???
 
 
 
@@ -72,14 +102,10 @@ class: middle
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size60[**Next Week**]
 
 .size40[
-1. 
-
-2. 
-
-3. 
+Work on Paper 2!
 ]
 
 ???

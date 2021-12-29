@@ -1,40 +1,23 @@
----
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>06-1-Uncertainty.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
 
-library(tidyverse)
-library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
 
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
-```
 
 class: slideblue
 
 .size80[**Today's Agenda**]
 
-<br>
+&lt;br&gt;
 
 .size45[
 What are the Complicating Factors in Environmental Policymaking?
@@ -42,7 +25,7 @@ What are the Complicating Factors in Environmental Policymaking?
 + Uncertainty, Time Horizons and Discount Rates
 ]
 
-<br>
+&lt;br&gt;
 
 .center[.size40[
   Justin Leinaweaver (Spring 2022)
@@ -52,7 +35,8 @@ What are the Complicating Factors in Environmental Policymaking?
 
 ## Prep for Class
 1. Old US Public policy notes (14.2) covered temporal discounting
-2. Prep email with link to Google sheet
+
+
 
 ---
 
@@ -70,7 +54,7 @@ ANY QUESTIONS ON THE MATERIAL FROM LAST WEEK?
 
 - GIVE ME AN EXAMPLE OF A SITUATION FROM YOUR DAY-TO-DAY LIFE IN WHICH YOU ARE RISK ACCEPTANT.
 
-<br>
+&lt;br&gt;
 
 On Thursday we discussed real-world case studies.
 
@@ -121,7 +105,7 @@ The investor focused entirely on maneuvering his metaphorical boat around the sh
 
 All people discount the future due to uncertainty but the amounts people discount by will vary considerably.
 
-<br>
+&lt;br&gt;
 
 I'm hoping you covered this in some depth in Environmental Economics.
 
@@ -166,7 +150,7 @@ The gag was that he would try to convince people to buy him a burger with the pr
 
 Hilarious joke during the great depression, right?
 
-<br>
+&lt;br&gt;
 
 Setting aside the depressing nature of old timey cartoons, let's bring this back to the discount rate.
 
@@ -178,13 +162,13 @@ If prices are rising then goods will cost more as time goes by.
 
 So, get a burger today and pay for it with a dollar from next week when the burgers will cost $2!
 
-<br>
+&lt;br&gt;
 
 The more depressing version of this assumes Wimpy has lost all hope and isn't sure he'll survive to next week.
 
 + Eat today because tomorrow isn't coming.
 
-<br>
+&lt;br&gt;
 
 In either version, Wimpy is demonstrating for us how a discount rate impacts decision-making.
 
@@ -219,7 +203,7 @@ You can have $10 right now OR you can wait a year and receive more than $10.
 
 .size55[**Make a Choice:**]
 
-<br>
+&lt;br&gt;
 
 .size45[Q1. $10 now or wait one year for $X?]
 
@@ -239,7 +223,7 @@ Ok, write down your answer.
 
 --
 
-<br>
+&lt;br&gt;
 
 .size45[Q2. $1,000 now or wait one year for $X?]
 
@@ -253,7 +237,7 @@ Think about this for a moment and write down your answer.
 
 --
 
-<br>
+&lt;br&gt;
 
 .size45[Q3. $1 million now or wait one year for $X?]
 
@@ -263,11 +247,11 @@ Ok, last one.
 
 How much would they have to offer you to get you to pass up the chance at 1 million dollars right now?
 
-<br>
+&lt;br&gt;
 
 *Gather answers ON THE BOARD, one row per student*
 
-<br>
+&lt;br&gt;
 
 Ok, this is our dataset.
 
@@ -293,7 +277,7 @@ BASED ON THIS DATA AND OUR DISCUSSIONS, WHAT MECHANISMS COULD WE PROPOSE TO EXPL
 
 *Brainstorming Hypotheses*
 
-<br>
+&lt;br&gt;
 
 Now, let's take our talk about time horizons and discount rates out of the realm of benefits and into the realm of environmental costs.
 
@@ -330,7 +314,7 @@ class: middle
 Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65.
 ]
 
-<br>
+&lt;br&gt;
 
 .center[
 .size45[**What are the key lessons we can use to overcome uncertainty and solve environmental problems?**]
@@ -376,7 +360,7 @@ My aim is that we broaden and deepen our understanding of risk profiles complica
 
 So, go find us good cases we can dig our teeth into.
 
-**Submit the citation to your case before class.**
+Submit the citation to your case before class.
 
 Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
 
@@ -384,3 +368,127 @@ QUESTIONS?
 
 
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

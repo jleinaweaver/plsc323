@@ -1,0 +1,875 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size75[**Today's Agenda**]
+
+<br>
+
+.size45[
+What are the Complicating Factors in Environmental Policymaking?
+
++ Collective Action Problems and Free-Riding
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Core201 FA17 7-1
+2. Prep email with link to Google sheet
+
+<br>
+
+Today we discuss our next complication for environmental problem-solving: collective action problems
+
+What do I mean by a collective action problem?
+
+Let's start with the first sentence from the Wikipedia entry!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55["A collective action problem or social dilemma is a situation in which all individuals would be better off cooperating but fail to do so because of conflicting interests between individuals that discourage joint action" (Wikipedia 2021).]
+
+???
+
+ANYBODY TAKE A STAB AT EXPLAINING THIS IN ENGLISH?
+
+<br>
+
+On second thought, maybe this still isn't very clear.
+
+HAS ANYBODY EVER HEARD OF THE PRISONER'S DILEMMA?
+
+
+
+---
+
+background-image: url('libs/Images/07-1-bank_robbery.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+You can tell the story many different ways, but here's a quick version.
+
+Two thieves rob a bank, then split up as they leave with a plan to meet up later and divvy up the loot.
+
+Cops catch each of them separately and bring them "downtown" for questioning.
+
+Both still had their guns and masks with them when captured so are in some trouble / look pretty darn suspicious.
+
++ e.g. gun possession is good for a couple years in jail
+
++ The masks start to build a case a jury might convict on.
+
+
+---
+
+background-image: url('libs/Images/07-1-interrogation.png')
+background-size: 100%
+background-position: center
+
+???
+
+Now we introduce the dilemma and why the cops are in such a strong position once they capture you.
+
+The robbers are placed in separate interrogation rooms.
+
+Each is made an offer at essentially the same time.
+
++ The first one to confess to the robbery and agree to testify against the other goes free.
+
+<br>
+
+Put yourself in the shoes of one of the robbers.
+
+As a first pass, we can think of this as a simple decision for you.
+
+(SLIDE)
+
+
+---
+
+background-image: url('libs/Images/07-1-cartoon_thief.webp')
+background-size: 60%
+background-position: left
+class: middle
+
+.pull-right[
+.size55[**Your Decision**]
+
+.size45[
++ Confess quickly and go free (maybe)
+
++ Stay silent and go to jail
+]]
+
+???
+
+In a world where only you matter, the decision is pretty easy to think through as a cost-benefit analysis calculation.
+
+<br>
+
+However, the outcome of this dilemma depends on both the choice YOU make AND the choice made by the other suspect.
+
+<br>
+
+That means, it's time for some game theory!
+
+Game Theory is a theoretical approach to analyzing decision-making born from micro-economics.
+
+It is designed for situations in which the outcomes depend on the interactions of choices made by two or more actors.
+
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**The Prisoner's Dilemma**]]]
+
+<br>
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("You", ""),
+  col2 = c("Silence", "Confess"),
+  Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
+  Defect = c("10 years, Go Free", "6 years, 6 years")
+) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
+  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+```
+
+???
+
+This is what we call a non-cooperative game in normal form.
+
+The four boxes represent the four possible outcomes of the game
+
+We get to a single box once we know the decision of each player.
+
+<br>
+
+*Go through a couple to make sure it's clear*
+
+<br>
+
+SO, IN THIS POSITION WHAT WOULD YOU DO AND WHY?
+
+*Force discussion of each option*
+
+<br>
+
+WHAT PIECES OF CONTEXT WOULD INFLUENCE HOW YOU THINK ABOUT THE DECISION? 
+
+(e.g. other suspect your best friend or just some guy? How much evidence do the cops already have? Do you already have a record?)
+
+<br>
+
+So, how does game theory help us with this?
+
+
+--
+
+<br>
+
+<br>
+
+.center[.size35[.content-box-red[**What is the most likely outcome of the game?**]]]
+
+???
+
+Game theory concepts like Pareto optimality and the Nash Equilibrium can help us predict the most likely outcomes and the "best" strategies for each player.
+
+In other words, game theory tries to "solve" games like this one.
+
+
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**The Prisoner's Dilemma**]]]
+
+<br>
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("You", ""),
+  col2 = c("Silence", "Confess"),
+  Cooperate = c("2 years", "Go Free"),
+  Defect = c("10 years", "6 years")
+) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
+  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+```
+
+???
+
+Finding the Nash Equilibrium means thinking about your choice as if  you had perfect information.
+
+- e.g. You know what the other robber is going to do before he does it!
+
+<br>
+
+SO, IF YOU KNEW FOR CERTAIN THE OTHER ROBBER WOULD STAY SILENT, WHAT WOULD YOU DO?
+
++ WOULD YOU PICK 2 YEARS IN JAIL OR TO GO FREE? 
+
+*Think of your elderly parents and 16 children!*
+
+<br>
+
+ON THE OTHER HAND, WHAT IF YOU KNEW FOR CERTAIN THEY WERE GOING TO CONFESS, WHAT WOULD YOU CHOOSE?
+
++ WHAT WOULD YOU DO IF YOU KNEW THEY WERE GOING TO SELL YOUR ASS OUT?
+
+<br>
+
+If the answer in both circumstances is to confess, then confession is what we call your "dominant" strategy.
+
+The dominant strategy in game theory refers to a situation where one player has a superior tactic regardless of how the other players act. 
+
+No matter what the other person does, your better outcome comes from confessing.
+
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**The Prisoner's Dilemma**]]]
+
+<br>
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("You", ""),
+  col2 = c("Silence", "Confess"),
+  Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
+  Defect = c("10 years, Go Free", "6 years, 6 years")
+) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 3, background = "#b3ccff", width = "25em") |>
+  kableExtra::column_spec(column = 4, background = c("#b3ccff", "red"), width = "25em") |>
+  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+```
+
+???
+
+It turns out the logic is mirrored for both suspects.
+
+For both players, confessing is the dominant strategy.
+
+If both sides are better off confessing then we end up in the bottom right outcome.
+
+<br>
+
+Since both dominant strategies lead to only one outcome, that outcome is called the Nash Equilibrium.
+
+Given the structure of this game and its uncertainty, both robbers should choose to confess regardless of what the other does.
+
+MAKE SENSE?
+
+Now, back to the definition!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55["A collective action problem or social dilemma is a situation in which all individuals would be better off cooperating but fail to do so because of conflicting interests between individuals that discourage joint action" (Wikipedia 2021).]
+
+???
+
+NOW DO WE HAVE A BETTER SENSE OF WHAT THIS DEFINITION IS TALKING ABOUT?
+
+- HOW DOES OUR PD GAME ILLUSTRATE THE COLLECTIVE ACTION PROBLEM?
+
+Collective action problems arise when individuals want to cooperate but can't seem to get there because of the complexities of the world.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[
+Hardin, G. (1968). The Tragedy of the Commons. *Science*. 162(3859), 1243–1248.
+]
+
+???
+
+For today I had you read a short excerpt from Garret Hardin’s "Tragedy of the Commons."
+
+- EVERYBODY HAVE THE READING?
+
+- ANYBODY EVER READ THIS BEFORE?
+
+<br>
+
+First and formeost let me tell you, I AGONIZED over whether or not to assign any piece of this reading to you.
+
+On the plus side this is one of, if not THE, most cited and assigned research articles studying policy and the environment.
+
+- Nearly 50,000 citations.
+
+The problem is...
+
+
+
+---
+
+background-image: url('libs/Images/07-1-tragedy_of_the_tragedy.png')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+Hardin's environmental concerns were driven almost entirely by his racism and disdain for the poor.
+
+I assigned you only the portion relevant to our work, that which describes the pasture thought experiment.
+
+The rest of the article is scary and we'll talk more about that part of it next week when we explore how inequality complicates environmental problem-solving.
+
+SO, hold off on that piece of this article!
+
+<br>
+
+Ok, let's talk about the "commons" concept here.
+
+CAN ANYBODY DEFINE THE "COMMONS" PART OF THE "TRAGEDY OF THE COMMONS"?
+
+(SLIDE)
+
+
+
+
+---
+
+background-image: url('libs/Images/07-1-The_Ocean.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+.center[
+.size30[
+.content-box-blue["...the natural resources and vital life-support services that]
+
+.content-box-blue[belong to all humankind rather than to any one country"]
+
+.content-box-blue[(Chasek, Downie and Brown 2014)]
+]]
+
+???
+
+Here is the definition of a commons as provided by Oran Young.
+
+WHAT SPECIFIC RESOURCES DOES THIS DEFINITION REFER TO?
+
+Think oceans, seabed minerals, Antarctica and the atmosphere.
+
+None exist within the borders of any sovereign state.
+
+ANY QUESTIONS ON THE BASELINE CONCEPT?
+
+
+
+---
+
+background-image: url('libs/Images/07-1-empty_pasture.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The tragedy of the commons is typically explained using a story about a pasture.
+
+WHO OWNS THIS PASTURE?
+
+(- No one?)
+(- Everyone?)
+(- Both?)
+
+DOES IT MAKE SENSE THAT IF NO ONE OWNS THE PASTURE, EVERYONE OWNS IT?
+
+- DOES THAT EQUIVALENCY MAKE SENSE?
+
+
+
+---
+
+background-image: url('libs/Images/07-1-pasture.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+For the sake of this discussion, all of you are ranchers who own herds of cattle.
+
+On this commons you all choose to graze your cattle.
+
+WHY WOULD YOU CHOOSE TO GRAZE YOUR CATTLE ON THE COMMONS PASTURE AND NOT YOUR OWN LAND?
+
+(maximize benefits by not having to pay to feed them!)
+
+<br>
+
+So, let's go back to the problematic equivalency from a moment ago.
+
+WHO ACTUALLY PAYS TO FEED YOUR CATTLE?
+
++ (Everyone)
++ (plus the environment and the public)
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**Cost-Benefit Analysis: Add a Cow**]]
+
+.pull-left[
+```{r, fig.retina=3}
+knitr::include_graphics('libs/Images/07-1-Cow.webp')
+```
+]
+
+???
+
+Let's put this in the language of simple cost-benefit analysis.
+
+We should expect each of you to add a cow to your herd when the benefits outweigh the costs.
+
+WHAT ARE THE BENEFITS OF ADDING A COW TO YOUR HERD?
+(Milk or meat, reproduction, friendship...)
+
+WHAT ARE THE COSTS?
+(Feed, care, housing)
+
+
+--
+
+.pull-right[
+
+<br>
+
+<br>
+
+## To Your Farm
+.size40[
++ Benefits = +1
+
++ Costs = -1
+]]
+
+???
+
+To keep things simple, let's say each of you currently face the following decision.
+
+The hypothetical costs and benefits of adding a cow to your herd is almost perfectly off-setting. 
+
+IN THIS INSTANCE, SHOULD YOU ADD A COW TO YOUR HERD? WHY OR WHY NOT?
+
+<br>
+
+(Probably not in this case)
+
+(Maybe if as your scale increases the costs of adding each additional cow falls?)
+
+<br>
+
+Now, what happens to the CBA when we add a cow to the commons?
+
+HOW DOES USING THE COMMONS TO FEED YOUR NEW COW ALTER YOUR CBA?
+
+(SLIDE)
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**Cost-Benefit Analysis: Add a Cow**]]
+
+.pull-left[
+```{r, fig.retina=3}
+knitr::include_graphics('libs/Images/07-1-Cow.webp')
+```
+]
+
+.pull-right[
+
+<br>
+
+<br>
+
+## To the Commons
+.size40[
++ Benefits = +1
+
++ Costs = -1/x
+]]
+
+???
+
+WHY DON'T THE BENEFITS CHANGE?
+
+<br>
+
+EXPLAIN THE 1/X TO ME IN THE COSTS OF ADDING A COW TO THE COMMONS.
+
+(X is the population size)
+
+- Costs shared amongst everyone
+- The commons loses 1, but that cost is divided amongst the owners of the commons e.g. everybody.
+
+DOES THAT MAKE SENSE?
+
+Important distinction here: Society pays MOST of the costs of feeding your cattle.
+
+- That means we each pay part of the cost.
+
+<br>
+
+SO, IF YOU ARE THE ONLY PERSON AROUND, SHOULD YOU ADD A COW TO THE COMMONS?
+
+(Takes us back to the previous +1 + -1 = 0.)
+
+<br>
+
+WHAT HAPPENS TO THE COSTS YOU FACE AS THE POPULATION AROUND YOU GETS BIGGER?
+
+(Your share of the cost shrinks to almost nothing)
+
+- The more of us there are, the smaller your individual share.
+
+<br>
+
+SO, WHAT IS THE BOTTOM LINE HERE? WHEN SHOULD YOU ADD A COW TO YOUR HERD?
+
++ (When there is a commons to feed it)
++ (When there are a lot of other people also using it)
+
+AND WHAT DOES ALL OF THIS MEAN FOR THE SURVIVAL OF THE COMMONS?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/07-1-ruined_pasture.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+It's toast in the long-run.
+
+WHY DOES HARDIN REFER TO THIS AS A TRAGEDY? IS IT BECAUSE HE’S AN ENVIRONMENTALIST AND THE STORY IS SAD?
+
+--
+
+.center[.size35[.content-box-blue[The essence of dramatic tragedy is not unhappiness.]
+
+.content-box-blue[It resides in the solemnity of the remorseless]
+
+.content-box-blue[working of things.]]]
+
+???
+
+<br>
+
+Think of the Whitehead quote Hardin invokes 
+
+(p1244)
+
+He's describing this as a dramatic tragedy.
+
+According to Hardin the tragedy is inevitable and unavoidable because of the nature of the commons.
+
+The system is like an engine.
+
+It does what it must based on its design without thought or compunction (e.g. guilt).
+
+<br>
+
+WHY DOES HARDIN BELIEVE THE RANCHERS CANNOT HELP THEMSELVES, EVEN WHEN THEY KNOW WHAT WILL HAPPEN?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/07-1-ruined_pasture.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[.content-box-blue[1) The benefits are real and immediate]]
+
+<br>
+
+.size35[.content-box-blue[2) The costs are small and shared]]
+
+<br>
+
+.size35[.content-box-blue[3) Even if you do the "right" thing, someone else will]]
+
+.size35[.content-box-blue[add another cow and the commons will collapse]]
+
+???
+
+ANY QUESTIONS ON THE TRAGEDY OF THE COMMONS STORY?
+
+<br>
+
+The pasture version of this story is very specific to the using of a shared resource.
+
+- e.g. fish from the ocean, trees from a forest, etc.
+
+Let's also note how Hardin extends the logic to pollution.
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/07-1-waste_river.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+PER HARDIN'S ARTICLE, HOW DOES THIS IMAGE REPRESENT A TRAGEDY OF THE COMMONS?
+
+- WHAT IS THE COMMONS HERE?
+
+- WHAT IS THE "USE" OF THE COMMONS?
+
+<br>
+
+(We aren’t removing goods from the pasture, we are dumping pollution into it.)
+
+- Behaving as “independent, rational, free-enterprisers” we are locked into a system of “fouling our own nest”. p1245
+
+<br>
+
+Ok, let's now tie this back to our motivating question.
+
+When do collective action problems complicate environmental problem-solving?
+
+
+--
+
+.center[.size45[.content-box-blue[Benefits to the Individual]]]
+
+<br>
+
+.center[.size45[.content-box-blue[+]]]
+
+<br>
+
+.center[.size45[.content-box-blue[Costs to the Collective]]]
+
+<br>
+
+.center[.size45[.content-box-red[= Resource Depletion / Destruction]]]
+
+
+???
+
+The takeaway for us is this.
+
+One serious form of collective action problem that complicates environmental problem-solving involves actions that benefit the individual that, in the aggregate, harm the community.
+
+DOES THIS MAKE SENSE?
+
+IS ANYBODY WORKING ON AN ENVIRONMENTAL PROBLEM THAT CLEARLY EXHIBITS THIS DYNAMIC IN ACTION?
+
+
+
+---
+
+background-image: url('libs/Images/07-1-logic_col_action.jpg')
+background-size: 40%
+background-position: left
+class: middle, center, slideblue
+
+.pull-right[
+.size45[
+Costs to the Individual
+
++
+
+Benefits to the Collective
+
+=
+
+Free-Riders!
+]]
+
+???
+
+Let's jump to our other reading for today.
+
+Mancur Olson identifies that flipping the costs and benefits ALSO leads to a serious problem: Free-riders.
+
+In Hardin's story, individuals make good choices for themselves which combine to make bad choices for society.
+
+In Olson's story, he shows us that it is REALLY hard to get individuals to pay tiny costs in exchange for big benefits for the wider society. 
+
+His focus is on why using groups to achieve change is hard. 
+
+*Seminar style discussion of the arguments in the intro + chap 1*
+
+<br>
+
+WHAT DID YOU GET FROM THE READING?
+
+- ANY BIG IDEAS JUMP OUT?
+
+- ANY PARTS THAT MADE LITTLE TO NO SENSE WE COULD DISCUSS?
+
+<br>
+
+WHAT DOES OLSON'S ARGUMENT MEAN FOR OUR THEORIES OF DEMOCRACY THAT ASSUME INDIVIDUALS NEED GROUPS IN ORDER TO ACHIEVE CHANGE?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**For Thursday**]
+
+.size40[
+Find us a **recent, real world example** of **collective action problems / free-riding** complicating environmental problem-solving.
+
++ Individual benefits + collective costs, OR
++ Individual costs + collective benefits
+
+Be ready to help us **brainstorm strategies** for addressing these complications.
+]
+
+???
+
+You don't have to find a case that mirrors the problem you've selected for your paper.
+
+HOWEVER, that's not a bad idea!
+
+My aim is that we broaden and deepen our understanding of risk profiles complicating environmental problem-solving.
+
+So, go find us good cases we can dig our teeth into.
+
+**Submit the citation to your case before class.**
+
+Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
+
+QUESTIONS?
+
+
+

@@ -68,7 +68,7 @@ class: middle
 .size45[
 Write a report analyzing your environmental problem in terms of its complications.
 
-In what specific ways does risk, uncertainty, free-riding and unequal impacts complicate your problem?
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
 
 + Support all claims with evidence
 ]
@@ -133,7 +133,7 @@ class: middle
 .size45[
 Write a report analyzing your environmental problem in terms of its complications.
 
-In what specific ways does risk, uncertainty, free-riding and unequal impacts complicate your problem?
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
 
 + Support all claims with evidence
 ]

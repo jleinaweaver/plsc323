@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-???
+Review our uncertainty cases and brainstorm strategies for addressing these complications
 
 ]]
 
@@ -51,35 +51,89 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Check citations on shared Google sheet.
+
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
 
 class: middle
 
-???
+.size60[**For Today**]
 
+.size40[
+Find us a **recent, real world example** of competing estimates of **uncertainty, time horizons or discount rates** complicating environmental problem-solving. 
+
+Be ready to help us **brainstorm strategies** for addressing these complications.
+]
+
+???
 
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
 
-.size60[**For Next Class**]
+class: middle
 
-.size40[
-1. 
+# Paper 2
+.size45[
+Write a report analyzing your environmental problem in terms of its complications.
 
-2. 
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
 
-3. 
++ Support all claims with evidence
+]
+
+???
+
+Connect to your ongoing projects: think about all the cases we've heard today and tell us in what specific ways does your environmental problem present these complications?
+
+Which pieces of evidence most useful for you?
+
+
+
+---
+
+background-image: url('libs/Images/06-2-uncertainty.jpeg')
+background-size: 90%
+background-position: center
+class: bottom
+
+.size35[
+.center[
+.content-box-blue[**Strategies for Stakeholders with**]
+
+.content-box-blue[**Different Uncertainty Profiles?**]
+]]
+
+???
+
+Brainstorm strategies for addressing these complications.
+
+
+
+---
+
+background-image: url('libs/Images/background-gentle_lines_green.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**Next Week's Complication**]
+
+<br>
+
+.size45[
+Collective Action Problems and Free-Riding
 ]
 
 ???

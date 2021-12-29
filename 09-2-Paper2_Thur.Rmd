@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-???
+Working on Paper 2
 
 ]]
 
@@ -57,11 +57,20 @@ class: slideblue
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
 
 class: middle
+
+# Paper 2
+.size45[
+Write a report analyzing your environmental problem in terms of its complications.
+
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
+
++ Support all claims with evidence
+]
 
 ???
 
@@ -72,14 +81,12 @@ class: middle
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size60[**Next Week**]
 
 .size40[
-1. 
+Section 3: Designing an Environmental Policy
 
-2. 
-
-3. 
++ "Command and Control" Policies
 ]
 
 ???
