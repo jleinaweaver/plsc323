@@ -993,14 +993,14 @@ In a practical sense, what guidance can we offer practical policy-makers?
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size60[**For Thursday**]
 
 .size40[
-1. 
+Find a real world example of this approach (command and control regulations) being used to address an environmental problem similar to the one you are working on in your project.
 
-2. 
+Be ready to introduce us to your example with as much detail as you can find.
 
-3. 
++ Stakeholders, complications, specific design and effectiveness?
 ]
 
 ???
