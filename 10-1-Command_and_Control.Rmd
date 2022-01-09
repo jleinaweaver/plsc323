@@ -18,7 +18,7 @@ output:
 
 library(tidyverse)
 library(readxl)
-library(stargazer)
+##library(stargazer)
 ##library(kableExtra)
 ##library(modelr)
 
@@ -30,17 +30,17 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = NA)
 ```
 
-class: slideblue
+class: middle, slideblue
 
 .size80[**Today's Agenda**]
 
 <br>
 
-.size50[.center[
+.size50[
+Designing an Environmental Policy
 
-???
-
-]]
++ "Command and Control" Policies
+]
 
 <br>
 
@@ -51,19 +51,940 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Put assignment details on Moodle (use more complete version on Google Doc)
+
+<br>
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+# Semester in Three Sections 
+
+.size45[
+1. How do we approach environmental politics? (4 wks)
+
+2. **What are the complicating factors in environmental policymaking?** (5 wks)
+
+3. Designing an environmental policy (6 wks)
+]
+
+???
+
+We spent the last five weeks on section 2.
+
+WHAT WERE YOUR KEY TAKEAWAYS FROM SECTION 2?
+
+- LESSONS FOR ANALYZING ENVIRONMENTAL PROBLEMS?
+
+(- ?)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+# Semester in Three Sections 
+
+.size45[
+1. How do we approach environmental politics? (4 wks)
+
+2. What are the complicating factors in environmental policymaking? (5 wks)
+
+3. **Designing an environmental policy** (6 wks)
+]
+
+???
+
+Today we start into the final section of our class.
+
+You will each be tasked with designing a policy that addresses the environmental problem you've been working on.
+
+Let's talk details of the assignment before we dig into command and control regulations.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
 ???
+
+Here's where the rubber meets the road!
+
+The quality of your final paper depends on the work you did in the first two papers.
+
+I've posted this description on the Moodle assignment.
+
+QUESTIONS ON THE PROMPT?
+
+<br>
+
+Important note, this final paper is more than just a final step in the process.
+
+SLIDE
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-four_brains.jpg')
+background-size: 40%
+background-position: center
+class: middle, slideblue
+
+???
+
+Embrace the galaxy brain version of your paper!
+
+In other words, SLIDE
+
+
+
+---
+
+background-image: url('libs/Images/10-1-four_brains.jpg')
+background-size: 40%
+background-position: right
+class: middle, slideblue
+
+.pull-left[
+.center[
+.size65[**Paper 3 should be a complete, stand-alone policy report**]
+]]
+
+???
+
+THIS is the paper you've been building up to all semester.
+
+This paper should stand completely on its own.
+
+On one level, don't assume the reader is familiar with your first two papers.
+
+On another level, you should be able to give this paper to a person interested in the problem and they should be able to understand what the problem is, why it is complicated and be convinced that your policy is a good idea.
+
+This means you should DEFINITELY take the best bits from your first two papers and add them to this one.
+
+QUESTIONS ON THIS?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+Command and Control 
+
+"Green" Taxes
+
+"Green" Subsidies
+
+Self-Regulation
+]
+
+???
+
+To help you build to this paper we will spend the next four weeks exploring different policy designs.
+
+My plan is that each week we'll attack these like we did the complications.
+
+Each Tuesday I will give you readings on the background and a case to consider.
+
+Each Thursday we'll apply the lessons to your specific environmental problems.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+.textred[**Command and Control**]
+
+"Green" Taxes
+
+"Green" Subsidies
+
+Self-Regulation
+]
+
+???
+
+Today we start with the "command and control" policy approach.
+
+BIG PICTURE, EXPLAIN TO ME WHAT A "COMMAND AND CONTROL" POLICY DOES TO SOLVE AN ENVIRONMENTAL PROBLEM?
+
+(SLIDE)
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-cartoon_measuring_smoke_stack.jpg')
+background-size: 100%
+background-position: center
+class: center
+
+???
+
+Command-and-Control Regulations [(OpenStax 2016)](https://opentextbc.ca/principlesofeconomics/chapter/12-2-command-and-control-regulation/)
+
++ A regulatory approach to reducing pollution
+
++ Create a law or regulation that specifies what specific equipment you must use (pollution-control technologies) or limits how much of a selected pollutant you can omit.
+
+<br>
+
+The Open Textbook chapter argues command-and-control forces polluters to pay the social costs of their pollution.
+
+WHAT DOES THAT MEAN?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/10-1-polluting_factory.jpg')
+background-size: 83%
+background-position: left
+class: bottom
+
+```{r, fig.align='right', out.width='35%'}
+knitr::include_graphics('libs/Images/10-1-simpsons-mr.-burns.png')
+```
+
+???
+
+So, Mr. Burns buys some land and builds a factory to produce widgets.
+
+The factory creates pollution which imposes a cost on the environment and society.
+
++ The river is polluted so we can't drink it and all the fish start to die
++ The smog and PM in the air increase asthma rates and heart attacks and harm local farms
+
+We call this pollution an externality because it is a "side effect or consequence of an industrial or commercial activity that affects other parties" (Oxford Languages).
+
+<br>
+
+IN THE ABSENCE OF ANY LOCAL LAWS OR REGULATIONS CONCERNING POLLUTION, HOW MANY WIDGETS SHOULD MR. BURNS PRODUCE TO SELL?
+
+<br>
+
+(WILDLY oversimplified answer:)
+
+1. How many do you think you can sell? AND
+
+2. What is the marginal cost per unit (e.g. the cost to produce each widget)
+
+So long as the demand is there and the marginal cost is below the price he can charge, go nuts!
+
+Time for some Econ 101!
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+## Let's build supply and demand curves
+p1 <- tibble(
+  Price = 1:100,
+  Quantity = 100:1
+) |>
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  labs(x = "Quantity Produced", y = "Price per Widget")
+
+p1
+```
+
+???
+
+We went over these ideas in week 2, but let's do a refresher and dig a little deeper into the idea of a production function and a market equilibrium.
+
+<br>
+
+https://www.env-econ.net/negative-externality.html
+
+Welcome to fake econ-101!
+
+Let's talk demand and supply.
+
+<br>
+
+Here we see a visual representation of Mr. Burns' decision when running his factory.
+
+On the y-axis are the different prices he could choose to charge for each widget.
+
+On the x axis the number of widgets he can choose to produce.
+
+These are the two axes we need in order to illustrate demand, supply, profit and the effect of regulations on pollution levels.
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
+```
+
+???
+
+Let's start with the supply curve.
+
+CAN ANYBODY INTERPRET WHAT THIS "SUPPLY" LINE SHOWS US ABOUT THE FACTORY AND WHY IT MIGHT SHOW UP AS MC IN TEXTBOOKS?
+
++ (The blue line represents the marginal cost per unit (MC) which tells you how much it costs to make one more widget at that level)
+
++ (Here we see that the cost per widget goes up as you produce more of them)
+
+<br>
+
+ANYBODY KNOW WHY WE TYPICALLY DRAW SUPPLY CURVES WITH A POSITIVE SLOPE?
+
+(Lots of possible explanations but lets just focus on the simplest one: scarcity and cost)
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/10-1-petroleum_seep.png')
+background-size: 100%
+background-position: center
+
+???
+
+Think of selling oil. 
+
+You buy a piece of land that is oil rich and you start by selling the stuff bubbling up from underground.
+
+Image is what's called a petroleum seep.
+
+This business is easy. Just scoop the oil into barrels and sell it!
+
+You're getting rich so you go public and start selling stocks on the market.
+
+<br>
+
+Eventually the seep runs dry OR your investors demand you grow the company so you need to find more oil!
+
+
+
+---
+
+background-image: url('libs/Images/10-1-oil_derrick.gif')
+background-size: 90%
+background-position: center
+
+???
+
+So you build an oil derrick in order to dig deeper and reach new oil supplies far under ground.
+
+Now you have to hire a bunch of people, pay them benefits, get insurance, maintain your equipment, etc.
+
+You are producing more and the cost per unit is increasing dramatically.
+
+<br>
+
+Unfortunately, investors demand infinite growth and the calls to fire you are getting louder.
+
+You need to find more oil to sell...
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-oil_rig.jpg')
+background-size: 90%
+background-position: center
+
+???
+
+So you build massive rigs in the ocean and now you're dealing waves, storms, pirates, huge numbers of employees who suddenly want to unionize and harassment by environmental activists who note you may be destroying the planet...
+
+I may be getting sidetracked.
+
+IS EVERYBODY CLEAR ON WHY WE CAN ASSUME INCREASING MARGINAL COSTS OF PRODUCTION?
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
+```
+
+???
+
+Go back to Mr. Burns factory.
+
+WHY MIGHT IT BE REASONABLE TO ASSUME INCREASING MARGINAL COSTS FOR INCREASING WIDGET PRODUCTION? 
+
+(In Mr. Burns case just think of it becoming harder and harder (e.g. more expensive) to:
+
++ source the materials he needs to make widgets,
+
++ Add equipment and employees to run it,
+
++ etc.
+
+True for many, if not most, industrial production processes.
+
+Long story short, that's the supply curve.
+
+As you make more widgets, you have to charge more for them or you won't make a profit.
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p2 <- p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", size = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5)
+
+p2
+```
+
+???
+
+Here's the demand curve.
+
+This indicates how many widgets people are willing to buy at different levels of the price.
+
+When the price is super high, nobody is willing to buy.
+
+As the price falls, demand increases.
+
+Confusing because the line is falling, but remember moving to the right means increasing the number of widgets made/sold.
+
+MAKE SENSE?
+
+<br>
+
+GIVEN THESE TWO CURVES, HOW MANY WIDGETS SHOULD MR BURNS PRODUCE?
+
+(SLIDE)
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p2 +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed")
+```
+
+???
+
+Maximizing profit means finding the equilibrium point between supply and demand.
+
+This is the amount that allows you to sell everything you make at or above the break-even cost.
+
+<br>
+
+Produce more than this amount and you won't be able to sell it except WAY below cost.
+
+Give away product for free, go bankrupt.
+
+Refuse to sell it except at your price, sales drop to zero and you go bankrupt.
+
+Bottom line in this oversimplified world, maximizing profit happens where the two lines cross.
+
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p2 +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "lightblue", alpha = .5)
+```
+
+???
+
+This shaded range represents the producer surplus, e.g. the profits without the fixed costs.
+
+In this example you produce 56 widgets and sell them for $43 a piece.
+
+The distance between $43 and the blue line (what you paid to make it) is your profit!
+
+Crazily enough this shows that sales near the equilibrium actually return less profit to you!
+
+EVERYBODY CLEAR ON THE LINES HERE AND HOW A FACTORY OWNER MIGHT USE THIS TO MAKE A DECISION ABOUT PRODUCTION?
+
+<br>
+
+WHAT KEY ELEMENT HAVE WE NOT ADDED TO THE STORY YET?
+
+(SLIDE)
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-cayuhoga-river-fire.jpg')
+background-size: 95%
+background-position: center
+
+???
+
+(The pollution!)
+
+Each widget produced creates pollution, BUT
+
++ As we saw in the simplified production function the factory owner can ignore it because it doesn't currently influence either supply or demand!
+
+This means that in a world with no environmental regulations the factory owner gets to make money and we all pay the costs of his/her business.
+
++ Hence our crazy polluted sky and water.
+
+<br>
+
+ANYBODY RECOGNIZE THIS FAMOUS PHOTO?
+
+(The Cuyahoga River in Ohio was once one of the most polluted rivers in the United States.)
+
++ It has caught fire a total of 13 times dating back to 1868, including this blaze in 1952.
+
++ Yes, the RIVER was so full of crap being dumped into it by steel mills and other industry it was able to catch fire.
+
++ That probably shouldn't happen.
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p2 +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "lightblue", alpha = .5)
+```
+
+???
+
+SO, HOW DOES A NEW COMMAND AND CONTROL REGULATION REQUIRING CLEANER PRODUCTION (SMOKESTACK SCRUBBERS, RENEWABLE ENERGY, ETC.) CHANGE THIS PLOT?
+
+(In essence, government mandating newer, cleaner processes will cost the factory owner money to install)
+
+(SLIDE)
+
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Regs)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", size = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed")
+```
+
+???
+
+Here we see the effect of the regulation.
+
+It raises the costs of production for the factory
+
++ Think, installing new scrubbers on a smokestack.
+
+<br>
+
+This shifts the equilibrium point to the left.
+
+The factory owner will now maximize profits by producing fewer widgets at a higher price.
+
+<br>
+
+The benefit to society is that this decreases the pollution immediately.
+
+In essence, this regulation forces the factory owner to pay for the harms they are imposing on the rest of us.
+
+Society still gets its widgets, but production of the widgets is now balanced against environmental harms.
+
+DOES THIS MAKE SENSE?
+
+IS THIS AUTOMATICALLY A BAD THING FOR THE ECONOMY?
+
+(Not necessarily!)
+
++ Cleaner environment can have massive economic and health impacts
+
++ Newer, cleaner technology could employ more people than the old system
+
++ Lots of complicated feedbacks to consider...
+
+<br>
+
+QUESTIONS ON THIS?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[**Federal Air Pollution Regulations**]
+
+.size35[
++ Air Pollution Control Act (1955)
+
++ Clean Air Act (1963)
+
++ The Air Quality Act (1967)
+
++ Clean Air Act Amendments (1970)
+
++ Clean Air Act Amendments (1977)
+
++ Clean Air Act Amendments (1990)
+]
+
+???
+
+For today I assigned you a collection of readings that we can treat as a crash course in the Clean Air Act (CAA).
+
+What we'll refer to as the CAA is actually a reference to a series of laws (and amendments) over time.
+
+While many of these laws include policy approaches beyond the C&C (taxes, subsidies, markets) we're focusing on today, this gives us plenty to explore. 
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+US Environmental Protection Agency. (2013, Mar 22). The Clean Air Act in a Nutshell: How It Works. [Link](https://www.epa.gov/clean-air-act-overview/clean-air-act-nutshell-how-it-works)
+]
+
+???
+
+Everybody open up the "The Clean Air Act in a Nutshell: How It Works" document produced by the EPA.
+
+I want to use the regulations described in this document to both:
+
+1. help us clarify our understanding of C&C regulations, AND 
+
+2. expose us to a bunch of different environmental regulations operating in the US today.
+
+--
+
+<br>
+
+.size55[.center[.content-box-blue[**Identify specific C&C regulations in the CAA**]]]
+
+???
+
+<br>
+
+Ok, Let's go through this document to build a list of C&C regulation examples on the board.
+
+WHAT SPECIFIC REGULATIONS HAS THE CAA ESTABLISHED TO IMPROVE AIR QUALITY IN AMERICA?
+
++ GIVE ME EXAMPLES: TARGETS AND METHODS USED?
+
+<br>
+
+*ON BOARD*
+
+- ?
+
+<br>
+
+So, how well has it worked?
+
+
+
+---
+
+background-image: url('libs/Images/10-1-1970s_Air_Pollution.webp')
+background-size: 90%
+background-position: center
+
+???
+
+Per the WHO, PM is a common proxy indicator for air pollution. 
+
++ It affects more people than any other pollutant. 
+
++ The major components of PM are sulfate, nitrates, ammonia, sodium chloride, black carbon, mineral dust and water. 
+
++ Chronic exposure to particles contributes to the risk of developing cardiovascular and respiratory diseases, as well as of lung cancer.
+
++ This means at high levels it tends to correlate with serious decreases in life expectancy.
+
+<br>
+
+WHO guidelines for 2021 break PM into coarse PM (< 10 microns) and fine PM (< 2.5 microns)
+
+The guideline is to keep Fine PM below 15 micrograms and coarse PM below 45. (annual means)
+
+So, all the circles on this map far exceed WHO danger thresholds.
+
+
+
+---
+
+background-image: url('libs/Images/10-1-WP-PM_US_Map_2014.webp')
+background-size: 64%
+background-position: center
+class: center
+
+???
+
+The research has been fairly resounding that air quality standards have improved dramatically over time.
+
+You can see impressive improvements since the 1970s in this plot.
+
+Notes of caution:
+
++ Too much red still on this map in areas above the WHO danger threshold, and
+
++ Over the last few years things have stopped improving. Not quite getting worse but with so much red on this map we need to keep making progress!
+
+### Notes
++ EPA PM tracking plots across time
++ https://www.epa.gov/air-trends/particulate-matter-pm25-trends#pmnat
+
+
+
+---
+
+background-image: url('libs/Images/10-1-RFF-GDP_vs_Pollution.png')
+background-size: 75%
+background-position: center
+class: center
+
+???
+
+All the while we've been using C&C regulations to address our air pollution problems our economy has kept growing!
+
+Here we see a visualization from Resources for the Future using data from the Federal Reserve.
+
+The question is, is this a coincidence or do we have research that shows environmental regulations don't hinder economic progress.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+Williamson, B. (2016, November 24). Do Environmental Regulations Really Work? *The Regulatory Review*. [Link](https://www.theregreview.org/2016/11/24/williamson-do-environmental-regulations-really-work/)
+]
+
+???
+
+SO, WHAT IS THE ANSWER TO THIS QUESTION ACCORDING TO BRYAN WILLIAMSON?
+
+(He summarizes the research of Shapiro and Walker that argues the answer is regulations!)
+
+<br>
+
+AND WHAT IS THE ARGUMENT MADE BY SHAPIRO AND WALKER FOR WHY THIS WORKED SO WELL?
+
++ By investing more capital in pollution control technology..., businesses had the capacity to produce more output while emitting fewer pollutants. Accordingly, this observation explains most of the air pollution reduction observed from 1990 to 2008.
+
++ To demonstrate the effectiveness of EPA’s Clean Air Act regulations, Shapiro and Walker also modeled carbon dioxide (CO 2 ), an air pollutant that EPA did not regulate during the study’s time period. EPA and Census data show that there was nearly no regulation of CO 2 from 1990 to 2008. In addition, CO 2 emissions did not noticeably change during this time period.
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-Shapiro_Walker-Fig5.png')
+background-size: 96%
+background-position: center
+class: middle
+
+???
+
+Their actual paper and model is pretty dense but I quite like this figure.
+
+They build a series of models that can simulate a counter-factual for emissions in the absence of the CAA.
+
+Assuming we trust their work, these figures show our actual emissions well below most of the counter-factual estimates!
+
+Cool, right???
+
+Maybe?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+Elliott, E. D. (2010). Lessons from Implementing the 1990 CAA Amendments. *Environmental Law Reporter News & Analysis*, 40, 10592.
+]
+
+???
+
+Let's jump to the Elliott article.
+
+From 1989 through 1991, Mr. Elliott served as General Counsel of the U.S. Environmental Protection Agency, where he was the primary legal advisor to EPA Administrator William Reilly. 
+
+This means he was deep in the heart of the work to amend the CAA in 1990.
+
+--
+
+<br>
+
+.size55[.center[.content-box-blue[**What advice can we take from Mr. Elliott to help you design your policy?**]]]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+Power, Stephen. (2010, Apr 17). Why the Clean Air Act May Be Past Its Prime. *The Wall Street Journal*. [Link](https://www.wsj.com/articles/SB10001424052702304620304575165722795673014)
+]
+
+???
+
+Last article for today.
+
+Let's consider this a series of "cons" arguments for thinking about the utility of C&C regulations.
+
+--
+
+<br>
+
+.size55[.center[.content-box-blue[**What are the strongest reasons we shouldn't use the CAA to fight climate change?**]]]
+
+???
+
++ regulators don't have to consider costs when setting pollution standards
++ Even some experts who think the law is beneficial say its implementation has been overly expensive:
++ Because the law is so rigid, they argue, innovative pollution-fighting ideas are sometimes stifled, driving up costs.
++ Other critics say the law has a big blind spot: It gives the Environmental Protection Agency too little authority to combat pollution from one state that drifts into another
++ Many state and local governments, meanwhile, grumble about another aspect of the law: Even when they ratchet down emissions in their backyard, they say, they still wind up violating federal standards, because of pollution that blows from other jurisdictions.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[
+**What are the pros and cons of using C&C regulations to address an environmental problem?**
+]
+
+???
+
+Let's end today with key takeaways.
+
+*ON BOARD*
+
+<br>
+
+Pros: 
+
+- Useful when the danger is most serious or time sensitive; 
+- when the problem/solution is well understood; 
+- when success demands compliance (flexibility is too risky), 
+- Clear lines of oversight and mechanisms of enforcement.
+
+Cons: 
+
+- Often inspires backlash (huge stakeholder opposition), 
+- government is often not great at "picking winners", 
+- offers no incentive to improve the quality of the environment beyond the standard set by a particular law, 
+- is inflexible, 
+- written by legislators and the EPA, and so they are subject to compromises in the political process, 
+- Almost certainly inefficient (slow to implement, slow to adapt, inconsistently enforced)
+
+<br>
+
+In a practical sense, what guidance can we offer practical policy-makers?
+
+- Depends on balance of "dirty" vs "clean" industries in the target economy
+- Must be paired with assistance
+- Is there any way to do this that isn't "big government" getting bigger? Easy to say shut down coal mining and we'll retrain those workers but in reality how would this work? Train for what? Forced relocation to jobs? Government picking winners and losers?
+- Proposed to discuss: C&C most realistic if changes are small OR industries carefully targeted.
+- Enforcement at the individual level is hard if community doesn't buy-in
 
 
 

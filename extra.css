@@ -72,10 +72,10 @@
 .content-box-purple,
 .content-box-red,
 .content-box-yellow {
-    border-radius: 15px;
-    margin: 0 0 25px;
+    border-radius: 10px;
+    margin: 0 0 10px;
     overflow: hidden;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
 .content-box-blue {

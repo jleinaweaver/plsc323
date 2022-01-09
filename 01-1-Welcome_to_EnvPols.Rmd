@@ -65,7 +65,7 @@ IS EVERYBODY IN THE RIGHT PLACE?
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-forest_v2.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -95,7 +95,7 @@ HOW MANY PEOPLE ARE HERE FOR THIS?
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-forest_v2.png')
 background-size: 100%
 background-position: center
 
@@ -536,8 +536,9 @@ Let me know if you have trouble using our Moodle site.
 background-image: url('libs/Images/01-1-ozarks_forest.jpg')
 background-size: 100%
 background-position: center
+class: bottom
 
-.size30[.content-box-green[**Friday: Why is "the wilderness" a serious problem?"**]]
+.right[.textwhite[.size60[**Why is "the wilderness" a serious problem for society?**]]]
 
 ???
 
