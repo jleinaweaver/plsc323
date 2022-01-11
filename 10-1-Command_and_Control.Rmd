@@ -53,8 +53,7 @@ Designing an Environmental Policy
 ## Prep for Class
 1. Put assignment details on Moodle (use more complete version on Google Doc)
 
-<br>
-
+2. Prep email with link to Google sheet for collecting case evidence
 
 
 ---
@@ -850,10 +849,7 @@ SO, WHAT IS THE ANSWER TO THIS QUESTION ACCORDING TO BRYAN WILLIAMSON?
 
 AND WHAT IS THE ARGUMENT MADE BY SHAPIRO AND WALKER FOR WHY THIS WORKED SO WELL?
 
-+ By investing more capital in pollution control technology..., businesses had the capacity to produce more output while emitting fewer pollutants. Accordingly, this observation explains most of the air pollution reduction observed from 1990 to 2008.
-
-+ To demonstrate the effectiveness of EPA’s Clean Air Act regulations, Shapiro and Walker also modeled carbon dioxide (CO 2 ), an air pollutant that EPA did not regulate during the study’s time period. EPA and Census data show that there was nearly no regulation of CO 2 from 1990 to 2008. In addition, CO 2 emissions did not noticeably change during this time period.
-
+(SLIDE)
 
 
 
@@ -866,11 +862,20 @@ class: middle
 
 ???
 
-Their actual paper and model is pretty dense but I quite like this figure.
+Walker and Shapiro argue:
 
-They build a series of models that can simulate a counter-factual for emissions in the absence of the CAA.
++ "By investing more capital in pollution control technology..., businesses had the capacity to produce more output while emitting fewer pollutants. Accordingly, this observation explains most of the air pollution reduction observed from 1990 to 2008."
 
-Assuming we trust their work, these figures show our actual emissions well below most of the counter-factual estimates!
++ They build a series of models that can simulate a counter-factual for emissions in the absence of the CAA. These show that in the absence of the regs, emissions much higher!
+
++ "To demonstrate the effectiveness of EPA’s Clean Air Act regulations, Shapiro and Walker also modeled carbon dioxide (CO 2 ), an air pollutant that EPA did not regulate during the study’s time period. EPA and Census data show that there was nearly no regulation of CO 2 from 1990 to 2008. In addition, CO 2 emissions did not noticeably change during this time period."
+
+<br>
+
+### Notes
+
+The actual Shapiro and Walker article is CRAZY dense econometrics
+
 
 Cool, right???
 
@@ -929,7 +934,7 @@ Let's consider this a series of "cons" arguments for thinking about the utility 
 
 <br>
 
-.size55[.center[.content-box-blue[**What are the strongest reasons we shouldn't use the CAA to fight climate change?**]]]
+.size55[.center[.content-box-blue[**What are the strongest reasons the CAA might not be the right tool going forward?**]]]
 
 ???
 
@@ -949,7 +954,9 @@ background-position: center
 class: middle, center
 
 .size60[
-**What are the pros and cons of using C&C regulations to address an environmental problem?**
+**Key Takeaways**
+
+What are the pros and cons of using C&C regulations to address an environmental problem?
 ]
 
 ???
@@ -976,33 +983,32 @@ Cons:
 - written by legislators and the EPA, and so they are subject to compromises in the political process, 
 - Almost certainly inefficient (slow to implement, slow to adapt, inconsistently enforced)
 
-<br>
-
-In a practical sense, what guidance can we offer practical policy-makers?
-
-- Depends on balance of "dirty" vs "clean" industries in the target economy
-- Must be paired with assistance
-- Is there any way to do this that isn't "big government" getting bigger? Easy to say shut down coal mining and we'll retrain those workers but in reality how would this work? Train for what? Forced relocation to jobs? Government picking winners and losers?
-- Proposed to discuss: C&C most realistic if changes are small OR industries carefully targeted.
-- Enforcement at the individual level is hard if community doesn't buy-in
-
-
 
 
 ---
 
 class: middle, slideblue
 
-.size60[**For Thursday**]
+.size50[**Thursday: Command & Control Cases**]
 
 .size40[
-Find a real world example of this approach (command and control regulations) being used to address an environmental problem similar to the one you are working on in your project.
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
 
-Be ready to introduce us to your example with as much detail as you can find.
++ "Similar" in ANY of the specifics OR complications in your problem
 
-+ Stakeholders, complications, specific design and effectiveness?
++ What is the lesson for our new policy designs? 
 ]
 
 ???
+
+You don't have to find a case that looks exactly like yours in all ways.
+
+Aim is to find a C&C regulation that can help us think about designing a policy to deal with at least one of the important aspects of your problem.
+
++ Aspects meaning specifics or complications you previously identified in papers 1 and 2.
+
+Be ready to present your case AS AN ARGUMENT: This case shows that addressing issue X can be done using policy design Y.
+
+Submit a citation to your case evidence before class.
 
 QUESTIONS?

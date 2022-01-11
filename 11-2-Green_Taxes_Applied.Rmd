@@ -37,9 +37,7 @@ class: slideblue
 <br>
 
 .size50[.center[
-
-???
-
+Explore real world cases of "green" taxes addressing environmental problems
 ]]
 
 <br>
@@ -51,19 +49,34 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Remove submitted cases
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-blue_triangles_v2.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
 ???
+
+Let's keep our focus on the task of this third section of our class.
+
+Each week as we review each policy design option you need to make sure to keep your eye on the goal.
+
+Keep asking yourself, how would I use this policy approach to address my chosen problem?
+
+QUESTIONS?
 
 
 
@@ -72,16 +85,74 @@ class: middle
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size50[**Today: "Green" Tax Cases**]
 
 .size40[
-1. 
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
 
-2. 
++ "Similar" in ANY of the specifics OR complications in your problem
 
-3. 
++ What is the lesson for our new policy designs? 
 ]
 
 ???
 
-QUESTIONS?
+DOES EVERYBODY HAVE A CASE TO PRESENT AND DISCUSS TODAY?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55[**Best advice / things to remember when designing "green" taxes?**]
+
+???
+
+*ON BOARD*
+
+Let's work together to build a policy cheat sheet on the board.
+
+If you were designing a "green" tax to address an environmental problem what would you need to keep in mind?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-cartoon_measuring_smoke_stack.jpg')
+background-size: 100%
+background-position: center
+class: center
+
+???
+
+Ok, takeaways time.
+
+IN A PRACTICAL SENSE, WHAT GUIDANCE CAN WE OFFER PRACTICAL POLICY-MAKERS CONSIDERING "GREEN" TAXES TO SOLVE ENVIRONMENTAL PROBLEMS?
+
+<br>
+
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Green_taxation.jpg')
+background-size: 100%
+background-position: center
+class: center
+
+???
+
+Next week we explore our next policy design, green subsidies!
+
+Make sure you consolidate and clean up your notes from this week.
+
+You might end up making green taxes central to your paper!
