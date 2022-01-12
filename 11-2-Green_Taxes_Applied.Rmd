@@ -36,9 +36,11 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+.size55[.center[
 Explore real world cases of "green" taxes addressing environmental problems
 ]]
+
+<br>
 
 <br>
 
@@ -49,7 +51,7 @@ Explore real world cases of "green" taxes addressing environmental problems
 ???
 
 ## Prep for Class
-1. Remove submitted cases
+1. Review submitted cases
 
 
 
@@ -76,7 +78,7 @@ Each week as we review each policy design option you need to make sure to keep y
 
 Keep asking yourself, how would I use this policy approach to address my chosen problem?
 
-QUESTIONS?
+### Questions?
 
 
 
@@ -97,17 +99,16 @@ Find a real world example of this approach being used to address an environmenta
 
 ???
 
-DOES EVERYBODY HAVE A CASE TO PRESENT AND DISCUSS TODAY?
-
+### Does everybody have a case to present and discuss today?
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/11-1-Green_taxation_v2.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: top
 
 .size55[**Best advice / things to remember when designing "green" taxes?**]
 
@@ -119,32 +120,13 @@ Let's work together to build a policy cheat sheet on the board.
 
 If you were designing a "green" tax to address an environmental problem what would you need to keep in mind?
 
-
-
-
-
----
-
-background-image: url('libs/Images/10-1-cartoon_measuring_smoke_stack.jpg')
-background-size: 100%
-background-position: center
-class: center
-
-???
-
-Ok, takeaways time.
-
-IN A PRACTICAL SENSE, WHAT GUIDANCE CAN WE OFFER PRACTICAL POLICY-MAKERS CONSIDERING "GREEN" TAXES TO SOLVE ENVIRONMENTAL PROBLEMS?
-
-<br>
-
 - ?
 
 
 
 ---
 
-background-image: url('libs/Images/11-1-Green_taxation.jpg')
+background-image: url('libs/Images/12-1-Green_Subsidies.jpg')
 background-size: 100%
 background-position: center
 class: center
