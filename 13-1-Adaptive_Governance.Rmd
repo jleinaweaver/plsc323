@@ -793,6 +793,8 @@ class: middle, inverse
 
 #### - What do these conditions mean for the conclusions we can draw by studying them?
 
+(- Can't automatically apply to international problems)
+
 
 
 ---
@@ -823,7 +825,9 @@ class: middle, inverse
 
 #### - How long has this commons been successfully managed in this way?
 
+<br>
 
+### Any concerns about making inferences from these cases?
 
 
 ---
@@ -845,69 +849,108 @@ class: top, inverse
 
 ---
 
-Notes on the 8 principles
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-SLIDE: The first principle is that successful CPRs have clearly defined boundaries
+.center[.size55[**Ostrom's Design Principles**]]
 
+.size40[
+1. Clearly defined boundaries.
+2. Congruence between appropriation / provision rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/13-1-farm_fence_v2.png')
+background-size: 100%
+background-position: center
+class: top, center, inverse
+
+.textwhite[.size60[**1. Clearly Defined Boundaries**]]
+
+???
+
+The first principle is that successful CPRs have clearly defined boundaries
 
 Two elements:
 1. Clearly define who has the right to withdraw resource units from the CPR.
 2. Clearly define the boundaries of the CPR itself.
 
-
 - Why is this principle important?
-
 
 Ostrom argues we must label who the “outsiders” are and agree on what is included in the CPR.
 - If anyone can come along and appropriate CPR resources, what incentive do you have to sacrifice for the future?
 
 
 
+---
 
-SLIDE: Second principle, successful CPRs Match Rules to Local Conditions
+background-image: url('libs/Images/13-1-Philippines_rice_terraces.jpg')
+background-size: 100%
+background-position: bottom
+class: top, center, inverse
 
+.textwhite[.size50[**2. Match Rules to Local Conditions**]]
+
+???
+
+Second principle, successful CPRs Match Rules to Local Conditions
 
 Ostrom examined water problems in four garden areas in Spain (huertas).
 - All users had to pay fees for access to water.
 - HOWEVER, fees indexed to local demand and supply of water.
 
-
 In those huertas where water was more available (e.g. more rain this season), fees were lower.
-
 
 - Why is this a useful design principle?
 (Flexibility to local conditions might make people feel they are not being ruled by an unreasonable entity)
 (Might make compliance better if people feel fairly treated.)
 
-
 - Why might implementing this principle cause problems?
-
 
 (1. There will likely be debate about what the local conditions imply.)
 - If I want low fees, I will use this principle as the basis of my argument.
-
 
 (2. Different rules for different people using the same CPR could lead to huge dissatisfaction.)
 
 
 
 
-SLIDE: Third principle, successful CPRs have inclusive Collective-Choice Arrangements
+---
 
+background-image: url('libs/Images/13-1-farmers_collective.jpg')
+background-size: 100%
+background-position: center
+class: top, center, inverse
+
+.textwhite[.size50[**3. Collective-Choice Arrangements**]]
+
+???
+
+Third principle, successful CPRs have inclusive Collective-Choice Arrangements
 
 Rules not created and maintained by some external authority.
 - The appropriators themselves participate in making the operational rules.
 
-
 - Why is this a useful design principle?
 (Make the people whose behavior you need to change feel ownership of the process = better compliance?)
-
 
 - In what ways could this principle create big problems?
 (1. The bigger the group, the harder it is to make collective decisions.)
 (2. Big disconnect possible between winners and losers from resource use.)
 (3. Difficulty of understanding the science means not everyone has an informed opinion.)
-
 
 - Should everyone interested in the CPR get a vote or just a certain subset of users? 
 -- What about kids who will inherit the farm?
@@ -915,36 +958,50 @@ Rules not created and maintained by some external authority.
 
 
 
-SLIDE: Fourth principle, successful CPRs arrange for monitoring
+---
 
+background-image: url('libs/Images/13-1-water_testing.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.textwhite[.size50[**4. Monitoring**]]
+
+???
+
+Fourth principle, successful CPRs arrange for monitoring
 
 Monitors must:
 1. Actively audit CPR conditions AND 
 2. Should either be the appropriators themselves or be fully accountable to them.
 
-
 - In what ways could this principle create big problems?
-
 
 (1. Establishing monitors’ and scientists’ independence from appropriators; Must be able to trust their work.)
 (2. Uncertainty about what to monitor.)
-
 
 Who here has a job?
 - If you don't do what your boss asked or have to give her bad news, how do you do it?
 
 
 
+---
 
-SLIDE: Fifth principle, successful CPRs have graduated sanctions
+background-image: url('libs/Images/13-1-slap-on-wrist.jpg')
+background-size: 80%
+background-position: center
+class: bottom, center, inverse
 
+.textwhite[.size50[**5. Graduated Sanctions**]]
+
+???
+
+Fifth principle, successful CPRs have graduated sanctions
 
 Rule breakers must be punished, but the punishment should fit the crime.
 - e.g. first offense or accidental rule breaking may require small punishments only to keep people on track.
 
-
 The punishment should be imposed by the other appropriators or by officials accountable to them.
-
 
 - In what ways could this principle create big problems?
 (1. How to agree the appropriate level of penalty amongst the appropriators?)
@@ -955,8 +1012,18 @@ The punishment should be imposed by the other appropriators or by officials acco
 
 
 
-SLIDE: Sixth principle, successful CPRs have Conflict-Resolution Mechanisms
+---
 
+background-image: url('libs/Images/13-1-mediation.png')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.textwhite[.size50[**6. Conflict-Resolution Mechanisms**]]
+
+???
+
+Sixth principle, successful CPRs have Conflict-Resolution Mechanisms
 
 Rapid access to low-cost local arenas to resolve conflicts.
 - Full trial is very costly and time-consuming, not needed for many disputes.
@@ -964,11 +1031,20 @@ Rapid access to low-cost local arenas to resolve conflicts.
 
 
 
-SLIDE: Seventh principle, successful CPRs have Minimal Recognition of Rights to Organize
+---
 
+background-image: url('libs/Images/13-1-right-to-organize.jpg')
+background-size: 85%
+background-position: center
+class: bottom, center
+
+.size50[.content-box-grey[**7. Recognition of Rights to Organize**]]
+
+???
+
+Seventh principle, successful CPRs have Minimal Recognition of Rights to Organize
 
 Local areas must be empowered to make rules the central government will not overrule.
-
 
 - Why is this a vital principle?
 (If locals can appeal to central government to overrule the CPRs rules, then the local rules are meaningless.)
@@ -976,8 +1052,18 @@ Local areas must be empowered to make rules the central government will not over
 
 
 
-SLIDE: Eighth principle, successful CPRs have Nested Enterprises
+---
 
+background-image: url('libs/Images/13-1-nested_levels.png')
+background-size: 80%
+background-position: center
+class: bottom, center
+
+.size50[.content-box-grey[**8. Nested Enterprises**]]
+
+???
+
+Eighth principle, successful CPRs have Nested Enterprises
 
 For CPRs part of larger systems, all of the important stuff is organized in levels.
 - Provision, monitoring, enforcement, arbitration done at the level appropriate to the problem.
@@ -985,8 +1071,27 @@ For CPRs part of larger systems, all of the important stuff is organized in leve
 
 
 
-SLIDE: Ostrom’s Design Principles
+---
 
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[**Ostrom's Design Principles**]]
+
+.size40[
+1. Clearly defined boundaries.
+2. Congruence between appropriation / provision rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+]
+
+???
 
 Think about the environmental problems you’ve been working on.
 - Most of these will have a certain dynamics like a CPR.
@@ -996,8 +1101,6 @@ Think about the environmental problems you’ve been working on.
 
 
 - Which of these principles would be the easiest to implement? Why?
-
-
 
 
 Overall, what do you think? Is this a good plan to save the commons?
@@ -1012,17 +1115,6 @@ Overall, what do you think? Is this a good plan to save the commons?
 - Any we probably don’t need?
 
 
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v2.png')
-background-size: 100%
-background-position: center
-
-???
 
 ### So, where do we end up on the question of using adaptive governance as a policy tool for addressing environmental problems?
 
