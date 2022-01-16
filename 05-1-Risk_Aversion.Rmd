@@ -83,7 +83,7 @@ class: middle, slideblue
 
 Today we start into the second section of our class.
 
-KEY TAKEAWAYS FROM SECTION 1?
+### Key takeaways from Section 1?
 
 (- Define your concepts)
 (- Identify stakeholders and what they want)
@@ -120,13 +120,13 @@ knitr::include_graphics("libs/Images/05-1-penny.jpg")
 
 * Distribute pennies *
 
-LET’S START WITH THIS, WHAT IS THE PROBABILITY OF GETTING HEADS WHEN YOU FLIP A PENNY?
+### Let’s start with this, what is the probability of getting heads when you flip a penny?
 
-- HOW DO YOU KNOW?
+#### - How do you know?
 
 <br>
 
-ASSUMING A PROBABILITY OF 50%, HOW MANY HEADS WOULD YOU EXPECT IF I ASKED YOU TO FLIP YOUR COIN TEN TIMES?
+### Assuming a probability of 50%, how many heads would you expect if i asked you to flip your coin ten times?
 
 + (5)
 
@@ -165,9 +165,9 @@ p1
 
 ???
 
-WHAT DO WE LEARN FROM OUR EXPERIMENT? 
+### What do we learn from our experiment? 
 
-+ WAS OUR ESTIMATE OF THE PROBABILITY OF GETTING HEADS WRONG OR DID WE DO OUR EXPERIMENT WRONG?
+#### + Was our estimate of the probability of getting heads wrong or did we do our experiment wrong?
 
 <br>
 
@@ -195,13 +195,13 @@ p1 +
 
 ???
 
-GIVEN THIS RESULT, WHAT IS THE PROBABILITY OF HEADS USING OUR PENNIES?
+### Given this result, what is the probability of heads using our pennies?
 
 <br>
 
 Ok, let's make sure we're clear.
 
-BASED ON THIS EXERCISE, I WANT YOU TO DEFINE THE WORD PROBABIILITY FOR ME.
+### Based on this exercise, i want you to define the word probabiility for me.
 
 (The probability is the likelihood of an event over the long run.)
 
@@ -220,7 +220,7 @@ background-position: center
 
 Think about this as it relates to the weather.
 
-WHEN THE WEATHER PERSON TELLS YOU THERE IS A 25% CHANCE OF RAIN TODAY, WHAT DOES THAT ACTUALLY MEAN?
+### When the weather person tells you there is a 25% chance of rain today, what does that actually mean?
 
 (They ran a fancy computer simulation of today a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't)
 
@@ -228,11 +228,11 @@ This is what it means to say there is a 25% chance of rain.
 
 If you lived this day one hundred times, it would rain approximately 25 times.
 
-SO, WHAT DOES THIS MEAN FOR US, A GROUP OF PEOPLE WHO WILL ONLY LIVE TODAY ONE TIME?
+### So, what does this mean for us, a group of people who will only live today one time?
 
 <br>
 
-WHEN THE WEATHER PERSON TELLS YOU THERE IS A 50% CHANCE OF RAIN TODAY, WHAT DOES THAT ACTUALLY MEAN?
+### When the weather person tells you there is a 50% chance of rain today, what does that actually mean?
 
 + (It rained in half of the simulations)
 
@@ -240,7 +240,7 @@ WHEN THE WEATHER PERSON TELLS YOU THERE IS A 50% CHANCE OF RAIN TODAY, WHAT DOES
 
 <br>
 
-DON’T WORRY ABOUT THE MATH, JUST TELL ME, DOES THE INTUITION OF PROBABILITIES MAKE SENSE?
+### Don’t worry about the math, just tell me, does the intuition of probabilities make sense?
 
 The likelihood of an event over the long run.
 
@@ -307,9 +307,9 @@ ON BOARD (2 cols: $5 game, $100 game)
 
 Let's compare and contrast these amounts.
 
-WHAT DO WE LEARN FROM THESE ANSWERS?
+### What do we learn from these answers?
 
-+ IS THERE A CORRECT ANSWER?
+#### + Is there a correct answer?
 
 <br>
 
@@ -323,9 +323,9 @@ Not right or wrong, just different willingness to risk.
 
 <br>
 
-WHY AREN'T ALL THE NUMBERS IN THE $100 GAME EXACTLY 20 TIMES THE ANSWERS IN THE $5 GAME COLUMN?
+### Why aren't all the numbers in the $100 game exactly 20 times the answers in the $5 game column?
 
-- WHAT DOES ALL THIS TELL US ABOUT HUMAN DECISION-MAKING?
+#### - What does all this tell us about human decision-making?
 
 <br>
 
@@ -352,15 +352,15 @@ Important note: this is not just about games of chance.
 
 Your decision-making is constantly influenced by your feelings about risk.
 
-WHO HERE HAS A CAR?
+### Who here has a car?
 
-HOW DO STOP LIGHTS ILLUSTRATE DIFFERENT PEOPLES' LEVELS OF RISK AVERSION?
+### How do stop lights illustrate different peoples' levels of risk aversion?
 
 Run a red light and get home faster (value!), BUT some probability of getting pulled over or an accident or hurting someone...
 
 <br>
 
-ANY QUESTIONS ABOUT PROBABILITIES OR RISK AVERSION?
+### Any questions about probabilities or risk aversion?
 
 Let's now shift to the readings for today.
 
@@ -379,7 +379,7 @@ Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumptio
 
 ???
 
-WHICH PERSPECTIVE ON RISK DOES THE EHRLICH AND EHRLICH PIECE REPRESENT? RISK ACCEPTANCE OR AVERSION?
+### Which perspective on risk does the Ehrlich and Ehrlich piece represent? Risk acceptance or aversion?
 
 (Aversion!)
 
@@ -439,13 +439,13 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 Let's jump to the second article.
 
 
-WHICH PERSPECTIVE ON RISK DOES THE SIMON PIECE REPRESENT? RISK ACCEPTANCE OR AVERSION?
+### Which perspective on risk does the Simon piece represent? Risk acceptance or aversion?
 
 (Acceptance!)
 
 <br>
 
-AND WHAT IS THE CONCLUSION OF THE ARTICLE?
+### And what is the conclusion of the article?
 
 (?)
 
@@ -492,15 +492,15 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 
 ???
 
-BOTTOM LINE, WHICH SIDE IS MORE CONVINCING TO YOU? WHY?
+### Bottom line, which side is more convincing to you? Why?
 
 <br>
 
-IS YOUR FEELING ON THIS CONSISTENT WITH YOUR RISK LEVEL AS DETERMINED BY OUR GAME TO START CLASS?
+### Is your feeling on this consistent with your risk level as determined by our game to start class?
 
 <br>
 
-IS EVERYBODY CLEAR ON HOW DIFFERING LEVELS OF RISK AVERSION COMPLICATE ENVIRONMENTAL PROBLEM-SOLVING?
+### Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?
 
 
 
@@ -525,7 +525,7 @@ In what specific ways does risk, uncertainty, collective action problems and une
 
 Each week in section 2 of the class we will focus on one of these complications.
 
-ANY QUESTIONS ON THE PAPER ASSIGNMENT?
+### Any questions on the paper assignment?
 
 <br>
 
@@ -565,4 +565,4 @@ Submit the citation to your case before class.
 
 Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
 
-QUESTIONS?
+### Questions?

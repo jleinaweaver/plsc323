@@ -77,7 +77,7 @@ class: middle, slideblue
 
 ???
 
-ANY QUESTIONS ON THE ASSIGNMENT?
+### Any questions on the assignment?
 
 
 
@@ -97,4 +97,4 @@ class: middle, slideblue
 
 ???
 
-QUESTIONS?
+### Questions?

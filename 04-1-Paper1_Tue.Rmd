@@ -107,7 +107,7 @@ class: middle, slideblue
 
 ???
 
-ANY QUESTIONS ON THE ASSIGNMENT?
+### Any questions on the assignment?
 
 
 
@@ -131,7 +131,7 @@ class: middle
 
 ???
 
-EVERYBODY READY TO GO WITH THEIR CASES?
+### Everybody ready to go with their cases?
 
 <br>
 
@@ -171,4 +171,4 @@ What kind of data do you need to measure this? How many different ways could we 
 
 Assignment for Tuesday: Go find us that data
 
-QUESTIONS?
+### Questions?

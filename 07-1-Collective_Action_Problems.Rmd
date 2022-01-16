@@ -75,13 +75,13 @@ class: middle, center
 
 ???
 
-ANYBODY TAKE A STAB AT EXPLAINING THIS IN ENGLISH?
+### Anybody take a stab at explaining this in english?
 
 <br>
 
 On second thought, maybe this still isn't very clear.
 
-HAS ANYBODY EVER HEARD OF THE PRISONER'S DILEMMA?
+### Has anybody ever heard of the prisoner's dilemma?
 
 
 
@@ -210,13 +210,13 @@ We get to a single box once we know the decision of each player.
 
 <br>
 
-SO, IN THIS POSITION WHAT WOULD YOU DO AND WHY?
+### So, in this position what would you do and why?
 
 *Force discussion of each option*
 
 <br>
 
-WHAT PIECES OF CONTEXT WOULD INFLUENCE HOW YOU THINK ABOUT THE DECISION? 
+### What pieces of context would influence how you think about the decision? 
 
 (e.g. other suspect your best friend or just some guy? How much evidence do the cops already have? Do you already have a record?)
 
@@ -281,17 +281,17 @@ Finding the Nash Equilibrium means thinking about your choice as if  you had per
 
 <br>
 
-SO, IF YOU KNEW FOR CERTAIN THE OTHER ROBBER WOULD STAY SILENT, WHAT WOULD YOU DO?
+### So, if you knew for certain the other robber would stay silent, what would you do?
 
-+ WOULD YOU PICK 2 YEARS IN JAIL OR TO GO FREE? 
+#### + Would you pick 2 years in jail or to go free? 
 
 *Think of your elderly parents and 16 children!*
 
 <br>
 
-ON THE OTHER HAND, WHAT IF YOU KNEW FOR CERTAIN THEY WERE GOING TO CONFESS, WHAT WOULD YOU CHOOSE?
+### On the other hand, what if you knew for certain they were going to confess, what would you choose?
 
-+ WHAT WOULD YOU DO IF YOU KNEW THEY WERE GOING TO SELL YOUR ASS OUT?
+#### + What would you do if you knew they were going to sell your ass out?
 
 <br>
 
@@ -349,7 +349,7 @@ Since both dominant strategies lead to only one outcome, that outcome is called 
 
 Given the structure of this game and its uncertainty, both robbers should choose to confess regardless of what the other does.
 
-MAKE SENSE?
+### Make sense?
 
 Now, back to the definition!
 
@@ -366,9 +366,9 @@ class: middle, center
 
 ???
 
-NOW DO WE HAVE A BETTER SENSE OF WHAT THIS DEFINITION IS TALKING ABOUT?
+### Now do we have a better sense of what this definition is talking about?
 
-- HOW DOES OUR PD GAME ILLUSTRATE THE COLLECTIVE ACTION PROBLEM?
+#### - How does our PD game illustrate the collective action problem?
 
 Collective action problems arise when individuals want to cooperate but can't seem to get there because of the complexities of the world.
 
@@ -390,9 +390,9 @@ Hardin, G. (1968). The Tragedy of the Commons. *Science*. 162(3859), 1243–1248
 
 For today I had you read a short excerpt from Garret Hardin’s "Tragedy of the Commons."
 
-- EVERYBODY HAVE THE READING?
+#### - Everybody have the reading?
 
-- ANYBODY EVER READ THIS BEFORE?
+#### - Anybody ever read this before?
 
 <br>
 
@@ -427,7 +427,7 @@ SO, hold off on that piece of this article!
 
 Ok, let's talk about the "commons" concept here.
 
-CAN ANYBODY DEFINE THE "COMMONS" PART OF THE "TRAGEDY OF THE COMMONS"?
+### Can anybody define the "commons" part of the "tragedy of the commons"?
 
 (SLIDE)
 
@@ -454,13 +454,13 @@ class: bottom
 
 Here is the definition of a commons as provided by Oran Young.
 
-WHAT SPECIFIC RESOURCES DOES THIS DEFINITION REFER TO?
+### What specific resources does this definition refer to?
 
 Think oceans, seabed minerals, Antarctica and the atmosphere.
 
 None exist within the borders of any sovereign state.
 
-ANY QUESTIONS ON THE BASELINE CONCEPT?
+### Any questions on the baseline concept?
 
 
 
@@ -474,15 +474,15 @@ background-position: center
 
 The tragedy of the commons is typically explained using a story about a pasture.
 
-WHO OWNS THIS PASTURE?
+### Who owns this pasture?
 
 (- No one?)
 (- Everyone?)
 (- Both?)
 
-DOES IT MAKE SENSE THAT IF NO ONE OWNS THE PASTURE, EVERYONE OWNS IT?
+### Does it make sense that if no one owns the pasture, everyone owns it?
 
-- DOES THAT EQUIVALENCY MAKE SENSE?
+#### - Does that equivalency make sense?
 
 
 
@@ -498,7 +498,7 @@ For the sake of this discussion, all of you are ranchers who own herds of cattle
 
 On this commons you all choose to graze your cattle.
 
-WHY WOULD YOU CHOOSE TO GRAZE YOUR CATTLE ON THE COMMONS PASTURE AND NOT YOUR OWN LAND?
+### Why would you choose to graze your cattle on the commons pasture and not your own land?
 
 (maximize benefits by not having to pay to feed them!)
 
@@ -506,7 +506,7 @@ WHY WOULD YOU CHOOSE TO GRAZE YOUR CATTLE ON THE COMMONS PASTURE AND NOT YOUR OW
 
 So, let's go back to the problematic equivalency from a moment ago.
 
-WHO ACTUALLY PAYS TO FEED YOUR CATTLE?
+### Who actually pays to feed your cattle?
 
 + (Everyone)
 + (plus the environment and the public)
@@ -531,10 +531,10 @@ Let's put this in the language of simple cost-benefit analysis.
 
 We should expect each of you to add a cow to your herd when the benefits outweigh the costs.
 
-WHAT ARE THE BENEFITS OF ADDING A COW TO YOUR HERD?
+### What are the benefits of adding a cow to your herd?
 (Milk or meat, reproduction, friendship...)
 
-WHAT ARE THE COSTS?
+### What are the costs?
 (Feed, care, housing)
 
 
@@ -559,7 +559,7 @@ To keep things simple, let's say each of you currently face the following decisi
 
 The hypothetical costs and benefits of adding a cow to your herd is almost perfectly off-setting. 
 
-IN THIS INSTANCE, SHOULD YOU ADD A COW TO YOUR HERD? WHY OR WHY NOT?
+### In this instance, should you add a cow to your herd? Why or why not?
 
 <br>
 
@@ -571,7 +571,7 @@ IN THIS INSTANCE, SHOULD YOU ADD A COW TO YOUR HERD? WHY OR WHY NOT?
 
 Now, what happens to the CBA when we add a cow to the commons?
 
-HOW DOES USING THE COMMONS TO FEED YOUR NEW COW ALTER YOUR CBA?
+### How does using the commons to feed your new cow alter your CBA?
 
 (SLIDE)
 
@@ -605,18 +605,18 @@ knitr::include_graphics('libs/Images/07-1-Cow.webp')
 
 ???
 
-WHY DON'T THE BENEFITS CHANGE?
+### Why don't the benefits change?
 
 <br>
 
-EXPLAIN THE 1/X TO ME IN THE COSTS OF ADDING A COW TO THE COMMONS.
+### Explain the 1/x to me in the costs of adding a cow to the commons.
 
 (X is the population size)
 
 - Costs shared amongst everyone
 - The commons loses 1, but that cost is divided amongst the owners of the commons e.g. everybody.
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
 
 Important distinction here: Society pays MOST of the costs of feeding your cattle.
 
@@ -624,13 +624,13 @@ Important distinction here: Society pays MOST of the costs of feeding your cattl
 
 <br>
 
-SO, IF YOU ARE THE ONLY PERSON AROUND, SHOULD YOU ADD A COW TO THE COMMONS?
+### So, if you are the only person around, should you add a cow to the commons?
 
 (Takes us back to the previous +1 + -1 = 0.)
 
 <br>
 
-WHAT HAPPENS TO THE COSTS YOU FACE AS THE POPULATION AROUND YOU GETS BIGGER?
+### What happens to the costs you face as the population around you gets bigger?
 
 (Your share of the cost shrinks to almost nothing)
 
@@ -638,12 +638,12 @@ WHAT HAPPENS TO THE COSTS YOU FACE AS THE POPULATION AROUND YOU GETS BIGGER?
 
 <br>
 
-SO, WHAT IS THE BOTTOM LINE HERE? WHEN SHOULD YOU ADD A COW TO YOUR HERD?
+### So, what is the bottom line here? when should you add a cow to your herd?
 
 + (When there is a commons to feed it)
 + (When there are a lot of other people also using it)
 
-AND WHAT DOES ALL OF THIS MEAN FOR THE SURVIVAL OF THE COMMONS?
+### And what does all of this mean for the survival of the commons?
 
 (SLIDE)
 
@@ -660,7 +660,7 @@ class: middle
 
 It's toast in the long-run.
 
-WHY DOES HARDIN REFER TO THIS AS A TRAGEDY? IS IT BECAUSE HE’S AN ENVIRONMENTALIST AND THE STORY IS SAD?
+### Why does Hardin refer to this as a tragedy? Is it because he’s an environmentalist and the story is sad?
 
 --
 
@@ -688,7 +688,7 @@ It does what it must based on its design without thought or compunction (e.g. gu
 
 <br>
 
-WHY DOES HARDIN BELIEVE THE RANCHERS CANNOT HELP THEMSELVES, EVEN WHEN THEY KNOW WHAT WILL HAPPEN?
+### Why does Hardin believe the ranchers cannot help themselves, even when they know what will happen?
 
 (SLIDE)
 
@@ -715,7 +715,7 @@ class: middle
 
 ???
 
-ANY QUESTIONS ON THE TRAGEDY OF THE COMMONS STORY?
+### Any questions on the tragedy of the commons story?
 
 <br>
 
@@ -738,11 +738,11 @@ class: middle
 
 ???
 
-PER HARDIN'S ARTICLE, HOW DOES THIS IMAGE REPRESENT A TRAGEDY OF THE COMMONS?
+### Per Hardin's article, how does this image represent a tragedy of the commons?
 
-- WHAT IS THE COMMONS HERE?
+#### - What is the commons here?
 
-- WHAT IS THE "USE" OF THE COMMONS?
+#### - What is the "use" of the commons?
 
 <br>
 
@@ -780,9 +780,9 @@ The takeaway for us is this.
 
 One serious form of collective action problem that complicates environmental problem-solving involves actions that benefit the individual that, in the aggregate, harm the community.
 
-DOES THIS MAKE SENSE?
+### Does this make sense?
 
-IS ANYBODY WORKING ON AN ENVIRONMENTAL PROBLEM THAT CLEARLY EXHIBITS THIS DYNAMIC IN ACTION?
+### Is anybody working on an environmental problem that clearly exhibits this dynamic in action?
 
 
 
@@ -822,15 +822,15 @@ His focus is on why using groups to achieve change is hard.
 
 <br>
 
-WHAT DID YOU GET FROM THE READING?
+### What did you get from the reading?
 
-- ANY BIG IDEAS JUMP OUT?
+#### - Any big ideas jump out?
 
-- ANY PARTS THAT MADE LITTLE TO NO SENSE WE COULD DISCUSS?
+#### - Any parts that made little to no sense we could discuss?
 
 <br>
 
-WHAT DOES OLSON'S ARGUMENT MEAN FOR OUR THEORIES OF DEMOCRACY THAT ASSUME INDIVIDUALS NEED GROUPS IN ORDER TO ACHIEVE CHANGE?
+### What does Olson's argument mean for our theories of democracy that assume individuals need groups in order to achieve change?
 
 
 
@@ -869,7 +869,7 @@ So, go find us good cases we can dig our teeth into.
 
 Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
 
-QUESTIONS?
+### Questions?
 
 
 
