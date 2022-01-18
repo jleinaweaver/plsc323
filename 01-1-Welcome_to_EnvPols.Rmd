@@ -253,11 +253,15 @@ background-image: url('libs/Images/02-2-politics1.png')
 background-size: 100%
 background-position: center
 
-.size40[.right[.content-box-blue[**Decision-making in a community**]]]
+.size35[.right[.content-box-blue[**Decision-making in a community**]]]
 
-.size40[.right[.content-box-blue[**How we make and enforce "the rules"**]]]
+<br>
 
-.size40[.right[.content-box-blue[**Who gets what, when and how?**]]]
+.size35[.right[.content-box-blue[**How we make and enforce "the rules"**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**Who gets what, when and how?**]]]
 
 ???
 
@@ -273,6 +277,7 @@ In essence, anytime a group of people have to come together to make a decision, 
 
 
 
+
 ---
 
 background-image: url('libs/Images/01-1-env_pols.jpg')
@@ -285,11 +290,11 @@ class: slidegreen
 .center[
 **What's going on in the world of environmental politics?**
 ]
-+ Local 
++ Global 
 
 + National
 
-+ Global
++ Local
 ]]
 
 ???
