@@ -182,6 +182,10 @@ Exceptions?
 - Class policies, not university policies (e.g. plagiarism) or laws (e.g. no murder)
 - Can't apply to the final exam
 
+All I ask is that the class reach a consensus on the outcome.
+
+- Once you have all agreed, let me know and I'll distribute the cards.
+
 I'll hang onto the cards up here and you tell me who to give them to.
 
 **That's it, that's the game. Go!**
@@ -360,9 +364,12 @@ Students should demonstrate the ability to communicate their policy proposals in
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
 
-# Semester in Three Sections 
+# The Semester: Three Sections 
 
 .size45[
 1. How do we approach environmental politics? (4 wks)
@@ -374,7 +381,32 @@ class: middle, slideblue
 
 ???
 
+Semester in three chunks.
 
+Each introduces a set of concepts, tools, and cases we can use to develop our skills as policy creators and analysts.
+
+Each section also leads to an assignment.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+
+# Your Project: Three Sections 
+
+### Paper 1
+.size30[Present the basics of an environmental problem you intend to focus on this term]
+
+### Paper 2
+.size30[Analyze the complicating factors related to that problem]
+
+### Paper 3
+.size30[Propose a specific policy to address the selected problem]
 
 
 
