@@ -36,7 +36,7 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+.size60[.center[
 
 Welcome to our local stakeholders working on environmental policy!
 
@@ -57,7 +57,32 @@ Welcome to our local stakeholders working on environmental policy!
 
 ---
 
-The who!
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[**Thursday**]
+
+## Kane Sheek
+.size40[
++ Sierra Club - White River Group
++ Ready for 100 Springfield Community Organizer
+]
+
+## Todd Wilkinson
+.size40[
++ James River Basin Partnership
++ Project Manager
+]
+
+???
+
+We have a few goals for our discussion on Thursday
+
+1. Familiarize ourselves with local environmental groups (stakeholders), and
+
+2. Gather some info to help us with our paper projects.
 
 
 

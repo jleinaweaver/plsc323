@@ -83,77 +83,129 @@ class: middle
 
 So far in our class we have been defining our key concepts to set us up for our work this term.
 
-Refresh my memory!
-
 ### What is our operating definition of "politics" in this class?
 + (Rooted in terms of societal actors, distributions and rule-making)
+    + We assume actors have preferences and puruse those preferences
+    + We assume rules matter although not always in the way they were designed
+    + We assume actors run into difficulty when they clash with other people
 
 <br>
 
 ### Per Cronon's article, what does the "environment" refer to?
 + The wilderness is a human construct and as currently defined it is hugely destructive
-+ Nature does not only exist in distant, pristine lands
-+ We are responsible for it everywhere and must own that
-+ Humans have always managed the wilderness, the test of "good" should not forget this.
+    + Nature does not only exist in distant, pristine lands
+    + We are responsible for it everywhere and must own that
+    + Humans have always managed the wilderness, the test of "good" should not forget this.
 
 <br>
 
-### Per the Munger chapter, what is "policy"?
-+ ("A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).)
+### And per the Munger chapter, what is "policy"?
+#### - What are our three takeaways?
+
+1. A definite course or method of action
+2. Compared to alternatives
+3. Adapted to "given conditions"
 
 
 
 ---
 
-background-image: url('libs/Images/01-1-ozarks_forest.jpg')
-background-size: 100%
+background-image: url('libs/Images/02-1-Munger_Fig2-1.png')
+background-size: 60%
 background-position: center
-class: middle, center, inverse
-
-.size55[**The "Politics" of the "Wilderness"**]
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-.size55[**"Environmental" "Policy-making"**]
-
+class: middle, slideblue
 
 ???
 
-Let's put this all together.
+On Tuesday we started digging into a textbook chapter by Munger meant for training policy analysts.
 
-### What are our takeaways so far for thinking about environmental problem-solving?
+### What does Munger want us to recognize with this figure?
 
-+ (Problem definitions and framing matters A TON!)
-    + If we all define the problem / goal too differently, no durable solution will be possible.
+(Battles over expertise are central to policy-making)
+
++ (Everyone agrees the "right" policy is the "wise" policy, but there are many types of "wisdom", or sources of accountability, and they tend to conflict with each other)
+
++ Experts vs Markets vs Politics
+
+<br>
+
+And, of course, I hope we come to see this as a useful way of organizing competing framings of a given policy dispute.
+
+Person A sees a gas station that pollutes the water of a poor community and Person B sees a market solution that will facilitate growth of our tax base and economy.
+
+Both are "wise" in their own terms but conflicting on each others' terms.
+
+<br>
+
+### Questions on this so far?
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-3.png')
+background-size: 55%
+background-position: center
+class: slideblue
+
+???
+
+We then jumped to Munger's Figure 2.3 Three Stages of Policy Choice.
+
+### For us novice policy-makers, what is the important takeaway here?
+
+(Every policy you design that is meant to change the behavior of other people must include three important arguments!)
+
+First you MUST MAKE AN ARGUMENT that we, meaning our community, have a problem.
+
+Second you MUST MAKE AN ARGUMENT that we should address this problem as a collective and not a private decision.
+
+AND
+
+Finally, you MUST MAKE AN ARGUMENT that this decision is best made using democratic processes or by delegating to experts.
+
+<br>
+
+That's three arguments you have to make BEFORE we've even begun talking about the design of your preferred policy action!
+
+<br>
+
+Important for us to realize the groundwork that must be completed before policy design truly comes into play.
+
+Solving community problems are not for the faint at heart.
+
+HOWEVER, if you lay the groundwork appropriately, the next steps become feasible!
+
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Munger_Fig2-4.png')
+background-size: 67%
+background-position: center
+class: slideblue
+
+???
+
+Finally, Munger wants us to understand the kinds of arguments we are going to see thrown around on a given issue in terms of these two dimensions.
+
+### What is the key, big picture observation for thinking about this 2x2 grid?
+
+#### - How do we figure out where a specific issue is supposed to go in the grid?
+
++ (Affecting your welfare is INCREDIBLY subjective)
+    + Anyone who tells you something is clearly about liberty or clearly about community harms is telling you about their personal values.
     
-+ (The environmental standards we aim for, e.g. how "clean" an environment we want, is entirely subjective.)
++ Figuring out an argument to move your opposition across boxes can be a big part of selling your policy
 
-+ (Human interactions with the environment happen at many small levels, so effective rules will need to be embraced by the community)
+<br>
 
-+ (Everyone agrees the "right" policy is the "wise" policy, but this Figure helps us acknowledge that there are competing ways to define "wise.")
-    + Experts vs Markets vs Politics
+This is our segue into the work today. 
 
-+ (Battles over expertise are central to policy-making)
+So, you've decided we may need a policy to solve an environmental problem.
 
-+ (Policy can only ever be as effective as the authority that compels the behavior) 
-
-+ (Any society with resource issues will deal with free-riding problems)
+Now how do we design it? 
 
 
 
