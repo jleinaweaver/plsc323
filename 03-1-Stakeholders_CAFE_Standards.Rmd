@@ -37,10 +37,11 @@ class: slideblue
 <br>
 
 .size45[
-+ Case Study: CAFE Standards in the USA
-
-+ Exploring the Role of Stakeholders in Policy-making
+The Role of Stakeholders in Policy-making
+- Case Study: US CAFE Standards
 ]
+
+<br>
 
 <br>
 
@@ -91,53 +92,40 @@ class: middle, center, inverse
 
 <br>
 
-.size55[**"Environmental" "Policy-making"**]
+.size55[**"Environmental" "Policy"**]
 
 
 ???
 
-### What are our takeaways so far for thinking about environmental problem-solving?
+So many important concepts on the slide here.
 
-+ (Cronon: Problem definitions and framing matters A TON!)
+### Ok, policy designers, what are the key lessons to keep in mind from our first two weeks of work?
+
+##### (Cronon on wilderness and environment)
++ (Problem definitions and framing matters A TON!)
     + If we all define the problem / goal too differently, no durable solution will be possible.
-    
-+ (Cronon: The environmental standards we aim for, e.g. how "clean" an environment we want, is entirely subjective.)
++ (The environmental standards we aim for, e.g. how "clean" an environment we want, is entirely subjective.)
 
-+ (Munger: Human interactions with the environment happen at many small levels, so effective rules will need to be embraced by the community)
-
-
-
-+ (Munger: Policy can only ever be as effective as the authority that compels the behavior) 
-
-+ (Munger: Any society with resource issues will deal with free-riding problems)
-
-AND... SLIDE
-
-
-
-
-### What is our operating definition of "politics" in this class?
-+ (Rooted in terms of societal actors, distributions and rule-making)
-    + We assume actors have preferences and puruse those preferences
-    + We assume rules matter although not always in the way they were designed
-    + We assume actors run into difficulty when they clash with other people
-
-<br>
-
-### Per Cronon's article, what does the "environment" refer to?
-+ The wilderness is a human construct and as currently defined it is hugely destructive
-    + Nature does not only exist in distant, pristine lands
-    + We are responsible for it everywhere and must own that
-    + Humans have always managed the wilderness, the test of "good" should not forget this.
-
-<br>
-
-### And per the Munger chapter, what is "policy"?
-#### - What are our three takeaways?
-
+##### (Websters Dictionary on policy)
 1. A definite course or method of action
 2. Compared to alternatives
 3. Adapted to "given conditions"
+
+##### (Munger on policy and the politics)
++ (Policy design fights are often fights about the right test of "wisdom") 
++ (Hungats: Policy can only ever be as effective as the authority that compels the behavior) 
++ (Hungats: Any society with resource issues will deal with free-riding problems)
++ (Stakeholder arguments reveal a great deal about how a person frames a problem in terms of the "right" wisdom and their feelings over individual vs collective and private vs public choices)
+
+##### (Domestic Processes of Problem-solving on the politics)
++ Hughes 2007
+    + Avoid letting strategies be presented as the problem; 
+    + Problems are neutral and don't typically need 'must' or 'should'
++ Kraft 2011
+    + The "right" pressure strategy depends on the stage of the process
++ C&P 2016
+    + a collaborative approach matters: Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+
 
 
 ---
@@ -149,6 +137,11 @@ background-position: center
 class: middle
 
 ???
+
+Today we use the fight over CAFE standards in the US as a pathway in to thinking critically about the role stakeholders play in environmental policy-making.
+
+
+
 
 While CAFE standards are interesting and continue to be debated as a pollution control / energy independence tool, our focus today is on analyzing the role of stakeholders and advocacy in policy-making.
 

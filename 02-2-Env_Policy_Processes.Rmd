@@ -83,11 +83,20 @@ class: middle
 
 So far in our class we have been defining our key concepts to set us up for our work this term.
 
+I know this has felt abstract so far this term.
+- Think of it like learning a new language.
+- We're learning the alphabet we'll need to get going on the work to come.
+
+So, keep at it and this will all become more concrete as we go.
+
+<br>
+
+Let's zip through these to keep it all fresh.
+
 ### What is our operating definition of "politics" in this class?
-+ (Rooted in terms of societal actors, distributions and rule-making)
-    + We assume actors have preferences and puruse those preferences
-    + We assume rules matter although not always in the way they were designed
-    + We assume actors run into difficulty when they clash with other people
++ Interests: We assume actors have preferences and pursue those preferences
++ Institutions: We assume rules matter although not always in the way they were designed
++ Interactions: We assume actors run into difficulty when they clash with other people
 
 <br>
 
@@ -96,11 +105,28 @@ So far in our class we have been defining our key concepts to set us up for our 
     + Nature does not only exist in distant, pristine lands
     + We are responsible for it everywhere and must own that
     + Humans have always managed the wilderness, the test of "good" should not forget this.
+    
+SLIDE: Policy
 
-<br>
 
-### And per the Munger chapter, what is "policy"?
-#### - What are our three takeaways?
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Policy Defined**]
+
+.size40[
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+]
+
+???
+
+### And what were the three key components of our dictionary definition of "policy"?
+#### - What do we need to ensure our policy designs include?
 
 1. A definite course or method of action
 2. Compared to alternatives
@@ -119,25 +145,27 @@ class: middle, slideblue
 
 On Tuesday we started digging into a textbook chapter by Munger meant for training policy analysts.
 
-### What does Munger want us to recognize with this figure?
+Now that you've had a couple days for this to simmer let's make sure we got what we needed out of this.
 
-(Battles over expertise are central to policy-making)
+### As a group of aspiring policy designers, what are the key lessons we can draw out of this figure?
 
-+ (Everyone agrees the "right" policy is the "wise" policy, but there are many types of "wisdom", or sources of accountability, and they tend to conflict with each other)
+1. Everyone agrees the "right" policy is the "wise" policy, but there are many types of "wisdom"
+    + Experts vs Markets vs Politics
+    + As you identify the stakeholders related to your chosen problem feel free to group them like this!
+    
+2. One way of analyzing a policy dispute is to think of it as a fight over choosing the "right" test
+    + All policy fights are battles over "wisdom"
 
-+ Experts vs Markets vs Politics
+3. When two "wisdoms" collide the figure shows you the most likely reasons for the dispute and the terms in which it is likely playing out.
+    + Politics vs Markets: How do we define and promote equity that benefits a community?
+    + Experts vs Markets: How do we promote greater efficiency of the market to the benefit of the community?
+    + Experts vs Politics: How do we reform the institutions to "improve" the function of our democracy?
 
 <br>
 
-And, of course, I hope we come to see this as a useful way of organizing competing framings of a given policy dispute.
+### Make sense?
 
-Person A sees a gas station that pollutes the water of a poor community and Person B sees a market solution that will facilitate growth of our tax base and economy.
-
-Both are "wise" in their own terms but conflicting on each others' terms.
-
-<br>
-
-### Questions on this so far?
+From this perspective all policy-making is a battle over which test of "wisdom" should be used to evaluate a policy
 
 
 
@@ -152,15 +180,13 @@ class: slideblue
 
 We then jumped to Munger's Figure 2.3 Three Stages of Policy Choice.
 
-### For us novice policy-makers, what is the important takeaway here?
+### As a group of aspiring policy designers, what are the key lessons we can draw out of this figure?
 
-(Every policy you design that is meant to change the behavior of other people must include three important arguments!)
+(EVERY policy you design MUST include three important arguments!)
 
 First you MUST MAKE AN ARGUMENT that we, meaning our community, have a problem.
 
-Second you MUST MAKE AN ARGUMENT that we should address this problem as a collective and not a private decision.
-
-AND
+Second you MUST MAKE AN ARGUMENT that we should address this problem as a collective and not a private decision. AND
 
 Finally, you MUST MAKE AN ARGUMENT that this decision is best made using democratic processes or by delegating to experts.
 
@@ -176,6 +202,10 @@ Solving community problems are not for the faint at heart.
 
 HOWEVER, if you lay the groundwork appropriately, the next steps become feasible!
 
+<br>
+
+### Make sense?
+
 
 
 
@@ -188,24 +218,19 @@ class: slideblue
 
 ???
 
-Finally, Munger wants us to understand the kinds of arguments we are going to see thrown around on a given issue in terms of these two dimensions.
+### As a group of aspiring policy designers, what are the key lessons we can draw out of this figure?
 
-### What is the key, big picture observation for thinking about this 2x2 grid?
-
-#### - How do we figure out where a specific issue is supposed to go in the grid?
-
-+ (Affecting your welfare is INCREDIBLY subjective)
+1. Placing a specific problem in this grid is INCREDIBLY subjective
     + Anyone who tells you something is clearly about liberty or clearly about community harms is telling you about their personal values.
     
-+ Figuring out an argument to move your opposition across boxes can be a big part of selling your policy
+2. This means when someone makes one of these arguments they are revealing their problem framing in terms of these two dimensions.
+
+3. You will need different arguments to move an opponent to your plan from private to public then you will from individual to collective.
+    + Figuring out an argument to move your opposition across boxes can be a big part of selling your policy
 
 <br>
 
-This is our segue into the work today. 
-
-So, you've decided we may need a policy to solve an environmental problem.
-
-Now how do we design it? 
+### Questions on all we've done so far?
 
 
 
