@@ -91,19 +91,14 @@ We have a few goals for our discussion on Thursday
 background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
+class: middle
 
-class: middle, slideblue
+# Paper 1
 
-## Paper 1: Write a report introducing us to the specific, local environmental problem you intend to target this semester
+.size45[
+Make an argument that a specific, local environmental issue is a collective choice problem (e.g. it is a problem for our community and it should be addressed collectively, not privately). 
 
-.size35[
-+ Why is this an "environmental" issue?
-
-+ Who is this a "problem" for? Be specific.
-
-+ What are the causes of the problem you want to focus on?
-
-+ What data is available to allow us to measure any progress?
+Be sure to specify the stakeholders in our community most relevant to the problem and the data that supports your argument (don't ask anyone to take your word for it).
 ]
 
 ???
