@@ -88,20 +88,20 @@ We have a few goals for our discussion on Thursday
 
 ---
 
-background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-image: url('libs/Images/background-forest.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
-# For Tuesday: Brainstorming
-.size40[
-+ Bring to class a news story or piece of evidence describing a local environmental problem
+.size60[**For Thursday: Writing Workshop**]
 
-+ Be ready to present it to the class:
-    + What is the specific problem?
-    + Who are the key stakeholders?
-    + How could we measure progress?
+.size40[
+1. Choose your environmental problem,
+
+2. Outline your paper, and
+
+3. Find evidence to support each premise in your proposed argument
 ]
 
 ???

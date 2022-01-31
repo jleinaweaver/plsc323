@@ -72,7 +72,7 @@ class: middle
 <br>
 
 .size40[
-Paper 1: Present the basics of your problem
+**Paper 1: Present the basics of your problem**
 
 Paper 2: Analyze the complicating factors
 
@@ -94,15 +94,22 @@ class: middle
 
 # Paper 1
 
-.size45[
+.size40[
 Make an argument that a specific, local environmental issue is a collective choice problem (e.g. it is a problem for our community and it should be addressed collectively, not privately). 
 
-Be sure to specify the stakeholders in our community most relevant to the problem and the data that supports your argument (don't ask anyone to take your word for it).
+Be sure to specify the data that supports your argument (don't ask anyone to take your word for it) and the stakeholders in our community most relevant to the problem.
 ]
 
 ???
 
 ### Any questions on the assignment?
+
+You need to make an argument that the "problem" you selected **IS** a problem and that it **SHOULD** be addressed collectively.
+
+- Finding data is key to making a convincing argument that it is a problem.
+
+- Identifying the relevant stakeholders is key to making a convincing argument that it is a collective problem.
+
 
 
 
@@ -150,14 +157,14 @@ background-position: center
 
 class: middle
 
-.size60[**For Thursday**]
+.size60[**For Next Thursday**]
 
 .size40[
 1. Choose your environmental problem,
 
-2. Start outlining your paper, and
+2. Outline your paper, and
 
-3. Find us data to measure the problem!
+3. Find evidence to support each premise in your proposed argument
 ]
 
 ???
@@ -167,3 +174,88 @@ What kind of data do you need to measure this? How many different ways could we 
 Assignment for Tuesday: Go find us that data
 
 ### Questions?
+
+<br>
+
+Why next Thursday?
+
+Tuesday guests join us!
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[**This Tuesday!**]
+
+## Kane Sheek
+.size40[
++ Sierra Club - White River Group
++ Ready for 100 Springfield Community Organizer
+]
+
+## Todd Wilkinson
+.size40[
++ James River Basin Partnership
++ Project Manager
+]
+
+???
+
+We have guests coming!
+
+I thought it would be useful and interesting to have some members of the local community who focus on environmental problem-solving.
+
+Our local activists should have lots of information about the landscape of environmental problems in SW MO.
+
+<br>
+
+I'd like this to be a free and easy conversation for them so please come to class ready to engage with them.
+
+Think of this like a chance to examine our assumptions about stakeholders and their roles in the policy-making process!
+
+<br>
+
+SLIDE: I gave each of them a set of questions to kick us off on Thursday.
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+- What is the primary mission of your organization?
+
+- What is your role in the organization?
+
+- What are you working on right now?
+
+- What are the biggest obstacles you face in trying to solve these problems?
+
+- Any advice for successfully solving environmental problems in Springfield / SW MO?
+
+- How can we get involved with your organization?
+]
+
+???
+
+I'd like each of you to give this some thought before class.
+
+I wonder if we could steer them towards helping us as we embark on our projects for this semester?
+
+### Any questions?
+
+See you Tuesday!
+
+
+
+
+
+

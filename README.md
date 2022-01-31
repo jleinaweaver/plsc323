@@ -10,11 +10,11 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 03-1-Stakeholders_CAFE_Standards.html
 
-03-2-Stakeholder_Guests.html
+03-2-Paper1_Brainstorming.html
 
-04-1-Paper1_Tue.html
+04-1-Stakeholder_Guests.html
 
-04-2-Paper1_Thur.html
+04-2-Paper1_Workshop.html
 
 05-1-Risk_Aversion.html
 

@@ -36,11 +36,13 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+.size60[.center[
 
-Work on Paper 1
+Paper 1: Writing Workshop
 
 ]]
+
+<br>
 
 <br>
 
@@ -64,10 +66,10 @@ class: middle
 
 # Paper 1
 
-.size45[
+.size40[
 Make an argument that a specific, local environmental issue is a collective choice problem (e.g. it is a problem for our community and it should be addressed collectively, not privately). 
 
-Be sure to specify the stakeholders in our community most relevant to the problem and the data that supports your argument (don't ask anyone to take your word for it).
+Be sure to specify the data that supports your argument (don't ask anyone to take your word for it) and the stakeholders in our community most relevant to the problem.
 ]
 
 ???
@@ -78,18 +80,50 @@ Be sure to specify the stakeholders in our community most relevant to the proble
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
 
-.size60[**For Next Class**]
+class: middle
+
+.size60[**For Today: Writing Workshop**]
 
 .size40[
-1. 
+1. Choose your environmental problem,
 
-2. 
+2. Outline your paper, and
 
-3. 
+3. Find evidence to support each premise in your proposed argument
 ]
 
 ???
 
-### Questions?
+
+
+---
+
+class: middle, slideblue
+
+# Semester in Three Sections 
+
+.size45[
+1. How do we approach environmental politics? (4 wks)
+
+2. **What are the complicating factors in environmental policymaking?** (5 wks)
+
+3. Designing an environmental policy (6 wks)
+]
+
+???
+
+Next week we dive into section 2 of the semester.
+
+We'll be examining:
+- Risk aversion
+- Uncertainty
+- Collective action problems, and
+- Inequality
+
+<br>
+
+Make sure to finish up those papers and get them submitted on Moodle by the deadline next week.
