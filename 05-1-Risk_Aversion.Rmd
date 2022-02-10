@@ -52,9 +52,13 @@ What are the Complicating Factors in Environmental Policymaking?
 
 ## Prep for Class
 1. Bring pennies to class for coin flipping (1 per person)
+
 2. Run slides off of laptop today so you can update the slides as we go
-3. Consider updating weather forecast slide to current
-4. Prep email with link to Google Doc for collecting citations
+
+3. Prep email with link to Google Doc for collecting citations
+    - https://docs.google.com/document/d/1tufRAEW1UdrYh8AqkkASAGLPyb7gp2Ws4okl71rdEIQ/edit?usp=sharing
+
+4. Consider updating weather forecast slide to current
 
 <br>
 
@@ -67,7 +71,41 @@ What are the Complicating Factors in Environmental Policymaking?
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+## Semester in Three Sections 
+
+.size40[
+1. **How do we approach environmental politics?** (4 wks)
+    - Defining key concepts
+
+    - Developing models of politics and problem-solving
+
+    - Thinking about why communities make policy and the common roadblocks
+]
+
+???
+
+In the first section of our class we focused on building the baseline language and understanding we will need to make progress on an environmental problem. 
+
+- We defined key concepts: environment, politics, policy
+
+- We developed models: Basic political structures AND specific processes in the literature designed for environmental conflicts
+
+- We thought through the need for policy, conflicts over wisdom and accountability and the role of authority in rule making
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 # Semester in Three Sections 
 
@@ -81,23 +119,104 @@ class: middle, slideblue
 
 ???
 
-Today we start into the second section of our class.
+In the second section of our semester, we will focus on some of the specific complications that arise in environmental policy-making.
 
-### Key takeaways from Section 1?
+If the first section was about developing your baseline, then this section is meant to develop your language of policy-making in more advanced ways.
 
-(- Define your concepts)
-(- Identify stakeholders and what they want)
-(- Think carefully about processes for bringing stakeholders together)
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+**What are the complicating factors in environmental policymaking?** (5 wks)
+- Risk Aversion / Acceptance
+
+- Uncertainty, time horizons and discount rates
+
+- Collective action problems and free-riding
+
+- Inequality
+]
+
+???
+
+Over the next 5 weeks we'll explore these important topics.
+
+- Each of these represents an additional layer on top of our baseline model of politics.
+
+- Each of these represents an additional way of thinking about the obstacles you will face with your stakeholders.
 
 <br>
 
-Let's focus today on our first major complicating factor: Risk!
+This section, just like the last, builds to an assignment focused on your personal research project.
 
-You'll see that differences in risk perceptions often underpin why different stakeholders have different ways of defining the key problem. 
+SLIDE
+
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+# Paper 2
+
+.size45[
+Write a report analyzing your environmental problem in terms of its complications. 
+
+In what specific ways does risk aversion, uncertainty, the collective action problem and inequality complicate your problem-solving? 
+]
+
+???
+
+In this paper you will apply the concepts we explore over the next four weeks to your chosen environmental problem.
+
+You will evaluate your problem using each of these lenses and support your claims with real-world evidence.
+
+This assignment is meant to deepen your understanding of the problem in significant ways in order to set you up for the policy design stage that comes next.
 
 <br>
 
-Ok, in order to talk risk we have to make sure we understand the basics of probability.
+### Any questions on the assignment?
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+# Paper 2
+
+.size45[
+Write a report analyzing your environmental problem in terms of its complications. 
+
+In what specific ways does .textred[**risk aversion**], uncertainty, the collective action problem and inequality complicate your problem-solving? 
+]
+
+???
+
+This week we explore risk aversion.
+
+<br>
+
+All people in a community perceive risk differently and these differences make problem-solving much harder.
+
+Disputes over perceived risk tend to seriously complicate defining the problem and evaluating proposed solutions.
+
+<br>
+
+Of course, to talk about risk we have to first talk about probability.
 
 
 
@@ -118,7 +237,7 @@ knitr::include_graphics("libs/Images/05-1-penny.jpg")
 
 ???
 
-* Distribute pennies *
+*Distribute pennies*
 
 ### Let’s start with this, what is the probability of getting heads when you flip a penny?
 
@@ -130,7 +249,9 @@ knitr::include_graphics("libs/Images/05-1-penny.jpg")
 
 + (5)
 
-Ok, everybody do it!
+<br>
+
+Ok, let's test your intuition!
 
 Flip your penny ten times and record the number of heads.
 
@@ -167,19 +288,25 @@ p1
 
 ### What do we learn from our experiment? 
 
-#### + Was our estimate of the probability of getting heads wrong or did we do our experiment wrong?
++ ?
+
+<br>
+
+### Was our estimate of the probability of getting heads wrong or did we do our experiment wrong?
+
++ ?
 
 <br>
 
 Over just a few flips of the coin, many results are possible.
 
-However, as a class you just flipped the coin `r classsize*10` times.
+- However, as a class you just flipped the coin `r classsize*10` times.
 
-That is plenty times to start to zoom in on the actual probability of these pennies. 
+- That is plenty times to start to zoom in on the actual probability of these pennies. 
 
-If we average all of your flips together we get:
+<br>
 
-(SLIDE)
+SLIDE: If we average all of your flips together we get:
 
 
 
@@ -207,6 +334,10 @@ Ok, let's make sure we're clear.
 
 + If we flip these pennies many, many, many times we should get heads about this proportion of the time.
 
+<br>
+
+In other words, the probability is what we expect to happen if we could repeat a choice or an action many, many times.
+
 
 
 
@@ -220,29 +351,53 @@ background-position: center
 
 Think about this as it relates to the weather.
 
-### When the weather person tells you there is a 25% chance of rain today, what does that actually mean?
+### When the weather person tells you there is a 25% chance of rain today, what are they telling you?
 
-(They ran a fancy computer simulation of today a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't)
++ If you lived this day one hundred times, it would rain approximately 25 times.
+    - That's what they mean by 25%
+    
++ In other words, they ran a computer simulation of today's weather a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't
 
-This is what it means to say there is a 25% chance of rain.
+<br>
 
-If you lived this day one hundred times, it would rain approximately 25 times.
+### When the weather forecast is for a 50% chance of rain today, what does that actually mean?
+
++ (SLIDE)
+
+
+
+
+---
+
+background-image: url('libs/Images/05-1-confused_weatherman.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+(It rained in half of the simulations)
+- In other words, they have no idea what is going to happen today.
+
+<br>
 
 ### So, what does this mean for us, a group of people who will only live today one time?
+#### - Do I bring an umbrella to work on a 50% chance of rain day or not?
+
++ ?
 
 <br>
 
-### When the weather person tells you there is a 50% chance of rain today, what does that actually mean?
+THIS is where your personal level of risk aversion or acceptance comes in!
 
-+ (It rained in half of the simulations)
+The probability tells you the tendency of an event, but not the certainty of it.
 
-+ In other words, they have no idea what is going to happen today.
+YOU then have to decide the risks and rewards of acting as if that event will or won't happen.
 
 <br>
 
-### Don’t worry about the math, just tell me, does the intuition of probabilities make sense?
+### Don’t worry about the math, just tell me, does the intuition of a  probability make sense?
 
-The likelihood of an event over the long run.
++ It is the likelihood of an event **over the long run**.
 
 
 
@@ -254,7 +409,7 @@ background-position: center
 
 ???
 
-Now that you are all masters of probability, let’s gamble.
+Now that you are all masters of probability, let’s dig into each of your risk profiles by gambling!
 
 Imagine you are at the county fair with your best girl or guy and you come across a game called "Heads you win, Tails you lose."
 
@@ -268,15 +423,21 @@ Imagine you are at the county fair with your best girl or guy and you come acros
 
 ???
 
+<br>
+
 The game: Flip a fair coin, heads pays $5, tails you get nothing.
+
+- Everybody take a minute to think about this game.
+
+- Now, write down the maximum amount of money you would pay to play this game.
+
+- Don't say it out loud, just write down your answer!
 
 <br>
 
-Everybody take a minute to think about this game.
+### Everybody have their answer written down?
 
-Now, write down the maximum amount of money you would pay to play this game.
-
-Don't say it out loud, just write down your answer!
+Ok, rewind your imaginary date and let's replay the game!
 
 
 
@@ -295,31 +456,20 @@ background-position: center
 
 ???
 
-Take another minute, now write down the maximum amount you would pay to play this game if heads paid you $100.
+You and your date arrive at the fair and see this game where heads pays you $100!
+
+- Take a minute to think about it and write down the maximum amount you would pay to play this game.
 
 <br>
 
-*Collect reponses*
+*ON BOARD* (2 cols: $5 game, $100 game) Collect responses
 
-ON BOARD (2 cols: $5 game, $100 game)
-
-<br>
-
-Let's compare and contrast these amounts.
-
-### What do we learn from these answers?
-
-#### + Is there a correct answer?
-
-<br>
-
-No, Everyone has a different relationship with risk.
-
+### What do we learn from comparing and contrasting your amounts? 
+#### - Is there a correct answer?
+- No!, Everyone has a different relationship with risk.
 - Some people are more / less willing to take on risk to win profit.
-
-Not right or wrong, just different willingness to risk.
-
-- Some people are more risk acceptant and others are more risk averse.
+- Not right or wrong, just different willingness to risk.
+- In other words, some people are more risk acceptant and others are more risk averse.
 
 <br>
 
@@ -327,16 +477,9 @@ Not right or wrong, just different willingness to risk.
 
 #### - What does all this tell us about human decision-making?
 
-<br>
-
-Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
+- Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
 
 - Some people will be willing to accept risk when the reward is huge, but not when it is small (e.g. playing the lottery)
-
-<br>
-
-For our purposes, we should keep in mind that two people presented with the same rules may each choose to behave differently because of their different willingness to accept risk.
-
 
 
 
@@ -354,13 +497,54 @@ Your decision-making is constantly influenced by your feelings about risk.
 
 ### Who here has a car?
 
-### How do stop lights illustrate different peoples' levels of risk aversion?
+<br>
 
-Run a red light and get home faster (value!), BUT some probability of getting pulled over or an accident or hurting someone...
+### Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?
+
++ ?
 
 <br>
 
-### Any questions about probabilities or risk aversion?
+### Make this clear for me, how do stop lights illustrate different peoples' levels of risk aversion?
+
++ Run a red light and get home faster (value!), BUT some probability of getting pulled over or an accident or hurting someone...
+
+<br>
+
+### Any questions about these basic introductions to probabilities or risk aversion?
+
+
+
+
+---
+
+background-image: url('libs/Images/05_1-monkey_darts_politics.jpg')
+background-size: 75%
+background-position: center
+class: slideblue
+
+???
+
+Let's now take this back to our work building models of politics and problem-solving.
+
+### What were some of the key things elements we argued were important when thinking strategically about problem-solving in a political world?
+
++ Interests, institutions and interactions
++ Problem definitions matter
++ Broad participation in rule-making seemed important
++ ?
+
+<br>
+
+### How does our discussion about risk today impact our models of politics and problem-solving?
+
+(A key complicating factor!)
+
+- Interests defined not just by what they want BUT ALSO by their risk tolerance!
+
+- Two stakeholders presented with the exact same policy (e.g. rules of behavior) may each choose to behave in completely different ways BECAUSE of their different willingnesses to accept risk!
+
+<br>
 
 Let's now shift to the readings for today.
 
@@ -377,21 +561,15 @@ class: middle
 Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
 ]
 
-???
-
-### Which perspective on risk does the Ehrlich and Ehrlich piece represent? Risk acceptance or aversion?
-
-(Aversion!)
-
---
-
 <br>
 
 .size45[.center[**What is the conclusion of this argument?**]]
 
 ???
 
-(?)
+### What is the conclusion of the argument by Ehrlich and Ehrlich?
+
+(SLIDE: Therefore, a combination of overpopulation x overconsumption has us on track for disaster (e.g. see Easter Island, the Mayans, and Nineveh).)
 
 
 
@@ -408,14 +586,33 @@ Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumptio
 
 <br>
 
-.size45[.center[**What are the key premises that lead to this conclusion?**]]
+.center[.size40[Therefore, a combination of overpopulation and overconsumption has us on track for disaster (e.g. see Easter Island, the Mayans, and Nineveh)]]
 
 ???
 
-+ (?)
-+ (?)
-+ (?)
-+ (?)
+### Which perspective on risk does the Ehrlich and Ehrlich piece represent: Risk acceptance or aversion? Why?
+
++ (Aversion!)
+
+<br>
+
+### Take a few minutes on your own to identify the key premises the authors use to support this conclusion.
+
+<br>
+
+### Consolidate lists with person next to you.
+
+<br>
+
+*ON BOARD*
+
++ (We are rapidly depleting the natural capital of the Earth; soil, groundwater, biodiversity)
++ (Negative Impact = Pop x Consumption x Technology)
++ (Technology improvements can help but cannot save us)
++ (Many past human societies have collapsed under the weight of overpopulation and environmental neglect)
++ (It is getting harder to locate the resources we need, e.g. have to mine deeper, use poorer soils, etc)
++ (Population control is controversial on both the left and the right though for different reasons and the media is "pro-natalist" in its framings of these stories, e.g. more births are good)
++ (Tackling overconsumption is complex and very, very difficult)
 
 
 
@@ -438,16 +635,10 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 
 Let's jump to the second article.
 
+### What is the conclusion of the article?
 
-### Which perspective on risk does the Simon piece represent? Risk acceptance or aversion?
-
-(Acceptance!)
-
-<br>
-
-### And what is the conclusion of the article?
-
-(?)
+(SLIDE: Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase
+worldwide our numbers, our health, our wealth, and our opportunities" (10))
 
 
 
@@ -459,19 +650,39 @@ background-position: center
 class: middle
 
 .size50[
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
-]
-
-.size50[
 Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 ]
 
 <br>
 
-.size45[.center[**What are the key premises that lead to this conclusion?**]]
+.center[.size40[Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase worldwide our numbers, our health, our wealth, and our opportunities" (10)]]
 
 ???
 
+### So, which perspective on risk does the Simon piece represent? Risk acceptance or aversion?
+
+(Acceptance!)
+
+<br>
+
+### Take a few minutes on your own to identify the key premises the authors use to support this conclusion.
+
+<br>
+
+### Consolidate lists with person next to you.
+
+<br>
+
+*ON BOARD*
+
++ (Overpopulation hysteria has cost us dearly, distracted us from improving lives through targeting economic and political systems)
++ (The research shows "that faster population growth is not associated with slower economic growth")
++ (Market-directed economies do better than centrally planned ones)
++ (As with man-made production capital, so it is with natural resources: Shortages lead to the discovery of substitutes)
++ (Shortages ACTUALLY tend to leave us better off than before)
++ (The only serious shortage is ACTUALLY human beings!)
++ (The most important benefit of population size and growth is the increase it brings to the stock of useful knowledge.)
++ (Progress is limited largely by the availability of trained workers.)
 
 
 
@@ -509,27 +720,24 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
-
 class: middle
 
 # Paper 2
+
 .size45[
-Write a report analyzing your environmental problem in terms of its complications.
+Write a report analyzing your environmental problem in terms of its complications. 
 
-In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
-
-+ Support all claims with evidence
+In what specific ways does .textred[**risk aversion**], uncertainty, the collective action problem and inequality complicate your problem-solving? 
 ]
 
 ???
 
-Each week in section 2 of the class we will focus on one of these complications.
+Before we go let's root ourselves back into the paper.
 
-### Any questions on the paper assignment?
+Today we've just begun to play with the many ways risk aversion complicates environmental problem-solving.
 
-<br>
+In order to help us broaden and deepen our appreciation of risk as a complicating factor I'm giving you an assignment for Thursday.
 
-To help us build up to the paper AND to help us deepen our understanding of risk aversion let's go find some mroe real-world cases!
 
 
 
@@ -544,25 +752,31 @@ class: middle
 .size60[**For Thursday**]
 
 .size40[
-Find us a **recent, real world example** of differing levels of **risk aversion** complicating environmental problem-solving. 
+Find us a .textred[**recent, real world example**] of differing levels of .textred[**risk aversion**] complicating environmental problem-solving. 
 
 Look for examples with the sides evaluating the risks of the problem very differently. 
 
-Be ready to help us **brainstorm strategies** for addressing these complications.
+Be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
+
+#### Read prompt
+
+<br>
 
 You don't have to find a case that mirrors the problem you've selected for your paper.
 
 HOWEVER, that's not a bad idea!
 
+<br>
+
 My aim is that we broaden and deepen our understanding of risk profiles complicating environmental problem-solving.
 
-So, go find us good cases we can dig our teeth into.
+- So, go find us good cases we can dig our teeth into.
 
 Submit the citation to your case before class.
 
-Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
+- Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
 
 ### Questions?
