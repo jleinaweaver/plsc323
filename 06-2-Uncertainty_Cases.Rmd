@@ -52,7 +52,7 @@ Review our uncertainty cases and brainstorm strategies for addressing these comp
 
 ## Prep for Class
 1. Check citations on shared Google sheet.
-
+    - https://docs.google.com/document/d/1nqq5AhgW8gHpFt8FZU5LQu_9pRmKf2J3xWMXXVDIUq0/edit?usp=sharing
 
 
 
@@ -66,13 +66,183 @@ class: middle
 
 .size60[**For Today**]
 
-.size40[
-Find us a **recent, real world example** of competing estimates of **uncertainty, time horizons or discount rates** complicating environmental problem-solving. 
+.size45[
+Find us a .textred[**recent, real world example**] of differing levels of .textred[**uncertainty, time horizons or discount rates**] complicating environmental problem-solving. 
 
-Be ready to help us **brainstorm strategies** for addressing these complications.
+Look for examples relevant to .textred[**your ongoing project**] and be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
+
+
+### Everybody ready to present the case they brought today?
+
+Keep in mind, these cases will help us think critically about risk aversion AND give us a list of helpful citations for writing your second paper.
+
+<br>
+
+Alright, let's hear those cases!
+
+- As you listen, look for connections between these examples and the problem your working on this term.
+
+<br>
+
+#### Your Examples: 
+
+SLIDE: Example from you: NYT story on mosquito nets used for fishing + Video
+
+SLIDE: Example from you: New farming technology to feed ourselves creates 'The Dust Bowl' (Worster)
+
+
+
+---
+
+background-image: url('libs/Images/06-2-Malaria_Africa.png')
+background-size: 97%
+background-position: bottom
+class: top
+
+.center[.size55[**Malaria in Africa**]]
+
+???
+
+Serious problem
+
+Gather some stats
+
+
+
+
+---
+
+class: center, middle, slideblue
+
+<iframe width="1050" height="650" src="libs/Images/NYT-Malaria-Fishing-Nets.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+???
+
+Video is 3:23
+
+*DISCUSS*
+
+### Lessons for us?
+
+
+
+---
+
+background-image: url('libs/Images/06-2-farm_tech_1830s.webp')
+background-size: 83%
+background-position: center
+
+.size55[.content-box-green[**Farming in the 1830s**]]
+
+???
+
+US example showing the incredible stakes of environmental problems with stakeholders who hold incredibly different temporal discount rates.
+
+In 1830, about 250 to 300 labor-hours were required to produce 100 bushels (5 acres) of wheat with a walking plow, brush harrow, hand broadcast of seed, sickle, and flail [Link](https://www.thoughtco.com/american-farm-tech-development-4083328)
+
+<br>
+
+#### Notes
+Inventions included:
+- 1834: The McCormick reaper was patented.
+- 1834: John Lane began to manufacture plows faced with steel saw blades.
+- 1837: John Deere and Leonard Andrus began manufacturing steel plows—the plow was made of wrought iron and had a steel share that could cut through sticky soil without clogging.
+- 1837: A practical threshing machine was patented.
+
+
+
+---
+
+background-image: url('libs/Images/06-2-farm_tech_1890s.webp')
+background-size: 100%
+background-position: center
+class: bottom, inverse
+
+.center[.size70[**Farming in the 1890s**]]
+
+???
+
+By 1890, we had reduced the labor requirement for 100 bushels of wheat from 200-300 labor-hours to about 40–50 with a gang plow, seeder, harrow, binder, thresher, wagons, and horses [Link](https://www.thoughtco.com/american-farm-tech-development-4083328)
+
+<br>
+
+#### Notes
+Inventions included:
+- 1880: William Deering put 3,000 twine binders on the market.
+- 1884–90: The horse-drawn combine was used in Pacific Coast wheat areas.
+- 1890-95: Cream separators came into wide use
+- 1890-99: The average annual consumption of commercial fertilizer was 1,845,900 tons.
+- 1890s: Agriculture became increasingly mechanized and commercialized
+- 1890: Most basic potentialities of agricultural machinery that were dependent on horsepower had been discovered.
+
+
+
+
+
+---
+
+class: slideblue, middle
+
+.center[.size40[**Farming in the 1930s**]]
+
+.pull-left[
+```{r, out.width='80%'}
+knitr::include_graphics('libs/Images/06-2-tractor_1930s.jpg')
+
+knitr::include_graphics('libs/Images/06-2-tractor_1930s2.jpg')
+```
+]
+
+.pull-right[
+```{r, out.width='90%'}
+knitr::include_graphics('libs/Images/06-2-tractor_1930s3.jpg')
+
+knitr::include_graphics('libs/Images/06-2-tractor_1930s4.jpg')
+```
+]
+
+???
+
+By the 1930s we had it down to 15-20 labor-hours to produce 100 bushels (5 acres) of wheat with a 3-bottom gang plow, tractor, 10-foot tandem disk, harrow, 12-foot combine, and trucks!
+
+<br>
+
+### Notes
+- https://commons.wikimedia.org/wiki/File:Equipment_being_pulled_by_tractor_-_NARA_-_286176.jpg
+- https://www.farmcollector.com/company-history/tractor-design-raymond-loewy-henry-dreyfuss/
+- The Farmall F-22 in 1938 when it was beginning to look more like the subsequent production Farmall H. Courtesy Wisconsin Historical Society, image ID: WHi-27595. 
+- In the 1930s, the all-purpose, rubber-tired tractor with complementary machinery came into wide use. Additionally:
+- 1930–39: The average annual consumption of commercial fertilizer was 6,599,913 tons.
+- 1930: One farmer could supply nearly 10 people in the United States and abroad with food.
+- 1930: Fifteen to 20 labor-hours were required to produce 100 bushels (2 1/2 acres) of corn with a 2-bottom gang plow, 7-foot tandem disk, 4-section harrow, and 2-row planters, cultivators, and pickers. The same number of hours were also required to produce 100 bushels (5 acres) of wheat with a 3-bottom gang plow, tractor, 10-foot tandem disk, harrow, 12-foot combine, and trucks.
+
+
+
+
+---
+
+class: center, middle, slideblue
+
+<iframe width="1050" height="650" src="libs/Images/Introducing_The_Dust_Bowl.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+???
+
+
+---
+
+background-image: url('libs/Images/06-2-Dust-Bowl-Map.png')
+background-size: 72%
+background-position: center
+
+???
+
+
+*DISCUSS*
+
+### Lessons for us?
 
 
 
@@ -81,23 +251,23 @@ Be ready to help us **brainstorm strategies** for addressing these complications
 background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
-
 class: middle
 
 # Paper 2
+
 .size45[
-Write a report analyzing your environmental problem in terms of its complications.
+Write a report analyzing your environmental problem in terms of its complications. 
 
-In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
-
-+ Support all claims with evidence
+In what specific ways does risk aversion, .textred[**uncertainty**], the collective action problem and inequality complicate your problem-solving? 
 ]
 
 ???
 
-Connect to your ongoing projects: think about all the cases we've heard today and tell us in what specific ways does your environmental problem present these complications?
+The collected citations for today (and each week in section 2) offer you evidence you may need to write the paper.
 
-Which pieces of evidence most useful for you?
+### Think about all the cases we've heard today and tell us in what specific ways  your environmental problem presents these complications?
+
+#### - Which pieces of evidence most useful for you?
 
 
 
@@ -117,13 +287,17 @@ class: bottom
 
 ???
 
-Brainstorm strategies for addressing these complications.
+### Can we use the cases we heard today to help us brainstorm strategies for dealing with environmental problems that confront stakeholders with very different uncertainty profiles?
+
+#### - Ideas?
+
+*ON BOARD*
 
 
 
 ---
 
-background-image: url('libs/Images/background-gentle_lines_green.jpg')
+background-image: url('libs/Images/background-forest_v2.png')
 background-size: 100%
 background-position: center
 class: middle, center

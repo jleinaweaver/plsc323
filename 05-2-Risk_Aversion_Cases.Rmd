@@ -64,14 +64,12 @@ background-position: center
 
 class: middle
 
-.size60[**For Thursday**]
+.size60[**For Today**]
 
-.size40[
+.size45[
 Find us a .textred[**recent, real world example**] of differing levels of .textred[**risk aversion**] complicating environmental problem-solving. 
 
-Look for examples with the sides evaluating the risks of the problem very differently. 
-
-Be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
+Look for examples relevant to .textred[**your ongoing project**] and be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
@@ -82,7 +80,7 @@ Today we explore real-world environmental problem cases to help us think through
 
 ### Everybody ready to present the case they brought today?
 
-Keep in mind, these cases will help us think critically about risk aversion AND give us a list of citations that might be helpful when you are writing your second paper.
+Keep in mind, these cases will help us think critically about risk aversion AND give us a list of helpful citations for writing your second paper.
 
 <br>
 
