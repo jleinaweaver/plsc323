@@ -53,6 +53,8 @@ Review our uncertainty cases and brainstorm strategies for addressing these comp
 ## Prep for Class
 1. Check citations on shared Google sheet.
     - https://docs.google.com/document/d/1nqq5AhgW8gHpFt8FZU5LQu_9pRmKf2J3xWMXXVDIUq0/edit?usp=sharing
+    
+2. Note: I dropped the Dust Bowl example to the end. See how today goes without it. Maybe re-add in future IFF it adds an extra element we need.
 
 
 
@@ -67,9 +69,9 @@ class: middle
 .size60[**For Today**]
 
 .size45[
-Find us a .textred[**recent, real world example**] of differing levels of .textred[**uncertainty, time horizons or discount rates**] complicating environmental problem-solving. 
+Find us a .textblue[**recent, real world example**] of differing levels of .textblue[**uncertainty, time horizons or discount rates**] complicating environmental problem-solving. 
 
-Look for examples relevant to .textred[**your ongoing project**] and be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
+Look for examples relevant to .textblue[**your ongoing project**] and be ready to help us .textblue[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
@@ -77,7 +79,7 @@ Look for examples relevant to .textred[**your ongoing project**] and be ready to
 
 ### Everybody ready to present the case they brought today?
 
-Keep in mind, these cases will help us think critically about risk aversion AND give us a list of helpful citations for writing your second paper.
+Keep in mind, these cases will help us think critically about uncertainty AND give us a list of helpful citations for writing your second paper.
 
 <br>
 
@@ -87,11 +89,11 @@ Alright, let's hear those cases!
 
 <br>
 
-#### Your Examples: 
+**After they go, you share your case**
 
-SLIDE: Example from you: NYT story on mosquito nets used for fishing + Video
+SLIDE:NYT story on mosquito nets used for fishing + Video
 
-SLIDE: Example from you: New farming technology to feed ourselves creates 'The Dust Bowl' (Worster)
+*(omitted to end for now, SLIDE: Example from you: New farming technology to feed ourselves creates 'The Dust Bowl' (Worster))*
 
 
 
@@ -106,9 +108,21 @@ class: top
 
 ???
 
-Serious problem
+I brought a case too!
 
-Gather some stats
+Malaria kills at least half a million Africans each year (data from 2015)
+
+Mosquito nets are widely considered a magic bullet against malaria — one of the cheapest and most effective ways to stop the disease
+
+- An insecticide-treated mosquito net, hung over a bed, is the perfect mosquito-killing machine. 
+
+- The gauzy mesh allows the carbon dioxide that people exhale to flow out, which attracts mosquitoes. 
+
+- But as they swarm in, their cuticles touch the insecticide on the net’s surface, poisoning their nervous systems and shutting down their microscopic hearts.
+
+The World Health Organization says the nets are a primary reason malaria death rates in Africa have been cut in half since 2000.
+
+[Link](https://www.nytimes.com/2015/01/25/world/africa/mosquito-nets-for-malaria-spawn-new-epidemic-overfishing.html)
 
 
 
@@ -117,15 +131,148 @@ Gather some stats
 
 class: center, middle, slideblue
 
-<iframe width="1050" height="650" src="libs/Images/NYT-Malaria-Fishing-Nets.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1050" height="650" src="libs/Images/NYT-Malaria-Fishing-Nets.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ???
 
-Video is 3:23
+**Watch the video is (3:23)**
 
-*DISCUSS*
+<br>
 
-### Lessons for us?
+Amy Lehman, an American physician and the founder of the Lake Tanganyika Floating Health Clinic:
+
+- “The narrative has always been, ‘Spend $10 on a net and save a life,’ and that’s a very compelling narrative.
+
+- “But what if that net is distributed in a waterside, food-insecure area where maybe you won’t be affecting the malaria rate at all and you might actually be hurting the environment?” she said. “It’s a lose-lose. And that’s not a very neat story to tell.”
+
+<br>
+
+Why is this an environmental policy problem?
+
+1. Malaria is impacting more and more people as climate change spreads mosquito hunting zones,
+
+2. The nets themselves have such a fine mesh that they trap and destroy everything in the lake threatening to wipe out a fishery, and
+    - Recent hydroacoustic surveys show that Zambia’s fish populations are dwindling. Harris Phiri, a Zambian fisheries official, blamed deforestation, rapid population growth and the widespread use of mosquito nets.
+    - “They are catching very small fish that haven’t matured,” Mr. Phiri said. “The stocks won’t be able to grow.”
+
+3. Many of these insecticide-treated nets are dragged through the same lakes and rivers people drink from, raising concerns about toxins. 
+
+- One of the most common insecticides used by the mosquito net industry is permethrin, which the United States Environmental Protection Agency says is “likely to be carcinogenic to humans” when consumed orally. The E.P.A. also says permethrin is “highly toxic” to fish.
+
+- Many of the nets are labelled "do not wash in lakes or rivers"
+
+
+
+---
+
+background-image: url('libs/Images/06-2-fishing.png')
+background-size: 100%
+background-position: center
+class: top
+
+???
+
+Why is this a serious policy problem?
+
+- Western governments and foundations donate the money. 
+
+- Big companies like BASF, Bayer and Sumitomo Chemical design the nets. They are manufactured at about $3 apiece, many in China and Vietnam, shipped in steel containers to Africa, trucked to villages by aid agencies, and handed out by local ministries of health, usually gratis. 
+
+- Madagascar: Fistfights are breaking out on the beaches of Madagascar between fishermen who fear that the nets will ruin their livelihoods, and those who say they will starve without them. 
+    - Because Antongil Bay is considered a crucial shrimping area, Madagascar recently banned the use of ramikaoko nets there. But the government has been in such disarray since a military coup a few years ago that enforcement of the decree is now up to a group of threadbare vigilante fishermen.
+    - In another village, mosquito-net users crept up to the boats of professional fishermen late one night and cut them loose into the sea. The net users were so furious about anyone trying to take away their nets that they started a boycott of the professional fishermen.
+
+- The Congo: Congolese officials have snatched and burned the nets, and in August, Uganda’s president, Yoweri Museveni, threatened to jail anyone fishing with a mosquito net.
+
+### How does this illustrate the role of uncertainty in environmental problem-solving?
+
+<br>
+
+### Any policy design lessons we can take from this or that we can apply from what we've studied so far?
+
+- Something to be said for preferring wide consultations and rule-making that involves the community you are targeting!
+
+- The stakeholders matter!
+
+- A need for measurement and ongoing monitoring of your policy designs
+
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+# Paper 2
+
+.size45[
+Write a report analyzing your environmental problem in terms of its complications. 
+
+In what specific ways does risk aversion, .textblue[**uncertainty**], the collective action problem and inequality complicate your problem-solving? 
+]
+
+???
+
+The collected citations for today (and each week in section 2) offer you evidence you may need to write the paper.
+
+### Think about all the cases we've heard today and tell us in what specific ways  your environmental problem presents these complications?
+
+#### - Which pieces of evidence most useful for you?
+
+
+
+---
+
+background-image: url('libs/Images/06-2-uncertainty.jpeg')
+background-size: 90%
+background-position: center
+class: bottom
+
+.size35[
+.center[
+.content-box-blue[**Strategies for Stakeholders with**]
+
+.content-box-blue[**Different Uncertainty Profiles?**]
+]]
+
+???
+
+### Can we use the cases we heard today to help us brainstorm strategies for dealing with environmental problems that confront stakeholders with very different uncertainty profiles?
+
+#### - Ideas?
+
+*ON BOARD*
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**Next Week's Complication**]
+
+<br>
+
+.size45[
+Collective Action Problems and Free-Riding
+]
+
+???
+
+### Questions?
+
+
+
 
 
 
@@ -226,7 +373,7 @@ By the 1930s we had it down to 15-20 labor-hours to produce 100 bushels (5 acres
 
 class: center, middle, slideblue
 
-<iframe width="1050" height="650" src="libs/Images/Introducing_The_Dust_Bowl.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1050" height="650" src="libs/Images/Introducing_The_Dust_Bowl.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ???
 
@@ -240,76 +387,20 @@ background-position: center
 ???
 
 
+
+
+---
+
+background-image: url('libs/Images/06-2-new_dust_bowl.png')
+background-size: 100%
+background-position: center
+
+???
+
+[link](https://www.smithsonianmag.com/smart-news/are-great-plains-headed-another-dust-bowl-180976117/)
+
+
+
 *DISCUSS*
 
 ### Lessons for us?
-
-
-
----
-
-background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-# Paper 2
-
-.size45[
-Write a report analyzing your environmental problem in terms of its complications. 
-
-In what specific ways does risk aversion, .textred[**uncertainty**], the collective action problem and inequality complicate your problem-solving? 
-]
-
-???
-
-The collected citations for today (and each week in section 2) offer you evidence you may need to write the paper.
-
-### Think about all the cases we've heard today and tell us in what specific ways  your environmental problem presents these complications?
-
-#### - Which pieces of evidence most useful for you?
-
-
-
----
-
-background-image: url('libs/Images/06-2-uncertainty.jpeg')
-background-size: 90%
-background-position: center
-class: bottom
-
-.size35[
-.center[
-.content-box-blue[**Strategies for Stakeholders with**]
-
-.content-box-blue[**Different Uncertainty Profiles?**]
-]]
-
-???
-
-### Can we use the cases we heard today to help us brainstorm strategies for dealing with environmental problems that confront stakeholders with very different uncertainty profiles?
-
-#### - Ideas?
-
-*ON BOARD*
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v2.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.size60[**Next Week's Complication**]
-
-<br>
-
-.size45[
-Collective Action Problems and Free-Riding
-]
-
-???
-
-### Questions?

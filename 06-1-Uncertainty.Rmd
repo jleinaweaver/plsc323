@@ -94,19 +94,45 @@ background-position: center
 
 This week we shift to our second set of environmental problem complications: Uncertainty and Time
 
-<br>
-
 The decisions we make day-to-day carry impacts that differ depending on how you evaluate them according to time.
 
-- Here we see an investor surrounded by sharks but with his eyes on the distant horizon.
-
-- A choice to deal with the sharks might push you off course and away from your distant goals.
-
-- A choice to focus on the horizon might lead to serious short term costs as you run into each shark.
-
 <br>
 
-The first takeaway is that there is no "right" choice, BUT failing to consider how stakeholders differ in their time horizons will make their behavior impossible to understand or adjust.  
+Here we see a person in a tiny boat surrounded by sharks.
+
+- His goal is to cross the water and reach a point on the other side.
+
+- Option 1: He can focus primarily on avoiding the sharks around him
+    - e.g. a short time horizon
+    - Protects what he has, but might push him off course and away from his distant goals.
+    
+- Option 2: He can focus primarily on his goal on the horizon
+    - e.g. a long time horizon
+    - Might incur heavy costs along the way as you hit sharks but maximizes your hope of reaching the big, distant goal.
+    
+<br>
+
+**Our first key takeaway as policy designers is to remember that there is no universally correct time horizon, no "right" choice for everyone.**
+
+- We may have been telling you to aim for the stars and dream big since you were born, but many things influence a stakeholders' time horizons besides the size of their dreams.
+
+- It might sound good to always aim for the horizon but this increases your risks (to draw in last week's material) in serious ways.
+    
+    
+    
+---
+
+background-image: url('libs/Images/06-1-equity_vs_equality.png')
+background-size: 82%
+background-position: center
+
+???
+    
+As policy designers we must never forget that stakeholders differ in substantial ways that will impact their risk profile and time horizons.
+
+The key for us is to keep in mind that failing to consider how stakeholders differ in their time horizons will make their behavior impossible to understand or adjust.  
+
+### Make sense?
 
 
 
@@ -395,7 +421,7 @@ Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Enviro
 <br>
 
 .center[
-.size45[**What are the key lessons we can use to overcome uncertainty and solve environmental problems?**]
+.size45[**Why are environmental problems so much harder to solve than other types of policy problem? (47-53)**]
 ]
 
 ???
@@ -404,18 +430,74 @@ Uncertainty is a hugely important element of policy design when it comes to envi
 
 Let's use the Pindyck article to dig into this.
 
-<br>
-
 *Seminar discussion of the lessons from the article*
 
-### What are the key lessons we can use to overcome uncertainty and solve environmental problems in section:
+### Why does uncertainty impact environmental policy problems so much harder than other types? (47-53)
+
+
+- What does it mean to say that "environmental cost and benefit functions tend to be highly nonlinear"? (47)
+
+- What are "tipping points" and why does uncertainty about them make environmental problems harder to solve? (47)
+
+-  How do "irreversibilities" complicate environmental problem solving? (47)
+
+- Why do environmental policies tend to have much longer time horizons than other capital investment projects? (48)
+
+- Why is uncertainty a serious problem for estimating the benefits of an environmental policy? (50-51)
+
+- Why is uncertainty a serious problem for estimating the costs of an environmental policy? (52-53)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65.
+]
+
+.center[
+.size45[**What are the key policy design lessons we need to address these uncertainties? (53-62)**]]
+
+???
+
+#### Implications for Policy Design (53-54)
+
+- How does uncertainty "affect the optimal choice of policy instrument"?
+
+- How does uncertainty "affect the optimal policy intensity"?
+
+- How does uncertainty "affect the optimal timing of policy implementation"?
+
+<br>
+
+#### Irreversibilities
+
+- How do we balance the harms of irreversibilities on the environment against those imposed as sunk costs on society? (54-59)
+
+<br>
+
+#### Discounting over Long Time Horizons (60-62)
+
+- How do we deal with environmental problems that only appear dire over incredibly long time horizons?
+
+
+
+
+
+
+
+
+
+
 
 #### - The Uncertain Nature of Benefits and Costs (49-54)
-
 #### - Irreversibilities (54-60)
-
 #### - Discounting over Long Time Horizons (60-62)
-
 
 
 ---
@@ -429,18 +511,20 @@ class: middle
 .size60[**For Thursday**]
 
 .size45[
-Find us a .textred[**recent, real world example**] of differing levels of .textred[**uncertainty, time horizons or discount rates**] complicating environmental problem-solving. 
+Find us a .textblue[**recent, real world example**] of differing levels of .textblue[**uncertainty, time horizons or discount rates**] complicating environmental problem-solving. 
 
-Look for examples relevant to .textred[**your ongoing project**] and be ready to help us .textred[**brainstorm strategies**] for addressing these complications.
+Look for examples relevant to .textblue[**your ongoing project**] and be ready to help us .textblue[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
+
+*Email link to class*
 
 #### Read prompt
 
 <br>
 
-My aims are:
+don't forget our dual goals!
 
 1. To broaden and deepen our understanding of uncertainty complicating environmental problem-solving.
 
