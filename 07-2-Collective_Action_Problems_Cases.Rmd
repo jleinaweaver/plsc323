@@ -52,7 +52,7 @@ Review our collective action problem cases and brainstorm strategies for address
 
 ## Prep for Class
 1. Check citations on shared Google sheet.
-
+    - https://docs.google.com/document/d/1HDT1G3kFSLVQ1_eNVmlnszuXcmyHLvLDQ1PSbEbKeN0/edit?usp=sharing
 
 
 ---
@@ -60,21 +60,21 @@ Review our collective action problem cases and brainstorm strategies for address
 background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
-
 class: middle
 
 # Paper 2
+
 .size45[
-Write a report analyzing your environmental problem in terms of its complications.
+Write a report analyzing your environmental problem in terms of its complications. 
 
-In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
-
-+ Support all claims with evidence
+In what specific ways does risk aversion, uncertainty, .textblue[**the collective action problem**] and inequality complicate your problem-solving? 
 ]
 
 ???
 
 Keep your eyes on the next prize!
+
+### Questions on the prompt?
 
 
 
@@ -89,16 +89,25 @@ class: middle
 .size60[**For Today**]
 
 .size40[
-Find us a **recent, real world example** of **collective action problems / free-riding** complicating environmental problem-solving.
+Find us a .textblue[**recent, real world example**] of .textblue[**collective action problems / free-riding**] complicating environmental problem-solving.
 
 + Individual benefits + collective costs, OR
 + Individual costs + collective benefits
 
-Be ready to help us **brainstorm strategies** for addressing these complications.
+Be ready to help us .textblue[**brainstorm strategies**] for addressing these complications.
 ]
 
 ???
 
+### Everybody ready to present the case they brought today?
+
+Keep in mind, these cases will help us think critically about collective action problems AND give us a list of helpful citations for writing your second paper.
+
+<br>
+
+Alright, let's hear those cases!
+
+- As you listen, look for connections between these examples and the problem your working on this term.
 
 
 ---
@@ -112,7 +121,7 @@ class: bottom
 .center[
 .content-box-red[**Strategies for dealing with collective**]
 
-.content-box-red[** action problems?**]
+.content-box-red[**action problems?**]
 ]]
 
 ???
@@ -124,11 +133,14 @@ Brainstorm strategies for addressing these complications.
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**Next Week**]
+.size75[**Next Week**]
 
-.size40[
+.size55[
 Unequal Voice, Access and Influence
 ]
 
