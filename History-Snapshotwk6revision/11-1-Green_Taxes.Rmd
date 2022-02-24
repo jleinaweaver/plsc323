@@ -1,0 +1,435 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[
+Designing an Environmental Policy
+
++ "Green" Tax Policies
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Prep email with link to Google sheet for collecting case evidence
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
+???
+
+Let's make sure to keep the prompt for your final paper in mind as we explore each of the policy design options.
+
+### With a week's work under our belts on this, any questions on the final paper?
+
+--
+
+.size40[
+.textred[**Last Week: Command and Control Regulations**]
+]
+
+???
+
+<br>
+
+Last week we explored command and control regulations.
+
+### Sum it up for me, what does it mean to use a command and control approach to addressing an environmental problem?
+
+(SLIDE: Supply and demand diagram)
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+## Let's build supply and demand curves
+p1 <- tibble(
+  Price = 1:100,
+  Quantity = 100:1
+) |>
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  labs(x = "Quantity Produced", y = "Price per Widget") +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", size = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed")
+
+p1 +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Regs)", size = 5, color = "blue", hjust = .5)
+```
+
+???
+
+Let's go back to our supply and demand curves from last week.
+
+### Refresh my memory, how do these lines help us think about how C&C regulations reduce pollution?
+
+<br>
+
+#### - What does the demand line represent and why is it decreasing?
++ (Only so many people want the product at all and (almost) everyone's desire for it will be sensitive to the price you charge for it.)
+
+#### - What does the supply line represent and why is it increasing?
++ (Assumes marginal costs increase with quantity of product produced, e.g. sourcing more materials for your factory or building new equipment to extract oil from harder to work places, etc.)
+
+#### - So, according to this diagram what happens when we regulate how factories operate?
++ (This diagram does a nice job oversimplifying the trade-offs of the regulatory approach.)
++ We immediately get less pollution in a very controlled way, but
++ Prices go up and supply goes down
+
+<br>
+
+### Bottom line on C&C, what were our takeaways from last week?
+#### - Best advice for those who want to use regulations to address an environmental problem?
+
++ Be careful of economy wide effects (overall effect on the economy is hard to predict, could grow or shrink depending on many other factors involved)
+    + Must be paired with assistance for impacted workers?
++ Be careful of political interests in the design (lobbying and/or protection of well connected industries)
++ Regulations have got to keep up with changes in the market and technology (no drift!)
+- Depends on balance of "dirty" vs "clean" industries in the target economy
++ C&C most realistic if changes are small OR industries carefully targeted?
++ Enforcement at the individual level is hard if community doesn't buy-in
+
+<br>
+
+### Anybody leaning this way for their third paper?
+#### - Regulations are certainly the most straight-forward way to reduce pollution!
+
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Green_taxation_v2.png')
+background-size: 100%
+background-position: center
+class: top, center
+
+.size60[**Policy Design Option 2: "Green" Taxes**]
+
+???
+
+This week we shift to your next option: "Green" taxation policies
+
+Everybody likes paying higher taxes, right?
+
++ Let's do it for a good cause!
+
+--
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+.size40[**12.3 Market-Oriented Environmental Tools [(OpenStax 2016)**](https://opentextbc.ca/principlesofeconomics/chapter/12-3-market-oriented-environmental-tools/)]
+
+???
+
+<br>
+
+### Based on the open econ textbook reading, talk me through the basics of using a tax, or "pollution charge," to address an environmental problem.
+
+*next slides* 
+
+1. Fig 1 from textbook, and 
+
+2. Supply/demand curve for comparing to C&C
+
+
+
+---
+
+background-image: url('libs/Images/11-1-OET-Fig1.jpg')
+background-size: 90%
+background-position: center
+
+???
+
+### What in the world is this meant to show me?
++ Figure 1 illustrates the marginal costs that a firm faces in reducing pollution
++ Increases with output because "the firm can use the cheapest and easiest method to make initial reductions in pollution, but additional reductions in pollution become more expensive."
+    + First 10lb emissions costs $300 to eliminate
+    + Second 10lb costs $500
+
++ Hypothetical pollution tax of $1,000 per 10lb of emissions
+    + Cheaper to reduce pollution for 10, 20 and 30lb so do that
+    + Cheaper to pay the tax for the 40 and 50lb amounts so do that
+
++ So, $1k tax reduces this firms emissions by 30lb BUT the firm gets to produce as many widgets as it wants (assuming it can sell them!)
+
+#### - Make sense?
++ Unlike the C&C regulations, the tax approach means we get pollution cuts of different levels by different companies.
+    + Much more variation in terms of stuff in the market, prices to be paid BUT probably higher pollution!
+
+<br>
+
+### Real-world examples of pollution charges in my life (from the chapter)?
++ (Taxes on gasoline to reduce air pollution and pay for road upkeep)
++ (Pay for garbage pickup, especially with a "pay as you throw" policy to incentivize less waste production at the household level)
+
+#### - How does a gasoline tax impact me like this chart does for a polluting industry. Connect these dots for me.
+
++ Assuming the gas tax exists in MO to reduce pollution, it probably doesn't almost at all.
+
++ MO is currently one of the lowest in the country (19.5 cents / gallon) and that is nowhere near the price necessary for me to reconsider driving to work.
+
+#### - How high would our gas tax have to be to get you to opt out of driving more often?
+
+<br>
+
+Let's go back to our supply and demand curves.
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6}
+p1 +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Tax)", size = 5, color = "blue", hjust = .5)
+```
+
+???
+
+To keep things simple, AND WILDLY OVERSIMPLIFIED, I've simply changed the supply label to refer to a green tax rather than a regulation requiring new technology be installed.
+
+In this hypothetical, the government has applied a tax to production by industries that emit a certain pollution type and indexed it to the amount they produce.
+
+This tax increases the MC as before so the industry produces fewer widgets and less pollution.
+
+<br>
+
+This has many of the same drawbacks as before, however unlike the regulation, the tax is also a dynamic incentive to innovate!
+
+### Why is a green tax more likely to produce innovation than a C&C regulation?
+
+(SLIDE)
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves that move with innovation!
+## Have to install transformr for lines moving
+library(gganimate)
+
+d1 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 42 + .5*Quantity,
+  Supply2 = 18 + .5*Quantity,
+  Demand = 100 - 1*Quantity
+) |>
+  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
+
+d1 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Demand), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Green Taxes: Innovation can lower the MC") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Marginal\nCost", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) +
+  shadow_wake(wake_length = .5, colour = "grey")
+```
+
+???
+
+Designing a tax means using the power of the market to reduce pollution.
+
+Markets, as all good capitalists know, move MUCH faster and more efficiently to produce profits than top-down regulators possibly can.
+
+The key is that the tax makes finding a way to pollute less during production a profit-maximizing decision.
+
+If you make "being green" profitable then the market will take care of it for you.
+
+<br>
+
+Why can we be confident in this progress for our economy?
+
+Frankly speaking, the real world is much more complex than the diagram let's us easily see.
+
++ All firms have different MC curves (e.g pollution abatement costs) and so the easiest change is simply to advantage companies that already exist with current tech!
+
++ Technology is constantly evolving and money spent on abatement now tends to make abatement later even cheaper.
+
+<br>
+
+Bottom line-ish, using a "green" tax means trusting the market to embrace innovation to reduce pollution.
+
+Clearly there's way more to the economics of this and for that I encourage you to take Environmental Econ!
+
+# Optional: Textbook chapter also introduces additional market mechanisms (cap and trade) and property rights approaches (Coase theorem) if you want to introduce them
+
+Otherwise:
+
+For us, we need to dig into the politics!
+
+
+
+
+---
+
+background-image: url('libs/Images/11-1-heritage.png')
+background-size: 85%
+background-position: center
+
+???
+
+Let's start with the opposition from the right.
+
+### What are the key premises in the argument made by Loris and Williamson (2019) from the Heritage Foundation?
+
++ (?)
+
+<br>
+
+### How convincing do you find this argument?
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Energy_Justice_Network.png')
+background-size: 95%
+background-position: center
+
+???
+
+And now some opposition from the left!
+
+### What are the key premises in the argument made by Ewall from the Energy Justice Network?
+
++ (?)
+
+<br>
+
+### How convincing do you find this argument?
+
+
+
+---
+
+background-image: url('libs/Images/11-1-carbon-tax-plans-compared.png')
+background-size: 50%
+background-position: left
+class: middle, center, slideblue
+
+.pull-right[
+.size40[
+The Energy Innovation and Carbon Dividend Act ([Link](https://energyinnovationact.org/))
+
+<br>
+
+The Baker Shultz Carbon Dividends Plan: Bipartisan Climate Roadmap ([Link](https://clcouncil.org/Bipartisan-Climate-Roadmap.pdf))
+]]
+
+???
+
+Let's review some policy options for the US.
+
++ Lavelle 2019 ([Link](https://insideclimatenews.org/news/07032019/carbon-tax-proposals-compare-baker-shultz-exxon-conocophillips-ccl-congress/)) Reviews two competing carbon tax plans 
+
+### If you had to pick one, which way do you lean and why?
++ Discuss
+
+### Did anybody dislike both? Why?
++ Discuss
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Thursday: "Green" Taxation Cases**]
+
+.size40[
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+
++ "Similar" in ANY of the specifics OR complications in your problem
+
++ What is the lesson for our new policy designs? 
+]
+
+???

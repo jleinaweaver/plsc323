@@ -1,0 +1,666 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size55[
+Designing an Environmental Policy
+
++ "Green" Subsidy Policies
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Prep email with link to Google sheet for collecting case evidence
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
+???
+
+Let's make sure to keep the prompt for your final paper in mind as we explore each of the policy design options.
+
+### With two weeks' work under our belts on this, any questions on the final paper?
+
+<br>
+
+Given our focus on this, let's make sure we're not losing our prior work!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+.textred[**Command and Control**]
+
+"Green" Taxes
+
+"Green" Subsidies
+
+Adaptive Governance
+]
+
+???
+
+Two weeks ago we analyzed the use of C&C regulations to address environmental problems.
+
+### What are the strongest reasons to choose this policy design approach?
+
+### What are the biggest drawbacks of this approach?
+
+### What examples from our case studies were the most persuasive endorsements of this approach? Why?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+Command and Control
+
+.textred[**"Green" Taxes**]
+
+"Green" Subsidies
+
+Adaptive Governance
+]
+
+???
+
+Last week we analyzed the use of "green" taxes to address environmental problems.
+
+### Sum it up for me, what does it mean to use a "green" tax or pollution charge to address an environmental problem?
+
+<br>
+
+### Bottom line on "green" taxes, what were our takeaways from last week?
+#### - Best advice for those who want to use regulations to address an environmental problem?
+
+<br>
+
+### Anybody leaning this way for their third paper?
+#### - Taxes leverage the power of the market for innovation!
+
+
+
+---
+
+background-image: url('libs/Images/12-1-Green_Subsidies_v2.png')
+background-size: 80%
+background-position: bottom
+class: top, center
+
+.size60[**Policy Design Option 3: "Green" Subsidies**]
+
+???
+
+This week we shift to your next option: "Green" subsidies
+
+Free money to make better choices!
+
++ Who doesn't want free money???
+
+<br>
+
+Let's get a little more technical in our definition.
+
+### Per the Tarver (2021) article on Investopedia, and before we get into the critiques, talk to me about what subsidies are and how they work.
+
+(SLIDE: Let's make sure to split out subsidies to industry from those to consumers)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[**Targeting Government Subsidies**]]
+
+<br>
+
+.pull-left[
+```{r, fig.retina=3, out.width='100%'}
+knitr::include_graphics('libs/Images/12-1-consumers_v2.png')
+```
+
+.center[.size40[Consumers]]
+]
+
+.pull-right[
+```{r, fig.retina=3, out.width='100%'}
+knitr::include_graphics('libs/Images/12-1-manufacturing_v2.png')
+```
+
+.center[.size40[Industry]]
+]
+
+???
+
+### How do subsidies for industry work?
+
++ Subsidize industry approach 1: Tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
+
++ Subsidize industry approach 2: Pay "part of the cost a consumer would pay to purchase a good or service."
+
++ Effect: To "encourage production and consumption in specific industries."
+    + Subsidy through either approach leads to more supply, lowering the price and, hence, increasing demand.
+
+<br>
+
+### And how do subsidies for consumers work?
+
++ If demand for a product or service is low, tax credits or rebates can help offset the high cost.
+    + Usually through tax credits, e.g. solar panels for your house or buying an electric vehicle
+    
++ Cost goes down, demand should go up.
+
+(SLIDE: Back to our supply and demand curves!)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=5, cache=TRUE}
+## Move the supply curve thanks to a subsidy
+## Have to install transformr for lines moving
+library(gganimate)
+
+d1 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 30 + .4*Quantity,
+  Supply2 = 6 + .4*Quantity,
+  Demand = 55 - .5*Quantity
+) |>
+  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
+
+d1 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Demand), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Subsidies to Industry Target the Supply") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 75, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) +
+  shadow_wake(wake_length = .5, colour = "grey")
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=5, cache=TRUE}
+## Move the demand curve thanks to tax credits!
+## Have to install transformr for lines moving
+d2 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 30 + .4*Quantity,
+  Demand1 = 55 - .5*Quantity,
+  Demand2 = 70 - .5*Quantity
+) |>
+  pivot_longer(cols = Demand1:Demand2, names_to = "Scenario", values_to = "Value")
+
+d2 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Supply1), color = "blue", size = 1.2) +
+  geom_line(aes(y = Value), color = "red", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Subsidies to Consumers Target Demand") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) +
+  shadow_wake(wake_length = .5, colour = "grey")
+```
+]
+
+???
+
+Interestingly, whichever way we go with this the aim is basically the same.
+
+Using tax dollars to to increase the production and use of products or services from an industry we would like to see grow.
+
+<br>
+
+### Questions on the basics here?
+
+<br>
+
+Let's segue to the environment more directly.
+
+
+---
+
+class: middle, slideblue
+
+.size60[**Subsidies for Pollution Control**]
+
+.size30[
+"Subsidies are forms of **financial government support** for activities believed to be environmentally friendly. Rather than charging a polluter for emissions, a subsidy rewards a polluter for reducing emissions. Examples of subsidies include **grants, low-interest loans, favorable tax treatment, and procurement mandates**. Subsidies have been used for a wide variety of purposes, including: brownfield development after a hazardous substance contamination; agricultural grants for erosion control; low-interest loans for small farmers; grants for land conservation; and loans and grants for recycling industrial, commercial and residential products. **While subsidies offer incentives to reduce emissions similar to a tax, they also encourage market entry to qualify for the subsidy**" ([Link](https://www.epa.gov/environmental-economics/economic-incentives#subsidies)).
+]
+
+???
+
+Here is how the EPA defines "Subsidies for Pollution Control."
+
+### Everybody clear on the definition as applied to environmental problems?
+
+#### - Any of these program types you're not familiar with?
+
+<br>
+
+### Everybody clear on what kinds of programs you'll need to find for our case work on Thursday?
+
+<br>
+
+Well, as you know from the readings for today, subsidies make a lot of people mad!
+
+We need to take these arguments seriously if we intend to use subsidies as our chosen policy tool.
+
+In a sense, my challenge for us today is to see these critiques NOT as deal-breakers, but instead as design challenges!
+
+
+
+
+---
+
+background-image: url('libs/Images/12-1-heritage_loris2011.png')
+background-size: 85%
+background-position: center
+
+???
+
+Let's start with our old friend from the Heritage Foundation Nicolas Loris.
+
+### What are the key premises in the argument made by Loris (2011)?
+
++ (?)
+
+<br>
+
+### Assuming this is a challenge for subsidy design and not a deal-breaker, what do we need to keep in mind when designing a subsidy to address an environmental problem?
+
+*Build a list ON THE BOARD across the articles*
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[**Are Clean Energy Tax Credits Equitable? (Davis 2015)**]]
+
+<br>
+
+.pull-left[
+```{r, fig.retina=3, out.width='100%'}
+knitr::include_graphics('libs/Images/12-1-Borenstein2016-FigA.png')
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, out.width='100%'}
+knitr::include_graphics('libs/Images/12-1-Borenstein2016-FigC.png')
+```
+]
+
+???
+
+### What are the key premises in this argument made by Davis (and taken from a chapter he published with Severin Borenstein in Tax Policy and the Economy)?
+
++ (?)
+
+<br>
+
+### Let's keep adding to our design challenges list!
+
+*Build a list ON THE BOARD across the articles*
+
+
+
+---
+
+background-image: url('libs/Images/12-1-Best2017.png')
+background-size: 85%
+background-position: center
+
+???
+
+I grant you, the tone of this article undermines its credibility somewhat, however, still covers some good research in a simple way that should help us in our design exercise.
+
+### What are the key premises in the argument made by Best (2017)?
+
++ (?)
+
+<br>
+
+### Let's keep adding to our design challenges list!
+
+*Build a list ON THE BOARD across the articles*
+
+
+
+---
+
+background-image: url('libs/Images/12-1-renewables_for_all.png')
+background-size: 85%
+background-position: center
+
+???
+
+Our last critique / piece of design advice comes from the formation of a recent community activist coalition called "Residential Renewables for All."
+
+### What specifically is this group asking policy designers to keep in mind when using subsidies to address environmental problems?
+
+#### - What is "direct pay" and how would it address the equity concerns about green subsidies?
+
+(SLIDE)
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+## Non-refundable $1,000 Credit
+nonref <- tibble(
+  Policy = "Non-refundable",
+  Taxes = seq(0, 2000, 100),
+  Subsidy = 1000
+  ) |>
+  mutate(
+    Net = if_else(Taxes - Subsidy < 0, Taxes, Subsidy)
+  )
+
+nonref |>
+  ggplot(aes(x = Taxes, y = Net)) +
+  geom_line(color = "red", size = 1.2) +
+  labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
+       title = "Hypothetical $1k 'Green' Subsidy'") +
+  theme_minimal() +
+  annotate("text", x = 1800, y = 900, label = "Non-Refundable", color = "red")
+```
+
+???
+
+This plot illustrates the effect of delivering a $1k green subsidy as a non-refundable tax credit.
+
++ The x-axis shows how much a person owes in federal taxes.
+
++ The y-axis is how much of the $1k subsidy they will actually receive.
+
+<br>
+
+Most tax credits are non-refundable
+
++ They reduce or eliminate the income tax you owe
+
++ So, if you don't owe anything (because you make too little money) the credit = $0 for you!
+
+<br>
+
+On the one hand, it's super attractive for government to use the tax code to deliver subsidies.
+
++ We already have a massive tax infrastructure with many other tax credits built into it.
+
+On the other hand, this shows why using tax credits is such a problem.
+
++ For anyone who owes less than the amount of the subsidy, they are only eligible for a partial amount.
+    + You can't ger back more than you owe.
+    
++ For those with no federal tax obligation they get NONE of the subsidy!
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+## Non-refundable $1,000 Credit
+ref <- tibble(
+  Policy = "Refundable",
+  Taxes = seq(0, 2000, 100),
+  Subsidy = 1000
+  ) |>
+  mutate(
+    Net = 1000
+  )
+
+rbind(nonref, ref) |>
+  ggplot(aes(x = Taxes, y = Net, color = Policy, linetype = Policy)) +
+  geom_line(size = 1.2) +
+  labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
+       title = "Hypothetical $1k 'Green' Subsidy'") +
+  theme_minimal() +
+  annotate("text", x = 1800, y = 900, label = "Non-Refundable", color = "red") +
+    annotate("text", x = 200, y = 900, label = "Refundable", color = "blue") +
+  guides(color = "none", linetype = "none") +
+  scale_color_manual(values = c("red", "blue"))
+```
+
+???
+
+The 300 environmental justice advocates, environmental groups, and renewable energy companies in Residential Renewables for All are calling for a refundable credit.
+
+This kind of credit is refundable, meaning that if you owe less in taxes than the size of the subsidy the government sends you a check for the difference.
+
+This approach guarantees everyone has access to the full subsidy.
+
+### Anybody want to guess why the great majority of tax credits are non-refundable rather than refundable?
+
+<br>
+
+However, 
+
+1. If the goal is to get more people to pay for more efficient products and services, and
+
+2. We are worried about equity in our society, 
+
+Then we need to think about this carefully.
+
+<br>
+
+As an important aside, how big is this problem?
+
+### Anybody know what proportion of federal tax filers owe nothing?
+
+(SLIDE)
+
+<br>
+
+#### Regan, L., Wong, B., Preston, B. L., & Curtright, A. E. (2021). Incentivizing Solar: Catalyzing Solar Energy Technology Adoption to Address the Challenge of Climate Change. RAND Corporation. https://www.rand.org/pubs/perspectives/PEA1372-1.html
+
++ "In contrast to nonrefundable credits, refundable tax credits can be monetized without any tax liability. They have been referred to as direct pay tax credits because the Department of the Treasury effectively pays eligible participants the difference if the value of the credit exceeds the tax liability, even if the liability is zero" (9).
+
++ "These direct payments were treated as an overpayment of taxes and were able to be monetized as cash refunds after filing a federal tax return" (10).
+
++ "If the original intention of the ITC was to decrease solar installation costs, spur industry growth, and reduce barriers to market entry, reenabling the refundable provisions would eliminate dependence on tax equity financing and tax credit rollover. Direct pay is a more efficient project finance option, eliminating the premium paid to tax equity and third-party investors for project financing and ensuring that project installers receive the full benefit. There are other benefits that the refundable tax credit provides besides effective financial utilization and equity. Between 2009 and 2011, the refundable solar tax credit program allowed 110,000 projects to monetize the credit. The largest number of projects were residential solar systems. Additionally, the program was attributed with the creation of 75,000 direct and indirect jobs (Steinberg, Porro, and Goldberg, 2012). However, the refundable solar tax credit proved expensive because of the high uptake. Therefore, expanding access to the ITC for more individuals ultimately results in the federal government bearing a greater burden of solar generation deployment costs" (18-19).
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+library(readxl)
+d <- read_excel("libs/Data/TaxPolicyCenter_No_Tax_2021.xlsx") |>
+  mutate(
+    Row = 1:11, 
+    pct_nonpaying = pct_nonpaying/100,
+    pct_joint = pct_joint/100,
+    pct_wchildren = pct_wchildren/100
+  )
+
+d |>
+  ggplot(aes(x = reorder(Income, Row), y = pct_nonpaying)) +
+  geom_col(fill = "darkblue") +
+  geom_hline(yintercept = seq(.25, .75, .25), color = "white") +
+  coord_flip() +
+  theme_minimal() +
+  labs(x = "Income Level", y = "",
+       title = "All Tax Units with Zero Income Tax (2021)",
+       caption = "Source: Tax Policy Center") +
+  scale_y_continuous(labels = scales::percent_format())
+```
+
+???
+
+Data from the nonpartisan Tax Policy Center (jointly operated by the Urban Institute and the Brookings Institution) [Link](https://www.taxpolicycenter.org/model-estimates/tax-units-zero-or-negative-income-tax-liability-august-2021/t21-0162-distribution)
+
+Here we see the proportion of all tax filers in income categories who owe zero federal income taxes (after credits and deductions).
+
+### What do we learn from this?
+
++ (Pretty clear why the research shows green subsidies are inequitable!)
+
+<br>
+
+If you think that's something, take a look at the breakdown for tax filers with children
+
+SLIDE
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+d |>
+  pivot_longer(cols = c(pct_nonpaying, pct_wchildren), names_to = "Category", values_to = "Values") |>
+  mutate(
+    Category = if_else(Category == "pct_wchildren", "With Children", "All Filers")
+  ) |>
+  ggplot(aes(x = reorder(Income, Row), y = Values, fill = Category)) +
+  geom_col(position = "dodge") +
+  geom_hline(yintercept = seq(.25, .75, .25), color = "white") +
+  coord_flip() +
+  theme_minimal() +
+  labs(x = "Income Level", y = "",
+       title = "All Tax Units with Zero Income Tax (2021)",
+       caption = "Source: Tax Policy Center",
+       fill = "") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  scale_fill_manual(values = c("red", "blue"))  +
+  guides(fill = guide_legend(reverse = TRUE))
+```
+
+???
+
+That's just nuts!
+
+### So, where do we end up on the question of subsidies as a policy tool for addressing environmental problems?
+
+#### - What are the pros and cons of using subsidies to address an environmental problem?
+
+*ON BOARD*
+
+Pros: 
+
+- ?
+
+Cons: 
+
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Thursday: "Green" Subsidy Cases**]
+
+.size40[
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+
++ "Similar" in ANY of the specifics OR complications in your problem
+
++ What is the lesson for our new policy designs? 
+]
+
+???
+
+### Questions?

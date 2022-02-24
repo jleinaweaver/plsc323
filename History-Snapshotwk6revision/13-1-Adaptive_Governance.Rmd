@@ -1,0 +1,1186 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size55[
+Designing an Environmental Policy
+
++ Adaptive Governance Policies
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Prep email with link to Google sheet for collecting case evidence on Thursday
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
+???
+
+We start the papers next week.
+
+### Everybody building up lots of good material?
+
+### Questions on the prompt?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+Command and Control
+
+"Green" Taxes
+
+.textred[**"Green" Subsidies**]
+
+Adaptive Governance
+]
+
+???
+
+Last week we explored using subsidies to address environmental problems.
+
+### What does that mean? What is a "green" subsidy and how does it work?
+
+<br>
+
+### What are the pros and cons of choosing a subsidy approach to solving an environmental problem?
+
+#### - What did we learn from the arguments and case studies last week?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle, center
+
+# Policy Types
+.size55[
+Command and Control
+
+"Green" Taxes
+
+"Green" Subsidies
+
+.textred[**Adaptive Governance**]
+]
+
+???
+
+Today we shift to our final policy design option: Adaptive governance.
+
+Think of this like a direct rebuttal to the nonsense spewed by Garrett Hardin.
+
+Because, for Elinor Ostrom, that's exactly what it was!
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Hardin.webp')
+background-size: 35%
+background-position: left
+
+class: middle, slidered
+
+.right-column[
+.right[
+
+.size55[**Garrett Hardin**]
+
+.size35[
+Earth is a "Tragedy of the Commons"
+
+Freedom to breed brings ruin to us all
+
+History proves me right!
+]]]
+
+???
+
+We've already hammered the "ecologist" Garrett Hardin for his stark racism in this class.
+
+But his work is an important player in the policy designs we'll explore today.
+
+<br>
+
+### Remind me, what is the tragedy of the commons story?
+1. (It is rational for all humans to extract benefits from the commons because those costs are lower (e.g. shared with your neighbors))
+
+2. (It is rational to accelerate your use of the commons as you see others increasing their use. Use it before we lose it!)
+
+3. (Human reproduction is a tragedy of the commons)
+    + Having kids you can't support imposes costs on society and accelerates our race to the tragedy.
+    + Poor countries struck by a natural disaster are learning an important lesson about why they should have chosen to be rich countries instead... (Sweet Jesus)
+    
+<br>
+    
+*So, Hardin argued we should:*
+
++ Control the right to reproduction,
++ Let poor countries wipe themselves out, and
++ seal our borders
+
+<br>
+
+What was the reaction from historians to Hardin's description of the commons?
+
+SLIDE
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Truman_show_what_the_hell.gif')
+background-size: 100%
+background-position: center
+
+???
+
+According to historians, Hardin completely misrepresents the history of commons resources he claimed to be drawing from.
+
+<br>
+
+It seems Hardin has a series of agressive, white nationalist policy conclusions he wanted to support and he decided environmentalism would allow him to get where he wanted to go.
+
+Motivated reasoning is one hell of a drug!
+
+<br>
+
+To build us back to Ostrom's work, let's talk about what history ACTUALLY can teach us about the commons and societal collapse.
+
+
+---
+
+background-image: url('libs/Images/13-1-pasture_farming.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+As Dr. Susan Cox thoroughly explains in her article for *Environmental Ethics* the medieval and post-medieval commons lands of England did not experience Hardin's tragedy.
+
+*The bottom line was the English commons system "succeeded admirably in its time."*
+
+1. English "commons" severely restricted access
+    + "...the English common was not available to the general public but rather only to certain individuals who inherited or were granted the right to use it, and use of the common even by these people was not unregulated."
+
+2. English "commons" were regulated
+    + "The types and in some cases the numbers of animals each tenant could pasture were limited, based at least partly on a recognition of the limited carrying capacity of the land."
+    
+3. The end of the "commons" was politics, not dramatic tragedy
+    + "The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
+
+<br>
+
+So, if the ToC wasn't evident in the historical commons, what about other societies that collapsed after wasting their resources?
+
+Was Hardin's explanation right for them?
+
++ Hint: No, it is not.
+
+<br>
+
+## Notes
++ *Image: British Library - Milking sheep in the pen and maids carrying the milk, manuscript illumination, anonymous in the Luttrell Psalter, c. 1340*
+
++ Cox, Susan. (1985). No Tragedy on the Commons. *Environmental Ethics*. Vol 7, Issue 1, p49-61.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Mystery.jpg')
+background-size: 100%
+background-position: center
+class: inverse
+
+.textwhite[.size70[**The Chaco Anasazi**]]
+
+???
+
+### Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?
+
+The Chaco Anasazi, meaning the Ancient Ones, had a sizable civilization for some 500 years in the southwest US (from about 600 AD to 1100 AD)
+
++ San Juan Basin area of New Mexico
+
+They were a flourishing and dynamic society.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Trade_Map.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='50%'}
+knitr::include_graphics('libs/Images/13-1-turquoise_beads.webp')
+```
+
+???
+
+Archaelogical evidence has shown us they maintained extensive trade ties across very large distances.
+
++ Evidence of turquoise beads from across the western US [Link](https://www.livescience.com/44703-turquoise-trade-network-revealed.html)
+
++ This trade network spanned several states: Colorado, Nevada and southeastern California
+
+<br>
+
+Some impressive networks built and supported over centuries.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi3.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='45%'}
+knitr::include_graphics('libs/Images/13-1-Anasazi-pot.jpeg')
+```
+
+???
+
+The Anasazi also built extensive public works to allow for city building and irrigation for larger farm lands
+
++ Damming rivers, managing forests, roads, etc
+
+Also supported a thriving arts and science culture.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi2.jpg')
+background-size: 100%
+background-position: center
+class: inverse, top
+
+.center[.textwhite[.size55[**Why did the Anasazi disappear?**]]]
+
+???
+
+*Source: Jared Diamond's Collapse book has such stories (although historians quibble with MANY of his details!)*
+
+The question is, for a society as incredibly successful as they were, how did they disappear so rapidly?
+
+<br>
+
+They lived in a place, US Southwest, whose environment was already somewhat strained (low rainfall, not a lot of forest land)
+
++ As their population grew, demands on environment grew and environmental resources declined
+
++ They tried a ton of policies to grow: Damming rivers, extensive trade, going further and further to find trees
+
++ The problem was a long drought hit them and they were screwed.
+
+<br>
+
+The lessons of their collapse?
+
++ Never just one thing that wipes out a society,
+
++ The idea that humans are compelled to race to the end because it is the end is not evident in the historical record.
+
++ May not be able to anticipate when conditions will change
+
+<br>
+
+Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on bad strategies and selfish abuses of the land.
+
+The actual story of societal collapse tied to environmental mismanagement is always a much more complicated one.
+
+Dare I say it, a political one?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size50[**Nobel Prize Winner Elinor Ostrom**]
+
+
+.pull-left[
+<br>
+
+.size40["What we have ignored is what citizens can do and the importance of real involvement of the people involved - versus just having somebody in Washington make a rule."]
+]
+
+.pull-right[
+```{r, out.width='85%'}
+knitr::include_graphics('libs/Images/13-1-ostrom.jpg')
+```
+]
+
+???
+
+This brings us to one of my favorite human beings, Elinor Ostrom.
+
+Her story is a super cool one
+
+- Working in the business world in the early 1960’s she was told not to pursue a PhD because no one would ever hire a woman professor.
+
+- Her response was to get her PhD in Political Science, find an excellent academic job and then to produce research so good they would award her the Nobel Prize in **ECONOMICS** in 2009. 
+
+You might not realize but Economists tend not to think highly of political scientists.
+
++ This award was entirely merited and a HUGE deal.
++ But we will never let them take her from us!
+
+<br>
+
+Dr. Ostrom's research revolutionized our understanding of the tragedy of the commons.
+
+She was inspired by what she didn't see happening around her.
+
+Hardin predicted tragedies should be all around us but Ostrom kept finding success stories around the world.
+
+She chose to study these success stories in order to identify the policy designs that made them work.
+
+And so I assigned you the chapter of her book that explores some of these case studies and presents the policy design lessons she learned from them. 
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-fishing_boat.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+???
+
+Let's start by clarifying the concept of the Commons.
+
+Ostrom argues that Hardin's "commons" is too limited a view of the problems we face.
+
+--
+
+.pull-right[
+```{r, out.width='100%'}
+knitr::include_graphics('libs/Images/13-1-cod-fishery-chart.jpg')
+```
+]
+
+???
+
+<br>
+
+Take the example of Atlantic cod fishing.
+
+No country owns the North Atlantic and the cod fishery collapsed pretty severely due to overfishing.
+
+### Is this a Tragedy of the Commons? Why or why not?
+
++ (Frankly, it's hard to say. Is the commons the fish or the ocean? Or both?)
+
+<br>
+
+Ostrom's argument is that, ultimately, who cares!
+
+It's a problem we need to solve!
+
+<br>
+
+#### Notes
++ Chart source: Kenneth T. Frank; Brian Petrie; Jae S. Choi; William C. Leggett (2005). "Trophic Cascades in a Formerly Cod-Dominated Ecosystem". Science. 308 (5728): 1621–1623.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[**Common Pool Resources (CPR)**]]
+
+<br>
+
+.pull-left[
+```{r}
+knitr::include_graphics('libs/Images/13-1-ocean.jpg')
+```
+
+.center[.size40[The System]]
+]
+
+.pull-right[
+
+<br>
+
+```{r}
+knitr::include_graphics('libs/Images/13-1-cod-fish.jpg')
+```
+
+.center[.size40[The Unit]]
+]
+
+???
+
+Ostrom wants us to stop worrying about the mythical "commons" and instead to shift our focus to what she calls a common pool resource (CPR).
+
+A common pool resource has two elements: A resource system and a resource unit.
+
+In other words, all CPRs can be thought of as systems that produce units.
+
+In the case of Atlantic Cod, both the area and the thing are important to the story.
+
+We really don't need to waste time debating the limits and historical antecedents of "the commons."
+
+### Make sense?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-cow_grass.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+???
+
+Let's help Hardin out.
+
+### In his cattle and pasture problem what is the system and what are the units?
++ (Not the cows, but the grass they eat!)
+
+### Why is this a more useful way to think about the commons?
++ (Opens up our understanding of the problem, gives us more parts to focus solutions on)
+
+<br>
+
+Ok, so a CPR is way easier to define than "the commons" and it more clearly helps us identify its component parts.
+
+<br>
+
+Now, when does a CPR confront tragic outcomes?
+
+Ostrom argues that Hardin's tragedy is possible in any CPR with two characteristics: 
+
+(SLIDE)
+
+--
+
+.size55[.content-box-blue[Tragedy is possible in CPRs that:]]
+
+<br>
+
+.size55[.content-box-blue[1) Benefit users through use, and]]
+
+<br>
+
+.size55[.content-box-blue[2) are very, very large]]
+
+
+???
+
+<br>
+
+### Why does size matter?
++ (It is large enough to make excluding some people from it VERY costly.)
+
+<br>
+
+So, Ostrom wants to push our work in a more productive, policy design direction.
+
+Our focus shouldn't be on who owns a resource, it should be on who has access to it.
+
+### Make sense?
+
+<br>
+
+So, a small pond with fish is not going to lead to a tragedy because we can build a fence and monitor all fishers.
+
+An ocean full of cod? Hello tragedy!
+
+
+
+---
+
+class: middle
+
+.center[.size55[**Common Pool Resources (CPR)**]]
+
+<br>
+
+```{r}
+t1 <- tibble(
+  "Resource Systems" = c("Fishing Grounds", "Groundwater Basins", "Irrigation Canals", "Grazing Areas"),
+  "Resource Units" = c("Tons of fish", "Cubic meters of water", "Cubic meters of water", "Tons of fodder")
+) 
+
+t1 |>
+  kableExtra::kbl(align = c("l", "c")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "13em") |>
+  kableExtra::column_spec(2, width = "13em")
+```
+
+???
+
+The CPR approach is very adaptable to different types of system.
+
+### Everybody clear on how we can think about each of these resources as a CPR?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-pipe_dump_river_v2.png')
+background-size: 100%
+background-position: center
+class: top, center, inverse
+
+.textwhite[.size75[**Is this a CPR problem?**]]
+
+???
+
+Ok, here we see a factory pumping pollution into a nearby river.
+
+### How can we model this as a CPR?
+
+#### - What is the system?
+#### - What are the units?
+
+(SLIDE)
+(- Amount of waste they can absorb)
+
+
+
+---
+
+class: middle
+
+.center[.size55[**Common Pool Resources (CPR)**]]
+
+<br>
+
+```{r}
+t1 |>
+  add_row(`Resource Systems` = "River", `Resource Units` = "Tons of waste absorbed") |>
+  kableExtra::kbl(align = c("l", "c")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "13em") |>
+  kableExtra::column_spec(2, width = "13em")
+```
+
+???
+
+### Make sense?
+
+<br>
+
+Shifting our focus to thinking about systems and units means we can study an even wider array of resource situations.
+
+Let's test ourselves.
+
+
+
+---
+
+class: middle
+
+.center[.size55[**Common Pool Resources (CPR)**]]
+
+<br>
+
+```{r}
+t1 |>
+  add_row(`Resource Systems` = "River", `Resource Units` = "Tons of waste absorbed") |>
+  add_row(`Resource Systems` = "Parking Garage", `Resource Units` = "?") |>
+  add_row(`Resource Systems` = "Bridge", `Resource Units` = "?") |>
+  kableExtra::kbl(align = c("l", "c")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "13em") |>
+  kableExtra::column_spec(2, width = "13em")
+```
+
+???
+
+### IF we think of a bridge or a parking garage as a resource system, what are their units?
+
+(SLIDE)
+
+Public Parking Garage as CPR
+
+1. Anyone can access the spaces
+2. Having a parking spot provides utility
+3. Limited number of spaces available before the garage is no longer useful for others in society
+
+Bridge as CPR
+
+
+
+---
+
+class: middle
+
+.center[.size55[**Common Pool Resources (CPR)**]]
+
+<br>
+
+```{r}
+t1 |>
+  add_row(`Resource Systems` = "River", `Resource Units` = "Tons of waste absorbed") |>
+  add_row(`Resource Systems` = "Parking Garage", `Resource Units` = "Parking spaces filled") |>
+  add_row(`Resource Systems` = "Bridge", `Resource Units` = "Number of crossings") |>
+  kableExtra::kbl(align = c("l", "c")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "13em") |>
+  kableExtra::column_spec(2, width = "13em")
+```
+
+???
+
+So, Ostrom's shifted us to a conceptual definition that is incredibly adaptable to many kinds of resource issue.
+
+AND
+
+Ostrom has helped us identify WHEN specifically those resources might result in tragedy
+
+1. Beneficial to their users, and
+2. Too large to easily exclude those users if you chose to.
+
+<br>
+
+In sum, this should mean we can apply Ostrom's design principles in many more places than you might have assumed.
+
+### So, before we get to the principles, anything we need to clarify?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Alpabzug-Alpine-Cow-Parade_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size65[**Ostrom's CPR Cases**]]
+
+???
+
+For today I had you read the chapter in Ostrom's book where she describes six places in the world where a commons has NOT resulted in a tragedy and the policy design lessons she learned from them.
+
+<br>
+
+As you all know, case selection DRAMATICALLY impacts the conclusions we can draw from any analysis.
+
+I often see those silly articles on the internet claiming the reporter has interviewed millionaires to find out their morning routines or whatever so we can copy them and also become rich.
+
+This is called selecting on the dependent variable and generates NO USABLE conclusions about what makes a person successful.
+
+You must have variation on the outcome or the work is untested.
+
+### Make sense?
+
+<br>
+
+So, let's start by discussing the case selection.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Alpabzug-Alpine-Cow-Parade_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size65[**Ostrom's CPR Cases**]]
+
+.size50[
+- Small CPRs only
+
+- CPR fits in one country
+
+- 15,000 maximum participants
+
+- Users economically dependent on CPR
+]
+
+???
+
+### Ok, talk to me about her case selection criteria.
+
+#### - What do these conditions mean for the conclusions we can draw by studying them?
+
+(- Can't automatically apply to international problems)
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Alpabzug-Alpine-Cow-Parade_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size65[**Ostrom's CPR Cases**]]
+
+.size60[
+1. Torbel, Switzerland
+2. Villages in Japan
+3. Huertas in Valencia
+4. Huertas in Murcia and Orihuela
+5. Huertas in Alicante
+6. Zanjeras in the Philippines
+]
+
+???
+
+### Describe the CPR in each of these cases.
+
+#### - What is the system?
+
+#### - What are the units?
+
+#### - How long has this commons been successfully managed in this way?
+
+<br>
+
+### Any concerns about making inferences from these cases?
+
+
+---
+
+background-image: url('libs/Images/13-1-Huerta_Murcia.jpg')
+background-size: 100%
+background-position: center
+class: top, inverse
+
+.center[.size65[**Lessons from Ostrom's successful CPRs**]]
+
+
+???
+
+*Image is a huerta in Murcia
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[**Ostrom's Design Principles**]]
+
+.size40[
+1. Clearly defined boundaries.
+2. Congruence between appropriation / provision rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/13-1-farm_fence_v2.png')
+background-size: 100%
+background-position: center
+class: top, center, inverse
+
+.textwhite[.size60[**1. Clearly Defined Boundaries**]]
+
+???
+
+The first principle is that successful CPRs have clearly defined boundaries
+
+Two elements:
+1. Clearly define who has the right to withdraw resource units from the CPR.
+2. Clearly define the boundaries of the CPR itself.
+
+- Why is this principle important?
+
+Ostrom argues we must label who the “outsiders” are and agree on what is included in the CPR.
+- If anyone can come along and appropriate CPR resources, what incentive do you have to sacrifice for the future?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Philippines_rice_terraces.jpg')
+background-size: 100%
+background-position: bottom
+class: top, center, inverse
+
+.textwhite[.size50[**2. Match Rules to Local Conditions**]]
+
+???
+
+Second principle, successful CPRs Match Rules to Local Conditions
+
+Ostrom examined water problems in four garden areas in Spain (huertas).
+- All users had to pay fees for access to water.
+- HOWEVER, fees indexed to local demand and supply of water.
+
+In those huertas where water was more available (e.g. more rain this season), fees were lower.
+
+- Why is this a useful design principle?
+(Flexibility to local conditions might make people feel they are not being ruled by an unreasonable entity)
+(Might make compliance better if people feel fairly treated.)
+
+- Why might implementing this principle cause problems?
+
+(1. There will likely be debate about what the local conditions imply.)
+- If I want low fees, I will use this principle as the basis of my argument.
+
+(2. Different rules for different people using the same CPR could lead to huge dissatisfaction.)
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-farmers_collective.jpg')
+background-size: 100%
+background-position: center
+class: top, center, inverse
+
+.textwhite[.size50[**3. Collective-Choice Arrangements**]]
+
+???
+
+Third principle, successful CPRs have inclusive Collective-Choice Arrangements
+
+Rules not created and maintained by some external authority.
+- The appropriators themselves participate in making the operational rules.
+
+- Why is this a useful design principle?
+(Make the people whose behavior you need to change feel ownership of the process = better compliance?)
+
+- In what ways could this principle create big problems?
+(1. The bigger the group, the harder it is to make collective decisions.)
+(2. Big disconnect possible between winners and losers from resource use.)
+(3. Difficulty of understanding the science means not everyone has an informed opinion.)
+
+- Should everyone interested in the CPR get a vote or just a certain subset of users? 
+-- What about kids who will inherit the farm?
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-water_testing.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.textwhite[.size50[**4. Monitoring**]]
+
+???
+
+Fourth principle, successful CPRs arrange for monitoring
+
+Monitors must:
+1. Actively audit CPR conditions AND 
+2. Should either be the appropriators themselves or be fully accountable to them.
+
+- In what ways could this principle create big problems?
+
+(1. Establishing monitors’ and scientists’ independence from appropriators; Must be able to trust their work.)
+(2. Uncertainty about what to monitor.)
+
+Who here has a job?
+- If you don't do what your boss asked or have to give her bad news, how do you do it?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-slap-on-wrist.jpg')
+background-size: 80%
+background-position: center
+class: bottom, center, inverse
+
+.textwhite[.size50[**5. Graduated Sanctions**]]
+
+???
+
+Fifth principle, successful CPRs have graduated sanctions
+
+Rule breakers must be punished, but the punishment should fit the crime.
+- e.g. first offense or accidental rule breaking may require small punishments only to keep people on track.
+
+The punishment should be imposed by the other appropriators or by officials accountable to them.
+
+- In what ways could this principle create big problems?
+(1. How to agree the appropriate level of penalty amongst the appropriators?)
+(2. Who benefits if the commons is a zero-sum game when someone gets punished? I might!)
+- Possible conflict of interest?
+- Although I might deal fairly in the hope they will do the same for me.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-mediation.png')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.textwhite[.size50[**6. Conflict-Resolution Mechanisms**]]
+
+???
+
+Sixth principle, successful CPRs have Conflict-Resolution Mechanisms
+
+Rapid access to low-cost local arenas to resolve conflicts.
+- Full trial is very costly and time-consuming, not needed for many disputes.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-right-to-organize.jpg')
+background-size: 85%
+background-position: center
+class: bottom, center
+
+.size50[.content-box-grey[**7. Recognition of Rights to Organize**]]
+
+???
+
+Seventh principle, successful CPRs have Minimal Recognition of Rights to Organize
+
+Local areas must be empowered to make rules the central government will not overrule.
+
+- Why is this a vital principle?
+(If locals can appeal to central government to overrule the CPRs rules, then the local rules are meaningless.)
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-nested_levels.png')
+background-size: 80%
+background-position: center
+class: bottom, center
+
+.size50[.content-box-grey[**8. Nested Enterprises**]]
+
+???
+
+Eighth principle, successful CPRs have Nested Enterprises
+
+For CPRs part of larger systems, all of the important stuff is organized in levels.
+- Provision, monitoring, enforcement, arbitration done at the level appropriate to the problem.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[**Ostrom's Design Principles**]]
+
+.size40[
+1. Clearly defined boundaries.
+2. Congruence between appropriation / provision rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+]
+
+???
+
+Think about the environmental problems you’ve been working on.
+- Most of these will have a certain dynamics like a CPR.
+
+
+- Which of these principles would be the hardest to implement related to your problem? Why?
+
+
+- Which of these principles would be the easiest to implement? Why?
+
+
+Overall, what do you think? Is this a good plan to save the commons?
+
+
+- Any of these necessary conditions? Which ones?
+
+
+- Any sufficient conditions?
+
+
+- Any we probably don’t need?
+
+
+
+### So, where do we end up on the question of using adaptive governance as a policy tool for addressing environmental problems?
+
+#### - What are the pros and cons of this approach?
+
+*ON BOARD*
+
+Pros: 
+
+- ?
+
+Cons: 
+
+- ?
+
+<br>
+
+Other Ostrom Notes
+
+- Hardin's oversimplification misses the many success stories around the world (e.g. Main lobsters, montreal protocol)
+
+Why a struggle? 
+- "...involves making tough decisions under uncertainty, complexity, and substantial biophysical constraints as well as conflicting human values and interests."
+
+- 5 factors make it easier:
+1. Resources and use can be easily monitored
+2. only moderate rate of change in important factors (e.g. population, technology)
+3. social capital e.g. dense social networks
+4. easy to exclude outsiders
+5. users support monitoring and enforcement
+
+Selective Pressures
+- Many success stories (long-term sustainable resource use) in small communities with effective, local, self-governing rights.
+
+Requirements of Adaptive Governance in Complex Systems
+1. Providing info (trustworthy, congruent in scale with environment and decisions; congruent with decision-makers needs in terms of timing and content.
+2. Dealing with conflict (conflict resolution mechanisms needed to prevent escalation to dysfunction; must have broad buy-in; no single approach is always the right one)
+3. Inducing rule compliance (but allowing modest rule violations; graduated sanctions; must be seen as BOTH effective and legitimate; Tradeable Environmental Allowances (TEAs) may be helpful but carry their own problems)
+4. Providing infrastructure (physical and technological infrastructure vital but often ignored; 
+5. Be prepared for change (Adaptation is vital as every element is in flux; fixed rules will fail)
+
+Strategies for accomplishing the above
+1. Analytic deliberation (well structured dialogue between all parties)
+2. Nesting (Inst arrangements must be complex, redundant and nested in many layers; Sole authority, whether government or an individual, often leads to failure; efficiency of control is NOT a virtue in these systems)
+3. Institutional variety(Employ mixtures of institutional types (e.g. hierarchies, markets and community self-governance) to change incentives, increase information, monitor use and induce compliance. Bad actor may evade one but others will compensate.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Thursday: Adaptive Governance Cases**]
+
+.size40[
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+
++ "Similar" in ANY of the specifics OR complications in your problem
+
++ What is the lesson for our new policy designs? 
+]
+
+???
+
+### Questions?

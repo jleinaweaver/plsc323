@@ -1,0 +1,94 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Working on Paper 2
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 2
+.size45[
+Write a report analyzing your environmental problem in terms of its complications.
+
+In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
+
++ Support all claims with evidence
+]
+
+???
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[**Next Week**]
+
+.size40[
+Section 3: Designing an Environmental Policy
+
++ "Command and Control" Policies
+]
+
+???
+
+### Questions?

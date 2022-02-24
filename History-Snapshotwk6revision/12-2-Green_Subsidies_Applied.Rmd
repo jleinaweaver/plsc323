@@ -1,0 +1,142 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size55[.center[
+Explore real world cases of "green" subsidies addressing environmental problems
+]]
+
+<br>
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Review submitted cases
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
+???
+
+Let's keep our focus on the task of this third section of our class.
+
+Each week as we review each policy design option you need to make sure to keep your eye on the goal.
+
+Keep asking yourself, how would I use this policy approach to address my chosen problem?
+
+### Questions?
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[**Today: "Green" Subsidy Cases**]
+
+.size40[
+Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+
++ "Similar" in ANY of the specifics OR complications in your problem
+
++ What is the lesson for our new policy designs? 
+]
+
+???
+
+### Does everybody have a case to present and discuss today?
+
+
+
+---
+
+background-image: url('libs/Images/12-1-Green_Subsidies_v2.png')
+background-size: 80%
+background-position: bottom
+class: top, center
+
+.size50[**Best advice / things to remember when designing "green" subsidies?**]
+
+???
+
+*ON BOARD*
+
+Let's work together to build a policy cheat sheet on the board.
+
+If you were designing a "green" subsidy to address an environmental problem what would you need to keep in mind?
+
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/13-1-fishing.jpg')
+background-size: 100%
+background-position: center
+class: center, inverse
+
+.textwhite[.size65[**Local Control of Common Pool Resources**]]
+
+???
+
+Next week we explore our next policy design, local control over shared natural resources!
+
+Make sure you consolidate and clean up your notes from this week.
+
+You might end up making this central to your paper!
