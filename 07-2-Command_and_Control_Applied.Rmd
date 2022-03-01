@@ -50,6 +50,7 @@ Explore real world cases of command and control regulations addressing environme
 
 ## Prep for Class
 1. Review submitted cases
+    - https://docs.google.com/document/d/1dDKvveHlHhms-TSNpxn4fOjk9tTYnjQx4sqUVJtm81E/edit?usp=sharing
 
 
 
@@ -57,29 +58,28 @@ Explore real world cases of command and control regulations addressing environme
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
 background-size: 100%
 background-position: center
 
 class: middle
 
-# Paper 3
-.size40[
-Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+# Paper 2
+.size45[
+Write a report analyzing the pros and cons of our four policy design options for addressing your specific environmental problem. 
 
-Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+Which is the "right" choice for your work this term?
+
+- Support all claims with evidence
 ]
 
 ???
 
-Let's keep our focus on the task of this third section of our class.
+Keep your eye on the next target: Paper 2.
 
-Each week as we review each policy design option you need to make sure to keep your eye on the goal.
+In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
 
-Keep asking yourself, how would I use this policy approach to address my chosen problem?
-
-### Questions?
-
+### Any questions on the prompt?
 
 
 
@@ -87,19 +87,52 @@ Keep asking yourself, how would I use this policy approach to address my chosen 
 
 class: middle, slideblue
 
-.size50[**Today: Command & Control Cases**]
+.size50[**Thursday: Command & Control Cases**]
 
-.size40[
-Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+.size45[
+Find a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
+]
 
-+ "Similar" in ANY of the specifics OR complications in your problem
-
-+ What is the lesson for our new policy designs? 
+.size45[
+.textblue[**Present as an argument**]: This case shows that addressing environmental problem X can be done successfully using C&C regulations.
 ]
 
 ???
 
-### Does everybody have a case to present and discuss today?
+### Does everybody have an argument to present and discuss today?
+
+
+Small groups: Present and discuss each argument
+
+Repeat in new groups
+
+Class comes together
+1. Key observations from the cases?
+
+2. 
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55[**Best advice / things to remember when designing command and control regulations?**]
+
+???
+
+1. Details on the specific regulation of interest,
+
+2. In what specific ways do you believe it was effective, and
+
+3. In what specific ways has it been ineffective?
+
+Summarize the specific regulation you 
 
 
 

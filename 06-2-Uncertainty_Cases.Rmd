@@ -36,11 +36,9 @@ class: slideblue
 
 <br>
 
-.size50[
-1. Let's modify our plan for the rest of the semester, and
-
-2. Review your uncertainty cases
-]
+.size60[.center[
+Let's modify our plan for the rest of the semester!
+]]
 
 <br>
 
@@ -174,9 +172,7 @@ class: middle
 
 # Paper 2
 .size45[
-Write a report analyzing the pros and cons of our four policy design options for addressing your specific environmental problem (C&C Regulations, "Green" Taxes, "Green" Subsidies, and Adaptive Governance). 
-
-Which is the "right" choice for your work this term?
+Write a report analyzing the pros and cons of our four policy design options for addressing your specific environmental problem. Which is the "right" choice for your specific problem?
 
 - Support all claims with evidence
 ]
@@ -191,9 +187,19 @@ New prompt and deadline for paper 2.
 
 <br>
 
-Ok, so that's my proposal.
+Ok, so that's my plan.
 
-The revised syllabus is now available on Moodle and I'll email it out shortly. 
+The revised syllabus is now available on Moodle (and attached to this email).
+
+<br>
+
+I'm going to ask each of you to review the revised syllabus and then click the link to a Google Form (also in this email) and let me know you have reviewed the new plan and if you have any questions or concerns about it.
+
+Thanks!
+
+
+
+
 
 ### Does the new plan make sense?
 
