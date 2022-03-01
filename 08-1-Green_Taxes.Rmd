@@ -52,7 +52,7 @@ Designing an Environmental Policy
 
 ## Prep for Class
 1. Prep email with link to Google sheet for collecting case evidence
-
+    - https://docs.google.com/document/d/17Bkakj7I3D1CcDnE85TfiaLTwvU3Z7ym4gKe0855C48/edit?usp=sharing
 
 
 ---
@@ -417,19 +417,16 @@ Let's review some policy options for the US.
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
-background-size: 100%
-background-position: center
-class: middle
+class: middle, slideblue
 
-.size50[**Thursday: "Green" Taxation Cases**]
+.size50[**Thursday: "Green" Tax Cases**]
 
-.size40[
-Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+.size45[
+Find a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
+]
 
-+ "Similar" in ANY of the specifics OR complications in your problem
-
-+ What is the lesson for our new policy designs? 
+.size45[
+.textblue[**Present as an argument**]: This case shows that addressing environmental problem X can be done successfully using "green" taxes.
 ]
 
 ???
