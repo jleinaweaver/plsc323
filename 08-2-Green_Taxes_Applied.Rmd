@@ -54,7 +54,7 @@ Exploring the Success Stories (II)]
 
 ## Prep for Class
 1. Review submitted cases
-
+    - https://docs.google.com/document/d/17Bkakj7I3D1CcDnE85TfiaLTwvU3Z7ym4gKe0855C48/edit?usp=sharing
 
 
 ---
@@ -70,6 +70,7 @@ class: middle
 Which of the four policy design options is the "right" choice for addressing your environmental problem?
 
 - Analyze the pros and cons of each option for your chosen problem, and
+
 - Support all claims with evidence
 ]
 
@@ -103,6 +104,34 @@ Find a real world example of .textblue[**this approach**] being used to .textblu
 
 <br>
 
+Let's review all the cases for APA format.
+
+
+
+---
+
+class: middle, slideblue
+
+.size45[
+This case shows that using a "green" tax we can address environmental problem X.
+
+- What specific, narrow aspect of your problem does this tax focus on?
+
+- Which stakeholders does it target? What does it require them to do?
+
+- What institutions support this tax?
+]
+
+???
+
+Take a moment to reflect on your argument and get ready to present it to other people along these three dimensions?
+
+### Questions on this?
+
+Get to it!
+
+<br>
+
 Let's start with some speed dating to warm up!
 
 Pair off (10 mins): Each person take 5 minutes to present the case argument you brought for today.
@@ -113,15 +142,12 @@ New pairs, do it again! (10 mins)
 
 <br>
 
-Last time, new pairs do it again! (10 mins)
-
-<br>
-
-Ok, at this point you've heard three different arguments refined your own case argument three times.
+Ok, at this point you've heard two different arguments and hopefully gotten some time to reflect on your own case argument.
 
 Now let's try to extract lessons from all of them.
 
-Everybody form groups of four and spread out around the room.
+Everybody form groups of (three? four?) and spread out around the room.
+- Try to form groups with people you didn't pair off with during the warm-up!
 
 
 
@@ -139,7 +165,7 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 Here's the over-arching goal of our group-led evaluation.
 
-I'd like us to compare and contrast across all the cases you heard today to help us deepen our understanding of the C&C approach to environmental problem-solving.
+Groups compare and contrast each set of answers and help the class extract generalizable lessons to help us evaluate C&C regulations.
 
 ### Make sense?
 
@@ -260,6 +286,13 @@ Bottom line time.
 
 - ?
 
+<br>
+
+**Ok, everybody take five minutes to reflect on our work today.**
+
+Jot down some notes that I promise you'll need when it comes time to write the next paper.
+
+What are the pros and cons of using this approach for your specific problem?
 
 
 ---
