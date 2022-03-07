@@ -6,6 +6,8 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 02-1-Policy_and_Pollution.html
 
+02-1-Policy_and_Pollution_next_time.html
+
 02-2-Env_Policy_Processes.html
 
 03-1-Stakeholders_CAFE_Standards.html
@@ -24,33 +26,33 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 06-2-Uncertainty_Cases.html
 
-07-1-Collective_Action_Problems.html
+07-1-Command_and_Control.html
 
-07-2-Collective_Action_Problems_Cases.html
+07-2-Command_and_Control_Applied.html
 
-08-1-Inequality.html
+08-1-Green_Taxes.html
 
-08-2-Inequality_Cases.html
+08-2-Green_Taxes_Applied.html
 
-09-1-Paper2_Tue.html
+09-1-Green_Subsidies.html
 
-09-2-Paper2_Thur.html
+09-2-Green_Subsidies_Applied.html
 
-10-1-Command_and_Control.html
+10-1-Adaptive_Governance.html
 
-10-2-Command_and_Control_Applied.html
+10-2-Adaptive_Governance_Applied.html
 
-11-1-Green_Taxes.html
+11-1-Paper2_Tue.html
 
-11-2-Green_Taxes_Applied.html
+11-2-Paper2_Thur.html
 
-12-1-Green_Subsidies.html
+12-1-Collective_Action_Problems.html
 
-12-2-Green_Subsidies_Applied.html
+12-2-Collective_Action_Problems_Cases.html
 
-13-1-Self_Regulation.html
+13-1-Inequality.html
 
-13-2-Self_Regulation_Applied.html
+13-2-Inequality_Cases.html
 
 14-1-Paper3_1.html
 
