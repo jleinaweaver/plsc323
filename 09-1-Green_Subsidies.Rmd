@@ -18,7 +18,7 @@ output:
 
 library(tidyverse)
 library(readxl)
-library(stargazer)
+##library(stargazer)
 ##library(kableExtra)
 ##library(modelr)
 
@@ -28,6 +28,8 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE,
                       warning = FALSE,
                       comment = NA)
+
+library(gganimate)
 ```
 
 class: slideblue
@@ -36,8 +38,8 @@ class: slideblue
 
 <br>
 
-.size55[
-Designing an Environmental Policy
+.size45[
+Approaches to Environmental Policy Design
 
 + "Green" Subsidy Policies
 ]
@@ -52,6 +54,7 @@ Designing an Environmental Policy
 
 ## Prep for Class
 1. Prep email with link to Google sheet for collecting case evidence
+    - https://docs.google.com/document/d/1NU_azo7WnABnc2Hz_w_fqu4mfLGEBC-P-ZuhQSIr0yo/edit?usp=sharing
 
 
 
@@ -63,28 +66,27 @@ background-position: center
 
 class: middle
 
-# Paper 3
-.size40[
-Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+# Paper 2
+.size45[
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
 
-Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+- Analyze the pros and cons of each option for your chosen problem, and
+- Support all claims with evidence
 ]
 
 ???
 
-Let's make sure to keep the prompt for your final paper in mind as we explore each of the policy design options.
+Keep your eye on the next target: Paper 2.
 
-### With two weeks' work under our belts on this, any questions on the final paper?
+In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
 
-<br>
-
-Given our focus on this, let's make sure we're not losing our prior work!
+### Any questions on the prompt?
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v2.png')
 background-size: 100%
 background-position: center
 
@@ -105,9 +107,60 @@ Adaptive Governance
 
 Two weeks ago we analyzed the use of C&C regulations to address environmental problems.
 
-### What are the strongest reasons to choose this policy design approach?
+### Sum it up for me, what does it mean to use C&C regulations to address an environmental problem?
 
-### What are the biggest drawbacks of this approach?
+(SLIDE)
+
+
+
+---
+
+class: middle
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves that move with regulations increasing MC
+## Have to install transformr for lines moving
+library(gganimate)
+
+d1 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 12 + .5*Quantity,
+  Supply2 = 42 + .5*Quantity,
+  Demand = 100 - 1*Quantity
+) |>
+  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
+
+d1 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Demand), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "C&C Regulations: Increasing the MCs") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 80, label = "Marginal\nCost", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) +
+  shadow_wake(wake_length = .5, colour = "grey")
+```
+
+???
+
+### Refresh my memory, why do C&C regs raise the MC line?
+- (Require technology to adopt, OR)
+- (Enforce firm limit on emissions)
+
+<br>
+
+### What are the pros and cons of choosing this policy design approach?
+- *ON BOARD*: Pros vs Cons
+
+- Pros: Can tackle big, hard to address problems (massive costs, super long time horizons), most effective when piggybacking on established institutions for infrastructure/oversight/enforcement
+- Cons: Vulnerable to lobbying, Government moves slowly, Very often imposes actual costs on real people in the short term (need for cushioning?), Must be able to "keep up with" changes in the problem or economy over time (drift problem)
+
+<br>
 
 ### What examples from our case studies were the most persuasive endorsements of this approach? Why?
 
@@ -115,7 +168,7 @@ Two weeks ago we analyzed the use of C&C regulations to address environmental pr
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v2.png')
 background-size: 100%
 background-position: center
 
@@ -138,15 +191,208 @@ Last week we analyzed the use of "green" taxes to address environmental problems
 
 ### Sum it up for me, what does it mean to use a "green" tax or pollution charge to address an environmental problem?
 
+
+---
+
+class: middle
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+tibble(
+  Abatement_cost = 0:100,
+  Pollution = 0:100
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution")
+```
+
+???
+
+### Refresh my memory, how does this visualization help us think about "green" taxes?
+- So, the aim, according to Pigou, is to choose a tax rate that balances the harms done by pollution against the harms done to the economy
+- Set a rate at the equilibrium because more taxes do more damage to the economy than provide benefits, and fewer taxes do more harm to society than benefit the economy.
+
 <br>
 
-### Bottom line on "green" taxes, what were our takeaways from last week?
-#### - Best advice for those who want to use regulations to address an environmental problem?
+### What are the pros and cons of choosing this policy design approach?
+- *ON BOARD*: Pros vs Cons
+
+- Pros: Promises efficient pollution cuts, incentivizes cleaner processes, ?
+- Cons: Also vulnerable to lobbying, Very hard to determine the equilibrium point between abatement and external costs, ?
 
 <br>
 
-### Anybody leaning this way for their third paper?
-#### - Taxes leverage the power of the market for innovation!
+(SLIDE: The aim is to achieve pollution cuts in the most efficient manner possible across the entire economy.)
+
+(SLIDE: Might also incentivize innovation!)
+
+
+
+---
+
+class: middle, center
+
+.size50[**1. Green taxes promise more efficient pollution control**]
+
+.pull-left[
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+## Niskanen examples in Fig 2a and 2b
+## Green tax approach: $50 tax
+p3 <- tibble(
+  Abatement_cost = 0:100,
+  Pollution = 0:100
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  #scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") 
+
+p4a <- p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  geom_abline(intercept = 75, slope = -1, color = "blue", size = 1.3) +
+  annotate("text", x = 90, y = 7, label = "Marginal cost\nof abatement") +
+  ggtitle("Firm A") 
+
+p4a +
+  annotate("polygon", x = c(24.5, 75, 24.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75, y = 0, size = 5, color = "steelblue3") +
+  annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
+  annotate("point", x = 24.5, y = 50, size = 5) +
+  annotate("segment", x = 24.5, xend = 24.5, y = 0, yend = 50, linetype = "dashed")
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+p4b <- p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 120, y = 95, label = "Marginal\n external\n cost") +
+  geom_abline(intercept = 125, slope = -1, color = "blue", size = 1.3) +
+  annotate("text", x = 115, y = 37, label = "Marginal cost\nof abatement") +
+  ggtitle("Firm B") +
+  coord_cartesian(xlim = c(0, 125))
+
+p4b +
+  annotate("polygon", x = c(75.5, 125, 75.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75.5, y = 50, size = 5) +
+  annotate("segment", x = 0, xend = 125, y = 50, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 75.5, xend = 75.5, y = 0, yend = 50, linetype = "dashed")
+```
+]
+
+???
+
+#### Tax Advantage 1
+
+At a $50 tax one firm cuts more than its equilibrium and the other cuts less.
+
+- HOWEVER, on balance this break-down of cuts gets us to the same goal AT A LOWER ECONOMIC COST.
+
+<br>
+
+The green tax also has the capacity to directly incentivize innovation!
+
+
+
+
+---
+
+class: middle, center
+
+.size50[**2. Green taxes incentivize innovation**]
+
+.pull-left[
+```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+## ANIMATED: Falling Abatement Costs
+d2 <- tibble(
+  Quantity = 1:100,
+  Abatement_cost1 = 100 + -1*Quantity,
+  Abatement_cost2 = 80 + -1*Quantity,
+  External_cost = 0 + 1*Quantity
+) |>
+  pivot_longer(cols = Abatement_cost1:Abatement_cost2, names_to = "Scenario", values_to = "Value") |>
+  mutate(
+    Emitted = if_else(Scenario == "Abatement_cost1", 50, 29),
+    Taxed = 50
+  )
+
+d2 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = External_cost), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(limits = c(0, 100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25)), limits = c(0, 100)) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution",
+       title = "Lowering your abatements costs...") +
+  annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  transition_states(Scenario, wrap=FALSE) +
+  #shadow_wake(wake_length = .25, colour = "grey") +
+  geom_segment(aes(x = Emitted, xend = Emitted, y = 0, yend = Taxed), linetype = "dashed") +
+  geom_point(aes(x = Emitted, y = Taxed), size = 5) +
+  geom_point(aes(x = Emitted, y = Emitted), size = 5)
+  # annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  # annotate("segment", x = 29, xend = 29, y = 0, yend = 50, linetype = "dashed")
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+## ANIMATED: Falling MC
+d1 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 42 + .5*Quantity,
+  Supply2 = 22 + .5*Quantity,
+  Demand = 100 - 1*Quantity
+) |>
+  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
+
+d1 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Demand), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "...lowers your marginal costs overall") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) #+
+  #shadow_wake(wake_length = .5, colour = "grey")
+```
+]
+
+???
+
+#### Tax Advantage 2
+
+By taxing the externality we create a market incentive for all firms to cut their pollution.
+
+Your path to greater profits can come from making cleaner products.
+
+- As you cut your emissions you can push your production higher to capture more of the supply at a lower cost!
+
+<br>
+
+### What examples from our case studies were the most persuasive endorsements of this approach? Why?
 
 
 
@@ -163,17 +409,187 @@ class: top, center
 
 This week we shift to your next option: "Green" subsidies
 
-Free money to make better choices!
+### Per the Tarver (2021) article on Investopedia, and before we get into the critiques, talk to me about how this approach tries to solve an environmental problem.
 
-+ Who doesn't want free money???
+- Government provides the money you need to make "better" (e.g. cleaner.more environmental) choices! 
 
 <br>
 
-Let's get a little more technical in our definition.
+There are two broad ways to do this even though both basically have the same effect
 
-### Per the Tarver (2021) article on Investopedia, and before we get into the critiques, talk to me about what subsidies are and how they work.
+SLIDE: Pay subsidies directly to industry
 
-(SLIDE: Let's make sure to split out subsidies to industry from those to consumers)
+
+
+---
+
+background-image: url('libs/Images/12-1-manufacturing_v3.png')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.size60[**Paying Subsidies to Industry**]
+
+???
+
+### Tell me this story using the plots we've been using to think about the effects of policy on the economics of production.    
+
+### - How do subsidies to industry help us solve an environmental problem?
+
+(SLIDE)
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+## ANIMATED: Falling Abatement Costs
+d3 <- tibble(
+  Quantity = 1:100,
+  Abatement_cost1 = 100 + -1*Quantity,
+  Abatement_cost2 = 70 + -1*Quantity,
+  External_cost = 0 + 1*Quantity
+) |>
+  pivot_longer(cols = Abatement_cost1:Abatement_cost2, names_to = "Scenario", values_to = "Value") |>
+  mutate(
+    Emitted = if_else(Scenario == "Abatement_cost1", 50, 35)
+  )
+
+d3 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = External_cost), color = "red", size = 1.2) +
+  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  theme_classic() +
+  scale_x_continuous(limits = c(0, 100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25)), limits = c(0, 100)) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution",
+       title = "Green subsidies directly lower your abatement costs") +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  transition_states(Scenario, wrap=FALSE) +
+  #shadow_wake(wake_length = .05, colour = "grey") +
+  geom_segment(aes(x = 0, xend = Emitted, y = Emitted, yend = Emitted), linetype = "dashed") +
+  geom_segment(aes(x = Emitted, xend = Emitted, y = 0, yend = Emitted), linetype = "dashed") +
+  geom_point(aes(x = Emitted, y = Emitted), size = 5)
+```
+
+???
+
+Gov't essentially pays firms to adopt cleaner/more efficient processes of production
+
+- Not really focused on supply/demand curves at all
+
+<br>
+
+This is a direct payment to a specific industry that enables it to continue producing the widgets we want but more efficiently.
+
+- Typically take the form of tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
+
+<br>
+
+### Anybody know why government often uses tax credits rather than direct subsidies in most instances of "green" subsidy?
+
+- (Much more palatable politically)
+    - Cutting taxes for business = good
+    - Government handouts to business = less good
+    - Lowers revenue as opposed to raising spending
+    
+- (Considerably easier to adjust tax policy (established processes) vs creating new government spending with legislation)
+
+
+
+---
+
+background-image: url('libs/Images/12-1-consumers_v2.png')
+background-size: 90%
+background-position: bottom
+class: top, center
+
+.size55[**Paying Subsidies to Consumers**]
+
+???
+
+### Tell me this story using the plots we've been using to think about the effects of policy on the economics of production.    
+
+### - How do subsidies to consumers help us solve an environmental problem?
+
+(SLIDE)
+
+
+
+---
+
+class: middle, center
+
+.size50[**Green Subsidies: Picking Winners and Losers**]
+
+.pull-left[
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Dirty Firm: Animate decreasing demand line
+library(gganimate)
+
+d10a <- tibble(
+  Quantity = 1:100,
+  Demand1 = 100 - 1*Quantity,
+  Demand2 = 80 - 1*Quantity,
+  Supply = 0 + 1*Quantity
+) |>
+  pivot_longer(cols = Demand1:Demand2, names_to = "Scenario", values_to = "Value")
+
+d10a |>
+  ggplot(aes(x = Quantity)) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", size = 1.25) +
+  geom_line(aes(y = Value), color = "red", size = 1.2) +
+  geom_line(aes(y = Supply), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Consumer Subsidies: Leaving a Dirty Firm Behind") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE)
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Cleaner Firm: Animate increasing demand line
+d10b <- tibble(
+  Quantity = 1:100,
+  Demand1 = 100 - 1*Quantity,
+  Demand2 = 120 - 1*Quantity,
+  Supply = 0 + 1*Quantity
+) |>
+  pivot_longer(cols = Demand1:Demand2, names_to = "Scenario", values_to = "Value")
+
+d10b |>
+  ggplot(aes(x = Quantity)) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", size = 1.25) +
+  geom_line(aes(y = Value), color = "red", size = 1.2) +
+  geom_line(aes(y = Supply), color = "blue", size = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Consumer Subsidies: Boosting a Clean Firm") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE)
+```
+]
+
+???
+
+If demand for a product or service is low, tax credits or rebates can help offset the high cost.
+
+- The subsidy increases the demand line for the "preferred" firm and lowers it for the "dirty" firm.
+
+- Usually through tax credits, e.g. solar panels for your house or buying an electric vehicle
+
+This is absolutely having the government pick winners and losers.
 
 
 
@@ -206,100 +622,11 @@ knitr::include_graphics('libs/Images/12-1-manufacturing_v2.png')
 
 ???
 
-### How do subsidies for industry work?
+Importantly, whichever way we go with this the aim is basically the same.
 
-+ Subsidize industry approach 1: Tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
+- Using tax dollars to boost services or industries we like at the expense of those we do not.
 
-+ Subsidize industry approach 2: Pay "part of the cost a consumer would pay to purchase a good or service."
-
-+ Effect: To "encourage production and consumption in specific industries."
-    + Subsidy through either approach leads to more supply, lowering the price and, hence, increasing demand.
-
-<br>
-
-### And how do subsidies for consumers work?
-
-+ If demand for a product or service is low, tax credits or rebates can help offset the high cost.
-    + Usually through tax credits, e.g. solar panels for your house or buying an electric vehicle
-    
-+ Cost goes down, demand should go up.
-
-(SLIDE: Back to our supply and demand curves!)
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.pull-left[
-```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=5, cache=TRUE}
-## Move the supply curve thanks to a subsidy
-## Have to install transformr for lines moving
-library(gganimate)
-
-d1 <- tibble(
-  Quantity = 1:100,
-  Supply1 = 30 + .4*Quantity,
-  Supply2 = 6 + .4*Quantity,
-  Demand = 55 - .5*Quantity
-) |>
-  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
-
-d1 |>
-  ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = Demand), color = "red", size = 1.2) +
-  geom_line(aes(y = Value), color = "blue", size = 1.2) +
-  theme_classic() +
-  coord_cartesian(xlim = c(0, 125)) +
-  scale_x_continuous(breaks = seq(0, 100, 20)) +
-  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
-  labs(x = "Quantity Produced", y = "Price per Widget",
-       title = "Subsidies to Industry Target the Supply") +
-  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
-  annotate("text", x = 119, y = 75, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
-  transition_states(Scenario, wrap=FALSE) +
-  shadow_wake(wake_length = .5, colour = "grey")
-```
-]
-
-.pull-right[
-```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=5, cache=TRUE}
-## Move the demand curve thanks to tax credits!
-## Have to install transformr for lines moving
-d2 <- tibble(
-  Quantity = 1:100,
-  Supply1 = 30 + .4*Quantity,
-  Demand1 = 55 - .5*Quantity,
-  Demand2 = 70 - .5*Quantity
-) |>
-  pivot_longer(cols = Demand1:Demand2, names_to = "Scenario", values_to = "Value")
-
-d2 |>
-  ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = Supply1), color = "blue", size = 1.2) +
-  geom_line(aes(y = Value), color = "red", size = 1.2) +
-  theme_classic() +
-  coord_cartesian(xlim = c(0, 125)) +
-  scale_x_continuous(breaks = seq(0, 100, 20)) +
-  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
-  labs(x = "Quantity Produced", y = "Price per Widget",
-       title = "Subsidies to Consumers Target Demand") +
-  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
-  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
-  transition_states(Scenario, wrap=FALSE) +
-  shadow_wake(wake_length = .5, colour = "grey")
-```
-]
-
-???
-
-Interestingly, whichever way we go with this the aim is basically the same.
-
-Using tax dollars to to increase the production and use of products or services from an industry we would like to see grow.
+- Whether paid to industry or consumers, both paths have the same effects (lower abatement costs, more supply, more demand)
 
 <br>
 
@@ -336,9 +663,9 @@ Here is how the EPA defines "Subsidies for Pollution Control."
 
 Well, as you know from the readings for today, subsidies make a lot of people mad!
 
-We need to take these arguments seriously if we intend to use subsidies as our chosen policy tool.
+- We need to take these arguments seriously if we intend to use subsidies as our chosen policy tool.
 
-In a sense, my challenge for us today is to see these critiques NOT as deal-breakers, but instead as design challenges!
+In a sense, my challenge for us today is to see these critiques **NOT** as deal-breakers, but instead as **design challenges**!
 
 
 
@@ -353,15 +680,11 @@ background-position: center
 
 Let's start with our old friend from the Heritage Foundation Nicolas Loris.
 
-### What are the key premises in the argument made by Loris (2011)?
-
-+ (?)
-
-<br>
-
 ### Assuming this is a challenge for subsidy design and not a deal-breaker, what do we need to keep in mind when designing a subsidy to address an environmental problem?
 
 *Build a list ON THE BOARD across the articles*
+
+- ?
 
 
 
@@ -390,15 +713,12 @@ knitr::include_graphics('libs/Images/12-1-Borenstein2016-FigC.png')
 
 ???
 
-### What are the key premises in this argument made by Davis (and taken from a chapter he published with Severin Borenstein in Tax Policy and the Economy)?
+### Assuming this is a challenge for subsidy design and not a deal-breaker, what do we need to keep in mind when designing a subsidy to address an environmental problem?
 
-+ (?)
+*Continue building our list ON THE BOARD across the articles*
 
-<br>
+- ?
 
-### Let's keep adding to our design challenges list!
-
-*Build a list ON THE BOARD across the articles*
 
 
 
@@ -412,15 +732,11 @@ background-position: center
 
 I grant you, the tone of this article undermines its credibility somewhat, however, still covers some good research in a simple way that should help us in our design exercise.
 
-### What are the key premises in the argument made by Best (2017)?
+### Assuming this is a challenge for subsidy design and not a deal-breaker, what do we need to keep in mind when designing a subsidy to address an environmental problem?
 
-+ (?)
+*Continue building our list ON THE BOARD across the articles*
 
-<br>
-
-### Let's keep adding to our design challenges list!
-
-*Build a list ON THE BOARD across the articles*
+- ?
 
 
 
@@ -467,18 +783,13 @@ nonref |>
 ???
 
 This plot illustrates the effect of delivering a $1k green subsidy as a non-refundable tax credit.
-
-+ The x-axis shows how much a person owes in federal taxes.
-
-+ The y-axis is how much of the $1k subsidy they will actually receive.
-
-<br>
+- The x-axis shows how much a person owes in federal taxes.
+- The y-axis is how much of the $1k subsidy they will actually receive.
 
 Most tax credits are non-refundable
+- They reduce or eliminate the income tax you owe
 
-+ They reduce or eliminate the income tax you owe
-
-+ So, if you don't owe anything (because you make too little money) the credit = $0 for you!
+So, if you don't owe anything (because you make too little money) the credit = $0 for you!
 
 <br>
 
@@ -489,7 +800,7 @@ On the one hand, it's super attractive for government to use the tax code to del
 On the other hand, this shows why using tax credits is such a problem.
 
 + For anyone who owes less than the amount of the subsidy, they are only eligible for a partial amount.
-    + You can't ger back more than you owe.
+    + You can't get back more than you owe.
     
 + For those with no federal tax obligation they get NONE of the subsidy!
 
@@ -548,7 +859,7 @@ As an important aside, how big is this problem?
 
 (SLIDE)
 
-<br>
+##### Notes
 
 #### Regan, L., Wong, B., Preston, B. L., & Curtright, A. E. (2021). Incentivizing Solar: Catalyzing Solar Energy Technology Adoption to Address the Challenge of Climate Change. RAND Corporation. https://www.rand.org/pubs/perspectives/PEA1372-1.html
 
@@ -592,7 +903,9 @@ Here we see the proportion of all tax filers in income categories who owe zero f
 
 ### What do we learn from this?
 
-+ (Pretty clear why the research shows green subsidies are inequitable!)
+- (HUGE swathes of American families would receive nothing from a non-refundable subsidy)
+
+- (Pretty clear why the research shows green subsidies are inequitable!)
 
 <br>
 
@@ -646,19 +959,16 @@ Cons:
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
-background-size: 100%
-background-position: center
-class: middle
+class: middle, slideblue
 
 .size50[**Thursday: "Green" Subsidy Cases**]
 
-.size40[
-Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
+.size45[
+Find a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
+]
 
-+ "Similar" in ANY of the specifics OR complications in your problem
-
-+ What is the lesson for our new policy designs? 
+.size45[
+.textblue[**Present as an argument**]: This case shows that addressing environmental problem X can be done successfully using "green" subsidies.
 ]
 
 ???
