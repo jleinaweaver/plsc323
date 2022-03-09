@@ -218,7 +218,9 @@ tibble(
 ???
 
 ### Refresh my memory, how does this visualization help us think about "green" taxes?
+
 - So, the aim, according to Pigou, is to choose a tax rate that balances the harms done by pollution against the harms done to the economy
+
 - Set a rate at the equilibrium because more taxes do more damage to the economy than provide benefits, and fewer taxes do more harm to society than benefit the economy.
 
 <br>
@@ -227,6 +229,7 @@ tibble(
 - *ON BOARD*: Pros vs Cons
 
 - Pros: Promises efficient pollution cuts, incentivizes cleaner processes, ?
+
 - Cons: Also vulnerable to lobbying, Very hard to determine the equilibrium point between abatement and external costs, ?
 
 <br>
@@ -297,9 +300,11 @@ p4b +
 
 #### Tax Advantage 1
 
-At a $50 tax one firm cuts more than its equilibrium and the other cuts less.
+The aim is to achieve pollution cuts in the most efficient manner possible across the entire economy.
 
-- HOWEVER, on balance this break-down of cuts gets us to the same goal AT A LOWER ECONOMIC COST.
+- The tax requires cleaner firms to abate more so dirtier firms can abate less
+
+- On balance this break-down of cuts gets us to the same goal AT A LOWER OVERALL ECONOMIC COST.
 
 <br>
 
@@ -384,11 +389,13 @@ d1 |>
 
 #### Tax Advantage 2
 
+The green tax also has the capacity to directly incentivize innovation!
+
 By taxing the externality we create a market incentive for all firms to cut their pollution.
 
-Your path to greater profits can come from making cleaner products.
+- Your path to greater profits can come from making cleaner products.
 
-- As you cut your emissions you can push your production higher to capture more of the supply at a lower cost!
+- As you cut your emissions you can push your production higher to capture more of the demand in society!
 
 <br>
 
@@ -411,7 +418,7 @@ This week we shift to your next option: "Green" subsidies
 
 ### Per the Tarver (2021) article on Investopedia, and before we get into the critiques, talk to me about how this approach tries to solve an environmental problem.
 
-- Government provides the money you need to make "better" (e.g. cleaner.more environmental) choices! 
+- Government provides the money you need to make "better" (e.g. "cleaner", more "environmental") choices! 
 
 <br>
 
@@ -431,6 +438,14 @@ class: bottom, center, inverse
 .size60[**Paying Subsidies to Industry**]
 
 ???
+
+### What does this approach look like in the real world?
+#### - Per the readings, what does a subsidy to industry typically look like?
+- This is a direct payment to a specific industry
+
+- Typically take the form of tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
+
+<br>
 
 ### Tell me this story using the plots we've been using to think about the effects of policy on the economics of production.    
 
@@ -463,7 +478,7 @@ d3 |>
   scale_x_continuous(limits = c(0, 100)) +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25)), limits = c(0, 100)) +
   labs(x = "Quantity of Pollution", y = "Price per unit of Pollution",
-       title = "Green subsidies directly lower your abatement costs") +
+       title = "Green subsidies directly lower the abatement costs") +
   annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
   annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
   transition_states(Scenario, wrap=FALSE) +
@@ -479,22 +494,23 @@ Gov't essentially pays firms to adopt cleaner/more efficient processes of produc
 
 - Not really focused on supply/demand curves at all
 
-<br>
+- Company keeps producing widgets to meet the market demand but government spending reduces the emissions for that level of production.
 
-This is a direct payment to a specific industry that enables it to continue producing the widgets we want but more efficiently.
-
-- Typically take the form of tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
+### Make sense?
 
 <br>
 
-### Anybody know why government often uses tax credits rather than direct subsidies in most instances of "green" subsidy?
+### Why do we think democratic governments typically use tax credits rather than direct payments in most of these cases?
 
-- (Much more palatable politically)
+1. (Much more palatable in terms of political messaging)
     - Cutting taxes for business = good
     - Government handouts to business = less good
-    - Lowers revenue as opposed to raising spending
     
-- (Considerably easier to adjust tax policy (established processes) vs creating new government spending with legislation)
+2. (Much less noticeable public effects)
+    - Tax credits lowers the revenues to the government
+    - Direct payments increase spending totals (and debt/deficit/political grandstanding)
+    
+3. (Considerably easier to adjust tax policy (established processes) vs creating new government spending with legislation)
 
 
 
@@ -508,6 +524,16 @@ class: top, center
 .size55[**Paying Subsidies to Consumers**]
 
 ???
+
+### What does this approach look like in the real world?
+#### - Per the readings, what does a subsidy to industry typically look like?
+- Money provided to consumers
+
+- Often through tax credits, e.g. solar panels for your house or buying an electric vehicle
+
+- Sometimes through rebates (e.g. buy a water pump for your house, send us the receipt and get $200 back!)
+
+<br>
 
 ### Tell me this story using the plots we've been using to think about the effects of policy on the economics of production.    
 
@@ -587,10 +613,9 @@ If demand for a product or service is low, tax credits or rebates can help offse
 
 - The subsidy increases the demand line for the "preferred" firm and lowers it for the "dirty" firm.
 
-- Usually through tax credits, e.g. solar panels for your house or buying an electric vehicle
+- This is absolutely having the government pick winners and losers.
 
-This is absolutely having the government pick winners and losers.
-
+### Questions on these plots?
 
 
 ---
@@ -622,11 +647,14 @@ knitr::include_graphics('libs/Images/12-1-manufacturing_v2.png')
 
 ???
 
-Importantly, whichever way we go with this the aim is basically the same.
+### Big question, what do these two approaches have fundamentally in common?
+
+- Importantly, whichever way we go with this the aim is basically the same, to provide government money to a business!
+    - I know it feels like the consumer path is meant to benefit you, but it isn't focused on that. 
 
 - Using tax dollars to boost services or industries we like at the expense of those we do not.
 
-- Whether paid to industry or consumers, both paths have the same effects (lower abatement costs, more supply, more demand)
+- Whether paid to industry or consumers, both paths have the same effects (lower abatement costs and more supply of a favored good/service/industry)
 
 <br>
 
@@ -665,7 +693,7 @@ Well, as you know from the readings for today, subsidies make a lot of people ma
 
 - We need to take these arguments seriously if we intend to use subsidies as our chosen policy tool.
 
-In a sense, my challenge for us today is to see these critiques **NOT** as deal-breakers, but instead as **design challenges**!
+### My challenge for us today is to see these critiques NOT as deal-breakers, but instead as design challenges!
 
 
 
@@ -788,86 +816,30 @@ This plot illustrates the effect of delivering a $1k green subsidy as a non-refu
 
 Most tax credits are non-refundable
 - They reduce or eliminate the income tax you owe
-
-So, if you don't owe anything (because you make too little money) the credit = $0 for you!
+- So, if you don't owe anything (because you make too little money) the credit = $0 for you!
 
 <br>
 
-On the one hand, it's super attractive for government to use the tax code to deliver subsidies.
+We know the tax code is a super attractive way for government to offer benefits:
 
-+ We already have a massive tax infrastructure with many other tax credits built into it.
+- 1) Less noticeable way to spend money, 2) lowers revenue but doesn't raise spending/debt, 3) we already have a massive tax infrastructure with many other tax credits built into it.
 
-On the other hand, this shows why using tax credits is such a problem.
+The problem is that this has the capacity to exclude a lot of people from the effects of the subsidy.
 
-+ For anyone who owes less than the amount of the subsidy, they are only eligible for a partial amount.
-    + You can't get back more than you owe.
+### Anybody want to take a stab at why the great majority of tax credits are non-refundable rather than refundable?
+
+- Political messaging strikes again
+- Rough stereotypes in our society about who contributes and who doesn't (e.g. Mitt Romney's 47% comments)
+    - Bootstraps, dammit! :P
+    - Money for me, a hard working person = good; money for you, a drain on society = bad
     
-+ For those with no federal tax obligation they get NONE of the subsidy!
-
-
-
----
-
-```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
-## Non-refundable $1,000 Credit
-ref <- tibble(
-  Policy = "Refundable",
-  Taxes = seq(0, 2000, 100),
-  Subsidy = 1000
-  ) |>
-  mutate(
-    Net = 1000
-  )
-
-rbind(nonref, ref) |>
-  ggplot(aes(x = Taxes, y = Net, color = Policy, linetype = Policy)) +
-  geom_line(size = 1.2) +
-  labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
-       title = "Hypothetical $1k 'Green' Subsidy'") +
-  theme_minimal() +
-  annotate("text", x = 1800, y = 900, label = "Non-Refundable", color = "red") +
-    annotate("text", x = 200, y = 900, label = "Refundable", color = "blue") +
-  guides(color = "none", linetype = "none") +
-  scale_color_manual(values = c("red", "blue"))
-```
-
-???
-
-The 300 environmental justice advocates, environmental groups, and renewable energy companies in Residential Renewables for All are calling for a refundable credit.
-
-This kind of credit is refundable, meaning that if you owe less in taxes than the size of the subsidy the government sends you a check for the difference.
-
-This approach guarantees everyone has access to the full subsidy.
-
-### Anybody want to guess why the great majority of tax credits are non-refundable rather than refundable?
-
 <br>
 
-However, 
-
-1. If the goal is to get more people to pay for more efficient products and services, and
-
-2. We are worried about equity in our society, 
-
-Then we need to think about this carefully.
-
-<br>
-
-As an important aside, how big is this problem?
+As an important aside, how big is the whole in a subsidy like this?
 
 ### Anybody know what proportion of federal tax filers owe nothing?
 
 (SLIDE)
-
-##### Notes
-
-#### Regan, L., Wong, B., Preston, B. L., & Curtright, A. E. (2021). Incentivizing Solar: Catalyzing Solar Energy Technology Adoption to Address the Challenge of Climate Change. RAND Corporation. https://www.rand.org/pubs/perspectives/PEA1372-1.html
-
-+ "In contrast to nonrefundable credits, refundable tax credits can be monetized without any tax liability. They have been referred to as direct pay tax credits because the Department of the Treasury effectively pays eligible participants the difference if the value of the credit exceeds the tax liability, even if the liability is zero" (9).
-
-+ "These direct payments were treated as an overpayment of taxes and were able to be monetized as cash refunds after filing a federal tax return" (10).
-
-+ "If the original intention of the ITC was to decrease solar installation costs, spur industry growth, and reduce barriers to market entry, reenabling the refundable provisions would eliminate dependence on tax equity financing and tax credit rollover. Direct pay is a more efficient project finance option, eliminating the premium paid to tax equity and third-party investors for project financing and ensuring that project installers receive the full benefit. There are other benefits that the refundable tax credit provides besides effective financial utilization and equity. Between 2009 and 2011, the refundable solar tax credit program allowed 110,000 projects to monetize the credit. The largest number of projects were residential solar systems. Additionally, the program was attributed with the creation of 75,000 direct and indirect jobs (Steinberg, Porro, and Goldberg, 2012). However, the refundable solar tax credit proved expensive because of the high uptake. Therefore, expanding access to the ITC for more individuals ultimately results in the federal government bearing a greater burden of solar generation deployment costs" (18-19).
 
 
 
@@ -903,15 +875,19 @@ Here we see the proportion of all tax filers in income categories who owe zero f
 
 ### What do we learn from this?
 
-- (HUGE swathes of American families would receive nothing from a non-refundable subsidy)
+- Almost no one earning less than $30k would receive a penny of the subsidy (Almost 2% of the 20-30k range only)
 
-- (Pretty clear why the research shows green subsidies are inequitable!)
+- 85% of the 30-40k range get NOTHING from the subsidy
+
+- And remember, the credit depends on what you owe and this plot tracks $0 owed, not sub-$1k owed. Many of the tax payers below 50k would not see much, if anything, from the subisdy.
+
+- Pretty clear why the research shows green subsidies are inequitable!
 
 <br>
 
-If you think that's something, take a look at the breakdown for tax filers with children
+SLIDE: If you think that's something, take a look at the breakdown for tax filers with children
 
-SLIDE
+
 
 
 
@@ -940,6 +916,82 @@ d |>
 ???
 
 That's just nuts!
+
+For families with kids, you have to get to income levels above $100k in order to see any benefit of a non-refundable subsidy.
+
+You have to get past $200k to see the subsidy reach a number of the consumers you are trying to change the behavior of.
+
+### Make sense?
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+## Non-refundable $1,000 Credit
+ref <- tibble(
+  Policy = "Refundable",
+  Taxes = seq(0, 2000, 100),
+  Subsidy = 1000
+  ) |>
+  mutate(
+    Net = 1000
+  )
+
+rbind(nonref, ref) |>
+  ggplot(aes(x = Taxes, y = Net, color = Policy, linetype = Policy)) +
+  geom_line(size = 1.2) +
+  labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
+       title = "Hypothetical $1k 'Green' Subsidy'") +
+  theme_minimal() +
+  annotate("text", x = 1800, y = 900, label = "Non-Refundable", color = "red") +
+    annotate("text", x = 200, y = 900, label = "Refundable", color = "blue") +
+  guides(color = "none", linetype = "none") +
+  scale_color_manual(values = c("red", "blue"))
+```
+
+???
+
+The 300 environmental justice advocates, environmental groups, and renewable energy companies in Residential Renewables for All are calling for a refundable credit.
+
+A refundable credit means that if you owe less in taxes than the size of the subsidy the government sends you a check for the difference.
+
+This approach guarantees everyone has access to the full subsidy but likely at a much higher cost
+- This starts to look more like politically problematic "spending"
+
+However, 
+
+1. If the goal is to get more people to pay for more efficient products and services, and
+
+2. We are worried about equity in our society, 
+
+Then we need to think about this carefully.
+
+<br>
+
+##### Notes
+
+#### Regan, L., Wong, B., Preston, B. L., & Curtright, A. E. (2021). Incentivizing Solar: Catalyzing Solar Energy Technology Adoption to Address the Challenge of Climate Change. RAND Corporation. https://www.rand.org/pubs/perspectives/PEA1372-1.html
+
++ "In contrast to nonrefundable credits, refundable tax credits can be monetized without any tax liability. They have been referred to as direct pay tax credits because the Department of the Treasury effectively pays eligible participants the difference if the value of the credit exceeds the tax liability, even if the liability is zero" (9).
+
++ "These direct payments were treated as an overpayment of taxes and were able to be monetized as cash refunds after filing a federal tax return" (10).
+
++ "If the original intention of the ITC was to decrease solar installation costs, spur industry growth, and reduce barriers to market entry, reenabling the refundable provisions would eliminate dependence on tax equity financing and tax credit rollover. Direct pay is a more efficient project finance option, eliminating the premium paid to tax equity and third-party investors for project financing and ensuring that project installers receive the full benefit. There are other benefits that the refundable tax credit provides besides effective financial utilization and equity. Between 2009 and 2011, the refundable solar tax credit program allowed 110,000 projects to monetize the credit. The largest number of projects were residential solar systems. Additionally, the program was attributed with the creation of 75,000 direct and indirect jobs (Steinberg, Porro, and Goldberg, 2012). However, the refundable solar tax credit proved expensive because of the high uptake. Therefore, expanding access to the ITC for more individuals ultimately results in the federal government bearing a greater burden of solar generation deployment costs" (18-19).
+
+
+
+
+---
+
+background-image: url('libs/Images/12-1-Green_Subsidies_v2.png')
+background-size: 80%
+background-position: bottom
+class: top, center
+
+.size60[**Policy Design Option 3: "Green" Subsidies**]
+
+???
 
 ### So, where do we end up on the question of subsidies as a policy tool for addressing environmental problems?
 
@@ -974,3 +1026,7 @@ Find a real world example of .textblue[**this approach**] being used to .textblu
 ???
 
 ### Questions?
+
+As you search, keep in mind the list of "things" we call subsidies listed in the EPA document.
+
+- "Examples of subsidies include grants, low-interest loans, favorable tax treatment, and procurement mandates."
