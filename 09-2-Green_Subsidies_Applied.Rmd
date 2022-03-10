@@ -126,7 +126,7 @@ This case shows that using a "green" subsidy we can address environmental proble
 
 ???
 
-Take a moment to reflect on your argument and get ready to present it to other people along these three dimensions?
+Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
 
 ### Questions on this?
 
@@ -134,22 +134,21 @@ Get to it!
 
 <br>
 
-Let's start with some speed dating to warm up!
+Ok, everybody stand up and welcome to our environmental policy cocktail party.
 
-Pair off (10 mins): Each person take 5 minutes to present the case argument you brought for today.
+We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
 
-<br>
+I don't want to see groups of three!
 
-New pairs, do it again! (10 mins)
+- Your job is to interact in pairs.
+- I want focused groups each hearing one case and presenting one case.
 
-<br>
+### Questions?
 
-Ok, at this point you've heard two different arguments and hopefully gotten some time to reflect on your own case argument.
+Go!
 
-Now let's try to extract lessons from all of them.
-
-Everybody form groups of (three? four?) and spread out around the room.
-- Try to form groups with people you didn't pair off with during the warm-up!
+*You mingle too.*
+- This was super fun and you got to help steer students to being more specific, more precise
 
 
 
@@ -165,11 +164,14 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 ???
 
-Here's the over-arching goal of our group-led evaluation.
+Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
 
-Groups compare and contrast each set of answers and help the class extract generalizable lessons to help us evaluate green subsidies.
+Now let's try to extract lessons from all of them.
 
-### Make sense?
+- Everybody form groups of (three? four?) and spread out around the room.
+
+Groups compare and contrast each set of answers and help the class extract generalizable lessons to help us evaluate green subsidies
+
 
 
 
@@ -191,13 +193,14 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 Ok, groups, first prompt.
 
-Compare and contrast your cases in order to help us identify how the subsidies target the problem.
-
 Any environmental problem is likely to be large and multi-faceted, but I'm willing to bet these subsidies are highly targeted.
 
-Explore that as a group and report back to the class.
+### From what you just heard, how specifically do these subsidies target the problem?
+- *Report back and discuss*
 
 <br>
+
+### Based on these elements, what are the characteristics of an environmental problem that lends itself to using a green subsidy? What kinds do not?
 
 Collect responses *ON BOARD* and discuss: 'Problem Targeting'
 
@@ -216,20 +219,21 @@ class: middle
 Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" subsidy**] approach to environmental problem-solving]]
 
 .size50[
-2) What kinds of stakeholders do these subsidies target?
+2) What kinds of stakeholders do these subsidies target? 
+
+- Any sticks included or purely a carrot?
 ]
 
 ???
 
 Ok, groups, second prompt.
 
-Compare and contrast your cases in order to help us identify how the subsidies target the stakeholders.
-
-- Are the subsidies purely punitive or are there also incentives included?
-
-Explore that as a group and report back to the class.
+### From what you just heard, who specifically do these subsidies target? How does it target them?
+- *Report back and discuss*
 
 <br>
+
+### Based on these elements, what are the characteristics of a stakeholder that lends itself to using a green subsidy? What kinds do not?
 
 Collect responses *ON BOARD* and discuss: 'Stakeholder Targeting'
 
@@ -255,13 +259,12 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 Ok, groups, final prompt.
 
-Compare and contrast your cases in order to help us identify how the subsidies fit into the established local system.
-
-- Are the subsidies supported by institutional actors or built into established processes?
-
-Explore that as a group and report back to the class.
+### From what you just heard, what institutions does the subsidies rely on? Are the subsidies supported by institutional actors or built into established processes?
+- *Report back and discuss*
 
 <br>
+
+### Based on these elements, what are the kinds of institutional needs to make green subsidies work?
 
 Collect responses *ON BOARD* and discuss: 'Institutional Support'
 

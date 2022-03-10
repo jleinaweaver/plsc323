@@ -63,22 +63,22 @@ background-position: center
 
 class: middle
 
-# Paper 3
-.size40[
-Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+# Paper 2
+.size45[
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
 
-Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+- Analyze the pros and cons of each option for your chosen problem, and
+
+- Support all claims with evidence
 ]
 
 ???
 
-Let's keep our focus on the task of this third section of our class.
+Keep your eye on the next target: Paper 2.
 
-Each week as we review each policy design option you need to make sure to keep your eye on the goal.
+- In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
 
-Keep asking yourself, how would I use this policy approach to address my chosen problem?
-
-### Questions?
+### Any questions on the prompt?
 
 
 
@@ -88,18 +88,181 @@ Keep asking yourself, how would I use this policy approach to address my chosen 
 class: middle, slideblue
 
 .size50[**Today: Adaptive Governance Cases**]
-.size40[
-Find a real world example of this approach being used to address an environmental problem similar to the one in your project.
 
-+ "Similar" in ANY of the specifics OR complications in your problem
+.size45[
+Find a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
+]
 
-+ What is the lesson for our new policy designs? 
+.size45[
+.textblue[**Present as an argument**]: This case shows that addressing environmental problem X can be done successfully using "green" subsidies.
 ]
 
 ???
 
-### Does everybody have a case to present and discuss today?
+### Does everybody have an argument to present and discuss today?
 
+<br>
+
+Let's review all the cases for APA format.
+
+
+
+---
+
+class: middle, slideblue
+
+.size45[
+This case shows that using adaptive governance we can address environmental problem X.
+
+- What specific, narrow aspect of your problem does this approach focus on?
+
+- Which stakeholders does it target? What does it require them to do?
+
+- What institutions support this approach?
+]
+
+???
+
+Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
+
+### Questions on this?
+
+Get to it!
+
+<br>
+
+Ok, everybody stand up and welcome to our environmental policy cocktail party.
+
+We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
+
+I don't want to see groups of three!
+
+- Your job is to interact in pairs.
+- I want focused groups each hearing one case and presenting one case.
+
+### Questions?
+
+Go!
+
+*You mingle too.*
+- This was super fun and you got to help steer students to being more specific, more precise
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.center[
+Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]]
+
+???
+
+Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+
+Now let's try to extract lessons from all of them.
+
+- Everybody form groups of (three? four?) and spread out around the room.
+
+Groups compare and contrast each set of answers and help the class extract generalizable lessons to help us evaluate green subsidies
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[
+Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]]
+
+.size50[
+1) How specifically do these policies target the problem? 
+]
+
+???
+
+Ok, groups, first prompt.
+
+Any environmental problem is likely to be large and multi-faceted, but I'm willing to bet these policies are highly targeted.
+
+### From what you just heard, how specifically do these policies target the problem?
+- *Report back and discuss*
+
+<br>
+
+### Based on these elements, what are the characteristics of an environmental problem that lends itself to using an adaptive governance approach? What kinds do not?
+
+Collect responses *ON BOARD* and discuss: 'Problem Targeting'
+
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[
+Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]]
+
+.size50[
+2) What kinds of stakeholders do these policies target? 
+]
+
+???
+
+Ok, groups, second prompt.
+
+### From what you just heard, who specifically do these policies target? How does it target them?
+- *Report back and discuss*
+
+<br>
+
+### Based on these elements, what are the characteristics of a stakeholder that lends itself to using adaptive governance? What kinds do not?
+
+Collect responses *ON BOARD* and discuss: 'Stakeholder Targeting'
+
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[
+Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]]
+
+.size50[
+3) What kinds of local institutions exist to support and/or reinforce these policies? 
+]
+
+???
+
+Ok, groups, final prompt.
+
+### From what you just heard, what institutions do these policies rely on? Are the policies supported by institutional actors or built into established processes?
+- *Report back and discuss*
+
+<br>
+
+### Based on these elements, what are the kinds of institutional needs to make adaptive governance work?
+
+Collect responses *ON BOARD* and discuss: 'Institutional Support'
+
+- ?
 
 
 ---

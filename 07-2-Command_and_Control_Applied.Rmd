@@ -124,7 +124,7 @@ This case shows that we can use a command and control regulation to address envi
 
 ???
 
-Take a moment to reflect on your argument and get ready to present it to other people along these three dimensions?
+Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
 
 ### Questions on this?
 
@@ -132,22 +132,21 @@ Get to it!
 
 <br>
 
-Let's start with some speed dating to warm up!
+Ok, everybody stand up and welcome to our environmental policy cocktail party.
 
-Pair off (10 mins): Each person take 5 minutes to present the case argument you brought for today.
+We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
 
-<br>
+I don't want to see groups of three!
 
-New pairs, do it again! (10 mins)
+- Your job is to interact in pairs.
+- I want focused groups each hearing one case and presenting one case.
 
-<br>
+### Questions?
 
-Ok, at this point you've heard two different arguments and hopefully gotten some time to reflect on your own case argument.
+Go!
 
-Now let's try to extract lessons from all of them.
-
-Everybody form groups of (three? four?) and spread out around the room.
-- Try to form groups with people you didn't pair off with during the warm-up!
+*You mingle too.*
+- This was super fun and you got to help steer students to being more specific, more precise
 
 
 
@@ -163,11 +162,15 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 ???
 
-Here's the over-arching goal of our group-led evaluation.
+Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+
+Now let's try to extract lessons from all of them.
+
+- Everybody form groups of (three? four?) and spread out around the room.
 
 Groups compare and contrast each set of answers and help the class extract generalizable lessons to help us evaluate C&C regulations.
 
-### Make sense?
+
 
 
 
@@ -196,11 +199,17 @@ Your cases for today each offer a specific regulation that I'm betting targets a
 - e.g. Person X needs to stop doing Y
 - Industry X needs to start using technology Y
 
-I want you in your groups to help us think about the kinds of specific, narrow problems a regulation is most effective in targeting.
 
-*ON BOARD*: 'Problem Targeting'
+### From what you just heard, how specifically do these regulations target the problem?
+- *Report back and discuss*
 
-Explore that as a group and report back to the class.
+<br>
+
+### Based on these elements, what are the characteristics of an environmental problem that lends itself to using a C&C regulation? What kinds do not?
+
+Collect responses *ON BOARD* and discuss: 'Problem Targeting'
+
+- ?
 
 (Class: 3/3/2022)
 - Problem defined very narrowly
@@ -231,19 +240,19 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 Ok, groups, second prompt.
 
-Compare and contrast your cases in order to help us identify how the regulations target the stakeholders.
-
-- Are the regulations purely punitive or are there also incentives included?
-
-Explore that as a group and report back to the class.
+### From what you just heard, who specifically do these regulations target? How does it target them?
+- *Report back and discuss*
 
 <br>
+
+### Based on these elements, what are the characteristics of a stakeholder that lends itself to using a C&C regulation? What kinds do not?
 
 Collect responses *ON BOARD* and discuss: 'Stakeholder Targeting'
 
 - ?
 
-Answers ran the gamut from private to public interests.
+(Class: 3/3/2022)
+- Answers ran the gamut from private to public interests.
 - My conclusion was that stakeholder type doesn't appear to be a good differentiator for choosing C&C approaches over the others.
 
 
@@ -266,17 +275,17 @@ Identify the .textblue[**characteristics**] associated with .textblue[**successf
 
 Ok, groups, final prompt.
 
-Compare and contrast your cases in order to help us identify how the regulations fit into the established local system.
-
-- Are the regulations supported by institutional actors or built into established processes?
-
-Explore that as a group and report back to the class.
+### From what you just heard, what institutions does the regulation rely on? Are the regulations supported by institutional actors or built into established processes?
+- *Report back and discuss*
 
 <br>
+
+### Based on these elements, what are the kinds of institutional needs to make a C&C regulation work?
 
 Collect responses *ON BOARD* and discuss: 'Institutional Support'
 
 - ?
+
 
 
 
