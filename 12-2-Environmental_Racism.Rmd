@@ -62,6 +62,243 @@ Let's cut through my fancy language here.
 
 ---
 
+background-image: url('libs/Images/13-1-Hardin.webp')
+background-size: 35%
+background-position: left
+
+class: middle, slidered
+
+.right-column[
+.right[
+
+.size55[**Garrett Hardin**]
+
+.size35[
+Earth is a "Tragedy of the Commons"
+
+Freedom to breed brings ruin to us all
+
+History proves me right!
+]]]
+
+???
+
+We've already hammered the "ecologist" Garrett Hardin for his stark racism in this class.
+
+But his work is an important player in the policy designs we'll explore today.
+
+<br>
+
+### Remind me, what is the tragedy of the commons story?
+1. (It is rational for all humans to extract benefits from the commons because those costs are lower (e.g. shared with your neighbors))
+
+2. (It is rational to accelerate your use of the commons as you see others increasing their use. Use it before we lose it!)
+
+3. (Human reproduction is a tragedy of the commons)
+    + Having kids you can't support imposes costs on society and accelerates our race to the tragedy.
+    + Poor countries struck by a natural disaster are learning an important lesson about why they should have chosen to be rich countries instead... (Sweet Jesus)
+    
+<br>
+    
+*So, Hardin argued we should:*
+
++ Control the right to reproduction,
++ Let poor countries wipe themselves out, and
++ seal our borders
+
+<br>
+
+What was the reaction from historians to Hardin's description of the commons?
+
+SLIDE
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Truman_show_what_the_hell.gif')
+background-size: 100%
+background-position: center
+
+???
+
+According to historians, Hardin completely misrepresents the history of commons resources he claimed to be drawing from.
+
+<br>
+
+It seems Hardin has a series of agressive, white nationalist policy conclusions he wanted to support and he decided environmentalism would allow him to get where he wanted to go.
+
+Motivated reasoning is one hell of a drug!
+
+<br>
+
+To build us back to Ostrom's work, let's talk about what history ACTUALLY can teach us about the commons and societal collapse.
+
+
+---
+
+background-image: url('libs/Images/13-1-pasture_farming.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+As Dr. Susan Cox thoroughly explains in her article for *Environmental Ethics* the medieval and post-medieval commons lands of England did not experience Hardin's tragedy.
+
+*The bottom line was the English commons system "succeeded admirably in its time."*
+
+1. English "commons" severely restricted access
+    + "...the English common was not available to the general public but rather only to certain individuals who inherited or were granted the right to use it, and use of the common even by these people was not unregulated."
+
+2. English "commons" were regulated
+    + "The types and in some cases the numbers of animals each tenant could pasture were limited, based at least partly on a recognition of the limited carrying capacity of the land."
+    
+3. The end of the "commons" was politics, not dramatic tragedy
+    + "The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
+
+<br>
+
+So, if the ToC wasn't evident in the historical commons, what about other societies that collapsed after wasting their resources?
+
+Was Hardin's explanation right for them?
+
++ Hint: No, it is not.
+
+<br>
+
+## Notes
++ *Image: British Library - Milking sheep in the pen and maids carrying the milk, manuscript illumination, anonymous in the Luttrell Psalter, c. 1340*
+
++ Cox, Susan. (1985). No Tragedy on the Commons. *Environmental Ethics*. Vol 7, Issue 1, p49-61.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Mystery.jpg')
+background-size: 100%
+background-position: center
+class: inverse
+
+.textwhite[.size70[**The Chaco Anasazi**]]
+
+???
+
+### Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?
+
+The Chaco Anasazi, meaning the Ancient Ones, had a sizable civilization for some 500 years in the southwest US (from about 600 AD to 1100 AD)
+
++ San Juan Basin area of New Mexico
+
+They were a flourishing and dynamic society.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Trade_Map.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='50%'}
+knitr::include_graphics('libs/Images/13-1-turquoise_beads.webp')
+```
+
+???
+
+Archaelogical evidence has shown us they maintained extensive trade ties across very large distances.
+
++ Evidence of turquoise beads from across the western US [Link](https://www.livescience.com/44703-turquoise-trade-network-revealed.html)
+
++ This trade network spanned several states: Colorado, Nevada and southeastern California
+
+<br>
+
+Some impressive networks built and supported over centuries.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi3.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='45%'}
+knitr::include_graphics('libs/Images/13-1-Anasazi-pot.jpeg')
+```
+
+???
+
+The Anasazi also built extensive public works to allow for city building and irrigation for larger farm lands
+
++ Damming rivers, managing forests, roads, etc
+
+Also supported a thriving arts and science culture.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi2.jpg')
+background-size: 100%
+background-position: center
+class: inverse, top
+
+.center[.textwhite[.size55[**Why did the Anasazi disappear?**]]]
+
+???
+
+*Source: Jared Diamond's Collapse book has such stories (although historians quibble with MANY of his details!)*
+
+The question is, for a society as incredibly successful as they were, how did they disappear so rapidly?
+
+<br>
+
+They lived in a place, US Southwest, whose environment was already somewhat strained (low rainfall, not a lot of forest land)
+
++ As their population grew, demands on environment grew and environmental resources declined
+
++ They tried a ton of policies to grow: Damming rivers, extensive trade, going further and further to find trees
+
++ The problem was a long drought hit them and they were screwed.
+
+<br>
+
+The lessons of their collapse?
+
++ Never just one thing that wipes out a society,
+
++ The idea that humans are compelled to race to the end because it is the end is not evident in the historical record.
+
++ May not be able to anticipate when conditions will change
+
+<br>
+
+Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on bad strategies and selfish abuses of the land.
+
+The actual story of societal collapse tied to environmental mismanagement is always a much more complicated one.
+
+Dare I say it, a political one?
+
+
+
+
+
+
+
+
+
+
+---
+
 background-image: url('libs/Images/08-1-climate_change_is_racism.webp')
 background-size: 100%
 background-position: center

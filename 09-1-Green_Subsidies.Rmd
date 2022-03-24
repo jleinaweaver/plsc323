@@ -92,7 +92,7 @@ background-position: center
 
 class: middle, center
 
-# Policy Types
+# Policy Approaches
 .size55[
 .textred[**Command and Control**]
 
@@ -174,7 +174,7 @@ background-position: center
 
 class: middle, center
 
-# Policy Types
+# Policy Approaches
 .size55[
 Command and Control
 

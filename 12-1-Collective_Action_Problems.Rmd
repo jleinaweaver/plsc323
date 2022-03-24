@@ -51,18 +51,43 @@ What are the Complicating Factors in Environmental Policymaking?
 ???
 
 ## Prep for Class
-1. Prep email with link to Google sheet
-    - https://docs.google.com/document/d/1HDT1G3kFSLVQ1_eNVmlnszuXcmyHLvLDQ1PSbEbKeN0/edit?usp=sharing
+1. 
 
 <br>
 
-Today we discuss our next complication for environmental problem-solving: collective action problems
+Today we discuss a complication to environmental problem-solving: collective action problems
 
 <br>
 
 What do I mean by a collective action problem?
 
 - Let's start with the first sentence from the Wikipedia entry!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem adapted to the specific features of your problem (Paper 1) and the complications you previously identified (Paper 2).
+
+Support all claims with evidence (e.g. relevant academic literature or real-world examples of this kind of problem being addressed successfully)
+]
+
+???
+
+We start the papers next week.
+
+### Everybody building up lots of good material?
+
+### Questions on the prompt?
+
 
 
 
