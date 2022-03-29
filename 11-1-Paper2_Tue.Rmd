@@ -36,11 +36,13 @@ class: slideblue
 
 <br>
 
-.size50[.center[
+<br>
 
+.size60[.center[
 Working on Paper 2
-
 ]]
+
+<br>
 
 <br>
 
@@ -51,13 +53,13 @@ Working on Paper 2
 ???
 
 ## Prep for Class
-1. ...
+1. Bring poster paper and sticky tac
 
 
 
 ---
 
-background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-image: url('libs/Images/background-blue_triangles_v2.png')
 background-size: 100%
 background-position: center
 
@@ -65,14 +67,113 @@ class: middle
 
 # Paper 2
 .size45[
-Write a report analyzing your environmental problem in terms of its complications.
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
 
-In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
-
-+ Support all claims with evidence
+- Analyze the pros and cons of each option for your chosen problem, and
+- Support all claims with evidence
 ]
 
 ???
+
+### Questions on the prompt?
+
+<br>
+
+This week we'll work on the paper.
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster1.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+Ok, does everybody have a poster?
+
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster2.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+Next step, write your environmental problem at the top of the paper.
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster3.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+Now split the poster into 4 quadrants.
+
+Focus on our first approach, C&C regulations, and take 8 minutes to make a pros and cons list for your problem on the poster.
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster4.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+8 minutes, build your pros and cons list for green taxes
+
+
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster5.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+8 minutes, build your pros and cons list for green subsidies
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Poster6.png')
+background-size: 53%
+background-position: center
+class: middle, slideblue
+
+???
+
+8 minutes, build your pros and cons list for adaptive governance
+
+<br>
+
+20 mins: 1/2 the class hangs their posters and stands by them, rest of class walks around, reviews posters and gives feedback
+
+<br>
+
+20 mins: swap posters and other half reviews
+
+
+
 
 
 
@@ -80,14 +181,12 @@ In what specific ways does risk, uncertainty, collective action problems and une
 
 class: middle, slideblue
 
-.size60[**For Next Class**]
+.size70[**For Thursday**]
 
-.size40[
-1. 
+<br>
 
-2. 
-
-3. 
+.size50[
+Write your rough draft!
 ]
 
 ???

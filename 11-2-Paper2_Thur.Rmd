@@ -38,7 +38,7 @@ class: slideblue
 
 .size50[.center[
 
-Working on Paper 2
+Paper 2: Review and Revise Drafts
 
 ]]
 
@@ -57,7 +57,7 @@ Working on Paper 2
 
 ---
 
-background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-image: url('libs/Images/background-blue_triangles_v2.png')
 background-size: 100%
 background-position: center
 
@@ -65,30 +65,51 @@ class: middle
 
 # Paper 2
 .size45[
-Write a report analyzing your environmental problem in terms of its complications.
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
 
-In what specific ways does risk, uncertainty, collective action problems and unequal impacts complicate your problem?
-
-+ Support all claims with evidence
+- Analyze the pros and cons of each option for your chosen problem, and
+- Support all claims with evidence
 ]
 
 ???
 
+### Questions on the prompt?
+
+<br>
+
+### Everybody have a rough draft?
 
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
-.size60[**Next Week**]
+.size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Convincing arguments...**]
 
 .size40[
-Section 3: Designing an Environmental Policy
++ .textred[**Logical**]: Do the premises support the conclusion?
 
-+ "Command and Control" Policies
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
 ]
 
 ???
 
-### Questions?
+Ok, everybody, get some feedback, give some feedback and get to writing!
