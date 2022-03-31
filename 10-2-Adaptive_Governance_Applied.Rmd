@@ -183,8 +183,8 @@ background-position: center
 class: middle
 
 .size55[.center[
-1) .textblue[**Adaptive governance policies**] are .textblue[**most effective**] when targeting .textred[**problems**] that look like...]
-]
+1) .textblue[**Adaptive governance policies**] are .textblue[**most effective**] when targeting .textred[**problems**] that look like...
+]]
 
 ???
 
@@ -213,8 +213,8 @@ background-position: center
 class: middle
 
 .size55[.center[
-2) .textblue[**Adaptive governance** policies are .textblue[**most effective**] when targeting .textred[**stakeholders**] that are characterized by...]
-]
+2) .textblue[**Adaptive governance**] policies are .textblue[**most effective**] when targeting .textred[**stakeholders**] that are characterized by...
+]]
 
 ???
 
@@ -241,7 +241,7 @@ background-position: center
 class: middle
 
 .size55[.center[
-3) .textblue[**Adaptive governance** policies are .textblue[**most effective**] when supported by .textred[**institutions**] that are characterized by...]
+3) .textblue[**Adaptive governance**] policies are .textblue[**most effective**] when supported by .textred[**institutions**] that are characterized by...]
 ]
 
 ???

@@ -1,48 +1,31 @@
----
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>12-2-Inequality.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
 
-library(tidyverse)
-library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
 
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
-```
 
-class: slideblue
+class: slidegreen
 
 .size80[**Today's Agenda**]
 
-<br>
+&lt;br&gt;
 
-.size45[
-What are the Complicating Factors in Environmental Policymaking?
+.size55[
+Designing an Environmental Policy
 
-+ Unequal Voice, Access and Influence
++ Unequal Voice, Access and Impacts
 ]
 
-<br>
+&lt;br&gt;
 
 .center[.size40[
   Justin Leinaweaver (Spring 2022)
@@ -51,12 +34,152 @@ What are the Complicating Factors in Environmental Policymaking?
 ???
 
 ## Prep for Class
-1. Prep email with link to Google Doc for citations
+1. ...
+
+&lt;br&gt;
+
+Today we continue our work in the third section of our semester
+
+- Our focus is on the real-world complications you should keep in mind as you work to design a policy.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
+
+- Support all claims with evidence (e.g. academic literature, real-world examples, etc.)
+]
 
 ???
 
-Let's cut through my fancy language here.
+I want to keep drawing your eyes back to the prompt for our final paper.
 
+Remember, our work exploring complications is meant to:
+
+1. help you keep this project moving forward in concrete ways, AND
+
+2. deepen your thinking about environmental policy design.
+
+&lt;br&gt;
+
+### Questions on the prompt?
+
+&lt;br&gt;
+
+On Monday we discussed how collective action problems complicate environmental problem-solving.
+
+- Let's make sure we're still clear on the high points
+
+
+
+---
+
+background-image: url('libs/Images/07-1-interrogation.png')
+background-size: 100%
+background-position: center
+
+???
+
+### What is a Prisoner's Dilemma and 
+
+
+
+---
+
+background-image: url('libs/Images/07-1-interrogation.png')
+background-size: 80%
+background-position: top
+class: bottom, slidegreen
+
+.pull-left[
+&lt;img src="libs/Images/12-2-ruined_pasture_v2.png" width="1067" /&gt;
+]
+
+.pull-right[
+![](libs/Images/07-1-waste_river.jpg)&lt;!-- --&gt;
+]
+
+???
+
+### What is a Prisoner's Dilemma and how is it related to 
+
+PD with image of field and image of polluted river
+
+What is the nature of a PD?
+
+Why does it lead to destruction?
+
+In terms of either too much grazing or dumping too much pollution into the commons, the defect strategy dominates
+
+&lt;br&gt;
+
+### Refresh my memory, how do collective action problems complicate environmental problem-solving?
+
+(SLIDE)
+
+
+
+
+---
+
+Benefits Accrue to the Individual + Costs to Imposed on the Collective = Resource Depletion
+
+Costs to the Individual + Benefits to the Collective = Free-Riders!
+
+???
+
+Conditions leading to free-riding or resource destruction
+
+THIS is the productive takeaway
+
+
+
+
+---
+
+background-image: url('libs/Images/07-1-ruined_pasture.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size35[.content-box-blue[The essence of dramatic tragedy is not unhappiness.]
+
+.content-box-blue[It resides in the solemnity of the remorseless]
+
+.content-box-blue[working of things.]]]
+
+???
+
+Think of the Whitehead quote Hardin invokes (p1244)
+- He's describing this as a dramatic tragedy.
+
+According to Hardin the tragedy is inevitable and unavoidable because of the nature of the commons.
+- The system is like an engine.
+
+It does what it must based on its design without thought or compunction (e.g. guilt).
+
+
+
+Hardin's use of the Whitehead quote to transition to readings
+
+What does Hardin assume is true about the discount rate for all users of a resource?
+
+Insanely short time horizons, huge discount rates
+- Not just assuming the users ignore the costs imposed on future generations
+- Not just assuming the users ignore the costs imposed on their own chidren
+- Assumes users ignore the costs they themselves will have to pay next year
+
+An insane assumption, so why make it?
+- Lifeboat Ethics
 
 
 
@@ -87,18 +210,14 @@ We've already hammered the "ecologist" Garrett Hardin for his stark racism in th
 
 But his work is an important player in the policy designs we'll explore today.
 
-<br>
+&lt;br&gt;
 
-### Remind me, what is the tragedy of the commons story?
-1. (It is rational for all humans to extract benefits from the commons because those costs are lower (e.g. shared with your neighbors))
-
-2. (It is rational to accelerate your use of the commons as you see others increasing their use. Use it before we lose it!)
-
-3. (Human reproduction is a tragedy of the commons)
+### So, how does Hardin frame human reproduction as a Tragedy of the Commons?
+(Human reproduction is a tragedy of the commons)
     + Having kids you can't support imposes costs on society and accelerates our race to the tragedy.
     + Poor countries struck by a natural disaster are learning an important lesson about why they should have chosen to be rich countries instead... (Sweet Jesus)
     
-<br>
+&lt;br&gt;
     
 *So, Hardin argued we should:*
 
@@ -106,7 +225,7 @@ But his work is an important player in the policy designs we'll explore today.
 + Let poor countries wipe themselves out, and
 + seal our borders
 
-<br>
+&lt;br&gt;
 
 What was the reaction from historians to Hardin's description of the commons?
 
@@ -124,13 +243,13 @@ background-position: center
 
 According to historians, Hardin completely misrepresents the history of commons resources he claimed to be drawing from.
 
-<br>
+&lt;br&gt;
 
 It seems Hardin has a series of agressive, white nationalist policy conclusions he wanted to support and he decided environmentalism would allow him to get where he wanted to go.
 
 Motivated reasoning is one hell of a drug!
 
-<br>
+&lt;br&gt;
 
 To build us back to Ostrom's work, let's talk about what history ACTUALLY can teach us about the commons and societal collapse.
 
@@ -156,7 +275,7 @@ As Dr. Susan Cox thoroughly explains in her article for *Environmental Ethics* t
 3. The end of the "commons" was politics, not dramatic tragedy
     + "The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
 
-<br>
+&lt;br&gt;
 
 So, if the ToC wasn't evident in the historical commons, what about other societies that collapsed after wasting their resources?
 
@@ -164,7 +283,7 @@ Was Hardin's explanation right for them?
 
 + Hint: No, it is not.
 
-<br>
+&lt;br&gt;
 
 ## Notes
 + *Image: British Library - Milking sheep in the pen and maids carrying the milk, manuscript illumination, anonymous in the Luttrell Psalter, c. 1340*
@@ -203,9 +322,7 @@ class: inverse
 
 .right[.textwhite[.size70[**The Chaco Anasazi**]]]
 
-```{r, fig.align='right', out.width='50%'}
-knitr::include_graphics('libs/Images/13-1-turquoise_beads.webp')
-```
+&lt;img src="libs/Images/13-1-turquoise_beads.webp" width="50%" style="display: block; margin: auto 0 auto auto;" /&gt;
 
 ???
 
@@ -215,7 +332,7 @@ Archaelogical evidence has shown us they maintained extensive trade ties across 
 
 + This trade network spanned several states: Colorado, Nevada and southeastern California
 
-<br>
+&lt;br&gt;
 
 Some impressive networks built and supported over centuries.
 
@@ -230,9 +347,7 @@ class: inverse
 
 .right[.textwhite[.size70[**The Chaco Anasazi**]]]
 
-```{r, fig.align='right', out.width='45%'}
-knitr::include_graphics('libs/Images/13-1-Anasazi-pot.jpeg')
-```
+&lt;img src="libs/Images/13-1-Anasazi-pot.jpeg" width="45%" style="display: block; margin: auto 0 auto auto;" /&gt;
 
 ???
 
@@ -260,7 +375,7 @@ class: inverse, top
 
 The question is, for a society as incredibly successful as they were, how did they disappear so rapidly?
 
-<br>
+&lt;br&gt;
 
 They lived in a place, US Southwest, whose environment was already somewhat strained (low rainfall, not a lot of forest land)
 
@@ -270,7 +385,7 @@ They lived in a place, US Southwest, whose environment was already somewhat stra
 
 + The problem was a long drought hit them and they were screwed.
 
-<br>
+&lt;br&gt;
 
 The lessons of their collapse?
 
@@ -280,7 +395,7 @@ The lessons of their collapse?
 
 + May not be able to anticipate when conditions will change
 
-<br>
+&lt;br&gt;
 
 Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on bad strategies and selfish abuses of the land.
 
@@ -335,11 +450,11 @@ class: middle
 
 ### What is the central argument?
 
-<br>
+&lt;br&gt;
 
 ### What are the key premises supporting this conclusion?
 
-<br>
+&lt;br&gt;
 
 Let's examine the sections of Hardin's article that Mildenberger flags as problematic.
 
@@ -349,11 +464,11 @@ Let's examine the sections of Hardin's article that Mildenberger flags as proble
 
 ### What is Hardin's argument about the UN and the Declaration on Human Rights?
 
-<br>
+&lt;br&gt;
 
 ### So, is Mildenberger's argument convincing? Why or why not?
 
-<br>
+&lt;br&gt;
 
 Hardin's environmental concerns were driven almost entirely by his racism and disdain for the poor.
 
@@ -365,7 +480,7 @@ Hardin's environmental concerns were driven almost entirely by his racism and di
 
 A bad dude using concerns about environmental scarcity to justify racial discrimination.
 
-<br>
+&lt;br&gt;
 
 So, here's where I go back to my conflict in assigning this piece.
 
@@ -383,7 +498,7 @@ And as Elinor Ostrom showed with her NOBEL PRIZE WINNING WORK many global common
 
 + We'll study some of them in week 13 of this term!
 
-<br>
+&lt;br&gt;
 
 Ok, so, Hardin was an a**-hat, but his hypothetical is a useful way to think about individuals making individually rational but collectively sub-optimal choices.
 
@@ -419,7 +534,7 @@ background-position: center
 class: middle
 
 .size40[
-Bullard, R. D., Mohai, P., Saha, R., & Wright, B. (2007). Toxic Wastes and Race at Twenty: Why Race Still Matters After All of These Years. United Church of Christ Justice & Witness Ministries. (**ONLY ch 3 and 4**)
+Bullard, R. D., Mohai, P., Saha, R., &amp; Wright, B. (2007). Toxic Wastes and Race at Twenty: Why Race Still Matters After All of These Years. United Church of Christ Justice &amp; Witness Ministries. (**ONLY ch 3 and 4**)
 ]
 
 ???
@@ -447,7 +562,7 @@ class: top
 
 *DISCUSS*
 
-<br>
+&lt;br&gt;
 
 Ok, let's use our case study exercise this week to help us keep attacking this question!
 
@@ -488,3 +603,127 @@ Be ready to present your case to the class AND start thinking about strategies w
 
 
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

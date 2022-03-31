@@ -1,0 +1,630 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slidegreen
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size55[
+Designing an Environmental Policy
+
++ Unequal Voice, Access and Impacts
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+<br>
+
+Today we continue our work in the third section of our semester
+
+- Our focus is on the real-world complications you should keep in mind as you work to design a policy.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Paper 3
+.size40[
+Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
+
+- Support all claims with evidence (e.g. academic literature, real-world examples, etc.)
+]
+
+???
+
+I want to keep drawing your eyes back to the prompt for our final paper.
+
+Remember, our work exploring complications is meant to:
+
+1. help you keep this project moving forward in concrete ways, AND
+
+2. deepen your thinking about environmental policy design.
+
+<br>
+
+### Questions on the prompt?
+
+<br>
+
+On Monday we discussed how collective action problems complicate environmental problem-solving.
+
+- Let's make sure we're still clear on the high points
+
+
+
+---
+
+background-image: url('libs/Images/07-1-interrogation.png')
+background-size: 100%
+background-position: center
+
+???
+
+### What is a Prisoner's Dilemma and 
+
+
+
+---
+
+background-image: url('libs/Images/07-1-interrogation.png')
+background-size: 80%
+background-position: top
+class: bottom, slidegreen
+
+.pull-left[
+```{r}
+knitr::include_graphics('libs/Images/12-2-ruined_pasture_v2.png')
+```
+]
+
+.pull-right[
+```{r}
+knitr::include_graphics('libs/Images/07-1-waste_river.jpg')
+```
+]
+
+???
+
+### What is a Prisoner's Dilemma and how is it related to 
+
+PD with image of field and image of polluted river
+
+What is the nature of a PD?
+
+Why does it lead to destruction?
+
+In terms of either too much grazing or dumping too much pollution into the commons, the defect strategy dominates
+
+<br>
+
+### Refresh my memory, how do collective action problems complicate environmental problem-solving?
+
+(SLIDE)
+
+
+
+
+---
+
+Benefits Accrue to the Individual + Costs to Imposed on the Collective = Resource Depletion
+
+Costs to the Individual + Benefits to the Collective = Free-Riders!
+
+???
+
+Conditions leading to free-riding or resource destruction
+
+THIS is the productive takeaway
+
+
+
+
+---
+
+background-image: url('libs/Images/07-1-ruined_pasture.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size35[.content-box-blue[The essence of dramatic tragedy is not unhappiness.]
+
+.content-box-blue[It resides in the solemnity of the remorseless]
+
+.content-box-blue[working of things.]]]
+
+???
+
+Think of the Whitehead quote Hardin invokes (p1244)
+- He's describing this as a dramatic tragedy.
+
+According to Hardin the tragedy is inevitable and unavoidable because of the nature of the commons.
+- The system is like an engine.
+
+It does what it must based on its design without thought or compunction (e.g. guilt).
+
+
+
+Hardin's use of the Whitehead quote to transition to readings
+
+What does Hardin assume is true about the discount rate for all users of a resource?
+
+Insanely short time horizons, huge discount rates
+- Not just assuming the users ignore the costs imposed on future generations
+- Not just assuming the users ignore the costs imposed on their own chidren
+- Assumes users ignore the costs they themselves will have to pay next year
+
+An insane assumption, so why make it?
+- Lifeboat Ethics
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Hardin.webp')
+background-size: 35%
+background-position: left
+
+class: middle, slidered
+
+.right-column[
+.right[
+
+.size55[**Garrett Hardin**]
+
+.size35[
+Earth is a "Tragedy of the Commons"
+
+Freedom to breed brings ruin to us all
+
+History proves me right!
+]]]
+
+???
+
+We've already hammered the "ecologist" Garrett Hardin for his stark racism in this class.
+
+But his work is an important player in the policy designs we'll explore today.
+
+<br>
+
+### So, how does Hardin frame human reproduction as a Tragedy of the Commons?
+(Human reproduction is a tragedy of the commons)
+    + Having kids you can't support imposes costs on society and accelerates our race to the tragedy.
+    + Poor countries struck by a natural disaster are learning an important lesson about why they should have chosen to be rich countries instead... (Sweet Jesus)
+    
+<br>
+    
+*So, Hardin argued we should:*
+
++ Control the right to reproduction,
++ Let poor countries wipe themselves out, and
++ seal our borders
+
+<br>
+
+What was the reaction from historians to Hardin's description of the commons?
+
+SLIDE
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Truman_show_what_the_hell.gif')
+background-size: 100%
+background-position: center
+
+???
+
+According to historians, Hardin completely misrepresents the history of commons resources he claimed to be drawing from.
+
+<br>
+
+It seems Hardin has a series of agressive, white nationalist policy conclusions he wanted to support and he decided environmentalism would allow him to get where he wanted to go.
+
+Motivated reasoning is one hell of a drug!
+
+<br>
+
+To build us back to Ostrom's work, let's talk about what history ACTUALLY can teach us about the commons and societal collapse.
+
+
+---
+
+background-image: url('libs/Images/13-1-pasture_farming.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+As Dr. Susan Cox thoroughly explains in her article for *Environmental Ethics* the medieval and post-medieval commons lands of England did not experience Hardin's tragedy.
+
+*The bottom line was the English commons system "succeeded admirably in its time."*
+
+1. English "commons" severely restricted access
+    + "...the English common was not available to the general public but rather only to certain individuals who inherited or were granted the right to use it, and use of the common even by these people was not unregulated."
+
+2. English "commons" were regulated
+    + "The types and in some cases the numbers of animals each tenant could pasture were limited, based at least partly on a recognition of the limited carrying capacity of the land."
+    
+3. The end of the "commons" was politics, not dramatic tragedy
+    + "The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
+
+<br>
+
+So, if the ToC wasn't evident in the historical commons, what about other societies that collapsed after wasting their resources?
+
+Was Hardin's explanation right for them?
+
++ Hint: No, it is not.
+
+<br>
+
+## Notes
++ *Image: British Library - Milking sheep in the pen and maids carrying the milk, manuscript illumination, anonymous in the Luttrell Psalter, c. 1340*
+
++ Cox, Susan. (1985). No Tragedy on the Commons. *Environmental Ethics*. Vol 7, Issue 1, p49-61.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Mystery.jpg')
+background-size: 100%
+background-position: center
+class: inverse
+
+.textwhite[.size70[**The Chaco Anasazi**]]
+
+???
+
+### Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?
+
+The Chaco Anasazi, meaning the Ancient Ones, had a sizable civilization for some 500 years in the southwest US (from about 600 AD to 1100 AD)
+
++ San Juan Basin area of New Mexico
+
+They were a flourishing and dynamic society.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Anasazi_Trade_Map.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='50%'}
+knitr::include_graphics('libs/Images/13-1-turquoise_beads.webp')
+```
+
+???
+
+Archaelogical evidence has shown us they maintained extensive trade ties across very large distances.
+
++ Evidence of turquoise beads from across the western US [Link](https://www.livescience.com/44703-turquoise-trade-network-revealed.html)
+
++ This trade network spanned several states: Colorado, Nevada and southeastern California
+
+<br>
+
+Some impressive networks built and supported over centuries.
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi3.jpg')
+background-size: 50%
+background-position: left
+class: inverse
+
+.right[.textwhite[.size70[**The Chaco Anasazi**]]]
+
+```{r, fig.align='right', out.width='45%'}
+knitr::include_graphics('libs/Images/13-1-Anasazi-pot.jpeg')
+```
+
+???
+
+The Anasazi also built extensive public works to allow for city building and irrigation for larger farm lands
+
++ Damming rivers, managing forests, roads, etc
+
+Also supported a thriving arts and science culture.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-anasazi2.jpg')
+background-size: 100%
+background-position: center
+class: inverse, top
+
+.center[.textwhite[.size55[**Why did the Anasazi disappear?**]]]
+
+???
+
+*Source: Jared Diamond's Collapse book has such stories (although historians quibble with MANY of his details!)*
+
+The question is, for a society as incredibly successful as they were, how did they disappear so rapidly?
+
+<br>
+
+They lived in a place, US Southwest, whose environment was already somewhat strained (low rainfall, not a lot of forest land)
+
++ As their population grew, demands on environment grew and environmental resources declined
+
++ They tried a ton of policies to grow: Damming rivers, extensive trade, going further and further to find trees
+
++ The problem was a long drought hit them and they were screwed.
+
+<br>
+
+The lessons of their collapse?
+
++ Never just one thing that wipes out a society,
+
++ The idea that humans are compelled to race to the end because it is the end is not evident in the historical record.
+
++ May not be able to anticipate when conditions will change
+
+<br>
+
+Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on bad strategies and selfish abuses of the land.
+
+The actual story of societal collapse tied to environmental mismanagement is always a much more complicated one.
+
+Dare I say it, a political one?
+
+
+
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/08-1-climate_change_is_racism.webp')
+background-size: 100%
+background-position: center
+class: top
+
+???
+
+This week I'd like us to explore how the role of race and racism complicates our efforts to solve environmental problems.
+
+Specifically, I'd like us to consider a particular argument.
+
+SLIDE
+
+--
+
+.size35[.center[.content-box-green[**Are we convinced that the American environmental**]]]
+
+.size35[.center[.content-box-green[**movement is built on and perpetuates racist**]]]
+
+.size35[.center[.content-box-green[**outcomes?**]]]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/07-1-tragedy_of_the_tragedy.png')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+### What is the central argument?
+
+<br>
+
+### What are the key premises supporting this conclusion?
+
+<br>
+
+Let's examine the sections of Hardin's article that Mildenberger flags as problematic.
+
+### What is Hardin's argument in the section the "freedom to breed is intolerable"?
+
+### What is Hardin's argument about providing food aid to developing countries?
+
+### What is Hardin's argument about the UN and the Declaration on Human Rights?
+
+<br>
+
+### So, is Mildenberger's argument convincing? Why or why not?
+
+<br>
+
+Hardin's environmental concerns were driven almost entirely by his racism and disdain for the poor.
+
++ Promoted “lifeboat ethics”: since global resources are finite, Hardin believed the rich should throw poor people overboard to keep their boat above water.
+
++ He argues the “freedom to breed is intolerable” and that we should let “children of improvident parents starve to death” so the poor would have fewer kids. 
+
++ He opposed sending food aid to poor nations, because he believed their populations were threatening Earth’s “carrying capacity."
+
+A bad dude using concerns about environmental scarcity to justify racial discrimination.
+
+<br>
+
+So, here's where I go back to my conflict in assigning this piece.
+
+I think Hardin's pasture example helps us better understand collective action problems and free-riding, but I want you to know:
+
+He was wrong.
+
+The history of the commons he invokes didn't exist.
+
+As Susan Cox pointed out, early pastures were well regulated by local institutions. 
+
++ They were not free-for-all grazing sites where people took and took at the expense of everyone else.
+
+And as Elinor Ostrom showed with her NOBEL PRIZE WINNING WORK many global commons have been similarly sustained through community institutions.
+
++ We'll study some of them in week 13 of this term!
+
+<br>
+
+Ok, so, Hardin was an a**-hat, but his hypothetical is a useful way to think about individuals making individually rational but collectively sub-optimal choices.
+
+### Fair enough?
+
+
+
+---
+
+background-image: url('libs/Images/08-1-kashwan.png')
+background-size: 90%
+background-position: center
+class: middle
+
+???
+
+Kashwan, P. (2020, September 2). American environmentalism’s racist roots have shaped global thinking about conservation. *The Conversation*.
+
+### What is the central argument?
+
+### What are the key premises supporting this conclusion?
+
+### Is it convincing? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+Bullard, R. D., Mohai, P., Saha, R., & Wright, B. (2007). Toxic Wastes and Race at Twenty: Why Race Still Matters After All of These Years. United Church of Christ Justice & Witness Ministries. (**ONLY ch 3 and 4**)
+]
+
+???
+
+### What is the central argument in chapters 3 and 4?
+
+### What are the key premises supporting this conclusion?
+
+### Is it convincing? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/08-1-env_justice.jpg')
+background-size: 86%
+background-position: center
+class: top
+
+???
+
+### Ok, where do we end up at this point?
+
+#### - Are we convinced that the american environmental movement is built on and perpetuates racist outcomes?
+
+*DISCUSS*
+
+<br>
+
+Ok, let's use our case study exercise this week to help us keep attacking this question!
+
+SLIDE
+
+
+---
+
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**For Thursday: Environmental Racism Cases**]
+
+.size40[
+Find us a **recent, real world example** of an environmental problem being framed in terms of its **disparate impact on a minority group**.
+
+Be ready to help us **brainstorm strategies** for addressing these complications.
+]
+
+???
+
+You don't have to find a case that mirrors the problem you've selected for your paper.
+
+HOWEVER, that's not a bad idea!
+
+My aim is that we broaden and deepen our understanding of risk profiles complicating environmental problem-solving.
+
+So, go find us good cases we can dig our teeth into.
+
+**Submit the citation to your case before class.**
+
+Be ready to present your case to the class AND start thinking about strategies we can use to address these risk based problems.
+
+### Questions?
+
+
+
