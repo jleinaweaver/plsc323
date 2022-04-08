@@ -930,26 +930,48 @@ Bullard, R. D., Mohai, P., Saha, R., & Wright, B. (2007). Toxic Wastes and Race 
 
 ???
 
-### What do we learn from Bullard et al ch 3 and ch 4?
+### What are the key conclusions of chapter 3 in Bullard et al?
+- ?
+
+### And in chapter 4?
+- ?
 
 <br>
 
-### How should we address this in our environmental policy problem-solving?
+### How confident are you in the conclusions drawn by this research?
+### - Strengths and weaknesses of the methods and analyses employed?
+- ?
+
 
 
 
 ---
 
-background-image: url('libs/Images/08-1-env_justice.jpg')
-background-size: 86%
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
 background-position: center
-class: top
+
+class: middle
+
+.size55[**Reflection Time**
+
+**Unequal Voice, Access and Impacts**]
+
+.size40[
+1. How big a role is this complication in your environmental problem?
+
+2. How can you adapt your chosen policy design to address this complication?
+]
 
 ???
 
-### Ok, where do we end up at this point?
+*Assuming 25 minutes left*
 
-#### - Are we convinced that the american environmental movement is built on and perpetuates racist outcomes?
+Ok, bottom line time, how do the problematic roots of American environmentalism impact the processes of problem-solving and outcomes we observe today?
 
-*DISCUSS*
+Everybody take 15 minutes to reflect on today's complication and do some writing/brainstorming on their final policy paper.
+
+Now, take 10 mins to share what you wrote/brainstormed with classmates
+
+- Get some feedback and see if hearing how other people are addressing this complication inspires you too!
 
