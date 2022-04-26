@@ -90,7 +90,7 @@ class: middle
 # Fusion Day Panel
 
 .size40[
-- Five certificates present
+- Five certificates present (Breech 200)
 
 - Each certificate:
     - 4-6 certificate students
@@ -114,12 +114,11 @@ background-position: center
 
 class: middle
 
-# Fusion Day Panel: Our Plan
+# Fusion Day Panel: Our Plan (Breech 200)
 
 .size40[
 - 4 students, each gives a 2 minute elevator pitch
     - What's the problem?
-    - Why important to you?
     - What are you proposing?
     - Any connections to the certificate classes?
 
