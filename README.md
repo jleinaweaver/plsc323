@@ -27,5 +27,6 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 12-2-Inequality.html
 13-1-Eco_Capitalism_and_Greenwashing.html
 13-2-Activism.html
-14-15-Paper3.html
+14-Fusion_Day_Paper3.html
+15-Paper3_Wrapup.Rmd
 

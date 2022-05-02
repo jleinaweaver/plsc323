@@ -1,0 +1,189 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[
+# Designing Solutions for Environmental Problems
+]
+
+.size35[
+- BIOL 163: Science of the Environment
+
+- ECON 225: Introduction to Environmental Economics
+
+- PHIL 320: Environmental Ethics
+
+- PLSC 323: Issues in Environmental Policy
+]
+
+
+
+
+---
+
+background-image: url('libs/Images/00-PFAS_v2.png')
+background-size: 100%
+background-position: center
+class: bottom, left
+
+# Sam Black 
+
+# (Chemistry)
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+# PFAS "Forever Chemicals"
+
+
+
+---
+
+background-image: url('libs/Images/00-growing_food_v2.png')
+background-size: 100%
+background-position: center
+class: top, right, inverse, textwhite
+
+# Corbin Tarr 
+
+# (Philosophy and Religion)
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+# Local Food Accessibility Issues
+
+
+
+---
+
+background-image: url('libs/Images/00-SGF_Traffic_v2.png')
+background-size: 100%
+background-position: center
+class: bottom, left, inverse, textwhite
+
+# Rachel Hon 
+
+# (Political Science and English)
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+# Air Quality in Springfield
+
+
+
+
+---
+
+background-image: url('libs/Images/00-smog.jpg')
+background-size: 100%
+background-position: center
+class: top, left, inverse, textwhite
+
+# Griffin Hirst 
+
+# (Political Science)
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+# Ground-level Ozone (Smog)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[
+# Designing Solutions for Environmental Problems
+]
+
+.size35[
+- BIOL 163: Science of the Environment
+
+- ECON 225: Introduction to Environmental Economics
+
+- PHIL 320: Environmental Ethics
+
+- PLSC 323: Issues in Environmental Policy
+]
+
+.center[
+# Questions?
+]
+
