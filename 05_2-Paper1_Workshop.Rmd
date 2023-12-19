@@ -1,0 +1,144 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Today's Agenda**]
+
+.size50[
+Working on Paper 1
+
+- Writing Workshop
+]
+
+<br>
+
+.center[.size35[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Convincing arguments...**]
+
+.size40[
++ .textred[**Logical**]: Do the premises support the conclusion?
+
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+???
+
+### Any questions on the rubric or my expectations for your papers?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+## Paper 1: Introducing the Problem
+
+.size30[
+Write a report introducing us to the specific, local environmental problem you intend to target this semester. 
+
+Your report .textblue[**must**] include:
+
+1. A description of the problem supported by .textblue[**high quality evidence**],
+
+2. An argument that this is a .textblue[**public problem**] that requires a .textblue[**collective decision**] by our community, and
+
+3. An analysis of .textblue[**at least two stakeholders**] with .textblue[**opposing**] viewpoints of the problem
+]
+
+???
+
+### Any questions on the first paper?
+
+Today I want us to get and give feedback on a few of the projects in class.
+- We'll reserve time at the end for writing/revision based on your work today
+
+I want to emphasize that this is a SUPER valuable exercise
+- Diving deeply into someone else's project will help you immeasurably with your own.
+
+- See what works, what doesn't and help them find gaps in their arguments.
+
+<br>
+
+*Split Class into Pairs*
+
+Ok, pairs, take 10 minutes ot focus on ONE of the projects.
+- Discuss where you are and then both of you spend the time focused on that project.
+
+### Make sense?
+
+Go!
+
+<br>
+
+Ok, swap projects and now take 10 minutes on the other one!
+
+<br>
+
+*New pairs and repeat exercise!*
+- 10 mins, person 1
+- 10 mins, person 2
+
+<br>
+
+Let's now use the rest of our time to reflect on what you've done today and polish your own work!
+
+
+

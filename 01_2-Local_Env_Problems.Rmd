@@ -1,0 +1,343 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.center[
+.size65[Brainstorming local environmental problems]
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Review and record participation submissions
+
+2. Publish next canvas discussion
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**Assignment for Today**]
+
+.size40[
+**Before class** submit to our Canvas discussion board: 
+
+1. The APA citation for a news story or piece of evidence describing a current,
+local environmental problem
+2. Provide a brief explanation for why you chose this problem (2+ complete sentences)
+]
+
+???
+
+### Everybody ready to go with this?
+
+### Put another way, did everybody earn their participation point?
+
+<br>
+
+In a moment we'll go around the room and hear about the cases you brought to class today.
+
+- I'd like everyone to present their case as the answer to a series of questions that will help us think broadly about environmental problems
+
+- Nobody here is yet an expert in their problem, so don't stress this.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+1) Describe the problem in one sentence (e.g. as simply as possible)
+]
+
+???
+
+To start, make sure you can describe the problem as simply as possible.
+
+- I'm willing to bet this thing you have chosen is a problem for lots of people, places, things, etc.
+
+- As a first step I want you to zoom in on the problem in simple terms without involving the targets of it
+
+### Does that make sense?
+- Think of this like what we did splitting climate change into smaller pieces on Tuesday.
+
+<br>
+
+### Everybody have that?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[
+1) The problem
+
+2) Describe the harm done to a specific target 
+]
+
+???
+
+Now I want you to go from the simple problem in abstract terms, to the problem in very concrete terms.
+
+- Identify one target (e.g. system, community, person, creature, etc.) harmed by this problem and describe how it harms them. Be specific.
+
+<br>
+
+### Everybody have that?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+1) The problem
+
+2) One specific harm
+
+3) What would meaningful progress on the problem look like for this target?
+]
+
+???
+
+In other words, how much harm would need to be reduced to make a meaningful impact on this target?
+
+- What is the smallest amount we need to change to call our work a success?
+
+### Make sense?
+
+<br>
+
+### Everybody have their answer?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+1) The problem
+
+2) One specific harm
+
+3) Meaningful progress?
+
+4) Briefly describe three causes of the problem (e.g. specific actions)
+]
+
+???
+
+We live in a probabilistic world where everything undoubtedly has multiple causes.
+
+- In this step I want you to brainstorm three causes of the problem. 
+
+- What specific actions are leading to this problem?
+
+### Make sense?
+
+<br>
+
+### Everybody have their answer?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+1) The problem
+
+2) One specific harm
+
+3) Meaningful progress?
+
+4) Three causes
+
+5) Identify one actor who benefits from one of these actions
+]
+
+???
+
+Who is one actor (e.g. company, individual, group, etc) that benefits from this action?
+
+- e.g. why is this problem being caused in the first place?
+
+### Make sense?
+
+<br>
+
+### Everybody have their answer?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+1) The problem
+
+2) One specific harm
+
+3) Meaningful progress?
+
+4) Three causes
+
+5) Who benefits?
+]
+
+???
+
+Ok, let's circle up as best we can and present the cases.
+
+*Go around the room to hear cases and discuss each*
+
+*Make sure they are specific and clear*
+
+<br>
+
+### So, how are we feeling? Do you have your case for the semester or are you going to look for something else?
+
+- **Everyone** needs to have their case **LOCKED IN** before class next Thursday.
+
+- We have a lot to accomplish and we can't spin our wheels on problem selection for too long.
+
+### Any questions on that?
+
+
+
+---
+
+background-image: url('libs/Images/01-1-ozarks_forest.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+.right[.textwhite[.size60[**Why is "the wilderness" a serious problem for society?**]]]
+
+???
+
+For Tuesday, I have assigned you an article by the historian William Cronon on the trouble with wilderness.
+
+- I love this article. I really do.
+
+My hope is that this article starts to lay some of the foundations we need for environmental problem-solving AND gives you some help thinking about the problem you are currently choosing.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+
+
+class: middle
+
+.size60[**Assignment for Tuesday**]
+
+.size40[
+**Before class** submit to our Canvas discussion board: 
+
+1. According to Cronon, why is "the wilderness" a serious problem for environmental problem-solving?
+2. How convinced are you by his argument?
+]
+
+???
+
+### Questions on the assignment?
+
+<br>
+
+Keep thinking about your problem selection and let me know if you want to discuss it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

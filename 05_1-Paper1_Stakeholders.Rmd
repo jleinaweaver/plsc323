@@ -1,0 +1,412 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Today's Agenda**]
+
+.size50[
+Working on Paper 1
+
+- Analyzing our Stakeholders
+]
+
+<br>
+
+.center[.size35[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Record Canvas submissions
+
+
+
+
+---
+
+class: middle, center
+
+```{r}
+tibble(
+  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
+  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
+  col3 = c(15, 15, 20, 15, 15, 20, 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+```
+
+???
+
+Reminder of the course outline and grade.
+
+- All focused on helping you produce a compelling and usable policy proposal to address a local environmental problem.
+
+<br>
+
+And don't forget Assignment 4 is ongoing right now.
+
+- Don't let this slip off your radar
+
+- Your exploration of the stakeholders last week and today may offer you a useful way to find opportunities to engage with the community.
+
+- Make sure to clear your idea for this project with me BEFORE you do it!
+
+<br>
+
+**SLIDE**: As long as we're talking grades, let's talk about the rubric I use to grade your papers.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
+
+???
+
+This represents the heart of the rubric I use for grading written papers.
+
+<br>
+
+All of your written assignments in this class ask you to make arguments.
+
+- Your goal for each is to write a convincing argument.
+
+<br>
+
+**SLIDE**: What does this mean?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Convincing arguments...**]
+
+.size40[
++ .textred[**Logical**]: Do the premises support the conclusion?
+
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+???
+
+For grading, I basically read your paper and ask myself these four questions.
+
+### Questions on the rubric or my expectations for your papers?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+## Paper 1: Introducing the Problem
+
+.size30[
+Write a report introducing us to the specific, local environmental problem you intend to target this semester. 
+
+Your report .textblue[**must**] include:
+
+1. A description of the problem supported by .textblue[**high quality evidence**],
+
+2. An argument that this is a .textblue[**public problem**] that requires a .textblue[**collective decision**] by our community, and
+
+3. An analysis of .textblue[**at least two stakeholders**] with .textblue[**opposing**] viewpoints of the problem
+]
+
+???
+
+This week we continue your work on the first paper AND your broader project! 
+
+- This description is posted on Canvas with additional details
+
+<br>
+
+The first paper comes directly from the work we've been doing over the first four weeks of class.
+
+1. At this point you each should have a really good sense of your problem description
+    - For the paper you need to add detail and evidence to this description
+    
+2. At this point you each have drafted and revised a version of your framing argument 
+    - e.g. public problem and collective decision
+    - This too needs evidence to elevate it beyond your opinion!
+    
+3. Today we'll work on the stakeholder analysis.
+    - Who are they, what do they want and how do they frame the problem?
+
+<br>
+
+### Questions on the paper before we get to work?
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+My expectation is that each of you is developing a policy proposal to address your environmental problem that is adapted to the politics of the situation.
+
+- This means **thinking about your problem** and **crafting your policy** in terms of its fundamental elements.
+
+- Elements that we introduced and explored using a simple distribution game in class.
+
+
+
+
+---
+
+background-image: url('libs/Images/05_1-politics_cropped.png')
+background-size: 50%
+background-position: left
+class: middle, slideblue
+
+.pull-right[
+.size30[
+**Your problem is the result of**: 
+- Actors pursuing their interests,
+
+- Colliding with other actors doing the same thing,
+
+- In an established system of rules and expectations (community)
+]]
+
+???
+
+Key to this perspective are the ideas of collaboration and flexibility that I've been raising with you repeatedly over the first 5 weeks.
+
+- There are no villains in your problem, just people or groups pursuing the things they want
+
+- There is no blank slate, we live in a community whose rules and processes shape our interactions
+
+### Is everybody with me on this broad perspective shaping your project?
+
+<br>
+
+Fundamental to this view is that your problem is, in essence, an unfortunate accident.
+
+- This political dynamic sometimes leads to bad outcomes EVEN THOUGH no one involved is trying to make the bad outcome!
+
+
+
+
+---
+
+background-image: url('libs/Images/05_1-politics_cropped.png')
+background-size: 50%
+background-position: left
+class: middle, slideblue
+
+.pull-right[
+.size30[
+**Your problem is the result of**: 
+- .size45[.textblue[**Actors**]] pursuing their interests,
+
+- Colliding with .size45[.textblue[**other actors**]] doing the same thing,
+
+- In an established system of rules and expectations (community)
+]]
+
+???
+
+And here's the proverbial rub for us today!
+
+- The actors, e.g. the stakeholders, make up 2/3 of the problem!
+
+<br>
+
+This problem exists because of the actions of individuals or groups in our community.
+
+- The deeper your understanding of who they are and what they value, the greater your chances of designing a successful policy. 
+
+<br>
+
+With that in mind I'd like us to spend time today thinking critically about the stakeholders you have chosen to begin with when exploring your problem.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-green[**Analyze your First Stakeholder:**]
+
+1. Who are they and why did you pick them?
+
+2. How do they frame the problem?
+    - Public or private problem?
+    - Collective or individual decision?
+    - Primary cause?
+    
+3. What are the best ways to appeal to this stakeholder?
+
+4. What are the deal-breakers for this stakeholder?
+]
+
+???
+
+Let's get your analysis down on the page (electronic or paper) for **ONE** of your stakeholders.
+
+1. Who are they and why did you select them?
+    - Describe the actor: individual, group, organization, corporation, etc
+    - Describe your thinking in picking them
+
+2. Describe their problem framing
+    - Public or private problem? e.g. individual action causes public harm vs doesn't
+    - Collective or individual decision? e.g. society should decide vs Individuals should decide
+    - What do they think is the primary or most important cause of this "problem"?
+
+3. "best ways to appeal"
+    - In other words, what do they value?
+    - Based on all you've written so far, what do you think is the most promising ways to reach out to this stakeholder and get them on board with solving your problem?
+    
+4. Deal-breakers
+    - What are the clear lines they are unlikely to cross?
+    - Values they hold deeply?
+    - Core interests that motivate them?
+    
+    
+### Questions on this?
+
+<br>
+
+*As people finish, get them to share analyses with each other!*
+
+Go share. 
+- Give and get feedback!
+- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
+- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-green[**Analyze your Second Stakeholder:**]
+
+1. Who are they and why did you pick them?
+
+2. How do they frame the problem?
+    - Public or private problem?
+    - Collective or individual decision?
+    - Primary cause?
+    
+3. What are the best ways to appeal to this stakeholder?
+
+4. What are the deal-breakers for this stakeholder?
+]
+
+???
+
+*As people finish, get them to share analyses with each other!*
+
+Go share. 
+
+- Give and get feedback!
+
+- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
+
+- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
+
+<br>
+
+### Any questions or need for help from the class on your stakeholder analyses?
+
+<br>
+
+### After these analyses, what additional stakeholders do you each need to find and bring into your work to help flesh out your understanding of the politics of the problem?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size70[**For Thursday**]
+
+.size60[
+Writing Workshop
+]
+
+???
+
+Everybody bring a rough draft of your paper to class on Thursday so we can check in on it and give/get feedback.
+
+
+
+
+
+

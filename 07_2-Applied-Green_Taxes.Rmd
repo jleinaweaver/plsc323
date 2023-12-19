@@ -1,0 +1,312 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Today's Agenda**]
+
+.size50[
+Exploring the Success Stories
+
+- "Green" Taxes
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Review submitted cases
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size70[**Paper 2**]
+
+.size55[
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
+
+- Analyze the pros and cons of each option for your chosen problem
+]
+
+???
+
+Keep your eye on the next target: Paper 2.
+
+- In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
+
+### Questions on the paper so far?
+
+<br>
+
+Today we analyze our second approach using your real world success cases.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Assignment for Today**]
+
+.size45[
+Submit to Canvas a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
+]
+
+.size45[
+.textblue[**Present as an argument**]: This case shows that addressing environmental problem X can be done successfully using "green" taxes.
+]
+
+???
+
+Let's review all the cases for APA format.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-blue[.size45[This case shows that we can use "green" taxes to address environmental problem X.]]]
+
+<br>
+
+.size40[
+- What aspect of your problem does this tax focus on?
+
+- Which stakeholders does it target? How?
+
+- What institutions support this tax?
+]
+
+???
+
+Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
+
+- Problem: Specific, narrow aspect targeted by this tax?
+
+- Stakeholders: What does it require them to do?
+
+- Institutions: What rules or structures currently exists to make this possible?
+
+### Questions on this?
+
+<br>
+
+Get to it!
+
+<br>
+
+Welcome to our environmental policy cocktail party!
+
+- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
+
+- I don't want to see groups of three!
+    - Your job is to interact in pairs.
+
+- I want pairs focused on hearing one case and presenting one case at a time.
+
+### Questions?
+
+Go!
+
+*You mingle too.*
+- This was super fun and you got to help steer students to being more specific, more precise
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.center[
+Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]]
+
+???
+
+Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+
+<br>
+
+Now let's try to extract lessons from all of them.
+
+- Everybody form groups of (aim for three groups to keep board space manageable) and spread out around the room.
+
+- Groups: I'm going to ask you to compare and contrast the cases you heard today to help us extract general lessons for policy designers.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
+
+<br>
+
+.content-box-blue[.size55[What kinds of problem characteristics fit best with this policy design? What kinds do not?]]
+
+???
+
+Ok, groups, first prompt.
+
+You just heard a bunch of cases where green taxes successfully addressed an environmental problem. 
+
+From those cases I want your best advice for a policy designer:
+
+*ON BOARD: 2 Columns*
+
+- **PRESENT EACH and DISCUSS**
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
+
+<br>
+
+.content-box-blue[.size55[What kinds of stakeholder characteristics fit best with this policy design and what kinds do not?]]
+
+???
+
+Based on the success cases, I want your best advice for a policy designer:
+
+*ON BOARD: 2 Columns*
+
+- **PRESENT EACH and DISCUSS**
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
+
+<br>
+
+.content-box-blue[.size55[What kinds of institutional support is required to make this policy design successful?]]
+
+???
+
+Based on the success cases, I want your best advice for a policy designer:
+
+*ON BOARD*
+
+- **PRESENT EACH and DISCUSS**
+
+
+
+
+
+---
+
+background-image: url('libs/Images/11-1-Green_taxation_v2.png')
+background-size: 100%
+background-position: center
+class: top
+
+.center[.size55[**Best advice / things to remember when designing "green" taxes?**]]
+
+???
+
+Bottom line time.
+
+### In a practical sense, what guidance can we offer policy-makers considering using a "green" tax approach to solving environmental problems?
+
+- ?
+
+<br>
+
+**Ok, everybody take five minutes to reflect on our work today.**
+
+Jot down some notes that I promise you'll need when it comes time to write the next paper.
+
+What are the pros and cons of using this approach for your specific problem?
+
+
+---
+
+background-image: url('libs/Images/12-1-Green_Subsidies.jpg')
+background-size: 100%
+background-position: center
+class: center
+
+???
+
+Next week we explore our next policy design, green subsidies!
+
+<br>
+
+Make sure you consolidate and clean up your notes from this week.
+
+- You might end up making green taxes central to your paper!

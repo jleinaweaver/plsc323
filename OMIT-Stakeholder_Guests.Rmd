@@ -1,0 +1,115 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size60[.center[
+
+Welcome to our local stakeholders working on environmental policy!
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Save ten minutes at end for assignment for next week
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[**Today**]
+
+## Kane Sheek
+.size40[
++ Sierra Club - White River Group
++ Ready for 100 Springfield Community Organizer
+]
+
+## Todd Wilkinson
+.size40[
++ James River Basin Partnership
++ Project Manager
+]
+
+???
+
+We have a few goals for our discussion on Thursday
+
+1. Familiarize ourselves with local environmental groups (stakeholders), and
+
+2. Gather some info to help us with our paper projects.
+
+
+
+---
+
+background-image: url('libs/Images/background-forest.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**For Thursday: Writing Workshop**]
+
+.size40[
+1. Choose your environmental problem,
+
+2. Outline your paper, and
+
+3. Find evidence to support each premise in your proposed argument
+]
+
+???
+
+Let's get to work on the paper!
+
+Everybody brings in a case (or two for EC!) we can discuss on Tuesday.
+
+<br>
+
+### Questions?

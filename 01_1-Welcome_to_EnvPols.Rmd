@@ -1,0 +1,769 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[**PLSC 323: Issues in Environmental Policy**]
+
+<br>
+
+.size55[.left[**Today's Agenda**]
+Reviewing our plan for the semester
+]
+
+<br>
+
+.size40[
+  Justin Leinaweaver (Spring 2024)
+]
+
+???
+
+## Prep for Class
+1. Bring a few "Get out of jail" free cards for the distribution game
+
+<br>
+
+Welcome to PLSC 323: Issues in Environmental Policy
+
+### Is everybody in the right place?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[**Designing Solutions for Environmental Problems**]]
+
+### Required Courses
+.size35[
++ BIOL 163 Science of the Environment
+
++ ECON 225 Introduction to Environmental Economics
+
++ PHIL 320 Environmental Ethics
+
++ PLSC 323 Issues in Environmental Policy
+]
+
+???
+
+Also let me welcome you to the capstone for the "Designing Solutions for Environmental Problems" fusion certificate.
+
+### How many people are here for this?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size70[**Introductions**]
+
+.size50[
+1. Name
+
+2. Year in school
+
+3. Major
+
+4. Certificate courses completed
+]
+
+???
+
+Let's go around the room for introductions.
+
+I'll go first.
+
+1. I'm Dr. Justin Leinaweaver.
+
+2. FSU undergrad, masters in IR at UCD and PhD at Trinity.
+  + My eleventh year at Drury
+
+3. I'm a political scientist
+  + Research interests: international politics, environmental politics and bargaining / negotiations.
+  
+4. I took versions of all the classes as an undergrad and much more deeply as a grad student
+
+<br>
+
+### Your turn
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+???
+
+Given our large number of non-majors we should take a moment to define a key concept in our class: Politics
+
+### Non-majors, when you think of the word "politics" or hear someone being described as "political" what do you think of?
+
+<br>
+
+Political scientists think about politics much differently than the word gets used by most people.
+
+<br>
+
+Because it amuses me deeply, let's play a game of politics and see if that clears things up!
+
+- The majors have probably played this game before but the cool part is, that shouldn't affect it at all!
+
+
+
+---
+
+background-image: url('libs/Images/01-1-get_out_of_jail_free.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The Objective: Each of these is a "get out of jail free" card
+
+- You can use one of these to help yourself out of a jam in class this semester.
+    - Miss a paper deadline? Add two days!
+    - Miss a class? Get an excused absence!
+    - Get creative!
+
+- Exceptions: Applies to class policies, not university policies (e.g. plagiarism) or laws (e.g. no murder)
+    - Can't apply to the final exam
+  
+<br>
+    
+The game is simple: As a class you distribute the cards.
+
+- All I ask is that the class reach a consensus on the outcome.
+
+- Once you have all agreed, let me know and I'll distribute them
+
+**That's it, that's the game. Go!**
+
+<br>
+
+#### Notes on the game FOR YOU
++ Class must distribute X "Get out of jail free" cards in ten minutes
+
++ Each card is worth a free excused absence OR a two day extension to a paper deadline (not the final)
+
++ Number of cards: Approx 25% of the class?
+
++ You keep all of the "get out of jail free" cards in hand until the end of the game. No one can just claim them by walking up and taking it. Students must make an affirmative case why they should get one. I like this! A literal government hand out!
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+class: right
+
+.size40[.content-box-red[**1. What was your strategy?**]]
+
+.size40[.content-box-red[**2. What strategies did you observe?**]]
+
+.size40[.content-box-red[**3. What was the outcome of the game?**]]
+
+???
+
+In a moment I'm going to ask you to answer these three questions.
+- So, take a few minutes to reflect on our game and get ready to answer.
+
+<br>
+
+Ok, what just happened?
+
+### 1. How did you approach this game? What was your strategy? 
+
+<br>
+
+### 2. What strategies did you observe from other people?
+
+<br>
+
+### 3. What was the outcome of the game?
+
+<br>
+
+### 4. Importantly, why did we end up with that outcome? Biggest reasons in your mind?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size70[.center[.content-box-red[**Define "Politics"**]]]
+
+???
+
+Assume for the moment that our game was a useful simulation of "politics"
+
+- Think about your experience and our discussion and use all of that to write me a short definition of the concept: "politics."
+
+<br>
+
+Alright, let's hear what you came up with!
+
+*PRESENT and DISCUSS*
+
+<br>
+
+Games and simulations are often a useful tool for exploring politics.
+
+- What we just played was a fairly basic distribution game.
+
+- It highlights a ton of important stuff, but we'll just focus on the big idea for now.
+
+- SLIDE: Standard definitions...
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size35[.right[.content-box-blue[**1. Decision-making in a community**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**2. How we make and enforce "the rules"**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**3. Who gets what, when and how?**]]]
+
+???
+
+In various textbooks you'll see politics defined as:
+
+1) Politics is often defined as "Decision-making in a community"
+- One important aspect of "politics" is the study of **how groups make decisions**.
+- Group decision-making is complex and it multilayered
+- It is also one of the **fundamental building blocks** of our society 
+
+<br>
+    
+2) Politics is sometimes defined as "How we make and enforce 'the rules'"
+- Once a society has established rules, many political scientists study how those rules are interpreted, revised and enforced
+- **The decision to punish a rule-breaker is a huge decision** that often sends ripples out through a community
+
+<br>
+
+### Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?
+
+#### - Seriously, walk me through how our community changes and reacts to that change in policy.
+
+<br>
+
+### And what would happen if they completely stopped enforcing speed limits?
+#### - Again, walk me through how our community changes and reacts to that change in policy.
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size35[.right[.content-box-blue[**1. Decision-making in a community**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**2. How we make and enforce "the rules"**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**3. Who gets what, when and how?**]]]
+
+???
+
+3) Politics is often defined as "Who gets what, when and how?"
+
+Why do groups form? 
+- Often it is **to produce greater resources** than any individual could do on their own
+    - This could be money, food, a division of labor, or collective security
+- HOWEVER, producing that good means **someone has to pay** and someone has to benefit
+
+Who pays and who benefits is **a constant tension** in any society.
+
+<br>
+
+Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
+
+### Any questions on this broad definition of the concept "politics"?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-environmental-issues.png')
+background-size: 50%
+background-position: left
+class: slidegreen, middle
+
+.pull-right[
+.center[
+.size60[
+**Solving Environmental Problems in a Political World**
+]]]
+
+???
+
+And that brings us to our task in this class.
+
+Our task this semester is to learn how we can tackle environmental problems in a world of politics.
+
+- And remember, by "politics" all I mean is a world where solving these problems requires groups to work together
+
+- This may involve making and enforcing new rules, but it doesn't have to!
+
+<br>
+
+**All policy decisions create winners and losers. ALL OF THEM.**
+
+- The most obvious examples are often tax related
+    - e.g. your taxes go up so the government can build a new school
+
+- But the environmental arena can make this so much more complicated
+    - e.g. reducing the amount of fine particulate matter in the air can save tens of thousands of lives BUT may force a local factory to either layoff workers or produce fewer goods for higher prices
+
+- Your job is to find the balance of those costs and benefits so that:
+    1. Society can successfully address a serious environmental problem,
+    2. WITHOUT inspiring such push-back or suffering that people either ignore the rules or change them to undo your work!
+
+### Does that make sense?
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/01-1-env_pols.jpg')
+background-size: 60%
+background-position: right
+class: slidegreen
+
+.pull-left[
+.size45[
+.center[.context-box-blue[**What's going on in the world of environmental politics?**]]
+
++ Global 
+
++ National
+
++ Local
+]]
+
+???
+
+With all this stuff floating around in your head, let's do some brainstorming.
+
+- This is a capstone for the certificate and so each of you will be tackling a local environmental problem this semester.
+
+- You're going to have to choose a problem very quickly so let's get moving on idea generation!
+
+<br>
+
+### So, what's going on in the world of environmental politics? What are the key problems / challenges?
+
+#### - Help me brainstorm these three lists. Don't edit yourself, just brainstorm!
+
+*ON BOARD (columns: Local, National, Global)*
+
+*Push them to split "climate change" into more specific items (e.g. coral bleaching, rising tides, more extreme weather events, etc.)*
+
+
+
+
+---
+
+background-image: url('libs/Images/01-1-env_pols.jpg')
+background-size: 60%
+background-position: right
+class: slidegreen
+
+.pull-left[
+.size45[
+.center[.context-box-blue[**What's going on in the world of environmental politics?**]]
+
++ Global 
+
++ National
+
++ Local
+]]
+
+???
+
+*Break class into small groups (4 each)*
+- *Groups discuss each then report back*
+
+### Q1: What is the most important local problem on the list? Why?
+
+### Q2: What is the most important national problem on the list? Why? Discuss
+
+### Q3: What is the most important global problem on the list? Why? Discuss
+
+### Q4: What is the most important single problem overall? Why?
+
+<br>
+
+Well, clearly we have a lot to do!
+
+- SLIDE: So, let's talk about our aims for the semester (e.g. the learning outcomes on the syllabus) 
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+# LO1: Content Knowledge
+.size55[
+Students should demonstrate the ability to organize the investigation of an environmental problem in terms of its key stakeholders, institutions and uncertainties involved.
+]
+
+???
+
+Translated...
+
+After this class I want you to be able to organize your investigation of any environmental problem in three parts:
+
+- Who are the key stakeholders and what do they want?
+
+- What are the institutions and how do they structure your options?
+
+- What are the big sources of uncertainty?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+# LO2: Critical Thinking and Problem-Solving Skills
+.size50[
+Students should demonstrate policy-based problem-solving skills by designing plans that balance the interests of stakeholders against the constraints of established institutions and uncertainty.
+
+]
+
+???
+
+Translated...
+
+The second LO is really about making sure you are always thinking about problem-solving in terms of balancing winners and losers.
+
+- No environmental problem can be successfully addressed over the long term without making this piece central to the plan.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+# LO3: Communication Skills
+.size55[
+Students should demonstrate the ability to communicate their policy proposals in clear, concise ways that are tailored to the relevant audiences.
+]
+
+???
+
+Translated...
+
+It doesn't matter how brilliant your plan is, if you can't sell it to the stakeholders it isn't going anywhere.
+
+### Any questions on the LOs?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+# The Semester: Three Sections 
+
+.size50[
+1. The Basics of Problem-Solving in a Community
+
+2. Evaluating Policy Design Options
+
+3. Designing Environmental Policies
+]
+
+???
+
+I have broken our semester into three parts.
+
+- Each part is designed to introduce you to the skills and tools you will need to engage with environmental problems in a political world.
+
+
+<br>
+
+SLIDE: While these three sections represent the conceptual tools in our semester, this is a capstone class and that means our big work is on each of you developing and executing your own project!
+
+
+
+---
+
+class: middle, center
+
+```{r}
+tibble(
+  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
+  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
+  col3 = c(15, 15, 20, 15, 15, 20, 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+```
+
+???
+
+Each of you will select a local environmental problem and then attack it in five assignments.
+
+- Assignment 1 is a paper where you introduce us to the specific, local environmental problem you have chosen
+
+- Assignment 2 is a paper in which you evaluate the pros and cons of four design options for addressing the problem
+
+- Assignment 3 is a poster you will design for Fusion Day this semester in order to collect community feedback on your work
+
+- Assignment 4 requires you to get out and get your hands dirty in our community! 
+    - Each of you will find an opportunity to get actively involved in your issue locally (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.) and report back on what you learned.
+
+- Finally, in assignment 5 you will propose a policy to address your chosen problem that takes on board everything you did in the first four assignments.
+
+<br>
+
+### Does the structure of the class make sense?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-coyote.jpg')
+background-size: 85%
+background-position: center
+
+???
+
+This is a capstone class with a very ambitious set of goals, so I need you to be in class every session!
+
+To encourage that outcome I have designed an attendance cliff.
+
+- If you have more than three **unexcused** absences during the semester you will not be able to earn greater than a C in the class.
+
+- This is regardless of assignment grades.
+
+<br>
+
+### Questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-office_space.jpg')
+background-size: 65%
+background-position: center
+
+???
+
+What if you have an excused absence coming up?
+
+- It is your responsibility to email me **BEFORE** the absence in order to receive a make-up assignment.
+
+- Easy peasy
+
+<br>
+
+This is also the place where I say to you, whatever is going on that might keep you out of class, please keep me in the loop. 
+
+- I genuinely want you to make progress on our learning outcomes
+
+<br>
+
+So, if things are getting rough for you please come talk to me.
+
+**I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!**
+
+### Fair enough?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-participation-points.jpg')
+background-size: 85%
+background-class: center
+class: slideblue
+
+???
+
+Ok, so I've got you coming to class now how do I make sure you're doing the work?
+- Participation points!
+
+Basically, if you:
+- Get to class on time,
+- Have the materials you need to work, and
+- Submit all daily required assignments BEFORE class,
+
+You'll be good to go and these are easy free points.
+
+<br>
+
+Before many of our classes we will have a reading and/or an assignment to complete.
+- You must submit any daily assignment to our Canvas discussion board BEFORE class begins to earn your participation point.
+
+The two most common ways people lose these points?
+- Come to class late, or 
+- Come to class without having completed the daily assignment.
+
+### Questions on this?
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-matrix_meme.jpg')
+background-size: 95%
+background-position: center
+
+???
+
+Your first job is to download the syllabus from Canvas and read it carefully.
+
+It includes detail on everything you need to know.
+- Assignment deadlines
+- Readings
+- Drury policies
+
+ALSO, I can see who downloaded it, so don’t delay!
+
+<br>
+
+We'll be using Canvas for submitting assignments and sharing readings.
+
+- **All** of our readings this term are available on Canvas.
+
+- Let me know if you have trouble using our class Canvas page
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**Assignment for Thursday**]
+
+.size40[
+**Before class** submit to our Canvas discussion board: 
+
+1. The APA citation for a news story or piece of evidence describing a current,
+local environmental problem
+2. Provide a brief explanation for why you chose this problem (2+ complete sentences)
+]
+
+???
+
+As I noted, this semester each of you will choose a local environmental problem to investigate and attempt to address.
+
+- We need to get this process moving so your first assignment (participation point!) is to help us brainstorm ideas.
+
+- For Thursday, push yourself to find a single, local environmental problem that intrigues you!
+
+- You must submit your selected problem BEFORE CLASS BEGINS to our Canvas discussion board.
+    - Please be aware, Canvas will close the discussion board ot new submissions at 1pm so don't be late!
+
+<br>
+
+### Has anybody not used APA for references and citations before?
+- I have provided links in the syllabus to the Purdue OWL which will tell you everything you need to know to use it.
+
+### Questions on the assignment?
+
+See you Thursday!
+
