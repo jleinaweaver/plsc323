@@ -57,6 +57,76 @@ class: middle
 
 2. Publish next canvas discussion
 
+<br>
+
+**SLIDE**: Let's kick things off with a refresher from last class
+
+
+
+---
+
+class: middle, center
+
+```{r}
+tibble(
+  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
+  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(TBD)", "(Apr 26)", "(Final)"),
+  col3 = c(20, 60, "", "", "", "", 20)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
+  kableExtra::column_spec(2, width = "7em")
+```
+
+???
+
+### Any questions on the syllabus?
+
+### - Clear on attendance, participation, assignments and how we'll be using Canvas?
+
+<br>
+
+Just a head's up, I don't check the inbox in Canvas. 
+
+- If you need to contact me please send me an email.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '87%'}
+knitr::include_graphics("libs/Images/01_1-cartoon_lake.jpg")
+```
+
+???
+
+### What was the story of our in-class simulation?
+- (Lake of magical bonus point fish)
+
+<br>
+
+### How did this help us to define "politics"?
+1. Decision-making in a community
+2. How we make and enforce "the rules"
+3. Who gets what, when and how?
+
+<br>
+
+Key for us is to remember that we need the science, the economics and the ethics to help us understand an environmental problem, but...
+
+- Without the politics we lack the tools needed to translate a "fix" into a specific plan that can make a difference in a real community.
+
+<br>
+
+### Any questions on what we covered last class?
+
 
 
 ---
@@ -67,15 +137,13 @@ background-position: center
 
 class: middle
 
-.size60[**Assignment for Today**]
+.size40[.content-box-green[**Assignment for Today**]]
 
-.size40[
-**Before class** submit to our Canvas discussion board: 
+<br>
 
-1. The APA citation for a news story or piece of evidence describing a current,
-local environmental problem
-2. Provide a brief explanation for why you chose this problem (2+ complete sentences)
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-Assignment.png")
+```
 
 ???
 
@@ -113,12 +181,13 @@ To start, make sure you can describe the problem as simply as possible.
 
 - As a first step I want you to zoom in on the problem in simple terms without involving the targets of it
 
-### Does that make sense?
 - Think of this like what we did splitting climate change into smaller pieces on Tuesday.
 
 <br>
 
-### Everybody have that?
+### Does that make sense?
+
+- Go!
 
 
 
@@ -130,7 +199,7 @@ background-position: center
 class: middle
 
 .size50[
-1) The problem
+1) Describe the problem
 
 2) Describe the harm done to a specific target 
 ]
@@ -139,11 +208,19 @@ class: middle
 
 Now I want you to go from the simple problem in abstract terms, to the problem in very concrete terms.
 
-- Identify one target (e.g. system, community, person, creature, etc.) harmed by this problem and describe how it harms them. Be specific.
+- Identify one target harmed by this problem and describe how it harms them. 
+
+- Be specific.
+
+- The target could be a community, a neighborhood, a company, or any other group of people
+
+- For now I will ask you to focus on a human impact rather than a purely non-human one.
 
 <br>
 
-### Everybody have that?
+### Does that make sense?
+
+- Go!
 
 
 
@@ -155,24 +232,42 @@ background-position: center
 class: middle
 
 .size45[
-1) The problem
+1) Describe the problem
 
-2) One specific harm
+2) Describe the harm done to a specific target
 
 3) What would meaningful progress on the problem look like for this target?
 ]
 
 ???
 
+For the second prompt you focused on a specific harm to a specific target.
+
+- For this prompt I want you to think about what progress would look like for that target alone
+
+<br>
+
+Your "big" goal might be to fully address a significant problem for all people and all time, but that's WAY down the road
+
+- I want you to describe what would be a meaningful improvement in the life of your specified target only.
+
+<br>
+
+- Thinking small can help you design feasible proposals, AND 
+
+- can help you more deeply understand why a problem matters to real people.
+
+<br>
+
 In other words, how much harm would need to be reduced to make a meaningful impact on this target?
 
 - What is the smallest amount we need to change to call our work a success?
 
-### Make sense?
-
 <br>
 
-### Everybody have their answer?
+### Does that make sense?
+
+- Go!
 
 
 
@@ -184,13 +279,13 @@ background-position: center
 class: middle
 
 .size40[
-1) The problem
+1) Describe the problem
 
-2) One specific harm
+2) Describe the harm done to a specific target
 
-3) Meaningful progress?
+3) Describe meaningful progress
 
-4) Briefly describe three causes of the problem (e.g. specific actions)
+4) Briefly describe **three** causes of the problem (e.g. specific actions)
 ]
 
 ???
@@ -199,13 +294,17 @@ We live in a probabilistic world where everything undoubtedly has multiple cause
 
 - In this step I want you to brainstorm three causes of the problem. 
 
-- What specific actions are leading to this problem?
+<br>
 
-### Make sense?
+Think about what specific actions by specific actors lead to this problem.
+
+- I'm using "actor" collectively here e.g. can be a single person or any group
 
 <br>
 
-### Everybody have their answer?
+### Does that make sense?
+
+- Go!
 
 
 
@@ -217,22 +316,45 @@ background-position: center
 class: middle
 
 .size40[
-1) The problem
+1) Describe the problem
 
-2) One specific harm
+2) Describe the harm done to a specific target
 
-3) Meaningful progress?
+3) Describe meaningful progress
 
-4) Three causes
+4) Describe three causes
 
-5) Identify one actor who benefits from one of these actions
+5) Identify an actor who benefits from each of these causes
 ]
 
 ???
 
-Who is one actor (e.g. company, individual, group, etc) that benefits from this action?
+For each cause of the problem you have identified I want you to describe who benefits from that action.
 
-- e.g. why is this problem being caused in the first place?
+<br>
+
+This is our effort to think carefully about why the environmental problems we see exist in the world
+
+- I do not believe we live in a world of Disney villains out to destroy a river or a family of puppies for fun
+
+- Problems are typically caused by actions taken for reasons entirely unrelated to the environmental problem itself
+
+<br>
+
+So, your job is to give us one reason why each of these actions from prompt four is happening.
+
+- Who benefits from each cause?
+
+<br>
+
+### Does that make sense?
+
+- Go!
+
+
+
+
+
 
 ### Make sense?
 
@@ -250,15 +372,15 @@ background-position: center
 class: middle
 
 .size40[
-1) The problem
+1) Describe the problem
 
-2) One specific harm
+2) Describe the harm done to a specific target
 
-3) Meaningful progress?
+3) Describe meaningful progress
 
-4) Three causes
+4) Describe three causes
 
-5) Who benefits?
+5) Describe who benefits
 ]
 
 ???
@@ -273,9 +395,13 @@ Ok, let's circle up as best we can and present the cases.
 
 ### So, how are we feeling? Do you have your case for the semester or are you going to look for something else?
 
-- **Everyone** needs to have their case **LOCKED IN** before class next Thursday.
+<br>
+
+**Everyone** needs to have their case **LOCKED IN** before class next Thursday.
 
 - We have a lot to accomplish and we can't spin our wheels on problem selection for too long.
+
+<br>
 
 ### Any questions on that?
 
@@ -296,7 +422,13 @@ For Tuesday, I have assigned you an article by the historian William Cronon on t
 
 - I love this article. I really do.
 
-My hope is that this article starts to lay some of the foundations we need for environmental problem-solving AND gives you some help thinking about the problem you are currently choosing.
+<br>
+
+My hope is that this article:
+
+1. Lays some of the foundations we need for environmental problem-solving, AND 
+
+2. Gives you help thinking about the problem you are choosing to focus on this semester.
 
 
 
@@ -307,17 +439,15 @@ background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 
-
 class: middle
 
-.size60[**Assignment for Tuesday**]
+.size50[.content-box-green[**Assignment for Next Class**]]
 
-.size40[
-**Before class** submit to our Canvas discussion board: 
+<br>
 
-1. According to Cronon, why is "the wilderness" a serious problem for environmental problem-solving?
-2. How convinced are you by his argument?
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_2-Assignment.png")
+```
 
 ???
 
@@ -326,12 +456,6 @@ class: middle
 <br>
 
 Keep thinking about your problem selection and let me know if you want to discuss it.
-
-
-
-
-
-
 
 
 
