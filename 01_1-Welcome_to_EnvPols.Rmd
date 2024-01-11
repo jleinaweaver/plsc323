@@ -18,8 +18,8 @@ output:
 
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
+##library(stargazer)
+library(kableExtra)
 ##library(modelr)
 
 knitr::opts_chunk$set(echo = FALSE,
@@ -46,7 +46,9 @@ What are the most important environmental problems facing us today at the .textb
 ???
 
 ## Prep for Class
-1. Prep simulation probability calculator OR bring D6 dice for the class to roll
+1. Prep simulation probability code in R OR bring D12 dice for the class to roll
+
+2. Need a way to record fishing results: sheet of paper or spreadsheet
 
 <br>
 
@@ -339,37 +341,174 @@ knitr::include_graphics("libs/Images/01_1-cartoon_lake.jpg")
 
 As a team-building exercise you have all decided to go on a two week camping trip together.
 
-- While on a hike you come across a small lake stocked with fish
+- While on a hike on the first day you come across a small lake stocked with fish
 
-- One of you decides to go fishing and successfully catches one fish
+<br>
+
+### Anybody like to go fishing?
+
+### - Are you good at it?
+
+- *Use volunteer, give a d12 and see if they can roll a 1-11 (92% chance of success)*
+
+<br>
+
+So, X goes fishing and successfully catches one fish
 
 - As the fish dies you get the distinct sense that your course grade has just gone up by one bonus point!
 
 - Congratulations! You've discovered a small lake of magical bonus point fish!
 
-- Each fish is worth one bonus point in this class and now you, as a group, have to decide how to manage this resource
-
 <br>
 
-What's the catch? (pun intended)
-
-1. Your chance of catching a fish depends on how many total people go fishing each day
-    - The more of you who fish, the harder it is to catch a fish
-    
-2. The health of the fishery depends on your responsible use of the resource
-    - The more of you who fish in one day, the greater chance the fishery collapses (overfishing ends the resource)
-
-<br>
-
-Your job as a community is to successfully manage this resource while taking advantage of it.
-
-- You can design any management rules you would like and enact them with a simple majority vote.
+Here's the deal: Each fish in this lake is worth one bonus point and now you, as a group, have to decide how to successfully manage this resource while taking advantage of it.
 
 - Your camping trip lasts two weeks and you will have the opportunity to fish everyday (14 days)
 
+- You can design any management rules you would like and enact them with a simple majority vote.
+
 <br>
 
-### Any questions?
+**SLIDE**: There's always a catch! (pun intended)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+.size50[
+<br>
+]
+
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-cartoon_lake.jpg")
+```
+]
+
+.pull-right[
+```{r}
+tribble(
+  ~Fishers, ~Roll_Catch,
+  1, "1 to 11",
+  2, "1 to 10",
+  3, "1 to 9",
+  4, "1 to 8",
+  5, "1 to 7",
+  6, "1 to 6",
+  7, "1 to 5",
+  8, "1 to 4",
+  9, "1 to 3",
+  10, "1 or 2",
+  11, "1",
+  12, "1",
+  13, "1",
+  14, "1",
+  15, "1",
+  16, "1",
+  17, "1",
+) |>
+  kbl(align = "c", col.names = c("# Fishing", "Roll to Catch")) |>
+  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+]
+
+???
+
+Catch #1: Your chance of catching a fish depends on how many people go fishing each day of the camping trip.
+- The more of you who fish in a day, the harder it is to catch a fish
+
+<br>
+
+We'll use d12 dice to simulate probabilities for us.
+
+- The table tells you what the probability of catching a fish is depending on how many of you go fishing
+
+- If two of you go fishing on day 1, then each of them rolls the d12 ONE TIME and must get any number between 1 and 10 to succeed. Easy!
+
+- If nine of you go fishing on day 1, then each has to roll a 1, 2 or 3 to succeed! Much harder.
+
+<br>
+
+### Does that make sense?
+
+<br>
+
+**SLIDE**: Catch #2
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+.size50[
+<br>
+]
+
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-cartoon_lake.jpg")
+```
+]
+
+.pull-right[
+```{r}
+tribble(
+  ~Fishers, ~Roll_Catch, ~Roll_Collapse,
+  1, "1 to 11", "",
+  2, "1 to 10", "",
+  3, "1 to 9", "",
+  4, "1 to 8", "",
+  5, "1 to 7", "",
+  6, "1 to 6", "1",
+  7, "1 to 5", "1 or 2",
+  8, "1 to 4", "1 to 3",
+  9, "1 to 3", "1 to 4",
+  10, "1 or 2", "1 to 5",
+  11, "1", "1 to 6",
+  12, "1", "1 to 7",
+  13, "1", "1 to 8",
+  14, "1", "1 to 9",
+  15, "1", "1 to 10",
+  16, "1", "1 to 11",
+  17, "1", "1 to 12"
+) |>
+  kbl(align = "c", col.names = c("# Fishing", "Roll to Catch", "Roll to Collapse")) |>
+  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+]
+
+???
+
+Catch #2: The health of the fishery depends on your responsible use of the resource
+
+- The more of you who fish each day, the greater chance the fishery collapses (overfishing ends the resource)
+
+<br>
+
+After all of the day's fishing is done, one of you will roll a d12 to see if your overfishing has destroyed the fishery
+
+- e.g. did the magical fish population collapse?
+
+<br>
+
+As you see in the table, the risks are low, BUT remember that even low risks compound over time!
+
+- Avoiding even a '1' in 12 chance gets harder and harder over time (see notes at bottom)
+
+<br>
+
+### Any questions on the game?
 
 <br>
 
@@ -378,6 +517,28 @@ Talk as a group and then let me know who is going fishing on day 1
 - *Run the simulated result for each fisher and the resource as a whole*
 
 - *Move to next day and repeat*
+
+<br>
+
+#### Notes
+
+**d12 probabilities**
+.code85[
+```{r}
+rbind(1:12, round(1:12/12, 2))
+```
+]
+
+
+**Risks of 1/12 over time**
+.code85[
+```{r}
+# Risks of 1/12 over time
+rbind(1:14, round((1-1/12)^c(1:14), 2))
+```
+]
+
+
 
 
 

@@ -31,7 +31,9 @@ What are the most important environmental problems facing us today at the .textb
 ???
 
 ## Prep for Class
-1. Prep simulation probability calculator OR bring D6 dice for the class to roll
+1. Prep simulation probability code in R OR bring D12 dice for the class to roll
+
+2. Need a way to record fishing results: sheet of paper or spreadsheet
 
 &lt;br&gt;
 
@@ -322,37 +324,296 @@ class: middle
 
 As a team-building exercise you have all decided to go on a two week camping trip together.
 
-- While on a hike you come across a small lake stocked with fish
+- While on a hike on the first day you come across a small lake stocked with fish
 
-- One of you decides to go fishing and successfully catches one fish
+&lt;br&gt;
+
+### Anybody like to go fishing?
+
+### - Are you good at it?
+
+- *Use volunteer, give a d12 and see if they can roll a 1-11 (92% chance of success)*
+
+&lt;br&gt;
+
+So, X goes fishing and successfully catches one fish
 
 - As the fish dies you get the distinct sense that your course grade has just gone up by one bonus point!
 
 - Congratulations! You've discovered a small lake of magical bonus point fish!
 
-- Each fish is worth one bonus point in this class and now you, as a group, have to decide how to manage this resource
-
 &lt;br&gt;
 
-What's the catch? (pun intended)
-
-1. Your chance of catching a fish depends on how many total people go fishing each day
-    - The more of you who fish, the harder it is to catch a fish
-    
-2. The health of the fishery depends on your responsible use of the resource
-    - The more of you who fish in one day, the greater chance the fishery collapses (overfishing ends the resource)
-
-&lt;br&gt;
-
-Your job as a community is to successfully manage this resource while taking advantage of it.
-
-- You can design any management rules you would like and enact them with a simple majority vote.
+Here's the deal: Each fish in this lake is worth one bonus point and now you, as a group, have to decide how to successfully manage this resource while taking advantage of it.
 
 - Your camping trip lasts two weeks and you will have the opportunity to fish everyday (14 days)
 
+- You can design any management rules you would like and enact them with a simple majority vote.
+
 &lt;br&gt;
 
-### Any questions?
+**SLIDE**: There's always a catch! (pun intended)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+.size50[
+&lt;br&gt;
+]
+
+
+&lt;img src="libs/Images/01_1-cartoon_lake.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; # Fishing &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Roll to Catch &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 11 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 10 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 9 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 6 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 or 2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 12 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 16 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+???
+
+Catch #1: Your chance of catching a fish depends on how many people go fishing each day of the camping trip.
+- The more of you who fish in a day, the harder it is to catch a fish
+
+&lt;br&gt;
+
+We'll use d12 dice to simulate probabilities for us.
+
+- The table tells you what the probability of catching a fish is depending on how many of you go fishing
+
+- If two of you go fishing on day 1, then each of them rolls the d12 ONE TIME and must get any number between 1 and 10 to succeed. Easy!
+
+- If nine of you go fishing on day 1, then each has to roll a 1, 2 or 3 to succeed! Much harder.
+
+&lt;br&gt;
+
+### Does that make sense?
+
+&lt;br&gt;
+
+**SLIDE**: Catch #2
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+.size50[
+&lt;br&gt;
+]
+
+
+&lt;img src="libs/Images/01_1-cartoon_lake.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; # Fishing &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Roll to Catch &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Roll to Collapse &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 10 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 or 2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 or 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 6 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 12 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 9 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 10 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 16 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 11 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 to 12 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+???
+
+Catch #2: The health of the fishery depends on your responsible use of the resource
+
+- The more of you who fish each day, the greater chance the fishery collapses (overfishing ends the resource)
+
+&lt;br&gt;
+
+After all of the day's fishing is done, one of you will roll a d12 to see if your overfishing has destroyed the fishery
+
+- e.g. did the magical fish population collapse?
+
+&lt;br&gt;
+
+As you see in the table, the risks are low, BUT remember that even low risks compound over time!
+
+- Avoiding even a '1' in 12 chance gets harder and harder over time (see notes at bottom)
+
+&lt;br&gt;
+
+### Any questions on the game?
 
 &lt;br&gt;
 
@@ -361,6 +622,33 @@ Talk as a group and then let me know who is going fishing on day 1
 - *Run the simulated result for each fisher and the resource as a whole*
 
 - *Move to next day and repeat*
+
+&lt;br&gt;
+
+#### Notes
+
+**d12 probabilities**
+.code85[
+
+```
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12]
+[1,] 1.00 2.00 3.00 4.00 5.00  6.0 7.00 8.00 9.00 10.00 11.00    12
+[2,] 0.08 0.17 0.25 0.33 0.42  0.5 0.58 0.67 0.75  0.83  0.92     1
+```
+]
+
+
+**Risks of 1/12 over time**
+.code85[
+
+```
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12] [,13] [,14]
+[1,] 1.00 2.00 3.00 4.00 5.00 6.00 7.00  8.0 9.00 10.00 11.00 12.00 13.00  14.0
+[2,] 0.92 0.84 0.77 0.71 0.65 0.59 0.54  0.5 0.46  0.42  0.38  0.35  0.32   0.3
+```
+]
+
+
 
 
 
