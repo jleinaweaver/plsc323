@@ -892,7 +892,7 @@ In short, collective action problems arise when individuals want to cooperate bu
 
 ---
 
-background-image: url('libs/Images/background-forest.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
