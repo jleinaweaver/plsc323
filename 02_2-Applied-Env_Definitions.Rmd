@@ -64,34 +64,38 @@ class: middle, center
 
 ```{r}
 tibble(
-  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
-  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
-  col3 = c(15, 15, 20, 15, 15, 20, 100)
+  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
+  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(TBD)", "(Apr 26)", "(Final)"),
+  col3 = c(20, 60, "", "", "", "", 20)
 ) |>
   kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
   kableExtra::kable_styling(font_size = 40) |>
   kableExtra::column_spec(1, width = "20em") |>
   kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+  kableExtra::row_spec(0, background = "lightblue")
 ```
 
 ???
 
 Your focus this semester is on developing a policy to address a local environmental problem.
 
-- In class I will introduce the tools and frameworks you will need to make progress on this goal
+- All of our assignments are focused on reinforcing that work and helping you build to that goal
+
+<br>
+
+In class I will introduce the tools and frameworks you will need to make progress on this goal
 
 - Outside of class you will work to apply those tools and frameworks to your chosen projects
-
-- All of our assignments are focused on reinforcing that work and helping you build to that goal
 
 <br>
 
 Your first assignment will be to write a paper that introduces us to the problem you have chosen.
 
-- We'll get to the details on that assignment soon.
+- We'll get to the details on that assignment in a moment
 
-- SLIDE: To get you moving on this, I asked each of you to submit your chosen problem to Canvas before class.
+<br>
+
+**SLIDE**: To get you moving on this, I asked each of you to submit your chosen problem to Canvas before class.
 
 
 
@@ -103,7 +107,7 @@ background-position: center
 
 class: middle
 
-.size60[**Assignment for Today**]
+.size60[.content-box-green[**Assignment for Today**]]
 
 .size40[
 **Before class** submit to our Canvas discussion board: 
@@ -121,17 +125,16 @@ Key to earning your participation!
 
 ### Did everybody get their proposed problem submitted before class?
 
+<br>
+
 ### How did this go? 
 
-### Did writing down these basics help you clarify your thinking at all?
+### - Did writing down these basics help you clarify your thinking at all?
 
 <br>
 
-Think back to our discussions of Cronon (1996) on Tuesday.
+**SLIDE**: Think back to our discussions of Cronon (1996) on Tuesday.
 
-### What is the framework Cronon gives us for thinking about problem definitions and framing?
-
-- (SLIDE: Big conclusion)
     
     
     
@@ -143,7 +146,9 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size60[**The Trouble with Wilderness (Cronon 1996)**]
+.size60[.content-box-green[**The Trouble with Wilderness**]]
+
+.size60[**(Cronon 1996)**]
 
 <br>
 
@@ -153,18 +158,28 @@ Therefore, wilderness is a human creation and our mythologizing about it makes i
 
 ???
 
-At one level, Cronon is making a specific argument about the wilderness and our relationship to it.
+At one level, Cronon was making a specific argument about the wilderness and our relationship to it.
 
 ### What does he mean by "wilderness is a human creation"?
 
-### How have we "mythologized" about it and why is that a problem?
+<br>
+
+### What is the mythology of the wilderness?
+- (Evolution of the sublime)
+    - loss of frontier
+    - doubly ironic reframing of wilderness as temple of restoration
+- (all human populations have managed environmental resources to survive)
 
 <br>
 
-### So, what are the problem-solving lessons for our work?
+### According to Cronon, why do these two things mean that wilderness is a problem?
+1. (The wilderness myth makes compromise impossible, and)
+2. (Failing to recognize the wildness around you means ignoring the actual lives and needs of the people living on Earth.)
 
-- (SLIDE)
+<br>
 
+### What are the problem-solving lessons I asked you to take from Cronon's work?
+- (**SLIDE**)
 
 
 
@@ -175,19 +190,21 @@ background-size: 100%
 background-position: center
 class: middle
 
-# Setting the Stage for Problem-Solving
+.center[.size55[.content-box-green[**Setting the Stage for Problem-Solving**]]]
 
-.size40[
-1. All environmental concepts are contested,
+<br>
 
-2. Your chosen definition narrows your options, and
+.size50[1) All environmental concepts are contested]
 
-3. Many disputes arise from conflicting definitions.
-]
+<br>
+
+.size50[2) Your chosen definition narrows your options]
+
+<br>
+
+.size50[3) Many disputes arise from conflicting definitions]
 
 ???
-
-Here's how I think Cronon helps us as we approach designing new rules in any society.
 
 **In short, I want us to think critically about problem definitions.**
 
@@ -197,17 +214,62 @@ Here's how I think Cronon helps us as we approach designing new rules in any soc
 
 3. Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.
 
-### Does this make sense?
-    
 <br>
 
-This means the most important first step for you when trying to solve an environmental problem is to:
+### With a few days to reflect on this, any questions?
 
-1. CLARIFY your own thinking about the problem, AND
 
-2. IDENTIFY competing definitions so you know why the problem hasn't been solved up to now.
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[.content-box-green[**Environmental Problem-Solving: Step 1**]]]
+
+<br>
+
+.size45[
+1. **IDENTIFY** the competing definitions of the problem,
+
+2. **COMPARE** and **CONTRAST** those definitions to find areas of compromise, and
+
+3. Be able to **EXPLAIN** your preferred definition in that context
+]
+ 
+???
+
+Everybody write this down!
+
+<br>
+
+This is an extremely important step and should help you both:
+
+1. set the stage for a successful policy intervention, AND 
+
+2. Clarify your own thinking about the problem
+
+<br>
+
+What I hope this makes clear is that your job as a problem-solver is to solve actual problems.
+
+- Not simply push for your idealized version of the world regardless of how other members of your community view it.
+
+<br>
+
+Solving real world problems means understanding why those problems exist in the first place and exploring contested definitions is a valuable first step to doing this.
+
+<br>
     
 ### Questions on this?
+
+<br>
+
+Now, this is where you want be for the first paper in your project.
+
+- So, today we'll work on heading toward this goal.
 
 
 
@@ -219,31 +281,27 @@ background-position: center
 
 class: middle
 
-.size40[
-By the end of today we need to make sure that each of you:
+.size55[.content-box-green[**By the end of today you should have:**]]
 
-1. Has selected a clear, specific local environmental problem,
+.size45[
+1. Selected a specific local environmental problem,
 
-2. Can articulate your preferred framing of the problem, and
+2. A description of your preferred framing of the problem, and
 
-3. Has a list of alternative/competing problem framings to explore. 
+3. A list of alternative problem framings to explore. 
 ]
 
 ???
 
-And that leads us to our work in class today!
-
-Before class, each of you spent some time writing down a clear-eyed version of what the problem is you want to focus on and why you picked it. 
-
-In class we will work together to refine and clarify your thinking AND to generate the outside perspectives you need to be aware of.
-
-### Make sense?
+Today we make sure everyone has their problem selected and that we've brainstormed a list of alternative framings for you to explore.
 
 <br>
 
 **Key Point**: We're a team in here and no one gets left behind!
 
 - That means it is our shared responsibility to make sure all of your projects are on a firm footing!
+
+<br>
 
 So, today we write, we reflect AND we help each other revise!
 
@@ -265,21 +323,31 @@ class: middle
 
 Everybody take out a sheet of paper and at the top write a simple, clear description of your selected problem.
 
-- Keep opinion out of this one.
+- Keep opinion out of this one. Your perspective (e.g. framing) comes next.
 
 - Focus on demonstrable facts on the ground.
 
-- Your perspective (e.g. framing) comes next.
+<br>
 
 ### Does that make sense?
 
+- Give it a shot!
+
 <br>
 
-Everybody stand up and go check out the problems chosen by the class.
+*After a few minutes work: Get a volunteer to present their simple problem description for feedback*
 
-- I want you to see all of them.
+- *Repeat with second volunteer*
 
-- As you go, make sure to ask for clarifications if the problem doesn't make sense or needs more detail.
+<br>
+
+Stand up and touch base with everyone else in class
+
+- I want you to read and reflect on all of the problems selected by the class
+
+- Make sure to ask for clarifications if the problem doesn't make sense or needs more detail.
+
+<br>
 
 **KEY to THIS**: You are NOT making more work for the person!
 
@@ -287,11 +355,11 @@ Everybody stand up and go check out the problems chosen by the class.
 
 - Your job is to help them see what additional information, sources, data, or examples they need to FULLY describe their problem.
 
-Go for it!
+- Go for it!
 
 <br>
 
-Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
+**REFLECTIONS**: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
 
 
 
@@ -307,29 +375,196 @@ class: middle
 
 ???
 
-On your paper, underneath the description write down your framing of the problem.
+Your next step in the problem-solving process is to be able to explain your preferred problem framing.
 
-- In other words, from your perspective what is the primary cause of this problem?
+<br>
 
-You don't have to be able to prove this yet as that will take evidence.
+### Has anybody ever encountered the problem framing concept before?
 
-- BUT, we need you to get down on paper your sense of what is primarily causing the problem.
+### - Can you explain it to us?
+
+<br>
+
+Framing is a way of presenting a problem or an issue. 
+
+- In simplest terms, the framing is your definition plus context
+    - e.g. why it is a problem, why it is important and possibly even what should be done about it
+
+- In a more expert sense, framing is **explaining the context** of your problem in a way that **gains the most support** from your audience.
+
+- This means that problem framing is an exercise in advocacy (e.g. pushing a specific viewpoint / solution)
+
+<br>
+
+Let's illustrate this concept in action.
+
+- For example, let's say you were concerned with the extraction and use of of fossil fuels (e.g. gas, coal, etc)
+
+<br>
+
+### Somebody frame fossil fuel extraction and use as a serious problem for our society?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-green[**Fossil Fuels are a Serious Problem**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_1-oil_spill_cleanup.jpg")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Smog_factories_v2.png")
+```
+]
+
+???
+
+Defining fossil fuel use as a serious problem for our society is easy!
+
+- Fossil fuel extraction is a dirty process (mining, mountain and forest clearing, destruction of rivers and creeks), 
+
+- Fossil fuel transportation can go catastrophically wrong (Exxon Valdez, pipeline spills, etc),
+
+- Fossil fuel use creates air pollution that kills people and injects smog into our cities, and
+
+- Fossil fuel use is a primary driver of climate change
+
+<br>
+
+Each of these is a piece of context that can be **supported by evidence** and collectively **frames the problem** as a serious one to be addressed.
+
+### Make sense?
+
+<br>
+
+This exercise can go way more ways!
+
+### How could you define fossil fuel extraction to help other people understand it is NOT a problem?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-green[**Fossil Fuels are a Vital Part of our Economy**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Energy_Indepdence.jpg")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_1-sunak-oil-gas_v2.png")
+```
+]
+
+???
+
+Defining fossil fuel use as an important benefit for our society is easy!
+
+- Fossil fuel extraction has made the US an economic powerhouse
+
+- More high paying jobs,
+
+- Cheaper prices for families (cheaper gas, warmer homes, more affordable food),
+
+- Less dependence on problematic foreign countries (Saudi Arabia, Venezuela, Russia, etc)
+
+<br>
+
+Again, each of these descriptions can be **supported by evidence** and collectively **frame the issue** as not a problem.
+
+<br>
+
+Note that in some cases, "not a problem" isn't an option
+
+- Instead, the framing may be that this is a problem BUT that it must not be "fixed" without considering these other important elements (jobs, security, etc.)
+
+<br>
+
+### Make sense?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size70[**What is your preferred framing of the problem?**]]
+
+???
+
+To be clear, problem framing is a problem definition that includes the context you believe is most likely to convince other people to accept your view of the issue.
+
+<br>
+
+### Any questions on the problem framing concept before I ask you to do this on your own project?
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size70[**What is your preferred framing of the problem?**]]
+
+.size40[
+From your perspective, 
+
+- Why is this a problem? 
+- Why does it matter?
+- What is the cause of the problem you believe we should focus on?
+]
+
+???
+
+Take a few minutes to describe your problem framing on the sheet of paper.
+
+- Give us a **complete** sentence or two on each of these prompts
+
+<br>
 
 ### Does that make sense?
 
-Get to it!
+- Get to it!
 
 <br>
 
-Everybody stand up and go check out the reasons provided by the class.
+Ok, stand up and go check out everybody else's preferred framings
 
-- Again, go see ALL of them and make sure to ask for clarifications / explanations as you go
+- Make sure to ask for clarifications / explanations as you go
 
-Go for it!
+- Go for it!
 
 <br>
 
-Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
+**REFLECTIONS**: Ok, take a few minutes to reflect on the feedback and make any revisions/notes you need.
 
 
 
@@ -345,62 +580,11 @@ class: middle
 
 ???
 
-On your paper, underneath the description and your problem framing, brainstorm a list of alternative framings of the problem.
+Our last job for today is to brainstorm alternatives to your problem framing.
 
 - This list is meant to help you start figuring out the contours of the problem you face.
 
 - These are the perspectives you'll need to consider and explore in order to solve your problem.
-
-<br>
-
-### Can anybody give us an example of how two groups can look at the same problem but frame it in a fundamentally different way?
-
-- (SLIDE: Oil drilling)
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size50[**The Result of Expanded Drilling for Oil?**]]
-
-.pull-left[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/02_1-oil_spill_cleanup.jpg")
-```
-]
-
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/02_2-Energy_Indepdence.jpg")
-```
-]
-
-???
-
-Is the problem that we can't drill for oil safely or that we can't have a secure and prosperous country without it?
-
-<br>
-
-When we do expand these activities are we increasing drilling or allowing new exploration?
-
-- Even these simple language differences imply massive differences in describing the problem.
-
-### Make sense?
-
-At a fundamental level, these two sides are completely talking past each other.
-
-- Their framings of the "problem" are completely at odds.
-
-<br>
-
-For our purposes today we want to help each other brainstorm a list of competing problem framings.
-
-- This list will help you figure out where to go next when filling out this piece of your first paper.
 
 
 
@@ -427,6 +611,8 @@ Start off brainstorming on your own.
 
 - Try to make a list of those who view your problem differently than you do.
 
+<br>
+
 It may help of you to think about this as three types of group:
 
 1. The people who disagree with you that this IS a problem
@@ -436,10 +622,12 @@ It may help of you to think about this as three types of group:
     
 3. The people who agree it is a problem but who think you've identified the wrong primary cause
     - Yes it's a problem, but you've missed the real root of it!
+    
+    <br>
 
 ### Does that make sense?
 
-Get to it!
+- Get to it!
 
 <br>
 
@@ -449,11 +637,11 @@ Everybody stand up and review ALL the lists.
 
 - Do any on their current list need clarification?
 
-Go for it!
+- Go for it!
 
 <br>
 
-Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
+**REFLECTIONS**: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
 
 
 
@@ -476,12 +664,17 @@ class: middle
 
 ???
 
-### Ok, how did we do? 
+Ok, how did we do with our work today? 
 
 ### Does everybody have a good start on these three elements?
 
+<br>
+
 ### Anything we need to discuss or can help you with?
 
+<br>
+
+**SLIDE**: To wrap up today let's talk community engagement and our work for next week.
 
 
 
@@ -492,32 +685,40 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[**Assignment 4 (Due Apr 28th)**
+.center[.size50[.content-box-green[**Assignment 4**]
 
 Getting Involved in our Community]]
 
 .size40[
-1. Find (or create) an opportunity to get actively involved in your issue locally, and
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
 
-2. Write a report describing what you did, who you worked with and what you learned from the experience.
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
 ]
 
 ???
 
-While essentially all of our assignments this term work in a sequence, one leading to the next.
+Essentially all of our assignments this term work in a sequence, one leading to the next.
 
-- That is not true for the 4th one.
+- However, that is not true for the community engagement report
 
-At some point during the semester (and before the Apr deadline) you have to take action in our community in some way connected to your chosen project!
+<br>
+
+BEFORE the end of April you have to take action in our community in some way connected to your chosen project!
 
 - e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.
 
-You will then write up a short report on the activity and how it contributed to your thinking about your project.
+You will then write up a report on the activity and how it contributed to your thinking about your project.
+
+<br>
 
 **IMPORTANT**
-1. You MUST submit to me a proposal for your engagement project by email BEFORE you do it. Your proposal should frame the activity in terms of how it directly ties to your project AND how doing it will help you better complete that project (e.g. deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?
+1. You **MUST** submit to me a proposal for your engagement project as a Canvas Assignment **BEFORE** you do it. 
+    - Your proposal should frame the activity in terms of how it directly ties to your project, AND 
+    - how doing it will help you better complete that project (e.g. deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?
 
 2. Your report must include evidence for all claims (e.g. documentation of the activity through photos, etc.), and
+
+<br>
 
 ### Questions on this assignment?
 
@@ -525,9 +726,9 @@ You will then write up a short report on the activity and how it contributed to 
 
 I'd like to use our remaining time today to brainstorm possible activities for this assignment.
 
-So, let's form small groups and take a few minutes to brainstorm ideas.
+- So, let's form small groups and take a few minutes to brainstorm ideas.
 
-Get ready to report to the class what you come up with!
+- Get ready to report to the class what you come up with!
 
 <br>
 
@@ -543,12 +744,12 @@ background-position: center
 
 class: middle
 
-.size60[**Assignment for Tuesday**]
+.size60[.content-box-green[**Assignment for Next Class**]]
 
 .size45[
-**Before class** submit to our Canvas discussion board: 
+1. Read the Munger chapter
 
-What is the most useful advice in the Munger chapter for ensuring that we design "wise" policy solutions for our environmental problems?
+2. Submit to Canvas: What is the most useful advice in the Munger chapter for ensuring that we design "wise" policy solutions for our environmental problems?
 ]
 
 ???

@@ -64,6 +64,56 @@ Welcome back everybody.
 
 ### 2. Did everybody submit their assignment to earn participation for today?
 
+<br>
+
+## My Notes: Cronon's Argument
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+Therefore, our current understanding of the wilderness is at the root of many of our serious environmental problems.
+
+Therefore, wilderness is a human creation and it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
+
+1. Up to the 18th century "wilderness" meant deserted, savage, desolate, barren, and a waste (8).
+    - Biblical references to the wilderness as a place of "moral confusion and despair" (8)
+    - "Wilderness, in short, was a place to which one came only against one's will,
+and always in fear and trembling. Whatever value it might have arose solely from the possibility that it might be "reclaimed" and turned toward human ends..." (9).
+
+2. 19th c forward, the wilderness is a temple of restoration
+    - By the end of the 19th century the meaning of wilderness has been transformed
+    - Thoreau in 1862 could declare wildness to be the preservation of the world
+    - John Muir arrived in the Sierra Nevada in 1869, he would declare, "No description of Heaven that I have ever heard or read of seems half so fine."
+    - US begins creating national parks with Yellowstone in 1872
+    - The seemingly unprecedented battle over the dam that flooded the Hetch Hetchy valley (1908-1913)
+
+3. Wilderness Transforms 1: Domestication of the Sublime (10-13)
+    - Wilderness once connected to the "awesome power of the sublime"; Wordsworth describing his climbing the Alps as one of terror when brought face-to-face with the divine. A sense of awe/dismay, not joy/pleasure.
+    - By the second half of the 19th century tourism into the wilderness had begun to domesticate the sublime; transform it into a "sacred temple" that offered restoration not fear.
+
+4. Explaining the transformation 2: The end of the Frontier
+    - Belief in the frontier as source of national renewal; To be an American meant to be connected to the land, to a more primitive existence that inspired vigor, individualism and democracy (13).
+    - By the 1890s the argument was that the frontier was being lost and that meant wilderness needed to be preserved.
+    - Perception by many elites that civilization was sapping men of their rugged manliness, feminizing them and that they needed wilderness experiences to compensate.
+    - The quasi-religious aspects of modern environmentalism are very problematic (15-)
+    - Wilderness as revitalizing frontier deeply ironic.
+    - Wilderness as a toy of the well-to-do, projecting their fantasies onto the landscape (15)
+    - "Virgin" wilderness ignores native populations that called it home; removing them to make it uninhabited shows just how artificial this construct is.
+    - Making the wilderness safe for tourists does not reflect actual violence of the frontier
+    - "Only people whose relation to the land was already alienated could hold up wilderness as a model for human life in nature, for the romantic ideology of wilderness leaves precisely nowhere for human beings actually to make their living from the land" (17).
+
+5. Wilderness that places humanity outside of nature poses a serious threat to responsible environmentalism
+    - The central paradox is that wilderness places humanity outside of nature which poses a serious threat to responsible environmentalism at the end of the twentieth century (17).
+    - If protecting wilderness is the metric for a good society then we deny ourselves "hope of discovering what an ethical, sustainable, honorable human place in nature might actually look like."
+    - By pretending our "real home" is in the wilderness, we allow ourselves to ignore and avoid dealing with the problems where we actually live.
+    - "Wilderness" as an untouched and pure thing is too frequently the implicit rationale for pursuing "environmental" ends (see endangered species act example p18).
+    - An absurd paradox: "if nature dies because we enter it, then the only way
+to save nature is to kill ourselves" (19).
+    - "Idealizing a distant wilderness too often means not idealizing the environment in which we actually live, the landscape that for better or worse we call home. Most of our most serious environmental problems start right here, at home, and if we are to solve those problems, we need an environmental ethic that will tell us as much about using nature as about not using it" (21).
+    - "Indeed, my principal objection to wilderness is that it may teach us to be dismissive or even contemptuous of such humble places and experiences" (22). e.g. the flower or tree in your yard.
+    - We must abandon "the dualism that sees the tree in the garden as artificial -completely fallen and unnatural -and the tree in the wilderness as natural -completely pristine and wild. Both trees in some ultimate sense are wild; both in a practical sense now depend on our management and care" (24).
+
+*Setting aside end of essay that makes the case for a healthier approach to nature / wilderness. All important in ethics terms but not for our definitional exercises*
+- Wilderness is a human creation and, therefore, it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
 
 
 ---
@@ -301,14 +351,14 @@ background-size: 100%
 background-position: center
 class: bottom
 
-.size35[.content-box-blue[
+.size35[.content-box-green[
 + Wilderness is **irreplaceable and vital** to human life
 
-+ We **must protect** things that are irreplaceable + vital
++ We **must protect** things that are irreplaceable and vital
 
 + Some of **our actions** destroy the wilderness
 
-.center[Therefore, **we must stop those actions**.]
+.center[**Therefore, we must stop those actions**.]
 ]]
 
 ???
@@ -325,9 +375,11 @@ Using 'wilderness' here as synonym for nature or the natural world.
 
 It is a series of absolutes with essentially no room for compromise
 
-- Any compromises we make reduces our amount of 'wilderness', period.
+- Any action that alters wilderness, destroys it
 
-- There is almost no room reserved for actions that could be allowable that raise the risk of destruction
+- And every bit of wilderness destruction harms us irreparably
+
+- Irreparably being key here: There is no possible restoration in this argument.
 
 <br>
 
@@ -387,7 +439,7 @@ class: middle
 
 + *Premise 2*
 
-+ *Premise ...*
++ *Premise 3, 4, etc.*
 
 Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
 ]
@@ -1218,15 +1270,16 @@ class: bottom
 
 ???
 
-(The modern conceptualization of the wilderness has made compromise between environmentalists and industry almost impossible)
+The wilderness myth makes compromise impossible and this thinking infects both sides of these debates
 
 <br>
 
 For many environmentalists, a romanticized wilderness means that:
 
-- Some are fighting to protect a version of the "natural world" devoid of human impact that cannot, by definition, exist.
+1. Many are fighting to protect a wilderness that does not exist (e.g. a "natural world" devoid of human impact), and
 
-- Compromise with industry that allows harm to the wilderness cannot be accepted because that harm undoes the wilderness itself.
+2. Compromise of any kind on wilderness protection shrinks something that cannot be replaced
+
 
 
 
@@ -1241,22 +1294,18 @@ class: bottom
 
 ???
 
-This romanticized thinking infects the actions of polluters too.
-- Here we see tar sands oil extraction in Canada.
+For many "polluters" or users of wilderness resources, a romanticized wilderness means that:
 
-<br>
+1. There is no point trying to work with environmental activists who will not accept any compromises you offer and see your actions as reprehensible, and
 
-For industry, a romanticized wilderness means that:
-
-- If the damage you are doing is contained in the non-natural world, e.g. beyond where humans live, it may be more acceptable.
-
-- environmental activists who deny your right to exist are unworthy of your engagement
+2. Once a wilderness is unmade, future damage to that area is no big deal
+    - These are the tar sands in Canada
 
 <br>
 
 Fundamentally, Cronon is arguing that our conception of wilderness itself is creating many, many of our most serious environmental problems.
 
-### Has Cronon convinced you that the "wilderness myth" exists AND that it is an obstacle to solving environmental problems? Why or why not?
+### Ultimately, has Cronon convinced you that the "wilderness" is an obstacle to solving environmental problems? Why or why not?
 
 - *Force this discussion*
 
@@ -1288,6 +1337,8 @@ Cronon's First Answer: Recognize that "wilderness" is a social construct
 
 - We must abandon "the dualism that sees the tree in the garden as artificial...and the tree in the wilderness as natural... Both trees in some ultimate sense are wild; **both in a practical sense now depend on our management and care**" (24).
 
+- This means we have responsibilities to resource management both in the artifical "wild places" AND where humans live too!
+
 <br>
 
 Cronon's Second Answer: Environmental problem-solving must begin at home and must consider the needs of the people (the creatures?) living on the Earth.
@@ -1314,57 +1365,7 @@ Ultimately, this article, and the book it comes from, helped me think very diffe
 
 **SLIDE**: To end today, let's talk about this in broader terms for a moment.
 
-<br>
 
-## My Notes: Cronon's Argument (My Diagram 2021-01-19)
-
-Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
-
-Therefore, our current understanding of the wilderness is at the root of many of our serious environmental problems.
-
-Therefore, wilderness is a human creation and it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
-
-1. Up to the 18th century "wilderness" meant deserted, savage, desolate, barren, and a waste (8).
-- Biblical references to the wilderness as a place of "moral confusion and despair" (8)
-- "Wilderness, in short, was a place to which one came only against one's will,
-and always in fear and trembling. Whatever value it might have arose solely from the possibility that it might be "reclaimed" and turned toward human ends..." (9).
-
-2. 19th c forward, the wilderness is a temple of restoration
-- By the end of the 19th century the meaning of wilderness has been transformed
-- Thoreau in 1862 could declare wildness to be the preservation of the world
-- John Muir arrived in the Sierra Nevada in 1869, he would declare, "No description of Heaven that I have ever heard or read of seems half so fine."
-- US begins creating national parks with Yellowstone in 1872
-- The seemingly unprecedented battle over the dam that flooded the Hetch Hetchy valley (1908-1913)
-
-3. Wilderness Transforms 1: Domestication of the Sublime (10-13)
-- Wilderness once connected to the "awesome power of the sublime"; Wordsworth describing his climbing the Alps as one of terror when brought face-to-face with the divine. A sense of awe/dismay, not joy/pleasure.
-- By the second half of the 19th century tourism into the wilderness had begun to domesticate the sublime; transform it into a "sacred temple" that offered restoration not fear.
-
-4. Explaining the transformation 2: The end of the Frontier
-- Belief in the frontier as source of national renewal; To be an American meant to be connected to the land, to a more primitive existence that inspired vigor, individualism and democracy (13).
-- By the 1890s the argument was that the frontier was being lost and that meant wilderness needed to be preserved.
-- Perception by many elites that civilization was sapping men of their rugged manliness, feminizing them and that they needed wilderness experiences to compensate.
-- The quasi-religious aspects of modern environmentalism are very problematic (15-)
-- Wilderness as revitalizing frontier deeply ironic.
-- Wilderness as a toy of the well-to-do, projecting their fantasies onto the landscape (15)
-- "Virgin" wilderness ignores native populations that called it home; removing them to make it uninhabited shows just how artificial this construct is.
-- Making the wilderness safe for tourists does not reflect actual violence of the frontier
-- "Only people whose relation to the land was already alienated could hold up wilderness as a model for human life in nature, for the romantic ideology of wilderness leaves precisely nowhere for human beings actually to make their living from the land" (17).
-
-5. Wilderness that places humanity outside of nature poses a serious threat to responsible environmentalism
-- The central paradox is that wilderness places humanity outside of nature which poses a serious threat to responsible environmentalism at the end of the twentieth century (17).
-- If protecting wilderness is the metric for a good society then we deny ourselves "hope of discovering what an ethical, sustainable, honorable human place in nature might actually look like."
-- By pretending our "real home" is in the wilderness, we allow ourselves to ignore and avoid dealing with the problems where we actually live.
-- "Wilderness" as an untouched and pure thing is too frequently the implicit rationale for pursuing "environmental" ends (see endangered species act example p18).
-- An absurd paradox: "if nature dies because we enter it, then the only way
-to save nature is to kill ourselves" (19).
-- "Idealizing a distant wilderness too often means not idealizing the environment in which we actually live, the landscape that for better or worse we call home. Most of our most serious environmental problems start right here, at home, and if we are to solve those problems, we need an environmental ethic that will tell us as much about using nature as about not using it" (21).
-- "Indeed, my principal objection to wilderness is that it may teach us to be dismissive or even contemptuous of such humble places and experiences" (22). e.g. the flower or tree in your yard.
-- We must abandon "the dualism that sees the tree in the garden as artificial -completely fallen and unnatural -and the tree in the wilderness as natural -completely pristine and wild. Both trees in some ultimate sense are wild; both in a practical sense now depend on our management and care" (24).
-
-* Setting aside end of essay that makes the case for a healthier approach to nature / wilderness. All important in ethics terms but not for our definitional exercises *
-
-- Wilderness is a human creation and, therefore, it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
 
 
 
@@ -1377,17 +1378,19 @@ class: middle
 
 .center[.size55[.content-box-green[**Setting the Stage for Problem-Solving**]]]
 
+???
+
+As I mentioned last week, this first section of our class focuses on building our foundations for thinking about policy-making.
+
+- Cronon's arguments help us solve real-world environmental problems by thinking critically about problem definitions.
+
+--
+
 <br>
 
 .size50[1) All environmental concepts are contested]
 
 ???
-
-As I mentioned last week, this first section of our class focuses on building our foundations for thinking about policy-making.
-
-<br>
-
-I think Cronon's arguments help us solve real-world environmental problems by thinking critically about problem definitions.
 
 <br>
 

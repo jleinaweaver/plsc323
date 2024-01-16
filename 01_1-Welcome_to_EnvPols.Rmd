@@ -905,7 +905,8 @@ tibble(
   kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
   kableExtra::kable_styling(font_size = 40) |>
   kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em")
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(0, background = "lightblue")
 ```
 
 ???
