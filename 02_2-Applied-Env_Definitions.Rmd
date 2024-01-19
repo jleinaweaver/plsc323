@@ -31,21 +31,26 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
+background-size: 105%
+background-class: center
+class: middle
 
-.left[.size70[**Today's Agenda**]]
+.size45[**I. The Basics of Problem-Solving in a Community**]
+
+<br>
 
 .size50[
+
+**Today's Agenda**
+
 Selecting and defining the environmental problem you will focus on this semester
 ]
 
 <br>
 
-.size40[
+.center[.size40[
   Justin Leinaweaver (Spring 2024)
-]
+]]
 
 ???
 

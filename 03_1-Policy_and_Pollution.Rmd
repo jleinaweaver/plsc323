@@ -31,22 +31,26 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
+background-size: 105%
+background-class: center
 class: middle
 
-.size70[**Today's Agenda**]
+.size45[**I. The Basics of Problem-Solving in a Community**]
 
-.size40[
+<br>
+
+.size50[
+
+**Today's Agenda**
+
 What should government *do*? 
-- "Deciding How to Decide"
 
-- "The Economics of Pollution"
+- "Deciding How to Decide"
 ]
 
 <br>
 
-.center[.size35[
+.center[.size40[
   Justin Leinaweaver (Spring 2024)
 ]]
 
@@ -54,14 +58,13 @@ What should government *do*?
 
 ## Prep for Class
 1. Bring the Munger book to class
+    - Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
 
 2. Publish Canvas discussion for Thursday
 
 <br>
 
-.size15[Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.]
 
-.size15[OpenStax. (2016). 12.1 The Economics of Pollution. In Principles of Economics. [Link](https://opentextbc.ca/principlesofeconomics/chapter/12-1-the-economics-of-pollution/)]
 
 
 

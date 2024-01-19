@@ -31,16 +31,21 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
+background-size: 105%
+background-class: center
 class: middle
 
-.size70[**Today's Agenda**]
+.size45[**II. Policy Design Options**]
 
-.size55[
+<br>
+
+.size50[
+
+**Today's Agenda**
+
 Approaches to Environmental Policy Design
 
-+ "Green" Tax Policies
+- "Green" Tax Policies
 ]
 
 <br>

@@ -24,8 +24,6 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 06_2-Applied-Command_and_Control.html
 
-07_1-Gas_Taxes_by_State2022.xlsx
-
 07_1-Green_Taxes.html
 
 07_2-Applied-Green_Taxes.html

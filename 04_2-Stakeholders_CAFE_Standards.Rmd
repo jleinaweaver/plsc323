@@ -31,20 +31,25 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
+background-size: 105%
+background-class: center
 class: middle
 
-.size70[**Today's Agenda**]
+.size45[**I. The Basics of Problem-Solving in a Community**]
+
+<br>
 
 .size50[
+
+**Today's Agenda**
+
 The Role of Stakeholders in Policy-making
 - Case Study: US CAFE Standards
 ]
 
 <br>
 
-.center[.size35[
+.center[.size40[
   Justin Leinaweaver (Spring 2024)
 ]]
 
