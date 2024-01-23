@@ -43,9 +43,7 @@ class: middle
 
 **Today's Agenda**
 
-Building your Argument
-
-Your chosen environmental problem is public (not private) and should be solved collectively (not individually)
+Argument: Your environmental problem is public and should be solved collectively
 ]
 
 <br>
@@ -77,31 +75,48 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[**Assignment 4 (Due Apr 28th)**
+.center[.size50[.content-box-green[**Assignment 4**]
 
 Getting Involved in our Community]]
 
 .size40[
-1. Find (or create) an opportunity to get actively involved in your issue locally, and
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
 
-2. Write a report describing what you did, who you worked with and what you learned from the experience.
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
 ]
 
 ???
 
-As I introduced last week you have a piece of your project you need to get to work on right now!
+Don't forget the community engagement report!
 
-- Remember, you have to get my sign-off before acting, and
+- It isn't necessarily connected to our week-to-week project development so I want to keep putting it on your radar!
 
-- Your proposal should frame the activity in terms of how it directly ties to your project AND how doing it will help you better complete that project (e.g. deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?
+- ALSO, the sooner you do this assignment the easier the whole project becomes!
+    - "On the ground" experience and perspective is vital!
 
 <br>
 
-Quick Brainstorm: Everybody name one thing they could do this weekend to get involved in your chosen problem in our community!
+Let's warm up again today with more community engagement brainstorming!
+
+- Everybody get ready to name one activity they could do this weekend to engage in their chosen environmental problem in our community!
 
 - Something that either connects you with the stakeholders OR deepens your understanding of the problem itself.
 
-- MUST be different than your idea last class!
+- **MUST** be different than your idea last class!
+
+<br>
+
+Go!
+
+<br>
+
+Don't forget you have to get my sign-off on your project BEFORE you do it
+
+- Submit your proposal on Canvas as an assignment.
+
+<br>
+
+### Any questions on the community engagement project?
 
 
 
@@ -113,12 +128,13 @@ background-size: 100%
 background-position: center
 class: middle
 
-# The Semester: Three Sections 
+.size45[.content-box-green[**1) The Basics of Problem-Solving in a Community**]]
 
-.size40[
-**1) The Basics of Problem-Solving in a Community**
+.size55[
 - "Politics"
+
 - "Environment"
+
 - **"Policy"**
 ]
 
@@ -126,11 +142,13 @@ class: middle
 
 This week we have continued our work in the first section of the class focused on laying the foundations for problem-solving.
 
-On Tuesday we moved from politics and the environment to a deep dive into how policy can play a role in solving environmental problems.
+- On Tuesday we moved from politics and the environment to a deep dive into how communities approach policy-making
+
+<br>
 
 Let's refresh our memories on how Munger aims to help us be better problem-solvers using policy.
 
-- SLIDE: Hun-Gats and the "need" for policy
+- **SLIDE**: The Hun-Gats and the "need" for policy
 
 
 
@@ -142,21 +160,31 @@ background-position: center
 
 ???
 
-### Use the Hung-Gat thought experiment to explain to me, why do societies need public policies? Why do we need to agree common rules of behavior at all?
+### Use the Hung-Gat thought experiment to explain to me, why do societies need public policies? 
 
-- Imagine a primitive tribe that has exhausted all the food it can find that it knows is safe to eat. What do they do next? 
-
-- Illustration of how leaving us each to face community problems on our own leads to sub-optimal outcomes
-    - Every person goes out to find food and experiment on themselves to see what is poisonous and what isn't
-
-- Basic survival is maximized when we collaborate, but:
-    - No escaping the battles over expertise, and
-    - Policy can only ever be as effective as the authority that compels the behavior, and
-    - Any society with resource issues will deal with free-riding problems
+### - Why do we need to agree common rules of behavior at all?
 
 <br>
 
-SLIDE: So, we need policy, but what design standard should we use?
+Leaving serious threats to private decision-making can lead to sub-optimal outcomes
+- Every person goes out to find food and experiment on themselves to see what is poisonous and what isn't
+
+<br>
+
+KEY LESSON: Basic survival of any community is maximized when we collaborate
+
+<br>
+
+HOWEVER:
+- No escaping the battles over expertise, and
+
+- Policy can only ever be as effective as the authority that compels the behavior, and
+
+- Any society with resource issues will deal with free-riding problems
+
+<br>
+
+**SLIDE**: So, we need policy, but what design standard should we use?
 
 
 
@@ -174,7 +202,11 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-1.png")
 
 ### What are the key lessons of this figure for designing policies to solve an environmental problem?
 
-1. Designing a policy means choosing a "source of wisdom" / "accountability"
+### - What does this figure help us think about?
+
+<br>
+
+1. Designing a policy means choosing a "source of wisdom" or in the language of our class so far a problem framing!
     - You can only maximize for one thing at a time!
     - A coherent policy needs to root itself with a clear organizing principle
 
@@ -189,7 +221,9 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-1.png")
 
 ### Make sense?
 
-SLIDE: A good policy design requires an important argument BEFORE you get to your solution!
+<br>
+
+**SLIDE**: Policy pre-argument
 
 
 
@@ -198,52 +232,51 @@ SLIDE: A good policy design requires an important argument BEFORE you get to you
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
+class: middle
 
-```{r, echo = FALSE, fig.align = 'center', out.width = '57%'}
-knitr::include_graphics("libs/Images/02-1-Munger_Fig2-3.png")
-```
+.center[.size65[.content-box-green[**We Need a Policy Solution**]]]
 
+<br>
 
-???
+.size50[
+**Argument 1:** This is a public problem
 
-Ok, so you've identified a problem and may even have a preferred "wisdom" in mind.
-
-### According to Munger, what are the three arguments you have to win BEFORE you get to work on solving your environmental problem?
-1. This is a public, not an individual problem,
-2. It should be addressed collectively not privately, and
-3. We should choose ourselves (democratic processes) or delegate policy-making to experts
-
-VERY importantly, Munger makes a compelling argument that until you convince the involved community of these three things no policy solution is possible!
-
-### Make sense?
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '57%'}
-knitr::include_graphics("libs/Images/02-1-Munger_Fig2-3.png")
-```
+**Argument 2:** This requires a collective decision
+]
 
 ???
 
-Let's talk about the roadblocks you may experience as policy designers / problem solvers.
+Getting a community to accept a policy solution to any problem requires you successfully make two separate arguments!
 
-### What kinds of obstacles may push you off the policy track in step 1? In other words, why might an environmental problem be thought of as an individual rather than a public problem?
-- p46: No one cares, issue unimportant ordue to civic/religious culture it simply doesn't occur to anyone that government might have a role in this
+- Key for us is to remember that without clearing these two hurdles no effective policy solution is possible
 
-### What kinds of obstacles may push you off the policy track in step 2 (e.g. a private decision, not collective)?
-- Either there is no decision, the group decides this is outside the scope of government OR the group collectively decides not to act
+<br>
+
+Let's refresh our memories on the roadblocks to making these arguments
+
+### 1. What kinds of obstacles may push you off the policy track in step 1? 
+
+### - In other words, why might an environmental problem be thought of as an individual rather than a public problem?
+
+- p46: No one cares, 
+- issue unimportant, or
+- due to civic/religious culture it simply doesn't occur to anyone that government might have a role in this
+
+<br>
+
+### 2. What kinds of obstacles may push you off the policy track in step 2?
+
+- Either there is no decision, 
+- the group decides this is outside the scope of government, OR 
+- the group collectively decides not to act
+
+<br>
 
 ### Questions on this?
 
 <br>
 
-SLIDE: Last important figure from Munger
+**SLIDE**: Last important figure from Munger
 
 
 
@@ -262,21 +295,22 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-4.png")
 
 ### Finally, what are the key lessons of this figure for designing policies to solve an environmental problem?
 
-1. When a stakeholder uses language like in these four boxes they are telling you a ton about who they are, what they identify with and what they value!
-    - This information is invaluable for designing an effective policy solution
-    
-2. It will almost certainly be easier to tackle moving someone on one dimension at a time rather than tackling both simultaneously
+<br>
 
-### Make sense?
+First, when a stakeholder uses language from these four boxes they are telling you a ton about who they are, what they identify with and what they value!
+- This information is invaluable for designing an effective policy solution
 
 <br>
 
-I also really like how in this figure Munger helps to clarify the two dimensions he laid out in the last figure.
+Second, be strategic in making these arguments!
+- It will almost certainly be easier to tackle moving someone on one dimension at a time rather than tackling both simultaneously, and
 
-- Here we see his definitions of the private vs public and individual vs collective dimensions.
+- Until you get the stakeholder to accept it is a public problem don't get drawn into the collective decision argument
 
-### Is this the only way we could define these?
-- Certainly not, but a useful starting place!
+<br>
+
+### Make sense?
+
 
 
 ---
@@ -287,23 +321,25 @@ background-position: center
 
 class: middle
 
-.size60[**Assignment for Today**]
+.size50[.content-box-green[**Assignment for Next Class**]]
 
-.size40[
-**Before class** submit to our Canvas discussion board: 
+<br>
 
-1. Define your environmental problem
-
-2. Argument: This is a public (not private) problem
-
-3. Argument: We need a collective (not individual) decision
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_1-Assignment.png")
+```
 
 ???
 
 Today we take all the useful theoretical work from Munger and apply it to your projects with your pre-class work as our jumping off point.
 
-### How did this go? Everybody ready to push forward?
+### How did this go? 
+
+### - Everybody ready to push forward?
+
+<br>
+
+Today we'll work together to strengthen your arguments and help each other develop counter-arguments to consider.
 
 
 
@@ -314,92 +350,49 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size50[Describe your environmental problem]
-
-```{r}
-tibble(
-  col1 = c("?", "?", "?"),
-  col2 = c("?", "?", "?")
-) |>
-  kableExtra::kbl(align = c("c", "c"), col.names = c("Public Problem", "Collective Decision")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "25em") |>
-  kableExtra::column_spec(2, width = "25em") #|>
-  # kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
-```
+.size50[.content-box-green[**Describe your environmental problem**]]
 
 ???
 
 Everybody take out a piece of paper.
 
-- Across the top write a simple description of your environmental problem
+- Across the top write a **SIMPLE** description of your environmental problem
 
-- Below that make two lists and fill these in with the work you did before class (e.g. list of reasons this is a public problem and a list of reasons this should be a collective decision)
+- *Zip around the room to hear all of them, make sure they are simple*
+
+--
 
 <br>
 
-*IFF warm-up discussion took too long*: *Split into pairs*
-
-Share your lists with each other
-- Are the reasons clear?
-- Are they compelling?
-- Any new ones to add?
-
-*IFF plenty of time*: Go see them all!
-
-Go see and hear everybody elses' work.
-- Your job is to make sure every proposal you hear is clear and compelling
-- Everyone elses' job is to make sure yours is the same!
-- Don't stress counter-arguments yet, just focus on clarity
-
-Go!
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.size50[Describe your environmental problem]
-
 ```{r}
 tibble(
-  col1 = c("?", "?", "?"),
-  col2 = c("?", "?", "?")
+  cola = c(1, 2, 3, 4, 5),
+  col1 = c("?", "?", "?", "?", "?"),
+  col2 = c("?", "?", "?", "?", "?")
 ) |>
-  kableExtra::kbl(align = c("c", "c"), col.names = c("Public Problem", "Collective Decision")) |>
+  kableExtra::kbl(align = c("c", "c"), col.names = c("", "Public Problem", "Collective Decision")) |>
   kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "25em") |>
-  kableExtra::column_spec(2, width = "25em") #|>
-  # kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+  kableExtra::column_spec(2:3, width = "25em") |>
+  kableExtra::row_spec(row = 0, background = "lightgreen")
 ```
 
 ???
 
-Ok, everybody take a minute to reflect on what they heard, read and received as feedback
-- Use all of that to make any revisions to your proposal you'd like
+<br>
+
+Under your problem description make two lists
+
+- Give us your best five reasons you argue this is a public problem, and
+
+- Your best five reasons this should be a collective decision
+
+- These should be **COMPLETE** sentences!
 
 <br>
 
-### So, how are we feeling? Does everybody have a clear problem definition and argument that this is a public problem that requires a collective decision?
+### Questions on what I'm asking for?
 
-<br>
-
-### Can I have two volunteers willing to put their work up on the board?
-- Make sure to give each other lots of space!
-
-<br>
-
-Ok, volunteer 2 take a seat for a sec and we'll start with volunteer 1.
-
-Volunteer 1 present us your current case.
-
-<br>
-
-(SLIDE: Add new columns)
+- Go!
 
 
 
@@ -410,51 +403,171 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size50[Describe your environmental problem]
+.size50[.content-box-green[**Describe your environmental problem**]]
+
+<br>
 
 ```{r}
 tibble(
-  col1 = c("?", "?", "?"),
-  col2 = c("?", "?", "?"),
-  col3 = c("?", "?", "?"),
-  col4 = c("?", "?", "?")
+  cola = c(1, 2, 3, 4, 5),
+  col1 = c("?", "?", "?", "?", "?"),
+  col2 = c("?", "?", "?", "?", "?")
 ) |>
-  kableExtra::kbl(align = c("c", "c"), col.names = c("Private Problem", "Public Problem", "Collective Decision", "Individual Decision")) |>
-  kableExtra::kable_styling(font_size = 32) |>
-  kableExtra::column_spec(1:4, width = "20em") 
-  # kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+  kableExtra::kbl(align = c("c", "c"), col.names = c("", "Public Problem", "Collective Decision")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(2:3, width = "25em") |>
+  kableExtra::row_spec(row = 0, background = "lightgreen")
 ```
 
 ???
 
-Volunteer 1, you are now our guinea pig!
-- Please add two more columns: Private problem and Individual decision
+Ok, I need a volunteer to share theirs!
+
+- *As they present you take abbreviated notes on the board*
 
 <br>
 
-Ok class, let's brainstorm. 
+Let's help to strengthen these
 
-### We need reasons this is actually a private problem and/or an individual decision!
-- (private problem = my choice has no consequence for your welfare)
-- (individual decision = I should be able to choose alone and without interference)
+### 1. Is each reason clear (and complete sentence)?
 
-Volunteer 1 will take notes on the board for us!
+<br>
+
+### 2. Which of these reasons need evidence in order to be convincing?
+
+### - Volunteer, do you have evidence for this yet?
+
+<br>
+
+### 3. Any new reasons we could add to these lists to strengthen these arguments?
+
+<br>
+
+### Ok, did that help clarify the exercise?
 
 <br>
 
 Let's do it again!
 
-Volunteer 2, introduce your case and then we'll help you brainstorm!
+- I need a second volunteer!
+
+- *Repeat exercise above*
 
 <br>
 
-### How are we doing? Does everybody understand the exercise?
+Ok, split into pairs and repeat this exercise for each other
 
-Take a minute on your own to start these lists for your current case.
+- Make sure your partner has clear and compelling reasons and if you think they are missing anything.
 
-Alright, go hear everybody's new lists and help them add more counter-arguments!
+<br>
+
+### Questions?
+
 - Go!
 
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size65[.content-box-green[**We Need a Policy Solution**]]]
+
+<br>
+
+.size50[
+**Argument 1:** This is a public problem
+
+**Argument 2:** This requires a collective decision
+]
+
+???
+
+Alright, let's zip around the room and hear all these arguments.
+
+- Describe the problem and then read us your reasons for each argument
+
+<br>
+
+### How are we doing with this?
+
+### - Questions? Need for clarification?
+
+<br>
+
+### Does everybody have a clear problem definition and argument that this is a public problem that requires a collective decision?
+
+<br>
+
+**SLIDE**: Time for the next step: Counter-arguments!
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+```{r}
+tibble(
+  cola = c(1, 2, 3, 4, 5),
+  col1 = c("?", "?", "?", "?", "?"),
+  col2 = c("?", "?", "?", "?", "?")
+) |>
+  kableExtra::kbl(align = c("c", "c"), col.names = c("", "Private Problem", "Individual Decision")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(2:3, width = "25em") |>
+  kableExtra::row_spec(row = 0, background = "pink")
+```
+
+???
+
+On your sheet of paper, below your current lists, I want you to make two new lists that represent the counter-arguments.
+
+1. Give us your best five reasons this is actually a PRIVATE problem
+    - e.g. "my choice has no consequence for your welfare"
+
+2. Give us your best five reasons this should remain an INDIVUDAL decision!
+    - e.g. "I should be able to choose alone and without interference"
+
+<br>
+
+### Does what I'm asking for make sense?
+
+- Go!
+
+<br>
+
+*New volunteer!*
+
+- Describe your chosen problem and then give us your strongest argument this is a private problem that should be an individual decision
+
+- *As they present you take abbreviated notes on the board*
+
+<br>
+
+### Are these reasons clear?
+
+<br>
+
+### Anything else we could add to these lists to strengthen the arguments?
+
+<br>
+
+Small groups (3) review each other's new lists!
+
+- Make sure they are clear and see if you can add anything to them
+
+- Go!
+
+<br>
+
+### Does anybody have a list of counter-arguments that are particularly daunting or difficult to address? Let's discuss!
 
 
 
@@ -482,49 +595,23 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-4.png")
 
 ???
 
-Alright, big over-arching questions for us:
+Your work for today is meant to deepen your thinking about the framing of your chosen environmental problem
 
-### First, what do we do with this information? How do these counter-argument lists about the need for policy help you going forward?
+- Every problem framing carries implicit arguments about who is harmed and how society should respond
 
-1. This is all about getting good at establishing the baseline you need to overcome to get the stakeholders willing to discuss your issue at all
-    - Without this you are shouting into the wind.
-    
-2. This is also a list of problems to overcome that will anticipate what you're going to hear as you move forward in designing a solution.
-    - It will be VERY helpful to you to keep arguments about the NEED for policy SEPARATE from the arguments about the design of the policy.
-    
-### Make sense?
+- Our exercises today represent a step towards making those implicit arguments explicit.
+
+- Ultimately, it will be VERY helpful to you to keep arguments about the NEED for policy SEPARATE from the arguments about the design of the policy.
 
 <br>
 
-### Does anybody have a list of counter-arguments that are particularly daunting or difficult to address? Let's discuss!
+Our work today is also meant to help you think more seriously about the opposition you are likely to encounter when trying to solve your problem.
 
+- The objections will be rooted in different problem framings and you need to consider them before you begin to deisgn anything.
 
+<br>
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size50[**Assignment 4 (Due Apr 28th)**
-
-Getting Involved in our Community]]
-
-.size40[
-1. Find (or create) an opportunity to get actively involved in your issue locally, and
-
-2. Write a report describing what you did, who you worked with and what you learned from the experience.
-]
-
-???
-
-### How is planning for the community engagement project going? Need ideas?
-
-Don't stall on this!
-
-- Your semester is only going to get busier AND the information you gather from doing this will be MUCH more useful early in your project's development!
+### Make sense?
 
 
 
@@ -537,17 +624,27 @@ background-position: center
 
 class: middle
 
-.size70[**Assignment for Tuesday**]
+.size70[.content-box-green[**Assignment for Tuesday**]]
 
 .size45[
-**Before class** submit to Canvas:
+1. Read the chapters in the syllabus describing domestic processes for problem-solving, and
 
-What are **three** key elements you argue are necessary to **successfully navigate** a domestic policy-making process?
+2. Submit to Canvas: What are **three** key elements you argue are necessary to **successfully navigate** a domestic policy-making process?
 ]
 
 ???
 
 Next week we explore processes of policy-making and problem-solving.
+
+<br>
+
+The readings will introduce you to a few intriguing options.
+
+<br>
+
+Then you'll reflect on those options and submit your analysis of them.
+
+<br>
 
 ### Questions on the assignment?
 
