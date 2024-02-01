@@ -920,7 +920,7 @@ tibble(
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: bottom, center

@@ -65,7 +65,9 @@ Argument: Your environmental problem is public and should be solved collectively
 
 .size15[Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.]
 
+<br>
 
+**SLIDE**: Warm-up by brainstorming community engagement projects
 
 
 ---
@@ -87,20 +89,11 @@ Getting Involved in our Community]]
 
 ???
 
-Don't forget the community engagement report!
-
-- It isn't necessarily connected to our week-to-week project development so I want to keep putting it on your radar!
-
-- ALSO, the sooner you do this assignment the easier the whole project becomes!
-    - "On the ground" experience and perspective is vital!
-
-<br>
-
 Let's warm up again today with more community engagement brainstorming!
 
 - Everybody get ready to name one activity they could do this weekend to engage in their chosen environmental problem in our community!
 
-- Something that either connects you with the stakeholders OR deepens your understanding of the problem itself.
+- Something that gets you out into the community doing something to work on your specific problem
 
 - **MUST** be different than your idea last class!
 
@@ -123,7 +116,7 @@ Don't forget you have to get my sign-off on your project BEFORE you do it
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -142,13 +135,37 @@ class: middle
 
 This week we have continued our work in the first section of the class focused on laying the foundations for problem-solving.
 
-- On Tuesday we moved from politics and the environment to a deep dive into how communities approach policy-making
+- On Tuesday I tried to help you connect our previous work to Munger's big ideas about policy-making 
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+**A .textblue[useful] policy proposal .textblue[MUST]:**
+
+- Be specific,
+
+- Be adapted to the specific stakeholders,
+
+- Be adapted to the conditions on the ground, and
+
+- Include an evaluation of strong alternative proposals.
+]
+
+???
+
+I introduced you to a common definition of policy and we used that to extract a series of guidelines that I hope will help you be more effective problem-solvers.
 
 <br>
 
-Let's refresh our memories on how Munger aims to help us be better problem-solvers using policy.
-
-- **SLIDE**: The Hun-Gats and the "need" for policy
+**SLIDE**: Policy-making sounds hard, do we have to do it?
 
 
 
@@ -160,45 +177,91 @@ background-position: center
 
 ???
 
-### Use the Hung-Gat thought experiment to explain to me, why do societies need public policies? 
+To answer that question, Munger's reading introduced you to a thought experiment about the Hun-Gats tribe
 
-### - Why do we need to agree common rules of behavior at all?
+- In short: A tribe of hunter-gatherers in pre-history are running out of food and have to decide what to do about it 
 
-<br>
-
-Leaving serious threats to private decision-making can lead to sub-optimal outcomes
-- Every person goes out to find food and experiment on themselves to see what is poisonous and what isn't
+- Should they leave this decision to individuals or the community?
 
 <br>
 
-KEY LESSON: Basic survival of any community is maximized when we collaborate
+### What do we learn about policy and policy-making from the Hung-Gat thought experiment?
 
 <br>
 
-HOWEVER:
-- No escaping the battles over expertise, and
+1. Both options are policies!
+    - Leave me alone and tell me what to do are both rules
 
-- Policy can only ever be as effective as the authority that compels the behavior, and
+2. Private, individual decision-making often leads to bad community outcomes
+    - The creation of policy helps maximize the odds of survival
 
-- Any society with resource issues will deal with free-riding problems
+3. ALL Policies create winners and losers which means battles over rule-making and enforcement are inevitable
+    - Battles over expertise are central to policy-making
 
 <br>
 
-**SLIDE**: So, we need policy, but what design standard should we use?
+That's a handy thought experiment!
+
+- **SLIDE**: So, we need policy, but what design standard should we use?
 
 
 
 ---
 
-background-image: url('libs/Images/background-forest_v3.png')
+background-image: url('libs/Images/01_1-cartoon_lake.jpg')
 background-size: 100%
 background-position: center
+class: middle
 
-```{r, echo = FALSE, fig.align = 'center', out.width = '68%'}
+```{r, echo = FALSE, fig.align = 'right', out.width = '55%'}
 knitr::include_graphics("libs/Images/02-1-Munger_Fig2-1.png")
 ```
 
 ???
+
+We ended last class by briefly applying each of Munger's three "wisdoms" to our resource management problem
+
+- My hope is that this helps you begin to see how specific problem framings (e.g. markets, experts and politics) lead to very different policy designs.
+
+<br>
+
+### Market group, what policy did you propose and why do you believe it is awesome?
+- (CLASS NOTE: Let someone own the lake and their profit motive will ensure its survival!)
+- Awesome because markets are the most efficient means of allocating resources in productive ways
+
+<br>
+
+### Experts group, what policy did you propose and why do you believe it is awesome?
+- (CLASS NOTE: Experts should be empowered to help us estimate maximum sustainable yields and the dynamics of the lake ecosystem in order to determine extraction policies)
+- Awesome because this gives the fish the best chance to survive!
+
+<br>
+
+### Politics group, what policy did you propose and why do you believe it is awesome?
+- (CLASS NOTE: The community should be entrusted to collectively decide how to balance concerns about the fish and the people)
+- Awesome because we can consider equity and redistribution in order to deal with other community concerns
+
+<br>
+
+### And which of the three is the "best" policy?
+- It depends on how you personally value the aims of each problem-framing AND
+- Who you believe should pay the costs for the community's survival
+
+<br>
+
+### Make sense?
+
+<br>
+
+**SLIDE**: That battle is still to come for each of you on your chosen problem, but the final piece that Munger tells us is important ties to your assignment for today
+
+<br>
+
+<br>
+
+<br>
+
+#### The following was the plan for SP24 but since prior class had to rush this I made the above before class
 
 ### What are the key lessons of this figure for designing policies to solve an environmental problem?
 
@@ -217,13 +280,6 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-1.png")
 3. This triangle offers us a helpful way to understand disputes about your problem in the community
     - As you analyze the stakeholders involved in any environmental problem you will have a better understanding of who they are and what they want if you can figure out where they fit here.
 
-<br>
-
-### Make sense?
-
-<br>
-
-**SLIDE**: Policy pre-argument
 
 
 
@@ -232,17 +288,16 @@ knitr::include_graphics("libs/Images/02-1-Munger_Fig2-1.png")
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
+
 class: middle
 
-.center[.size65[.content-box-green[**We Need a Policy Solution**]]]
+.size50[.content-box-green[**Assignment for Next Class**]]
 
 <br>
 
-.size50[
-**Argument 1:** This is a public problem
-
-**Argument 2:** This requires a collective decision
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_1-Assignment.png")
+```
 
 ???
 
@@ -251,6 +306,25 @@ Getting a community to accept a policy solution to any problem requires you succ
 - Key for us is to remember that without clearing these two hurdles no effective policy solution is possible
 
 <br>
+
+Today we take all the useful theoretical work from Munger and apply it to your projects with your pre-class work as our jumping off point.
+
+### How did this go? 
+
+### - Everybody ready to push forward?
+
+<br>
+
+Today we'll work together to strengthen your arguments and help each other develop counter-arguments to consider.
+
+
+<br>
+
+<br>
+
+<br>
+
+#### The following was the plan for SP24 but since prior class had to rush this I made the above before class
 
 Let's refresh our memories on the roadblocks to making these arguments
 
@@ -276,70 +350,8 @@ Let's refresh our memories on the roadblocks to making these arguments
 
 <br>
 
-**SLIDE**: Last important figure from Munger
+**SLIDE**: Last important figure from Munger (prior plan included Fig 2.4)
 
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '72%'}
-knitr::include_graphics("libs/Images/02-1-Munger_Fig2-4.png")
-```
-
-???
-
-### Finally, what are the key lessons of this figure for designing policies to solve an environmental problem?
-
-<br>
-
-First, when a stakeholder uses language from these four boxes they are telling you a ton about who they are, what they identify with and what they value!
-- This information is invaluable for designing an effective policy solution
-
-<br>
-
-Second, be strategic in making these arguments!
-- It will almost certainly be easier to tackle moving someone on one dimension at a time rather than tackling both simultaneously, and
-
-- Until you get the stakeholder to accept it is a public problem don't get drawn into the collective decision argument
-
-<br>
-
-### Make sense?
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-.size50[.content-box-green[**Assignment for Next Class**]]
-
-<br>
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/03_1-Assignment.png")
-```
-
-???
-
-Today we take all the useful theoretical work from Munger and apply it to your projects with your pre-class work as our jumping off point.
-
-### How did this go? 
-
-### - Everybody ready to push forward?
-
-<br>
-
-Today we'll work together to strengthen your arguments and help each other develop counter-arguments to consider.
 
 
 

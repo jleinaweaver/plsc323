@@ -703,7 +703,7 @@ If demand for a product or service is low, tax credits or rebates can help offse
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -801,7 +801,7 @@ Let's start with our old friend from the Heritage Foundation Nicolas Loris.
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle

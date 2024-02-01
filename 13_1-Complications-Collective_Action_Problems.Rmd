@@ -1308,7 +1308,7 @@ This represents the first kind of collective action problem that makes environme
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1552,7 +1552,7 @@ Mancur Olson identifies that flipping the costs and benefits ALSO leads to a ser
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle

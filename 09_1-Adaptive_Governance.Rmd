@@ -130,7 +130,7 @@ Last week we analyzed the use of "green" subsidies to address environmental prob
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -198,7 +198,7 @@ However, before we get into this approach let's take a detour into discussing on
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: bottom, center
@@ -234,7 +234,7 @@ Her response?
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: bottom, center
@@ -277,7 +277,7 @@ Dr. Ostrom's research was so good they gave her, a political scientist, the most
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: bottom, center
@@ -367,7 +367,7 @@ HOWEVER, Ostrom noted that this is an incomplete view of the collapse and, as a 
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -398,7 +398,7 @@ Ok, let's talk about the key concept Ostrom proposed.
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -833,7 +833,7 @@ class: middle, inverse
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1153,7 +1153,7 @@ For CPRs part of larger systems, all of the important stuff is organized in leve
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle

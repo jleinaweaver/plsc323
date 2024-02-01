@@ -911,7 +911,7 @@ Lots of complicated feedbacks to consider...
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -947,7 +947,7 @@ What we'll refer to as the CAA is actually a reference to a series of laws (and 
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1077,7 +1077,7 @@ Here we see a visualization from Resources for the Future using data from the Fe
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1130,7 +1130,7 @@ The actual Shapiro and Walker article is CRAZY dense econometrics
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1161,7 +1161,7 @@ This means he was deep in the heart of the work to amend the CAA in 1990.
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle
@@ -1202,7 +1202,7 @@ Cons:
 
 ---
 
-background-image: url('libs/Images/background-forest_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 class: middle, center

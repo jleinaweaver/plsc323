@@ -18,7 +18,6 @@ output:
 
 library(tidyverse)
 library(readxl)
-library(stargazer)
 ##library(kableExtra)
 ##library(modelr)
 
@@ -56,11 +55,12 @@ The Role of Stakeholders in Policy-making
 ???
 
 ## Prep for Class
-1. Record Canvas submissions
+1. Post assignment description on Canvas
 
-2. Make sure to save time at end of class to discuss plan for next week (paper 1)
+2. Make sure to save time at end of class to brainstorm project stakeholders
 
-3. Post assignment description on Canvas
+3. Do the CAFE slides need to be updated?
+    - [Data from the Department of Energy](https://afdc.energy.gov/data/categories/fuel-consumption-and-efficiency)
 
 <br>
 
@@ -81,31 +81,37 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[**Assignment 4 (Due Apr 28th)**
+.center[.size50[.content-box-green[**Assignment 4**]
 
 Getting Involved in our Community]]
 
 .size40[
-1. Find (or create) an opportunity to get actively involved in your issue locally, and
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
 
-2. Write a report describing what you did, who you worked with and what you learned from the experience.
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
 ]
 
 ???
 
-As I introduced last week you have a piece of your project you need to get to work on right now!
+Let's warm up again today with more community engagement brainstorming!
 
-- Remember, you have to get my sign-off before acting, and
+- Everybody get ready to name **A NEW** activity they could do this weekend to engage in their chosen environmental problem in our community!
 
-- Your proposal should frame the activity in terms of how it directly ties to your project AND how doing it will help you better complete that project (e.g. deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?
+- Even if you already have your project approved, give us something else!
 
 <br>
 
-Quick Brainstorm: Everybody name one thing they could do this weekend to get involved in your chosen problem in our community!
+Go!
 
-- Something that either connects you with the stakeholders OR deepens your understanding of the problem itself.
+<br>
 
-- MUST be different than your idea last class!
+Don't forget you have to get my sign-off on your project BEFORE you do it
+
+- Submit your proposal on Canvas as an assignment.
+
+<br>
+
+### Any questions on the community engagement project?
 
 
 
@@ -136,6 +142,8 @@ Quick hits on our work so far!
 <br>
 
 ### Effective policy designers recognize that societies MUST create policies to deal with substantial problems or where free-riding could lead to disaster!
+
+<br>
 
 This means that policy-designers are challenged to create new rules in situations where:
 
@@ -251,11 +259,9 @@ knitr::include_graphics('libs/Images/04_2-scales.jpg')
 
 <br>
 
-1. You MUST make an argument that WE, the public, have a problem, 
+1. You MUST make an argument that WE, the public, have a problem, and
 
-2. You MUST make an argument that WE should decide collectively, not privately, and 
-
-3. You MUST make an argument about how the rule should be decided (democracy? delegation to experts?)
+2. You MUST make an argument that WE should decide collectively, not privately
 
 
 
@@ -288,12 +294,18 @@ knitr::include_graphics('libs/Images/03-1-problem_solving_process.gif')
 We probably shouldn't try to reinvent the wheel.
 - Find the good process ideas that are out there and steal from them!
 
-- I liked that Hughes (2007) pushed me to be clearer about problem definitions and to try to see them as separate from strategy.
+<br>
 
-- I liked that the "policy process model" from Kraft (2011) reminded me that the "right" pressure strategy depends on the stage of the process we are in 
-    - Arguments that work during agenda setting probably look different from the ones we need during policy formulation
+I like that Hughes (2007) pushes me to be clearer about problem definitions and to try to see them as separate from strategy.
 
-- I liked the C&P (2016) collaborative approach because it makes sense to me that community problem-solving MUST be engaged in serious ways with the people whose behavior we hope to modify.
+<br>
+
+I like that the "policy process model" from Kraft (2011) reminds me that the "right" pressure strategy depends on the stage of the process we are in 
+- Arguments that work during agenda setting probably look different from the ones we need during policy formulation
+    
+<br>
+
+I like the C&P (2016) collaborative approach because it makes sense to me that community problem-solving MUST be engaged in serious ways with the people whose behavior we hope to modify.
 
 
 
@@ -331,7 +343,9 @@ knitr::include_graphics('libs/Images/03-1-new_plan.jpg')
 
 <br>
 
-### Questions or need for clarifications?
+Whew! Nice work all!
+
+- **SLIDE**: Last class we discussed a process for getting all of this done!
 
 
 
@@ -342,16 +356,16 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[**Our Problem-Solving Process**]
+.size55[.content-box-green[**A Possible (and evolving?) Process**]]
 
-.size40[
-1. **Argument**: Our community has a problem
+.size50[
+1. **Describe** the problem facing our community
 
 2. **Investigate** the relevant stakeholders
 
-3. **Revise** your "we have a problem" argument
+3. **Frame** the problem
 
-4. Consider policy **designs**...
+4. Consider **policy designs**...
 ]
 
 ???
@@ -377,38 +391,39 @@ background-size: 100%
 background-position: center
 class: middle
 
-## Paper 1: Introducing the Problem
+.size50[.content-box-green[**Paper 1: Introducing the Problem**]]
 
-.size30[
-Write a report introducing us to the specific, local environmental problem you intend to target this semester. 
+.size40[
+1. A description of **the scientific basis** for your problem,
 
-Your report .textblue[**must**] include:
+2. An argument that this is a **public problem**,
 
-1. A description of the problem supported by .textblue[**high quality evidence**],
+3. An argument that this requires a **collective decision**, and
 
-2. An argument that this is a .textblue[**public problem**] that requires a .textblue[**collective decision**] by our community, and
-
-3. An analysis of .textblue[**at least two stakeholders**] with .textblue[**opposing**] viewpoints of the problem
+4. An analysis of **at least two stakeholders with opposing viewpoints** of the problem
 ]
 
 ???
 
-This description is posted on Canvas with additional details
-
 The first paper comes directly from the work we've been doing over the first four weeks of class.
 
-- High quality evidence = data gathered by peer-reviewed sources, government monitoring, third-party groups, etc.
+- The assignment details are on Canvas.
 
-- Stakeholders: Who are they, what do they want and how do they frame the problem?
+- I will give you both classes next week to work on the report in class.
+
+<br>
+
+Here are the four required elements of the report.
+
+- You must support ALL claims with high quality evidence
+
+- High quality evidence = data gathered by peer-reviewed sources, government monitoring, third-party groups, etc.
 
 - Please also see the "Paper Submission Requirements" in the syllabus and be sure to support ALL claims with evidence.
 
 <br>
 
-### Questions on the prompt?
-
-I will give you both classes next week to work on the report in class.
-
+### Any questions on the prompt?
 
 
 
@@ -424,19 +439,21 @@ class: middle, center
 
 Today we need to practice analyzing stakeholders in environmental policy disputes
 
+- We tend to encounter stakeholders through the arguments they make publicly so our work today will focus on those public arguments
+
 - Specifically we'll use the fight over CAFE standards in the US as a means for thinking critically about the role stakeholders play in environmental policy-making.
 
 <br>
 
-We tend to encounter stakeholders through the arguments they make publicly.
+Our job is to analyze those statements to:
 
-- However, these statements are strategic signals meant to generate support for their position, not reveal their "true" preferences.
+1. Map out the competing problem framings in play regarding our problem, and
+
+2. Identify the values underpinning those statements so we better know how to appeal to those stakeholders
 
 <br>
 
-We'll need to do some analytical work in order to use these statements to help us broaden the appeal of our arguments.
-
-- **SLIDE**: In other words, ...
+**SLIDE**: In short...
 
 
 
@@ -463,11 +480,9 @@ background-size: 100%
 background-position: center
 class: middle, top
 
-.center[.size50[**The CAFE Standards Debate**]]
+.center[.size50[.content-box-green[**The CAFE Standards Debate**]]]
 
-.center[.size50[**Stakeholders in Miller (2009)**]]
-
-.size30[
+.size40[
 1. David Greene, Oak Ridge National Laboratory (3.11) 
 2. The National Center for Public Policy Research (3.7)
 3. The Union of Concerned Scientists (3.9 and 3.15)
@@ -491,71 +506,313 @@ Let's make sure we're clear on the basics.
 ### What are CAFE standards? What does that acronym stand for?
 - (Corporate Average Fuel Economy (CAFE))
 
-### How do they work? What do the CAFE Standards do?
-- DoT: "First enacted by Congress in 1975, the purpose of CAFE is to reduce energy consumption by increasing the fuel economy of cars and light trucks.  The CAFE standards are fleet-wide averages that must be achieved by each automaker for its car and truck fleet, each year, since 1978."
-
 <br>
 
-### Anybody know where we are currently with CAFE standards?
-
-(SLIDE)
-
-
+### How do they work? What do the CAFE Standards do?
+- (**SLIDE**)
 
 
 
 ---
 
-background-image: url('libs/Images/03-1-CAFE_Standards_DoE.jpeg')
-background-size: 100%
-background-position: center
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+d <- read_excel("../../Data/Fuel_Economy_CAFE/10562_cafe_light_duty_6-1-20.xlsx", sheet = "Tidy")
 
-class: middle
+# Save long version
+d_long <- d |>
+  pivot_longer(cols = passenger_cars:light_trucks, names_to = "class", values_to = "mpg")
+
+# Plot 1: 1975 - 1985
+d |>
+  filter(Year < 1986) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 1986), breaks = 1974:1986) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("text", x = 1975, y = 11, label = "Estimated", color = "red") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
 
 ???
 
-Here we see the actual CAFE averages up to 2013 AND the increases mandated by the Obama administration
+Per the Department of Transportation the purpose of CAFE is to reduce energy consumption by increasing the fuel economy of cars and light trucks.
 
-+ Source is the Dept of Energy
-
-+ You'll note that Obama had planned some pretty sizable increases!
+- "The CAFE standards are fleet-wide averages that must be achieved by each automaker for its car and truck fleet, each year, since 1978."
 
 <br>
 
-### Did these go into effect? New cars averaging 50+ mpg?
+The early 1970s saw a brutal oil price shock that sent oil prices into the stratosphere and people were pissed!
 
-+ (Umm, no. Trump got elected and began rolling back every environmental regulation he could.)
+- A big problem for us was we were driving wildly inefficient cars
+    - 1975 estimate for passenger cars was approximately 13 mpg on average!
 
-+ (Trump's revised standard: overall avg of 32 miles per gallon in 2026)
+- In 1975 Congress responds by enacting "the nation's first Corporate Average Fuel Economy (CAFE) standards" that "called for a doubling of passenger-vehicle efficiency—to 27.5 miles per gallon (mpg)—within 10 years" ([Pew Report](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2011/04/20/driving-to-545-mpg-the-history-of-fuel-economy))
+
+- At the time domestic automakers argued this would lead to economic crises and angry consumers
+
+- "In 1974, a Ford executive testified that the standards could “result in a Ford product line consisting . . . of all sub- Pinto-sized vehicles.”
 
 <br>
 
-**SLIDE**: So, where are we now?
+CAFE applies to both cars and light duty trucks but for now I just want to focus on cars.
+
 
 
 
 ---
 
-class: middle, slideblue
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Plot 2: 1975 - 1988
+d |>
+  filter(Year < 1989) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 1989), breaks = 1974:1989) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
 
-.size35[
-**Biden's New Rule**: Reach a projected industry-wide target of 161 grams CO2 /mile, or 40 miles per gallon value on fuel economy window stickers in 2026.
+???
 
-+ The final emission standards targets for 2023-2026 increase in stringency by between 5-10 percent in each model year.
+Big success: "Between 1975 and 1985, average passenger vehicle mileage doubled from about 13.5 mpg to 27.5" (Pew)
 
-+ The standards they replace increased in stringency by only 1.5 percent year over year.
+<br>
 
-+ By MY2026 the final emissions targets are 47 grams of CO2 /mile lower than the standards they replace.
-]
+Despite this success, Ford and General Motors aggressively "lobbied the Reagan administration to lower the standard" (Pew).
+- They succeeded and the National Highway Traffic Safety Administration (NHTSA) lowered the CAFE standard to 26 mpg for the next three years
+
+- ALSO the NHTSA at this time stopped raising the CAFE standards for light trucks
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Plot 2: 1975 - 2007
+d |>
+  filter(Year < 2008) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 2008), breaks = seq(1974, 2008, 2)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+Lowered standards and increased truck/SUV sales meant that by the end of the 1990s cars and trucks were less efficient than they were a decade earlier (about 1mpg worse)
+
+<br>
+
+President Clinton comes in and tries to enact an increase in CAFE
+
+- Congress responds with an appropriations rider taking away the administration's authority to increase vehicle efficiency (lasts 1995 to 2000).
+
+<br>
+
+**SLIDE**: No new activity on this for almost 20 years
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Plot 3: Dec 2007 - Energy Independence and Security Act (EISA)
+d |>
+  filter(Year < 2008) |> 
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 40), breaks = seq(0, 40, 10)) +
+  scale_x_continuous(limits = c(1974, 2020), breaks = seq(1974, 2020, 3)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("point", x = 2020, y = 35, color = "blue", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "blue") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+In December 2007, Congress passes the Energy Independence and Security Act (EISA)
+
+- Includes a provision to raise CAFE standards for cars, SUVs and pickups by about 40 percent—to 35 mpg by 2020.
+
+<br>
+
+### Any guesses why Congress decided to act in 2007?
+
+- (**SLIDE**: Obama about to be president!)
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Plot 3: Dec 2007 - Energy Independence and Security Act (EISA)
+d |>
+  filter(Year < 2017) |> 
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 40), breaks = seq(0, 40, 10)) +
+  scale_x_continuous(limits = c(1974, 2020), breaks = seq(1974, 2020, 3)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("point", x = 2020, y = 35, color = "blue", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "blue") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+April 2009: Obama pushes a 35.5 mpg FLEETWIDE target by 2016 (e.g. both cars and light trucks)
+
+- This meant cars needed to hit an average around 39 mpg
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Plot 3: Dec 2007 - Energy Independence and Security Act (EISA)
+d |>
+  filter(Year < 2017) |> 
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 10)) +
+  scale_x_continuous(limits = c(1974, 2026), breaks = seq(1974, 2026, 3)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("point", x = 2025, y = 54.5, color = "blue", size = 3) +
+  annotate("segment", x = 2016, xend = 2025, y = 37.8, yend = 54.5, linetype = "dashed", color = "blue") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+August 2012: Obama finalizes a new rule that combines cars and light-duty trucks and sets the target of 54.5 mpg by 2025
+- [Link](https://obamawhitehouse.archives.gov/the-press-office/2012/08/28/obama-administration-finalizes-historic-545-mpg-fuel-efficiency-standard)
+
+<br>
+
+### Any guesses what happened next?
+
+- (**SLIDE**: Trump gets elected)
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+d |>
+  filter(Year < 2021) |> 
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 10)) +
+  scale_x_continuous(limits = c(1974, 2026), breaks = seq(1974, 2026, 3)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("point", x = 2025, y = 54.5, color = "blue", size = 3) +
+  annotate("segment", x = 2020, xend = 2025, y = 44.2, yend = 40, linetype = "dashed", color = "red") +
+  annotate("point", x = 2025, y = 40, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+It takes him four years to undo Obama's 2012 rules
+
+- Sets a new 2025 target of approximately 40 mpg
+
+<br>
+
+Trump argues that many manufacturers are only meeting the standards using various credits and this would allow us to reduce those
+
+- e.g. In essence, if a manufacturer does beats the target in one year they can roll over the surplus to next year
+
+- This was meant to reduce those credits but lower the target to compensate
+
+<br>
+
+### So, based on your reading today, where is Biden setting the next target?
+
+- (**SLIDE**)
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+d |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 10)) +
+  scale_x_continuous(limits = c(1974, 2026), breaks = seq(1974, 2026, 3)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("segment", x = 2020, xend = 2025, y = 44.2, yend = 40, linetype = "dashed", color = "red") +
+  annotate("point", x = 2025, y = 40, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
 
 ???
 
 [LINK to EPA: Final Rule to Revise Existing National GHG Emissions Standards for Passenger Cars and Light Trucks Through Model Year 2026](https://www.epa.gov/regulations-emissions-vehicles-and-engines/final-rule-revise-existing-national-ghg-emissions)
 
-
 <br>
 
 One of the early climate actions taken by the Biden Administration was to revert the CAFE standards closer to the trajectory put in place by Obama's Administration. 
+
+<br>
+
+I hope you take a few things away from this:
+
+FIRST, Elections matter. 
+- A LOT. 
+- SERIOUSLY.
+- You should vote.
+
+<br>
+
+SECOND, once enacted, policies tend to be VERY sticky.
+
+- Our system is slow but that means if you can lock in a good policy it can endure!
+
+
 
 
 
@@ -567,11 +824,9 @@ background-size: 100%
 background-position: center
 class: middle, top
 
-.center[.size50[**The CAFE Standards Debate**]]
+.center[.size55[.content-box-green[**Analyzing the Stakeholders**]]]
 
-.center[.size50[**Stakeholders in Miller (2009)**]]
-
-.size30[
+.size40[
 1. David Greene, Oak Ridge National Laboratory (3.11) 
 2. The National Center for Public Policy Research (3.7)
 3. The Union of Concerned Scientists (3.9 and 3.15)
@@ -590,14 +845,11 @@ The Miller book does a nice job collecting a bunch of public statements by stake
 
 - Remember, our actual key here is to learn more about stakeholders and the arguments they make, not to take a strong position on the CAFE standards.
 
-### Sound good?
-
-
-Ok, let's dig into the arguments made by the stakeholders in the Miller chapter.
+<br>
 
 *Split class into 8 groups (pairs preferred, threesomes if needed) and assign to stakeholders*
 
-Go sit with your partner(s)!
+- Go sit with your partner(s)!
 
 
 
@@ -609,7 +861,7 @@ background-size: 100%
 background-position: center
 class: middle, top
 
-.center[.size55[**Analyzing the Stakeholders**]]
+.center[.size55[.content-box-green[**Analyzing the Stakeholders**]]]
 
 .size30[
 1. David Greene, Oak Ridge National Laboratory (3.11) 
@@ -622,21 +874,23 @@ class: middle, top
 8. National Review (3.4)
 ]
 
-.size45[**1) Diagram the argument**]
+<br>
+
+.center[.size45[.content-box-green[**1) How do they frame the problem?**]]]
 
 ???
 
-Groups, first job is to diagram the argument they are making and put it on the board.
+Groups, first job is to diagram the problem framing
 
-- Identify the main conclusion, and then the key premises provided to support that conclusion
+- e.g. how do they present the problem and its context in order to gain support for their position?
 
-- Put it *ON THE BOARD*
+- Work directly *ON THE BOARD*
 
-- Don't draw out the subtext yet, e.g. we'll analyze the argument in a moment, just diagram the argument as they are making it.
+<br>
 
-### Make sense?
+### Questions on your job?
 
-Go!
+- Go!
 
 <br>
 
@@ -667,10 +921,14 @@ background-size: 100%
 background-position: center
 
 .pull-left[
-.center[
-.size55[All public arguments are strategies.
+.size55[
 
-They do NOT necessarily reveal "true" preferences.]
+<br>
+
+.center[
+All public arguments are strategies.
+
+They do NOT reveal "true" preferences.]
 ]]
 
 .pull-right[
@@ -681,11 +939,11 @@ knitr::include_graphics("libs/Images/04_2-Salesman.jpg")
 
 ???
 
-With that exercise complete, I want to once again re-iterate this VERY key point.
+With that exercise complete, I want to highlight this VERY key point.
 
 - All of these submissions, speeches, testimonies, ads, etc are strategic signals meant to generate support for a given position.
 
-- They DO NOT reveal "true" preferences.
+- Problem framings DO NOT reveal "true" preferences.
 
 <br>
 
@@ -693,6 +951,8 @@ HOWEVER, the public argument does tell us A TON about how that stakeholder frame
 
 - e.g. who they think matters, the stakes involved and what arguments they believe have the best chance to succeed
 
+<br>
+
 ### Make sense?
 
 
@@ -704,71 +964,62 @@ background-size: 100%
 background-position: center
 class: middle, top
 
-.center[.size50[**Analyzing the Stakeholders**]]
+.center[.size50[.content-box-green[**Analyzing the Stakeholders**]]]
 
-.size40[**1) Diagram the argument and use it to...**]
+<br>
 
-.size40[**2) Classify the stakeholder**]
+.size40[**1) Diagram the problem framing and use it to...**]
+
+.size40[**2) Unpack the stakeholder's position**]
 .size35[
-- Who are they talking to? Why?
-- What kinds of evidence are they using?
-- Are they focused on policy design or the baseline argument?
-- What is their preferred source of "wisdom"?
-- What else might help us work with them?
+- Who matters? (e.g. who are they talking to? why?)
+
+- What do they value? (e.g. preferred source of wisdom)
+
+- What costs are they trying to avoid?
 ]
 
 ???
 
-#### Second step: Analyze the argument in order to learn about the stakeholder 
+Second step: Analyze their problem framing in order to identify or unpack what you can learn about their position
 
-You've got the broad strokes of their position mapped out, now we analyze these public arguments to learn about the stakeholder.
+<br>
 
-- In other words, what does their public signal reveal about their core preferences?
+The problem-framing is a strategic package of ideas which means it is marketing (in a sense)
 
-- The better we can do at identifying their core preferences hidden in the public pitch, the greater our options for designing a policy that addresses their needs (if possible)
+- HOWEVER, that doesn't make it useless!
+
+<br>
+
+Analyzing the marketing of an idea tells you a ton about how that stakeholder views the dynamics of the political problem itself
+
+- Who do they believe matters?
+
+- What do they value? (e.g. preferred source of wisdom)
+
+- What do they fear? (e.g. costs are they trying to avoid)
+
+<br>
 
 ### Make sense?
 
-Note: Baseline here refers to an argument we don't need a policy either because the problem is private or the decision should be left to individuals.
+- Give it a shot!
 
-Get to analyzing!
-
-<br>
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, top
-
-.center[.size55[**Analyzing the Stakeholders**]]
-
-.size30[
-1. David Greene, Oak Ridge National Laboratory (3.11) 
-2. The National Center for Public Policy Research (3.7)
-3. The Union of Concerned Scientists (3.9 and 3.15)
-4. Bill Visnic, SUV Owners of America (3.1)
-5. Public Citizen (3.3)
-6. The CATO Institute (3.10)
-7. Norman Mineta, Secretary of Transportation (3.8)
-8. National Review (3.4)
-]
-
-???
-
-Ok, report back to us what you've concluded!
-
-### How does each of these stakeholders frame the problem?
-
-#### - To what degree do you believe their public statements reflect their actual problem framing? In other words, how much of their argument is performance vs truth?
+- Get ready to report back on what you've learned about the problem AND about your stakeholder from analyzing the framing.
 
 <br>
 
-**SLIDE**: so, where is the overlap?
+*PRESENT and DISCUSS each*
+
+1. (Supporter) 3.11 David L. Greene, Oak Ridge National Laboratory (p133-138) 
+2. (Opponent) 3.7 The National Center for Public Policy Research (p120-124)
+3. (Supporter) 3.9 AND 3.15 The Union of Concerned Scientists (p126-128, 140-141)
+4. (Opponent) 3.1 Bill Visnic, SUV Owners of America (p109-112)
+5. (Supporter) 3.3 Public Citizen (p113-115)
+6. (Opponent) 3.10 The CATO Institute (p128-133)
+7. (Supporter) 3.8 Norman Mineta, Secretary of Transportation (p124-126)
+8. (Opponent) 3.4 National Review (p115-117)
+
 
 
 
@@ -801,8 +1052,11 @@ knitr::include_graphics("libs/Images/04_2-electric_bmw.jpg")
 
 ???
 
+So, the CAFE standard policy is the result of all these stakeholders and problem-framings colliding
 
-Miller argues at the start of the chapter that no single event triggered this policy, it was a confluence of many events pointing in the same direction:
+<br>
+
+Miller argues at the start of the chapter that no single event triggered CAFE, that it was a confluence of many events pointing in the same direction:
 
 - Continued over-dependence on foreign oil from regions in unrest
 
@@ -822,46 +1076,11 @@ Clearly, some talented policy-makers had to work hard to develop a problem frami
 
 ### What lessons can we take from this that will help us solve environmental problems?
 
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, top
-
-.center[.size50[**Analyzing the Stakeholders**]]
-
-.size25[
-1. David Greene, Oak Ridge National Laboratory (3.11) 
-2. The National Center for Public Policy Research (3.7)
-3. The Union of Concerned Scientists (3.9 and 3.15)
-4. Bill Visnic, SUV Owners of America (3.1)
-5. Public Citizen (3.3)
-6. The CATO Institute (3.10)
-7. Norman Mineta, Secretary of Transportation (3.8)
-8. National Review (3.4)
-]
-
-.center[.size40[**Based on your analysis, what are our best strategies for reversing this stakeholder's position?**]]
-
-???
-
-I know this is a weird question given that this is a class focused on solving environmental problems.
-
-- HOWEVER, our task right now is to practice thinking critically about stakeholders and how we might shape our arguments to win them over, NOT to promote CAFE standards.
-
 <br>
 
-So, groups, take a minute to think about how your analyses could be used to help us design a strategy that would reverse this stakeholders position on this issue 
+Next week we spend both classes working on your first report.
 
-- pro to con OR con to pro
-
-### Questions?
-
-Go for it!
+- **SLIDE**: For next class we focus on stakeholders
 
 
 
@@ -871,30 +1090,15 @@ Go for it!
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-
 class: middle
 
-.size70[**Assignment for Tuesday**]
-
-.size50[
-**Before class** submit to Canvas **evidence** we can use to diagram and analyze the positions of the two opposing stakeholders you selected.
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/04_2-Assignment.png")
+```
 
 ???
 
-Next week we focus on the first paper!
-
-- For today you identified two relevant stakeholders.
-
-- For Tuesday you need to begin analyzing them and that requires evidence!
-
 <br>
-
-Before class submit to Canvas evidence we can use to diagram and analyze the positions of two opposing stakeholders you identified for last class. 
-
-- Find something concrete that describes, or allows us to infer about, how each of them differently frames your problem. 
-
-- For each, include an APA citation to the evidence and a short explanation of why you believe this evidence is valuable to your work.
 
 ### Questions on the assignment?
 
