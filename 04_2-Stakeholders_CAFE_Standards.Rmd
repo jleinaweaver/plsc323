@@ -526,6 +526,8 @@ d_long <- d |>
 d |>
   filter(Year < 1986) |>
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
   geom_point() +
   geom_line() +
   theme_bw() +
@@ -537,6 +539,7 @@ d |>
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
        caption = "Source: Department of Energy")
+  
 ```
 
 ???
@@ -564,14 +567,59 @@ CAFE applies to both cars and light duty trucks but for now I just want to focus
 
 
 
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Carter elected
+d |>
+  filter(Year < 1986) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Jimmy Carter", color = "blue") +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 1986), breaks = 1974:1986) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("text", x = 1975, y = 11, label = "Estimated", color = "red") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+Carter gets elected and keeps the proverbial train rolling ahead.
+
+- HOWEVER, his time in office is notoriously ROUGH
+
+<br>
+
+Iran takes Americans hostage, Carter fails to free them and this ushers in the era of:
+
+- **SLIDE**: Reagan!
+
+
+
+
+
 
 ---
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
-# Plot 2: 1975 - 1988
+# Reagan
 d |>
   filter(Year < 1989) |>
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Jimmy Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Ronald Reagan", color = "red") +
   geom_point() +
   geom_line() +
   theme_bw() +
@@ -600,16 +648,62 @@ Despite this success, Ford and General Motors aggressively "lobbied the Reagan a
 ---
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
-# Plot 2: 1975 - 2007
+# George HW Bush
 d |>
-  filter(Year < 2008) |>
+  filter(Year < 1993) |>
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Jimmy Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Ronald Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HW Bush", color = "red") +
   geom_point() +
   geom_line() +
   theme_bw() +
   #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
   scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
-  scale_x_continuous(limits = c(1974, 2008), breaks = seq(1974, 2008, 2)) +
+  scale_x_continuous(limits = c(1974, 1993), breaks = 1974:1993) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+Presidency passes from Reagan to his VP, George HW Bush
+
+- In 1989 the three year pause on CAFE standards is ended and we return to the 1986 standard
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# Clinton
+d |>
+  filter(Year < 2001) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HW Bush", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 2001), breaks = seq(1974, 2001, 2)) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
@@ -624,11 +718,49 @@ Lowered standards and increased truck/SUV sales meant that by the end of the 199
 
 President Clinton comes in and tries to enact an increase in CAFE
 
-- Congress responds with an appropriations rider taking away the administration's authority to increase vehicle efficiency (lasts 1995 to 2000).
-
 <br>
 
-**SLIDE**: No new activity on this for almost 20 years
+Congress responds with an appropriations rider taking away the administration's authority to increase vehicle efficiency (lasts 1995 to 2000).
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
+# GWB
+d |>
+  filter(Year < 2008) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HW Bush", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 30, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GW Bush", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2008, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 2008), breaks = seq(1974, 2008, 2)) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       caption = "Source: Department of Energy")
+```
+
+???
+
+GWB elected and CAFE standards remain frozen at 1986 levels until 2007
+
+- Functionally, while the world auto fleets grew more efficient, no new activity on this for almost 20 years in the US
 
 
 
@@ -639,14 +771,27 @@ President Clinton comes in and tries to enact an increase in CAFE
 d |>
   filter(Year < 2008) |> 
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 40, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HWB", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 40, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GWB", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2009, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
   geom_point() +
   geom_line() +
   theme_bw() +
   scale_y_continuous(limits = c(0, 40), breaks = seq(0, 40, 10)) +
   scale_x_continuous(limits = c(1974, 2020), breaks = seq(1974, 2020, 3)) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
-  annotate("point", x = 2020, y = 35, color = "blue", size = 3) +
-  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "blue") +
+  annotate("point", x = 2020, y = 35, color = "red", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
        caption = "Source: Department of Energy")
@@ -662,7 +807,15 @@ In December 2007, Congress passes the Energy Independence and Security Act (EISA
 
 ### Any guesses why Congress decided to act in 2007?
 
-- (**SLIDE**: Obama about to be president!)
+- War on Terrorism + wars in Iraq and Afghanistan are messing up oil markets
+
+- US automakers producing cars the rest of the world doesn't want
+
+- US consumers buying international cars
+
+- AND...
+
+- **SLIDE**: Obama about to be president!
 
 
 
@@ -674,20 +827,39 @@ In December 2007, Congress passes the Energy Independence and Security Act (EISA
 d |>
   filter(Year < 2017) |> 
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 40, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HWB", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 40, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GWB", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2009, ymin = 0, ymax = 40, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  annotate("rect", xmin = 2009, xmax = 2017, ymin = 0, ymax = 40, fill = "blue", alpha = .1) +
+  annotate("text", x = 2013, y = 1, label = "Obama", color = "blue") +
   geom_point() +
   geom_line() +
   theme_bw() +
   scale_y_continuous(limits = c(0, 40), breaks = seq(0, 40, 10)) +
   scale_x_continuous(limits = c(1974, 2020), breaks = seq(1974, 2020, 3)) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
-  annotate("point", x = 2020, y = 35, color = "blue", size = 3) +
-  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "blue") +
+  annotate("point", x = 2020, y = 35, color = "red", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
        caption = "Source: Department of Energy")
 ```
 
 ???
+
+Obama's first term (2009-2012)
+
+<br>
 
 April 2009: Obama pushes a 35.5 mpg FLEETWIDE target by 2016 (e.g. both cars and light trucks)
 
@@ -702,6 +874,21 @@ April 2009: Obama pushes a 35.5 mpg FLEETWIDE target by 2016 (e.g. both cars and
 d |>
   filter(Year < 2017) |> 
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HWB", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GWB", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2009, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  annotate("rect", xmin = 2009, xmax = 2017, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 2013, y = 1, label = "Obama", color = "blue") +
   geom_point() +
   geom_line() +
   theme_bw() +
@@ -710,12 +897,18 @@ d |>
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   annotate("point", x = 2025, y = 54.5, color = "blue", size = 3) +
   annotate("segment", x = 2016, xend = 2025, y = 37.8, yend = 54.5, linetype = "dashed", color = "blue") +
+  annotate("point", x = 2020, y = 35, color = "red", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
        caption = "Source: Department of Energy")
 ```
 
 ???
+
+Obama's second term
+
+<br>
 
 August 2012: Obama finalizes a new rule that combines cars and light-duty trucks and sets the target of 54.5 mpg by 2025
 - [Link](https://obamawhitehouse.archives.gov/the-press-office/2012/08/28/obama-administration-finalizes-historic-545-mpg-fuel-efficiency-standard)
@@ -734,6 +927,23 @@ August 2012: Obama finalizes a new rule that combines cars and light-duty trucks
 d |>
   filter(Year < 2021) |> 
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HWB", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GWB", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2009, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  annotate("rect", xmin = 2009, xmax = 2017, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 2013, y = 1, label = "Obama", color = "blue") +
+  annotate("rect", xmin = 2017, xmax = 2021, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 2019, y = 1, label = "Trump", color = "red") +
   geom_point() +
   geom_line() +
   theme_bw() +
@@ -743,6 +953,8 @@ d |>
   annotate("point", x = 2025, y = 54.5, color = "blue", size = 3) +
   annotate("segment", x = 2020, xend = 2025, y = 44.2, yend = 40, linetype = "dashed", color = "red") +
   annotate("point", x = 2025, y = 40, color = "red", size = 3) +
+  annotate("point", x = 2020, y = 35, color = "red", size = 3) +
+  annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
        title = "Corporate Average Fuel Economy (CAFE) Standards",
        caption = "Source: Department of Energy")
@@ -776,6 +988,25 @@ Trump argues that many manufacturers are only meeting the standards using variou
 ```{r, cache=TRUE, fig.retina=3, fig.asp=.57, out.width = '100%', fig.width = 9}
 d |>
   ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Ford", color = "red") +
+  annotate("rect", xmin = 1977, xmax = 1981, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1979, y = 1, label = "Carter", color = "blue") +
+  annotate("rect", xmin = 1981, xmax = 1989, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1985, y = 1, label = "Reagan", color = "red") +
+  annotate("rect", xmin = 1989, xmax = 1993, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 1991, y = 1, label = "HWB", color = "red") +
+  annotate("rect", xmin = 1993, xmax = 2001, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 1997, y = 1, label = "Clinton", color = "blue") +
+  annotate("text", x = 2005, y = 1, label = "GWB", color = "red") +
+  annotate("rect", xmin = 2001, xmax = 2009, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("rect", xmin = 1995, xmax = 2000, ymin = 25, ymax = 30, fill = "red", alpha = .3) +
+  annotate("rect", xmin = 2009, xmax = 2017, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 2013, y = 1, label = "Obama", color = "blue") +
+  annotate("rect", xmin = 2017, xmax = 2021, ymin = 0, ymax = 60, fill = "red", alpha = .1) +
+  annotate("text", x = 2019, y = 1, label = "Trump", color = "red") +
+  annotate("rect", xmin = 2021, xmax = 2025, ymin = 0, ymax = 60, fill = "blue", alpha = .1) +
+  annotate("text", x = 2023, y = 1, label = "Biden", color = "blue") +
   geom_point() +
   geom_line() +
   theme_bw() +
