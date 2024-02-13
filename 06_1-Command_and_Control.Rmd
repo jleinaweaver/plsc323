@@ -35,15 +35,13 @@ background-size: 105%
 background-class: center
 class: middle
 
-.size45[**II. Policy Design Options**]
+.size45[**II. Evaluating Policy Design Options**]
 
 <br>
 
 .size50[
 
 **Today's Agenda**
-
-Approaches to Environmental Policy Design
 
 - "Command and Control" Regulations
 ]
@@ -72,7 +70,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size60[**The Semester: Three Sections**]
+.size60[.content-box-green[**The Semester: Three Sections**]]
 
 .size45[
 1. **The Basics of Problem-Solving in a Community**
@@ -92,13 +90,25 @@ We've spent the last five weeks on section 1 of our class.
 
 Specifically we've explored:
 
-- How a "problem" is the result of actions taken by individuals interacting in a community (politics),
+1) How "politics" matters for problem-solving
+- e.g. problems are often created by actions taken by individuals pursuing their own interests while interacting in a community
 
-- How many problems appear intractable because the stakeholders all define it differently (definitions),
+<br>
 
-- What policy is, why it exists and the different ways we can assess its effectiveness (policy), and
+2) How "definitions" matter for problem-solving
+- e.g. problems often appear intractable simply because the stakeholders all define it differently
 
-- How community based problem solving requires us to be flexible and adaptable to the needs of the stakeholders whose behavior we may be trying to change.
+<br>
+
+3) How "policy" matters for problem-solving
+- e.g. what a "good" policy needs, why it exists and how we might assess its effectiveness
+
+<br>
+
+Hopefully our work in Section 1 has helped you think more deeply about your chosen local environmental problem
+
+- e.g. whose actions have caused it, who benefits from its existence, what rules currently exist to address it, etc
+
 
 
 
@@ -110,7 +120,8 @@ background-size: 100%
 background-position: center
 class: middle
 
-# Section 2: Evaluating Policy Design Options
+.size45[.content-box-green[**Section 2: Evaluating Policy Design Options**]]
+
 .size55[
 1. Command & Control Regulations
 
@@ -138,41 +149,41 @@ Over the next four weeks we will analyze each of these approaches as tools for s
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
-.size70[**Paper 2**]
+.size60[.content-box-green[**Paper 2**]]
 
 .size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
+Which of the four policy approaches is the "right" one for you?
 
-- Analyze the pros and cons of each option for your chosen problem
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
 ]
 
 ???
 
+The purpose of this paper is to help you select the "right" policy approach for your final policy proposal. 
 
-In this paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
+- To do that, this paper asks you to evaluate each design as a single, stand alone approach for addressing your problem
 
-- For this paper you must evaluate each design as a **single, stand alone approach** (no blending)
-
-- The final proposal can blend as many ideas/approaches as you want, but this paper  has a narrower aim. 
-
-- ALSO, you must support all claims with evidence!
-
-### Any questions on the prompt?
+- (e.g. without combining them to create a hybrid).
 
 <br>
 
-My plan is that each week we'll attack these like we did the basic elements.
+Your final policy proposal at the end of the semester may draw on as many approaches as you want, but this paper is a crucial step before that can happen. 
+
+- What are the pros and cons of using each design ALONE to tackle your problem?
+
+<br>
+
+My plan is that each week in this section of the class we'll attack these like we did the basic elements.
 
 - Each Tuesday I will give you readings on the background and a case to consider.
 
 - Each Thursday we'll apply the lessons to your specific environmental problems.
-
 
 
 
@@ -185,8 +196,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-# Section 2: Evaluating Policy Design Options
-.size55[
+.size45[.content-box-green[**Section 2: Evaluating Policy Design Options**]]
+
+.size50[
 1. .textblue[**Command & Control Regulations**]
 
 2. "Green" Taxes
@@ -204,7 +216,7 @@ Today we start with the "command and control" policy approach.
 
 ### Big picture, explain to me what a "command and control" policy does to solve an environmental problem?
 
-- (SLIDE)
+- (**SLIDE**)
 
 
 
@@ -218,23 +230,24 @@ class: center
 
 ???
 
-Command-and-Control Regulations [(OpenStax 2016)](https://opentextbc.ca/principlesofeconomics/chapter/12-2-command-and-control-regulation/)
-
-- A regulatory approach to reducing pollution
-    - e.g. Government tells people what they can/can't do OR how they must do something
-    
-- Examples: 
-    - Bans on some emissions,
-    - Limitations on some emissions, 
-    - Laws specifying what specific equipment you must use (pollution-control technologies)
+[Command-and-Control Regulations](https://opentextbc.ca/principlesofeconomics/chapter/12-2-command-and-control-regulation/) represent a regulatory approach to reducing pollution
+- e.g. Government tells people what they can/can't do OR how they must do something
 
 <br>
 
-The Open Textbook chapter argues command-and-control forces polluters to pay the social costs of their pollution.
+For Example:
 
-### What does that mean?
+- You could put a ban on certain kinds of emissions (e.g. power plants may not release toxic mercury)
 
-- (**SLIDE**: Let's talk about the economics of regulating pollution!)
+- You could put a limitation on certain kinds of emissions (e.g. power plants may not release more than X pounds of toxic mercury)
+
+- You could mandate specific pollution-control technologies (e.g. power plants must install scrubbers that remove mercury from their emissions)
+
+<br>
+
+The Econ Textbook chapter I gave you argues that command-and-control approaches force polluters to pay the social costs of their pollution.
+
+- **SLIDE**: Let's talk about the economics of regulating pollution!
 
 
 
@@ -251,22 +264,34 @@ knitr::include_graphics('libs/Images/10-1-simpsons-mr.-burns.png')
 
 ???
 
-Hypothetical Example: 
-- Mr. Burns buys some land and builds a factory to produce widgets he can sell for a profit.
-- Unfortunately, the factory emits pollution that:
-    - makes the river water undrinkable, 
-    - kills a local fishery, and 
-    - puts enough smog and PM into the air to increase asthma rates, heart attacks and reduce the productivity of local local farms.
+Imagine a local billionaire buys some land and builds a factory to produce widgets he can sell for a profit.
+
+<br>
+
+As part of the widget production process the factory emits a byproduct that:
+- makes the river water undrinkable, 
+
+- kills a local fishery, and 
+
+- adds enough fine particulate matter to the air to increase asthma rates, heart attacks and reduce the productivity of local farms.
 
 <br>
 
 ### Why is this an example of pollution as an "externality"?
-- Market Externality Defined: "The effect of a market exchange on a third party who is outside or “external” to the exchange is called an externality" (OpenStax [Link](https://opentextbc.ca/principlesofeconomics/chapter/12-1-the-economics-of-pollution/))
 
-- The pollution in this example is impacting persons outside the primary exchange, e.g. widgets for cash.
-    - (It is not the purpose of the factory to produce pollution, that is external to its primary market purpose)
+<br>
 
+A market externality is "the effect of a market exchange on a third party who is outside or “external” to the exchange is called an externality" (OpenStax [Link](https://opentextbc.ca/principlesofeconomics/chapter/12-1-the-economics-of-pollution/))
 
+<br>
+
+The primary exchange here is a company selling widgets to consumers
+
+- The pollution impacts a third party, separate from that exchange
+
+- In other words, it is not the purpose of the factory to produce pollution, that is external to its primary market purpose
+
+ 
 
 
 ---
@@ -282,15 +307,21 @@ knitr::include_graphics('libs/Images/10-1-simpsons-mr.-burns.png')
 
 ???
 
-### So, in this imaginary hypothetical how many widgets should Mr. Burns produce?
-
-- In the absence of local laws or regulations concerning pollution this decision is probably a function of:
-    1. How many do you think you can sell? AND
-    2. What is the marginal cost per unit (e.g. the cost to produce each widget)
+### In the absence of any laws against pollution, how many widgets should the factory owner produce?
 
 <br>
 
-In other words, if customers want widgets and will pay more than they cost him to make he should keep making more widgets!
+Per Econ 101, it depends on two primary factors:
+
+1. How much demand is there for the widgets?
+
+2. How expensive are they to produce? (e.g. marginal cost per unit)
+
+<br>
+
+In other words, and in the absence of environmental laws, the factory should produce widgets to meet the demand while remaining sensitive to the cost
+
+<br>
 
 ### Make sense?
 
@@ -313,6 +344,7 @@ p1 <- tibble(
   theme_classic() +
   coord_cartesian(xlim = c(0, 125)) +
   scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
   labs(x = "Quantity Produced", y = "Price per Widget")
 
 p1
@@ -320,17 +352,15 @@ p1
 
 ???
 
-[Welcome to super basic Econ-101!](https://www.env-econ.net/negative-externality.html)
-
-- Let's start with supply and demand.
+[Time for a basic Econ 101 treatment of supply and demand](https://www.env-econ.net/negative-externality.html)
 
 <br>
 
-Here we see a visual representation of Mr. Burns' decision when running his factory.
+Here we see a visual representation of the factory owner's decision when running his factory.
 
-- On the y-axis are the different prices for a widget.
+- On the y-axis are the different prices for a widget
 
-- On the x axis is the number of widgets he can choose to produce.
+- On the x axis is the number of widgets produced
 
 <br>
 
@@ -340,7 +370,7 @@ These are the two axes we need in order to illustrate demand, supply, profit and
 
 ---
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8, cache=TRUE}
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
 p1 +
   annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
   annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
@@ -350,7 +380,9 @@ p1 +
 
 This blue line is what we refer to as the supply curve.
 
-### What does this "supply" line tell us about the production decision for Mr. Burns?
+<br>
+
+### What does this "supply" line tell us about the production decision for this factory?
 
 - (The blue line represents the marginal cost per unit (MC) which tells you how much it costs to make one more widget at that level)
 
@@ -358,9 +390,13 @@ This blue line is what we refer to as the supply curve.
 
 <br>
 
-### Why is it so often true that producing more widgets is more expensive (e.g. why a positive slope for our supply curve)?
+### Why is it so often true that supply curves have a positive slope?
 
-- (**SLIDE**: Scarcity and cost!)
+### - In other words, why does producing more widgets typically cost more money?
+
+<br>
+
+- (**SLIDE**)
 
 
 
@@ -373,17 +409,22 @@ background-position: center
 
 ???
 
-Let's use a concrete example to illustrate a positive sloped marginal cost curve.
+Let's step through a hypothetical example to illustrate a positive sloped marginal cost curve.
 
 <br>
 
 Let's say you buy a piece of land that is rich in oil.
 
-- Image is what's called a petroleum seep, the oil is bubbling up from the land.
+<br>
+
+This photo shows what is called a "petroleum seep"
+- e.g. oil is bubbling up through the ground and onto the surface
 
 <br>
 
-This business is easy. Just scoop the oil into barrels and sell it!
+As a wannabe tycoon, this makes your job super easy!
+
+- Just scoop the oil into barrels and sell it!
 
 
 
@@ -411,21 +452,54 @@ p1 +
   annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
   annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
   annotate("point", x = 5, y = 17.5, size = 5) +
-  annotate("text", x = 13, y = 10, label = "Oil Seep")
+  annotate("text", x = 5, y = 28, label = "Seep")
 ```
 
 ???
 
 Far left side of the curve. 
-- You are producing very little oil, but the cost per barrel is VERY low!
+
+- You are producing very little oil, but 
+
+- It costs you very little to collect, package and distribute it!
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("point", x = 5, y = 17.5, size = 5) +
+  annotate("segment", x = 5, xend = 5, y = 0, yend = 17.5, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 5, y = 17.5, yend = 17.5, linetype = "dashed") +
+  annotate("text", x = 5, y = 28, label = "Seep")
+```
+
+???
+
+Specific to this proposed supply curve
+
+- You are producing about 5 barrels of oil per day
+
+- At a slightly better than break-even cost of $17 per barrel
+
+<br>
+
+### Does everybody understand how to translate a point on the curve to a quantity and price for widgets?
 
 <br>
 
 Congrats! This is really working and you're starting to make some money!
-- Unfortunately, the seeps will run dry.
 
-### So, what do you do?
-- (**SLIDE**: build an oil derrick)
+- Unfortunately, you are limited to only 5 barrels per day using the seep and that's not going to keep you afloat!
+
+<br>
+
+So, what do you do?
+
+- **SLIDE**: Invest in production
 
 
 
@@ -442,7 +516,7 @@ So you build an oil derrick in order to dig deeper and reach new oil supplies fa
 
 <br>
 
-### What does this investment mean for your costs?
+### How has building an oil derrick changed your business?
 
 - (Oil derrick construction is expensive and you have to pay upkeep to keep it running.)
 
@@ -463,8 +537,10 @@ p1 +
   annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
   annotate("point", x = 5, y = 17.5, size = 5, alpha = .25) +
   annotate("point", x = 55, y = 42.5, size = 5) +
-  annotate("text", x = 13, y = 10, label = "Oil Seep", alpha = .6) +
-  annotate("text", x = 60, y = 34, label = "Oil Derrick")
+  annotate("segment", x = 55, xend = 55, y = 0, yend = 42.5, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 55, y = 42.5, yend = 42.5, linetype = "dashed") +
+  annotate("text", x = 5, y = 28, label = "Seep", alpha = .6) +
+  annotate("text", x = 55, y = 52, label = "Derrick")
 ```
 
 ???
@@ -472,6 +548,10 @@ p1 +
 Extracting more oil requires sizable investments in production
 
 - Sizable investments in production are only affordable if you can sell the oil at higher prices
+
+- You can now produce 55 barrels of oil per day, but the cost per barrel has now cleared $42
+
+<br>
 
 ### Make sense?
 
@@ -494,10 +574,13 @@ background-position: center
 
 Next step, take your company public!
 
-- Sell shares on the stock market
+- You launch an IPO (sell shares on the stock market) and raise a fortune!
 
-- Unfortunately, investors demand infinite growth and the calls to fire you are getting louder.
-    - You need to find more oil to sell...
+<br>
+
+Unfortunately, investors demand infinite growth and the calls to fire you are getting louder.
+
+- You need to find more oil to sell...
 
 <br>
 
@@ -513,24 +596,37 @@ p1 +
   annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
   annotate("point", x = 5, y = 17.5, size = 5, alpha = .25) +
   annotate("point", x = 55, y = 42.5, size = 5, alpha = .25) +
-  annotate("text", x = 13, y = 10, label = "Oil Seep", alpha = .6) +
-  annotate("text", x = 60, y = 34, label = "Oil Derrick", alpha = .6) +
+  annotate("text", x = 5, y = 28, label = "Seep", alpha = .6) +
+  annotate("text", x = 55, y = 52, label = "Derrick", alpha = .6) +
   annotate("point", x = 90, y = 60, size = 5) +
-  annotate("text", x = 94, y = 54, label = "Oil Rig")
+  annotate("segment", x = 90, xend = 90, y = 0, yend = 60, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 90, y = 60, yend = 60, linetype = "dashed") +
+  annotate("text", x = 90, y = 68, label = "Ocean\nRig")
 ```
 
 ???
 
-This adds massive new costs to your production
-- Waves, 
+You are now producing 90 barrels per day, which is great for you (and your shareholders)
+
+<br>
+
+But the costs have skyrocketed to $60 per barrel
+
+- Ocean damage (salt water is brutal), 
+
 - storms, 
+
 - pirates, 
+
 - huge numbers of employees who suddenly want to unionize,
-- harassment by environmental activists who note you may be destroying the planet...
+
+- harassment by environmental activists who argue you are destroying the planet...
 
 <br>
 
 I may be getting sidetracked.
+
+<br>
 
 ### Is everybody clear on why we can assume increasing marginal costs of production?
 
@@ -551,24 +647,31 @@ p1 +
 
 ???
 
-Go back to Mr. Burns factory.
-
-### Why can we probably assume increasing marginal costs for Mr. Burns factory?
-
-- (In Mr. Burns case just think of it becoming harder and harder (e.g. more expensive) to:
-    - source the materials he needs to make widgets,
-    - Add equipment and employees to run it,
-    - etc.
-
-- This is true for many, if not most, industrial production processes.
+Back to the local factory
 
 <br>
 
-Long story short, that's the supply curve.
+### Why can we probably assume increasing marginal costs for the widget factory?
 
-- As you make more widgets, you have to charge more for them or you won't make a profit.
+<br>
 
-### Questions on this?
+The more widgets you want to make, the more materials, equipment, and staff you need to produce them
+
+- This is true for many, if not most, industrial production processes
+
+<br>
+
+Long story short, that's the supply curve and why it typically has a positive slope.
+
+- As you make more widgets, you have to charge more for each of them or you won't make a profit.
+
+<br>
+
+### Make sense?
+
+<br>
+
+**SLIDE**: Alright, let's talk demand which is the other half of this production function
 
 
 
@@ -585,13 +688,61 @@ p1 +
 
 Here's the demand curve.
 
-### How do I read the demand curve? What is it telling me?
+<br>
 
-- (This indicates how many widgets people are willing to buy at different levels of the price.)
-    - When the price is super high, nobody is willing to buy.
-    - As the price falls, demand increases.
+### What do we learn about consumer demand for widgets from this negatively sloped line?
 
-- Confusing because the line is falling, but remember moving to the right means increasing the number of widgets made/sold.
+- This indicates how many widgets people are willing to buy at different levels of the price.
+
+- Demand for widgets is price sensitive
+
+<br>
+
+**SLIDE**: For example
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("point", x = 25, y = 75, size = 3, color = "red") +
+  annotate("segment", x = 25, xend = 25, y = 75, yend = 0, color = "red", linetype = "dashed") +
+ annotate("segment", x = 0, xend = 25, y = 75, yend = 75, color = "red", linetype = "dashed") 
+```
+
+???
+
+When the price is super high, few people are willing to buy the widgets.
+
+- For this factory, only 25 customers are willing to buy widgets at a $75 price point
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("point", x = 80, y = 20, size = 3, color = "red") +
+  annotate("segment", x = 80, xend = 80, y = 20, yend = 0, color = "red", linetype = "dashed") +
+  annotate("segment", x = 0, xend = 80, y = 20, yend = 20, color = "red", linetype = "dashed") 
+```
+
+???
+
+However, as the price falls more customers are willing to purchase them
+
+- Here we see a price point of $20 finding customers for 80 widgets!
+
+<br>
+
+This can be a little confusing because the line is falling, but remember moving to the right means increasing the number of widgets made/sold.
 
 <br>
 
@@ -614,15 +765,34 @@ p2
 
 ???
 
-We can plot both curves on the same plot.
+In Econ 101 terms the factory owner should decide how many widgets to produce as a function of both curves
 
 - Here we see the marginal demand curve in red and the marginal cost curve in blue. 
 
+- Where the two lines cross is the point of equilibrium
+
 <br>
 
-### Given these two curves, how many widgets should Mr Burns produce?
+### Why should the factory produce the number of widgets where the two lines cross each other?
 
-- (**SLIDE**)
+### - What is special about this equilibrium point?
+
+<br>
+
+Generally speaking, the equilibrium point maximizes the factory's profit
+
+<br>
+
+More precisely, this is the last point at which you can increase production of new widgets and still earn more than they cost to make
+
+
+<br>
+
+Beyond this point, making more widgets would require you to lower the price to find a buyer and the marginal costs begin to exceed the returns at the lower price
+
+<br>
+
+**SLIDE**: Let me illustrate this visually for you
 
 
 
@@ -630,19 +800,21 @@ We can plot both curves on the same plot.
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
 p2 +
-  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
-  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed")
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5)
 ```
 
 ???
 
-Maximizing profit means finding the equilibrium point between supply and demand.
+Here we see the sales for our factory at the equilibrium point
 
-- This is the amount that allows you to sell everything you make at or above the break-even cost.
+- The red area represents the marginal costs of production (e.g. what you spend to make each widget in variable cost terms)
+
+- The blue area is the producer surplus (e.g. the sales at a level higher than what you need to break even)
 
 <br>
 
-**SLIDE**: Let's step through this intuition.
+**SLIDE**: In simple terms think of what each point along the supply line represents here.
 
 
 
@@ -650,18 +822,88 @@ Maximizing profit means finding the equilibrium point between supply and demand.
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
 p2 +
-  #annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
-  #annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 10, y = 20, size = 3) +
+  annotate("point", x = 10, y = 43, size = 3) +
+  annotate("segment", x = 10, xend = 10, y = 23, yend = 40, arrow = arrow(length = unit(.15, "in")))
+```
+
+???
+
+For example, if you produced 10 widgets you'd be happy with any price above $20
+
+<br>
+
+HOWEVER, you are actually selling those cheaper to make widgets for $43!
+
+- That's a $23 profit on that widget!
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
+p2 +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 35, y = 33, size = 3) +
+  annotate("point", x = 35, y = 43, size = 3) +
+  annotate("segment", x = 35, xend = 35, y = 35, yend = 41, arrow = arrow(length = unit(.15, "in")))
+
+# Total revenue
+revenue1 <- 56*43
+
+# Marginal Cost (triangle + square)
+rect_height <- 15
+rect_length <- 56
+
+tri_h <- 43-15
+tri_b <- 56
+
+# 1,624
+mc <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+
+# Producer surplus (v1)
+#revenue1 - mc
+
+# Producer surplus (v2)
+height <- 43-15
+base <- 56
+prod_surplus <- height*base/2
+```
+
+???
+
+We can trace this logic along the line.
+
+- At each point of production below the equilibrium we are selling the widgets for far more than it cost us to make them
+
+<br>
+
+### Everybody understand the logic of the equilibrium point?
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
+p2 +
+  #annotate("segment", x = 85, xend = 85, y = 57.5, yend = 0, linetype = "dashed") +
   annotate("point", x = 85, y = 57.5, size = 6, color = "blue")
 ```
 
 ???
 
-### According to this plot, what would happen to you, the factory owner, if you produced widgets at this level on the supply curve?
-1. You would spend up to $60 per widget to make a total of 85 widgets.
-2. And, you would have to charge MORE than $60 per widget to make a profit
+Now, what happens if the factory owner ignores this point and increases production beyond the equilibrium?
 
-### So, produce this many widgets and what happens to your business?
+- Clearly, the factory would like to increase its profits!
+
+<br>
+
+### Given this demand curve, what will happen if the factory produces 85 widgets?
+
 - (**SLIDE**)
 
 
@@ -670,26 +912,90 @@ p2 +
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
 p2 +
-  annotate("segment", x = 80, xend = 0, y = 57.5, yend = 57.5, linetype = "dashed") +
-  annotate("segment", x = 42, xend = 42, y = 0, yend = 57.5, linetype = "dashed") +
-  #annotate("segment", x = 85, xend = 85, y = 0, yend = 57.5, linetype = "dashed") +
-  annotate("point", x = 85, y = 57.5, size = 6, color = "blue") +
-  annotate("point", x = 42, y = 57.5, size = 6, color = "red")
+  annotate("segment", x = 85, xend = 0, y = 57.5, yend = 57.5, linetype = "dashed") +
+  annotate("segment", x = 85, xend = 85, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("polygon", x = c(0, 85, 85, 0), y = c(0, 0, 57.5, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 85, y = 57.5, size = 6, color = "blue")
+
+# Cost area: rectangle + triangle
+rect <- 15*85
+triangle <- (85 * (57.5-15)) / 2
+#rect + triangle
 ```
 
 ???
 
-The demand curve tells us there are only customers for 42 widgets at a price of $60 per widget.
-
-So, your options then become:
-
-1. Give away product for free and go bankrupt, OR
-
-2. Refuse to sell any widgets except at your preferred price, sales drop to zero and you go bankrupt.
+Clearly, our marginal costs of production have exploded!
 
 <br>
 
-### Is everybody clear about why you can't move up the supply curve just because you want to sell more widgets?
+### But how many widgets can we sell at this price point ($57)?
+
+
+
+
+---
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
+p2 +
+  annotate("segment", x = 85, xend = 0, y = 57.5, yend = 57.5, linetype = "dashed") +
+  annotate("segment", x = 85, xend = 85, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("polygon", x = c(0, 85, 85, 0), y = c(0, 0, 57.5, 15), fill = "pink3", alpha = .5) +
+  annotate("polygon", x = c(0, 42, 42, 0), y = c(15, 36, 57.5, 57.5), fill = "cadetblue2", alpha = .5) +
+  annotate("point", x = 85, y = 57.5, size = 6, color = "blue") +
+  annotate("segment", x = 42, xend = 42, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("point", x = 42, y = 57.5, size = 6, color = "red")
+
+# Total revenue $2,415
+revenue2 <- 42*57.5
+
+# Marginal Cost (triangle + square)
+rect_height <- 15
+rect_length <- 85
+
+tri_h <- 57.5-15
+tri_b <- 85
+
+# 3,081
+mc2 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+
+# Producer surplus (v1) -$666
+revenue2 - mc2
+
+# Producer surplus (v2) - New blue area is bigger BUT costs have ballooned!
+rect_height <- 57.5-36
+rect_length <- 42
+
+tri_h <- 36-15
+tri_b <- 42
+
+# $1,344
+prod_sur2 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+```
+
+???
+
+We trace the line for $58 onto the demand curve and it shows us there are only customers willing to buy 42 widgets at that price.
+
+<br>
+
+This represents a market surplus and that's really bad for the factory owner
+
+- We've spent the money to make widgets we can't sell
+
+- Per this plot we have 40 widgets we've paid for that are sitting in a warehouse costing us money that no one wants at these prices
+
+<br>
+
+Markets tend to exploit companies that screw up in this way
+
+- Prices fall and bankruptcies ensue
+
+<br>
+
+### Does this make sense in broad strokes?
+
+### - Is everybody clear about why you can't move up the supply curve just because you want to sell more widgets?
 
 
 
@@ -707,9 +1013,7 @@ p2 +
 
 Let's go the other way.
 
-### What happens if you produce at this point (e.g. 25 widgets for $28 dollars)?
-
-- (**SLIDE**)
+### What happens if you choose to produce only 25 widgets?
 
 
 
@@ -718,25 +1022,48 @@ Let's go the other way.
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8}
 p2 +
+  annotate("polygon", x = c(0, 25, 25, 0), y = c(15, 27.5, 75, 75), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 25, 25, 0), y = c(0, 0, 27.5, 15), fill = "pink3", alpha = .5) +
   annotate("segment", x = 25, xend = 25, y = 0, yend = 75, linetype = "dashed") +
   annotate("segment", x = 0, xend = 25, y = 75, yend = 75, linetype = "dashed") +
   annotate("point", x = 25, y = 27.5, size = 6, color = "blue") +
   annotate("point", x = 25, y = 75, size = 6, color = "red")
+
+# # Total revenue: 1,875
+# rev3 <- 25*75
+# 
+# # Marginal Cost (triangle + square): $531
+# rect_height <- 15
+# rect_length <- 25
+# 
+# tri_h <- 27.5-15
+# tri_b <- 25
+# 
+# mc3 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+# 
+# # Producer surplus (v1) 1,343
+# rev3 - mc3
 ```
 
 ???
 
-Holy cow you're making bank!
-
-- There is enough demand in the market that if you only make 25 widgets you could sell them for $75 apiece!
-
-- That's a huge $47 profit per widget!
+Per this demand, you could charge $75 per widget which produces a HUGE profit
 
 <br>
 
-### However, what are you leaving out? Why not do this?
-- (**SLIDE**: You're leaving a fortune on the table!)
+However, you're leaving a fortune on the table!
 
+- Per this demand line there is considerable demand from society for more widgets that you aren't meeting
+
+<br>
+
+And just as before, markets respond to these screw ups in aggressive fashion
+
+- Where market demand exists but it is being unmet you are begging for competitors to come in and compete with you!
+
+<br>
+
+### Make sense?
 
 
 
@@ -751,39 +1078,13 @@ p2 +
 
 ???
 
-This shaded range represents the producer surplus, e.g. the profits without the fixed costs.
-
-- In this example, our equilibrium point means you produce 56 widgets and sell them for $43 a piece.
-
-- The distance between $43 and the blue line (what you paid to make it) is your profit!
+### Any questions on why the equilibrium point is a powerful motivator of factory production behavior?
 
 <br>
 
-### What conclusions can we draw from this?
-### - Why produce at the equilibrium and not to the left where sales prices can be higher?
+### Ok, what key element have we not added to the story yet? Anything that might tie all of this more closely to our class?
 
-- As you suspected, sales near the equilibrium are less profitable to you than sales to the left
-
-- HOWEVER, any production up to this point WILL RETURN you a profit!
-
-- You make more money, the producer surplus, by selling more widgets even if the price is slightly lower!
-
-### Make sense?
-
-<br>
-
-### Is everybody clear on the lines here and how a factory owner might use this to make a decision about production?
-
-<br>
-
-### What key element have we not added to the story yet?
-
-(SLIDE)
-
-<br>
-
-##### Notes
-- The area above the dashed line but under the demand curve is the consumer surplus. These consumers would have paide MUCH more for your widgets but now don't have to and get to keep that money!
+- (**SLIDE**)
 
 
 
@@ -796,7 +1097,7 @@ background-position: center
 
 ???
 
-The pollution!
+Pollution externalities!
 
 - Each widget produced creates pollution, BUT
 

@@ -35,7 +35,7 @@ background-size: 105%
 background-class: center
 class: middle
 
-.size45[**II. Policy Design Options**]
+.size45[**II. Evaluating Policy Design Options**]
 
 <br>
 
