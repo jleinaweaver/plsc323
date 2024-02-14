@@ -70,18 +70,18 @@ Exploring the Success Stories
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
-.size70[**Paper 2**]
+.size60[.content-box-green[**Paper 2**]]
 
-.size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
+.size50[
+Which of the four policy approaches is the "right" one for you?
 
-- Analyze the pros and cons of each option for your chosen problem
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
 ]
 
 ???
@@ -89,8 +89,6 @@ Which of the four policy design options is the "right" choice for addressing you
 Keep your eye on the next target: Paper 2.
 
 - In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
-
-### Questions on the paper so far?
 
 <br>
 
@@ -106,7 +104,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[**Assignment for Today**]
+.size50[.content-box-green[**Assignment for Today**]]
 
 .size45[
 Submit to Canvas a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
@@ -118,9 +116,13 @@ Submit to Canvas a real world example of .textblue[**this approach**] being used
 
 ???
 
-Let's review all the submitted evidence for APA format.
+Everybody open up Canvas and let's take a look at the submitted cases
 
-### Any modifications needed?
+<br>
+
+### Are all of the citations properly formatted in APA?
+
+### - Any modifications needed?
 
 
 
@@ -131,16 +133,16 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.content-box-blue[.size45[This case shows that we can use a command and control regulation to address environmental problem X.]]]
+.center[.content-box-green[.size45[This case shows that we can use a command and control regulation to address environmental problem X.]]]
 
 <br>
 
-.size40[
-- What aspect of your problem does this regulation focus on?
+.size45[
+- What aspect of your problem does this policy focus on?
 
 - Which stakeholders does it target? How?
 
-- What institutions support this regulation?
+- What institutions support this policy?
 ]
 
 ???
@@ -153,29 +155,13 @@ Take five minutes to reflect on your argument and get ready to present it to oth
 
 - Institutions: What rules or structures currently exists to make this possible?
 
+<br>
+
 ### Questions on this?
 
 <br>
 
 Get to it!
-
-<br>
-
-Welcome to our environmental policy cocktail party!
-
-- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
-
-- I don't want to see groups of three!
-    - Your job is to interact in pairs.
-
-- I want pairs focused on hearing one case and presenting one case at a time.
-
-### Questions?
-
-Go!
-
-*You mingle too.*
-- This was super fun and you got to help steer students to being more specific, more precise
 
 
 
@@ -186,23 +172,48 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size60[.center[
-Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**command and control**] regulatory approach to environmental problem-solving]]
-
-???
-
-Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+.center[.content-box-green[.size45[This case shows that we can use a command and control regulation to address environmental problem X.]]]
 
 <br>
 
-Now let's try to extract lessons from all of them.
+.size45[
+- What aspect of your problem does this policy focus on?
 
-- Everybody form groups of (aim for three groups to keep board space manageable) and spread out around the room.
+- Which stakeholders does it target? How?
 
-- Groups: I'm going to ask you to compare and contrast the cases you heard today to help us extract general lessons for policy designers.
+- What institutions support this policy?
+]
 
+???
 
+Welcome to our environmental policy cocktail party!
 
+- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
+
+<br>
+
+I don't want to see groups of three!
+- Your job is to interact in pairs.
+
+- I want pairs focused on hearing one case and presenting one case at a time.
+
+<br>
+
+### Questions?
+
+- Go!
+
+<br>
+
+*You mingle too.*
+
+- *This was super fun and you got to help steer students to being more specific, more precise*
+
+<br>
+
+*Split class into three groups*
+
+- Go sit with your group and claim some space on the board
 
 
 
@@ -211,28 +222,81 @@ Now let's try to extract lessons from all of them.
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**command and control**] regulatory approach to environmental problem-solving]
+.size45[
+.content-box-green[What is your **best advice for policymakers** considering **C&C regulations** for environmental problem-solving?
+]
 
-<br>
+- Types of problems?
 
-.content-box-blue[.size55[What kinds of problem characteristics fit best with this policy design? What kinds do not?]]
+- Types of stakeholders?
+
+- Types of institutional support?
+]
 
 ???
 
-Ok, groups, first prompt.
 
-You just heard a bunch of cases where command and control regulations successfully addressed an environmental problem. 
-
-From those cases I want your best advice for a policy designer:
-
-*ON BOARD: 2 Columns*
-
-- **PRESENT EACH and DISCUSS**
 
 <br>
 
+You've just heard a bunch of cases where command and control regulations successfully addressed an environmental problem. 
+
+- I want you to use those cases as your data and draw out inferences from them
+
+- What advice can we offer policymakers who are considering C&C regulations for environmental problem-solving
+
+<br>
+
+I'm going to ask you to think about this as three distinct categories of problem and work on each one separately
+
+- **SLIDE**
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[.content-box-green[**Make Two Lists: Problem Types**]]
+
+<br>
+
+.size50[
+1. C&C regulations work well when targeting problems that look like...
+
+2. C&C regulations don't work well when targeting problems that look like...
+]
+
+???
+
+To begin, focus only on the types of problem you heard about in the cases
+
+<br>
+
+Make me two lists focused on the problems you heard
+
+- One list of problem characteristics that make C&C regulations a good policy choice, AND
+
+- One list of problem characteristics that suggest C&C regulations would struggle to succeed
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+#### Notes
 (Class: 3/3/2022)
 - Problem defined very narrowly
 - Problem focused on sympathetic groups (WIC program designed to help women, infants and children)
@@ -242,29 +306,45 @@ From those cases I want your best advice for a policy designer:
 
 
 
+
 ---
 
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**command and control**] regulatory approach to environmental problem-solving]
+.size55[.content-box-green[**Make Two Lists: Stakeholder Types**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of stakeholder characteristics fit best with this policy design and what kinds do not?]]
+.size50[
+1. C&C regulations work well when targeting stakeholders that look like...
+
+2. C&C regulations don't work well when targeting stakeholders that look like...
+]
 
 ???
 
-Based on the success cases, I want your best advice for a policy designer:
+Ok, repeat your list making but now focus on the stakeholders
 
-*ON BOARD: 2 Columns*
+- What kinds of stakeholders do C&C regulations work well on, and
 
-- **PRESENT EACH and DISCUSS**
+- What kinds do they handle less well?
 
 <br>
 
+### Questions?
+
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+#### Notes
 (Class: 3/3/2022)
 - Answers ran the gamut from private to public interests.
 - My conclusion was that stakeholder type doesn't appear to be a good differentiator for choosing C&C approaches over the others.
@@ -276,22 +356,31 @@ Based on the success cases, I want your best advice for a policy designer:
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**command and control**] regulatory approach to environmental problem-solving]
+.size55[.content-box-green[**Make a List: Institutional Support**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of institutional support is required to make this policy design successful?]]
+.size50[
+How much institutional support, and what kinds, is required for C&C regulations to be effective?
+]
 
 ???
 
-Based on the success cases, I want your best advice for a policy designer:
+Last job is to think about the complexity of implementing a C&C regulation.
 
-*ON BOARD*
+- How much institutional support, and what kinds, is required for C&C regulations to be effective?
 
-- **PRESENT EACH and DISCUSS**
+<br>
 
+### Questions?
+
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
 
 
 
