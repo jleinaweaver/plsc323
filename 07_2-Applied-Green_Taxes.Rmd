@@ -143,6 +143,8 @@ Take five minutes to reflect on your argument and get ready to present it to oth
 
 - Institutions: What rules or structures currently exists to make this possible?
 
+<br>
+
 ### Questions on this?
 
 <br>
@@ -203,6 +205,39 @@ I don't want to see groups of three!
 
 
 
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+.content-box-green[What is your **best advice for policymakers** considering **"green" taxation** for environmental problem-solving?
+]
+
+- Types of problems?
+
+- Types of stakeholders?
+
+- Types of institutional support?
+]
+
+???
+
+You've just heard a bunch of cases where "green" taxes successfully addressed an environmental problem. 
+
+- I want you to use those cases as your data and draw out inferences from them
+
+- What advice can we offer policymakers who are considering "green" taxes for environmental problem-solving
+
+<br>
+
+I'm going to ask you to think about this as three distinct categories of problem and work on each one separately
+
+- **SLIDE**
+
+
 
 ---
 
@@ -211,20 +246,43 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size60[.center[
-Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]]
-
-???
-
-Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+.size55[.content-box-green[**Make Two Lists: Problem Types**]]
 
 <br>
 
-Now let's try to extract lessons from all of them.
+.size50[
+1. "Green" taxes work well when targeting problems that look like...
 
-- Everybody form groups of (aim for three groups to keep board space manageable) and spread out around the room.
+2. "Green" taxes don't work well when targeting problems that look like...
+]
 
-- Groups: I'm going to ask you to compare and contrast the cases you heard today to help us extract general lessons for policy designers.
+???
+
+To begin, focus only on the types of problem you heard about in the cases
+
+<br>
+
+Make me two lists focused on the problems you heard
+
+- One list of problem characteristics that make "green" taxes a good policy choice, AND
+
+- One list of problem characteristics that suggest "green" taxes would struggle to succeed
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+#### Notes
+(Class: date?)
+- ?
 
 
 
@@ -233,26 +291,41 @@ Now let's try to extract lessons from all of them.
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
+.size55[.content-box-green[**Make Two Lists: Stakeholder Types**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of problem characteristics fit best with this policy design? What kinds do not?]]
+.size50[
+1. "Green" taxes work well when targeting stakeholders that look like...
+
+2. "Green" taxes don't work well when targeting stakeholders that look like...
+]
 
 ???
 
-Ok, groups, first prompt.
+Ok, repeat your list making but now focus on the stakeholders
 
-You just heard a bunch of cases where green taxes successfully addressed an environmental problem. 
+- What kinds of stakeholders do "green" taxes work well on, and
 
-From those cases I want your best advice for a policy designer:
+- What kinds do they handle less well?
 
-*ON BOARD: 2 Columns*
+<br>
 
-- **PRESENT EACH and DISCUSS**
+### Questions?
 
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+#### Notes
+(Class: 3/3/2022)
+- ?
 
 
 
@@ -261,48 +334,37 @@ From those cases I want your best advice for a policy designer:
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
-
-<br>
-
-.content-box-blue[.size55[What kinds of stakeholder characteristics fit best with this policy design and what kinds do not?]]
-
-???
-
-Based on the success cases, I want your best advice for a policy designer:
-
-*ON BOARD: 2 Columns*
-
-- **PRESENT EACH and DISCUSS**
-
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of a .textblue[**"green" taxation**] approach to environmental problem-solving]
+.size55[.content-box-green[**Make a List: Institutional Support**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of institutional support is required to make this policy design successful?]]
+.size50[
+How much institutional support, and what kinds, is required for "green" taxation to be effective?
+]
 
 ???
 
-Based on the success cases, I want your best advice for a policy designer:
+Last job is to think about the complexity of implementing a "green" tax.
 
-*ON BOARD*
+- How much institutional support, and what kinds, is required for "green" taxation to be effective?
 
-- **PRESENT EACH and DISCUSS**
+<br>
 
+### Questions?
 
+- Get to it!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+#### Notes
+(Class: 3/3/2022)
+- ?
 
 
 
@@ -319,7 +381,9 @@ class: top
 
 Bottom line time.
 
-### In a practical sense, what guidance can we offer policy-makers considering using a "green" tax approach to solving environmental problems?
+### In a practical sense, what guidance can we offer policy-makers considering using "green" taxes to solve environmental problems?
+
+<br>
 
 - ?
 
@@ -329,15 +393,18 @@ Bottom line time.
 
 Jot down some notes that I promise you'll need when it comes time to write the next paper.
 
-What are the pros and cons of using this approach for your specific problem?
+- What are the pros and cons of using this approach for your specific problem?
+
 
 
 ---
 
-background-image: url('libs/Images/12-1-Green_Subsidies.jpg')
+background-image: url('libs/Images/07_2-subsidies_coins.jpg')
 background-size: 100%
 background-position: center
-class: center
+class: top, center, inverse
+
+.size80[.textwhite[**"Green" Subsidies**]]
 
 ???
 
