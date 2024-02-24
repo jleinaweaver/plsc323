@@ -258,37 +258,31 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[.content-box-green[**Make Two Lists: Problem Types**]]
+.size55[.content-box-green[**Analyzing the Cases: Problem Types**]]
 
 <br>
 
 .size50[
-1. C&C regulations work well when targeting problems that look like...
+Think about all of the specific problems you heard today and use them to make a list:
 
-2. C&C regulations don't work well when targeting problems that look like...
+- C&C regulations work well when targeting problems that look like...
 ]
 
 ???
 
 To begin, focus only on the types of problem you heard about in the cases
 
+- We'll get to the stakeholders and institutional supports in a moment.
+
 <br>
 
-Make me two lists focused on the problems you heard
-
-- One list of problem characteristics that make C&C regulations a good policy choice, AND
-
-- One list of problem characteristics that suggest C&C regulations would struggle to succeed
+*ON THE BOARD*: Make me a list of problem characteristics that lend themselves to being solved with a regulation.
 
 <br>
 
 ### Questions?
 
 - Get to it!
-
-<br>
-
-*PRESENT and DISCUSS each*
 
 <br>
 
@@ -310,33 +304,27 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[.content-box-green[**Make Two Lists: Stakeholder Types**]]
+.size55[.content-box-green[**Analyzing the Cases: Stakeholder Types**]]
 
 <br>
 
 .size50[
-1. C&C regulations work well when targeting stakeholders that look like...
+Think about all of the specific problems you heard today and use them to make a list:
 
-2. C&C regulations don't work well when targeting stakeholders that look like...
+- C&C regulations work well when targeting stakeholders that look like...
 ]
 
 ???
 
 Ok, repeat your list making but now focus on the stakeholders
 
-- What kinds of stakeholders do C&C regulations work well on, and
-
-- What kinds do they handle less well?
+- What kinds of stakeholders do C&C regulations work well on?
 
 <br>
 
 ### Questions?
 
 - Get to it!
-
-<br>
-
-*PRESENT and DISCUSS each*
 
 <br>
 
@@ -354,12 +342,14 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[.content-box-green[**Make a List: Institutional Support**]]
+.size55[.content-box-green[**Analyzing the Cases: Institutional Support**]]
 
 <br>
 
 .size50[
-How much institutional support, and what kinds, is required for C&C regulations to be effective?
+How much institutional support is required for C&C regulations to be effective?
+
+- e.g. who did the rule-making, the monitoring, the enforcement, etc.?
 ]
 
 ???
@@ -376,7 +366,9 @@ Last job is to think about the complexity of implementing a C&C regulation.
 
 <br>
 
-*PRESENT and DISCUSS each*
+Groups, go take a look at what the other groups proposed!
+
+- Read it all and ask questions if you need clarifications
 
 
 
@@ -395,6 +387,8 @@ class: middle, center
 Bottom line time.
 
 ### In a practical sense, what guidance can we offer policy-makers considering using a C&C approach to solving environmental problems?
+
+*ON BOARD as a CLASS*
 
 - Depends on balance of "dirty" vs "clean" industries in the target economy
 

@@ -63,18 +63,18 @@ Exploring the Success Stories
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
-.size70[**Paper 2**]
+.size60[.content-box-green[**Paper 2**]]
 
-.size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
+.size50[
+Which of the four policy approaches is the "right" one for you?
 
-- Analyze the pros and cons of each option for your chosen problem
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
 ]
 
 ???
@@ -82,6 +82,8 @@ Which of the four policy design options is the "right" choice for addressing you
 Keep your eye on the next target: Paper 2.
 
 - In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
+
+<br>
 
 ### Questions on the paper so far?
 
@@ -99,7 +101,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[**Assignment for Today**]
+.size50[.content-box-green[**Assignment for Today**]]
 
 .size45[
 Submit to Canvas a real world example of .textblue[**this approach**] being used to .textblue[**successfully**] address an environmental problem .textblue[**similar to the one in your project**].
@@ -115,7 +117,6 @@ Let's review all the cases for APA format.
 
 
 
-
 ---
 
 background-image: url('libs/Images/background-forest_v3.png')
@@ -123,11 +124,11 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.content-box-blue[.size45[This case shows that we can use adaptive governance to address environmental problem X.]]]
+.center[.content-box-green[.size45[This case shows that we can use adaptive governance to address environmental problem X.]]]
 
 <br>
 
-.size40[
+.size45[
 - What aspect of your problem does this policy focus on?
 
 - Which stakeholders does it target? How?
@@ -139,36 +140,19 @@ class: middle
 
 Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
 
-- Problem: Specific, narrow aspect targeted by this policy?
+- Problem: Specific, narrow aspect targeted by this tax?
 
 - Stakeholders: What does it require them to do?
 
 - Institutions: What rules or structures currently exists to make this possible?
+
+<br>
 
 ### Questions on this?
 
 <br>
 
 Get to it!
-
-<br>
-
-Welcome to our environmental policy cocktail party!
-
-- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
-
-- I don't want to see groups of three!
-    - Your job is to interact in pairs.
-
-- I want pairs focused on hearing one case and presenting one case at a time.
-
-### Questions?
-
-Go!
-
-*You mingle too.*
-- This was super fun and you got to help steer students to being more specific, more precise
-
 
 
 
@@ -179,21 +163,48 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size60[.center[
-Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]]
-
-???
-
-Ok, at this point you've heard MANY different cases and hopefully gotten some time to reflect on your own case argument.
+.center[.content-box-green[.size45[This case shows that we can use adaptive governance to address environmental problem X.]]]
 
 <br>
 
-Now let's try to extract lessons from all of them.
+.size45[
+- What aspect of your problem does this policy focus on?
 
-- Everybody form groups of (aim for three groups to keep board space manageable) and spread out around the room.
+- Which stakeholders does it target? How?
 
-- Groups: I'm going to ask you to compare and contrast the cases you heard today to help us extract general lessons for policy designers.
+- What institutions support this policy?
+]
 
+???
+
+Welcome to our environmental policy cocktail party!
+
+- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
+
+<br>
+
+I don't want to see groups of three!
+- Your job is to interact in pairs.
+
+- I want pairs focused on hearing one case and presenting one case at a time.
+
+<br>
+
+### Questions?
+
+- Go!
+
+<br>
+
+*You mingle too.*
+
+- *This was super fun and you got to help steer students to being more specific, more precise*
+
+<br>
+
+*Split class into three groups*
+
+- Go sit with your group and claim some space on the board
 
 
 
@@ -202,25 +213,39 @@ Now let's try to extract lessons from all of them.
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]
+.size55[.content-box-green[**Analyzing the Cases: Problem Types**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of problem characteristics fit best with this policy design? What kinds do not?]]
+.size50[
+Think about all of the specific problems you heard today and use them to make a list:
+
+- Adaptive governance works well when targeting problems that look like...
+]
 
 ???
 
-Ok, groups, first prompt.
+To begin, focus only on the types of problem you heard about in the cases
 
-You just heard a bunch of cases where adaptive governance successfully addressed an environmental problem. 
+- We'll get to the stakeholders and institutional supports in a moment.
 
-From those cases I want your best advice for a policy designer:
+<br>
 
-*ON BOARD: 2 Columns*
+*ON THE BOARD*: Make me a list of problem characteristics that lend themselves to being solved with adaptive governance.
 
-- **PRESENT EACH and DISCUSS**
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+#### Notes
+(Class: date?)
+- ?
 
 
 
@@ -229,21 +254,36 @@ From those cases I want your best advice for a policy designer:
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]
+.size55[.content-box-green[**Analyzing the Cases: Stakeholder Types**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of stakeholder characteristics fit best with this policy design and what kinds do not?]]
+.size50[
+Think about all of the specific problems you heard today and use them to make a list:
+
+- Adaptive governance works well when targeting stakeholders that look like...
+]
 
 ???
 
-Based on the success cases, I want your best advice for a policy designer:
 
-*ON BOARD: 2 Columns*
+Ok, repeat your list making but now focus on the stakeholders
 
-- **PRESENT EACH and DISCUSS**
+- What kinds of stakeholders does adaptive governance work well on?
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+#### Notes
+(Class: 3/3/2022)
+- ?
 
 
 
@@ -252,22 +292,65 @@ Based on the success cases, I want your best advice for a policy designer:
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size50[Identify the .textblue[**characteristics**] associated with .textblue[**successful**] use of an .textblue[**adaptive governance**] approach to environmental problem-solving]
+.size55[.content-box-green[**Analyzing the Cases: Institutional Support**]]
 
 <br>
 
-.content-box-blue[.size55[What kinds of institutional support is required to make this policy design successful?]]
+.size50[
+How much institutional support is required for adaptive governance to be effective?
+
+- e.g. who did the rule-making, the monitoring, the enforcement, etc.?
+]
 
 ???
 
-Based on the success cases, I want your best advice for a policy designer:
+Last job is to think about the complexity of implementing adaptive governance
 
-*ON BOARD*
+- How much institutional support is required for adaptive governance to be effective?
 
-- **PRESENT EACH and DISCUSS**
+<br>
 
+### Questions?
+
+- Get to it!
+
+<br>
+
+Groups, go take a look at what the other groups proposed!
+
+- Read it all and ask questions if you need clarifications
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Huerta_Murcia.jpg')
+background-size: 100%
+background-position: bottom
+class: bottom, center, inverse
+
+.center[.size55[.textwhite[**Best advice / things to remember when designing "green" subsidies?**]]]
+
+???
+
+Bottom line time.
+
+### In a practical sense, what guidance can we offer policy-makers considering using adaptive governance to solve environmental problems?
+
+<br>
+
+*ON BOARD as a CLASS*
+- ?
+
+<br>
+
+**Ok, everybody take five minutes to reflect on our work today.**
+
+Jot down some notes that I promise you'll need when it comes time to write the next paper.
+
+- What are the pros and cons of using this approach for your specific problem?
 
 
 
@@ -297,18 +380,18 @@ class: bottom, center, inverse
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_v2.png')
+background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
 
 class: middle
 
-.size70[**Paper 2**]
+.size60[.content-box-green[**Paper 2**]]
 
-.size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
+.size50[
+Which of the four policy approaches is the "right" one for you?
 
-- Analyze the pros and cons of each option for your chosen problem
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
 ]
 
 ???
@@ -328,10 +411,9 @@ In this paper you will be asked to evaluate all four of the approaches we study 
 background-image: url('libs/Images/background-forest_v3.png')
 background-size: 100%
 background-position: center
-
 class: middle
 
-.size70[**Assignment for Tuesday**]
+.size70[.content-box-green[**Assignment for Tuesday**]]
 
 .size45[
 **Before class** submit a start to your evaluation of the four policy options from class. 
@@ -344,6 +426,7 @@ class: middle
 
 Each answer should be AT LEAST one complete sentence.
 
+<br>
 
 Next week we explore processes of policy-making and problem-solving.
 

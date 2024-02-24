@@ -45,9 +45,7 @@ class: middle
 
 **Today's Agenda**
 
-Approaches to Environmental Policy Design
-
-- "Green" Subsidy Policies
+- Adaptive Governance Policies
 ]
 
 <br>
@@ -61,6 +59,8 @@ Approaches to Environmental Policy Design
 ## Prep for Class
 1. Publish discussion board for next class
 
+2. Take your time going through the policy design refresher material, do the on board pros vs cons lists
+
 
 
 ---
@@ -70,30 +70,31 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[**Assignment 4 (Due Apr 28th)**
+.center[.size50[.content-box-green[**Assignment 4**]
 
 Getting Involved in our Community]]
 
 .size40[
-1. Find (or create) an opportunity to get actively involved in your issue locally, and
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
 
-2. Write a report describing what you did, who you worked with and what you learned from the experience.
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
 ]
 
 ???
 
 Reminder, you have until the end of April to complete your community involvement piece of the project.
 
-- Don't let this fall off your radar
-
 - Spring Break is coming up and that's often a great time to get involved outside!
 
 <br>
 
-**IMPORTANT**
-1. I must sign off on your activity plan BEFORE you do it,
+Don't forget:
 
-2. Your report must include evidence for all claims (e.g. documentation of the activity through photos, etc.), and
+1. I must sign off on your activity plan **BEFORE** you do it, AND
+
+2. Your report must include evidence for all claims (e.g. documentation of the activity through photos, etc.)
+
+<br>
 
 ### Questions on this assignment?
 
@@ -106,7 +107,8 @@ background-size: 100%
 background-position: center
 class: middle
 
-# Section 2: Evaluating Policy Design Options
+.center[.size50[.content-box-green[**Section 2: Evaluating Policy Design Options**]]]
+
 .size55[
 1. .textblue[**Command & Control Regulations**]
 
@@ -119,9 +121,20 @@ class: middle
 
 ???
 
-Two weeks ago we analyzed the use of C&C regulations to address environmental problems.
+Let's refresh our memories on the policies design approaches so far.
 
-### Sum it up for me, what does it mean to use C&C regulations to address an environmental problem?
+<br>
+
+Two weeks ago we considered how command and control regulations can be used to address pollution externalities
+
+<br>
+
+### What is a pollution externality?
+- (Externality means "external" to the primary market exchange, e.g. outside the sale of widgets from factory to consumer)
+
+<br>
+
+### In econ speak, how does a C&C regulation change the production of a polluter?
 
 - (**SLIDE**)
 
@@ -131,45 +144,53 @@ Two weeks ago we analyzed the use of C&C regulations to address environmental pr
 
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
-## Let's build supply and demand curves that move with regulations increasing MC
-## Have to install transformr for lines moving
-library(gganimate)
-
-d1 <- tibble(
-  Quantity = 1:100,
-  Supply1 = 12 + .5*Quantity,
-  Supply2 = 42 + .5*Quantity,
-  Demand = 100 - 1*Quantity
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8, cache=TRUE}
+tibble(
+  Price = 1:100,
+  Quantity = 100:1
 ) |>
-  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
-
-d1 |>
-  ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = Demand), color = "red", size = 1.2) +
-  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
   theme_classic() +
   coord_cartesian(xlim = c(0, 125)) +
   scale_x_continuous(breaks = seq(0, 100, 20)) +
-  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
   labs(x = "Quantity Produced", y = "Price per Widget",
-       title = "C&C Regulations: Increasing the MCs") +
+       title = "C&C Regulations Increase the Costs of Production") +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", linewidth = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Regs)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
   annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
-  annotate("text", x = 119, y = 80, label = "Marginal\nCost", size = 5, color = "blue", hjust = .5) +
-  transition_states(Scenario, wrap=FALSE) +
-  shadow_wake(wake_length = .5, colour = "grey")
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed")
 ```
 
 ???
 
-### Refresh my memory, why do C&C regs raise the MC line?
-- (Require technology to adopt, OR)
-- (Enforce firm limit on emissions)
+C&C regulations increase the marginal costs of producing widgets which leads to fewer widgets being produced
 
 <br>
 
-### What are the pros and cons of choosing this policy design approach?
-- *ON BOARD*: Pros vs Cons
+### Why is the equilibrium so powerful?
+
+### - In other words, why can't a factory simply increase its production (and pollution) despite the added costs?
+
+- (Each additional widget costs more to make than you can sell it for so exceeding the equilibrium is a net loss)
+
+<br>
+
+### Examples from your case studies of a C&C regulation raising the costs of production?
+- (Production or technology standards?)
+
+- (Pollution limits?)
+
+- (Information + reporting requirements?)
+
+<br>
+
+### *ON BOARD*: What are the pros and cons of choosing this policy design approach?
 
 Pros: 
 - Can tackle big, hard to address problems (massive costs, super long time horizons), 
@@ -181,9 +202,6 @@ Cons:
 - Very often imposes actual costs on real people in the short term (need for cushioning?), 
 - Must be able to "keep up with" changes in the problem or economy over time (drift problem)
 
-<br>
-
-### What examples from our case studies were the most persuasive endorsements of this approach? Why?
 
 
 
@@ -207,9 +225,13 @@ class: middle
 
 ???
 
-Last week we analyzed the use of "green" taxes to address environmental problems.
+Last week we analyzed the use of "green" taxes to address pollution externalities.
 
-### Sum it up for me, what does it mean to use a "green" tax or pollution charge to address an environmental problem?
+<br>
+
+### In econ speak, how is a "green" tax different from a C&C approach?
+
+### - Does it also aim to increase the marginal costs of production?
 
 - (**SLIDE**)
 
@@ -217,9 +239,8 @@ Last week we analyzed the use of "green" taxes to address environmental problems
 
 ---
 
-class: middle
-
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $75 tax
 tibble(
   Abatement_cost = 0:100,
   Pollution = 0:100
@@ -227,29 +248,90 @@ tibble(
   ggplot(aes(x = Pollution, y = Abatement_cost)) +
   geom_point(color = "white") +
   theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
-  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution")  +
   annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
-  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
-  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
-  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
-  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
-  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
-  ggtitle("The Basics of Taxing Pollution: Pigou's Solution")
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 75, yend = 75, linetype = "dashed") +
+  ggtitle("Setting a $75 Tax on Pollution") +
+  annotate("point", x = 25, y = 75, color = "darkblue", size = 4) +
+  annotate("segment", x = 99, xend = 99, y = 70, yend = 5, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 99, y = 1, size = 3) +
+  annotate("segment", x = 80, xend = 80, y = 70, yend = 25, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 80, y = 20, size = 3) +
+  annotate("segment", x = 60, xend = 60, y = 70, yend = 45, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 60, y = 40, size = 3)
 ```
 
 ???
 
-### Refresh my memory, how does this visualization help us think about "green" taxes?
+Yes, but indirectly!
 
-- So, the aim, according to Pigou, is to choose a tax rate that balances the harms done by pollution against the harms done to the economy
-
-- Set a rate at the equilibrium because more taxes do more damage to the economy than provide benefits, and fewer taxes do more harm to society than benefit the economy.
+- Remember, shifting to a tax approach means focusing on the pollution itself and not directly on the production numbers
 
 <br>
 
-### What are the pros and cons of choosing this policy design approach?
-- *ON BOARD*: Pros vs Cons
+Here we see the marginal cost of abatement for our hypothetical widget factory in the presence of a $75 tax on pollution.
+
+<br>
+
+### What does the marginal cost of abatement represent?
+- (The cost to the factory of cutting 1 unit of pollution)
+
+<br>
+
+### And what do these arrows illustrate?
+- (The decision of how to comply with the tax)
+
+- (Each unit of pollution presents an option between investing in your factory's efficiency or paying the tax)
+
+<br>
+
+### What is the goal, according to Pigou, of using a "green" tax to address a pollution externality?
+
+- (**SLIDE**)
+
+
+
+---
+
+```{r, fig.retina=3, fig.asp=0.8, fig.align='center', out.width='72%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+tibble(
+  Abatement_cost = 0:100,
+  Pollution = 0:100
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution")  +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution") +
+  annotate("point", x = 50, y = 50, size = 4) +
+  annotate("text", x = 5, y = 55, label = "$50 Tax")
+```
+
+???
+
+According to Pigou, the goal is to set a tax rate that balances the harms done by pollution to society against the harms done to the factory / economy of reducing them.
+
+- Tax less than this and society suffers more than the factory gains
+
+- Tax more than this and the economy suffers more than society gains
+
+<br>
+
+### *ON BOARD*: What are the pros and cons of choosing this policy design approach for addressing an environmental problem?
 
 Pros: 
 - Promises efficient pollution cuts, 
@@ -263,9 +345,13 @@ Cons:
 
 <br>
 
+Just to be clear, even though a "green" tax forces a factory to spend more on its production processes, the dynamics involved are VERY different from the C&C approach
+
+<br>
+
 - (**SLIDE**: The aim is to achieve pollution cuts in the most efficient manner possible across the entire economy.)
 
-- (**SLIDE**: Might also incentivize innovation!)
+- (**SLIDE**: Investment incentivizes innovation!)
 
 
 
@@ -273,13 +359,13 @@ Cons:
 
 class: middle, center
 
-.size50[**1. Green taxes promise more efficient pollution control**]
+.center[.size45[.content-box-green[**1. Green taxes offer more efficient pollution control**]]]
 
 .pull-left[
-```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
 ## Niskanen examples in Fig 2a and 2b
 ## Green tax approach: $50 tax
-p3 <- tibble(
+tibble(
   Abatement_cost = 0:100,
   Pollution = 0:100
 ) |>
@@ -289,143 +375,144 @@ p3 <- tibble(
   #coord_cartesian(xlim = c(0, 125)) +
   #scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
-  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") 
-
-p4a <- p3 +
-  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", linewidth = 1.3) +
   annotate("text", x = 82, y = 95, label = "MC[E]", parse=TRUE) +
-  geom_abline(intercept = 75, slope = -1, color = "blue", size = 1.3) +
+  geom_abline(intercept = 75, slope = -1, color = "blue", linewidth = 1.3) +
   annotate("text", x = 90, y = 7, label = "MC[A]", parse=TRUE) +
   ggtitle("Firm 1") +
-  coord_cartesian(xlim = c(0, 125))
-
-p4a +
+  coord_cartesian(xlim = c(0, 125)) +
   annotate("polygon", x = c(24.5, 75, 24.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
   annotate("point", x = 75, y = 0, size = 5, color = "steelblue3") +
   annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
   annotate("point", x = 24.5, y = 50, size = 5) +
-  annotate("segment", x = 24.5, xend = 24.5, y = 0, yend = 50, linetype = "dashed")
+  annotate("segment", x = 24.5, xend = 24.5, y = 0, yend = 50, linetype = "dashed") +
+  annotate("text", x = 5, y = 55, label = "$50 Tax")
 ```
 ]
 
 .pull-right[
-```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
-p4b <- p3 +
-  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+tibble(
+  Abatement_cost = 0:100,
+  Pollution = 0:100
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  #scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", linewidth = 1.3) +
   annotate("text", x = 120, y = 95, label = "MC[E]", parse=TRUE) +
-  geom_abline(intercept = 125, slope = -1, color = "blue", size = 1.3) +
+  geom_abline(intercept = 125, slope = -1, color = "blue", linewidth = 1.3) +
   annotate("text", x = 115, y = 22, label = "MC[A]", parse=TRUE) +
   ggtitle("Firm 2") +
-  coord_cartesian(xlim = c(0, 125))
-
-p4b +
+  coord_cartesian(xlim = c(0, 125)) +
   annotate("polygon", x = c(75.5, 125, 75.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
   annotate("point", x = 75.5, y = 50, size = 5) +
   annotate("segment", x = 0, xend = 125, y = 50, yend = 50, linetype = "dashed") +
-  annotate("segment", x = 75.5, xend = 75.5, y = 0, yend = 50, linetype = "dashed")
+  annotate("segment", x = 75.5, xend = 75.5, y = 0, yend = 50, linetype = "dashed") +
+  annotate("text", x = 5, y = 55, label = "$50 Tax")
 ```
 ]
 
 ???
 
-#### Advantage of Tax Policy 1
+The first advantage of the "green" tax approach: Efficiency
+
+<br>
 
 The aim is to achieve pollution cuts in the most efficient manner possible across the entire economy.
 
 - The tax requires cleaner firms to abate more so dirtier firms can abate less
 
-- On balance this break-down of cuts gets us to the same goal AT A LOWER OVERALL ECONOMIC COST.
-
 <br>
 
-The green tax also has the capacity to directly incentivize innovation!
-
+On balance this break-down of cuts gets us to the same goal AT A LOWER OVERALL ECONOMIC COST.
 
 
 
 ---
 
-class: middle, center
+background-image: url('libs/Images/08_1-Manufacturing-industry.jpg')
+background-size: 100%
+background-position: center
+class: bottom
 
-.size50[**2. Green taxes incentivize innovation**]
-
-.pull-left[
-```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
-## ANIMATED: Falling Abatement Costs
-d2 <- tibble(
-  Quantity = 1:100,
-  Abatement_cost1 = 100 + -1*Quantity,
-  Abatement_cost2 = 80 + -1*Quantity,
-  External_cost = 0 + 1*Quantity
-) |>
-  pivot_longer(cols = Abatement_cost1:Abatement_cost2, names_to = "Scenario", values_to = "Value") |>
-  mutate(
-    Emitted = if_else(Scenario == "Abatement_cost1", 50, 29),
-    Taxed = 50
-  )
-
-d2 |>
-  ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = External_cost), color = "red", size = 1.2) +
-  geom_line(aes(y = Value), color = "blue", size = 1.2) +
-  theme_classic() +
-  #coord_cartesian(xlim = c(0, 125)) +
-  scale_x_continuous(limits = c(0, 100)) +
-  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25)), limits = c(0, 100)) +
-  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution",
-       title = "Lowering your abatements costs...") +
-  annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
-  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
-  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
-  transition_states(Scenario, wrap=FALSE) +
-  #shadow_wake(wake_length = .25, colour = "grey") +
-  geom_segment(aes(x = Emitted, xend = Emitted, y = 0, yend = Taxed), linetype = "dashed") +
-  geom_point(aes(x = Emitted, y = Taxed), size = 5) +
-  geom_point(aes(x = Emitted, y = Emitted), size = 5)
-  # annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
-  # annotate("segment", x = 29, xend = 29, y = 0, yend = 50, linetype = "dashed")
-```
-]
-
-.pull-right[
-```{r, fig.retina=3, fig.asp=0.9, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
-## ANIMATED: Falling MC
-d1 <- tibble(
-  Quantity = 1:100,
-  Supply1 = 42 + .5*Quantity,
-  Supply2 = 22 + .5*Quantity,
-  Demand = 100 - 1*Quantity
-) |>
-  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
-
-d1 |>
-  ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = Demand), color = "red", size = 1.2) +
-  geom_line(aes(y = Value), color = "blue", size = 1.2) +
-  theme_classic() +
-  coord_cartesian(xlim = c(0, 125)) +
-  scale_x_continuous(breaks = seq(0, 100, 20)) +
-  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100)) +
-  labs(x = "Quantity Produced", y = "Price per Widget",
-       title = "...lowers your marginal costs overall") +
-  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
-  annotate("text", x = 119, y = 85, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
-  transition_states(Scenario, wrap=FALSE) #+
-  #shadow_wake(wake_length = .5, colour = "grey")
-```
-]
+.center[.size50[.content-box-green[**2. Green taxes are relatively easier to design**]]]
 
 ???
 
-#### Advantage of Tax Policy 2
+The second advantage of the "green" tax approach: Easier rule-making
 
-The green tax also has the capacity to directly incentivize innovation!
+<br>
 
-By taxing the externality we create a market incentive for all firms to cut their pollution.
+C&C regulations ask the government to insert itself in the production processes of every polluting industry in the country
 
-- Your path to greater profits can come from making cleaner products.
+1. The level of expertise and information needed for this is astronomical
+    - Or you just do it badly
+    
+2. The government also needs to be able to somewhat predict the future of technology
+    - Requiring a technology that is rapidly out of date harms the economy
 
-- As you cut your emissions you can push your production higher to capture more of the demand in society!
+<br>
+
+The tax approach simply says to every relevant business that pollution is costly, just like the costs they pay for employees or materials
+
+- The idea then is that each business decides what to do about this new cost for their specific circumstances
+
+- They decide how to act and how quickly
+
+
+
+---
+
+class: middle
+
+.center[.size50[.content-box-green[**3. Green taxes incentivize innovation**]]]
+
+```{r, fig.retina=3, fig.asp=0.72, fig.align='center', out.width='70%', fig.width=7, cache=TRUE}
+tibble(
+  Price = 1:100,
+  Quantity = 100:1
+) |>
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(x = "Quantity Produced", y = "Price per Widget") +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "grey", linewidth = 1.3) +
+  annotate("text", x = 115, y = 65, label = "Supply\n(Tax Innovation)", size = 4, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed")
+```
+
+???
+
+The third advantage of the "green" tax approach is that it is supposed to incentivize innovation
+
+- This picture shows us the inverse of the C&C approach
+
+- Innovation leads to cheaper production which lowers prices, increases profit, AND this is happening while pollution levels are falling!
+
+<br>
+
+By taxing the pollution we create a market incentive for all firms to cut their pollution.
+
+- Your path to greater profits can come from making cleaner/better products
+
+- As you invest in your factory we expect you to be more efficient and innovative
+
+- Putting a price on pollution also invites new businesses to arise that see their own profit in helping industries emit less pollution
 
 <br>
 
@@ -440,7 +527,7 @@ background-size: 80%
 background-position: bottom
 class: top, center
 
-.size60[**Policy Design Option 3: "Green" Subsidies**]
+.size50[.content-box-green[**Policy Design Option 3: "Green" Subsidies**]]
 
 ???
 
@@ -480,7 +567,7 @@ class: bottom, center, inverse
 
 ---
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=FALSE}
 tibble(
   Abatement_cost = 0:100,
   Pollution = 0:100
@@ -490,9 +577,9 @@ tibble(
   theme_classic() +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
   labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
-  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", linewidth = 1.3) +
   annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
-  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", linewidth = 1.3) +
   annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
   annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
   annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
@@ -513,7 +600,7 @@ Tell me this story using the plots we've been using to think about the effects o
 
 ---
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, cache=TRUE}
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='98%', fig.width=6, eval=FALSE}
 ## ANIMATED: Falling Abatement Costs
 d3 <- tibble(
   Quantity = 1:100,
@@ -528,8 +615,8 @@ d3 <- tibble(
 
 d3 |>
   ggplot(aes(x = Quantity)) +
-  geom_line(aes(y = External_cost), color = "red", size = 1.2) +
-  geom_line(aes(y = Value), color = "blue", size = 1.2) +
+  geom_line(aes(y = External_cost), color = "red", linewidth = 1.2) +
+  geom_line(aes(y = Value), color = "blue", linewidth = 1.2) +
   theme_classic() +
   scale_x_continuous(limits = c(0, 100)) +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25)), limits = c(0, 100)) +
@@ -604,9 +691,9 @@ tibble(
   theme_classic() +
   scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
   labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") +
-  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", linewidth = 1.3) +
   annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
-  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", linewidth = 1.3) +
   annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
   annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
   annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
@@ -633,7 +720,7 @@ class: middle, center
 .size50[**Green Subsidies: Picking Winners and Losers**]
 
 .pull-left[
-```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, eval=FALSE}
 ## Dirty Firm: Animate decreasing demand line
 library(gganimate)
 
@@ -647,9 +734,9 @@ d10a <- tibble(
 
 d10a |>
   ggplot(aes(x = Quantity)) +
-  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", size = 1.25) +
-  geom_line(aes(y = Value), color = "red", size = 1.2) +
-  geom_line(aes(y = Supply), color = "blue", size = 1.2) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", linewidth = 1.25) +
+  geom_line(aes(y = Value), color = "red", linewidth = 1.2) +
+  geom_line(aes(y = Supply), color = "blue", linewidth = 1.2) +
   theme_classic() +
   coord_cartesian(xlim = c(0, 125)) +
   scale_x_continuous(breaks = seq(0, 100, 20)) +
@@ -663,7 +750,7 @@ d10a |>
 ]
 
 .pull-right[
-```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=FALSE}
 ## Cleaner Firm: Animate increasing demand line
 d10b <- tibble(
   Quantity = 1:100,
@@ -675,9 +762,9 @@ d10b <- tibble(
 
 d10b |>
   ggplot(aes(x = Quantity)) +
-  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", size = 1.25) +
-  geom_line(aes(y = Value), color = "red", size = 1.2) +
-  geom_line(aes(y = Supply), color = "blue", size = 1.2) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "darkgrey", linewidth = 1.25) +
+  geom_line(aes(y = Value), color = "red", linewidth = 1.2) +
+  geom_line(aes(y = Supply), color = "blue", linewidth = 1.2) +
   theme_classic() +
   coord_cartesian(xlim = c(0, 125)) +
   scale_x_continuous(breaks = seq(0, 100, 20)) +
@@ -884,7 +971,7 @@ nonref <- tibble(
 
 nonref |>
   ggplot(aes(x = Taxes, y = Net)) +
-  geom_line(color = "red", size = 1.2) +
+  geom_line(color = "red", linewidth = 1.2) +
   labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
        title = "Hypothetical $1k 'Green' Subsidy'") +
   theme_minimal() +
@@ -930,7 +1017,7 @@ nonref <- tibble(
 
 nonref |>
   ggplot(aes(x = Taxes, y = Net)) +
-  geom_line(color = "red", size = 1.2) +
+  geom_line(color = "red", linewidth = 1.2) +
   labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
        title = "Hypothetical $1k 'Green' Subsidy'") +
   theme_minimal() +
@@ -1069,7 +1156,7 @@ ref <- tibble(
 
 rbind(nonref, ref) |>
   ggplot(aes(x = Taxes, y = Net, color = Policy, linetype = Policy)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   labs(x = "Taxes Owed ($)", y = "Subsidy Received ($)",
        title = "Hypothetical $1k 'Green' Subsidy'") +
   theme_minimal() +
