@@ -20,7 +20,7 @@ library(readxl)
 
 **II. Evaluating Policy Design Options**
 
--   Adaptive Governance Policies
+-   "Green" Subsidy Policies
 
 <br>
 
@@ -38,9 +38,9 @@ Prep for Class
 
 ## Assignment 4 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
 
-<br>
-
 **Getting Involved in our Community**
+
+<br>
 
 **Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
 
