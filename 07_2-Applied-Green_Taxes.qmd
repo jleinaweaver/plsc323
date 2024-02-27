@@ -2,9 +2,10 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png"}
 
 ```{r}
+# background-size="1920px 1080px"
 library(tidyverse)
 library(readxl)
 ```
@@ -29,7 +30,7 @@ Prep for Class
 
 
 
-## Paper 2 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Paper 2 {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -51,7 +52,7 @@ Today we analyze our second approach using your real world success cases.
 
 
 
-## Assignment for Today {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -67,7 +68,7 @@ Let's review all the cases for APA format.
 
 
 
-## Assignment for Today {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -131,7 +132,7 @@ I don't want to see groups of three!
 
 
 
-## Assignment for Today {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -159,7 +160,7 @@ I'm going to ask you to think about this as three distinct categories of problem
 :::
 
 
-## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
 
 **Problem Types**
 
@@ -193,7 +194,7 @@ To begin, focus only on the types of problem you heard about in the cases
 :::
 
 
-## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
 
 **Stakeholder Types**
 
@@ -223,7 +224,7 @@ Ok, repeat your list making but now focus on the stakeholders
 :::
 
 
-## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
 
 **Institutional Support**
 

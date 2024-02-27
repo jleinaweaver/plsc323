@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r}
 library(tidyverse)
@@ -36,7 +36,7 @@ Prep for Class
 2.  Take your time going through the policy design refresher material, do the on board pros vs cons lists
 :::
 
-## Assignment 4 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Assignment 4 {background-image="libs/Images/background-forest_v3.png" }
 
 **Getting Involved in our Community**
 
@@ -64,7 +64,7 @@ Don't forget:
 ### Questions on this assignment?
 :::
 
-## Section 2 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Section 2 {background-image="libs/Images/background-forest_v3.png" }
 
 **Evaluating Policy Design Options**
 
@@ -98,7 +98,7 @@ Two weeks ago we considered how command and control regulations can be used to a
 -   (**SLIDE**)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8, cache=TRUE}
 tibble(
@@ -161,7 +161,7 @@ Cons:
 -   Must be able to "keep up with" changes in the problem or economy over time (drift problem)
 :::
 
-## Section 2 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Section 2 {background-image="libs/Images/background-forest_v3.png" }
 
 **Evaluating Policy Design Options**
 
@@ -187,7 +187,7 @@ Last week we analyzed the use of "green" taxes to address pollution externalitie
 -   (**SLIDE**)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=7, cache=TRUE}
 ## Hypothetical $75 tax
@@ -245,7 +245,7 @@ Here we see the marginal cost of abatement for our hypothetical widget factory i
 -   (**SLIDE**)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=7, cache=TRUE}
 ## Set a tax at the equilibrium, $50 per unit
@@ -297,7 +297,7 @@ Just to be clear, even though a "green" tax forces a factory to spend more on it
 -   (**SLIDE**: Investment incentivizes innovation!)
 :::
 
-#  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+#  {background-image="libs/Images/background-forest_v3.png" }
 
 ::: columns
 ::: {.column width="50%"}
@@ -376,7 +376,7 @@ The aim is to achieve pollution cuts in the most efficient manner possible acros
 On balance this break-down of cuts gets us to the same goal AT A LOWER OVERALL ECONOMIC COST.
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ::: r-stack
 **2. Green taxes are relatively easier to design**
@@ -405,7 +405,7 @@ The tax approach simply says to every relevant business that pollution is costly
 -   They decide how to act and how quickly
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ::: r-stack
 **3. Green taxes incentivize innovation**
@@ -456,7 +456,7 @@ By taxing the pollution we create a market incentive for all firms to cut their 
 ### What examples from our case studies were the most persuasive endorsements of this approach? Why?
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ::: r-stack
 **Policy Design Option 3: "Green" Subsidies**
@@ -478,7 +478,7 @@ There are two broad ways to do this even though both basically have the same eff
 -   **SLIDE**: Pay subsidies directly to industry
 :::
 
-## Paying Subsidies to Industry {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Paying Subsidies to Industry {background-image="libs/Images/background-forest_v3.png" }
 
 ![](libs/Images/12-1-manufacturing_v2.png)
 
@@ -492,7 +492,7 @@ There are two broad ways to do this even though both basically have the same eff
 -   Typically take the form of tax credits or reimbursements paid to the company "for part of the cost of the production of a good or service"
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=FALSE}
 tibble(
@@ -523,7 +523,7 @@ Tell me this story using the plots we've been using to think about the effects o
 -   (**SLIDE**)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, eval=TRUE}
 ## ANIMATED: Falling Abatement Costs
@@ -584,7 +584,7 @@ Gov't essentially pays firms to adopt cleaner/more efficient processes of produc
 3.  (Considerably easier to adjust tax policy (established processes) vs creating new government spending with legislation)
 :::
 
-## Paying Subsidies to Consumers {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Paying Subsidies to Consumers {background-image="libs/Images/background-forest_v3.png" }
 
 ![](libs/Images/12-1-consumers_v2.png)
 
@@ -600,7 +600,7 @@ Gov't essentially pays firms to adopt cleaner/more efficient processes of produc
 -   Sometimes through rebates (e.g. buy a water pump for your house, send us the receipt and get \$200 back!)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 tibble(
@@ -631,7 +631,7 @@ Tell me this story using the plots we've been using to think about the effects o
 -   (**SLIDE**)
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 
@@ -711,7 +711,7 @@ If demand for a product or service is low, tax credits or rebates can help offse
 ### Questions on these plots?
 :::
 
-## Targeting Government Subsidies {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Targeting Government Subsidies {background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 
@@ -757,7 +757,7 @@ If demand for a product or service is low, tax credits or rebates can help offse
 Let's segue to the environment more directly.
 :::
 
-## Subsidies for Pollution Control {.smaller background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Subsidies for Pollution Control {.smaller background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 
@@ -791,7 +791,7 @@ Well, as you know from the readings for today, subsidies make a lot of people ma
 ### My challenge for us today is to see these critiques NOT as deal-breakers, but instead as design challenges!
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ![](libs/Images/12-1-heritage_loris2011.png)
 
@@ -823,7 +823,7 @@ Back to your groups!
 -   ?
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 
@@ -871,7 +871,7 @@ Back to your groups!
 -   ?
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ![](libs/Images/12-1-Best2017.png)
 
@@ -907,7 +907,7 @@ Back to your groups!
 -   ?
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ![](libs/Images/12-1-renewables_for_all.png)
 
@@ -922,7 +922,7 @@ As we think about "good" designs, a community activist coalition called "Residen
 
 :::
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 ## Non-refundable $1,000 Credit
@@ -975,7 +975,7 @@ The problem is that this has the capacity to exclude a lot of people from the ef
 :::
 
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 ## Non-refundable $1,000 Credit
@@ -1037,7 +1037,7 @@ But how big is the hole?
 :::
 
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 library(readxl)
@@ -1084,7 +1084,7 @@ Data from the nonpartisan Tax Policy Center (jointly operated by the Urban Insti
 :::
 
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 d |>
@@ -1122,7 +1122,7 @@ This is nuts!
 :::
 
 
-##  {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+##  {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r, fig.asp=0.618, fig.width=6, cache=TRUE}
 ## Non-refundable $1,000 Credit
@@ -1183,7 +1183,7 @@ Notes
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## {background-image="libs/Images/background-forest_v3.png" }
 
 ::: {.r-stack} 
 **Policy Design Option 3: "Green" Subsidies**
@@ -1210,7 +1210,7 @@ Cons:
 :::
 
 
-## Assignment for Thursday {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Assignment for Thursday {background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 

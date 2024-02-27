@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r}
 library(tidyverse)
@@ -28,7 +28,7 @@ Prep for Class
 :::
 
 
-## Assignment 4 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Assignment 4 {background-image="libs/Images/background-forest_v3.png" }
 
 <br>
 
@@ -59,7 +59,7 @@ Don't forget:
 
 
 
-## Section 2 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Section 2 {background-image="libs/Images/background-forest_v3.png" }
 
 **Evaluating Policy Design Options**
 
@@ -82,7 +82,7 @@ Last week we analyzed the use of "green" subsidies to address environmental prob
 
 
 
-## Policy Design Approach 3 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Policy Design Approach 3 {background-image="libs/Images/background-forest_v3.png" }
 
 **"Green" Subsidies**
 
@@ -139,7 +139,7 @@ However, before we get into this approach let's take a detour into discussing on
 
 
 
-## Elinor Ostrom (1933-2012) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Elinor Ostrom (1933-2012) {background-image="libs/Images/background-forest_v3.png" }
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -168,7 +168,7 @@ Her response?
 :::
 
 
-## NOBEL PRIZE WINNER Elinor Ostrom {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## NOBEL PRIZE WINNER Elinor Ostrom {background-image="libs/Images/background-forest_v3.png" }
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -204,7 +204,7 @@ Dr. Ostrom's research was so good they gave her, a political scientist, the most
 
 
 
-## NOBEL PRIZE WINNER Elinor Ostrom {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## NOBEL PRIZE WINNER Elinor Ostrom {background-image="libs/Images/background-forest_v3.png" }
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -279,7 +279,7 @@ HOWEVER, Ostrom noted that this is an incomplete view of the collapse and, as a 
 
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
@@ -303,7 +303,7 @@ Ok, let's talk about the key concept Ostrom proposed.
 
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
@@ -376,7 +376,7 @@ Imagine a group of farmers fighting over access to a lake they all rely on to ir
 
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
@@ -425,7 +425,7 @@ Imagine a group of farmers all feeding their livestock on public lands.
 :::
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
@@ -473,7 +473,7 @@ Here we see a factory dumping pollution into a nearby river.
 :::
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
@@ -526,7 +526,7 @@ Before we get to the policy advice I want to highlight how broadly this CPR conc
 
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r}
 tibble(
@@ -570,7 +570,7 @@ Public Parking lot as a resource system
 
 
 
-## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Common Pool Resources (CPR) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r}
 tibble(
@@ -663,7 +663,7 @@ So, let's start by discussing Ostrom's case selection.
 :::
 
 
-## Ostrom's Design Principles {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Ostrom's Design Principles {background-image="libs/Images/background-forest_v3.png"  .center}
 
 1. Clearly defined boundaries.
 2. Congruence between appropriation / provision rules and local conditions
@@ -916,7 +916,7 @@ For CPRs part of larger systems, all of the important stuff is organized in leve
 :::
 
 
-## Ostrom's Design Principles {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Ostrom's Design Principles {background-image="libs/Images/background-forest_v3.png"  .center}
 
 1. Clearly defined boundaries.
 2. Congruence between appropriation / provision rules and local conditions
@@ -982,7 +982,7 @@ Strategies for accomplishing the above
 
 
 
-## For Next Class {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## For Next Class {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 

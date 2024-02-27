@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
 ```{r}
 library(tidyverse)
@@ -29,7 +29,7 @@ Prep for Class
 
 
 
-## Assignment 4 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px"}
+## Assignment 4 {background-image="libs/Images/background-forest_v3.png" }
 
 **Getting Involved in our Community**
 
@@ -56,7 +56,7 @@ Reminder, you have until April 26th to complete your community involvement piece
 
 
 
-## Section 2 {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Section 2 {background-image="libs/Images/background-forest_v3.png"  .center}
 
 **Evaluating Policy Design Options**
 
@@ -94,7 +94,7 @@ In Econ 101 speak, per the textbook: C&C means using rules to force polluters to
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -141,7 +141,7 @@ p1 +
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -166,7 +166,7 @@ The equilibrium point, where the lines cross, maximizes your profit!
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -194,7 +194,7 @@ Marginal cost per widget goes up SO you have to charge more for each of them, BU
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -227,7 +227,7 @@ The key for us here is to acknowledge how powerful the equilibrium point is for 
 :::
 
   
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -329,7 +329,7 @@ Like last week, let's walk through some of the key elements of this mechanism be
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Let's build supply and demand curves
@@ -363,7 +363,7 @@ HOWEVER, it turns out that:
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## The Basics of Carbon Pricing
@@ -404,7 +404,7 @@ This plot represents the pollution behavior of a single firm (e.g. widget factor
 :::
 
 
-## The Basics of Taxing Pollution {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## The Basics of Taxing Pollution {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 
@@ -454,7 +454,7 @@ So, we begin this hypothetical with a factory producing 57 widgets and 100 units
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal cost of abatement
@@ -485,7 +485,7 @@ Moving from right to left represents the cost of eliminating one more ton of emi
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal cost of abatement
@@ -512,7 +512,7 @@ Example: If we wanted to cut the factory's 75th unit of pollution (e.g. down to 
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal cost of abatement
@@ -550,7 +550,7 @@ If this plot is meant to help us think about the costs of pollution then this is
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal external cost
@@ -588,7 +588,7 @@ The marginal external cost of the pollution estimates the harms done by the fact
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal external cost
@@ -609,7 +609,7 @@ Example: The 25th unit of pollution does $25 worth of harm to society
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal external cost
@@ -635,7 +635,7 @@ Example: the 75th unit of pollution does $75 worth of harm to society
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Add marginal external cost
@@ -662,7 +662,7 @@ You will not be shocked to discover that many economists argue our goal should b
 
 
 
-## The Basics of Taxing Pollution {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## The Basics of Taxing Pollution {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -713,7 +713,7 @@ Back to our starting point: A factory producing at the equilibrium between suppl
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -748,7 +748,7 @@ Remember, we're beginning at our baseline which is that the factory is emitting 
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -777,7 +777,7 @@ Hard to see, but a decrease of this 1 unit of pollution costs the factory $1
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -809,7 +809,7 @@ As we move up the curve, cutting pollution gets more expensive.
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -849,7 +849,7 @@ However, beyond this point the trade-off flips
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -880,7 +880,7 @@ Here I'm showing you how the factory's pollution level determines the harms done
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -922,7 +922,7 @@ This is the direct reverse of what the factory faces at this end of the curve
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -960,7 +960,7 @@ At the extreme end of the pollution curve the choice is a simple one
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $25 tax
@@ -1014,7 +1014,7 @@ This set-up encourages us to think about how every widget the factory produces i
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Hypothetical $75 tax
@@ -1047,7 +1047,7 @@ At each step from 100 units of pollution down to 25 the cost of improving your f
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Set a tax at the equilibrium, $50 per unit
@@ -1091,7 +1091,7 @@ We've reversed the imbalance, but haven't necessarily made things any better!
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Set a tax at the equilibrium, $50 per unit
@@ -1133,7 +1133,7 @@ Pigou's aim was achieving an "efficient" economic outcome when determining the "
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
 ## Set a tax at the equilibrium, $50 per unit
@@ -1459,7 +1459,7 @@ So, does any state in the US do this better than Missouri?
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.618, cache=TRUE}
 ## Make a US map of gas taxes
@@ -1582,7 +1582,7 @@ SECOND, EVERYONE has a different MC_a!
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.align='center', out.width='85%', fig.asp=0.7, fig.width=7, cache=TRUE}
 ## Niskanen examples in Fig 2a and 2b
@@ -1624,7 +1624,7 @@ Key 2: HOWEVER, the firms have very different abatement curves.
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1668,7 +1668,7 @@ Let's split these out so we can track the impacts of our policies for each of th
 :::
 
 
-## Baseline {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Baseline {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1720,7 +1720,7 @@ Let's now set a policy goal of cutting the pollution hitting society in half
 
 
 
-## Command and Control Regulation {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Command and Control Regulation {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1787,7 +1787,7 @@ Here we see the results of this regulation.
 :::
 
 
-## Command and Control 2 (Pigou!) {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Command and Control 2 (Pigou!) {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 
@@ -1856,7 +1856,7 @@ As an alternative, imagine an INCREDIBLY complicated regulation that aims to imp
 
 
 
-## "Green" Taxes {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## "Green" Taxes {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1927,7 +1927,7 @@ We don't end up cutting to the equilibrium points but instead the tax finds the 
 :::
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 ```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE, eval=TRUE}
 ## Let's build supply and demand curves that move with innovation!
@@ -2052,7 +2052,7 @@ Ewall with Energy Justice Network
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## {background-image="libs/Images/background-forest_v3.png"  .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -2092,7 +2092,7 @@ Let's review some policy options for the US.
 
 
 
-## Assignment for Thursday {background-image="libs/Images/background-forest_v3.png" background-size="1920px 1080px" .center}
+## Assignment for Thursday {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
