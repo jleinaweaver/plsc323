@@ -13,7 +13,7 @@ library(readxl)
 
 Exploring the Success Stories
 
-- "Green" Subsidies
+- Adaptive Governance
 
 <br>
 
@@ -46,7 +46,7 @@ Keep your eye on the next target: Paper 2.
 
 <br>
 
-Today we analyze our third approach using your real world success cases.
+Today we analyze our final policy approach using your real world success cases.
 :::
 
 
@@ -57,21 +57,19 @@ Today we analyze our third approach using your real world success cases.
 
 Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
 
-**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using "green" subsidies.
+**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using adaptive governance approaches.
 
 ::: notes
-
 Let's review all the cases for APA format.
-
 :::
 
 
 
-## Assignment for Today {background-image="libs/Images/background-forest_v3.png"  .center}
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-**This case shows that we can use "green" subsidies to address environmental problem X.**
+**This case shows that we can use adaptive governance to address environmental problem X.**
 
 - What aspect of your problem does this policy focus on?
 
@@ -80,7 +78,6 @@ Let's review all the cases for APA format.
 - What institutions support this policy?
 
 ::: notes
-
 Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
 
 - Problem: Specific, narrow aspect targeted by this tax?
@@ -130,11 +127,12 @@ I don't want to see groups of three!
 :::
 
 
+
 ## Assignment for Today {background-image="libs/Images/background-forest_v3.png"  .center}
 
 <br>
 
-What is your **best advice for policymakers** considering **"green" subsidies** for environmental problem-solving?
+What is your **best advice for policymakers** considering **adaptive governance** for environmental problem-solving?
 
 - Types of problems?
 
@@ -143,12 +141,11 @@ What is your **best advice for policymakers** considering **"green" subsidies** 
 - Types of institutional support?
 
 ::: notes
-
-You've just heard a bunch of cases where "green" taxes successfully addressed an environmental problem. 
+You've just heard a bunch of cases where adaptive governance successfully addressed an environmental problem. 
 
 - I want you to use those cases as your data and draw out inferences from them
 
-- What advice can we offer policymakers who are considering "green" taxes for environmental problem-solving
+- What advice can we offer policymakers who are considering adaptive governance for environmental problem-solving
 
 <br>
 
@@ -167,7 +164,7 @@ I'm going to ask you to think about this as three distinct categories of problem
 
 Think about all of the specific problems you heard today and use them to make a list:
 
-- "Green" subsidies work well when targeting problems that look like...
+- Adaptive governance works well when targeting problems that look like...
 
 ::: notes
 
@@ -177,7 +174,7 @@ To begin, focus only on the types of problem you heard about in the cases
 
 <br>
 
-*ON THE BOARD*: Make me a list of problem characteristics that lend themselves to being solved with a "green" subsidy.
+*ON THE BOARD*: Make me a list of problem characteristics that lend themselves to being solved with adaptive governance.
 
 <br>
 
@@ -193,7 +190,8 @@ To begin, focus only on the types of problem you heard about in the cases
 :::
 
 
-## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png"  .center}
+
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
 
 **Stakeholder Types**
 
@@ -201,13 +199,13 @@ To begin, focus only on the types of problem you heard about in the cases
 
 Think about all of the specific problems you heard today and use them to make a list:
 
-- "Green" subsidies work well when targeting stakeholders that look like...
+- Adaptive governance works well when targeting stakeholders that look like...
 
 ::: notes
 
 Ok, repeat your list making but now focus on the stakeholders
 
-- What kinds of stakeholders do "green" subsidies work well on?
+- What kinds of stakeholders does adaptive governance work well on?
 
 <br>
 
@@ -230,15 +228,15 @@ Ok, repeat your list making but now focus on the stakeholders
 
 <br>
 
-How much institutional support is required for "green" subsidies to be effective?
+How much institutional support is required for adaptive governance to be effective?
 
 - e.g. who did the rule-making, the monitoring, the enforcement, etc.?
 
 ::: notes
 
-Last job is to think about the complexity of implementing a "green" subsidy.
+Last job is to think about the complexity of implementing adaptive governance.
 
-- How much institutional support, and what kinds, is required for a "green" subsidy to be effective?
+- How much institutional support, and what kinds, is required for adaptive governance to be effective?
 
 <br>
 
@@ -255,13 +253,14 @@ Groups, go take a look at what the other groups proposed!
 
 
 
-## Best advice / things to remember when designing "green" subsidies? {background-image="libs/Images/07_2-subsidies_coins.jpg"}
+## Best advice / things to remember when designing "green" subsidies? {background-image="libs/Images/13-1-Huerta_Murcia_v2.png"}
 
 ::: notes
-
 Bottom line time.
 
-### In a practical sense, what guidance can we offer policy-makers considering using "green" subsidies to solve environmental problems?
+### In a practical sense, what guidance can we offer policy-makers considering using adaptive governance to solve environmental problems?
+
+<br>
 
 *ON BOARD as a CLASS*
 - ?
@@ -276,17 +275,59 @@ Jot down some notes that I promise you'll need when it comes time to write the n
 :::
 
 
-## {background-image="libs/Images/13-1-fishing.jpg"}
 
-<p style="color: white;">**Policy Design Option 4: Adaptive Governance**</p>
+## Would adaptive governance work well for your project? {background-image="libs/Images/13-1-Huerta_Murcia_v2.png"}
 
 ::: notes
-
-Next week we explore our final policy design, adaptive governance!
+**Which principle would be easiest to implement as part of your design? Why?**
 
 <br>
 
-Make sure you consolidate and clean up your notes from this week.
+### Which principle would be most difficult to implement as part of your design? Why?
 
-- You might end up making this central to your paper!
+<br>
+
+### Could any of these work on their own for your project? Why or why not?
 :::
+
+
+
+## Paper 2 {background-image="libs/Images/background-forest_v3.png"  .center}
+
+<br>
+
+Which of the four policy approaches is the "right" one for you?
+
+- Analyze the pros and cons of each option **SEPERATELY** for your chosen environmental problem
+
+::: notes
+Next week we work on the paper!
+
+In this paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
+
+<br>
+
+**SLIDE**: To set us up for this paper...
+:::
+
+
+
+## Assignment for Next Class {background-image="libs/Images/background-forest_v3.png"  .center}
+
+<br>
+
+**Before class** submit a start to your evaluation of the four policy options from class. 
+- Define your environmental problem
+
+- What is one strong "pro" for using each of the policy options to address your environmental problem?
+
+::: notes
+Each answer should be AT LEAST one complete sentence.
+
+<br>
+
+Next week we explore processes of policy-making and problem-solving.
+
+### Questions on the assignment?
+:::
+

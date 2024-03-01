@@ -723,7 +723,7 @@ Two elements:
 
 
 
-## 2. Match Rules to Local Conditions {background-image="libs/Images/13-1-Philippines_rice_terraces.jpg"}
+## 2. Match Rules to Local Conditions {background-image="libs/Images/13-1-Philippines_rice_terraces_v2.png"}
 
 ::: notes
 
@@ -785,7 +785,7 @@ Rules not created and maintained by some external authority.
 
 
 
-## 4. Monitoring {background-image="libs/Images/13-1-water_testing.jpg"}
+## 4. Monitoring {background-image="libs/Images/13-1-water_testing_v2.png"}
 
 ::: notes
 
@@ -815,7 +815,7 @@ Monitors must:
 :::
 
 
-## 5. Graduated Sanctions {background-image="libs/Images/13-1-slap-on-wrist.jpg"}
+## 5. Graduated Sanctions {background-image="libs/Images/13-1-slap-on-wrist_v2.png"}
 
 ::: notes
 
@@ -844,7 +844,7 @@ Fifth principle, successful CPRs have graduated sanctions
 :::
 
 
-## 6. Conflict-Resolution Mechanisms {background-image="libs/Images/13-1-mediation.png"}
+## 6. Conflict-Resolution Mechanisms {background-image="libs/Images/13-1-mediation_v2.png"}
 
 ::: notes
 
@@ -868,7 +868,7 @@ Sixth principle, successful CPRs have Conflict-Resolution Mechanisms
 
 
 
-## 7. Recognition of Rights to Organize {background-image="libs/Images/13-1-right-to-organize.jpg"}
+## 7. Recognition of Rights to Organize {background-image="libs/Images/13-1-right-to-organize_v2.png"}
 
 ::: notes
 
@@ -891,7 +891,7 @@ Seventh principle, successful CPRs have Minimal Recognition of Rights to Organiz
 :::
 
 
-## 8. Nested Enterprises {background-image="libs/Images/13-1-nested_levels.png"}
+## 8. Nested Enterprises {background-image="libs/Images/13-1-nested_levels_v2.png"}
 
 ::: notes
 
