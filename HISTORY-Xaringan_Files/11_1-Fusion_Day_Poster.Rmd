@@ -1,0 +1,270 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Today's Agenda**]
+
+.center[.size65[
+Design a Poster for Fusion Day
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. [Compass Center Resources](https://www.drury.edu/academic-affairs/fusion-day/compass-center-fusion-day-resources/)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '58%'}
+knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
+```
+
+.center[.content-box-green[.size45[**Getting Feedback from our Community**]]]
+
+???
+
+Design a poster for Fusion Day that introduces your problem to the community and offers a test run of different solutions. 
+
+- Your job is to present this poster during Fusion Day in order to collect community feedback on your problem framing (and proposed solution)
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
+
+.size40[
+1. Argument: We have a serious, local environmental problem
+
+2. Present four policy options to address this problem
+    - Option 1: A C&C regulation that...
+    - Option 2: A "green" tax that...
+    - Option 3: A "green" subsidy that...
+    - Option 4: An adaptive governance approach that...  
+]
+
+???
+
+Here's what I'd like your poster to include.
+
+- A well supported argument, and
+
+- A series of options you are inviting the community to weigh-in on.
+
+<br>
+
+### Questions on the components here?
+
+<br>
+
+**SLIDE**: Let's step through some advice from the Compass Center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center1.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center2.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center3.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center4.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center5.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center6.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center7.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center8.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center9.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center10.png')
+background-size: 90%
+background-position: center
+
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center11.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center12.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center13.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center14.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center15.png')
+background-size: 90%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/11_1-Compass_Center16.png')
+background-size: 90%
+background-position: center
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
+
+.size40[
+1. Argument: We have a serious, local environmental problem
+
+2. Present four policy options to address this problem
+    - Option 1: A C&C regulation that...
+    - Option 2: A "green" tax that...
+    - Option 3: A "green" subsidy that...
+    - Option 4: An adaptive governance approach that...  
+]
+
+???
+
+Let's aim to share your progress in class on Thursday!
+
+- Get and give some feedback!
+

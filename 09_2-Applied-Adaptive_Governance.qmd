@@ -185,7 +185,9 @@ To begin, focus only on the types of problem you heard about in the cases
 <br>
 
 #### Notes
+
 (Class: date?)
+
 - ?
 :::
 
@@ -217,6 +219,7 @@ Ok, repeat your list making but now focus on the stakeholders
 
 #### Notes
 (Class: 3/3/2022)
+
 - ?
 :::
 
@@ -317,6 +320,7 @@ In this paper you will be asked to evaluate all four of the approaches we study 
 <br>
 
 **Before class** submit a start to your evaluation of the four policy options from class. 
+
 - Define your environmental problem
 
 - What is one strong "pro" for using each of the policy options to address your environmental problem?

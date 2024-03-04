@@ -1,0 +1,244 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.center[.size60[
+Work on the Final Policy Proposal
+
+(Due May 8th, 3pm)
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. IDEA Evals today
+    - Update link in slides
+    - Schedule Canvas announcement to go out at start of class
+
+<br>
+
+*Email*
+
+PLSC 323: IDEA Course Evaluation Link
+
+Morning All,
+
+Here is the direct link to our course evaluation survey: https://drury.campuslabs.com/eval-home/direct/6294534
+
+Thanks,
+
+JL
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[**IDEA Evaluations**]
+.size45[
+https://drury.campuslabs.com/eval-home/direct/6294534
+]
+
+???
+
+
+
+
+---
+
+class: middle, center
+
+```{r}
+tibble(
+  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
+  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
+  col3 = c(15, 15, 20, 15, 15, 20, 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+```
+
+???
+
+Time to take stock of how far you've come in order to start looking ahead to your final paper.
+
+- Paper 1: Selected a problem, defined it using evidence and identified key stakeholders involved in it
+
+- Paper 2: You have evaluated four broad approaches to solving your problem in order to build an argument for your chosen policy design
+
+- Paper 3: You have, or you're about to, engaged in our community in order to learn more about your problem and the stakeholders involved
+
+- Paper 4: On Fusion Day you will have a chance to get community feedback on the policy options you are considering. 
+
+<br>
+
+**Remember, posters must be submitted to Canvas AND to the official Fusion Day website for approval and printing!**
+
+### Any questions on the poster submission?
+    
+<br>
+
+Your final paper asks you to reflect on all of this in order to design a policy for addressing your chosen problem. 
+
+- We have lots of time before this is due but I want to keep reminding you of how all of these earlier pieces help you build to this.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.content-box-green[.size65[**Assignment 5: Proposing a Policy**]]
+
+.size55[
+Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
+]
+
+???
+
+The Prompt
+
+<br>
+
+Let's talk about my expectations for this paper.
+
+- Note that I've put these details on Canvas.
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-1-four_brains.jpg')
+background-size: 40%
+background-position: right
+class: middle, slidegreen
+
+.pull-left[
+.center[
+.size65[**Final proposal should be a complete, stand-alone policy proposal**]
+]]
+
+???
+
+Do NOT assume the reader is familiar with your other assignments or has a deep understanding of the problem itself.
+
+<br>
+
+You should be able to give your paper to a person interested in your problem and they should be able to understand why solving the problem is complicated and be convinced that your policy is a good idea.
+
+- This means you should DEFINITELY take the best bits from your earlier papers and add them to this one.
+
+<br>
+
+### Does that make sense?
+
+<br>
+
+SLIDE: Ok, let's get more specific
+
+
+---
+
+background-image: url('libs/Images/background-forest_v3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+A convincing policy proposal:
+
+- Advances your policy recommendation in **EVERY** paragraph,
+
+- Includes a clear and compelling problem definition,
+
+- Identifies and appeals to specific stakeholders,
+
+- Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
+
+- Offers guidance for measuring its effectiveness over time.
+]
+
+???
+
+The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
+- Problem framings matter,
+- Generating stakeholder buy-in matters,
+- Engaging substantively with the complications matters, and
+- Planning for measuring success matters.
+
+<br>
+
+### Bottom line: I'm **much** more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
+
+- My expectation is not that you've designed the ultimate plan that makes everyone happy.
+    - That's not a thing that exists in the real world.
+
+- My expectation is that you propose a policy that explicitly considers and tries to navigate past these complications.
+
+<br>
+
+### Does that make sense?
+
+### Any questions on the prompt or any of this advice
+
+
+
+
