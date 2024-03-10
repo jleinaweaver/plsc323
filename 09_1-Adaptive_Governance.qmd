@@ -28,7 +28,7 @@ Prep for Class
 :::
 
 
-## Assignment 4 {background-image="libs/Images/background-forest_v3.png" }
+## Assignment 4 {background-image="libs/Images/background-forest_v3.png"}
 
 <br>
 

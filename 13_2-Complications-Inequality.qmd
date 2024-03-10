@@ -1,78 +1,41 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 105%
-background-class: center
-class: middle
-
-.size45[**III. Designing an Environmental Policy**]
 
 <br>
 
-.size50[
+**III. Designing an Environmental Policy**
 
-**Today's Agenda**
+<br>
 
 Complicating Factors in Environmental Policymaking
 
 - Unequal Voice, Access and Impacts
-]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-???
+::: notes
+Prep for Class
 
-## Prep for Class
 1. Review Canvas submissions
+:::
+
+
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size50[**Complicating Factors to Consider When Designing Your Policy**]]]
-
-.size40[
 - Risk aversion (or risk acceptance)
 
 - Temporal discounting and uncertainty
@@ -82,9 +45,8 @@ class: middle
 - Inequality
 
 - Greenwashing
-]
 
-???
+::: notes
 
 Our last section of the class has been designed to encourage you to think about various complications that arise in policy design.
 
@@ -97,29 +59,20 @@ Our last section of the class has been designed to encourage you to think about 
 On Tuesday we discussed how collective action problems complicate environmental problem-solving.
 
 - Let's make sure we're still clear on the two primary examples
+:::
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size70[**Collective Action Problems (I)**]]]
+## Collective Action Problems (I) {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size50[
 **Rapid resource depletion when...**
 
 - Resource use benefits the user, and
 
 - The costs of use are shared by all users
-]
 
-???
+::: notes
 
 The first type of collective action problem we discussed on Tuesday focused on the Hardin style Tragedy of the Commons dynamics.
 - *Read formula on slide*
@@ -127,20 +80,14 @@ The first type of collective action problem we discussed on Tuesday focused on t
 <br>
 
 **SLIDE**: Let's illustrate this with the customary example...
+:::
 
 
 
+## {background-image="libs/Images/13_2-cow_pasture.png" .center}
 
----
-
-background-image: url('libs/Images/13_2-cow_pasture.png')
-background-size: 100%
-background-position: center
-class: bottom, inverse, textwhite
-
-???
-
-### How is a community grazing area an example of this dynamic in action? Tell me the cow story!
+::: notes
+**How is a community grazing area an example of this dynamic in action? Tell me the cow story!**
 
 <br>
 
@@ -157,18 +104,13 @@ This formula in this example leads to resource depletion and possibly destructio
 <br>
 
 **SLIDE**: Pollution example...
+:::
 
 
+## {background-image="libs/Images/13_1-pollution_river.png" .center}
 
----
-
-background-image: url('libs/Images/13_1-pollution_river.png')
-background-size: 100%
-background-position: center
-
-???
-
-### How is pollution being dumped into the river an example of this dynamic in action?
+::: notes
+**How is pollution being dumped into the river an example of this dynamic in action?**
 
 <br>
 
@@ -185,30 +127,23 @@ Again, two simple conditions add together to predict a very dire outcome.
 <br>
 
 **SLIDE**: Sum it up...
+:::
 
 
----
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size70[**Collective Action Problems (I)**]]]
+## Collective Action Problems (I) {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size50[
 **Rapid resource depletion when...**
 
 - Resource use benefits the user, and
 
 - The costs of use are shared by all users
-]
 
-???
+::: notes
+**Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
 
-### Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?
 1. More users = More destruction
     - Number users increases, costs to each user lowers
     - As cost lowers, likelihood of use increases
@@ -231,29 +166,21 @@ class: middle
 ### - Subsidies?
 
 ### - Adaptive governance?
+:::
 
 
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size70[**Collective Action Problems (II)**]]]
+## Collective Action Problems (II) {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size50[
 **Resource degradation when...**
 
 - Costs of protection paid by the user, and
 
 - Benefits of protection are distributed widely
-]
 
-???
+::: notes
 
 The second type of collective action problem we discussed on Tuesday was born from Mancur Olson's work on how groups function.
 - *Read formula on slide*
@@ -269,18 +196,14 @@ The second type of collective action problem we discussed on Tuesday was born fr
 <br>
 
 ### How is climate change a good example of the free-rider problem in action?
+:::
 
 
 
 
----
+## {background-image="libs/Images/13_2-vehicles-air-pollution.jpg" .center}
 
-background-image: url('libs/Images/13_2-vehicles-air-pollution.jpg')
-background-size: 100%
-background-position: center
-class: middle, slidegreen
-
-???
+::: notes
 
 The climate is changing for a multitude of reasons with some of the largest being our GhG emissions.
 
@@ -308,33 +231,24 @@ The other side of this coin is that your personal contribution to climate change
 <br>
 
 Climate change is a really tough nut to crack as are all situations that create incentives for free-riding.
+:::
 
 
 
 
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size70[**Collective Action Problems (II)**]]]
+## Collective Action Problems (II) {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size50[
 **Resource degradation when...**
 
 - Costs of protection paid by the user, and
 
 - Benefits of protection are distributed widely
-]
 
-???
-
-### Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?
+::: notes
+**Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
 
 Free-riding incentives increase as:
 
@@ -359,18 +273,13 @@ Free-riding incentives increase as:
 ### - Subsidies?
 
 ### - Adaptive governance?
+:::
 
 
 
+## {background-image="libs/Images/08-1-climate_change_is_racism.webp" .center}
 
----
-
-background-image: url('libs/Images/08-1-climate_change_is_racism.webp')
-background-size: 100%
-background-position: center
-class: top, center, inverse
-
-???
+::: notes
 
 Today I'd like us to explore the role of inequality in our current environmental problems
 
@@ -389,19 +298,14 @@ A big topic, but one we need to start grappling with as policy designers.
 <br>
 
 **SLIDE**: Our first two readings for today, Mildenberger (2019) and Kashwan (2020), ask us to consider this question.
+:::
 
 
+## {background-image="libs/Images/08-1-climate_change_is_racism.webp"}
 
----
+<p style="color: white;">**How do the problematic roots of American environmentalism impact the processes of problem-solving and outcomes we observe today?**</p>
 
-background-image: url('libs/Images/08-1-climate_change_is_racism.webp')
-background-size: 100%
-background-position: center
-class: top, center, inverse
-
-.size40[.textwhite[**How do the problematic roots of American environmentalism impact the processes of problem-solving and outcomes we observe today?**]]
-
-???
+::: notes
 
 My aim for today is not to apportion blame or simply lament these facts.
 
@@ -414,17 +318,16 @@ Let's start with Mildenberger (2019).
 ### What is the key conclusion of the argument in this article?
 
 - (**SLIDE**: Captured by the sub-title nicely, no?)
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/07-1-tragedy_of_the_tragedy.png')
+```
 
-background-image: url('libs/Images/07-1-tragedy_of_the_tragedy.png')
-background-size: 100%
-background-position: center
-class: middle
-
-???
+::: notes
 
 I'd argue this is a compelling sub-title, but not really the central argument of the piece.
 
@@ -434,19 +337,20 @@ I'd argue this is a compelling sub-title, but not really the central argument of
 
 ### What's the more affirmative or positive version of the conclusion?
 - (**SLIDE**)
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/07-1-tragedy_of_the_tragedy.png')
+```
 
-background-image: url('libs/Images/07-1-tragedy_of_the_tragedy.png')
-background-size: 90%
-background-position: center
-class: bottom, center
+<br>
 
-.content-box-green[.size40[Therefore, "[to] create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."]]
+Therefore, "[to] create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."
 
-???
+::: notes
 
 Everybody now take a few minutes to diagram the argument that supports this conclusion.
 
@@ -478,20 +382,12 @@ policy reforms at every turn to preserve their short-term profits."
 - Pressuring individuals to change their behavior is counterproductive because "interest groups have structured the choices available to us today."
 - "The climate movement needs more people on this lifeboat, not fewer. We must make room for every human if we are going to build the political power necessary to face down the looming oil tankers and coal barges that send heavy waves in our direction."
 - Conclusion: "To create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."
+:::
 
 
 
+## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.content-box-green[.size50[**Mildenberger (2019)**]]
-
-.size35[
 1. Hardin's argument is massively influential
 
 2. Hardin gets the history wrong
@@ -503,23 +399,17 @@ class: middle
 5. Hardin's argument makes addressing climate change harder
 
 Therefore, "[to] create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."
-]
 
-???
+::: notes
 
 Let's quickly step through these premises.
+:::
 
 
 
+## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size50[**1) Hardin's argument is massively influential**]]
+**1) Hardin's argument is massively influential**
 
 <br>
 
@@ -527,7 +417,7 @@ class: middle, center
 knitr::include_graphics("libs/Images/12-2-Hardin_Google_Scholar.png")
 ```
 
-???
+::: notes
 
 *Slide image Source: Google Scholar (2022-04-03)*
 
@@ -548,21 +438,21 @@ Unfortunately, when professors and other researchers in the social sciences seek
 <br>
 
 **SLIDE**: Ok next premise, Hardin gets ALL of the history wrong
+:::
 
 
 
+## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
 
+**2) Hardin gets the history wrong**
 
----
+<br>
 
-background-image: url('libs/Images/13_2-Pasture_Farming_History.png')
-background-size: 100%
-background-position: center
-class: bottom, center
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/13_2-Pasture_Farming_History.png")
+```
 
-.content-box-green[.size50[**2) Hardin gets the history wrong**]]
-
-???
+::: notes
 
 Let's talk two quick examples of what history ACTUALLY teaches us about the commons and societal collapse.
 
@@ -596,21 +486,16 @@ So, if the ToC wasn't evident in the historical commons, what about other societ
 ### Notes
 + *Image: British Library - Milking sheep in the pen and maids carrying the milk, manuscript illumination, anonymous in the Luttrell Psalter, c. 1340*
 + Cox, Susan. (1985). No Tragedy on the Commons. *Environmental Ethics*. Vol 7, Issue 1, p49-61.
+:::
 
 
 
----
+## {background-image="libs/Images/13-1-Anasazi_Mystery.jpg"}
 
-background-image: url('libs/Images/13-1-Anasazi_Mystery.jpg')
-background-size: 100%
-background-position: center
-class: inverse
+<p style="color: white;">**The Chaco Anasazi**</p>
 
-.textwhite[.size70[**The Chaco Anasazi**]]
-
-???
-
-### Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?
+::: notes
+**Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?**
 
 <br>
 
@@ -621,23 +506,32 @@ The Chaco Anasazi, meaning the Ancient Ones, had a sizable civilization for some
 <br>
 
 They were a flourishing and dynamic society.
+:::
 
 
 
----
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/13-1-Anasazi_Trade_Map.jpg')
-background-size: 50%
-background-position: left
-class: inverse
-
-.right[.textwhite[.size70[**The Chaco Anasazi**]]]
-
-```{r, fig.align='right', out.width='50%'}
-knitr::include_graphics('libs/Images/13-1-turquoise_beads.webp')
+:::: {.columns}
+::: {.column width="60%"}
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("libs/Images/13-1-Anasazi_Trade_Map.jpg")
 ```
+:::
 
-???
+::: {.column width="40%"}
+
+<br>
+
+<br>
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("libs/Images/13-1-turquoise_beads.webp")
+```
+:::
+::::
+
+::: notes
 
 Archaelogical evidence has shown us they maintained extensive trade ties across very large distances.
 
@@ -648,24 +542,15 @@ Archaelogical evidence has shown us they maintained extensive trade ties across 
 <br>
 
 Some impressive networks built and supported over centuries.
+:::
 
 
 
----
+## {background-image="libs/Images/13-1-anasazi3.jpg"}
 
-background-image: url('libs/Images/13-1-anasazi3.jpg')
-background-size: 50%
-background-position: left
-class: inverse
+![](libs/Images/13-1-Anasazi-pot.jpeg){.absolute right=0 bottom=125 width="35%"}
 
-.right[.textwhite[.size70[**The Chaco Anasazi**]]]
-
-```{r, fig.align='right', out.width='45%'}
-knitr::include_graphics('libs/Images/13-1-Anasazi-pot.jpeg')
-```
-
-???
-
+::: notes
 The Anasazi also built extensive public works to allow for city building and irrigation for larger farm lands
 
 + Damming rivers, managing forests, roads, etc
@@ -675,19 +560,15 @@ The Anasazi also built extensive public works to allow for city building and irr
 The Anasazi supported a thriving arts and science culture.
 
 - This was an ancient civilization that was thriving and dynamic!
+:::
 
 
 
----
+## {background-image="libs/Images/13-1-anasazi2.jpg"}
 
-background-image: url('libs/Images/13-1-anasazi2.jpg')
-background-size: 100%
-background-position: center
-class: inverse, top
+<p style="color: white;">**Why did the Anasazi disappear?**</p>
 
-.center[.textwhite[.size55[**Why did the Anasazi disappear?**]]]
-
-???
+::: notes
 
 *Source: Jared Diamond's Collapse book has such stories (although historians quibble with MANY of his details!)*
 
@@ -710,20 +591,15 @@ Hardin's model predicts that in these circumstances the Anasazi people will acce
 <br>
 
 **SLIDE**: But Hardin gets the history wrong!
+:::
 
 
 
+## {background-image="libs/Images/13-1-anasazi2.jpg"}
 
----
+<p style="color: white;">**2) Hardin gets the history wrong**</p>
 
-background-image: url('libs/Images/13-1-anasazi2.jpg')
-background-size: 100%
-background-position: center
-class: top, center
-
-.content-box-green[.size60[**2) Hardin gets the history wrong**]]
-
-???
+::: notes
 
 The Anasazi appear to have tried a ton of policies to adapt and grow
 - They dammed rivers to promote agriculture,
@@ -761,19 +637,20 @@ Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on
 <br>
 
 **SLIDE**: Premise 3, Hardin gets the science wrong
+:::
 
 
 
----
+## {background-image="libs/Images/07-1-interrogation.png"}
 
-background-image: url('libs/Images/07-1-interrogation.png')
-background-size: 100%
-background-position: center
-class: middle, center
+<p style="color: white;">**3) Hardin gets the science wrong**</p>
 
-.content-box-green[.size50[**3) Hardin gets the science wrong**]]
+<br>
 
-.size40[
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -782,13 +659,11 @@ class: middle, center
 
 <br>
 
-]
+<p style="color: white;">**Hardin's "Science":**</p>
 
-.content-box-red[.size40[Hardin's "Science":]]
+<p style="color: white;">**Human reproduction is a "Tragedy of the Commons"**</p>
 
-.content-box-red[.size40[Human reproduction is a "Tragedy of the Commons"]]
-
-???
+::: notes
 
 According to Hardin, the "tragedy" justifying his racism, nativism and islamaphobia is rooted in humans being allowed to decide for themselves whether or not to reproduce.
 
@@ -799,26 +674,13 @@ According to Hardin, the "tragedy" justifying his racism, nativism and islamapho
 <br>
 
 **SLIDE**: Let's examine his logic using a 2x2 normal form game theory table like we examined on Tuesday.
+:::
 
 
 
-
----
-
-class: middle, center
-
-.size50[.center[.content-box-blue[**Reproduction as a Prisoner's Dilemma**]]]
+## Reproduction as a Prisoner's Dilemma {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
-
-<br>
-
-```{css, echo=F}
-/* Change the background color to white for shaded rows (even rows) */
-.remark-slide thead, .remark-slide tr:nth-child(2n) {
-      background-color: white;
-}
-```
 
 ```{r}
 tibble(
@@ -836,8 +698,7 @@ tibble(
   kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
 ```
 
-???
-
+::: notes
 Here I have set up the table focused just on what you experience in each outcome.
 
 <br>
@@ -858,46 +719,11 @@ This table assumes that:
 
 - SO, having kids is dominant strategy
 
-
-
----
-
-class: middle, center
-
-.size50[.center[.content-box-blue[**Reproduction as a Prisoner's Dilemma**]]]
-
 <br>
 
-<br>
+**Any problems with this model of the human reproduction decision?**
 
-```{css, echo=F}
-/* Change the background color to white for shaded rows (even rows) */
-.remark-slide thead, .remark-slide tr:nth-child(2n) {
-      background-color: white;
-}
-```
-
-```{r}
-tibble(
-  col1 = c("You", ""),
-  col2 = c("No Kids", "Have Kids"),
-  Cooperate = c("No pay, no gain", "They pay, you gain"),
-  Defect = c("You pay, no gain", "You pay, you gain")
-) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "No Kids", "Have Kids")) |>
-  kableExtra::add_header_above(c(" " = 2, "Other Parents" = 2)) |>
-  kableExtra::column_spec(column = 1, bold = TRUE, width = "8em") |>
-  kableExtra::column_spec(column = 2, bold = TRUE, width = "15em") |>
-  kableExtra::column_spec(column = 3, width = "25em") |>
-  kableExtra::column_spec(column = 4, width = "25em") |>
-  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
-```
-
-???
-
-### Any problems with this model of the human reproduction decision?
-
-### - Are you convinced reproduction is a tragedy of the commons?
+- **Are you convinced reproduction is a tragedy of the commons?**
 
 1. Model assumes ZERO net benefit from adding kids to your community!
 
@@ -915,33 +741,26 @@ tibble(
 <br>
 
 **SLIDE**: And what about Ostrom!
+:::
 
 
+## NOBEL PRIZE WINNER Elinor Ostrom {background-image="libs/Images/background-forest_v3.png" }
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: bottom, center
-
-.content-box-green[.size50[**.textblue[Nobel Prize Winner] Elinor Ostrom**]]
-
-
-.pull-left[
+:::: {.columns}
+::: {.column width="50%"}
 ```{r, out.width='70%'}
 knitr::include_graphics('libs/Images/10-1-Ostrom_Cover2.jpg')
 ```
-]
+:::
 
-.pull-right[
-```{r, out.width='85%'}
+::: {.column width="50%"}
+```{r, out.width='100%'}
 knitr::include_graphics('libs/Images/13-1-ostrom.jpg')
 ```
-]
+:::
+::::
 
-???
-
+::: notes
 Ostrom won her Nobel Prize in part based on her research showing Hardin's grasp of "science" was...
 
 - Let's call it limited or otherwise motivated by something other than increasing our knowledge 
@@ -965,19 +784,18 @@ Rather than just telling an angry story about death and destruction, Ostrom went
 <br>
 
 **SLIDE**: Lifeboat ethics
-    
+:::
 
 
----
 
-background-image: url('libs/Images/13-1-lifeboat.jpg')
-background-size: 100%
-background-position: center
-class: middle
+## Lifeboat Ethics {background-image="libs/Images/13-1-lifeboat_v2.png"}
 
-.right[.textwhite[.size65[**Lifeboat Ethics**]]]
+<br>
 
-.size40[
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -985,11 +803,12 @@ class: middle
 <br>
 
 <br>
-]
 
-.center[.content-box-green[.size50[**4) Hardin gets the morality wrong**]]]
+<br>
 
-???
+**4) Hardin gets the morality wrong**
+
+::: notes
 
 Here we come to the final premises in Mildenberger's argument.
 
@@ -1025,20 +844,18 @@ In policy terms, Hardin argues the rich world should:
 - (Environmental sustainability cannot exist without environmental justice.)
 
 - You cannot morally build a sustainable world on the backs of suffering by other people
+:::
 
 
 
+## Lifeboat Ethics {background-image="libs/Images/13-1-lifeboat_v2.png"}
 
----
+<br>
 
-background-image: url('libs/Images/13-1-lifeboat.jpg')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.right[.textwhite[.size65[**Lifeboat Ethics**]]]
+<br>
 
-.size40[
 <br>
 
 <br>
@@ -1046,13 +863,13 @@ class: middle
 <br>
 
 <br>
-]
 
-.center[.content-box-green[.size50[**5) Hardin's model makes addressing climate change harder**]]]
+<br>
 
-???
+**5) Hardin's model makes addressing climate change harder**
 
-### And finally, why does Mildenberger argue climate change is not a tragedy of the commons?
+::: notes
+**And finally, why does Mildenberger argue climate change is not a tragedy of the commons?**
 
 Addressing climate change requires a different focus of action (contra-Hardin) 
 
@@ -1063,20 +880,12 @@ Addressing climate change requires a different focus of action (contra-Hardin)
 - Pressuring individuals to change their behavior is counterproductive because "interest groups have structured the choices available to us today."
 
 - "The climate movement needs more people on this lifeboat, not fewer. We must make room for every human if we are going to build the political power necessary to face down the looming oil tankers and coal barges that send heavy waves in our direction."
+:::
 
 
 
+## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png"}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.content-box-green[.size50[**Mildenberger (2019)**]]
-
-.size35[
 1. Hardin's argument is massively influential
 
 2. Hardin gets the history wrong
@@ -1088,13 +897,11 @@ class: middle
 5. Hardin's argument makes addressing climate change harder
 
 Therefore, "[to] create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."
-]
 
-???
+::: notes
+**First, are you persuaded by Mildenberger's argument? Why or why not?**
 
-### First, are you persuaded by Mildenberger's argument? Why or why not?
-
-### - Has ToC thinking made addressing climate change harder for us today? Why or why not?
+- **Has ToC thinking made addressing climate change harder for us today? Why or why not?**
 
 <br>
 
@@ -1107,18 +914,13 @@ Therefore, "[to] create a just and vibrant climate future, we need to ... cast H
 <br>
 
 **SLIDE**: And it turns out, that's not all in our story about the roots of modern environmentalism being problematic!
+:::
 
 
 
+## {background-image="libs/Images/08-1-kashwan.png" background-size='90%'}
 
----
-
-background-image: url('libs/Images/08-1-kashwan.png')
-background-size: 90%
-background-position: center
-class: middle
-
-???
+::: notes
 
 Let's now jump to the Kashwan (2020) article.
 
@@ -1131,21 +933,21 @@ Let's now jump to the Kashwan (2020) article.
 <br>
 
 Kashwan, P. (2020, September 2). American environmentalism’s racist roots have shaped global thinking about conservation. *The Conversation*.
+:::
 
 
 
----
 
-background-image: url('libs/Images/08-1-kashwan.png')
-background-size: 65%
-background-position: top
-class: bottom, center
+## {background-image="libs/Images/background-forest_v3.png"}
 
-.content-box-green[.size45[Therefore, "American environmentalism’s racist roots have negatively impacted global conservation practices."]]
+Therefore, "American environmentalism’s racist roots have negatively impacted global conservation practices."
 
-???
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/08-1-kashwan.png")
+```
 
-### what are the "roots" being discussed here?
+::: notes
+**What are the "roots" being discussed here?**
 - "Americans increasingly are recognizing how racist ideas have influenced virtually every sphere of life in this country."
 - Sierra Club grappling with racist views of founder John Muir
 - Audubon Society grappling with racist views of founder John James Audubon
@@ -1175,20 +977,13 @@ class: bottom, center
 <br>
 
 ### - Should the Sierra Club diasavow John Muir? Should the Audubon Society change its name?
+:::
 
 
 
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Map_Cover.png"  background-size='65%'}
 
----
-
-background-image: url('libs/Images/13_2-Bullard_Map_Cover.png')
-background-size: 84%
-background-position: bottom
-class: top
-
-.center[.content-box-green[.size40[Bullard, Mohai, Saha and Wright (2007)]]]
-
-???
+::: notes
 
 *Citation: Bullard, R. D., Mohai, P., Saha, R., & Wright, B. (2007). Toxic Wastes and Race at Twenty: Why Race Still Matters After All of These Years. United Church of Christ Justice & Witness Ministries. (**ONLY ch 3 and 4**)*
 
@@ -1205,34 +1000,24 @@ Enough hypotheticals, let's talk about what the empirical data shows.
 ### What is the main takeaway of chapters 3 and 4 that answers this question?
 
 - Main Conclusion: Preponderance of the research since 1987 shows "environmental hazards of a wide variety are distributed inequitably by race and socioeconomic status" (38).
+:::
 
 
 
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_3_1.png"  background-size='65%'}
 
-
----
-
-background-image: url('libs/Images/13_2-Bullard_Table_3_1.png')
-background-size: 80%
-background-position: center
-
-???
+::: notes
 
 Here we see a tabular summary of the average data in 1990.
 
 - Each column represents the average value for people living within set distances from a hazardous waste facility.
+:::
 
 
 
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_3_1_2.png"  background-size='65%'}
 
-
----
-
-background-image: url('libs/Images/13_2-Bullard_Table_3_1_2.png')
-background-size: 80%
-background-position: center
-
-???
+::: notes
 
 Focus first on just the difference between those super close and those far away.
 
@@ -1248,16 +1033,13 @@ These results are consistent even when including up to 3km away as "close".
 <br>
 
 **SLIDE**: Let's jump forward in time
+:::
 
 
 
----
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_4_1.png"  background-size='55%'}
 
-background-image: url('libs/Images/13_2-Bullard_Table_4_1.png')
-background-size: 65%
-background-position: center
-
-???
+::: notes
 
 ### What do we learn from their updated data in 2000? Are things getting better?
 
@@ -1301,32 +1083,23 @@ So, that takes us a to a fairly large question for any policy design.
 - Figure 4.3 shows states with biggest discrepancies by race
 - "This analysis shows that statistically significant racial and socioeconomic disparities in the location of commercial hazardous waste facilities are very prevalent among the states and thus throughout the country" (60).
 - "This analysis of the states also shows that racial disparities are more prevalent and extensive than socioeconomic disparities, suggesting that race has more to do with the current distribution of the nation’s hazardous waste facilities than poverty" (60).
+:::
 
 
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size60[**Complicating Factors to Consider When Designing Your Policy**]]
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size60[
 How does inequality (unequal voice, access and impact)  complicate your efforts to address your specific environmental problem?
-]
 
-???
+::: notes
 
 Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
 
 <br>
 
 Alright, let's share!
-
+:::
 

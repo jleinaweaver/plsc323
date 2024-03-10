@@ -1,65 +1,34 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
-editor_options: 
-  chunk_output_type: console
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 105%
-background-class: center
-class: middle
-
-.size45[**III. Designing an Environmental Policy**]
 
 <br>
 
-.size50[
+**III. Designing an Environmental Policy**
 
-**Today's Agenda**
+<br>
 
 Complicating Factors in Environmental Policymaking
 
 - Greenwashing and Eco-Capitalism
-]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-???
+::: notes
+Prep for Class
 
-## Prep for Class
-1. ???
+1. ::: notes
 
 <br>
 
@@ -70,44 +39,31 @@ Nice work at Fusion Day!
 ### - Useful feedback?
 
 ### - Lots of compliments for your excellent work?
+:::
 
 
 
+## Assignment 5: Proposing a Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size65[**Assignment 5: Proposing a Policy**]]
-
-.size55[
 Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
-]
 
-???
+::: notes
 
 I want to keep drawing your eyes back to the prompt for our final paper.
 
 <br>
 
 ### Questions on the prompt?
+:::
 
 
 
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size50[**Complicating Factors to Consider When Designing Your Policy**]]]
-
-.size40[
 - Risk aversion (or risk acceptance)
 
 - Temporal discounting and uncertainty
@@ -117,9 +73,8 @@ class: middle
 - Inequality
 
 - Greenwashing
-]
 
-???
+::: notes
 
 Our last section of the semester is meant to help you think about the complications common to environmental problem-solving.
 
@@ -134,32 +89,29 @@ Remember, our work exploring complications is meant to:
 <br>
 
 ### Questions on any of the complications we have previously explored?
+:::
 
 
 
+## Greenwashing and Eco-Capitalism {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size55[**Greenwashing and Eco-Capitalism**]]]
-
-.pull-left[
+:::: {.columns}
+::: {.column width="50%"}
 ```{r}
 knitr::include_graphics('libs/Images/13-1-Dauvergne_cover.jpg')
 ```
-]
+:::
 
-.pull-right[
+::: {.column width="50%"}
 ```{r}
 knitr::include_graphics('libs/Images/13-1-Peter_Dauvergne.jpg')
 ```
-]
+:::
+::::
 
-???
+::: notes
 
 Today I'd like us to dig into some of the big ideas raised by Peter Dauvergne in his book, Environmentalism of the Rich.
 
@@ -178,33 +130,25 @@ The book has been designed to help us think critically about environmentalism.
 <br>
 
 **SLIDE**: Let's start with the key thesis of the book
+:::
 
 
 
----
+## Greenwashing and Eco-Capitalism {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-<br>
-
-.center[.content-box-green[.size55[**Greenwashing and Eco-Capitalism**]]]
-
-<br>
-
-.left-column[
+:::: {.columns}
+::: {.column width="30%"}
 ```{r}
 knitr::include_graphics('libs/Images/13-1-Dauvergne_cover.jpg')
 ```
-]
+:::
 
-.right-column[
-.center[.size40[...over the past two decades the pendulum of environmentalism has **swung too far toward cooperation and reconciliation with the institutions of capitalism**, and to make more of a global difference the mainstream of the environmental movement **needs to pursue more transformative, ecological and justice-oriented goals** (9).]]
-]
+::: {.column width="70%"}
+...over the past two decades the pendulum of environmentalism has **swung too far toward cooperation and reconciliation with the institutions of capitalism**, and to make more of a global difference the mainstream of the environmental movement **needs to pursue more transformative, ecological and justice-oriented goals** (9).
+:::
+::::
 
-???
+::: notes
 
 Chapter 1 gives us Dauvergne's key conclusion
 
@@ -229,20 +173,13 @@ Chapter 1 gives us Dauvergne's key conclusion
 I want to briefly walk you through FIVE of the key premises in the chapters we didn't have time to read in order to build up to the chapters you read for today.
 
 - This way you'll have a better sense of the whole argument when we get to the work of evaluating it.
+:::
 
 
 
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/13-1-globalism_colonialism_v2.png" .center}
 
----
-
-background-image: url('libs/Images/13-1-globalism_colonialism_v2.png')
-background-size: 100%
-background-position: center
-class: middle, center, textwhite, inverse
-
-.size70[**1. Globalisation is imperialism by another name**]
-
-???
+::: notes
 
 A sizable claim that Dauvergne makes early, and often, in the book is that for the developing world, globalization is imperialism continued under another name (see ch2 especially).
 
@@ -265,19 +202,21 @@ In very broad strokes let's clarify the concepts here.
 
 ### So, what is the argument here? What does it mean to equate these two mechanisms?
 - (**SLIDE**)
+:::
 
 
 
----
 
-background-image: url('libs/Images/14_2-Colombia-FTA-Protest.png')
-background-size: 100%
-background-position: middle
-class: bottom, center, slidegreen
 
-.content-box-green[.size45[**1. Globalisation is imperialism by another name**]]
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
 
-???
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_2-Colombia-FTA-Protest.png')
+```
+
+::: notes
 
 Basically, Dauvergne is arguing that European imperialism was violent and exploitative, but so is globalization!
 
@@ -295,25 +234,19 @@ You want to engage in world trade?
 <br>
 
 **SLIDE**: Let's consider some evidence!
+:::
 
 
 
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-
+<br>
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-developing_states_trade.png')
-#14_2-African_Debt.gif
 ```
 
-???
+::: notes
 
 The United Nations Conference on Trade and Development (UNCTAD) is an intergovernmental organization within the United Nations Secretariat that promotes the interests of developing countries in world trade. [LINK](https://sdgpulse.unctad.org/trade-developing-economies/)
 
@@ -324,25 +257,19 @@ The United Nations Conference on Trade and Development (UNCTAD) is an intergover
 <br>
 
 **SLIDE**: And what has been the experience of these countries over time?
+:::
 
 
 
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
 
+<br>
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-```{r, fig.align='center', out.width='47%'}
+```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-debt_to_GNI_Ratios2010_2021.png')
-#14_2-African_Debt.gif
-#13-1-Debt_Burdens_China-WB.png
 ```
 
-???
+::: notes
 
 This figure is taken from the World Bank's recent report on [International Debt Statistics 2022](https://openknowledge.worldbank.org/handle/10986/36289)
 
@@ -363,32 +290,31 @@ What I hope is clear here is that most dots are above the line.
 <br>
 
 So, developing countries are engaging in more and more international trade AND increasing their debt burdens at the same time!
+:::
 
 
 
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**The Exploitation of Nauru**
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.center[.content-box-green[.size60[**The Exploitation of Nauru**]]]
-
-.pull-left[
-```{r}
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-Nauru_Mining.jpg')
 ```
-]
+:::
 
-.pull-right[
-```{r}
+::: {.column width="50%"}
+```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/13-1-Nauru_Phosphate_Mining.jpg')
 ```
-]
+:::
+::::
 
-???
+::: notes
 
 Dauvergne also steps us through the tragic story of Nauru as a case study for exploitation through globalization (chapter 3).
 
@@ -409,20 +335,19 @@ Dauvergne also steps us through the tragic story of Nauru as a case study for ex
 <br>
 
 Clearly, the story of globalization in the developing world is a complicated one and there is much evidence of deep tragedies and exploitation in its wake.
+:::
 
 
 
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/14_2-Colombia-FTA-Protest.png')
-background-size: 100%
-background-position: middle
-class: bottom, center, slidegreen
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_2-Colombia-FTA-Protest.png')
+```
 
-.content-box-green[.size45[**1. Globalisation is imperialism by another name**]]
-
-???
+::: notes
 
 In sum, Dauvergne argues that there is a ton of current evidence in the developing world for this first premise: 
 
@@ -440,27 +365,22 @@ In sum, Dauvergne argues that there is a ton of current evidence in the developi
 
 ### - Strongest and weakest parts of this argument?
 
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**Environmentalism**
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
+**+**
 
-.size55[**Environmentalism**]
-
-.size55[**+**]
-
-.size55[**Capitalism**]
+**Capitalism**
 
 <br>
 
-.size55[**= .textred[Bad Ecological Outcomes]**]
+**= Bad Ecological Outcomes**
 
-???
+::: notes
 
 Dauvergne's second key premise is that you cannot frame or embed environmentalism in the capitalist system and expect ecologically positive outcomes (ch4).
 
@@ -470,22 +390,19 @@ World politics is defined by the want of more (money, stuff)
 - "To survive, capitalism needs to expand production and markets" (49).
 
 - Even companies dedicated to making themselves cleaner, more efficient, less wasteful just reinvest those profits in expansion in order to sell even more stuff.
+:::
 
 
 
+## 2. Environmentalism + Capitalism = Bad Ecological Outcomes {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/13-1-patagonia_dont_buy_jacket.png')
+```
 
-background-image: url('libs/Images/13-1-patagonia_dont_buy_jacket.png')
-background-size: 70%
-background-position: bottom
-class: top, center, textwhite, inverse
+::: notes
+**Anybody ever seen this ad before?**
 
-.size50[**2. Environmentalism + Capitalism = .textred[Bad Ecological Outcomes]**]
-
-???
-
-### Anybody ever seen this ad before?
 - Patagonia full page ad in NYT in 2011
 - This is the $700 "Don't Buy This Jacket" jacket
 
@@ -515,19 +432,14 @@ class: top, center, textwhite, inverse
 - The catch? So much of this wealth is being generated only at the very top. Inequality is exploding!
 - Argument: wealth inequality is deeply problematic for sustainability.
 
+:::
 
 
 
----
 
-background-image: url('libs/Images/13-1-recycling_myths_v2.png')
-background-size: 100%
-background-position: center
-class: middle, center, textwhite, inverse
+## 3. We are rapidly consuming the world while feeling better and better about our choices {background-image="libs/Images/13-1-recycling_myths_v2.png" .center}
 
-.size60[**3. We are rapidly consuming the world while feeling better and better about our choices**]
-
-???
+::: notes
 
 Dauvergne's THIRD key premise is that we are rapidly consuming the world while feeling better and better about making environmental choices.
 
@@ -548,22 +460,11 @@ Dauvergne's THIRD key premise is that we are rapidly consuming the world while f
 - "Most consumers are unaware of, and feel little responsibility for, the environmental risks and damage of consumption in other countries and for future generations" (56).
     
 - According to the most recent data estimates available from the Environmental Protection Agency, just 8.7 percent of the plastic that was discarded in the U.S. in 2018 was recycled.
-    
-    
 
----
+<br>
 
-background-image: url('libs/Images/13-1-recycling_myths_v2.png')
-background-size: 100%
-background-position: center
-class: middle, center, textwhite, inverse
-
-.size60[**3. We are rapidly consuming the world while feeling better and better about our choices**]
-
-???
-
-### Is this a fair characterization of our behaviors as consumers?
-### - Have your "green" choices led to less consumption or just "slightly better" consumption?
+**Is this a fair characterization of our behaviors as consumers?**
+- **Have your "green" choices led to less consumption or just "slightly better" consumption?**
 
 <br>
 
@@ -577,21 +478,20 @@ Argument: "I'll demonstrate in this chapter, however, rising ecological footprin
 -- Avgs: Africa 1.5, UK 4.7, Canada 6.4, US 7.2
 -- In 2010, estimated Earth can support 12 billion hectares (productive biocapacity), our use was 18 billion hectares.
 - The consequences?
+:::
 
 
 
----
 
-background-image: url('libs/Images/13-1-toxic_america.webp')
-background-size: 50%
-background-position: left
-class: middle, center, textwhite, inverse
+## 4. Legal risk-taking by corporations is rampant and incredibly dangerous {background-image="libs/Images/background-forest_v3.png" .center}
 
-.pull-right[
-.size50[**4. Legal risk-taking by corporations is rampant and incredibly dangerous**]
-]
+<br>
 
-???
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/13-1-toxic_america.webp')
+```
+
+::: notes
 
 Dauvergne's FOURTH premise is that businesses continue to do legal, but risky things experimenting on consumers and the environment.
 
@@ -616,38 +516,29 @@ Business and industry have gone to incredible lengths to protect profitability:
 - Initimidating grassroots activists, and
 
 - Fomenting community backlash.
+:::
 
 
 
+## 4. Legal risk-taking by corporations is rampant and incredibly dangerous {background-image="libs/Images/background-forest_v3.png" .center}
 
+<br>
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size50[**4. Legal risk-taking by corporations is rampant and incredibly dangerous**]]]
-
-.pull-left[
+:::: {.columns}
+::: {.column width="50%"}
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/13-1-Lead_Dangerous.jpg')
 ```
-]
+:::
 
-.pull-right[
-
-<br>
-
-<br>
-
+::: {.column width="50%"}
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/13-1-Teflon_Pan.jpg')
 ```
-]
+:::
+::::
 
-???
+::: notes
 
 Case Study Examples
 
@@ -666,21 +557,19 @@ Case Study Examples
 - Well documented flu-like symptoms from breathing in fumes from an overheated Teflon-coated pan
     
 - BUT it was profitable so industry fought to hide and suppress the research.
+:::
 
 
 
+## 5. "Environmentalism of the Rich" {background-image="libs/Images/background-forest_v3.png" .center}
 
+<br>
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/13-1-Green_NGOs.jpg')
+```
 
-background-image: url('libs/Images/13-1-Green_NGOs.jpg')
-background-size: 65%
-background-position: bottom
-class: top, center, textwhite, inverse
-
-.size50[**5. "Environmentalism of the Rich"**]
-
-???
+::: notes
 
 Dauvergne's FIFTH premise is that the modern environmental movement has come to be dominated by an "environmentalism of the rich"
 
@@ -701,24 +590,17 @@ Dauvergne's FIFTH premise is that the modern environmental movement has come to 
 - Deep philosophical and policy differences have long characterized environmentalism.
     
 - Broad dimension running from radicals (remake the world economy!) to reformers (use institutions to guide globalzation to do good).
+:::
 
 
 
+## "Environmentalism of the Rich" {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size55[**"Environmentalism of the Rich"**]]
-
-.size50[
 "More important, however, has been the innate power of consumer capitalism to distort and assimilate counternarratives and countermovements, especially critiques of wealth and economic growth" (p76).
-]
 
-???
+::: notes
 
 3) BUT, the modern environmental movement has failed to meaningfully challenge consumer capitalism
 
@@ -727,20 +609,12 @@ class: middle, center
 - The reformers have accomplished much for the wealthy amongst us, but these small changes has weakened the capacity of the movement to challenge capitalism.
     
 - These groups are the creation of the West and are far too responsive to the demands of Western interests
-    
+:::
 
 
 
----
+## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-## Dauvergne's Argument
-
-.size40[
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
 3. "Green" consumption is still consumption
@@ -749,10 +623,8 @@ class: middle
 6. ...
 
 Therefore, the mainstream of the environmental movement needs to pursue more transformative, ecological and justice-oriented goals.
-]
 
-???
-
+::: notes
 Ok, here's the argument so far.
 
 <br>
@@ -789,21 +661,13 @@ Palm Oil Campaign
 The Power of Eco-Consumerism
 - "Consumers are the foot soldiers of today's middle class environmentalism" (123).
 - Is it effective? Much good is being done HOWEVER plastic waste is rising and "Eco-consumerism is also doing a little to reduce global energy consumption" (124).
+:::
 
 
 
 
+## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-## Dauvergne's Argument
-
-.size40[
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
 3. "Green" consumption is still consumption
@@ -812,9 +676,8 @@ class: middle
 6. Eco-consumerism isn't working
 
 Therefore, the mainstream of the environmental movement needs to pursue more transformative, ecological and justice-oriented goals.
-]
 
-???
+::: notes
 
 I don't mean to claim this is actually Dauvergne's sixth premise but man alive this line on p114 hit me like a ton of bricks.
 
@@ -855,20 +718,12 @@ WWF
 
 - Other examples: Conservation International, Environmental Defense Fund
 - Seems to argue that the businesses gain far more cover for bad behavior than the NGOs gain in funding and incremental improvements to industrial processes.
+:::
 
 
 
+## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-## Dauvergne's Argument
-
-.size35[
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
 3. "Green" consumption is still consumption
@@ -878,11 +733,9 @@ class: middle
 7. Corporate money buys more cover for bad behavior than it provides in better processes
 
 Therefore, the mainstream of the environmental movement needs to pursue more transformative, ecological and justice-oriented goals.
-]
 
-???
-
-### How convinced by this argument are you? Why or why not?
+::: notes
+**How convinced by this argument are you? Why or why not?**
 
 <br>
 
@@ -901,18 +754,12 @@ Chapter 12 does a nice job wrapping all of this up, but this diagram represents 
 
 ### What are the big recommendations Dauvergne makes in chapter 12 for how we should move forward from this?
 - (**SLIDE**)
+:::
 
 
 
+## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
 
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size35[
 - People must consume less
 - Create new laws to protect ecosystems and human rights
 - Measures to end extreme inequality and stop corporate pillaging 
@@ -921,14 +768,12 @@ class: middle
 - People must accept responsibility for the consequences of the sources of their wealth, owning up to historical wrongs and to contemporary inequities so new rules and institutions can be put in place 
 - Controls must be placed on the institutions of overconsumption and wasteful consumption
 - "a politics of global sustainability must respect nature, demand intergenerational equity, advance environmental justice, and promote fair economics without irreparably harming present or future life."
-]
 
-???
+::: notes
 
 p(150-151) Dauvergne makes some big recommendations for the future.
 
 ### Are any of these possible? Why or why not?
-
 
 <br>
 
@@ -972,29 +817,21 @@ As If Consumption Matters
 - "Moving high consuming lifestyles toward a fair earth share will therefore require far-reaching political and economic reforms... Stricter International and domestic laws to protect ecosystems and human rights are necessary. So are measures to end extreme and equality and stop corporate pillaging. So are far higher levels of precaution when introducing new technologies and chemicals. And so is a new energy base for our economies: carbon neutral, with fair distribution. Most challenging of all, we will need more people, especially those with power and money, to accept more responsibility for the consequences of the sources of their wealth, owning up to historical wrongs and to contemporary inequities so new rules and institutions can be put in place" (150).
 - "Controls must be placed on the institutions of overconsumption and wasteful consumption, including the automobile industry, the chemical industry, the construction industry, the fossil fuel industry, the mining industry, the fishing industry, the timber industry, the advertising industry, the fast food industry, the discount retail industry, and the agricultural industry" (151).
 - "a politics of global sustainability must respect nature, demand intergenerational equity, advance environmental justice, and promote fair economics without irreparably harming present or future life. It must restrain corporations as well as unbalanced growth and consumption. And it must recognize that socioeconomic and ecological systems interlock, putting in place measures to balance systems that are interacting with increasing speed and volatility" (151).
+:::
 
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size60[**Complicating Factors to Consider When Designing Your Policy**]]
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size60[
-How does Greenwashing and Eco-Capitalism complicate your efforts to address your specific environmental problem?
-]
+How does greenwashing and eco-capitalism complicate your efforts to address your specific environmental problem?
 
-???
+::: notes
 
 Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
 
 <br>
 
 Alright, let's share!
+:::

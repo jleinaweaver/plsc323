@@ -1,123 +1,88 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Today's Agenda**]
+<br>
 
 <br>
 
-.size60[
-Develop Analyses for Report 2
-]
+**Develop Analyses for Report 2**
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+<br>
 
-???
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-## Prep for Class
+::: notes
+Prep for Class
+
 1. Bring poster paper and sticky tac
 
 2. Check submissions to Canvas
+:::
 
 
 
----
+## Paper 2 {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.size70[**Paper 2**]
+Which of the four policy approaches is the "right" one for you?
 
-.size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
+- Analyze the pros and cons of each option **SEPERATELY** for your chosen environmental problem
 
-- Analyze the pros and cons of each option for your chosen problem
-]
-
-???
-
-### Questions on the prompt?
+::: notes
+**Questions on the prompt?**
 
 <br>
 
 This week we'll work on the paper.
+:::
 
 
 
----
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11-1-Poster1.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster1.png')
+```
 
-???
+::: notes
 
 Ok, does everybody have a poster?
+:::
 
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster2.png')
+```
 
-background-image: url('libs/Images/11-1-Poster2.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
+::: notes
 
 Next step, write your environmental problem at the top of the paper.
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster3.png')
+```
 
-background-image: url('libs/Images/11-1-Poster3.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
+::: notes
 
 Now split the poster into 4 quadrants.
 
@@ -131,59 +96,45 @@ Use the full 8 minutes!
     - Write drunk, edit sober!
 
 - Once your poster is done we'll go around the room and give each other feedback and refine these lists.
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster4.png')
+```
 
-background-image: url('libs/Images/11-1-Poster4.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
+::: notes
 
 8 minutes, build your pros and cons list for green taxes
+:::
 
 
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster5.png')
+```
 
-background-image: url('libs/Images/11-1-Poster5.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
+::: notes
 
 8 minutes, build your pros and cons list for green subsidies
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/11-1-Poster6.png')
+```
 
-background-image: url('libs/Images/11-1-Poster6.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
-
+::: notes
 8 minutes, build your pros and cons list for adaptive governance
 
-
-
-
----
-
-background-image: url('libs/Images/11-1-Poster6.png')
-background-size: 53%
-background-position: center
-class: middle, slideblue
-
-???
+<br>
 
 Everybody grab a bit of sticky tak OR tape and use it to hang your poster on the wall.
 
@@ -202,27 +153,16 @@ Now, every other person starting with X, stay by your poster.
 <br>
 
 20 mins: Swap roles and do it again!
+:::
 
 
 
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**For Thursday**]
+## For Next Class {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size50[
-Write your rough draft!
-]
+**Write your rough draft!**
 
-???
-
-### Questions?
+::: notes
+**Questions?**
+:::

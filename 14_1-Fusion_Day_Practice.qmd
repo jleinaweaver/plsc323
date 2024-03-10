@@ -1,78 +1,47 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Today's Agenda**]
-
-.center[.size65[
-Prepare for Fusion Day
-]]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+**Prepare for Fusion Day**
 
-???
+<br>
 
-## Prep for Class
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
 1. After volunteers selected you need to make slides for panel
 
 2. [Compass Center Resources](https://www.drury.edu/academic-affairs/fusion-day/compass-center-fusion-day-resources/)
 
+3. Add examples from class of excellent posters!
+:::
 
 
 
----
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png"}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+**Getting Feedback from your Community**
 
-.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '58%'}
+```{r, echo = FALSE, fig.align = 'center'}
 knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
 ```
 
-.center[.content-box-green[.size45[**Getting Feedback from your Community**]]]
-
-???
+::: notes
 
 Fusion Day is Wednesday and your poster session is 3pm-4:30pm.
 
@@ -81,17 +50,13 @@ Fusion Day is Wednesday and your poster session is 3pm-4:30pm.
 <br>
 
 **SLIDE**: I'm still working my way through the grading but I want to share some of the great work your classmates have done!
+:::
 
 
 
+## {background-image="libs/Images/14_1-Poster_Anh_Vi.png" }
 
----
-
-background-image: url('libs/Images/14_1-Poster_Anh_Vi.png')
-background-size: 84%
-background-position: center
-
-???
+::: notes
 
 I love Anh's layout here.
 
@@ -100,35 +65,25 @@ I love Anh's layout here.
 - Includes cited evidence!
 
 - Clear policy options
+:::
 
 
 
+## {background-image="libs/Images/14_1-Poster_Taylor.png" }
 
----
-
-background-image: url('libs/Images/14_1-Poster_Taylor.png')
-background-size: 84%
-background-position: center
-
-
-???
+::: notes
 
 Taylor's done a great job balancing detail with compelling visualizations
 
 - This stakeholder map is really cool
 
 - I also like the policies presented as example and concrete hypothetical
+:::
 
 
+## {background-image="libs/Images/14_1-Poster_Abbi.png" }
 
----
-
-background-image: url('libs/Images/14_1-Poster_Abbi.png')
-background-size: 84%
-background-position: center
-
-
-???
+::: notes
 
 Come on, Abbi's in the field photo is awesome!
 
@@ -141,24 +96,23 @@ You'll get your poster grades back after Fusion Day and I will give everyone a c
 <br>
 
 **SLIDE**: Let's now talk expectations for tomorrow.
+:::
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
----
-
-background-image: url('libs/Images/11_1-Compass_Center14.png')
-background-size: 90%
-background-position: center
-
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/11_1-Compass_Center14.png")
+```
 
 
----
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center15.png')
-background-size: 90%
-background-position: center
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/11_1-Compass_Center15.png")
+```
 
-???
+::: notes
 
 Not sure how many of you participated in this last year, but it can be a lot of fun.
 
@@ -169,17 +123,13 @@ Not sure how many of you participated in this last year, but it can be a lot of 
 <br>
 
 ### Any questions on Wednesday's poster session?
+:::
 
 
 
+## {background-image="libs/Images/14_1-elevator-pitch.png"}
 
----
-
-background-image: url('libs/Images/14_1-elevator-pitch.png')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 My plan for today is that everyone develop a 2-3 minute elevator pitch for their project.
 
@@ -196,21 +146,14 @@ My plan for today is that everyone develop a 2-3 minute elevator pitch for their
 <br>
 
 **SLIDE**: Before we do this, we need to discuss one other thing.
+:::
 
 
 
+## Fusion Day Panel {background-image="libs/Images/background-forest_v3.png"}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-# Fusion Day Panel
-
-.size40[
 - Four certificates present (OBT 300), 10am-11:30am
 
 - Each certificate:
@@ -218,9 +161,8 @@ class: middle
     - Twenty minutes
 
 - Audience of FUSE 102 students 
-]
 
-???
+::: notes
 
 Because we are the certificate capstone, we are on the hook for a presentation in the morning to FUSE 102 students who are trying to pick certificates.
 
@@ -240,21 +182,16 @@ Room 300:
 - 10:40-10:50   Break
 - 10:50-11:10   Designing Solutions for Environmental Problems
 - 11:10-11:30   The Activists Tool Kit: Transforming Society through Civic Engagement
+:::
 
 
 
+## Fusion Day Panel {background-image="libs/Images/background-forest_v3.png"}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
+**Our Plan (Breech 200)**
 
-class: middle
-
-# Fusion Day Panel: Our Plan (Breech 200)
-
-.size40[
 - Intro: 2 mins
 
 - 4 students: 2-3 minute elevator pitch
@@ -263,10 +200,8 @@ class: middle
     - Any connections to the certificate classes?
 
 - Five minutes for Q&A with the audience
-]
 
-???
-
+::: notes
 Our plan is simple.
 
 - I give a 2 minute opening, e.g. what is the certificate
@@ -280,16 +215,12 @@ Our plan is simple.
 This means I need four volunteers who are willing to come to the panel and briefly present their projects.
 
 ### So, volunteers?
+:::
 
 
+## {background-image="libs/Images/14_1-elevator-pitch.png"}
 
----
-
-background-image: url('libs/Images/14_1-elevator-pitch.png')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Ok, everybody needs an elevator pitch.
 
@@ -314,3 +245,4 @@ New pairs, last chance, do it again!
 <br>
 
 Alright, I'll see you all tomorrow!
+:::

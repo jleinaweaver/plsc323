@@ -1,104 +1,62 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Today's Agenda**]
-
-.center[.size65[
-Design a Poster for Fusion Day
-]]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+<br>
 
-???
+**Design a Poster for Fusion Day**
 
-## Prep for Class
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
 1. [Compass Center Resources](https://www.drury.edu/academic-affairs/fusion-day/compass-center-fusion-day-resources/)
+:::
 
 
 
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**Getting Feedback from our Community**
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '58%'}
+```{r, echo = FALSE, fig.align = 'center'}
 knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
 ```
 
-.center[.content-box-green[.size45[**Getting Feedback from our Community**]]]
-
-???
-
+::: notes
 Design a poster for Fusion Day that introduces your problem to the community and offers a test run of different solutions. 
 
 - Your job is to present this poster during Fusion Day in order to collect community feedback on your problem framing (and proposed solution)
+:::
 
 
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
-
-.size40[
 1. Argument: We have a serious, local environmental problem
 
-2. Present four policy options to address this problem
-    - Option 1: A C&C regulation that...
-    - Option 2: A "green" tax that...
-    - Option 3: A "green" subsidy that...
-    - Option 4: An adaptive governance approach that...  
-]
+2. Community Engagement: What have you done to get involved?
 
-???
+3. Present **at least one** policy option we could implement in our community to address this problem
 
+::: notes
 Here's what I'd like your poster to include.
 
 - A well supported argument, and
@@ -112,159 +70,139 @@ Here's what I'd like your poster to include.
 <br>
 
 **SLIDE**: Let's step through some advice from the Compass Center
+:::
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center1.png")
+```
 
----
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center1.png')
-background-size: 90%
-background-position: center
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center2.png")
+```
 
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center3.png")
+```
 
-background-image: url('libs/Images/11_1-Compass_Center2.png')
-background-size: 90%
-background-position: center
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center4.png")
+```
 
----
 
-background-image: url('libs/Images/11_1-Compass_Center3.png')
-background-size: 90%
-background-position: center
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center5.png")
+```
 
 
----
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center4.png')
-background-size: 90%
-background-position: center
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center6.png")
+```
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center7.png")
+```
 
----
 
-background-image: url('libs/Images/11_1-Compass_Center5.png')
-background-size: 90%
-background-position: center
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center8.png")
+```
 
 
----
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center6.png')
-background-size: 90%
-background-position: center
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center9.png")
+```
 
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center12.png")
+```
 
-background-image: url('libs/Images/11_1-Compass_Center7.png')
-background-size: 90%
-background-position: center
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center13.png")
+```
 
----
 
-background-image: url('libs/Images/11_1-Compass_Center8.png')
-background-size: 90%
-background-position: center
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center14.png")
+```
 
 
----
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center9.png')
-background-size: 90%
-background-position: center
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center15.png")
+```
 
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center16.png")
+```
 
-background-image: url('libs/Images/11_1-Compass_Center10.png')
-background-size: 90%
-background-position: center
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center17.png")
+```
 
 
----
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center11.png')
-background-size: 90%
-background-position: center
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center18.png")
+```
 
 
+## Compass Center Advice (Slide 9) {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center19.png")
+```
 
-background-image: url('libs/Images/11_1-Compass_Center12.png')
-background-size: 90%
-background-position: center
 
 
 
----
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/11_1-Compass_Center13.png')
-background-size: 90%
-background-position: center
+<br>
 
-
-
----
-
-background-image: url('libs/Images/11_1-Compass_Center14.png')
-background-size: 90%
-background-position: center
-
-
-
----
-
-background-image: url('libs/Images/11_1-Compass_Center15.png')
-background-size: 90%
-background-position: center
-
-
-
----
-
-background-image: url('libs/Images/11_1-Compass_Center16.png')
-background-size: 90%
-background-position: center
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
-
-.size40[
 1. Argument: We have a serious, local environmental problem
 
-2. Present four policy options to address this problem
-    - Option 1: A C&C regulation that...
-    - Option 2: A "green" tax that...
-    - Option 3: A "green" subsidy that...
-    - Option 4: An adaptive governance approach that...  
-]
+2. Community Engagement: What have you done to get involved?
 
-???
+3. Present **at least one** policy option we could implement in our community to address this problem
 
+::: notes
 Let's aim to share your progress in class on Thursday!
 
 - Get and give some feedback!
-
+:::

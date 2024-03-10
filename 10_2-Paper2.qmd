@@ -1,138 +1,94 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Today's Agenda**]
+<br>
 
 <br>
 
-.size60[
-Paper 2: Review and Revise Drafts
-]
+**Paper 2: Review and Revise Drafts**
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+<br>
 
-???
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-## Prep for Class
+::: notes
+Prep for Class
+
 1. Send out reminder that next week we meet in Springfield Hall Lab A to work on posters
+:::
 
 
 
----
+## Next Week {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
+<br>
 
-.size80[**Next Week**]
-
-.size65[
 Meet in Springfield Hall Lab A to work on converting Paper 2 into a Fusion Day poster
-]
 
-???
-
+::: notes
 Next week we take your material from the second paper and use it to prepare a Fusion Day poster.
 
 - So we'll meet in the computer lab to kick things off next week
+:::
 
 
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Paper 2**]
-
-.size55[
-Which of the four policy design options is the "right" choice for addressing your environmental problem?
-
-- Analyze the pros and cons of each option for your chosen problem
-]
-
-???
-
-### Questions on the prompt?
+## Paper 2 {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-### Everybody have a rough draft?
+Which of the four policy design options is the "right" choice for addressing your environmental problem?
+
+- Analyze the pros and cons of each option for your chosen problem
+
+::: notes
+**Questions on the prompt?**
+
+<br>
+
+**Everybody have a rough draft?**
+:::
 
 
+## Paper Rubric {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-blue_cubes_lighter2.png')
-background-size: 100%
-background-position: center
-class: middle, center
+**To be convincing an argument should be logical, clear, credible and critical.**
 
-.size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
+::: notes
+TBD
+:::
 
 
----
+## Convincing arguments... {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-blue_cubes_lighter2.png')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.size50[**Convincing arguments...**]
++ **Logical**: Do the premises support the conclusion?
 
-.size40[
-+ .textred[**Logical**]: Do the premises support the conclusion?
++ **Clear**: Is the paper easy to read and understand?
 
-+ .textred[**Clear**]: Is the paper easy to read and understand?
++ **Credible**: Is there enough high quality evidence (cited using APA)?
 
-+ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
++ **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
 
-+ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
-]
-
-???
-
+::: notes
 Ok, everybody, get some feedback, give some feedback and get to writing!
+:::
+
+
+

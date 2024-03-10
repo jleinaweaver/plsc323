@@ -1,87 +1,68 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Today's Agenda**]
-
-.center[.size65[
-Design a Poster for Fusion Day
-]]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+<br>
 
-???
+**Design a Poster for Fusion Day**
 
-## Prep for Class
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
 1. [Compass Center Resources](https://www.drury.edu/academic-affairs/fusion-day/compass-center-fusion-day-resources/)
+:::
 
 
 
----
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.center[.content-box-green[.size45[**Assignment 3: Fusion Day Poster**]]]
-
-.size40[
 1. Argument: We have a serious, local environmental problem
 
-2. Present four policy options to address this problem
-    - Option 1: A C&C regulation that...
-    - Option 2: A "green" tax that...
-    - Option 3: A "green" subsidy that...
-    - Option 4: An adaptive governance approach that...  
-]
+2. Community Engagement: What have you done to get involved?
 
-???
+3. Present **at least one** policy option we could implement in our community to address this problem
 
+::: notes
+Here's what I'd like your poster to include.
 
+- A well supported argument, and
 
----
+- A series of options you are inviting the community to weigh-in on.
 
-background-image: url('libs/Images/11_1-Compass_Center16.png')
-background-size: 90%
-background-position: center
+<br>
 
+### Questions on the components here?
+:::
 
 
+## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
+
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center18.png")
+```
+
+
+## Compass Center Advice (Slide 9) {background-image="libs/Images/background-forest_v3.png" .center}
+
+```{r}
+knitr::include_graphics("libs/Images/11_1-Compass_Center19.png")
+```

@@ -1,59 +1,31 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+<br>
 
-.size70[**Today's Agenda**]
+**Work on the Final Policy Proposal**
+
+- Due May 8th, 3pm
 
 <br>
 
-.center[.size60[
-Work on the Final Policy Proposal
-
-(Due May 8th, 3pm)
-]]
-
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2022)
-]]
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-???
+::: notes
+Prep for Class
 
-## Prep for Class
 1. IDEA Evals today
     - Update link in slides
     - Schedule Canvas announcement to go out at start of class
@@ -71,30 +43,19 @@ Here is the direct link to our course evaluation survey: https://drury.campuslab
 Thanks,
 
 JL
+:::
 
 
 
+## IDEA Evaluations {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.size70[**IDEA Evaluations**]
-.size45[
-https://drury.campuslabs.com/eval-home/direct/6294534
-]
-
-???
+https://drury.campuslabs.com/ ...
 
 
 
-
----
-
-class: middle, center
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
 tibble(
@@ -109,7 +70,7 @@ tibble(
   kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
 ```
 
-???
+::: notes
 
 Time to take stock of how far you've come in order to start looking ahead to your final paper.
 
@@ -123,33 +84,20 @@ Time to take stock of how far you've come in order to start looking ahead to you
 
 <br>
 
-**Remember, posters must be submitted to Canvas AND to the official Fusion Day website for approval and printing!**
-
-### Any questions on the poster submission?
-    
-<br>
-
 Your final paper asks you to reflect on all of this in order to design a policy for addressing your chosen problem. 
 
 - We have lots of time before this is due but I want to keep reminding you of how all of these earlier pieces help you build to this.
+:::
 
 
 
+## Assignment 5: Proposing a Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size65[**Assignment 5: Proposing a Policy**]]
-
-.size55[
 Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
-]
 
-???
+::: notes
 
 The Prompt
 
@@ -158,25 +106,33 @@ The Prompt
 Let's talk about my expectations for this paper.
 
 - Note that I've put these details on Canvas.
+:::
 
 
 
 
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
+:::: {.columns}
+::: {.column width="50%"}
 
----
+<br>
 
-background-image: url('libs/Images/10-1-four_brains.jpg')
-background-size: 40%
-background-position: right
-class: middle, slidegreen
+<br>
 
-.pull-left[
-.center[
-.size65[**Final proposal should be a complete, stand-alone policy proposal**]
-]]
+<br>
 
-???
+**Final proposal should be a complete, stand-alone policy proposal**
+:::
+
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/10-1-four_brains.jpg')
+```
+:::
+::::
+
+::: notes
 
 Do NOT assume the reader is familiar with your other assignments or has a deep understanding of the problem itself.
 
@@ -193,17 +149,12 @@ You should be able to give your paper to a person interested in your problem and
 <br>
 
 SLIDE: Ok, let's get more specific
+:::
 
 
----
+## A convincing policy proposal: {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size35[
-A convincing policy proposal:
+<br>
 
 - Advances your policy recommendation in **EVERY** paragraph,
 
@@ -214,9 +165,8 @@ A convincing policy proposal:
 - Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
 
 - Offers guidance for measuring its effectiveness over time.
-]
 
-???
+::: notes
 
 The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
 - Problem framings matter,
@@ -238,7 +188,4 @@ The bottom line here is I'm looking for you to connect your ideas in very concre
 ### Does that make sense?
 
 ### Any questions on the prompt or any of this advice
-
-
-
-
+:::

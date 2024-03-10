@@ -1,82 +1,47 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
 
+```{r}
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
 ```
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 105%
-background-class: center
-class: middle
-
-.size45[**III. Designing an Environmental Policy**]
 
 <br>
 
-.size50[
+**III. Designing an Environmental Policy**
 
-**Today's Agenda**
+<br>
 
 Complicating Factors in Environmental Policymaking
 
 - Temporal Discounting and Uncertainty
-]
 
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-???
+::: notes
+Prep for Class
 
-## Prep for Class
 1. Run slides on laptop IF you are recording student values electronically
 
 2. Build a Google Form to collect data and prep email to distribute it
     - https://forms.gle/CVeMpXnTmuDWy9oL8
 
 3. Old US Public policy notes (14.2) covered temporal discounting
+:::
 
 
 
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-green[.size50[**Complicating Factors to Consider When Designing Your Policy**]]]
-
-.size40[
 - Risk aversion (or risk acceptance)
 
 - Temporal discounting and uncertainty
@@ -86,25 +51,21 @@ class: middle
 - Inequality
 
 - Greenwashing
-]
 
-???
+::: notes
 
 This final section of our class is our chance to dig into some of the complications you as policy designers need to be aware of when trying to solve environmental problems.
 
 <br>
 
 **SLIDE**: On Tuesday we started by exploring the complications created by stakeholders different perceptions of risk.
+:::
 
 
 
----
+## {background-image="libs/Images/06-1-risk_meter.jpeg" .center}
 
-background-image: url('libs/Images/06-1-risk_meter.jpeg')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Stakeholder perceptions can be thought of as running along a dimension from risk acceptant to risk averse.
 
@@ -139,16 +100,12 @@ Stakeholder perceptions can be thought of as running along a dimension from risk
 ### - Subsidies?
 
 ### - Adaptive governance?
+:::
 
 
+## {background-image="libs/Images/06-1-time_horizons_sharks.webp" .center}
 
----
-
-background-image: url('libs/Images/06-1-time_horizons_sharks.webp')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Today we shift to our second set of complications: Temporal discounting and uncertainty
 
@@ -177,17 +134,13 @@ His strategy for HOW to do that can be mapped onto a single dimension running fr
 ### What are the pros and cons of adopting an EXCLUSIVELY long time-horizon focus (e.g. focusing on the shoreline)?
 - (Pro: Maximizes your chances of reaching the big, distant goal...)
 - (Con: ASSUMING the heavy costs along the way don't sink you!)
+:::
 
 
 
+## {background-image="libs/Images/06-1-wicklow_path.jpg" .center}
 
----
-
-background-image: url('libs/Images/06-1-wicklow_path.jpg')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Hopefully, what is clear to you is that neither extreme is likely a good primary strategy.
 
@@ -210,19 +163,19 @@ Our first key takeaways as policy designers:
 <br>
 
 **SLIDE**: Ok, we need a tool to help us quanitfy and analyze time horizons.
+:::
 
 
 
----
+## Temporal Discounting {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/05-1-Discounting.webp')
-background-size: 85%
-background-position: bottom
-class: top, center
+<br>
 
-.size55[.content-box-blue[**Temporal Discounting**]]
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/05-1-Discounting.webp")
+```
 
-???
+::: notes
 
 Temporal discounting is an approach developed by economists and policy analysts for analyzing time horizons.
 
@@ -250,19 +203,14 @@ All people discount the future due to uncertainty but the amounts people discoun
 <br>
 
 **SLIDE**: I assume death and insolvency make sense, but let's talk uncertainty caused by inflation for a sec.
+:::
 
 
 
+## {background-image="libs/Images/06-1-popeye1.gif" .center}
 
----
-
-background-image: url('libs/Images/06-1-popeye1.gif')
-background-size: 75%
-background-position: center
-
-???
-
-### Anybody watch popeye cartoons growing up?
+::: notes
+**Anybody watch popeye cartoons growing up?**
 
 <br>
 
@@ -275,15 +223,18 @@ He was a "sailor man" who got into scrapes starting in comic strips of the 1930s
 I loved these cartoons as a kid and they definitely got me to eat my spinach.
 
 - I digress, this isn't actually about Popeye at all.
+:::
 
 
----
+## Temporal Discounting {background-image="libs/Images/background-forest_v3.png" .center}
 
-background-image: url('libs/Images/06-1-wimpy_burger.jpeg')
-background-size: 50%
-background-position: center
+<br>
 
-???
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/06-1-wimpy_burger.jpeg")
+```
+
+::: notes
 
 My shortcut to thinking about temporal discounting due to inflation is all about Wimpy.
 
@@ -298,17 +249,13 @@ J Wellington Wimpy was the "straight man" to Popeye's character.
 <br>
 
 Hilarious joke during the great depression, right?
+:::
 
 
 
+## {background-image="libs/Images/06-1-Inflation.png" .center}
 
----
-
-background-image: url('libs/Images/06-1-Inflation.png')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Setting aside the depressing nature of old-timey cartoons, let's bring this back to the discount rate.
 
@@ -327,16 +274,13 @@ Here we see the Federal Reserve Bank's estimate of the Consumer Price Index.
 <br>
 
 *Figure Source*: [LINK](https://fred.stlouisfed.org/series/CPIAUCSL#) *5 year time frame, percent change, edit dimensions: 1050w x 600h*
+:::
 
 
 
----
+## {background-image="libs/Images/06-1-Inflation_annotated2.png" .center}
 
-background-image: url('libs/Images/06-1-Inflation_annotated2.png')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Let's use our inflation data here to talk in hamburger terms!
 
@@ -353,21 +297,14 @@ This means that over three years your dollar became less valuable.
 <br>
 
 ### Make sense?
+:::
 
 
+## {background-image="libs/Images/06-1-Inflation_annotated2.png"}
 
----
+![](libs/Images/06-1-wimpy_burger.jpeg){.absolute left=0 bottom=175 width="35%"}
 
-background-image: url('libs/Images/06-1-Inflation_annotated2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-```{r, echo = FALSE, fig.align = 'left', out.width = '35%'}
-knitr::include_graphics("libs/Images/06-1-wimpy_burger.jpeg")
-```
-
-???
+::: notes
 
 If Wimpy expects high inflation then a whole burger bought today will cost less than a whole burger bought next week.
 
@@ -392,18 +329,13 @@ Of course, Wimpy lived during the Great Depression when the problem was deflatio
 In either version, Wimpy is demonstrating for us how a discount rate impacts decision-making.
 
 - People may discount the future for many reasons and the level of that discount impacts their present decision-making.
+:::
 
 
 
+## {background-image="libs/Images/06-1-choices.jpg"}
 
----
-
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-???
+::: notes
 
 Let's play with this idea and explore your personal discount rates.
 
@@ -426,20 +358,21 @@ I want you to reflect on each choice and then write down your answers.
 Don't stress the "rightness" of these, and don't overthink it.
 
 - Just trust your gut!
+:::
 
 
 
+## Choice 1 {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**$10 now or wait one year for $X?**
 
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: bottom, center
+<br>
 
-.content-box-green[.size50[Choice 1. $10 now or wait one year for $X?]]
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/06-1-choices.jpg")
+```
 
-???
+::: notes
 
 Here's the set-up: You are given a choice between receiving $10 right now or to wait one year and receive an amount greater than $10.
 
@@ -459,41 +392,43 @@ The question here is what is the **smallest amount** you would demand to wait fo
 
 <br>
 
-### Does everybody understand the choice they are making?
+**Does everybody understand the choice they are making?**
 
 - Ok, write down your answer.
+:::
 
 
+## Choice 2 {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**$1,000 now or wait one year for $X?**
 
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: bottom, center
+<br>
 
-.content-box-green[.size50[Choice 2. $1,000 now or wait one year for $X?]]
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/06-1-choices.jpg")
+```
 
-???
+::: notes
 
-### Q2 - What if the offer was $1,000 right now? 
+**Q2 - What if the offer was $1,000 right now?**
 
 What is the smallest amount I could offer you to skip the immediate payment and wait until next year?
 
 - Think about this for a moment and write down your answer.
+:::
 
 
+## Choice 3 {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+**$1 million now or wait one year for $X?**
 
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: bottom, center
+<br>
 
-.content-box-green[.size45[Choice 3. $1 million now or wait one year for $X?]]
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/06-1-choices.jpg")
+```
 
-???
+::: notes
 
 Ok, last one.
 
@@ -506,17 +441,12 @@ How much would I have to offer you to get you to pass up the chance at 1 million
 *Send out Email with Google Form link*
 
 - Update following with new data
+:::
 
 
+## {background-image="libs/Images/06-1-choices.jpg" .center}
 
----
-
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-```{r, fig.align='center', fig.retina=3, fig.asp=1, out.width='55%'}
+```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
 d <- read_csv("Estimating your Discount Rate (Spring 2024).csv") |>
   select(name = `Name?`,
@@ -535,7 +465,7 @@ d |>
   scale_x_continuous(labels = scales::dollar_format())
 ```
 
-???
+::: notes
 
 Here are our results focused on your first choice.
 
@@ -544,19 +474,15 @@ Here are our results focused on your first choice.
 <br>
 
 **SLIDE**: Ok, let's raise the stakes and jump to the other extreme
+:::
 
 
 
+## {background-image="libs/Images/06-1-choices.jpg" .center}
 
----
-
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-.pull-left[
-```{r, fig.align='center', fig.retina=3, fig.asp=1, out.width='100%'}
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center', fig.asp=1, fig.width=6}
 # bars of choice 1
 d |>
   ggplot(aes(x = choice1, y = reorder(name, choice1))) +
@@ -566,10 +492,10 @@ d |>
   theme_bw() +
   scale_x_continuous(labels = scales::dollar_format())
 ```
-]
+:::
 
-.pull-right[
-```{r, fig.align='center', fig.retina=3, fig.asp=1, out.width='100%'}
+::: {.column width="50%"}
+```{r, fig.align='center', fig.asp=1, fig.width=6}
 # bars of choice 3
 d |>
   ggplot(aes(x = choice3, y = reorder(name, choice3))) +
@@ -579,27 +505,22 @@ d |>
   theme_bw() +
   scale_x_continuous(labels = scales::dollar_format())
 ```
-]
+:::
+::::
 
-???
-
-### What changed here?
+::: notes
+**What changed here?**
 
 <br>
 
 **SLIDE**: Let's convert to the same scale
+:::
 
 
 
+## {background-image="libs/Images/06-1-choices.jpg" .center}
 
----
-
-background-image: url('libs/Images/06-1-choices.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-```{r, fig.align='center', fig.retina=3, fig.asp=1, out.width='55%'}
+```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Box plots
 # d |>
 #   mutate(
@@ -630,7 +551,7 @@ d |>
   geom_abline(intercept = 0, slope = 1, linewidth = .2)
 ```
 
-???
+::: notes
 
 Here I've converted all of your reports into an interest rate.
 
@@ -653,16 +574,13 @@ The 45 degree line maps equal proportions
 <br>
 
 ### How many different types of discount rate are evident in our class?
+:::
 
 
 
----
+## {background-image="libs/Images/06-1-lightbulb.jpeg"}
 
-background-image: url('libs/Images/06-1-lightbulb.jpeg')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 Let's take this table as our "outcome" to explain.
 
@@ -673,16 +591,13 @@ Let's take this table as our "outcome" to explain.
 <br>
 
 Now, let's take our talk about time horizons and discount rates out of the realm of benefits and into the realm of environmental costs.
+:::
 
 
 
----
+## {background-image="libs/Images/06-1-flooding.jpg"}
 
-background-image: url('libs/Images/06-1-flooding.jpg')
-background-size: 100%
-background-position: center
-
-???
+::: notes
 
 The discount rate tells us how much you discount future gains and future losses! 
 
@@ -697,27 +612,16 @@ In environmental policy terms discount rates are helpful for thinking about avoi
 <br>
 
 ### Make sense?
+:::
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size45[
-Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65.
-]
+## Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65. {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.center[
-.size45[**Why are environmental problems so much harder to solve than other types of policy problem? (47-53)**]
-]
+**Why are environmental problems so much harder to solve than other types of policy problem? (47-53)**
 
-???
+::: notes
 
 Uncertainty is a hugely important element of policy design when it comes to environmental problems. 
 
@@ -742,26 +646,17 @@ Let's use the Pindyck article to dig into this.
 - Why is uncertainty a serious problem for estimating the benefits of an environmental policy? (50-51)
 
 - Why is uncertainty a serious problem for estimating the costs of an environmental policy? (52-53)
+:::
 
 
+## Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65. {background-image="libs/Images/background-forest_v3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+**What are the key policy design lessons we need to address these uncertainties? (53-62)**
 
-.size45[
-Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Environmental Economics and Policy*. 1(1), 45–65.
-]
-
-.center[
-.size45[**What are the key policy design lessons we need to address these uncertainties? (53-62)**]]
-
-???
-
-#### Implications for Policy Design (53-54)
+::: notes
+**Implications for Policy Design (53-54)**
 
 - How does uncertainty "affect the optimal choice of policy instrument"?
 
@@ -786,60 +681,36 @@ Pindyck, R. S. (2007). Uncertainty in Environmental Economics. *Review of Enviro
 #### - The Uncertain Nature of Benefits and Costs (49-54)
 #### - Irreversibilities (54-60)
 #### - Discounting over Long Time Horizons (60-62)
+:::
 
 
----
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
-
-.content-box-green[.size60[**Complicating Factors to Consider When Designing Your Policy**]]
+## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size60[
 How does uncertainty complicate your efforts to address your specific environmental problem?
-]
 
-???
+::: notes
 
 Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
 
 <br>
 
 Alright, let's share!
+:::
 
 
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size60[**For Next Class**]
+## For Next Class {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-.size40[
 1. Readings in Syllabus
 
 2. Submit to Canvas **before class**: 
     - What is the biggest obstacle to environmental cooperation according to Hardin (1968)?
     - What is the biggest obstacle to environmental cooperation according to Olson (1965)?
-]
 
-???
-
-
-
-
-
-
-
-
-
-
+::: notes
+TBD
+:::
