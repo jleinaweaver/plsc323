@@ -11,11 +11,9 @@ library(readxl)
 
 <br>
 
-<br>
-
+::: {.r-fit-text}
 **Develop Analyses for Report 2**
-
-<br>
+:::
 
 <br>
 
@@ -161,7 +159,9 @@ Now, every other person starting with X, stay by your poster.
 
 <br>
 
-**Write your rough draft!**
+::: {.r-fit-text}
+Write your rough draft
+:::
 
 ::: notes
 **Questions?**

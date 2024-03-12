@@ -11,11 +11,9 @@ library(readxl)
 
 <br>
 
-<br>
-
+::: {.r-fit-text}
 **Paper 2: Review and Revise Drafts**
-
-<br>
+:::
 
 <br>
 
