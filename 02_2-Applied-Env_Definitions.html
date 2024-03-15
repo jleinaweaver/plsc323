@@ -1,927 +1,1438 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
-  <head>
-    <title>02_2-Applied-Env_Definitions.knit</title>
-    <meta charset="utf-8" />
-    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
-    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-    <link rel="stylesheet" href="extra.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
+<html lang="en"><head>
+<script src="02_2-Applied-Env_Definitions_files/libs/clipboard/clipboard.min.js"></script>
+<script src="02_2-Applied-Env_Definitions_files/libs/quarto-html/tabby.min.js"></script>
+<script src="02_2-Applied-Env_Definitions_files/libs/quarto-html/popper.min.js"></script>
+<script src="02_2-Applied-Env_Definitions_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="02_2-Applied-Env_Definitions_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="02_2-Applied-Env_Definitions_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="02_2-Applied-Env_Definitions_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="02_2-Applied-Env_Definitions_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.3.433">
 
+  <title>applied-env_definitions</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="02_2-Applied-Env_Definitions_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="02_2-Applied-Env_Definitions_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="02_2-Applied-Env_Definitions_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
 
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
 
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 105%
-background-class: center
-class: middle
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
 
-.size45[**I. The Basics of Problem-Solving in a Community**]
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
 
-&lt;br&gt;
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 
-.size50[
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
 
-**Today's Agenda**
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
 
-Selecting and defining the environmental problem you will focus on this semester
-]
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
 
-&lt;br&gt;
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2024)
-]]
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
 
-???
-
-## Prep for Class
-1. Bring paper to class
-
-2. Check Canvas submissions
-
-&lt;br&gt;
-
-
-
----
-
-class: middle, center
-
-&lt;table class="table" style="font-size: 40px; margin-left: auto; margin-right: auto;"&gt;
- &lt;thead&gt;
-  &lt;tr&gt;
-   &lt;th style="text-align:left;background-color: lightblue !important;"&gt;  &lt;/th&gt;
-   &lt;th style="text-align:center;background-color: lightblue !important;"&gt;  &lt;/th&gt;
-   &lt;th style="text-align:center;background-color: lightblue !important;"&gt; % &lt;/th&gt;
-  &lt;/tr&gt;
- &lt;/thead&gt;
-&lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; Participation &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt;  &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt; 20 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; Project Development &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt;  &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt; 60 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; 1. The Problem &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt; (Feb 23) &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; 2. Evaluating Designs &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt; (Apr 5) &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; 3. Community Feedback &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt; (TBD) &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; 4. Getting Involved &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt; (Apr 26) &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt;  &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;width: 20em; "&gt; Proposing a Policy &lt;/td&gt;
-   &lt;td style="text-align:center;width: 7em; "&gt; (Final) &lt;/td&gt;
-   &lt;td style="text-align:center;"&gt; 20 &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-???
-
-Your focus this semester is on developing a policy to address a local environmental problem.
-
-- All of our assignments are focused on reinforcing that work and helping you build to that goal
-
-&lt;br&gt;
-
-In class I will introduce the tools and frameworks you will need to make progress on this goal
-
-- Outside of class you will work to apply those tools and frameworks to your chosen projects
-
-&lt;br&gt;
-
-Your first assignment will be to write a paper that introduces us to the problem you have chosen.
-
-- We'll get to the details on that assignment in a moment
-
-&lt;br&gt;
-
-**SLIDE**: To get you moving on this, I asked each of you to submit your chosen problem to Canvas before class.
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-.size60[.content-box-green[**Assignment for Today**]]
-
-.size40[
-**Before class** submit to our Canvas discussion board: 
-
-1. Describe your environmental problem
-
-2. Why do you believe this is a problem?
-
-3. What is the primary cause of this problem (from your perspective)? 
-]
-
-???
-
-Key to earning your participation!
-
-### Did everybody get their proposed problem submitted before class?
-
-&lt;br&gt;
-
-### How did this go? 
-
-### - Did writing down these basics help you clarify your thinking at all?
-
-&lt;br&gt;
-
-**SLIDE**: Think back to our discussions of Cronon (1996) on Tuesday.
-
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
     
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
     
-    
-    
----
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle, center
+  .callout.no-icon::before {
+    display: none !important;
+  }
 
-.size60[.content-box-green[**The Trouble with Wilderness**]]
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
 
-.size60[**(Cronon 1996)**]
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
 
-&lt;br&gt;
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
 
-.size50[
-Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
-]
+  /* Callout Types */
 
-???
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
 
-At one level, Cronon was making a specific argument about the wilderness and our relationship to it.
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
 
-### What does he mean by "wilderness is a human creation"?
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
 
-&lt;br&gt;
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
 
-### What is the mythology of the wilderness?
-- (Evolution of the sublime)
-    - loss of frontier
-    - doubly ironic reframing of wilderness as temple of restoration
-- (all human populations have managed environmental resources to survive)
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
 
-&lt;br&gt;
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
 
-### According to Cronon, why do these two things mean that wilderness is a problem?
-1. (The wilderness myth makes compromise impossible, and)
-2. (Failing to recognize the wildness around you means ignoring the actual lives and needs of the people living on Earth.)
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
 
-&lt;br&gt;
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
 
-### What are the problem-solving lessons I asked you to take from Cronon's work?
-- (**SLIDE**)
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  
+  <script src="02_2-Applied-Env_Definitions_files/libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="02_2-Applied-Env_Definitions_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
 
+<section id="todays-agenda" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Today’s Agenda</h2>
+<p><br></p>
+<p><br></p>
+<p><strong>I. The Basics of Problem-Solving in a Community</strong></p>
+<ul>
+<li>Selecting and defining the environmental problem you will focus on this semester</li>
+</ul>
+<p><br></p>
+<div class="r-stack">
+<p>Justin Leinaweaver (Spring 2024)</p>
+</div>
+<aside class="notes">
+<p>Prep for Class</p>
+<ol type="1">
+<li><p>Bring paper to class</p></li>
+<li><p>Check Canvas submissions</p></li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2></h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table" data-quarto-postprocess="true" style="font-size: 40px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; background-color: lightblue !important;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: center; background-color: lightblue !important;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: center; background-color: lightblue !important;">%</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 20em; background-color: white !important;">Participation</td>
+<td style="text-align: center; width: 7em; background-color: white !important;"></td>
+<td style="text-align: center; background-color: white !important;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 20em; background-color: white !important;">Project Development</td>
+<td style="text-align: center; width: 7em; background-color: white !important;"></td>
+<td style="text-align: center; background-color: white !important;">60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 20em; background-color: white !important;">1. The Problem</td>
+<td style="text-align: center; width: 7em; background-color: white !important;">(Feb 23)</td>
+<td style="text-align: center; background-color: white !important;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 20em; background-color: white !important;">2. Evaluating Designs</td>
+<td style="text-align: center; width: 7em; background-color: white !important;">(Apr 5)</td>
+<td style="text-align: center; background-color: white !important;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 20em; background-color: white !important;">3. Community Feedback</td>
+<td style="text-align: center; width: 7em; background-color: white !important;">(TBD)</td>
+<td style="text-align: center; background-color: white !important;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 20em; background-color: white !important;">4. Getting Involved</td>
+<td style="text-align: center; width: 7em; background-color: white !important;">(Apr 26)</td>
+<td style="text-align: center; background-color: white !important;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 20em; background-color: white !important;">Proposing a Policy</td>
+<td style="text-align: center; width: 7em; background-color: white !important;">(Final)</td>
+<td style="text-align: center; background-color: white !important;">20</td>
+</tr>
+</tbody>
+</table>
 
----
 
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
+</div>
+</div>
+<aside class="notes">
+<p>Your focus this semester is on developing a policy to address a local environmental problem.</p>
+<ul>
+<li>All of our assignments are focused on reinforcing that work and helping you build to that goal</li>
+</ul>
+<p><br></p>
+<p>In class I will introduce the tools and frameworks you will need to make progress on this goal</p>
+<ul>
+<li>Outside of class you will work to apply those tools and frameworks to your chosen projects</li>
+</ul>
+<p><br></p>
+<p>Your first assignment will be to write a paper that introduces us to the problem you have chosen.</p>
+<ul>
+<li>We’ll get to the details on that assignment in a moment</li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: To get you moving on this, I asked each of you to submit your chosen problem to Canvas before class.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="for-today" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>For Today</h2>
+<p><br></p>
+<p><strong>Before class</strong> submit to our Canvas discussion board:</p>
+<ol type="1">
+<li><p>Describe your environmental problem</p></li>
+<li><p>Why do you believe this is a problem?</p></li>
+<li><p>What is the primary cause of this problem (from your perspective)?</p></li>
+</ol>
+<aside class="notes">
+<p>Key to earning your participation!</p>
+<h3 id="did-everybody-get-their-proposed-problem-submitted-before-class">Did everybody get their proposed problem submitted before class?</h3>
+<p><br></p>
+<h3 id="how-did-this-go">How did this go?</h3>
+<h3 id="did-writing-down-these-basics-help-you-clarify-your-thinking-at-all">- Did writing down these basics help you clarify your thinking at all?</h3>
+<p><br></p>
+<p><strong>SLIDE</strong>: Think back to our discussions of Cronon (1996) on Tuesday.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-trouble-with-wilderness" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>The Trouble with Wilderness</h2>
+<p><strong>(Cronon 1996)</strong></p>
+<p><br></p>
+<p>Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.</p>
+<aside class="notes">
+<p>At one level, Cronon was making a specific argument about the wilderness and our relationship to it.</p>
+<h3 id="what-does-he-mean-by-wilderness-is-a-human-creation">What does he mean by “wilderness is a human creation”?</h3>
+<p><br></p>
+<h3 id="what-is-the-mythology-of-the-wilderness">What is the mythology of the wilderness?</h3>
+<ul>
+<li>(Evolution of the sublime)
+<ul>
+<li>loss of frontier</li>
+<li>doubly ironic reframing of wilderness as temple of restoration</li>
+</ul></li>
+<li>(all human populations have managed environmental resources to survive)</li>
+</ul>
+<p><br></p>
+<h3 id="according-to-cronon-why-do-these-two-things-mean-that-wilderness-is-a-problem">According to Cronon, why do these two things mean that wilderness is a problem?</h3>
+<ol type="1">
+<li>(The wilderness myth makes compromise impossible, and)</li>
+<li>(Failing to recognize the wildness around you means ignoring the actual lives and needs of the people living on Earth.)</li>
+</ol>
+<p><br></p>
+<h3 id="what-are-the-problem-solving-lessons-i-asked-you-to-take-from-cronons-work">What are the problem-solving lessons I asked you to take from Cronon’s work?</h3>
+<ul>
+<li>(<strong>SLIDE</strong>)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="setting-the-stage-for-problem-solving" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Setting the Stage for Problem-Solving</h2>
+<p><br></p>
+<ol type="1">
+<li>All environmental concepts are contested</li>
+</ol>
+<p><br></p>
+<ol start="2" type="1">
+<li>Your chosen definition narrows your options</li>
+</ol>
+<p><br></p>
+<ol start="3" type="1">
+<li>Many disputes arise from conflicting definitions</li>
+</ol>
+<aside class="notes">
+<p><strong>In short, I want us to think critically about problem definitions.</strong></p>
+<ol type="1">
+<li><p>All of the concepts related to environmental problems will be contested (e.g.&nbsp;fought over),</p></li>
+<li><p>Your chosen definition automatically narrows the options of policies you think are acceptable vs not, AND</p></li>
+<li><p>Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.</p></li>
+</ol>
+<p><br></p>
+<h3 id="with-a-few-days-to-reflect-on-this-any-questions">With a few days to reflect on this, any questions?</h3>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="environmental-problem-solving" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Environmental Problem-Solving</h2>
+<p><strong>Step 1</strong></p>
+<p><br></p>
+<ol type="1">
+<li><p><strong>IDENTIFY</strong> the competing definitions of the problem,</p></li>
+<li><p><strong>COMPARE</strong> and <strong>CONTRAST</strong> those definitions to find areas of compromise, and</p></li>
+<li><p>Be able to <strong>EXPLAIN</strong> your preferred definition in that context</p></li>
+</ol>
+<aside class="notes">
+<p>Everybody write this down!</p>
+<p><br></p>
+<p>This is an extremely important step and should help you both:</p>
+<ol type="1">
+<li><p>set the stage for a successful policy intervention, AND</p></li>
+<li><p>Clarify your own thinking about the problem</p></li>
+</ol>
+<p><br></p>
+<p>What I hope this makes clear is that your job as a problem-solver is to solve actual problems.</p>
+<ul>
+<li>Not simply push for your idealized version of the world regardless of how other members of your community view it.</li>
+</ul>
+<p><br></p>
+<p>Solving real world problems means understanding why those problems exist in the first place and exploring contested definitions is a valuable first step to doing this.</p>
+<p><br></p>
+<h3 id="questions-on-this">Questions on this?</h3>
+<p><br></p>
+<p>Now, this is where you want be for the first paper in your project.</p>
+<ul>
+<li>So, today we’ll work on heading toward this goal.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-1" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2></h2>
+<p><br></p>
+<p><strong>By the end of today you should have:</strong></p>
+<ol type="1">
+<li><p>Selected a specific local environmental problem,</p></li>
+<li><p>A description of your preferred framing of the problem, and</p></li>
+<li><p>A list of alternative problem framings to explore.</p></li>
+</ol>
+<aside class="notes">
+<p>Today we make sure everyone has their problem selected and that we’ve brainstormed a list of alternative framings for you to explore.</p>
+<p><br></p>
+<p><strong>Key Point</strong>: We’re a team in here and no one gets left behind!</p>
+<ul>
+<li>That means it is our shared responsibility to make sure all of your projects are on a firm footing!</li>
+</ul>
+<p><br></p>
+<p>So, today we write, we reflect AND we help each other revise!</p>
+<ul>
+<li>Let’s get to it!</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="write-a-simple-clear-description-of-your-local-environmental-problem" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Write a simple, clear description of your local environmental problem</h2>
+<aside class="notes">
+<p>Everybody take out a sheet of paper and at the top write a simple, clear description of your selected problem.</p>
+<ul>
+<li><p>Keep opinion out of this one. Your perspective (e.g.&nbsp;framing) comes next.</p></li>
+<li><p>Focus on demonstrable facts on the ground.</p></li>
+</ul>
+<p><br></p>
+<h3 id="does-that-make-sense">Does that make sense?</h3>
+<ul>
+<li>Give it a shot!</li>
+</ul>
+<p><br></p>
+<p><em>After a few minutes work: Get a volunteer to present their simple problem description for feedback</em></p>
+<ul>
+<li><em>Repeat with second volunteer</em></li>
+</ul>
+<p><br></p>
+<p>Stand up and touch base with everyone else in class</p>
+<ul>
+<li><p>I want you to read and reflect on all of the problems selected by the class</p></li>
+<li><p>Make sure to ask for clarifications if the problem doesn’t make sense or needs more detail.</p></li>
+</ul>
+<p><br></p>
+<p><strong>KEY to THIS</strong>: You are NOT making more work for the person!</p>
+<ul>
+<li><p>It’s the opposite!</p></li>
+<li><p>Your job is to help them see what additional information, sources, data, or examples they need to FULLY describe their problem.</p></li>
+<li><p>Go for it!</p></li>
+</ul>
+<p><br></p>
+<p><strong>REFLECTIONS</strong>: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-your-preferred-framing-of-the-problem" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>What is your preferred framing of the problem?</h2>
+<aside class="notes">
+<p>Your next step in the problem-solving process is to be able to explain your preferred problem framing.</p>
+<p><br></p>
+<h3 id="has-anybody-ever-encountered-the-problem-framing-concept-before">Has anybody ever encountered the problem framing concept before?</h3>
+<h3 id="can-you-explain-it-to-us">- Can you explain it to us?</h3>
+<p><br></p>
+<p>Framing is a way of presenting a problem or an issue.</p>
+<ul>
+<li><p>In simplest terms, the framing is your definition plus context</p>
+<ul>
+<li>e.g.&nbsp;why it is a problem, why it is important and possibly even what should be done about it</li>
+</ul></li>
+<li><p>In a more expert sense, framing is <strong>explaining the context</strong> of your problem in a way that <strong>gains the most support</strong> from your audience.</p></li>
+<li><p>This means that problem framing is an exercise in advocacy (e.g.&nbsp;pushing a specific viewpoint / solution)</p></li>
+</ul>
+<p><br></p>
+<p>Let’s illustrate this concept in action.</p>
+<ul>
+<li>For example, let’s say you were concerned with the extraction and use of of fossil fuels (e.g.&nbsp;gas, coal, etc)</li>
+</ul>
+<p><br></p>
+<h3 id="somebody-frame-fossil-fuel-extraction-and-use-as-a-serious-problem-for-our-society">Somebody frame fossil fuel extraction and use as a serious problem for our society?</h3>
+<ul>
+<li>(<strong>SLIDE</strong>)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fossil-fuels-are-a-serious-problem" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Fossil Fuels are a Serious Problem</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="libs/Images/02_1-oil_spill_cleanup.jpg"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="libs/Images/02_2-Smog_factories_v2.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Defining fossil fuel use as a serious problem for our society is easy!</p>
+<ul>
+<li><p>Fossil fuel extraction is a dirty process (mining, mountain and forest clearing, destruction of rivers and creeks),</p></li>
+<li><p>Fossil fuel transportation can go catastrophically wrong (Exxon Valdez, pipeline spills, etc),</p></li>
+<li><p>Fossil fuel use creates air pollution that kills people and injects smog into our cities, and</p></li>
+<li><p>Fossil fuel use is a primary driver of climate change</p></li>
+</ul>
+<p><br></p>
+<p>Each of these is a piece of context that can be <strong>supported by evidence</strong> and collectively <strong>frames the problem</strong> as a serious one to be addressed.</p>
+<h3 id="make-sense">Make sense?</h3>
+<p><br></p>
+<p>This exercise can go way more ways!</p>
+<h3 id="how-could-you-define-fossil-fuel-extraction-to-help-other-people-understand-it-is-not-a-problem">How could you define fossil fuel extraction to help other people understand it is NOT a problem?</h3>
+<ul>
+<li>(<strong>SLIDE</strong>)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fossil-fuels-are-a-vital-part-of-our-economy" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Fossil Fuels are a Vital Part of our Economy</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="libs/Images/02_2-Energy_Indepdence.jpg"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="libs/Images/02_1-sunak-oil-gas_v2.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Defining fossil fuel use as an important benefit for our society is easy!</p>
+<ul>
+<li><p>Fossil fuel extraction has made the US an economic powerhouse</p></li>
+<li><p>More high paying jobs,</p></li>
+<li><p>Cheaper prices for families (cheaper gas, warmer homes, more affordable food),</p></li>
+<li><p>Less dependence on problematic foreign countries (Saudi Arabia, Venezuela, Russia, etc)</p></li>
+</ul>
+<p><br></p>
+<p>Again, each of these descriptions can be <strong>supported by evidence</strong> and collectively <strong>frame the issue</strong> as not a problem.</p>
+<p><br></p>
+<p>Note that in some cases, “not a problem” isn’t an option</p>
+<ul>
+<li>Instead, the framing may be that this is a problem BUT that it must not be “fixed” without considering these other important elements (jobs, security, etc.)</li>
+</ul>
+<p><br></p>
+<h3 id="make-sense-1">Make sense?</h3>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-your-preferred-framing-of-the-problem-1" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>What is your preferred framing of the problem?</h2>
+<aside class="notes">
+<p>To be clear, problem framing is a problem definition that includes the context you believe is most likely to convince other people to accept your view of the issue.</p>
+<p><br></p>
+<h3 id="any-questions-on-the-problem-framing-concept-before-i-ask-you-to-do-this-on-your-own-project">Any questions on the problem framing concept before I ask you to do this on your own project?</h3>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-your-preferred-framing-of-the-problem-2" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>What is your preferred framing of the problem?</h2>
+<p><br> From your perspective,</p>
+<ul>
+<li>Why is this a problem?</li>
+<li>Why does it matter?</li>
+<li>What is the cause of the problem you believe we should focus on?</li>
+</ul>
+<aside class="notes">
+<p>Take a few minutes to describe your problem framing on the sheet of paper.</p>
+<ul>
+<li>Give us a <strong>complete</strong> sentence or two on each of these prompts</li>
+</ul>
+<p><br></p>
+<h3 id="does-that-make-sense-1">Does that make sense?</h3>
+<ul>
+<li>Get to it!</li>
+</ul>
+<p><br></p>
+<p>Ok, stand up and go check out everybody else’s preferred framings</p>
+<ul>
+<li><p>Make sure to ask for clarifications / explanations as you go</p></li>
+<li><p>Go for it!</p></li>
+</ul>
+<p><br></p>
+<p><strong>REFLECTIONS</strong>: Ok, take a few minutes to reflect on the feedback and make any revisions/notes you need.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="brainstorm-a-list-of-competing-problem-framings" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Brainstorm a list of competing problem framings</h2>
+<aside class="notes">
+<p>Our last job for today is to brainstorm alternatives to your problem framing.</p>
+<ul>
+<li><p>This list is meant to help you start figuring out the contours of the problem you face.</p></li>
+<li><p>These are the perspectives you’ll need to consider and explore in order to solve your problem.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="brainstorm-a-list-of-competing-problem-framings-1" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Brainstorm a list of competing problem framings</h2>
+<p><br></p>
+<ol type="1">
+<li><p>Those who argue this is not a serious problem,</p></li>
+<li><p>Those who argue the “cure” is likely too costly, and</p></li>
+<li><p>Those who argue you’re focusing on the wrong cause</p></li>
+</ol>
+<aside class="notes">
+<p>Start off brainstorming on your own.</p>
+<ul>
+<li>Try to make a list of those who view your problem differently than you do.</li>
+</ul>
+<p><br></p>
+<p>It may help of you to think about this as three types of group:</p>
+<ol type="1">
+<li><p>The people who disagree with you that this IS a problem</p>
+<ul>
+<li>In other words, you’ve spotted a thing, but it’s not really a problem society should be focused on</li>
+</ul></li>
+<li><p>The people who agree it is a problem but that the fixes would be too costly</p></li>
+<li><p>The people who agree it is a problem but who think you’ve identified the wrong primary cause</p>
+<ul>
+<li>Yes it’s a problem, but you’ve missed the real root of it!</li>
+</ul>
+<p><br></p></li>
+</ol>
+<h3 id="does-that-make-sense-2">Does that make sense?</h3>
+<ul>
+<li>Get to it!</li>
+</ul>
+<p><br></p>
+<p>Everybody stand up and review ALL the lists.</p>
+<ul>
+<li><p>Can you offer any additional framings they might have missed?</p></li>
+<li><p>Do any on their current list need clarification?</p></li>
+<li><p>Go for it!</p></li>
+</ul>
+<p><br></p>
+<p><strong>REFLECTIONS</strong>: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="select-an-environmental-problem" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Select an Environmental Problem</h2>
+<p><br></p>
+<ol type="1">
+<li><p>Do you have a clear, specific local environmental problem?</p></li>
+<li><p>Can you articulate your preferred framing of the problem?</p></li>
+<li><p>Do you have a list of alternative/competing problem framings to explore?</p></li>
+</ol>
+<aside class="notes">
+<p>Ok, how did we do with our work today?</p>
+<h3 id="does-everybody-have-a-good-start-on-these-three-elements">Does everybody have a good start on these three elements?</h3>
+<p><br></p>
+<h3 id="anything-we-need-to-discuss-or-can-help-you-with">Anything we need to discuss or can help you with?</h3>
+<p><br></p>
+<p><strong>SLIDE</strong>: To wrap up today let’s talk community engagement and our work for next week.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="assignment-4" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>Assignment 4</h2>
+<p><strong>Getting Involved in our Community</strong></p>
+<p><br></p>
+<p><strong>Find or create</strong> an opportunity to get <strong>actively involved in your issue locally</strong> (e.g.&nbsp;litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)</p>
+<p><strong>Write a report</strong> describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.</p>
+<aside class="notes">
+<p>Essentially all of our assignments this term work in a sequence, one leading to the next.</p>
+<ul>
+<li>However, that is not true for the community engagement report</li>
+</ul>
+<p><br></p>
+<p>BEFORE the end of April you have to take action in our community in some way connected to your chosen project!</p>
+<ul>
+<li>e.g.&nbsp;litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.</li>
+</ul>
+<p>You will then write up a report on the activity and how it contributed to your thinking about your project.</p>
+<p><br></p>
+<p><strong>IMPORTANT</strong> 1. You <strong>MUST</strong> submit to me a proposal for your engagement project as a Canvas Assignment <strong>BEFORE</strong> you do it. - Your proposal should frame the activity in terms of how it directly ties to your project, AND - how doing it will help you better complete that project (e.g.&nbsp;deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?</p>
+<ol start="2" type="1">
+<li>Your report must include evidence for all claims (e.g.&nbsp;documentation of the activity through photos, etc.), and</li>
+</ol>
+<p><br></p>
+<h3 id="questions-on-this-assignment">Questions on this assignment?</h3>
+<p><br></p>
+<p>I’d like to use our remaining time today to brainstorm possible activities for this assignment.</p>
+<ul>
+<li><p>So, let’s form small groups and take a few minutes to brainstorm ideas.</p></li>
+<li><p>Get ready to report to the class what you come up with!</p></li>
+</ul>
+<p><br></p>
+<p>Let’s hear your ideas!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="for-next-class" class="slide level2 center" data-background-image="libs/Images/background-forest_v3.png">
+<h2>For Next Class</h2>
+<p><br></p>
+<ol type="1">
+<li><p>Read the Munger chapter</p></li>
+<li><p>Submit to Canvas: What is the most useful advice in the Munger chapter for ensuring that we design “wise” policy solutions for our environmental problems?</p></li>
+</ol>
+<aside class="notes">
+<p>Next week we shift our focus to how we can attack our environmental problems with policy-making and policy analyses.</p>
+<h3 id="questions-on-this-assignment-1">Questions on this assignment?</h3>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="footer footer-default">
 
-.center[.size55[.content-box-green[**Setting the Stage for Problem-Solving**]]]
+</div>
+</section>
+    </div>
+  </div>
 
-&lt;br&gt;
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
 
-.size50[1) All environmental concepts are contested]
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="02_2-Applied-Env_Definitions_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
-&lt;br&gt;
+  <script>
 
-.size50[2) Your chosen definition narrows your options]
-
-&lt;br&gt;
-
-.size50[3) Many disputes arise from conflicting definitions]
-
-???
-
-**In short, I want us to think critically about problem definitions.**
-
-1. All of the concepts related to environmental problems will be contested (e.g. fought over),
-
-2. Your chosen definition automatically narrows the options of policies you think are acceptable vs not, AND
-
-3. Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.
-
-&lt;br&gt;
-
-### With a few days to reflect on this, any questions?
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size55[.content-box-green[**Environmental Problem-Solving: Step 1**]]]
-
-&lt;br&gt;
-
-.size45[
-1. **IDENTIFY** the competing definitions of the problem,
-
-2. **COMPARE** and **CONTRAST** those definitions to find areas of compromise, and
-
-3. Be able to **EXPLAIN** your preferred definition in that context
-]
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
  
-???
+        // Display controls in the bottom right corner
+        controls: false,
 
-Everybody write this down!
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
 
-&lt;br&gt;
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
 
-This is an extremely important step and should help you both:
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
 
-1. set the stage for a successful policy intervention, AND 
+        // Display a presentation progress bar
+        progress: true,
 
-2. Clarify your own thinking about the problem
+        // Display the page number of the current slide
+        slideNumber: false,
 
-&lt;br&gt;
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
 
-What I hope this makes clear is that your job as a problem-solver is to solve actual problems.
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
 
-- Not simply push for your idealized version of the world regardless of how other members of your community view it.
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
 
-&lt;br&gt;
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
 
-Solving real world problems means understanding why those problems exist in the first place and exploring contested definitions is a valuable first step to doing this.
+        // Push each slide change to the browser history
+        history: true,
 
-&lt;br&gt;
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
     
-### Questions on this?
-
-&lt;br&gt;
-
-Now, this is where you want be for the first paper in your project.
-
-- So, today we'll work on heading toward this goal.
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-.size55[.content-box-green[**By the end of today you should have:**]]
-
-.size45[
-1. Selected a specific local environmental problem,
-
-2. A description of your preferred framing of the problem, and
-
-3. A list of alternative problem framings to explore. 
-]
-
-???
-
-Today we make sure everyone has their problem selected and that we've brainstormed a list of alternative framings for you to explore.
-
-&lt;br&gt;
-
-**Key Point**: We're a team in here and no one gets left behind!
-
-- That means it is our shared responsibility to make sure all of your projects are on a firm footing!
-
-&lt;br&gt;
-
-So, today we write, we reflect AND we help each other revise!
-
-- Let's get to it!
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**Write a simple, clear description of your local environmental problem**]]
-
-???
-
-Everybody take out a sheet of paper and at the top write a simple, clear description of your selected problem.
-
-- Keep opinion out of this one. Your perspective (e.g. framing) comes next.
-
-- Focus on demonstrable facts on the ground.
-
-&lt;br&gt;
-
-### Does that make sense?
-
-- Give it a shot!
-
-&lt;br&gt;
-
-*After a few minutes work: Get a volunteer to present their simple problem description for feedback*
-
-- *Repeat with second volunteer*
-
-&lt;br&gt;
-
-Stand up and touch base with everyone else in class
-
-- I want you to read and reflect on all of the problems selected by the class
-
-- Make sure to ask for clarifications if the problem doesn't make sense or needs more detail.
-
-&lt;br&gt;
-
-**KEY to THIS**: You are NOT making more work for the person!
-
-- It's the opposite!
-
-- Your job is to help them see what additional information, sources, data, or examples they need to FULLY describe their problem.
-
-- Go for it!
-
-&lt;br&gt;
-
-**REFLECTIONS**: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**What is your preferred framing of the problem?**]]
-
-???
-
-Your next step in the problem-solving process is to be able to explain your preferred problem framing.
-
-&lt;br&gt;
-
-### Has anybody ever encountered the problem framing concept before?
-
-### - Can you explain it to us?
-
-&lt;br&gt;
-
-Framing is a way of presenting a problem or an issue. 
-
-- In simplest terms, the framing is your definition plus context
-    - e.g. why it is a problem, why it is important and possibly even what should be done about it
-
-- In a more expert sense, framing is **explaining the context** of your problem in a way that **gains the most support** from your audience.
-
-- This means that problem framing is an exercise in advocacy (e.g. pushing a specific viewpoint / solution)
-
-&lt;br&gt;
-
-Let's illustrate this concept in action.
-
-- For example, let's say you were concerned with the extraction and use of of fossil fuels (e.g. gas, coal, etc)
-
-&lt;br&gt;
-
-### Somebody frame fossil fuel extraction and use as a serious problem for our society?
-
-- (**SLIDE**)
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size50[.content-box-green[**Fossil Fuels are a Serious Problem**]]]
-
-.pull-left[
-&lt;img src="libs/Images/02_1-oil_spill_cleanup.jpg" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
-.pull-right[
-&lt;img src="libs/Images/02_2-Smog_factories_v2.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
-???
-
-Defining fossil fuel use as a serious problem for our society is easy!
-
-- Fossil fuel extraction is a dirty process (mining, mountain and forest clearing, destruction of rivers and creeks), 
-
-- Fossil fuel transportation can go catastrophically wrong (Exxon Valdez, pipeline spills, etc),
-
-- Fossil fuel use creates air pollution that kills people and injects smog into our cities, and
-
-- Fossil fuel use is a primary driver of climate change
-
-&lt;br&gt;
-
-Each of these is a piece of context that can be **supported by evidence** and collectively **frames the problem** as a serious one to be addressed.
-
-### Make sense?
-
-&lt;br&gt;
-
-This exercise can go way more ways!
-
-### How could you define fossil fuel extraction to help other people understand it is NOT a problem?
-
-- (**SLIDE**)
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size50[.content-box-green[**Fossil Fuels are a Vital Part of our Economy**]]]
-
-.pull-left[
-&lt;img src="libs/Images/02_2-Energy_Indepdence.jpg" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
-.pull-right[
-&lt;img src="libs/Images/02_1-sunak-oil-gas_v2.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
-???
-
-Defining fossil fuel use as an important benefit for our society is easy!
-
-- Fossil fuel extraction has made the US an economic powerhouse
-
-- More high paying jobs,
-
-- Cheaper prices for families (cheaper gas, warmer homes, more affordable food),
-
-- Less dependence on problematic foreign countries (Saudi Arabia, Venezuela, Russia, etc)
-
-&lt;br&gt;
-
-Again, each of these descriptions can be **supported by evidence** and collectively **frame the issue** as not a problem.
-
-&lt;br&gt;
-
-Note that in some cases, "not a problem" isn't an option
-
-- Instead, the framing may be that this is a problem BUT that it must not be "fixed" without considering these other important elements (jobs, security, etc.)
-
-&lt;br&gt;
-
-### Make sense?
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**What is your preferred framing of the problem?**]]
-
-???
-
-To be clear, problem framing is a problem definition that includes the context you believe is most likely to convince other people to accept your view of the issue.
-
-&lt;br&gt;
-
-### Any questions on the problem framing concept before I ask you to do this on your own project?
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**What is your preferred framing of the problem?**]]
-
-.size40[
-From your perspective, 
-
-- Why is this a problem? 
-- Why does it matter?
-- What is the cause of the problem you believe we should focus on?
-]
-
-???
-
-Take a few minutes to describe your problem framing on the sheet of paper.
-
-- Give us a **complete** sentence or two on each of these prompts
-
-&lt;br&gt;
-
-### Does that make sense?
-
-- Get to it!
-
-&lt;br&gt;
-
-Ok, stand up and go check out everybody else's preferred framings
-
-- Make sure to ask for clarifications / explanations as you go
-
-- Go for it!
-
-&lt;br&gt;
-
-**REFLECTIONS**: Ok, take a few minutes to reflect on the feedback and make any revisions/notes you need.
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**Brainstorm a list of competing problem framings**]]
-
-???
-
-Our last job for today is to brainstorm alternatives to your problem framing.
-
-- This list is meant to help you start figuring out the contours of the problem you face.
-
-- These are the perspectives you'll need to consider and explore in order to solve your problem.
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size70[**Brainstorm a list of competing problem framings**]]
-
-.size40[
-1. Those who argue this is not a serious problem,
-
-2. Those who argue the "cure" is likely too costly, and
-
-2. Those who argue you're focusing on the wrong cause
-]
-
-???
-
-Start off brainstorming on your own.
-
-- Try to make a list of those who view your problem differently than you do.
-
-&lt;br&gt;
-
-It may help of you to think about this as three types of group:
-
-1. The people who disagree with you that this IS a problem
-    - In other words, you've spotted a thing, but it's not really a problem society should be focused on
-    
-2. The people who agree it is a problem but that the fixes would be too costly
-    
-3. The people who agree it is a problem but who think you've identified the wrong primary cause
-    - Yes it's a problem, but you've missed the real root of it!
-    
-    &lt;br&gt;
-
-### Does that make sense?
-
-- Get to it!
-
-&lt;br&gt;
-
-Everybody stand up and review ALL the lists.
-
-- Can you offer any additional framings they might have missed?
-
-- Do any on their current list need clarification?
-
-- Go for it!
-
-&lt;br&gt;
-
-**REFLECTIONS**: Ok, everybody take a few minutes to reflect on the feedback and make any revisions/notes you need.
-
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-.size45[
-1. Do you have a clear, specific local environmental problem?
-
-2. Can you articulate your preferred framing of the problem?
-
-3. Do you have a list of alternative/competing problem framings to explore?
-]
-
-???
-
-Ok, how did we do with our work today? 
-
-### Does everybody have a good start on these three elements?
-
-&lt;br&gt;
-
-### Anything we need to discuss or can help you with?
-
-&lt;br&gt;
-
-**SLIDE**: To wrap up today let's talk community engagement and our work for next week.
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size50[.content-box-green[**Assignment 4**]
-
-Getting Involved in our Community]]
-
-.size40[
-**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
-
-**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
-]
-
-???
-
-Essentially all of our assignments this term work in a sequence, one leading to the next.
-
-- However, that is not true for the community engagement report
-
-&lt;br&gt;
-
-BEFORE the end of April you have to take action in our community in some way connected to your chosen project!
-
-- e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.
-
-You will then write up a report on the activity and how it contributed to your thinking about your project.
-
-&lt;br&gt;
-
-**IMPORTANT**
-1. You **MUST** submit to me a proposal for your engagement project as a Canvas Assignment **BEFORE** you do it. 
-    - Your proposal should frame the activity in terms of how it directly ties to your project, AND 
-    - how doing it will help you better complete that project (e.g. deepens your understanding of the nature of the problem, the stakeholders involved, etc.)?
-
-2. Your report must include evidence for all claims (e.g. documentation of the activity through photos, etc.), and
-
-&lt;br&gt;
-
-### Questions on this assignment?
-
-&lt;br&gt;
-
-I'd like to use our remaining time today to brainstorm possible activities for this assignment.
-
-- So, let's form small groups and take a few minutes to brainstorm ideas.
-
-- Get ready to report to the class what you come up with!
-
-&lt;br&gt;
-
-Let's hear your ideas!
-
-
-
----
-
-background-image: url('libs/Images/background-forest_v3.png')
-background-size: 100%
-background-position: center
-
-class: middle
-
-.size60[.content-box-green[**Assignment for Next Class**]]
-
-.size45[
-1. Read the Munger chapter
-
-2. Submit to Canvas: What is the most useful advice in the Munger chapter for ensuring that we design "wise" policy solutions for our environmental problems?
-]
-
-???
-
-Next week we shift our focus to how we can attack our environmental problems with policy-making and policy analyses.
-
-### Questions on this assignment?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
-// screen reader (see PR #262)
-(function(d) {
-  let res = {};
-  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
-    const t = tr.querySelector('td:nth-child(2)').innerText;
-    tr.querySelectorAll('td:first-child .key').forEach(key => {
-      const k = key.innerText;
-      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
-    });
-  });
-  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
-})(document);
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
-
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
       }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

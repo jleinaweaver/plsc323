@@ -1,0 +1,324 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="libs/Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**II. Evaluating Policy Design Options**
+
+Exploring the Success Stories
+
+- Command & Control Regulations
+
+:::
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted cases
+
+<br>
+
+*Notes:*
+- Make sure you do the group work and have them work directly on the board. This is a really good activity that way.
+:::
+
+
+
+
+## Paper 2 {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+Which of the four policy approaches is the "right" one for you?
+
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
+
+::: notes
+
+Keep your eye on the next target: Paper 2.
+
+- In that paper you will be asked to evaluate all four of the approaches we study in class from the perspective of your chosen environmental problem.
+
+<br>
+
+Today we analyze our first approach using your real world success cases.
+:::
+
+
+
+## For Next Class {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
+
+**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using C&C regulations.
+
+::: notes
+
+Everybody open up Canvas and let's take a look at the submitted cases
+
+<br>
+
+### Are all of the citations properly formatted in APA?
+
+### - Any modifications needed?
+
+:::
+
+
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**This case shows that we can use command and control regulations to address environmental problem X.**
+
+- What aspect of your problem does this policy focus on?
+
+- Which stakeholders does it target? How?
+
+- What institutions support this policy?
+
+::: notes
+
+Take five minutes to reflect on your argument and get ready to present it to other people as answers to these three questions.
+
+- Problem: Specific, narrow aspect targeted by this tax?
+
+- Stakeholders: What does it require them to do?
+
+- Institutions: What rules or structures currently exists to make this possible?
+
+<br>
+
+### Questions on this?
+
+<br>
+
+Get to it!
+
+<br>
+
+Welcome to our environmental policy cocktail party!
+
+- We will now take 25 minutes to mingle, present our cases and hear everybody elses' cases.
+
+<br>
+
+I don't want to see groups of three!
+- Your job is to interact in pairs.
+
+- I want pairs focused on hearing one case and presenting one case at a time.
+
+<br>
+
+### Questions?
+
+- Go!
+
+<br>
+
+*You mingle too.*
+
+- *This was super fun and you got to help steer students to being more specific, more precise*
+
+<br>
+
+*Split class into three groups*
+
+- Go sit with your group and claim some space on the board
+:::
+
+
+## Assignment for Today {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+What is your **best advice for policymakers** considering **command and control regulations** for environmental problem-solving?
+
+- Types of problems?
+
+- Types of stakeholders?
+
+- Types of institutional support?
+
+::: notes
+
+You've just heard a bunch of cases where "green" taxes successfully addressed an environmental problem. 
+
+- I want you to use those cases as your data and draw out inferences from them
+
+- What advice can we offer policymakers who are considering "green" taxes for environmental problem-solving
+
+<br>
+
+I'm going to ask you to think about this as three distinct categories of problem and work on each one separately
+
+- **SLIDE**
+:::
+
+
+
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
+
+**Problem Types**
+
+<br>
+
+Think about all of the specific problems you heard today and use them to make a list:
+
+- Command and control regulations work well when targeting problems that look like...
+
+::: notes
+
+To begin, focus only on the types of problem you heard about in the cases
+
+- We'll get to the stakeholders and institutional supports in a moment.
+
+<br>
+
+*ON THE BOARD*: Make me a list of problem characteristics that lend themselves to being solved with a command and control regulation.
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+Notes
+
+(Class: 3/3/2022)
+
+- Problem defined very narrowly
+- Problem focused on sympathetic groups (WIC program designed to help women, infants and children)
+- When the problem is MASSIVE or has dangers over the long time horizon (e.g. nuclear waste storage)
+- Problem requires instructions of government employees/contractors rather than private individuals
+- Multiple levels of oversight and enforcement
+:::
+
+
+
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
+
+**Stakeholder Types**
+
+<br>
+
+Think about all of the specific problems you heard today and use them to make a list:
+
+- Command and control regulations work well when targeting stakeholders that look like...
+
+::: notes
+
+Ok, repeat your list making but now focus on the stakeholders
+
+- What kinds of stakeholders do command and control regulations work well on?
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+#### Notes
+
+(Class: 3/3/2022)
+
+- Answers ran the gamut from private to public interests.
+- My conclusion was that stakeholder type doesn't appear to be a good differentiator for choosing C&C approaches over the others.
+:::
+
+
+
+## Analyzing the Cases {background-image="libs/Images/background-forest_v3.png" .center}
+
+**Institutional Support**
+
+<br>
+
+How much institutional support is required for command and control regulations to be effective?
+
+- e.g. who did the rule-making, the monitoring, the enforcement, etc.?
+
+::: notes
+
+Last job is to think about the complexity of implementing a command and control regulation.
+
+- How much institutional support, and what kinds, is required for command and control regulations to be effective?
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+Groups, go take a look at what the other groups proposed!
+
+- Read it all and ask questions if you need clarifications
+:::
+
+
+
+## Best advice / things to remember when designing command and control regulations? {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: notes
+
+Bottom line time.
+
+### In a practical sense, what guidance can we offer policy-makers considering using a C&C approach to solving environmental problems?
+
+*ON BOARD as a CLASS*
+
+- Depends on balance of "dirty" vs "clean" industries in the target economy
+
+- Must be paired with assistance
+
+- Is there any way to do this that isn't "big government" getting bigger? Easy to say shut down coal mining and we'll retrain those workers but in reality how would this work? Train for what? Forced relocation to jobs? Government picking winners and losers?
+
+- Proposed to discuss: C&C most realistic if changes are small OR industries carefully targeted.
+
+- Enforcement at the individual level is hard if community doesn't buy-in
+
+<br>
+
+**Ok, everybody take five minutes to reflect on our work today.**
+
+Jot down some notes that I promise you'll need when it comes time to write the next paper.
+
+What are the pros and cons of using this approach for your specific problem?
+:::
+
+
+## {background-image="libs/Images/11-1-Green_taxation.jpg" .center}
+
+::: notes
+
+Next week we explore our next policy design, green taxes!
+
+<br>
+
+Make sure you consolidate and clean up your notes from this week.
+
+- You might end up making C&C central to your paper!
+:::

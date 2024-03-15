@@ -25,6 +25,82 @@ Justin Leinaweaver (Spring 2024)
 Prep for Class
 
 1.  Publish discussion board for next class
+
+2. Second slide is grade improvements in R&R process. Celebrate the great work!
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" }
+
+```{r, fig.align='center', fig.asp=.618, fig.width=9}
+grades <- tribble(
+  ~Draft, ~Draft2, ~Revised, ~Revised2,
+  58, "F", 58, "F",
+  95, "A", 100, "A",
+  78, "C+", 92, "A-",
+  95, "A", 100, "A",
+  80, "B-", 95, "A",
+  85, "B", 95, "A",
+  70, "C-", 85, "B",
+  80, "B-", 87, "B+",
+  90, "A-", 100, "A",
+  88, "B+", 95, "A",
+  75, "C", 100, "A"
+) |>
+  mutate(
+    Draft2_f = factor(Draft2, levels = c("F", "D-", "D", "D+", "C-", "C", "C+", "B-", "B", "B+", "A-", "A")),
+    Revised2_f = factor(Revised2, levels = c("F", "D-", "D", "D+", "C-", "C", "C+", "B-", "B", "B+", "A-", "A"))
+  )
+
+# table(grades$Draft2)
+# table(grades$Revised2)
+
+# grades |>
+#   ggplot(aes(x = Draft2_f)) +
+#   geom_bar() +
+#   theme_bw() +
+#   scale_x_discrete(drop=FALSE) +
+#   scale_y_continuous(limits = c(0, 8), breaks = 1:8)
+# 
+# grades |>
+#   ggplot(aes(x = Revised2_f)) +
+#   geom_bar() +
+#   theme_bw() +
+#   scale_x_discrete(drop=FALSE) +
+#   scale_y_continuous(limits = c(0, 8), breaks = 1:8)
+  
+
+grades |>
+  ggplot(aes(x = Draft, y = Revised)) +
+  geom_point() +
+  theme_bw() +
+  scale_x_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
+  scale_y_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
+  geom_abline(slope = 1, intercept = 0) +
+  labs(x = "Draft Paper 1 Grades", y = "Revised Paper 1 Grades",
+       title = "The revised papers were excellent!")
+
+
+```
+
+::: notes
+We have to celebrate the great work of the revisions!
+
+- 11 revisions submitted
+
+- x-axis is the grades on the draft paper
+
+- y-axis is the grades after the revision
+
+<br>
+
+Incredible improvements across the board
+
+- The diagonal line here shows where each point would be if the scores on both papers were the same
+
+- Every paper, bar one, made dramatic improvements
+
 :::
 
 
@@ -53,7 +129,6 @@ Don't forget:
 
 ### Questions on this assignment?
 :::
-
 
 
 
