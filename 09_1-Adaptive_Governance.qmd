@@ -37,6 +37,7 @@ Prep for Class
 grades <- tribble(
   ~Draft, ~Draft2, ~Revised, ~Revised2,
   58, "F", 58, "F",
+  80, "B-", 95, "A",
   95, "A", 100, "A",
   78, "C+", 92, "A-",
   95, "A", 100, "A",
@@ -70,18 +71,17 @@ grades <- tribble(
 #   scale_x_discrete(drop=FALSE) +
 #   scale_y_continuous(limits = c(0, 8), breaks = 1:8)
   
-
 grades |>
   ggplot(aes(x = Draft, y = Revised)) +
-  geom_point() +
+  geom_count() +
+  scale_size_area(max_size = 3.5) +
   theme_bw() +
   scale_x_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
   scale_y_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
   geom_abline(slope = 1, intercept = 0) +
   labs(x = "Draft Paper 1 Grades", y = "Revised Paper 1 Grades",
-       title = "The revised papers were excellent!")
-
-
+       title = "The revised papers were excellent!")  +
+  theme(legend.position = "none")
 ```
 
 ::: notes
