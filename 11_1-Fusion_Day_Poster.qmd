@@ -13,7 +13,9 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **Design a Poster for Fusion Day**
+:::
 
 <br>
 
@@ -27,62 +29,119 @@ Justin Leinaweaver (Spring 2024)
 Prep for Class
 
 1. [Compass Center Resources](https://www.drury.edu/academic-affairs/fusion-day/compass-center-fusion-day-resources/)
+
+<br>
+
+This week we design your posters for Fusion Day.
+
+- **SLIDE**: Let's talk details!
 :::
 
 
 
 ## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-**Getting Feedback from our Community**
+**Big Picture Aim**
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
-```
+<br>
+
+Design and present a poster for Fusion Day that introduces your **problem framing and proposed policy solutions** to our community.
 
 ::: notes
-Design a poster for Fusion Day that introduces your problem to the community and offers a test run of different solutions. 
+This is your chance to practice pitching your problem and possible solutions to our community.
 
-- Your job is to present this poster during Fusion Day in order to collect community feedback on your problem framing (and proposed solution)
+<br>
+
+It is super useful for you to:
+
+1. Get feedback on your project from lots of different perspectives, and
+
+2. Practice tightening your arguments before writing the final paper
 :::
+
 
 
 ## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+::: {.incremental}
+1. **Problem Framing**: Convince the community member that we have a serious, local environmental problem that **they should care about**.
 
-1. Argument: We have a serious, local environmental problem
+2. **Community Engagement**: Give the community member concrete options for **how they can get involved** in the problem locally (with your community engagement project as an example).
 
-2. Community Engagement: What have you done to get involved?
-
-3. Present **at least one** policy option we could implement in our community to address this problem
-
-::: notes
-Here's what I'd like your poster to include.
-
-- A well supported argument, and
-
-- A series of options you are inviting the community to weigh-in on.
-
-<br>
-
-### Questions on the components here?
-
-<br>
-
-**SLIDE**: Let's step through some advice from the Compass Center
+3. **Policy Solutions**: Propose **TWO policy options** we could implement in our community to address this problem
 :::
 
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
+::: notes
+Your poster needs to hit three tasks
 
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center1.png")
+<br>
+
+**REVEAL**: Pitch your problem framing (a baseline argument)
+
+**REVEAL**: Community engagement
+
+**REVEAL**: Policy solutions
+:::
+
+
+
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
+
+**Submission Requirements**
+
+<br>
+
+This assignment requires three elements:
+
+1. **Submit** your Fusion Day poster to **Canvas**, 
+
+2. **Submit** your poster to the **Compass Center** before the deadline, and 
+
+3. **Present** your poster on **Fusion Day**.
+
+::: notes
+Three components to completing this class assignment.
+:::
+
+
+
+## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/10_2-Poster_Assignment.png")
 ```
 
+::: notes
+Here's the assignment prompt on Canvas
+
+<br>
+
+**Questions on any of the elements to this assignment?**
+
+<br>
+
+Before we get to work I want to share some advice from the Compass Center
+
+- NOTE: ALL of the following slides/guidance are available on the Compass Center website
+
+- **SLIDE**
+:::
+
+
 ## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center2.png")
-```
+**Layout**
+
+<br>
+
+::: {.r-fit-text}
+- Use bullet points not paragraphs
+
+- Spell check!
+
+- All words should be readable from 3 feet away
+:::
+
 
 
 ## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
@@ -95,42 +154,19 @@ knitr::include_graphics("libs/Images/11_1-Compass_Center3.png")
 ## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center4.png")
-```
-
-
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r}
 knitr::include_graphics("libs/Images/11_1-Compass_Center5.png")
 ```
 
 
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center6.png")
-```
-
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center7.png")
-```
+## {background-image="libs/Images/11_1-Compass_Center6.png" background-size='85%'}
 
 
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center8.png")
-```
+## {background-image="libs/Images/11_1-Compass_Center7.png"  background-size='85%'}
 
 
-## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/11_1-Compass_Center8.png" background-size='85%'}
 
-```{r}
-knitr::include_graphics("libs/Images/11_1-Compass_Center9.png")
-```
+## {background-image="libs/Images/11_1-Compass_Center9.png" background-size='85%'}
 
 
 ## Compass Center Advice {background-image="libs/Images/background-forest_v3.png" .center}
@@ -193,13 +229,9 @@ knitr::include_graphics("libs/Images/11_1-Compass_Center19.png")
 
 ## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
-
-1. Argument: We have a serious, local environmental problem
-
-2. Community Engagement: What have you done to get involved?
-
-3. Present **at least one** policy option we could implement in our community to address this problem
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/10_2-Poster_Assignment.png")
+```
 
 ::: notes
 Let's aim to share your progress in class on Thursday!

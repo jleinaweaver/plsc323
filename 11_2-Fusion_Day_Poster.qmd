@@ -13,7 +13,9 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **Design a Poster for Fusion Day**
+:::
 
 <br>
 
@@ -33,24 +35,12 @@ Prep for Class
 
 ## Assignment 3: Fusion Day Poster {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
-
-1. Argument: We have a serious, local environmental problem
-
-2. Community Engagement: What have you done to get involved?
-
-3. Present **at least one** policy option we could implement in our community to address this problem
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/10_2-Poster_Assignment.png")
+```
 
 ::: notes
-Here's what I'd like your poster to include.
-
-- A well supported argument, and
-
-- A series of options you are inviting the community to weigh-in on.
-
-<br>
-
-### Questions on the components here?
+**Questions on the components here?**
 :::
 
 
@@ -66,3 +56,12 @@ knitr::include_graphics("libs/Images/11_1-Compass_Center18.png")
 ```{r}
 knitr::include_graphics("libs/Images/11_1-Compass_Center19.png")
 ```
+
+::: notes
+Alright, let's kick things off today walking around and checking out where we are!
+
+<br>
+
+Then we get back to work!
+:::
+

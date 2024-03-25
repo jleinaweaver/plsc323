@@ -24,21 +24,33 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. Send out reminder that next week we meet in Springfield Hall Lab A to work on posters
+1. Today class needs to decide if next week we meet in computer lab
+    - SP24: Sonja has reserved Lay 208 if we want it
+    - If class chooses the lab then prep an email reminder for Monday
+    
+<br>
+
+**SLIDE**: Prompt for deciding if computer lab needed
 :::
 
 
 
-## Next Week {background-image="libs/Images/background-forest_v3.png" .center}
+## Next Week: Fusion Posters {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+**Getting Feedback from our Community**
 
-Meet in Springfield Hall Lab A to work on converting Paper 2 into a Fusion Day poster
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
+```
 
 ::: notes
 Next week we take your material from the second paper and use it to prepare a Fusion Day poster.
 
-- So we'll meet in the computer lab to kick things off next week
+<br>
+
+I have reserved a computer lab for us for next week (Lay 208)
+
+**Do we want to work here in our classroom on your laptops or use the lab?**
 :::
 
 
