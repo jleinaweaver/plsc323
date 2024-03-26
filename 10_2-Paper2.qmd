@@ -55,7 +55,6 @@ I have reserved a computer lab for us for next week (Lay 208)
 
 
 
-
 ## Paper 2 {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
@@ -66,39 +65,193 @@ Which of the four policy design options is the "right" choice for addressing you
 
 ::: notes
 **Questions on the prompt?**
-
-<br>
-
-**Everybody have a rough draft?**
 :::
 
 
-## Paper Rubric {background-image="libs/Images/background-forest_v3.png" .center}
+
+## For Today {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
-**To be convincing an argument should be logical, clear, credible and critical.**
+::: {.r-fit-text}
+Convert your notes into an outline
+
+- Policy examples with pros and cons lists
+
+- Add real-world examples
+:::
 
 ::: notes
-TBD
-:::
+Last class we brainstormed specific executions of each policy design option
 
-
-## Convincing arguments... {background-image="libs/Images/background-forest_v3.png" .center}
+- We then used those options to gather feedback from your classmates
 
 <br>
 
-+ **Logical**: Do the premises support the conclusion?
+My hope is that this exercise helped to clarify in your mind how each policy design can be applied to your specific case 
 
-+ **Clear**: Is the paper easy to read and understand?
+<br>
 
-+ **Credible**: Is there enough high quality evidence (cited using APA)?
+**Does everybody have an outline to share?**
 
-+ **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+<br>
 
-::: notes
-Ok, everybody, get some feedback, give some feedback and get to writing!
+15 mins: Ok, pair off and get/give feedback on the outlines
+
+<br>
+
+**Alright, how are we doing?**
+
+- **Any questions I can help with?**
+
+<br>
+
+Before we transition from the outline to the paper I want to highlight a few important elements
+
+- This paper represents your first effort to make a policy argument
+
+- This means you are now actively pushing an argument and not just describing a problem
+
+- **SLIDE**: Let's talk about how this changes things...
 :::
 
+
+
+## Paper 2 as a Policy Argument {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**1. The introduction must be compelling**
+
+- What problem are you working to solve?
+
+- Why should they care? 
+
+- What is your argument?
+
+::: notes
+The target of a policy argument is almost certainly a stakeholder in your community
+
+- This could be a community group who agrees we have a problem, 
+
+- someone who doesn't realize they are impacted by the problem, OR
+
+- An actor whose behavior you are trying to change!
+
+<br>
+
+In any case, you need their attention if you have any hope of getting them to join your "team"
+
+<br>
+
+This means your intro has to accomplish three tasks:
+
+- Make them understand what you are concerned about,
+
+- Make them want to read it,
+
+- AND, they should know exactly what your answer is to the assignment question by the end of the intro
+
+<br>
+
+**Questions?**
+:::
+
+
+
+## Paper 2 as a Policy Argument {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**2. Don't assume the reader is an expert in the problem OR the policy options**
+
+- Clearly define all concepts (with citations)
+
+- Provide real-world examples
+
+
+::: notes
+Ok, the intro is compelling and you've got them into the body of the paper
+
+- Now you have to keep their attention!
+
+- People are busy, they don't want to feel stupid and they aren't going to struggle through a poorly written or unclear argument
+
+- This means you HAVE to write to keep them moving through your argument
+
+<br>
+
+Don't assume the reader is an expert in the problem you are working on, their role in that problem or how any of the design approaches work.
+
+- Your job is to create a shared baseline in your problem and the design options
+
+- Make sure you and they are on the same page
+
+<br>
+
+So, your argument must be built on clear definitions, cited from good sources and illustrated by examples
+
+<br>
+
+**Questions?**
+:::
+
+
+
+## Paper 2 as a Policy Argument {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**3. Support ALL claims with evidence**
+
+- X is happening in our community...
+
+- X is harming our community...
+
+- Policy X is effective when...
+
+- Policy X is ineffective when...
+
+::: notes
+Ok, their in the weeds now and now is when you need to start selling them your analysis
+
+- The bigger the "ask", the harder to sell
+
+- A tough sell that relies on your opinion will go nowhere, hence a policy ARGUMENT not a policy op-ed
+
+<br>
+
+Key to this paper is how you evaluate each policy design when it is applied to your problem
+
+- Without evidence, these claims would just be your opinion
+
+<br>
+
+**Questions?**
+:::
+
+
+
+## Paper 2 as a Policy Argument {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Which of the four policy design options is the "right" choice for addressing your environmental problem?**
+
+- Draw the reader in
+
+- Don't assume they are an expert
+
+- Support ALL claims with evidence
+
+::: notes
+**Questions on any of these elements?**
+
+<br>
+
+Let's get to writing!
+
+- And don't forget that next week we work on the Fusion Posters in class
+:::
 
 
