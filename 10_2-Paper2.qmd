@@ -12,7 +12,7 @@ library(readxl)
 <br>
 
 ::: {.r-fit-text}
-**Paper 2: Review and Revise Drafts**
+**Paper 2: Review Outline and Start Writing**
 :::
 
 <br>

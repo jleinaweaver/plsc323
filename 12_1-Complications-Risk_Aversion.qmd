@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
+# Today's Agenda {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
 library(tidyverse)
@@ -11,13 +11,11 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **III. Designing an Environmental Policy**
 
-<br>
-
-Complicating Factors in Environmental Policymaking
-
-- Risk Aversion / Acceptance
+- Complications 1: Risk Aversion / Acceptance
+:::
 
 <br>
 
@@ -28,56 +26,98 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. Bring pennies to class for coin flipping (1 per person)
+1. **Run slides off of laptop today so you can update the slides as we go**
 
-2. **Run slides off of laptop today so you can update the slides as we go**
+2. Bring pennies to class for coin flipping (1 per person)
 
 3. Prep Google Form to collect county fair responses AND email to distribute it
-    - https://forms.gle/ZFe8ZGHLsSQnHN2o7
-
-<br>
-
-### SETUP NOTES FOR YOU
-+ CORE201 FA15 1.2 and FA17 1.2
-+ US PUBLIC POLICY 14.1
-+ ADD Applied arguments: Ehrlich (averse) vs Simon (acceptant)
+    - https://forms.gle/SbPGy5Mp73zN9wGd6
 :::
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" .center}
+## Fusion Poster Due Thursday {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
-tibble(
-  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
-  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
-  col3 = c(15, 15, 20, 15, 15, 20, 100)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+knitr::include_graphics("libs/Images/11_1-Compass_Center19.png")
 ```
 
 ::: notes
+Remember, posters must be submitted to Canvas AND to the official Fusion Day website for approval and printing!
 
-Time to take stock of how far you've come in order to start looking ahead to your final paper.
-
-- Paper 1: Selected a problem, defined it using evidence and identified key stakeholders involved in it
-
-- Paper 2: You have evaluated four broad approaches to solving your problem in order to build an argument for your chosen policy design
-
-- Paper 3: You have, or you're about to, engaged in our community in order to learn more about your problem and the stakeholders involved
-
-- Paper 4: On Fusion Day you will have a chance to get community feedback on the policy options you are considering. 
+- In other words, you have to submit TWICE!
 
 <br>
 
-**Remember, posters must be submitted to Canvas AND to the official Fusion Day website for approval and printing!**
+**Any questions on the poster or the submission?**
+:::
 
-### Any questions on the poster submission?
-    
+
+
+## The Development of your Project {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+:::: {.incremental}
+::: {.r-fit-text}
+1. Mapped the impact of a problem on our community
+
+2. Applied that map to four policy design options
+
+3. **Currently road testing your problem framing**
+:::
+::::
+
+::: notes
+
+Time to take stock of how far you've come in order to look ahead to your final paper.
+
+<br>
+
+**REVEAL**: Paper 1 asked you to map the contours of a problem in a real community
+
+- In your first paper you selected a problem, established an empirical basis for it and identified key stakeholders involved in it
+
+<br>
+
+**REVEAL**: In your second paper you used your map to evaluate four policy design options for addressing the problem
+
+- e.g. how does each policy meet the science of the problem and the needs of the stakeholders
+
+<br>
+
+**REVEAL**: Where we are now!
+
+- Your community engagement project and fusion day poster will force you to take these ideas into the real world
+
+- What does the problem really look like? AND
+
+- How does the community react to your developing problem-framing?
+:::
+
+
+## Our Planned Policy-Making Process {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) Propose a **policy**
+
+:::
+
+::: notes
+
+Going back to our policy-making process from week 4
+
+- Your work so far this semester has gotten you up to step 3!
+
 <br>
 
 Your final paper asks you to reflect on all of this in order to design a policy for addressing your chosen problem. 
@@ -150,7 +190,7 @@ SLIDE: Ok, let's get more specific
 
 ## A convincing policy proposal: {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+::: {.incremental}
 
 - Advances your policy recommendation in **EVERY** paragraph,
 
@@ -158,21 +198,32 @@ SLIDE: Ok, let's get more specific
 
 - Identifies and appeals to specific stakeholders,
 
-- Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
+- Considers the complications, and
 
 - Offers guidance for measuring its effectiveness over time.
+:::
 
 ::: notes
 
+To be clear, we've covered the basics you'll need for the first three parts of this assignment.
+
+- The material we cover for the next few weeks will give you tools for the last two: Complications and thinking about impacts over time
+
+<br>
+
 The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
+
 - Problem framings matter,
+
 - Generating stakeholder buy-in matters,
+
 - Engaging substantively with the complications matters, and
+
 - Planning for measuring success matters.
 
 <br>
 
-### Bottom line: I'm **much** more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
+I am much more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
 
 - My expectation is not that you've designed the ultimate plan that makes everyone happy.
     - That's not a thing that exists in the real world.
@@ -181,9 +232,7 @@ The bottom line here is I'm looking for you to connect your ideas in very concre
 
 <br>
 
-### Does that make sense?
-
-### Any questions on the prompt or any of this advice
+**Any questions on the prompt or any of this advice?**
 :::
 
 
@@ -213,13 +262,11 @@ Over the next three weeks we'll explore these important topics.
 
 Today we explore risk aversion and risk acceptance.
 
-- All people in a community perceive risk differently and these differences make problem-solving much harder.
-
 - Disputes over perceived risk tend to seriously complicate defining the problem and evaluating proposed solutions.
 
 <br>
 
-Of course, to talk about risk we have to first talk about probability.
+**SLIDE**: Of course, to talk about risk we have to first talk about probability.
 :::
 
 
@@ -234,21 +281,23 @@ Of course, to talk about risk we have to first talk about probability.
 
 *Distribute pennies*
 
-### Let’s start with this, what is the probability of getting heads when you flip a penny?
+<br>
 
-#### - How do you know?
+**Let’s start with this, what is the probability of getting heads when you flip a penny?**
+
+- **How do you know?**
 
 <br>
 
-### Assuming a probability of 50%, how many heads would you expect if i asked you to flip your coin ten times?
+**Assuming a probability of 50%, how many heads would you expect if i asked you to flip your coin ten times?**
 
-+ (5)
+- (5 heads, right?)
 
 <br>
 
 Ok, let's test your intuition!
 
-Flip your penny ten times and record the number of heads.
+- Flip your penny ten times and record the number of heads.
 
 <br>
 
@@ -325,21 +374,21 @@ p1 +
 
 ::: notes
 
-### Given this result, what is the probability of heads using our pennies?
+**Given this result, what is the probability of heads using our pennies?**
 
 <br>
 
 Ok, let's make sure we're clear.
 
-### Based on this exercise, i want you to define the word probabiility for me.
-
-(The probability is the likelihood of an event over the long run.)
-
-+ If we flip these pennies many, many, many times we should get heads about this proportion of the time.
+**Based on this exercise, I want you to define the word probabiility for me.**
 
 <br>
 
-In other words, the probability is what we expect to happen if we could repeat a choice or an action many, many times.
+(The probability is the likelihood of an event over the long run.)
+
+- If we flip these pennies many, many, many times we should get heads about this proportion of the time.
+
+- In other words, the probability is what we expect to happen if we could repeat a choice or an action many, many times.
 :::
 
 
@@ -354,18 +403,21 @@ knitr::include_graphics('libs/Images/05-1-weather_forecast.png')
 
 Think about this as it relates to the weather.
 
-### When the weather person tells you there is a 25% chance of rain today, what are they telling you?
+<br>
 
-+ If you lived this day one hundred times, it would rain approximately 25 times.
-    - That's what they mean by 25%
-    
-+ In other words, they ran a computer simulation of today's weather a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't
+**When the weather person tells you there is a 25% chance of rain today, what are they telling you?**
 
 <br>
 
-### When the weather forecast is for a 50% chance of rain today, what does that actually mean?
+If you lived this day one hundred times, it would rain approximately 25 times.
 
-+ (SLIDE)
+- in other words, they ran a computer simulation of today's weather a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't
+
+<br>
+
+**So, when the weather forecast is for a 50% chance of rain today, what does that actually mean?**
+
+- (SLIDE)
 :::
 
 
@@ -375,12 +427,14 @@ Think about this as it relates to the weather.
 ::: notes
 
 (It rained in half of the simulations)
+
 - In other words, they have no idea what is going to happen today.
 
 <br>
 
-### So, what does this mean for us, a group of people who will only live today one time?
-#### - Do I bring an umbrella to work on a 50% chance of rain day or not?
+**What does this mean for us, a group of people who will only live today one time?**
+
+- **Do I bring an umbrella to work on a 50% chance of rain day or not?**
 
 + ?
 
@@ -405,23 +459,42 @@ THIS is where your personal level of risk aversion or acceptance comes in!
 ::: notes
 Now that you are all masters of probability, let’s dig into each of your risk profiles by gambling!
 
+<br>
+
 Imagine you are at the county fair with your best girl or guy and you come across a game called "Heads you win, Tails you lose."
 :::
 
 
 
-## Heads you win, Tails you lose {background-image="libs/Images/background-forest_v3.png" .center}
+## Let's play a game! {background-image="libs/Images/12_11-County_Fair_v2.png" .center}
 
-**Flip a fair coin: Heads pays you $5, tails you get nothing**
+<br>
 
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/05-1-County_Fair.webp')
-```
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.r-fit-text}
+Flip a fair coin ONE time
+
+- Heads pays you **$5**
+
+- Tails pays you **nothing**
+:::
+::::
+
+:::: {.column width="50%"}
+
+::::
+:::::
 
 ::: notes
-The game: Flip a fair coin, heads pays $5, tails you get nothing.
 
-- Everybody take a minute to think about this game.
+The game is simple: Heads you win, Tails you lose 
+
+- Flip a fair coin, heads pays $5, tails you get nothing.
+
+<br>
+
+Everybody take a minute to think about this game.
 
 - Now, write down the maximum amount of money you would pay to play this game.
 
@@ -429,20 +502,34 @@ The game: Flip a fair coin, heads pays $5, tails you get nothing.
 
 <br>
 
-### Everybody have their answer written down?
+**Everybody have their answer written down?**
+
+<br>
 
 Ok, rewind your imaginary date and let's replay the game!
 :::
 
 
 
-## Heads you win, Tails you lose {background-image="libs/Images/background-forest_v3.png" .center}
+## Let's play a game! {background-image="libs/Images/12_11-County_Fair_v2.png" .center}
 
-**Flip a fair coin: Heads pays you $100, tails you get nothing**
+<br>
 
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/05-1-County_Fair.webp')
-```
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.r-fit-text}
+Flip a fair coin ONE time
+
+- Heads pays you **$100**
+
+- Tails pays you **nothing**
+:::
+::::
+
+:::: {.column width="50%"}
+
+::::
+:::::
 
 ::: notes
 
@@ -458,7 +545,7 @@ You and your date arrive at the fair and see this game where heads pays you $100
 :::
 
 
-## {background-image="libs/Images/05-1-County_Fair.webp" .center}
+## {background-image="libs/Images/12_11-County_Fair_v2.png" .center}
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
@@ -490,7 +577,7 @@ Here are our results focused on the first version of the game.
 
 :::
 
-## {background-image="libs/Images/05-1-County_Fair.webp" .center}
+## {background-image="libs/Images/12_11-County_Fair_v2.png" .center}
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # bars of choice 100
@@ -515,7 +602,7 @@ Here are our results focused on the second version of the game.
 :::
 
 
-## {background-image="libs/Images/05-1-County_Fair.webp" .center}
+## {background-image="libs/Images/12_11-County_Fair_v2.png" .center}
 
 ```{r, fig.align='center', fig.asp=.9, fig.width=7}
 d |>
@@ -530,46 +617,48 @@ d |>
   theme_bw() +
   scale_x_continuous(labels = scales::percent_format(), limits = c(0,1)) +
   scale_y_continuous(labels = scales::percent_format(), limits = c(0,1)) +
-  labs(x = "Version 1: Heads Pays $5", y = "Version 2: Heads Pays $100",
-       title = "Percent of winning amount you would pay")
+  labs(x = "Version 1 (% of $5)", y = "Version 2 (% of $100)",
+       title = "What are you willing to pay to play these games?")
+#title = "How much variation in our risk profiles?"
 ```
 
 ::: notes
 
 Here I've converted all of your maximums into a % of the possible winnings.
 
-- So, if you would pay $2.50 for the $5 game then you would pay half the winnings (e.g. 50%)
+- So, if you would pay $2.50 for the $5 game then you would pay half the possible winnings to play (e.g. 50%)
 
 <br>
 
-The 45 degree line maps equal proportions
+Anybody on the 45 degree line represents someone equally willing to take on the risk regardless of the stakes
 
-- So, any dot on the line is someone whose maximums are the same proportions in both games.
+- **Why aren't all the observations on the diagonal line?**
 
-- If your dot is below the 45 degree line then you would pay more to play version 1 than version 2
-
-- Above the line you are more willing to pay more to play the $100 game
+- **Shouldn't your offer to play the $100 game be exactly 20 times your answer in the $5 game?**
 
 <br>
 
-### What do we learn from comparing and contrasting your amounts? 
-### - Is there a correct answer?
+Everyone has a different relationship to risk
 
-- No! Everyone has a different relationship with risk.
-    - Some people are more / less willing to take on risk to win profit.
-    - Not right or wrong, just different willingness to risk.
-    - In other words, some people are more risk acceptant and others are more risk averse.
+- Some people are more willing to take on risk to win greater rewards and some people are not
+
+- Not right or wrong, just different willingness to accept risk.
 
 <br>
 
-### Why aren't all the numbers in the $100 game exactly 20 times the answers in the $5 game column?
+Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
 
-### - What does all this tell us about human decision-making?
+- If you are above the diagonal line then you are someone who is more willing to take on risk when the stakes are high, e.g. you are risk acceptant
 
-- Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
+- If you are below the line then you are more price sensitive, e.g. you are more risk averse
 
-- Some people will be willing to accept risk when the reward is huge, but not when it is small (e.g. playing the lottery)
+<br>
 
+**Does that make sense?**
+
+<br>
+
+**So, what do we learn about our class from this?**
 :::
 
 
@@ -578,27 +667,35 @@ The 45 degree line maps equal proportions
 
 ::: notes
 
-Important note: this is not just about games of chance.
+Important note, this is not just about games of chance!
 
-Your decision-making is constantly influenced by your feelings about risk.
-
-### Who here has a car?
+- Your decision-making is constantly influenced by your feelings about risk.
 
 <br>
 
-### Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?
-
-+ ?
+**Who here has a car?**
 
 <br>
 
-### Make this clear for me, how do stop lights illustrate different peoples' levels of risk aversion?
+**Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?**
 
-+ Run a red light and get home faster (value!), BUT some probability of getting pulled over or an accident or hurting someone...
+- *Force discussion*
 
 <br>
 
-### Any questions about these basic introductions to probabilities or risk aversion?
+**Make this clear for me, how do stop lights illustrate different peoples' levels of risk aversion?**
+
+- **What are your options and how are they tied to the rewards?**
+
+<br>
+
+1. Run a red light and get home faster (value!), BUT 
+
+2. You MAY get pulled over OR cause an accident
+
+<br>
+
+**Any questions about these basic introductions to probabilities or risk aversion?**
 :::
 
 
@@ -612,61 +709,114 @@ knitr::include_graphics('libs/Images/05_1-monkey_darts_politics.jpg')
 
 ::: notes
 
-Let's now take this back to our work building models of politics and problem-solving.
+In our discussions of "politics" and problem-solving in a political world I've encouraged you to think about:
 
-### What were some of the key things elements we argued were important when thinking strategically about problem-solving in a political world?
+- You live in a community that has long established institutions and identities that create expectations for behavior
 
-+ Interests, institutions and interactions
-+ Problem definitions matter
-+ Broad participation in rule-making seemed important
-+ ?
+- You, personally, have multiple identities and each carries DIFFERENT obligations that change your behavior, and
+
+- In these complex situations problem definitions MUST be adapted to the community you are trying to change
 
 <br>
 
-### How does our discussion about risk today impact our models of politics and problem-solving?
+**How does our discussion about risk today impact our models of politics and problem-solving?**
+
+<br>
 
 (A key complicating factor!)
 
-- Interests defined not just by what they want BUT ALSO by their risk tolerance!
+- Interests defined not just by what people want BUT ALSO by their risk tolerance!
 
-- Two stakeholders presented with the exact same policy (e.g. rules of behavior) may each choose to behave in completely different ways BECAUSE of their different willingnesses to accept risk!
+- Two stakeholders presented with the exact same policy may each choose to behave in completely different ways BECAUSE of their different willingnesses to accept risk!
 
 <br>
 
-Let's now shift to the readings for today.
+**SLIDE**: Let's take this risk aversion complication into our readings for today
 :::
 
 
-## Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*. {background-image="libs/Images/background-forest_v3.png" .center}
+## Ehrlich & Ehrlich (2008) {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+Too Many People, Too Much Consumption
+:::
+
+<br>
+
+::: {.fragment}
+Therefore, a combination of overpopulation and overconsumption has us on track for disaster
+:::
 
 ::: notes
-
 Ok, let's examine the Ehrlich and Ehrlich paper first.
 
 <br>
 
-### What is the conclusion of the argument by Ehrlich and Ehrlich?
+**What is the conclusion of the argument by Ehrlich and Ehrlich?**
 
-- (**SLIDE**: Therefore, a combination of overpopulation x overconsumption has us on track for disaster.)
-:::
-
-
-## Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*. {background-image="libs/Images/background-forest_v3.png" .center}
+- (**REVEAL**: Therefore, a combination of overpopulation x overconsumption has us on track for disaster.)
 
 <br>
 
-Therefore, a combination of overpopulation and overconsumption has us on track for disaster
-
-::: notes
 **Take a few minutes on your own to identify the key premises the authors use to support this conclusion.**
 
 <br>
 
-### Consolidate lists with person next to you.
+*Split class into three groups*
 
 <br>
 
-*ON BOARD*
+Groups, work together to get a diagram of this argument up on the board!
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS*
+
+<br>
+
+**SLIDE**: My version
+
+:::
+
+
+## Ehrlich & Ehrlich (2008) {background-image="libs/Images/background-forest_v3.png" .center}
+
+- We are rapidly depleting the natural capital of the Earth
+
+- Damage = Population x Consumption x Technology
+
+- Population control is controversial
+
+- Overconsumption is complex and difficult to reduce
+
+- Technology improvements cannot save us
+
+Therefore, a combination of overpopulation and overconsumption has us on track for disaster
+
+::: notes
+
+*SAVE CONVINCINGNESS ARGUMENT FOR LATER*
+
+<br>
+
+
+**What are the strongest and weakest parts of this argument?**
+
+- *DISCUSS*
+
+<br>
+
+**How does this argument help us think about the importance of risk aversion and acceptance when trying solve an environmental problem?**
+
+<br>
+
+VERY risk averse, right?
+
+<br>
+
+**OLD Notes**
 
 + (We are rapidly depleting the natural capital of the Earth; soil, groundwater, biodiversity)
 + (Negative Impact = Pop x Consumption x Technology)
@@ -676,44 +826,85 @@ Therefore, a combination of overpopulation and overconsumption has us on track f
 + (Population control is controversial on both the left and the right though for different reasons and the media is "pro-natalist" in its framings of these stories, e.g. more births are good)
 + (Tackling overconsumption is complex and very, very difficult)
 
-<br>
-
-### Add all of this together and tell me, which perspective on risk does the Ehrlich and Ehrlich piece represent? Risk acceptance or aversion? Why?
-
-+ (Aversion!)
-
-<br>
 :::
 
 
-## Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6). {background-image="libs/Images/background-forest_v3.png" .center}
+## Simon (1993) {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+Population Growth Is Not Bad for Humanity
+:::
+
+<br>
+
+::: {.fragment}
+Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
+:::
 
 ::: notes
-
 Let's jump to the second article.
 
-### What is the conclusion of the article by Julian Simon?
+<br>
 
-- (**SLIDE**: Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase worldwide our numbers, our health, our wealth, and our opportunities" (10))
-:::
+**What is the conclusion of the article by Julian Simon?**
 
-
-## Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6). {background-image="libs/Images/background-forest_v3.png" .center}
+- (**REVEAL**)
 
 <br>
 
-Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase worldwide our numbers, our health, our wealth, and our opportunities" (10)
-
-::: notes
 **Take a few minutes on your own to identify the key premises Simon uses to support this conclusion.**
 
 <br>
 
-### Consolidate lists with person next to you.
+Groups, work together to get a diagram of this argument up on the board!
+
+- Go!
 
 <br>
 
-*ON BOARD*
+*PRESENT and DISCUSS*
+
+<br>
+
+**SLIDE**: My version
+
+:::
+
+
+
+## Simon (1993) {background-image="libs/Images/background-forest_v3.png" .center}
+
+- Overpopulation hysteria is costly to society
+
+- Trusting markets means trusting that shortages produce innovation
+
+- The only limit to innovation is a shortage of people!
+
+- More people = Larger stock of human knowledge
+
+Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
+
+
+::: notes
+*SAVE CONVINCINGNESS ARGUMENT FOR LATER*
+
+<br>
+
+**What are the strongest and weakest parts of this argument?**
+
+- *DISCUSS*
+
+<br>
+
+**How does this argument help us think about the importance of risk aversion and acceptance when trying solve an environmental problem?**
+
+<br>
+
+VERY risk acceptant, right?
+
+<br>
+
+**Old NOTES**
 
 + (Overpopulation hysteria has cost us dearly, distracted us from improving lives through targeting economic and political systems)
 + (The research shows "that faster population growth is not associated with slower economic growth")
@@ -724,15 +915,12 @@ Therefore, it is reasonable to expect "that the energetic effort of humankind wi
 + (The most important benefit of population size and growth is the increase it brings to the stock of useful knowledge.)
 + (Progress is limited largely by the availability of trained workers.)
 
-<br>
-
-### So, which perspective on risk does the Simon piece represent? Risk acceptance or aversion?
-- (Acceptance!)
+Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase worldwide our numbers, our health, our wealth, and our opportunities" (10))
 :::
 
 
 
-## Bottom line, which side is more convincing? {background-image="libs/Images/background-forest_v3.png" .center}
+## Risk aversion and population growth {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -745,13 +933,21 @@ Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
 ::: notes
 **Bottom line, which side is more convincing to you? Why?**
 
-<br>
-
-### Is your feeling on this consistent with your risk level as determined by our game to start class?
+- **Is your feeling on this consistent with your risk level as determined by our game to start class?**
 
 <br>
 
-### Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?
+*OPTIONAL or just jump to 10 minutes reflecting on their projects and then 5-10 minutes sharing*
+
+Let's think about this as problem-solvers in a community.
+
+- **Where is the room between these two sides for addressing environmental harms?**
+
+- **In other words, could we present a problem-framing that gets both these actors on our side?**
+
+<br>
+
+**Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?**
 :::
 
 
