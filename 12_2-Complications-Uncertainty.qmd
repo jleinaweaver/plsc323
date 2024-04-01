@@ -933,7 +933,7 @@ Here I've put your demand for offer 1 on BOTH the x-axis and the y-axis
 
 ## {background-image="libs/Images/12_2-Fork_in_Road_v2.png" .center}
 
-```{r, fig.align='center', fig.asp=.75, fig.width=7, eval=FALSE}
+```{r, fig.align='center', fig.asp=.75, fig.width=7, eval=TRUE}
 # Offer 1 x offer 2 x offer 3
 d |>
   mutate(
@@ -1035,7 +1035,7 @@ d |>
 
 ## {background-image="libs/Images/12_2-Fork_in_Road_v2.png" .center}
 
-```{r, fig.align='center', fig.asp=.75, fig.width=7, eval=FALSE}
+```{r, fig.align='center', fig.asp=.75, fig.width=7, eval=TRUE}
 # Offer 1 x offer 2 x offer 3
 max2 <- max(d$cost1, d$cost2, d$cost3)
 
