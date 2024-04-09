@@ -11,13 +11,12 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **III. Designing an Environmental Policy**
 
-<br>
+- Complications 3: Collective Action Problems
 
-Complicating Factors in Environmental Policymaking
-
-- Collective Action Problems and Free-Riding
+:::
 
 <br>
 
@@ -29,11 +28,11 @@ Justin Leinaweaver (Spring 2024)
 Prep for Class
 
 1. Prep Google form for tracking collective action game
-    - https://forms.gle/ZnVHBHXu58q4aFf76
+    - https://forms.gle/CT3cTUobfv5ja2xG6
     
 2. Prep email with link for the class
 
-3. MAKE SURE when introducing the game to make clear that they get the shared points EVEN if they take some for themselves. SP23 many in the class were surprised after the game that they could have taken and gotten both.
+3. MAKE SURE when introducing the game to make clear that they get the shared points EVEN if they take some for themselves. SP24 many in the class were surprised after the game that they could have taken and gotten both.
 
 <br>
 
@@ -58,9 +57,7 @@ I want to keep this at front of mind for you.
 :::
 
 
-## Assignment 5: Proposing a Policy {background-image="libs/Images/background-forest_v3.png" .center}
-
-A convincing policy proposal:
+## A convincing policy proposal: {background-image="libs/Images/background-forest_v3.png" .center}
 
 - Advances your policy recommendation in **EVERY** paragraph,
 
@@ -68,7 +65,7 @@ A convincing policy proposal:
 
 - Identifies and appeals to specific stakeholders,
 
-- Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
+- Considers the complications, and
 
 - Offers guidance for measuring its effectiveness over time.
 
@@ -81,7 +78,7 @@ A convincing policy proposal:
 
 <br>
 
-- Risk aversion (or risk acceptance)
+- Risk aversion (acceptance)
 
 - Temporal discounting and uncertainty
 
@@ -100,11 +97,17 @@ This final section of our class is our chance to dig into some of the complicati
 ## Risk Aversion {background-image="libs/Images/13_1-risk-assessment.jpg"}
 
 ::: notes
-**How does thinking about stakeholder risk aversion help you design a policy to solve an environmental problem?**
+**What does it mean to say that risk aversion can complicate environmental problem-solving?**
 
 <br>
 
-### Does one of our policy options do this better than the others? Why or why not?
+**Give me a real-world example**
+
+<br>
+
+**What policy design advice can we offer to someone trying to solve an environmental problem with significant levels of risk aversion or acceptance?**
+
+- **Does one of our policy options handle this better than the others?**
 :::
 
 
@@ -115,35 +118,47 @@ knitr::include_graphics("libs/Images/13_1-bad-ancestor.webp")
 ```
 
 ::: notes
-**How does thinking about stakeholder perceptions of time help you design a policy to solve an environmental problem?**
+**What does it mean to say that differences in stakeholders levels of temporal discounting can complicate environmental problem-solving?**
 
 <br>
 
-### Does one of our policy options do this better than the others? Why or why not?
+**Give me a real-world example**
+
+<br>
+
+**What policy design advice can we offer to someone trying to solve an environmental problem where different stakeholders hold very different discount rates?**
+
+- **Does one of our policy options handle this better than the others?**
 :::
 
 
 
-## Uncertainty / Tipping Points {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Tipping Points, Irreversibilities and Uncertainty**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13_1-tipping_point.jpg")
 ```
 
 ::: notes
-**How specifically does uncertainty impact the design of your policy proposal?**
-
-### - Nonlinear environmental cost and benefit functions?
-
-### - Tipping points to worry about? 
-
-### - "irreversibilities"?
-
-### - Uncertanities in costs and benefits?
+**What does it mean to say that tipping points or irreversibilities can complicate environmental problem-solving?**
 
 <br>
 
-Ok, today we move to our next complication: Collective Action Problems and Free-Riding
+**Give me a real-world example**
+
+<br>
+
+**What policy design advice can we offer to someone trying to solve an environmental problem where tipping points or irreversibilities are involved?**
+
+- **Does one of our policy options handle this better than the others?**
+
+<br>
+
+**SLIDE**: Ok, today we move to our next complication: Collective Action Problems and Free-Riding
 :::
 
 
@@ -155,7 +170,7 @@ The game is very simple
 
 - I will offer you some bonus points for your final paper and you will decide how many to take.
 
-- I will give you two choices and you must select ONLY one of them
+- I will give you two choices and you must select **ONLY** one of them
 :::
 
 
@@ -164,102 +179,123 @@ The game is very simple
 
 <br>
 
-- Option 1: Contribute 1/2 a bonus point to the class
+::: {.r-fit-text}
+Option 1
+
+- Contribute 1/2 a bonus point to the class
+:::
 
 ::: notes
 
-**1) This option allows you to give every person in class 1/2 a bonus point**
+This option allows you to give every person in class 1/2 a bonus point
+
 - If everyone in a class of 20 chooses this, everyone gets +10 on their final paper
 
-- Please note, I only keep whole numbers and I round down in this game
-    - So, your 1/2 is 0 unless someone else makes the same choice
+<br>
 
-### Does everybody understand this first option?
+Please note, I only keep whole numbers and I round down in this game
+
+- So, your 1/2 point contribution is worth ZERO points unless someone else makes the same choice
+    
+<br>
+
+**Any questions on option 1?**
 :::
+
 
 ## Let's play a quick game! {background-image="libs/Images/background-forest_v3.png" .center} 
 
 <br>
 
-- Option 1: Contribute 1/2 a bonus point to the class
+::: {.r-fit-text}
+Option 1
 
-- Option 2: Take 5 bonus points for yourself
+- Contribute 1/2 a bonus point to the class
 
-::: notes
-**2) If you choose this option, you get everything the class gets plus an additional 5 points just for you.**
+Option 2: 
 
-- If half the class contributes 1/2 point you get all of those PLUS these five points
-
-### Does everybody understand this option?
+- Take the class bonus points PLUS 5 extra
 :::
 
-## Let's play a quick game! {background-image="libs/Images/background-forest_v3.png" .center} 
-
-<br>
-
-- Option 1: Contribute 1/2 a bonus point to the class
-
-- Option 2: Take 5 bonus points for yourself
-
-- **Key RULE: Your choice MUST be made secretly**
-
 ::: notes
-**3) No one is allowed to see your choice, no one will know what you picked.**
-
-- If you break this rule you get nothing.
+This option lets you enjoy everything contributed by those taking Option 1 PLUS I give YOU an additional 5 points
 
 <br>
 
-I want to make this clear, only you and I will ever know the choice you made.
+Let's imagine a class of 20 that splits 10 and 10
 
-- Although, after the game you are welcome to disclose your choice if you want to.
+- The 10 people choosing Option 1 contribute 5 bonus points to EVERYONE in class regardless of the option they chose
 
-<br>
-
-**Is everyone clear on the rules? Any questions before we play?**
+- The 10 people choosing Option 2 get the 5 bonus points from Option 1 PLUS 5 more for choosing Option 2 = 10!
 
 <br>
 
-I will send everyone a link to a Google Form
+**Any questions on option 2?**
+
+<br>
+
+Two notes:
+
+1. Your choice MUST be made secretly
+
+    - No one is allowed to see your choice
+    
+    - If you break this rule you get nothing.
+    
+2. Your choice will remain secret
+
+    - Only you and I will ever know the choice you made
+    
+    - It is entirely up to you after the game to reveal your choice if you want to
+
+<br>
+
+*Send link to Google Form*
+
+- I have just emailed everyone a Google Form to collect your choices
 
 - On the form you have to give your name (so I can record the points) and make your choice.
 
-No talking from this point on!
+- No talking from this point on!
 
 - Go!
 
 <br>
 
-### Before I reveal the results, any guesses as to the outcome?
+**Before I reveal the results, any guesses as to the outcome?**
 
-### - What are you basing your guesses on?
+- **What are you basing your guesses on?**
 :::
 
 
 
-## Let's play a quick game! {background-image="libs/Images/background-forest_v3.png" .center} 
+## Distributing Bonus Points {background-image="libs/Images/background-forest_v3.png" .center} 
 
-<br>
-
-- Option 1: Contribute 1/2 a bonus point to the class
-
-- Option 2: Take 5 bonus points for yourself
-
-- **Key RULE: Your choice MUST be made secretly**
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_1-sharing_pie2.jpg")
+```
 
 ::: notes
 
-*ON BOARD RESULTS (2 columns: Contribute vs Keep)*
+*ON BOARD RESULTS*
+
+- *2 columns: Contribute vs Keep*
 
 <br>
 
 **Ok, what do we learn from these results?**
 
-- **Anything about you as individuals?**
+<br>
 
-- **Anything about the class as a whole?**
+**Do these results tell us anything useful about you as individuals? Why or why not?**
 
-- **Anything about the structure of the game?**
+<br>
+
+**Do these results tell us anything useful about the class as a whole? Why or why not?**
+
+<br>
+
+**Do these results tell us anything useful about the structure of the game? Why or why not?**
 
 <br>
 
@@ -277,15 +313,17 @@ No talking from this point on!
 ::: notes
 Let's start with the first sentence from the Wikipedia entry!
 
-### Somebody take a stab at explaining this in english?
+<br>
+
+**How did our bonus point game illustrate a collective action problem?**
 
 <br>
 
 Often we introduce collective action problems using a Prisoner's Dilemma. 
 
-### Has anybody ever heard of the Prisoner's Dilemma?
+- **Has anybody ever heard of the Prisoner's Dilemma?**
 
-(**SLIDE**)
+- (**SLIDE**)
 :::
 
 
@@ -304,7 +342,9 @@ Two thieves rob a bank and decide to split up in order to make their getaway
 
 The cops catch each of them separately and bring them "downtown" for questioning.
 
-- Both still had their guns with them when captured so are in some trouble / look pretty darn suspicious.
+<br>
+
+Both still had their guns with them when captured so are in some trouble / look pretty darn suspicious.
 
 - e.g. gun possession is good for a couple years in jail
 :::
@@ -319,9 +359,11 @@ Now we introduce the dilemma facing our robbers
 
 - The robbers are placed in separate interrogation rooms.
 
-- Each is made an offer at essentially the same time.
+- Each is made an offer at the same time.
 
-- **The Offer**: The first one to confess to the robbery and agree to testify against the other person goes COMPLETELY free.
+<br>
+
+**The Offer**: The first one to confess to the robbery and agree to testify against the other person goes COMPLETELY free.
 
 <br>
 
@@ -343,7 +385,7 @@ Put yourself in the shoes of one of the robbers.
 
 <br>
 
-+ Confess quickly and go free (maybe)
++ Confess quickly and go free
 
 OR
 
@@ -380,11 +422,11 @@ However, the outcome of this dilemma depends on both the choice YOU make AND the
 
 That means, it's time for some game theory!
 
+- Game Theory is a theoretical approach to analyzing decision-making born from micro-economics.
+
 <br>
 
-Game Theory is a theoretical approach to analyzing decision-making born from micro-economics.
-
-- It primarily focuses on individuals (or groups who make decisions collectively)
+Game theory primarily focuses on individuals (or groups who make decisions collectively)
 
 - It is typically applied to competitive situations wherein outcomes are determined by the actions of all the players
 
@@ -408,9 +450,9 @@ tibble(
   Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
   Defect = c("10 years, Go Free", "6 years, 6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
-  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "8em") |>
   kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
   kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
 ```
@@ -418,7 +460,9 @@ tibble(
 ::: notes
 
 In game theoretic terms this is what we call a non-cooperative game in normal form.
+
 - The four boxes represent the four possible outcomes of the game
+
 - We get to a single box once we know the decision of each player.
 
 <br>
@@ -427,21 +471,23 @@ In game theoretic terms this is what we call a non-cooperative game in normal fo
 
 <br>
 
-### So, in this position what would you do and why?
+**So, in this position what would you do and why?**
 
-+ *Force discussion of each option*
-
-<br>
-
-### What pieces of context would influence how you think about the decision? 
-
-+ (Is the other suspect your best friend or just some guy?)
-+ (How much evidence do the cops already have?)
-+ (Do you already have a record?)
+- *Force discussion of each option*
 
 <br>
 
-**SLIDE**: So, how does game theory help us with this?
+- (Is the other suspect your best friend or just some guy?)
+
+- (How much evidence do the cops already have?)
+
+- (Do you already have a record?)
+
+<br>
+
+**So, what do we think is the most likely outcome for these two prisoners?**
+
+- (Everybody's going to jail!)
 :::
 
 
@@ -456,28 +502,27 @@ tibble(
   Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
   Defect = c("10 years, Go Free", "6 years, 6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
   kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
 ```
 
-<br>
-
-**What is the most likely outcome of the game?**
-
 ::: notes
 
 Game theory is designed to help us analyze social dilemmas like this.
-- Tries to "solve" games like this one by identifying the most likely outcome.
 
 <br>
 
-For example, we expect the players in this game to pick their dominant strategy (if one exists)
+Game Theory Principle 1: We expect the players in this game to pick their dominant strategy (if one exists)
+
 - We define a "dominant strategy" as one that wins for you REGARDLESS of what the other player does.
 
-We also expect the players to finish on an outcome that is Pareto optimal.
+<br>
+
+Game Theory Principle 2: We expect the players to reach an outcome that is Pareto optimal.
+
 - Pareto optimality means no one can improve their final position without making the other person worse off.
 
 <br>
@@ -486,7 +531,9 @@ A good place to start when analyzing these games is to find the Nash Equilibrium
 
 - Approach named for the mathematician John Nash.
 
-- Means thinking about your choice as if you had perfect information.
+<br>
+
+To find the NE imagine what you would do if you had perfect information.
 
 - e.g. You know what the other robber is going to do before he does it!
 
@@ -508,7 +555,41 @@ tibble(
   Cooperate = c("2 years", "Go Free"),
   Defect = c("10 years", "6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
+  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 3, background = "#b3ccff", width = "25em") |>
+  kableExtra::column_spec(column = 4, background = "#b3ccff", width = "25em") |>
+  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+```
+
+::: notes
+
+Let's focus the outcomes on just you alone for a moment
+
+- This version of the table removes the other person's outcomes
+
+- This helps us see that you face four possible outcomes
+
+<br>
+
+**How would you rank these outcomes in terms of most to least preferred?**
+
+:::
+
+
+## The Prisoner's Dilemma {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+```{r}
+tibble(
+  col1 = c("You", ""),
+  col2 = c("Silence", "Confess"),
+  Cooperate = c("2 years", "Go Free"),
+  Defect = c("", "")
+) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3, background = "#b3ccff", width = "25em") |>
@@ -518,43 +599,18 @@ tibble(
 
 ::: notes
 
-Let's focus the outcomes on just you alone for a moment (e.g. remove the other person's outcomes).
+Now, remember I just told you that finding the NE means pretending you have perfect information.
 
 <br>
 
-### Assuming you knew for certain that the other robber would stay silent, what would you do? Would you pick 2 years in jail or to go free? 
+**Assuming you knew for certain that the other robber would stay silent, what would you do?**
 
-- *DISCUSS*
-
-- (**SLIDE**)
-:::
-
-
-## The Prisoner's Dilemma {background-image="libs/Images/background-forest_v3.png" .center}
+- **Would you pick "2 years in jail" or "go free"? Why?**
 
 <br>
 
-```{r}
-tibble(
-  col1 = c("You", ""),
-  col2 = c("Silence", "Confess"),
-  Cooperate = c("2 years", "Go Free"),
-  Defect = c("10 years", "6 years")
-) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
-  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
-  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
-  kableExtra::column_spec(column = 3, background = c("white", "yellow"), width = "25em") |>
-  kableExtra::column_spec(column = 4, background = "white", width = "25em") |>
-  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
-```
-
-::: notes
-Seems pretty easy to say that given a choice between jail and freedom a rational actor will choose freedom.
-
-*Think of your elderly parents and your 16 children all who depend on you to keep them alive!*
+(**SLIDE**)
 :::
-
 
 
 
@@ -566,19 +622,52 @@ Seems pretty easy to say that given a choice between jail and freedom a rational
 tibble(
   col1 = c("You", ""),
   col2 = c("Silence", "Confess"),
-  Cooperate = c("2 years", "Go Free"),
-  Defect = c("10 years", "6 years")
+  Cooperate = c("", "Go Free"),
+  Defect = c("", "")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
-  kableExtra::column_spec(column = 3, background = c("white", "yellow"), width = "25em") |>
+  kableExtra::column_spec(column = 3, background = c("#b3ccff", "yellow"), width = "25em") |>
   kableExtra::column_spec(column = 4, background = "#b3ccff", width = "25em") |>
   kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
 ```
 
 ::: notes
-**Now, reverse it! What if you knew for certain the other robber was going to confess, what would you choose?**
+
+Seems pretty easy to say that given a choice between jail and freedom a rational actor will choose freedom.
+
+- Think of your elderly parents and your 16 children all who depend on you to keep them alive!
+
+:::
+
+
+## The Prisoner's Dilemma {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+```{r}
+tibble(
+  col1 = c("You", ""),
+  col2 = c("Silence", "Confess"),
+  Cooperate = c("", "Go Free"),
+  Defect = c("10 years", "6 years")
+) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
+  kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
+  kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  kableExtra::column_spec(column = 3, background = c("#b3ccff", "yellow"), width = "25em") |>
+  kableExtra::column_spec(column = 4, background = "#b3ccff", width = "25em") |>
+  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+```
+
+::: notes
+
+Now, reverse it! 
+
+<br>
+
+**What if you knew for certain the other robber was going to confess, what would you choose?**
 
 - **In other words, what would you do if you knew they were going to sell your ass out?**
 :::
@@ -592,10 +681,10 @@ tibble(
 tibble(
   col1 = c("You", ""),
   col2 = c("Silence", "Confess"),
-  Cooperate = c("2 years", "Go Free"),
-  Defect = c("10 years", "6 years")
+  Cooperate = c("", "Go Free"),
+  Defect = c("", "6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   #kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
     kableExtra::column_spec(column = 1, bold = TRUE, width = "10em") |>
@@ -610,7 +699,14 @@ Given the choice, I suspect most people choose 6 over 10 years of jail time.
 
 <br>
 
+**So, what does this mean for you in playing the game?**
+
+- **What do we learn from imagining we had perfect information?**
+
+<br>
+
 This shows us that there IS a dominant strategy in this game.
+
 - Regardless of what the other player chooses you reach your preferred outcome by confessing.
 
 <br>
@@ -621,14 +717,12 @@ The dominant strategy in game theory refers to a situation where one player has 
 
 <br>
 
-### Does this make sense?
+**Does this make sense?**
 :::
 
 
 
-## The Prisoner's Dilemma {background-image="libs/Images/background-forest_v3.png" .center}
-
-<br>
+## The Nash Equilibrium {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
 tibble(
@@ -637,40 +731,43 @@ tibble(
   Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
   Defect = c("10 years, Go Free", "6 years, 6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3, background = "white", width = "25em") |>
   kableExtra::column_spec(column = 4, background = c("white", "yellow"), width = "25em") |>
-  kableExtra::kable_styling(font_size = 35, bootstrap_options = "basic")
+  kableExtra::kable_styling(font_size = 28, bootstrap_options = "basic")
 ```
 
+<br>
+
+::: {.fragment}
+"a stable state of a system involving the interaction of different participants, in which no participant can gain by a unilateral change of strategy if the strategies of the others remain unchanged" (Oxford Languages).
+:::
+
 ::: notes
-The logic is mirrored for both subjects.
+The logic is mirrored for both subjects
 
-- If the second robber is certain you will confess, he would also prefer to confess
-    - 6 years is better than 10 years in jail
-
-- And if he knows you will stay silent he would still prefer to confess
-    - Going free beats jail
+- With perfect information the second robber should always prefer confessing to staying silent
 
 <br>
 
-For both players, confessing is the dominant strategy.
+It turns out that confess, confess is the Nash Equilibrium
 
-- Since both dominant strategies lead to only one outcome, that outcome is called the Nash Equilibrium.
-
-- "a stable state of a system involving the interaction of different participants, in which no participant can gain by a unilateral change of strategy if the strategies of the others remain unchanged" (Oxford Languages).
+- For both players, confessing is the dominant strategy and that leads to a single outcome
 
 <br>
 
-In other words, assuming rational actors facing this simultaneous decision we expect both robbers to confess and to stay there no matter what.
-
-### Make sense?
+**REVEAL** definition
 
 <br>
 
-**SLIDE**: Now, back to the definition!
+In this version of the game, no player can make themselves better off by changing their own decision if the other player's decision is fixed
+
+- If you know they are going to stay silent, you should confess and changing that will NOT make you better off
+
+- **Make sense?**
+
 :::
 
 
@@ -681,7 +778,13 @@ In other words, assuming rational actors facing this simultaneous decision we ex
 "A collective action problem or social dilemma is a situation in which all individuals would be better off cooperating but fail to do so because of conflicting interests between individuals that discourage joint action" (Wikipedia 2021).
 
 ::: notes
-**Does everybody now have a better sense of what this definition is talking about?*
+Back to our definition of a collective action problem!
+
+<br>
+
+The PD is one version of a class of games we refer to as collective action problems
+
+- **Does everybody now have a better sense of what this definition is talking about?**
 
 <br>
 
@@ -723,7 +826,9 @@ knitr::include_graphics("libs/Images/07-1-tragedy_of_the_tragedy.png")
 ::: notes
 Hardin's environmental concerns were driven almost entirely by his racism and disdain for the poor.
 
-- I assigned you only the portion relevant to our work, that which describes the pasture thought experiment.
+<br>
+
+I assigned you only the portion relevant to our work, that which describes the pasture thought experiment.
 
 - The rest of the article is scary, but we'll deal with that on Thursday as we explore how inequality complicates environmental problem-solving.
 
@@ -734,19 +839,51 @@ Hardin's environmental concerns were driven almost entirely by his racism and di
 
 
 
+## The Commons {background-image="libs/Images/background-forest_v3.png" .center}
 
-## {background-image="libs/Images/background-forest_v3.png" .center}
+<br>
 
 "...the natural resources and vital life-support services that belong to all humankind rather than to any one country" (Chasek, Downie and Brown 2014).
-
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/07-1-The_Ocean.jpg')
-```
 
 ::: notes
 Here is the definition of a commons as provided by Oran Young.
 
-### What specific resources does this definition refer to?
+<br>
+
+**Name me some "resources" that meet this definition of "the commons"**
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/07-1-The_Ocean.jpg')
+
+knitr::include_graphics('libs/Images/13_1-Deep-sea mining.jpg')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/13_1-atmosphere-layers.jpg')
+```
+:::
+::::
+
+
+
+
+
+::: notes
+
+The Commons: "...the natural resources and vital life-support services that belong to all humankind rather than to any one country" (Chasek, Downie and Brown 2014).
 
 - Think oceans, seabed minerals, Antarctica and the atmosphere.
 
@@ -754,9 +891,9 @@ Here is the definition of a commons as provided by Oran Young.
 
 <br>
 
-Think of this like an Ostrom-style Common Pool Resource that is so large as to make excluding users from it nearly impossible.
+Think of this like an Ostrom-style Common Pool Resource that has no owner or exists outside the sovereignty of any individual state to control
 
-### Any questions on the baseline concept?
+- **Any questions on the baseline concept?**
 :::
 
 
@@ -789,9 +926,11 @@ The tragedy of the commons is typically explained using a story about a pasture.
 ::: notes
 For the sake of this discussion, all of you are ranchers who own herds of cattle.
 
-On this commons you all choose to graze your cattle.
+- On this commons you all choose to graze your cattle.
 
-### Why would you choose to graze your cattle on the commons pasture and not your own land?
+<br>
+
+**Why would you choose to graze your cattle on the commons pasture and not your own land?**
 
 - (maximize benefits by not having to pay to feed them!)
 
@@ -799,9 +938,11 @@ On this commons you all choose to graze your cattle.
 
 So, let's go back to the problematic equivalency from a moment ago.
 
-### Who actually pays to feed your cattle when they feed on the commons?
-- (Everyone)
-- (PLUS the environment and the public)
+- **Who actually pays to feed your cattle when they feed on the commons?**
+
+<br>
+
+- (Everyone pays PLUS the environment pays and the public pays)
 :::
 
 
@@ -836,10 +977,14 @@ Let's put this in the language of simple cost-benefit analysis.
 
 <br>
 
-### What are the benefits of adding a cow to your herd?
+**What are the benefits of adding a cow to your herd?**
+
 - (Milk or meat, reproduction, friendship...)
 
-### What are the costs?
+<br>
+
+**What are the costs?**
+
 - (Feed, care, housing)
 :::
 
@@ -876,17 +1021,21 @@ The hypothetical costs and benefits of adding a cow to your herd is almost perfe
 
 - Add a cow to gain 1 but you also have to pay 1.
 
-### In this instance, should you add a cow to your herd?
+<br>
+
+**In this instance, should you add a cow to your herd?**
+
 - (Probably not in this case)
-    - (Maybe if as your scale increases the costs of adding each additional cow falls?)
+
+- (Maybe if as your scale increases the costs of adding each additional cow falls?)
 
 <br>
 
 Now, what happens to the CBA when we add a cow to the commons?
 
-### How does using the commons to feed your new cow alter your CBA?
+- **How does using the commons to feed your new cow alter your CBA?**
 
-(**SLIDE**)
+- (**SLIDE**)
 :::
 
 
@@ -915,35 +1064,50 @@ knitr::include_graphics('libs/Images/07-1-Cow.webp')
 ::::
 
 ::: notes
-**Why don't the benefits change?**
+**First, why doesn't using the commons change the benefits?**
+
+- (Still your cow!)
 
 <br>
 
-### Explain the 1/x to me in the costs of adding a cow to the commons.
-- (X is the population size)
-    - Costs shared amongst everyone
-    - The commons loses 1, but that cost is divided amongst the owners of the commons e.g. everybody.
+The key difference is in the costs
 
-### Does that make sense?
+- X is the population size
+
+- This says that the costs of feeding your cow is shared amongst everyone
+
+- The commons loses 1, but that cost is divided amongst the owners of the commons e.g. everybody.
+
+<br>
+
+**Does that make sense?**
 
 <br>
 
 Important distinction here: Society pays MOST of the costs of feeding your cattle.
+
 - That means we each pay part of the cost.
 
-### So, if you are the only person around, should you add a cow to the commons?
+<br>
+
+**So, if you are the only person using the commons, should you add a cow?**
+
 - (Takes us back to the previous +1 + -1 = 0.)
 
 <br>
 
 **What happens to the costs you face as the population around you gets bigger?**
+
 - (Your share of the cost shrinks to almost nothing)
-    - The more of us there are, the smaller your individual share.
+
+- The more of us there are, the smaller your individual share.
 
 <br>
 
 ### So, what is the bottom line here? When should you add a cow to your herd?
+
 - (1. When there is a commons to feed it, and)
+
 - (2. When there are a lot of other people also using it.)
 
 <br>
@@ -955,7 +1119,7 @@ Important distinction here: Society pays MOST of the costs of feeding your cattl
 
 
 
-## {background-image="libs/Images/13_2-cow_pasture.png" .center}
+## {background-image="libs/Images/13_1-Destroyed_Field.jpg" .center}
 
 ::: notes
 It's toast in the long-run.
@@ -969,7 +1133,7 @@ And why is that?
 
 
 
-## Why is the commons doomed? {background-image="libs/Images/13_2-cow_pasture_v2.png" .center}
+## Why is the commons doomed? {background-image="libs/Images/13_1-Destroyed_Field_v2.png" .center}
 
 <br>
 
@@ -987,11 +1151,17 @@ And why is that?
 
 *Read criteria*
 
-In essence, Hardin argues the Commons is a PD game and your dominant strategy is to defect every round!
+<br>
+
+In essence, Hardin is arguing the Commons is a PD game and your dominant strategy is to defect every round!
+
+- This is essentially a justification for environmental exploitation
+
+- You may as well do it before someone else destroys the environment
 
 <br>
 
-### Can everybody now see why Ostrom, and many others, reacted so poorly to this argument?
+**Can everybody now see why Ostrom, and many others, reacted so poorly to this argument?**
 
 - Hard to accept humanity is compelled to commit suicide
 
@@ -1006,7 +1176,7 @@ Clearly, the Hardin argument is limited, however, there is something important w
 
 
 
-## Collective Action Problem (I) {background-image="libs/Images/13_2-cow_pasture_v2.png" .center}
+## Collective Action Problem (I) {background-image="libs/Images/13_1-Destroyed_Field_v2.png" .center}
 
 <br>
 
@@ -1050,22 +1220,69 @@ This represents the first kind of collective action problem that makes environme
 
 <br>
 
-### Does this make sense?
+**Does this make sense?**
 
 <br>
 
-Let's talk about addressing this problem using the approaches we've been exploring over the last five weeks.
+*Pair Off*
 
-### What are the pros and cons of using regulations, taxes, subsidies or adaptive governance to address this type of problem?
+- Take a few minutes with the person next to you to examine both of your local environmental problems using this perspective
+
+- The question is, does your problem exhibit this kind of collective action problem?
 
 <br>
 
-### Does one of the approaches stand out more than the others?
+*Report back!*
+
+- Who is working on a problem that looks like this?
+
 :::
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" .center}
+## Collective Action Problem (I) {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+Individual Benefits + Collective Costs = Resource Depletion
+:::
+
+<br>
+
+**What kinds of policy would let us stop or reduce this harmful outcome?**
+
+::: notes
+
+Ok, let's put our policy design hats on
+
+- Work with the people around you and get ready to report back
+
+- **Given the key elements that combine to harm the environment, what can we do to address problems that look like this?**
+
+<br>
+
+- **How do we use policy to change the "Benefits Accrue to the Individual" piece?**
+
+- (Tax the gain?)
+- (Collectivize the use? e.g. everyone owns the herd?)
+- (C&C regulate the use?)
+
+<br>
+
+- **How do we use policy to change the "Costs Imposed on the Collective" piece?**
+
+- (Privatize the commons!)
+
+<br>
+
+**Is adaptive governance the best approach to this kind of problem?**
+
+- **Does everybody see how Ostrom showed us examples of communities around the world overcoming this "tragedy" without having to privatize or use governmental regulations?**
+
+:::
+
+
+
+## Collective Action Problem (II) {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/07-1-logic_col_action.jpg')
@@ -1073,11 +1290,9 @@ knitr::include_graphics('libs/Images/07-1-logic_col_action.jpg')
 
 ::: notes
 
-For today I asked you to also read an excerpt from Mancur Olson's book.
+For today I also asked you to read an excerpt from Mancur Olson's book.
 
-**What did you submit as your analysis of the Olson excerpts?**
-
-- **e.g. What is the biggest obstacle to environmental cooperation according to Olson (1965)?**
+**Per your Canvas submissions, what is the biggest obstacle to environmental cooperation according to Olson (1965)?**
 
 <br>
 
@@ -1097,7 +1312,7 @@ tibble(
   Cooperate = c("2 years, 2 years", "Go Free, 10 years"),
   Defect = c("10 years, Go Free", "6 years, 6 years")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Silence", "Confess"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Suspect" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
@@ -1122,7 +1337,7 @@ tibble(
   Cooperate = c("1 point, 1 point", "5 points, 0 points"),
   Defect = c("0 points, 5 points", "5 points, 5 points")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Contribute", "Take")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Contribute", "Take"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Classmate" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
@@ -1133,16 +1348,23 @@ tibble(
 
 So, here's the game you played against each other person in the class.
 
-### Does this game have a dominant strategy? why or why not?
+<br>
+
+**Does this game have a dominant strategy? why or why not?**
+
+- **If you had perfect information, what would you do?**
+
 - ("Take"!)
-    - BUT this assumes only one other player!
-    
-### Lessons of this version of the game for policy designers?
-- (Individuals who feel disconnected from the community more likely to defect!)
 
 <br>
 
-### How does this table change if you played simultaneously against the rest of your class working together?
+**So, does this mean everyone in class should have "taken" rather than "contributed"? Why or why not?**
+
+- (Built on a huge assumption: This dominant strategy assumes only one other player!)
+
+<br>
+    
+**How does this table change if you updated it to reflect playing with 19 other people?**
 
 - (**SLIDE**)
 :::
@@ -1159,7 +1381,7 @@ tibble(
   Cooperate = c("10 points, 10 points", "14 points, 9 points"),
   Defect = c("0 points, 5 points", "5 points, 5 points")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Contribute", "Take")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Contribute", "Take"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "19 Others" = 2)) |>
   kableExtra::column_spec(column = 1:2, bold = TRUE, width = "10em") |>
   kableExtra::column_spec(column = 3:4, background = "#b3ccff", width = "25em") |>
@@ -1168,33 +1390,37 @@ tibble(
 
 ::: notes
 
-Let's identify the dominant strategies in this version of the game.
+The dominant strategy for a single person thinking only of themselves is to "take."
 
-### If you knew the rest of the class was going to contribute, what should you do?
-- (Take! 14 > 10)
+- If the class contributes then you "take" 14 points instead of 10
 
-### If you knew the rest of the class was going to take, what should you do?
-- (Take! 5 > 0)
-
-So, "take" remains the dominant strategy for you individually.
+- If the class takes then you "take" 5 instead of zero
 
 <br>
 
-Imagine the other 19 are acting together.
+But what about the class acting together?
 
-### If you knew that one individual was going to contribute, what should you do?
-- (Contribute! 10 > 5)
-
-### If you knew that one individual was going to take, what should you do?
-- (Contribute! 9 > 5)
-
-So, "contribute" is the dominant strategy for the group acting united.
+- **Is their dominant strategy to "take"?**
 
 <br>
 
-### So, what is the lesson from this? Why does free-riding happen?
+No! It's to contribute!
 
-- (**SLIDE**)
+- If the individual contributes then you "contribute" to get 10 points instead of 5
+
+- If the individual takes then you "contribute" to get 9 instead of five!
+
+<br>
+
+**So, what is the lesson from this?**
+
+- Individuals who feel disconnected from the community more likely to defect!
+
+- Big gains from acting together
+
+<br>
+
+The key for us as policy designers, and what Olson wants to help you understand, is that we CAN overcome free-riding with good policy design!
 :::
 
 
@@ -1255,39 +1481,81 @@ Think, climate change!
 
 <br>
 
-**Which policy approach addresses this problem "best"?**
+*Pair Off*
 
-- Let's talk about addressing this problem using the approaches we've been exploring over the last five weeks.
+- Take a few minutes with the person next to you to examine both of your local environmental problems using this perspective
 
-<br>
-
-### What are the pros and cons of using regulations, taxes, subsidies or adaptive governance to address this type of problem?
-
-### Does one of the approaches stand out more than the others?
+- The question is, does your problem exhibit this kind of collective action problem?
 
 <br>
 
-### What does Olson teach us about group sizes that helps us think about collective action problems?
+*Report back!*
+
+- Who is working on a problem that looks like this?
+
 :::
 
 
 
-## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
+## Collective Action Problem (II) {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+Individual Costs + Collective Benefits = Free Riding
+:::
 
 <br>
 
-How do collective action problems complicate your efforts to address your specific environmental problem?
+**What kinds of policy would let us stop or reduce this harmful outcome?**
 
 ::: notes
 
-Let's wrap up today by returning to your ongoing projects.
+Ok, let's put our policy design hats on
 
-Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
+- Work with the people around you and get ready to report back
+
+- **Given the key elements that combine to harm the environment, what can we do to address problems that look like this?**
 
 <br>
 
-Alright, let's share!
+- **How do we use policy to change the "Costs Accrue to the Individual" piece?**
+
+- (Subsidize the good behavior?)
+- (Tax the bad behavior?)
+- (C&C regulation to mandate the good behavior / ban the bad?)
+
+<br>
+
+- **How do we use policy to change the "Benefits Accrue to the Collective" piece?**
+
+- ?
+
+<br>
+
+**What does Olson teach us about group sizes that helps us think about overcoming free-riding?**
+
+- (Smaller groups advantaged for stopping free-riding)
+    - Easier to monitor, more social pressure to comply
+    
+- (Large groups need institutional designs to increase compliance)
+    - Membership benefits for paying dues (access to a park, magazine, bumper stickers)
 :::
+
+
+
+## Collective Action Problems {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+1. Individual Benefits + Collective Costs = Resource Depletion
+
+2. Individual Costs + Collective Benefits = Free Riding
+:::
+
+::: notes
+**Any questions on the collective action problems we've been discussing today?**
+:::
+
 
 
 

@@ -11,13 +11,11 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **III. Designing an Environmental Policy**
 
-<br>
-
-Complicating Factors in Environmental Policymaking
-
-- Unequal Voice, Access and Impacts
+- Complications 4: Unequal Voice, Access & Impacts
+:::
 
 <br>
 
@@ -36,7 +34,7 @@ Prep for Class
 
 <br>
 
-- Risk aversion (or risk acceptance)
+- Risk aversion (acceptance)
 
 - Temporal discounting and uncertainty
 
@@ -50,9 +48,13 @@ Prep for Class
 
 Our last section of the class has been designed to encourage you to think about various complications that arise in policy design.
 
-- We have explored stakeholder complications related to probabilities, risk aversion and temporal discounting
+<br>
 
-- We have explored problem complications related to uncertainties like tipping points, nonlinear relationships and irreversibilities
+In terms of analyzing your stakeholders you have to keep in mind that each likely thinks about probabilities, risk aversion and temporal discounting very differently
+
+<br>
+
+In terms of the problem you are working on it is important to keep in mind complications like tipping points, nonlinear relationships and irreversibilities
 
 <br>
 
@@ -75,6 +77,7 @@ On Tuesday we discussed how collective action problems complicate environmental 
 ::: notes
 
 The first type of collective action problem we discussed on Tuesday focused on the Hardin style Tragedy of the Commons dynamics.
+
 - *Read formula on slide*
 
 <br>
@@ -87,19 +90,23 @@ The first type of collective action problem we discussed on Tuesday focused on t
 ## {background-image="libs/Images/13_2-cow_pasture.png" .center}
 
 ::: notes
-**How is a community grazing area an example of this dynamic in action? Tell me the cow story!**
+**How is a community grazing area an example of this dynamic in action?**
+
+- **Tell me the cow story!**
 
 <br>
 
-### - How does the resource use benefit the user?
-- (Free food for my cows!)
+Grazing your cattle on a commons leads to bad outcomes because...
 
-### - How are the costs of use shared by all users?
-- (Everybody pays to feed my cows!)
+- The benefits are entirely yours (add a cow to your herd), and
+
+- The costs are shared with society
 
 <br>
 
-This formula in this example leads to resource depletion and possibly destruction.
+This means there is a strong incentive to increase the size of your herd (benefits outweigh the costs)
+
+- If everyone follows that logic the commons may be destroyed
 
 <br>
 
@@ -114,11 +121,17 @@ This formula in this example leads to resource depletion and possibly destructio
 
 <br>
 
-### - How does the resource use benefit the user?
-- (I need a place to put my pollution!)
+Dumping your pollution into a river commons leads to bad outcomes because...
 
-### - How are the costs of use shared by all users?
-- (Everybody who uses the river pays for my pollution!)
+- The benefits are entirely yours (factory profits are yours), and
+
+- The costs are shared with society (everyone pays for the waste)
+
+<br>
+
+This means there is a strong incentive to increase your production regardless of waste (benefits outweigh the costs)
+
+- If everyone follows that logic the commons may be destroyed
 
 <br>
 
@@ -144,28 +157,38 @@ Again, two simple conditions add together to predict a very dire outcome.
 ::: notes
 **Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
 
-1. More users = More destruction
-    - Number users increases, costs to each user lowers
-    - As cost lowers, likelihood of use increases
-    - You "owned," e.g. expected access to, a vanishingly small share of the resource in the first place
+<br>
 
-2. Benefits of the resource increase, likelihood of use increases
+FIRST, More users = More destruction
+
+- Number users increases, costs to each user lowers
+
+- As cost lowers, likelihood of use increases
+
+- You "owned," e.g. expected access to, a vanishingly small share of the resource in the first place
 
 <br>
 
-### Who here is working on a problem that exhibits these characteristics?
+SECOND, benefits of the resource increase, likelihood of use increases
 
 <br>
 
-### How could we use each of our policy designs to address this kind of problem?
+**Who here had a good example of this dynamic in action with the problem they are working on?**
 
-### - Regulations?
+<br>
 
-### - Taxes?
+**Per our discussions last class, what kinds of policy designs could help us overcome or address this problem?**
 
-### - Subsidies?
+<br>
 
-### - Adaptive governance?
+Lots of options!
+
+- Target the user benefits with higher income taxes?
+- Or make the costs target the individual more with a green tax on waste?
+- Or privatize the commons
+- Or C&C the use of the commons
+- Or adaptive governance!
+
 :::
 
 
@@ -176,26 +199,31 @@ Again, two simple conditions add together to predict a very dire outcome.
 
 **Resource degradation when...**
 
-- Costs of protection paid by the user, and
+- Costs imposed on individuals, and
 
-- Benefits of protection are distributed widely
+- Benefits distributed widely across society
 
 ::: notes
 
 The second type of collective action problem we discussed on Tuesday was born from Mancur Olson's work on how groups function.
+
 - *Read formula on slide*
 
 <br>
 
-### What label does the literature call the users under this dynamic?
+**What label does the literature call the users under this dynamic?**
+
 - (Free riders!)
 
-### What is a free-rider?
+<br>
+
+**What is a free-rider?**
+
 - Someone who enjoys the benefits of other peoples' efforts without contributing to the provision of those benefits
 
 <br>
 
-### How is climate change a good example of the free-rider problem in action?
+**How is climate change a good example of the free-rider problem in action?**
 :::
 
 
@@ -212,9 +240,12 @@ The climate is changing for a multitude of reasons with some of the largest bein
 <br>
 
 To lower our emissions every person would need to pay some of the costs
+
 - e.g. find other ways to commute, warm their homes, buy less fuel intensive foods, fewer plastics, etc.
 
-- Given our current economic set-up, basically EVERY action you take creates emissions or contributes to the creation of emissions
+<br>
+
+Given our current economic set-up, basically EVERY action you take creates emissions or contributes to the creation of emissions
 
 - In the terms of our free-riding definition, the costs of resource protection is borne by the user.
 
@@ -224,7 +255,11 @@ The other side of this coin is that your personal contribution to climate change
 
 - If you stopped all your activities that made climate change worse it would cost you a ton and the climate system would basically be unchanged.
 
-- Even worse, as the more people make these sacrifices on your behalf YOU benefit even if you choose not to help at all!
+<br>
+
+Equally bad is that, in this type of problem, YOU benefit from the sacrifices made by others!
+
+- Even if you choose to do nothing OR to make the problem worse, you get the benefits from others sacrifices
 
 - In the terms of our free-riding definition, the benefits of protection are distributed widely
 
@@ -250,6 +285,10 @@ Climate change is a really tough nut to crack as are all situations that create 
 ::: notes
 **Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
 
+- **Why causes the incentive to free-ride to increase?**
+
+<br>
+
 Free-riding incentives increase as:
 
 1. The size of the group of users increases,
@@ -260,19 +299,21 @@ Free-riding incentives increase as:
 
 <br>
 
-### Who here is working on a problem that exhibits these characteristics or is dealing with free-riders?
+**Who here is working on a problem that exhibits these characteristics or is dealing with free-riders?**
 
 <br>
 
-### How could we use each of our policy designs to address this kind of problem?
+**Per our discussions last class, what kinds of policy designs could help us overcome or address this problem?**
 
-### - Regulations?
+<br>
 
-### - Taxes?
-
-### - Subsidies?
-
-### - Adaptive governance?
+- (Subsidize the good behavior?)
+- (Tax the bad behavior?)
+- (C&C regulation to mandate the good behavior / ban the bad?)
+- (Smaller groups advantaged for stopping free-riding)
+    - Easier to monitor, more social pressure to comply
+- (Large groups need institutional designs to increase compliance)
+    - Membership benefits for paying dues (access to a park, magazine, bumper stickers)
 :::
 
 
@@ -315,7 +356,9 @@ My aim for today is not to apportion blame or simply lament these facts.
 
 Let's start with Mildenberger (2019).
 
-### What is the key conclusion of the argument in this article?
+<br>
+
+**What is the key conclusion of the argument in this article?**
 
 - (**SLIDE**: Captured by the sub-title nicely, no?)
 :::
@@ -407,9 +450,11 @@ Let's quickly step through these premises.
 
 
 
-## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
 **1) Hardin's argument is massively influential**
+:::
 
 <br>
 
@@ -442,11 +487,11 @@ Unfortunately, when professors and other researchers in the social sciences seek
 
 
 
-## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
 **2) Hardin gets the history wrong**
-
-<br>
+:::
 
 ```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("libs/Images/13_2-Pasture_Farming_History.png")
@@ -454,26 +499,37 @@ knitr::include_graphics("libs/Images/13_2-Pasture_Farming_History.png")
 
 ::: notes
 
-Let's talk two quick examples of what history ACTUALLY teaches us about the commons and societal collapse.
+As Mildenberger notes, in 1985 Dr. Susan Cox published an analysis of the law related to the commons systems in the medieval and post-medieval period in England
+
+- Importantly, she found that there was no evidence of Hardin type tragedies in those places
+
+- The bottom line was that the English commons system "succeeded admirably in its time."
 
 <br>
 
-Research article by Dr. Susan Cox in *Environmental Ethics* (1985).
+How did the medieval and post-medieval English avoid the tragedy?
 
-- The medieval and post-medieval commons lands of England did not experience Hardin's tragedy.
+FIRST, the English "commons" severely restricted access
 
-- **The bottom line was the English commons system "succeeded admirably in its time."**
+- "...the English common was not available to the general public but rather only to certain individuals who inherited or were granted the right to use it, and use of the common even by these people was not unregulated."
 
 <br>
 
-1. The English "commons" severely restricted access
-    + "...the English common was not available to the general public but rather only to certain individuals who inherited or were granted the right to use it, and use of the common even by these people was not unregulated."
+SECOND, the English "commons" were heavily regulated
 
-2. The English "commons" were heavily regulated
-    + "The types and in some cases the numbers of animals each tenant could pasture were limited, based at least partly on a recognition of the limited carrying capacity of the land."
-    
-3. The end of the "commons" was politics, not dramatic tragedy
-    + "The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
+- "The types and in some cases the numbers of animals each tenant could pasture were limited, based at least partly on a recognition of the limited carrying capacity of the land."
+
+<br>
+
+THIRD, the end of the "commons" was politics, not dramatic tragedy
+
+- The decline of the commons system" came due to "widespread abuse of the rules governing the commons, land “reforms” chiefly designed to increase the holdings of a few landowners, improved agricultural techniques, and the effects of the industrial revolution."
+
+<br>
+
+The commons was important to survival and so, of course, the society learned to manage them!
+
+- Humans are not suicidal lemmings
 
 <br>
 
@@ -492,20 +548,27 @@ So, if the ToC wasn't evident in the historical commons, what about other societ
 
 ## {background-image="libs/Images/13-1-Anasazi_Mystery.jpg"}
 
+::: {.r-fit-text}
 <p style="color: white;">**The Chaco Anasazi**</p>
+:::
 
 ::: notes
 **Anybody ever heard of the Chaco Anasazi or visited the cliffside pueblos they built?**
 
 <br>
 
-The Chaco Anasazi, meaning the Ancient Ones, had a sizable civilization for some 500 years in the southwest US (from about 600 AD to 1100 AD)
+The Chaco Anasazi
 
-+ San Juan Basin area of New Mexico
+- Name means "the Ancient Ones" so clearly that's a label that we applied later...
+
+- A large and thriving civilization that lasted approximately 500 years in the southwest US
+    - (from about 600 AD to 1100 AD)
+
+- Located in the San Juan Basin area of New Mexico
 
 <br>
 
-They were a flourishing and dynamic society.
+**SLIDE**: They were a thriving and dynamic civilization 
 :::
 
 
@@ -535,13 +598,24 @@ knitr::include_graphics("libs/Images/13-1-turquoise_beads.webp")
 
 Archaelogical evidence has shown us they maintained extensive trade ties across very large distances.
 
-+ Evidence of turquoise beads from across the western US [Link](https://www.livescience.com/44703-turquoise-trade-network-revealed.html)
+<br>
 
-+ This trade network spanned several states: Colorado, Nevada and southeastern California
+Excavataions of Chaco ruins have found jewelry made with turquoise
+
+- The blue dots on the map represent sources of turqoise in this period
+
+- This, and other evidence, indicates that the Chaco Anasazi developed a trade network that spanned several states: Colorado, Nevada and southeastern California
 
 <br>
 
-Some impressive networks built and supported over centuries.
+Quite impressive work for 600 AD, no?
+
+<br>
+
+**Notes**
+
+- Evidence of turquoise beads from across the western US [Link](https://www.livescience.com/44703-turquoise-trade-network-revealed.html)
+
 :::
 
 
@@ -566,7 +640,9 @@ The Anasazi supported a thriving arts and science culture.
 
 ## {background-image="libs/Images/13-1-anasazi2.jpg"}
 
+::: {.r-fit-text}
 <p style="color: white;">**Why did the Anasazi disappear?**</p>
+:::
 
 ::: notes
 
@@ -584,24 +660,31 @@ They lived in a place, the US Southwest, whose environment was already somewhat 
 
 <br>
 
-Hardin's model predicts that in these circumstances the Anasazi people will accelerate their downfall!
+Hardin's model predicts that in these circumstances the Anasazi people ARE COMPELLED to accelerate their downfall!
+
+- Cut down that tree before someone else does!
+
+- Use up that water before your neighbor can get to it!
 
 - Race to the tragedy, baby!
 
 <br>
 
-**SLIDE**: But Hardin gets the history wrong!
+**SLIDE**: But, once again, Hardin gets the history wrong!
 :::
 
 
 
 ## {background-image="libs/Images/13-1-anasazi2.jpg"}
 
+::: {.r-fit-text}
 <p style="color: white;">**2) Hardin gets the history wrong**</p>
+:::
 
 ::: notes
 
-The Anasazi appear to have tried a ton of policies to adapt and grow
+Extensive evidence shows that the tried a ton of policies to adapt to the changing climate
+
 - They dammed rivers to promote agriculture,
 
 - They utilized their extensive trade ties to acquire what they needed,
@@ -610,19 +693,9 @@ The Anasazi appear to have tried a ton of policies to adapt and grow
 
 <br>
 
-The problem was the prolonged drought
+The problem was not a suicidal urge to embrace collective action problems, it was the prolonged drought
 
 - Eventually they hit the limits of their technology and they were screwed.
-
-<br>
-
-The lessons of their collapse?
-
-1. Never just one thing that wipes out a society,
-
-2. Historical record does not show us as suicidal lemmings!
-    - The idea that humans are compelled to race to the end because it is the end is not evident in the historical record.
-    - May not be able to anticipate when conditions will change
 
 <br>
 
@@ -632,18 +705,19 @@ Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on
 
 - Dare I say it, a political one?
 
-- So, Hardin got the history wrong!
-
 <br>
 
-**SLIDE**: Premise 3, Hardin gets the science wrong
+So, Hardin clearly gets the history wrong
+
 :::
 
 
 
 ## {background-image="libs/Images/07-1-interrogation.png"}
 
+::: {.r-fit-text}
 <p style="color: white;">**3) Hardin gets the science wrong**</p>
+:::
 
 <br>
 
@@ -657,19 +731,31 @@ Contra Hardin, the lesson is **NOT** that humans are compelled to double-down on
 
 <br>
 
-<br>
-
+::: {.r-fit-text}
 <p style="color: white;">**Hardin's "Science":**</p>
 
 <p style="color: white;">**Human reproduction is a "Tragedy of the Commons"**</p>
+:::
 
 ::: notes
 
-According to Hardin, the "tragedy" justifying his racism, nativism and islamaphobia is rooted in humans being allowed to decide for themselves whether or not to reproduce.
+Unfortunately for Hardin, he also gets the science wrong!
 
-- In short, Hardin asks us to think of the decision to reproduce as a one-shot Prisoner's Dilemma.
+<br>
 
-- Each player is compelled to defect, e.g. add kids to the Earth, because that is our dominant strategy.
+The real purpose of Hardin's article is not to discuss collective action problems in general.
+
+- His purpose was convince the developed world that human suffering and environmental damage were the creation of us letting poor countries have too many babies.
+
+- Hence Mildenberger's subtitle accusing Hardin of racism, nativism and islamaphobia
+
+<br>
+
+Hardin's article presents the decision to reproduce as a one-shot Prisoner's Dilemma
+
+- In this limited version of the model he argues that the dominant strategy is to defect
+
+- In human terms this means the dominant strategy is to have a baby
 
 <br>
 
@@ -689,7 +775,7 @@ tibble(
   Cooperate = c("No pay, no gain", "They pay, you gain"),
   Defect = c("You pay, no gain", "You pay, you gain")
 ) |>
-  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "No Kids", "Have Kids")) |>
+  kableExtra::kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "No Kids", "Have Kids"), table.attr = "quarto-disable-processing=true") |>
   kableExtra::add_header_above(c(" " = 2, "Other Parents" = 2)) |>
   kableExtra::column_spec(column = 1, bold = TRUE, width = "8em") |>
   kableExtra::column_spec(column = 2, bold = TRUE, width = "15em") |>
@@ -701,29 +787,41 @@ tibble(
 ::: notes
 Here I have set up the table focused just on what you experience in each outcome.
 
-<br>
+- When Hardin refers to the "costs" of having kids he means the costs imposed on society of things like building and running schools and day cares, using environmental resources more quickly, etc.
 
-This table assumes that:
-- Having children provides parents with some kind of "gain" (happiness, support in old age, extra hands on the farm, etc.)
-
-- Adding children to a community increases the costs to that community (e.g. build and run schools and daycares, use nvironmental resources more quickly, etc.)
-
-### Do these outcomes make sense?
+- When Hardin refers to the "benefits" of having kids he means the things parents get like happiness, support in old age, extra hands on the farm, etc.
 
 <br>
 
-### Why is having kids the dominant strategy in this table?
-- If they don't have kids, you should (They pay > You pay and You gain > No gain)
+So, the four outcomes per Hardin are:
 
-- If they do have kids you pay either way but at least having kids nets you a gain!
+- If everyone decides not to have kids then no one pays the costs of caring for them and no one benefits from them
+
+- If you have kids and others don't then society pays some of the costs to raise them and you benefit from having kids
+
+- If others have kids and you do not, then you pay to support their kids and receive no benefits
+
+- If everyone chooses to have kids, then everyone pays some costs and everyone benefits
+
+<br>
+
+**What is the Nash Equilibrium here?**
+
+- **Is there a dominant strategy in this game?**
+
+<br>
+
+Everybody MUST have kids
+
+- If others don't then you should (share the costs, keep the benefits)
+
+- If others do then you should too (share the costs, get some benefits)
 
 - SO, having kids is dominant strategy
 
 <br>
 
-**Any problems with this model of the human reproduction decision?**
-
-- **Are you convinced reproduction is a tragedy of the commons?**
+**Why is this a batcrap insane model of human reproduction?**
 
 1. Model assumes ZERO net benefit from adding kids to your community!
 
@@ -779,11 +877,8 @@ Rather than just telling an angry story about death and destruction, Ostrom went
 
 ### So, Hardin's model includes borderline insane assumptions about parents, so why make them?
 
-- (Because you're trying to justify a racism!)
+- (**SLIDE**: Because you're trying to justify a racism!)
 
-<br>
-
-**SLIDE**: Lifeboat ethics
 :::
 
 
@@ -804,72 +899,96 @@ Rather than just telling an angry story about death and destruction, Ostrom went
 
 <br>
 
-<br>
-
+::: {.r-fit-text}
 **4) Hardin gets the morality wrong**
+:::
 
 ::: notes
 
-Here we come to the final premises in Mildenberger's argument.
+Hardin's real argument is that we must embrace the ethics of a lifeboat
 
-- P4) Hardin gets the morality wrong
+- In his metaphor each country in the world is a lifeboat floating in the sea, and
 
-<br>
-
-Hardin argues we must embrace the ethics of a lifeboat!
-
-- each "rich" country in the world is a lifeboat,
-
-- each poor country is an over-flowing lifeboat, and
-
-- emigration is a continuous process where "the poor fall out of their lifeboats and swim for a while in the water outside, hoping to be admitted to a rich lifeboat or in some other way to benefit from the 'goodies' on our rich lifeboats
-
-- If a lifeboat chooses to admit these poor swimmers they will swamp your boat and you'll all die.
+- Poor countries are lifeboats overflowing with people
 
 <br>
 
-In policy terms, Hardin argues the rich world should:
+Sometimes bad things happen to countries (wars, natural disasters, famines, etc) and people fall out of their lifeboats
 
-- Control the right to reproduction to prevent us from filling up our lifeboat,
+- Rich lifeboats prepare for bad times and can preserve and protect their people (get them back into the lifeboat), but poor countries do not prepare
 
-- seal our borders to protect our lifeboat,
-
-- Let poor countries wipe themselves out if they make bad choices, and
-
-- Ignore suffering in the developing world as punishment for accepting bad governments that do not appropriately prepare for disasters.
+- So, and I quote, "the poor fall out of their lifeboats and swim for a while in the water outside, hoping to be admitted to a rich lifeboat or in some other way to benefit from the 'goodies' on our rich lifeboats"
 
 <br>
 
-### How does Mildenberger argue that this gets the morality wrong?
-- (Environmental sustainability cannot exist without environmental justice.)
+Is Hardin ok with us helping the poor people before they drown?
 
-- You cannot morally build a sustainable world on the backs of suffering by other people
+- Good lord, no!
+
+- If the rich lifeboat decides to help the drowning people bad things will happen (e.g. the rich lifeboat can get swamped and everyone dies)
+
+<br>
+
+**SLIDE**: Hardin's policy proscriptions
+
 :::
 
 
 
-## Lifeboat Ethics {background-image="libs/Images/13-1-lifeboat_v2.png"}
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**4) Hardin gets the morality wrong**
+:::
 
 <br>
 
-<br>
+Hardin's policy argument is for the "rich" world to:
 
-<br>
+::: {.incremental}
 
-<br>
+1. Control the right to reproduction (don't fill your lifeboat)
 
-<br>
+2. Seal our borders against immigration (protect your lifeboat)
 
-<br>
+3. Accept human suffering in the poor world as a signal to the poor to push for better governments
 
-<br>
-
-<br>
-
-**5) Hardin's model makes addressing climate change harder**
+:::
 
 ::: notes
-**And finally, why does Mildenberger argue climate change is not a tragedy of the commons?**
+
+In policy terms, Hardin's "Tragedy" is an argument that rich world MUST:
+
+- **REVEAL** each
+
+<br>
+
+**So, what do we think of Hardin's metaphor?**
+
+- *Encourage this discussion*
+
+<br>
+
+- **Does this sound like anything we hear in our politics today?**
+
+<br>
+
+- **Are there any merits to this model?**
+
+:::
+
+
+
+## {background-image="libs/Images/13_2-Climate_Cartoon_v3.png"}
+
+::: {.r-fit-text}
+**5) Hardin makes addressing climate change harder**
+:::
+
+::: notes
+**And finally, how does Mildenberger argue that Hardin's model gets climate change wrong?**
+
+<br>
 
 Addressing climate change requires a different focus of action (contra-Hardin) 
 
@@ -880,11 +999,12 @@ Addressing climate change requires a different focus of action (contra-Hardin)
 - Pressuring individuals to change their behavior is counterproductive because "interest groups have structured the choices available to us today."
 
 - "The climate movement needs more people on this lifeboat, not fewer. We must make room for every human if we are going to build the political power necessary to face down the looming oil tankers and coal barges that send heavy waves in our direction."
+
 :::
 
 
 
-## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png"}
+## Mildenberger (2019) {background-image="libs/Images/background-forest_v3.png" .center}
 
 1. Hardin's argument is massively influential
 
@@ -899,43 +1019,35 @@ Addressing climate change requires a different focus of action (contra-Hardin)
 Therefore, "[to] create a just and vibrant climate future, we need to ... cast Hardin and his flawed metaphor overboard."
 
 ::: notes
-**First, are you persuaded by Mildenberger's argument? Why or why not?**
 
-- **Has ToC thinking made addressing climate change harder for us today? Why or why not?**
+**Split class into small groups (4-ish)**
 
-<br>
+Groups, I want you to discuss Mildenberger's argument and get ready to report back your answer to a big question:
 
-### Second, as policy designers should we stop teaching/using ToC as a model of environmental problems? Why or why not?
-
-<br>
-
-### Finally, are you persuaded by Mildenberger's suggested reframing of climate change? e.g. we need MORE people in the lifeboat!
+- **Because of the serious problems highlighted by Mildenberger, should we stop teaching Hardin's "Tragedy of the Commons" in classes that focus on environmental problems and policy-making?**
 
 <br>
 
-**SLIDE**: And it turns out, that's not all in our story about the roots of modern environmentalism being problematic!
+*REPORT back and DISCUSS*
+
+<br>
+
+**What are the strongest parts of Mildenberger's argument?**
+
+<br>
+
+**What are the weakest parts?**
+
+<br>
+
+**Do you buy that ToC thinking made addressing climate change harder for us today? Why or why not?**
+
+<br>
+
+So, that's the problematic legacy of the ToC
+
+- **SLIDE**: Let's move to the Kashwan article to see other evidence of problems in our institutions
 :::
-
-
-
-## {background-image="libs/Images/08-1-kashwan.png" background-size='90%'}
-
-::: notes
-
-Let's now jump to the Kashwan (2020) article.
-
-### What is the central conclusion in Kashwan's (2020) argument?
-
-- (**SLIDE**)
-
-<br>
-
-<br>
-
-Kashwan, P. (2020, September 2). American environmentalism’s racist roots have shaped global thinking about conservation. *The Conversation*.
-:::
-
-
 
 
 ## {background-image="libs/Images/background-forest_v3.png"}
@@ -947,24 +1059,75 @@ knitr::include_graphics("libs/Images/08-1-kashwan.png")
 ```
 
 ::: notes
-**What are the "roots" being discussed here?**
-- "Americans increasingly are recognizing how racist ideas have influenced virtually every sphere of life in this country."
-- Sierra Club grappling with racist views of founder John Muir
-- Audubon Society grappling with racist views of founder John James Audubon
-- Pres Teddy Roosevelt's actions perpetuate a racist myth that trophy hunting protects wildlife, BUT actually "reinforce exploitative models of conservation by removing local communities from lands set aside as hunting reserves."
-- Aldo Leopold and many others argued that "overpopulation is the root cause of environmental problems" primarily overpopulation by "less-developed nations with large populations"
+
+*Groups!*
+
+Ok, groups, let's shift our focus to the Kashwan article and get ready to report back your summary of this argument
+
+- **What is Kashwan trying to convince us is needed for environmental problem-solving going forward?**
 
 <br>
 
-### And how have these roots actually "impacted global conservation practices"?
+*REPORT back and DISCUSS*
 
-- "Most notably, they are embedded in longstanding prejudices against local communities and a focus on protecting pristine wildernesses. This dominant narrative pays little thought to indigenous and other poor people who rely on these lands – even when they are its most effective stewards"
+<br>
+
+**Which specific environmental groups were founded on some deeply troubling ideas?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='left'}
+knitr::include_graphics("libs/Images/13_2-sierra-club-logo.jpg")
+
+knitr::include_graphics("libs/Images/13_2-Audubon_logo_v2.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.align='right'}
+knitr::include_graphics("libs/Images/13_2-teddy_roosevelt_elephant_v2.png")
+
+knitr::include_graphics("libs/Images/13_2-leopold-lede_v2.png")
+```
+:::
+::::
+
+::: notes
+
+- Sierra Club grappling with racist views of founder John Muir
+
+- Audubon Society grappling with racist views of founder John James Audubon
+
+- President Teddy Roosevelt launched and bolstered America's efforts to develop and protect national parks BUT his actions perpetuate a racist myth that trophy hunting protects wildlife
+    - Trophy hunting "reinforce exploitative models of conservation by removing local communities from lands set aside as hunting reserves."
+
+- Aldo Leopold, considered by many to be the father of wildlife ecology and modern conservation, argued that "overpopulation is the root cause of environmental problems" primarily overpopulation by "less-developed nations with large populations"
+
+<br>
+
+According to Kashwan these aren't just outdated views held by long dead people
+
+- **How have these "racist roots" actually "impacted global conservation practices"?**
+
+<br>
+
+"Most notably, they are embedded in longstanding prejudices against local communities and a focus on protecting pristine wildernesses. This dominant narrative pays little thought to indigenous and other poor people who rely on these lands – even when they are its most effective stewards"
+
 - BUT, it's the lifestyles of the rich with a disproportionate negative impact on the environment!
+
 - Too much modern conservation focuses on building fortresses (national parks) to the exclusion of native/indigenous peoples
 
 <br>
 
-### And, according to Kashwan, what would a "socially just nature conservation" look like?
+**And, according to Kashwan, what would a "socially just nature conservation" look like?**
 
 - Condition 1: Indigenous and rural communities have concrete stakes in protecting those resources, and 
 
@@ -972,16 +1135,20 @@ knitr::include_graphics("libs/Images/08-1-kashwan.png")
 
 <br>
 
-### Are you persuaded by Kashwan's arguments? Do our modern organizations have a problem that needs to be addressed? Why or why not?
+**Are you persuaded by Kashwan's arguments? Do our modern organizations have a problem that needs to be addressed? Why or why not?**
 
 <br>
 
-### - Should the Sierra Club diasavow John Muir? Should the Audubon Society change its name?
+**Should the Sierra Club diasavow John Muir? Should the Audubon Society change its name?**
 :::
 
 
 
-## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Map_Cover.png"  background-size='65%'}
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/background-forest_v3.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Bullard_Map_Cover.png")
+```
 
 ::: notes
 
@@ -1004,7 +1171,11 @@ Enough hypotheticals, let's talk about what the empirical data shows.
 
 
 
-## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_3_1.png"  background-size='65%'}
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/background-forest_v3.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Bullard_Table_3_1.png")
+```
 
 ::: notes
 
@@ -1014,8 +1185,11 @@ Here we see a tabular summary of the average data in 1990.
 :::
 
 
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/background-forest_v3.png"}
 
-## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_3_1_2.png"  background-size='65%'}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Bullard_Table_3_1_2.png")
+```
 
 ::: notes
 
@@ -1036,12 +1210,15 @@ These results are consistent even when including up to 3km away as "close".
 :::
 
 
+## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/background-forest_v3.png"}
 
-## Bullard, Mohai, Saha & Wright (2007) {background-image="libs/Images/13_2-Bullard_Table_4_1.png"  background-size='55%'}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Bullard_Table_4_1_v2.png")
+```
 
 ::: notes
 
-### What do we learn from their updated data in 2000? Are things getting better?
+**What do we learn from their updated data in 2000? Are things getting better?**
 
 - "Overall, Table 4.1 shows that the magnitude of racial and socioeconomic disparities did not change appreciably between 1990 and 2000. It is notable, however, that during the 1990s the percentages of people of color increased in the United States such that people of color now comprise a majority of the population living near the nation’s commercial hazardous waste facilities" (54).
 
@@ -1053,17 +1230,14 @@ The report goes on to break down these differences across EPA regions and states
 
 <br>
 
-So, that takes us a to a fairly large question for any policy design.
-
-### Bottom line, given the bad history and the bad present distribution of environmental costs, should environmental justice be a key organizing principle in ALL policy designs? Why or why not?
+**SLIDE**: More recent research continues to make these points
 
 <br>
 
-<br>
+**Notes**
 
-<br>
+Bullard et al 2007 ch 4
 
-#### Bullard et al 2007 ch 4
 - Updates analysis in chapter 3 using more up-to-date data (2007 EPA and 2000 census)
 - Five questions on p49
 1. What is the current extent of racial and socioeconomic disparities in the location of the nation’s commercial hazardous waste facilities?
@@ -1087,19 +1261,140 @@ So, that takes us a to a fairly large question for any policy design.
 
 
 
+## Kerr et al (2024) {background-image="libs/Images/background-forest_v3.png"}
 
-## Complicating Factors to Consider When Designing Your Policy {background-image="libs/Images/background-forest_v3.png" .center}
+**Increasing Racial and Ethnic Disparities in Ambient Air Pollution-Attributable Morbidity and Mortality in the United States**
 
-<br>
-
-How does inequality (unequal voice, access and impact)  complicate your efforts to address your specific environmental problem?
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Kerr2024-Fig2.jpg")
+```
 
 ::: notes
 
-Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
+Research published in 2024 in Environmental Health Perspectives shows that the US continues to make serious progress in improving air quality and that those improvements have translated into better health outcomes!
+
+- On the left, premature deaths due to PM2.5
+    - You can see the many ways breathing PM can kill you!
+    
+- On the right, pediatric asthma cases attributable to nitrogen dioxide
 
 <br>
 
-Alright, let's share!
+
+**SLIDE**: HOWEVER, not everyone gets the same benefits!
 :::
 
+
+## Kerr et al (2024) {background-image="libs/Images/background-forest_v3.png"}
+
+**Increasing Racial and Ethnic Disparities in Ambient Air Pollution-Attributable Morbidity and Mortality in the United States**
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Kerr2024-Fig5.jpg")
+```
+
+::: notes
+
+- The top row here focuses on new asthma cases attributable to NO2 comparing the most to the least white census tracts in the country
+
+- The bottom row focuses on deaths attributable to particulate matter in the air
+
+- The orange dots are the most white areas and the blue dots are the least white
+
+- The line plots at bottom are the ratios across sub-groups
+    - A value of 1 means the risks are equal across the groups
+
+<br>
+
+The good news is that our air quality is improving and that is being born out in better health outcomes!
+
+- The bad news is that the racial gap remains quite large!
+
+<br>
+
+**SLIDE**: And our current policy tools are struggling to address this gap
+:::
+
+
+
+## Donoghoe and Perry (2024) {background-image="libs/Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**US Civil Rights Tools Are Failing the Most Polluted Black Communities**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-LA_Cancer_Alley.jpg")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Cancer_Alley_March.jpg")
+```
+:::
+::::
+
+::: notes
+
+I can't go a couple of days without new examples of a need for environmental justice popping up in the news
+
+<br>
+
+A long persistent problem is the aptly named "cancer alley" that runs along the Mississippi river in Louisiana.
+
+- Along this 85-mile stretch along the Mississippi River in Louisiana Black residents have long faced higher rates of death and morbidity due to polluted and toxic environments.
+
+
+<br> 
+
+The EPA has recently closed down an investigation into this problem that, according to reporting, was about to conclude that Louisana had failed in its duty to protect these residents and the state would be liable for the harms.
+
+- Why? Louisiana Attorney General Jeff Landry (R), also a gubernatorial candidate, has fought the effort with a federal lawsuit claiming the EPA overstepped its authority
+
+- The Biden administration ended the investigation, possibly to protect other ongoing investigations, and is now pursuing alternative avenues for helping the residents...
+
+<br>
+
+There's a lot of complexity to this case but the long and short of it is that currently there are more votes in shutting down environmental justice actions than in protecting vulnerable black populations in Louisiana.
+
+:::
+
+
+
+## Complicating Factors in Environmental Policy-making {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+Given the problematic history, the unequal present harms and the political challenges, should environmental justice be a central piece of your problem-framing? Why or why not?
+
+::: notes
+
+I want to end today with this big question.
+
+- Given all that we've discussed today, what role should environmental justice play in your problem-solving?
+
+- Is it a key element or a dangerous distraction that will only make problem-solving harder?
+
+:::
+
+
+## For Next Class {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Fusion Day Prep**
+
+- Prepare an "elevator pitch" for your project
+
+::: notes
+Next class we'll talk Fusion Day activities, talk posters and practice our elevator pitches
+
+- Give some thought to your pitch!
+
+- Everyone should have a two minute version of their project!
+:::
