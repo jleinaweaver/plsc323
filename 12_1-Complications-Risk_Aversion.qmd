@@ -315,11 +315,11 @@ Ok, let's test your intuition!
 #   #heads = c()
 # )
 
-## SP23 Results
+## SP24 Results
 #library(tidyverse)
 
 d <- tibble(
- heads = c(6, 6, 4, 2, 5, 4, 4, 7, 5, 6, 7, 8, 1, 7, 6, 6, 5, 2),
+ heads = c(4, 7, 3, 3, 4, 7, 4, 5, 9, 6, 4, 6, 5, 3, 5, 6, 7, 6),
  tails = 0
 )
 
@@ -334,6 +334,12 @@ p1 <- ggplot(data = d, aes(x = heads)) +
   theme_minimal()
 
 p1
+
+## SP23 Results
+# d <- tibble(
+#  heads = c(6, 6, 4, 2, 5, 4, 4, 7, 5, 6, 7, 8, 1, 7, 6, 6, 5, 2),
+#  tails = 0
+# )
 
 # SP22 Results
 # d <- tibble(
@@ -549,7 +555,7 @@ You and your date arrive at the fair and see this game where heads pays you $100
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("County Fair Game (Spring 2024).csv") |>
+d <- read_csv("12-1-County Fair Game (Spring 2024).csv") |>
   select(name = `Name?`,
          choice5 = `Flip a fair coin: Heads pays you $5, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`,
          choice100 = `Flip a fair coin: Heads pays you $100, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`)

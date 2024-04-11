@@ -1362,6 +1362,41 @@ The EPA has recently closed down an investigation into this problem that, accord
 
 There's a lot of complexity to this case but the long and short of it is that currently there are more votes in shutting down environmental justice actions than in protecting vulnerable black populations in Louisiana.
 
+<br>
+
+**SLIDE**: And that was the state of things until about a week ago the administration acted!
+
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-New_EPA_Rule_Cancer_Alley.png")
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-New_EPA_Rule_Cancer_Alley2.png")
+```
+:::
+::::
+
+::: notes
+
+Rather than getting bogged down in a fight with Lousiana's state government, update the EPA rules for chemical factory pollution!
+
+- Its been 20 years since the last update
+
+- Now they are putting in place rules that will reduce chemical factory pollution across the country
+
 :::
 
 
