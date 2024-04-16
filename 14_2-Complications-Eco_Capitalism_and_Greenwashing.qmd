@@ -11,13 +11,11 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
 **III. Designing an Environmental Policy**
 
-<br>
-
-Complicating Factors in Environmental Policymaking
-
-- Greenwashing and Eco-Capitalism
+- Complications 5: Greenwashing & Eco-Capitalism
+:::
 
 <br>
 
@@ -64,7 +62,7 @@ I want to keep drawing your eyes back to the prompt for our final paper.
 
 <br>
 
-- Risk aversion (or risk acceptance)
+- Risk aversion (acceptance)
 
 - Temporal discounting and uncertainty
 
@@ -92,28 +90,37 @@ Remember, our work exploring complications is meant to:
 :::
 
 
-
-## Greenwashing and Eco-Capitalism {background-image="libs/Images/background-forest_v3.png" .center}
-
-<br>
+## Peter Dauvergne {background-image="libs/Images/background-forest_v3.png" .center}
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="30%"}
 ```{r}
-knitr::include_graphics('libs/Images/13-1-Dauvergne_cover.jpg')
+knitr::include_graphics('libs/Images/13-1-Peter_Dauvergne_v2.png')
 ```
 :::
 
-::: {.column width="50%"}
+::: {.column width="70%"}
+
+<br>
+
 ```{r}
-knitr::include_graphics('libs/Images/13-1-Peter_Dauvergne.jpg')
+knitr::include_graphics('libs/Images/14_2-Dauvergne_Bio.png')
 ```
+
 :::
 ::::
 
 ::: notes
 
-Today I'd like us to dig into some of the big ideas raised by Peter Dauvergne in his book, Environmentalism of the Rich.
+Dr. Dauvergne has published EXTENSIVELY in this research area
+
+- A very engaging writer
+
+- I always enjoy reading his stuff (even if it is crushingly depressing)
+
+<br>
+
+Today I'd like us to dig into some of the big ideas raised by his book, Environmentalism of the Rich.
 
 <br>
 
@@ -130,23 +137,15 @@ The book has been designed to help us think critically about environmentalism.
 <br>
 
 **SLIDE**: Let's start with the key thesis of the book
-:::
 
+:::
 
 
 ## Greenwashing and Eco-Capitalism {background-image="libs/Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="30%"}
-```{r}
-knitr::include_graphics('libs/Images/13-1-Dauvergne_cover.jpg')
-```
-:::
+<br>
 
-::: {.column width="70%"}
 ...over the past two decades the pendulum of environmentalism has **swung too far toward cooperation and reconciliation with the institutions of capitalism**, and to make more of a global difference the mainstream of the environmental movement **needs to pursue more transformative, ecological and justice-oriented goals** (9).
-:::
-::::
 
 ::: notes
 
@@ -156,17 +155,23 @@ Chapter 1 gives us Dauvergne's key conclusion
 
 <br>
 
-### What do we learn just from this quote about how Dauvergne frames the key concepts in his book?
+**What do we learn just from this quote about how Dauvergne frames the key concepts in his book?**
 
-### - In other words, what do you learn about this analyst from this conclusion (e.g. defining the problem, the environmental movement and its goals)?
+- **In other words, what do you learn about this analyst from this conclusion (e.g. defining the problem, the environmental movement and its goals)?**
 
-- Fundamentally, Dauvergne is interested in evaluating whether or not the environmental movement is successfully pushing society toward sustainability or not.
+<br>
 
-- His definition of sustainability appears to include much more than economic efficiency
+Fundamentally, Dauvergne is interested in evaluating if the environmental movement has been successful or not
 
 - The "movement" seems to be a very broad brush aggregation of all groups doing this kind of work
 
-- ?
+<br>
+
+By "success" he focuses on sustainability
+
+- However, his definition of sustainability appears to include much more than economic efficiency
+
+- It is used to describe the ability of an entire society to exist indefinitely
 
 <br>
 
@@ -185,22 +190,32 @@ A sizable claim that Dauvergne makes early, and often, in the book is that for t
 
 <br>
 
-In very broad strokes let's clarify the concepts here.
-
-### What kinds of processes does "globalization" typically refer to?
-- Intensely contested concept
-- Growing connections between states and people around the world often in terms of trade, exchange, travel and/or communication
+Let's clarify the concepts here.
 
 <br>
 
-### And what kinds of processes does "imperialism" refer to?
+**When you've heard the word 'globalization' in the past, what was it referring to?**
+
+- (Growing connections between states and people around the world often in terms of trade, exchange, travel and/or communication)
+
+- Intensely contested concept
+
+<br>
+
+**When you've heard the word 'imperialism' in the past, what was it referring to?**
+
 - Think colonialism but without requiring direct physical control
+
 - a policy of extending a country's power and influence through diplomacy or military force (Oxford Languages).
+
 - Imperialism is the state policy, practice, or advocacy of extending power and dominion, especially by direct territorial acquisition or by gaining political and economic control of other territories and peoples (Britannica).
 
 <br>
 
-### So, what is the argument here? What does it mean to equate these two mechanisms?
+Put these together for me
+
+- **What is the argument here? What does it mean to equate these two mechanisms?**
+
 - (**SLIDE**)
 :::
 
@@ -208,9 +223,11 @@ In very broad strokes let's clarify the concepts here.
 
 
 
-## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+::: {.r-fit-text}
+**1. Globalisation is imperialism by another name**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-Colombia-FTA-Protest.png')
@@ -218,13 +235,16 @@ knitr::include_graphics('libs/Images/14_2-Colombia-FTA-Protest.png')
 
 ::: notes
 
-Basically, Dauvergne is arguing that European imperialism was violent and exploitative, but so is globalization!
+European imperialism was violent and exploitative harming communities and environments around the world
 
-- Whether by means of invasion, economic coercion or encouraging a country to accept the "rules" of "free trade," all result in exploitation of the developing world.
+<br>
+
+Per Dauvergne, globalization is equally as destructive because it is fundamentally a process of forcing everyone to play by the "rules" of trade created by, and for the benefit of, the rich
 
 <br>
 
 You want to engage in world trade? 
+
 - Adopt our rules!
 
 - Allow capital to flow in and out of your country more easily
@@ -233,14 +253,24 @@ You want to engage in world trade?
 
 <br>
 
+You want to protect your citizens?
+
+- Sure, just make sure you prioritize investors needs first or else
+
+- Economic coercion (follow our rules or suffer)
+
+<br>
+
 **SLIDE**: Let's consider some evidence!
 :::
 
 
 
-## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+::: {.r-fit-text}
+**1. Globalisation is imperialism by another name**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-developing_states_trade.png')
@@ -261,9 +291,11 @@ The United Nations Conference on Trade and Development (UNCTAD) is an intergover
 
 
 
-## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
+::: {.r-fit-text}
+**1. Globalisation is imperialism by another name**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_2-debt_to_GNI_Ratios2010_2021.png')
@@ -290,15 +322,53 @@ What I hope is clear here is that most dots are above the line.
 <br>
 
 So, developing countries are engaging in more and more international trade AND increasing their debt burdens at the same time!
+
+- Globalization appears to be making them poorer...
 :::
 
 
 
-## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
+## {background-image="libs/Images/14_2-Nauru_Beach.webp"}
 
-**The Exploitation of Nauru**
+::: {.r-fit-text}
+<p style="color: white;">**The Exploitation of Nauru**</p>
+:::
+
+::: notes
+
+Dauvergne steps us through the tragic story of Nauru as a case study for exploitation through globalization (chapter 3).
 
 <br>
+
+Nauru is a small island country in the Pacific Ocean
+
+- settled by Micronesians around 3,000 years ago
+
+- Only 21 km squared (third smallest country in the world)
+
+<br>
+
+No contact with the "developed" world until 1798 when a British whaling ship, *Hunter*, stumbled across it
+
+- Things rapidly go downhill from there
+
+- In 1886 Germany and the Brits are divding up land for colonies around the world and Nauru is granted to the Germans
+
+- 1888 the Germans invade and conquer the island
+
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1. Globalisation is imperialism by another name**
+:::
+
+<br>
+
+**The Exploitation of Nauru**
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -316,21 +386,30 @@ knitr::include_graphics('libs/Images/13-1-Nauru_Phosphate_Mining.jpg')
 
 ::: notes
 
-Dauvergne also steps us through the tragic story of Nauru as a case study for exploitation through globalization (chapter 3).
+But things don't get REALLY bad until 1900 when phosphate ore is discovered
 
-- Europeans don't stumble onto tiny Nauru until 1798
+- At the time, and still today, a very valuable mineral
 
-- By accident, 1899-1901 Phosphate ore is discovered
+<br>
 
-- By 1968, 1/3 of Nauru has been strip-mined
+By the time of Nauru independence in 1968, 1/3 of the entire island was a strip mine
 
-- After independence, Nauru chose to increase mining despite knowing supplies would shortly run out, exports generated much wealth.
-
-- Desperate to replace income, Nauru becomes a haven for dirty banks, money laundering and starts selling off citizenship.
+- After independence, the new leaders of Nauru decide to INCREASE mining to make money for the country (and themselves) 
 
 - By the early 2000s supplies plummet and economic catastrophe is wrought.
 
-- At this point, over 80% of the ENTIRE ISLAND has been strip-mined and Nauru is so desperate for money it has allowed Australia to set up a detention camp for would-be immigrants on its territory.
+- At this point, over 80% of the ENTIRE ISLAND has been strip-mined 
+
+<br>
+
+Desperate to replace income, Nauru has become: 
+
+- A haven for dirty banks and money laundering,
+
+- A country willing to sell citizenships to the highest bidder, and recently
+
+- Nauru has agreed to let Australia set up a detention camps for would-be immigrants on its territory in exchange for money.
+    - e.g. an open-air prison
 
 <br>
 
@@ -339,13 +418,7 @@ Clearly, the story of globalization in the developing world is a complicated one
 
 
 
-## 1. Globalisation is imperialism by another name {background-image="libs/Images/background-forest_v3.png" .center}
-
-<br>
-
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/14_2-Colombia-FTA-Protest.png')
-```
+## 1. Globalisation is imperialism by another name {background-image="libs/Images/13-1-globalism_colonialism_v2.png" .center}
 
 ::: notes
 
@@ -361,67 +434,143 @@ In sum, Dauvergne argues that there is a ton of current evidence in the developi
 
 <br>
 
-### How convinced are you by this first premise?
+**So, based on your experience of the world are you convinced by this argument?**
 
-### - Strongest and weakest parts of this argument?
+- **Do we believe that globalization has been as destructive as imperialism in the developing world? Why or why not?**
 
 :::
 
 
 ## {background-image="libs/Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
 **Environmentalism**
 
 **+**
 
 **Capitalism**
 
-<br>
+**=** 
 
-**= Bad Ecological Outcomes**
+**Bad Ecological Outcomes**
+:::
 
 ::: notes
 
-Dauvergne's second key premise is that you cannot frame or embed environmentalism in the capitalist system and expect ecologically positive outcomes (ch4).
+Dauvergne's second premise
+
+- *Read slide*
 
 <br>
 
-World politics is defined by the want of more (money, stuff)
-- "To survive, capitalism needs to expand production and markets" (49).
+Dauvergne argues that you cannot "frame" or "embed" environmentalism in the capitalist system and expect ecologically positive outcomes (ch4).
 
-- Even companies dedicated to making themselves cleaner, more efficient, less wasteful just reinvest those profits in expansion in order to sell even more stuff.
+<br>
+
+In short:
+
+- Capitalism is defined by the want of more (money, stuff)
+
+- "To survive, capitalism needs to expand production and markets" (49)
+
+<br>
+
+This central motivation tends to corrupt even those with good intentions!
+
+- A company that dedicates itself to being cleaner, more efficient or less wasteful may generate more profits
+
+- HOWEVER, those profits will then be reinvested into expansion in order to sell more things!
+
+<br>
+
+**SLIDE**: Patagonia example
+
 :::
 
 
 
-## 2. Environmentalism + Capitalism = Bad Ecological Outcomes {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/13-1-patagonia_dont_buy_jacket.png')
-```
+## {background-image="libs/Images/13-1-patagonia_dont_buy_jacket-BW.jpg" .center background-size='95%'}
 
 ::: notes
 **Anybody ever seen this ad before?**
 
-- Patagonia full page ad in NYT in 2011
+<br>
+
+Patagonia ran this as a full page advertisement in the NYT in 2011
+
 - This is the $700 "Don't Buy This Jacket" jacket
+
+<br>
 
 *Read the ad copy*
 
 <br>
 
-### Why did this work to explode their sales?
-- Patagonia believes this worked because
-    1. it was a testimony to the high quality and durability of their clothes, and
-    2. they depend on the loyalty of a kind of consumer who feels this message strongly
-    
-<br>
+**How many jackets do you think they sold?**
 
-### Be honest, would this work on you? Why or why not?
+- Sales EXPLODED!
 
 <br>
 
-##### Other chapter notes
+Patagonia believes this worked because:
+
+1. it was a testimony to the high quality and durability of their clothes, and
+
+2. they depend on the loyalty of a kind of consumer who feels this message strongly
+
+<br>
+
+**Be honest, would this work on you? Why or why not?**
+
+:::
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Environmentalism**
+
+**+**
+
+**Capitalism**
+
+**=** 
+
+**Bad Ecological Outcomes**
+:::
+
+::: notes
+
+Dauvergne's argument is fairly simple
+
+- Capitalism structures our choices and incentivizes consumption above all else
+
+<br>
+
+**What companies or brands do you think of as being "good" stewards of the environment?**
+
+<br>
+
+**What about companies or brands that have good reputations for other social causes? e.g. helping the poor, etc**
+
+<br>
+
+Per Dauvergne, examples of capitalism messing up company incentives are everywhere
+
+- Oil and gas companies advertise extensively on their efforts to be greener and more efficient while also dramatically increasing oil and gas production
+
+- Pampers diapers not selling well because some young parents worried about waste, shrink the packaging and the size of the diapers and advertise the newer, slimmer more efficient diapers (sales increase)
+
+<br>
+
+**So, do we buy this argument?**
+
+- **Are we convinced that corporate "good" behavior is always designed to increase consumption? Why or why not?**
+
+<br>
+
+**Other chapter notes**
+
 - Too often, corporate social responsibility (CSR) is about protecting wealth and priviledge rather than promoting ecological ends.
     - Those who question this env of the rich are scorned and derided.
 - Case: Kalle Lasn, Adbusters and the Occupy Movement 
@@ -436,75 +585,102 @@ knitr::include_graphics('libs/Images/13-1-patagonia_dont_buy_jacket.png')
 
 
 
-
-## 3. We are rapidly consuming the world while feeling better and better about our choices {background-image="libs/Images/13-1-recycling_myths_v2.png" .center}
+## 3. We are rapidly consuming the world while feeling better and better about our choices {background-image="libs/Images/13-1-recycling_myths_v3.png" .center}
 
 ::: notes
 
-Dauvergne's THIRD key premise is that we are rapidly consuming the world while feeling better and better about making environmental choices.
+Dauvergne's THIRD premise is that we are rapidly consuming the world while feeling better and better about making environmental choices.
 
-1) We are both using up the world's resources and filling the world with poisons and toxins.
+<br>
+
+The first part of this is uncontroversial: we are rapidly consuming the world's resources
+
 - Rapidly increasing extinction rates, 
 
-- animal populations crashing, 
+- Animal populations crashing, 
 
-- coral reefs dying, 
+- Coral reefs dying, 
 
-- rainforests in crisis
+- Rainforests in crisis,
 
-- (chapter offers many more examples)
+- etc.
     
 <br>
 
-2) And all of this is happening as we pat ourselves on the back for working so hard to be sustainable!
-- "Most consumers are unaware of, and feel little responsibility for, the environmental risks and damage of consumption in other countries and for future generations" (56).
-    
-- According to the most recent data estimates available from the Environmental Protection Agency, just 8.7 percent of the plastic that was discarded in the U.S. in 2018 was recycled.
+The second part of this is that despite the environmental harms, we feel pretty good about our own choices!
+
+- Most people, given the choice, prefer products marketed as "green," "recyclable," "sustainable" or efficient
+
+- BUT, we still consume essentially the same amounts of stuff!
+
+
 
 <br>
 
-**Is this a fair characterization of our behaviors as consumers?**
+**Is this a fair characterization of your behaviors as a consumer?**
+
 - **Have your "green" choices led to less consumption or just "slightly better" consumption?**
+
+- **e.g. do you try to make "better" purchases or "fewer" purchases?**
+
+<br>
+
+**To what degree do you consider environmental harms when making purchases?**
+
+- **Do you consider the harms exclusively in our country or are you concerned about global harms too? Why or why not?**
+
+<br>
+
+**Do you consider your choices in terms of harms to future generations? Why or why not?**
+
+<br>
+
+Dauvergne is concerned about our role in this bad dynamic
+
+- "Most consumers are unaware of, and feel little responsibility for, the environmental risks and damage of consumption in other countries and for future generations" (56).
 
 <br>
 
 ##### Other chapter notes
 Argument: "I'll demonstrate in this chapter, however, rising ecological footprints and unsustainable consumption are causing severe ecological strains..." (54)
+
 - Case: Walmart, global sales and global supplies
 - A "commercialization of values" is also occuring through advertising and branding.
 - We are already above earth's capacity to sustain us and our carbon footprint is growing along with globalization.
 - ecological footprint analysis
--- worldwide avg 2.7 global hectares
--- Avgs: Africa 1.5, UK 4.7, Canada 6.4, US 7.2
--- In 2010, estimated Earth can support 12 billion hectares (productive biocapacity), our use was 18 billion hectares.
+    - worldwide avg 2.7 global hectares
+    - Avgs: Africa 1.5, UK 4.7, Canada 6.4, US 7.2
+    - In 2010, estimated Earth can support 12 billion hectares (productive biocapacity), our use was 18 billion hectares.
 - The consequences?
 :::
 
 
-
-
-## 4. Legal risk-taking by corporations is rampant and incredibly dangerous {background-image="libs/Images/background-forest_v3.png" .center}
-
-<br>
-
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/13-1-toxic_america.webp')
-```
+## 4. Legal risk-taking by corporations is rampant and incredibly dangerous {background-image="libs/Images/14_2-cleaners_aisle_v2.png" .center}
 
 ::: notes
 
 Dauvergne's FOURTH premise is that businesses continue to do legal, but risky things experimenting on consumers and the environment.
 
-- While government has gotten sharper and more demanding, companies continue to "routinely introduce new chemicals and technologies with little understanding of the consequences for ecosystems and future generations" (67).
+<br>
 
-- Industry often argues that only when harms are direct, immediate and measurable should caution be taken. 
-    - And even then, if the profits are big enough (dwarfing the cost of lawsuits and fines), do it anyway!
+Over time our government has gotten sharper and more demanding that companies not harm people
 
-- There is little regulation or understanding of the risks of 1000s of chemicals on sale around the world today.
+-  And yet, companies continue to "routinely introduce new chemicals and technologies with little understanding of the consequences for ecosystems and future generations" (67).
+
+<br>
+
+Industry often argues that only when harms are direct, immediate and measurable should caution be taken. 
+
+- And even then, if the profits are big enough (dwarfing the cost of lawsuits and fines), do it anyway!
+
+<br>
+
+BOTTOM LINE there is little regulation or understanding of the risks of 1000s of chemicals on sale around the world today.
 
 <br>
 
 Business and industry have gone to incredible lengths to protect profitability:
+
 - Lobbying politicians and world leaders, 
 
 - Funding right wing think tanks, 
@@ -540,9 +716,12 @@ knitr::include_graphics('libs/Images/13-1-Teflon_Pan.jpg')
 
 ::: notes
 
-Case Study Examples
+Case Study Examples from the book
 
-1) Thomas Midgley Jr. adds ethyl to gasoline to prevent engine knock, but the tetraethyl lead does serious harm to the environment.
+<br>
+
+Thomas Midgley Jr. adds ethyl to gasoline to prevent engine knock, but the tetraethyl lead does serious harm to the environment.
+
 - Business and government work together to undermine/slow developing scientific concerns that this is a problem.
     
 - Industry backed research continually "confirms" the safety of leaded gas.
@@ -551,7 +730,8 @@ Case Study Examples
     
 <br>
     
-2) Do you love your non-stick pan?
+Do you love your non-stick pan?
+
 - Making Teflon adds serious harms to the environment and your health if you cook over high heat!
     
 - Well documented flu-like symptoms from breathing in fumes from an overheated Teflon-coated pan
@@ -563,8 +743,6 @@ Case Study Examples
 
 ## 5. "Environmentalism of the Rich" {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
-
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/13-1-Green_NGOs.jpg')
 ```
@@ -573,7 +751,10 @@ knitr::include_graphics('libs/Images/13-1-Green_NGOs.jpg')
 
 Dauvergne's FIFTH premise is that the modern environmental movement has come to be dominated by an "environmentalism of the rich"
 
-1) The modern environmental movement has accomplished much
+<br>
+
+The first piece of good news: The modern environmental movement has accomplished SO MUCH
+
 - "National environmental organizations have ... grown considerably since the 1970s" (79).
     
 - "Just about every country now has an environmental agency, and over a thousand International environmental treaties are in place" (79).
@@ -585,8 +766,9 @@ Dauvergne's FIFTH premise is that the modern environmental movement has come to 
 - Meanwhile, billions of people are recycling and composting.
 
 <br>
-    
-2) AND the modern environmental movement is diverse and dynamic
+
+The second piece of good news: the modern environmental movement is diverse and dynamic
+
 - Deep philosophical and policy differences have long characterized environmentalism.
     
 - Broad dimension running from radicals (remake the world economy!) to reformers (use institutions to guide globalzation to do good).
@@ -602,9 +784,13 @@ Dauvergne's FIFTH premise is that the modern environmental movement has come to 
 
 ::: notes
 
-3) BUT, the modern environmental movement has failed to meaningfully challenge consumer capitalism
+The big "but"...
 
-*Read quote*
+- *Read quote*
+
+<br>
+
+BUT, the modern environmental movement has failed to meaningfully challenge consumer capitalism
 
 - The reformers have accomplished much for the wealthy amongst us, but these small changes has weakened the capacity of the movement to challenge capitalism.
     
@@ -613,7 +799,7 @@ Dauvergne's FIFTH premise is that the modern environmental movement has come to 
 
 
 
-## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
@@ -631,13 +817,13 @@ Ok, here's the argument so far.
 
 Let's now jump to what you read for today in order to complete the argument diagram.
 
-On your own, try to summarize the main argument in Chapter 10 in one sentence.
+- On your own, try to summarize the main argument in Chapter 10 in one sentence.
 
 <br>
 
 Discuss with person next to you.
 
-*Report back and discuss*
+- *Report back and discuss*
 
 - (**SLIDE**)
 
@@ -666,7 +852,7 @@ The Power of Eco-Consumerism
 
 
 
-## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
+## {background-image="libs/Images/background-forest_v3.png" .center}
 
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
@@ -685,7 +871,7 @@ I don't mean to claim this is actually Dauvergne's sixth premise but man alive t
 
 <br>
 
-### How convinced by this argument are you? Why or why not?
+**How convinced by this argument are you? Why or why not?**
 
 <br>
 
@@ -701,15 +887,14 @@ Segue way to chapter 11!
 
 <br>
 
-#### Chapter 11 notes
-Chapter 11 
-Million Dollar Pandas
+**Chapter 11 notes: Million Dollar Pandas**
 
 - "Corporate money and partnerships are financing environmental projects, programs, and technologies. And they are paying for NGO staff, supplies, buildings, and campaign costs" (127).
 - "Such partnerships with business are also offering NGOs the chance to monitor, and even manage, certification and eco-labeling programs. And they're opening up opportunities for environmental activists to advise--or perhaps work alongside--business executives and state regulators" (127).
 - "We should not discount the benefits of corporate funding and partnerships for the capacity of environmental NGOs to support programs and projects. ... Yet at the same time such Partnerships, now at the Forefront of environmentalism of the rich, our seating authority to global business by defusing criticism of the growth, sales, and profit models of multinational investors, manufacturers, and retailers. These partnerships... are also doing little to lighten ecological footprints and nothing at all to reduce the extreme inequalities, unrelenting violence, and unsustainable growth underlying the world economy" (128).
 
 WWF
+
 - The World Wildlife Fund as a case study
 - 1986 name change to World Wide Fund for Nature
 - 2001 to WWF
@@ -722,7 +907,7 @@ WWF
 
 
 
-## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
+## {background-image="libs/Images/background-forest_v3.png" .center .smaller}
 
 1. Globalisation = imperialism
 2. Environmentalism + Capitalism = Bad Outcomes
@@ -741,24 +926,30 @@ Therefore, the mainstream of the environmental movement needs to pursue more tra
 
 Chapter 12 does a nice job wrapping all of this up, but this diagram represents the bulk of the argument.
 
-### How convincing do you find this?
-### - What are the strongest premises?
-### - What are the weakest? 
+**How convincing do you find this?**
+
+- **What are the strongest premises?**
+
+- **What are the weakest?**
 
 <br>
 
-### What are the primary implications of this for us as policy designers?
+**What are the primary implications of this for us as policy designers?**
+
 - *Force this discussion*
 
 <br>
 
-### What are the big recommendations Dauvergne makes in chapter 12 for how we should move forward from this?
+**What are the big recommendations Dauvergne makes in chapter 12 for how we should move forward from this?**
+
 - (**SLIDE**)
 :::
 
 
 
-## Dauvergne's Argument {background-image="libs/Images/background-forest_v3.png" .center .smaller}
+## {background-image="libs/Images/background-forest_v3.png" .center .smaller}
+
+**Dauvergne's Policy Arguments**
 
 - People must consume less
 - Create new laws to protect ecosystems and human rights

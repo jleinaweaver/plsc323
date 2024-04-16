@@ -1,0 +1,41 @@
+---
+format: revealjs
+---
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Designing Solutions for Environmental Problems**
+
+- Science of the Environment (BIOL 163)
+
+- Intro to Environmental Economics (ECON 225)
+
+- Environmental Ethics (PHIL 320)
+
+- Issues in Environmental Policy (PLSC 323)
+:::
+
+## {background-image="libs/Images/14_1-Class_Poster_Example-Annie.png"  background-size='92%'}
+
+
+## {background-image="libs/Images/14_1-Class_Poster_Example-Megan.png" background-size='92%'}
+
+
+## {background-image="libs/Images/14_1-Class_Poster_Example-Emily.png" background-size='92%'}
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Designing Solutions for Environmental Problems**
+
+- Science of the Environment (BIOL 163)
+
+- Intro to Environmental Economics (ECON 225)
+
+- Environmental Ethics (PHIL 320)
+
+- Issues in Environmental Policy (PLSC 323)
+:::
+

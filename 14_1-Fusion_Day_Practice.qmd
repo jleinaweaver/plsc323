@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="libs/Images/background-forest_v3.png" }
+## Today's Agenda {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
 library(tidyverse)
@@ -11,9 +11,11 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
+
 **Prepare for Fusion Day**
 
-<br>
+:::
 
 <br>
 
@@ -43,9 +45,9 @@ knitr::include_graphics("libs/Images/11_1-FD22 wide shot.jpg")
 
 ::: notes
 
-Fusion Day is Wednesday and your poster session is 3pm-4:30pm.
+Fusion Day is tomorrow and your poster session is 3pm-5pm.
 
-### How's everybody feeling?
+- **How's everybody feeling?**
 
 <br>
 
@@ -54,44 +56,69 @@ Fusion Day is Wednesday and your poster session is 3pm-4:30pm.
 
 
 
-## {background-image="libs/Images/14_1-Poster_Anh_Vi.png" }
+## {background-image="libs/Images/14_1-Class_Poster_Example-Annie.png"  background-size='92%'}
 
 ::: notes
 
-I love Anh's layout here.
+Annie did a really nice job balancing layout, carity and detail
 
-- Super clean but full of valuable detail.
-
-- Includes cited evidence!
-
-- Clear policy options
-:::
-
-
-
-## {background-image="libs/Images/14_1-Poster_Taylor.png" }
-
-::: notes
-
-Taylor's done a great job balancing detail with compelling visualizations
-
-- This stakeholder map is really cool
-
-- I also like the policies presented as example and concrete hypothetical
-:::
-
-
-## {background-image="libs/Images/14_1-Poster_Abbi.png" }
-
-::: notes
-
-Come on, Abbi's in the field photo is awesome!
-
-- Shows the community you have skin in the game. This is a super clever design addition!
+- Such a hard needle to thread!
 
 <br>
 
-You'll get your poster grades back after Fusion Day and I will give everyone a chance to revise and resubmit.
+I really appreciate the local data touches here
+
+- The data on commute times in SGF is very cool
+
+- The map of bike paths in the community too
+
+<br>
+
+And, of course, the photo of Annie getting out into the world is great!
+
+- On a psychological level these kinds of touches are incredibly effective when appealing to local stakeholders
+
+- It also gives the people coming up to look at your poster an easy in, e.g. what did you do? what did you learn?
+
+<br>
+
+On the other hand, misspelled my name... Booooooo
+
+:::
+
+
+
+## {background-image="libs/Images/14_1-Class_Poster_Example-Megan.png" background-size='92%'}
+
+::: notes
+
+Megan has also produced such a clean and inviting poster here
+
+- The addition of the QR code for more information was super clever
+
+<br>
+
+Megan's in the field photo is also awesome!
+
+- Shows the community you have skin in the game. This is a super clever design addition!
+
+- I really the style here as well. Draws the viewer in.
+:::
+
+
+## {background-image="libs/Images/14_1-Class_Poster_Example-Emily.png" background-size='92%'}
+
+::: notes
+
+Emily's poster is jam packed with excellent information, but done in a very compelling way
+
+- Each section is written in an incredibly inviting manner
+
+- So much great detail here but never overwhelming!
+
+<br>
+
+You'll get your poster grades back after Fusion Day
 
 <br>
 
@@ -122,7 +149,7 @@ Not sure how many of you participated in this last year, but it can be a lot of 
 
 <br>
 
-### Any questions on Wednesday's poster session?
+**Any questions on Wednesday's poster session?**
 :::
 
 
@@ -133,7 +160,9 @@ Not sure how many of you participated in this last year, but it can be a lot of 
 
 My plan for today is that everyone develop a 2-3 minute elevator pitch for their project.
 
-### Is everybody familiar with this concept?
+<br>
+
+**Is everybody familiar with this concept?**
 
 - Imagine you have a 2 minute elevator ride with a person you want something from
 
@@ -141,86 +170,9 @@ My plan for today is that everyone develop a 2-3 minute elevator pitch for their
 
 <br>
 
-### Has anybody ever prepped this kind of exercise before?
+**Has anybody ever prepped this kind of exercise before?**
 
 <br>
-
-**SLIDE**: Before we do this, we need to discuss one other thing.
-:::
-
-
-
-## Fusion Day Panel {background-image="libs/Images/background-forest_v3.png"}
-
-<br>
-
-- Four certificates present (OBT 300), 10am-11:30am
-
-- Each certificate:
-    - 4 certificate students
-    - Twenty minutes
-
-- Audience of FUSE 102 students 
-
-::: notes
-
-Because we are the certificate capstone, we are on the hook for a presentation in the morning to FUSE 102 students who are trying to pick certificates.
-
-- Basically, four certificates are assigned to a room and each get 20 minutes to introduce the certificate
-
-- The audience for the certificate panels is primarily first year students with the goal of helping them make decisions about which certificates they want to pursue. 
-
-<br>
-
-**SLIDE**: Plan of attack
-
-<br>
-
-Room 300:
-- 10:00-10:20   Graphic Storytelling
-- 10:20-10:40   Life in Close Up: Film, History, and Society
-- 10:40-10:50   Break
-- 10:50-11:10   Designing Solutions for Environmental Problems
-- 11:10-11:30   The Activists Tool Kit: Transforming Society through Civic Engagement
-:::
-
-
-
-## Fusion Day Panel {background-image="libs/Images/background-forest_v3.png"}
-
-<br>
-
-**Our Plan (Breech 200)**
-
-- Intro: 2 mins
-
-- 4 students: 2-3 minute elevator pitch
-    - What's the problem?
-    - What are you proposing?
-    - Any connections to the certificate classes?
-
-- Five minutes for Q&A with the audience
-
-::: notes
-Our plan is simple.
-
-- I give a 2 minute opening, e.g. what is the certificate
-
-- Then four of you give your elevator pitch for the project and talk about your experience of the certificate
-
-- We end with a few minutes Q&A
-
-<br>
-
-This means I need four volunteers who are willing to come to the panel and briefly present their projects.
-
-### So, volunteers?
-:::
-
-
-## {background-image="libs/Images/14_1-elevator-pitch.png"}
-
-::: notes
 
 Ok, everybody needs an elevator pitch.
 
@@ -242,7 +194,27 @@ New pairs, do it again!
 
 New pairs, last chance, do it again!
 
+:::
+
+
+
+## For Next Class {background-image="libs/Images/background-forest_v3.png" .center}
+
 <br>
 
-Alright, I'll see you all tomorrow!
+::: {.r-fit-text}
+**Greenwashing and Eco-Capitalism**
+
+- Dauvergne (2016) *Environmentalism of the Rich*
+:::
+
+::: notes
+
+Thursday we end on a really big problem
+
+- Can any version of capitalism actually protect the environment?
+
+<br>
+
+Alright, I'll see you all tomorrow for the poster session!
 :::
