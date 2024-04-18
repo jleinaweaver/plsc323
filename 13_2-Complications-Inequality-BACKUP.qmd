@@ -130,15 +130,270 @@ Free-riding incentives increase as:
 - (Large groups need institutional designs to increase compliance)
     - Membership benefits for paying dues (access to a park, magazine, bumper stickers)
 
+
+
 :::
 
 
 
-## {background-image="libs/Images/14_2-clean-air-protest-sign.jpg"}
 
-::: {.r-fit-text}
-<p style="color: white;">**Unequal Voice, Access, Influence or Impact**</p>
+
+
+## Collective Action Problems (I) {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Rapid resource depletion when...**
+
+- Resource use benefits the user, and
+
+- The costs of use are shared by all users
+
+::: notes
+
+The first type of collective action problem we discussed on Tuesday focused on the Hardin style Tragedy of the Commons dynamics.
+
+- *Read formula on slide*
+
+<br>
+
+**SLIDE**: Let's illustrate this with the customary example...
 :::
+
+
+
+## {background-image="libs/Images/13_2-cow_pasture.png" .center}
+
+::: notes
+**How is a community grazing area an example of this dynamic in action?**
+
+- **Tell me the cow story!**
+
+<br>
+
+Grazing your cattle on a commons leads to bad outcomes because...
+
+- The benefits are entirely yours (add a cow to your herd), and
+
+- The costs are shared with society
+
+<br>
+
+This means there is a strong incentive to increase the size of your herd (benefits outweigh the costs)
+
+- If everyone follows that logic the commons may be destroyed
+
+<br>
+
+**SLIDE**: Pollution example...
+:::
+
+
+## {background-image="libs/Images/13_1-pollution_river.png" .center}
+
+::: notes
+**How is pollution being dumped into the river an example of this dynamic in action?**
+
+<br>
+
+Dumping your pollution into a river commons leads to bad outcomes because...
+
+- The benefits are entirely yours (factory profits are yours), and
+
+- The costs are shared with society (everyone pays for the waste)
+
+<br>
+
+This means there is a strong incentive to increase your production regardless of waste (benefits outweigh the costs)
+
+- If everyone follows that logic the commons may be destroyed
+
+<br>
+
+Again, two simple conditions add together to predict a very dire outcome.
+
+<br>
+
+**SLIDE**: Sum it up...
+:::
+
+
+
+## Collective Action Problems (I) {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Rapid resource depletion when...**
+
+- Resource use benefits the user, and
+
+- The costs of use are shared by all users
+
+::: notes
+**Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
+
+<br>
+
+FIRST, More users = More destruction
+
+- Number users increases, costs to each user lowers
+
+- As cost lowers, likelihood of use increases
+
+- You "owned," e.g. expected access to, a vanishingly small share of the resource in the first place
+
+<br>
+
+SECOND, benefits of the resource increase, likelihood of use increases
+
+<br>
+
+**Who here had a good example of this dynamic in action with the problem they are working on?**
+
+<br>
+
+**Per our discussions last class, what kinds of policy designs could help us overcome or address this problem?**
+
+<br>
+
+Lots of options!
+
+- Target the user benefits with higher income taxes?
+- Or make the costs target the individual more with a green tax on waste?
+- Or privatize the commons
+- Or C&C the use of the commons
+- Or adaptive governance!
+
+:::
+
+
+
+## Collective Action Problems (II) {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Resource degradation when...**
+
+- Costs imposed on individuals, and
+
+- Benefits distributed widely across society
+
+::: notes
+
+The second type of collective action problem we discussed on Tuesday was born from Mancur Olson's work on how groups function.
+
+- *Read formula on slide*
+
+<br>
+
+**What label does the literature call the users under this dynamic?**
+
+- (Free riders!)
+
+<br>
+
+**What is a free-rider?**
+
+- Someone who enjoys the benefits of other peoples' efforts without contributing to the provision of those benefits
+
+<br>
+
+**How is climate change a good example of the free-rider problem in action?**
+:::
+
+
+
+
+## {background-image="libs/Images/13_2-vehicles-air-pollution.jpg" .center}
+
+::: notes
+
+The climate is changing for a multitude of reasons with some of the largest being our GhG emissions.
+
+- In the US, our transport sector is one of, if not currently, the biggest contributor to our emissions.
+
+<br>
+
+To lower our emissions every person would need to pay some of the costs
+
+- e.g. find other ways to commute, warm their homes, buy less fuel intensive foods, fewer plastics, etc.
+
+<br>
+
+Given our current economic set-up, basically EVERY action you take creates emissions or contributes to the creation of emissions
+
+- In the terms of our free-riding definition, the costs of resource protection is borne by the user.
+
+<br>
+
+The other side of this coin is that your personal contribution to climate change is VANISHINGLY small.
+
+- If you stopped all your activities that made climate change worse it would cost you a ton and the climate system would basically be unchanged.
+
+<br>
+
+Equally bad is that, in this type of problem, YOU benefit from the sacrifices made by others!
+
+- Even if you choose to do nothing OR to make the problem worse, you get the benefits from others sacrifices
+
+- In the terms of our free-riding definition, the benefits of protection are distributed widely
+
+<br>
+
+Climate change is a really tough nut to crack as are all situations that create incentives for free-riding.
+:::
+
+
+
+
+
+## Collective Action Problems (II) {background-image="libs/Images/background-forest_v3.png" .center}
+
+<br>
+
+**Resource degradation when...**
+
+- Costs of protection paid by the user, and
+
+- Benefits of protection are distributed widely
+
+::: notes
+**Per this dynamic, under what conditions does this scenario produce the worst environmental outcomes?**
+
+- **Why causes the incentive to free-ride to increase?**
+
+<br>
+
+Free-riding incentives increase as:
+
+1. The size of the group of users increases,
+
+2. The complexity of the problem increases, and
+
+3. The size of the impact of your use on the system increases
+
+<br>
+
+**Who here is working on a problem that exhibits these characteristics or is dealing with free-riders?**
+
+<br>
+
+**Per our discussions last class, what kinds of policy designs could help us overcome or address this problem?**
+
+<br>
+
+- (Subsidize the good behavior?)
+- (Tax the bad behavior?)
+- (C&C regulation to mandate the good behavior / ban the bad?)
+- (Smaller groups advantaged for stopping free-riding)
+    - Easier to monitor, more social pressure to comply
+- (Large groups need institutional designs to increase compliance)
+    - Membership benefits for paying dues (access to a park, magazine, bumper stickers)
+:::
+
+
+
+## {background-image="libs/Images/08-1-climate_change_is_racism.webp" .center}
 
 ::: notes
 
@@ -146,7 +401,7 @@ Today I'd like us to explore the role of inequality in our current environmental
 
 <br>
 
-Not all people have equal voice, access or influence in our system, meaning:
+Not all people have equal voice in the system, meaning:
 
 1. Some people have greater access to the key decision-makers and ability to influence the processes around them, and 
 
@@ -158,23 +413,8 @@ A big topic, but one we need to start grappling with as policy designers.
 
 <br>
 
-Many of your submissions to Canvas today were AWESOME.
-
-- Everybody take a minute to review the Canvas submissions
-
-- Get ready to report back your takeaways from what you are seeing in our local environmental problems
-
-<br>
-
-*REPORT back and DISCUSS*
-
-<br>
-
-From here I'd like to segue into the readings for today
-
-- **SLIDE**: In a sense, the first two represent one attempt to explain why we see the harms we do in the world currently
+**SLIDE**: Our first two readings for today, Mildenberger (2019) and Kashwan (2020), ask us to consider this question.
 :::
-
 
 
 ## {background-image="libs/Images/08-1-climate_change_is_racism.webp"}
@@ -183,18 +423,19 @@ From here I'd like to segue into the readings for today
 
 ::: notes
 
-Our first two readings for today, Mildenberger (2019) and Kashwan (2020), ask us to consider this question.
-
-<br>
-
 My aim for today is not to apportion blame or simply lament these facts.
 
 - Our job is to grapple with these facts and then to decide how, or if, we need to adapt our policy designs in response to them.
 
 <br>
 
-**SLIDE**: Let's start with Mildenberger (2019).
+Let's start with Mildenberger (2019).
 
+<br>
+
+**What is the key conclusion of the argument in this article?**
+
+- (**SLIDE**: Captured by the sub-title nicely, no?)
 :::
 
 
