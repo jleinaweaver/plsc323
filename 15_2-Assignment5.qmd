@@ -11,11 +11,13 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
+
 **Work on the Final Policy Proposal**
 
 - Due May 8th, 3pm
 
-<br>
+:::
 
 <br>
 
@@ -32,42 +34,6 @@ Prep for Class
 
 
 
-## {background-image="libs/Images/background-forest_v3.png" .center}
-
-```{r}
-tibble(
-  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
-  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
-  col3 = c(15, 15, 20, 15, 15, 20, 100)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
-```
-
-::: notes
-
-Time to take stock of how far you've come in order to start looking ahead to your final paper.
-
-- Paper 1: Selected a problem, defined it using evidence and identified key stakeholders involved in it
-
-- Paper 2: You have evaluated four broad approaches to solving your problem in order to build an argument for your chosen policy design
-
-- Paper 3: You have, or you're about to, engaged in our community in order to learn more about your problem and the stakeholders involved
-
-- Paper 4: On Fusion Day you will have a chance to get community feedback on the policy options you are considering. 
-
-<br>
-
-Your final paper asks you to reflect on all of this in order to design a policy for addressing your chosen problem. 
-
-- We have lots of time before this is due but I want to keep reminding you of how all of these earlier pieces help you build to this.
-:::
-
-
-
 ## Assignment 5: Proposing a Policy {background-image="libs/Images/background-forest_v3.png" .center}
 
 <br>
@@ -76,62 +42,14 @@ Propose a policy to address your selected environmental problem that balances th
 
 ::: notes
 
-The Prompt
+**Questions on the prompt?**
 
-<br>
-
-Let's talk about my expectations for this paper.
-
-- Note that I've put these details on Canvas.
 :::
 
 
-
-
-## {background-image="libs/Images/background-forest_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-
-<br>
-
-<br>
-
-<br>
-
-**Final proposal should be a complete, stand-alone policy proposal**
-:::
-
-::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/10-1-four_brains.jpg')
-```
-:::
-::::
-
-::: notes
-
-Do NOT assume the reader is familiar with your other assignments or has a deep understanding of the problem itself.
-
-<br>
-
-You should be able to give your paper to a person interested in your problem and they should be able to understand why solving the problem is complicated and be convinced that your policy is a good idea.
-
-- This means you should DEFINITELY take the best bits from your earlier papers and add them to this one.
-
-<br>
-
-### Does that make sense?
-
-<br>
-
-SLIDE: Ok, let's get more specific
-:::
 
 
 ## A convincing policy proposal: {background-image="libs/Images/background-forest_v3.png" .center}
-
-<br>
 
 - Advances your policy recommendation in **EVERY** paragraph,
 
@@ -139,30 +57,59 @@ SLIDE: Ok, let's get more specific
 
 - Identifies and appeals to specific stakeholders,
 
-- Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
+- Considers the complications, and
 
 - Offers guidance for measuring its effectiveness over time.
 
 ::: notes
 
-The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
-- Problem framings matter,
-- Generating stakeholder buy-in matters,
-- Engaging substantively with the complications matters, and
-- Planning for measuring success matters.
+My thoughts on the elements of a convincing policy proposal.
 
-<br>
+- **Any questions on the key elements of a convincing proposal?**
 
-### Bottom line: I'm **much** more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
-
-- My expectation is not that you've designed the ultimate plan that makes everyone happy.
-    - That's not a thing that exists in the real world.
-
-- My expectation is that you propose a policy that explicitly considers and tries to navigate past these complications.
-
-<br>
-
-### Does that make sense?
-
-### Any questions on the prompt or any of this advice
 :::
+
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**One Approach to the Final Policy Proposal**
+:::
+
+1. Actor X should do Y because problem Z is important
+
+2. Actor X should do Y because it is adapted to the science of the problem
+
+3. Actor X should do Y because it will appeal to the key stakeholders
+
+4. Actor X should do Y because it is adapted to the uncertainties in the problem
+
+5. Actor X should do Y because we can evaluate its effectiveness over time
+
+::: notes
+
+My thoughts on one possible outline for the final paper
+
+- **Any questions on this as an outline?**
+
+<br>
+
+Alright, the time today is for you to work on the final paper
+
+- Let's dive in!
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,11 +11,13 @@ library(readxl)
 
 <br>
 
+::: {.r-fit-text}
+
 **Work on the Final Policy Proposal**
 
 - Due May 8th, 3pm
 
-<br>
+:::
 
 <br>
 
@@ -30,19 +32,6 @@ Prep for Class
     - Update link in slides
     - Schedule Canvas announcement to go out at start of class
 
-<br>
-
-*Email*
-
-PLSC 323: IDEA Course Evaluation Link
-
-Morning All,
-
-Here is the direct link to our course evaluation survey: https://drury.campuslabs.com/eval-home/direct/6294534
-
-Thanks,
-
-JL
 :::
 
 
@@ -51,23 +40,25 @@ JL
 
 <br>
 
-https://drury.campuslabs.com/ ...
-
+::: {.r-fit-text}
+https://drury.campuslabs.com/eval-home/
+:::
 
 
 ## {background-image="libs/Images/background-forest_v3.png" .center}
 
 ```{r}
 tibble(
-  col1 = c("Participation", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "5. Policy Design", "Total"),
-  col2 = c("", "(Feb 24)", "(Apr 7)", "(Apr 15)", "(Apr 28)", "(Final)", ""),
-  col3 = c(15, 15, 20, 15, 15, 20, 100)
+  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
+  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(Apr 24)", "(Apr 26)", "(Final)"),
+  col3 = c(20, 60, "", "", "", "", 20)
 ) |>
   kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
   kableExtra::kable_styling(font_size = 40) |>
   kableExtra::column_spec(1, width = "20em") |>
   kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 7), bold = TRUE, background = "#b3ccff")
+  kableExtra::row_spec(0, background = "lightblue") |>
+  kableExtra::row_spec(1:7, background = "white")
 ```
 
 ::: notes
@@ -78,9 +69,9 @@ Time to take stock of how far you've come in order to start looking ahead to you
 
 - Paper 2: You have evaluated four broad approaches to solving your problem in order to build an argument for your chosen policy design
 
-- Paper 3: You have, or you're about to, engaged in our community in order to learn more about your problem and the stakeholders involved
+- Paper 3: You have engaged in our community in order to learn more about your problem and the stakeholders involved
 
-- Paper 4: On Fusion Day you will have a chance to get community feedback on the policy options you are considering. 
+- Paper 4: On Fusion Day you had the chance to get community feedback on the policy options you are considering. 
 
 <br>
 
@@ -154,21 +145,20 @@ SLIDE: Ok, let's get more specific
 
 ## A convincing policy proposal: {background-image="libs/Images/background-forest_v3.png" .center}
 
-<br>
-
 - Advances your policy recommendation in **EVERY** paragraph,
 
 - Includes a clear and compelling problem definition,
 
 - Identifies and appeals to specific stakeholders,
 
-- Is adapted to the complicating factors relevant to your problem (e.g. institutions, uncertainty, free-riding, inequality, etc.), and
+- Considers the complications, and
 
 - Offers guidance for measuring its effectiveness over time.
 
 ::: notes
 
 The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
+
 - Problem framings matter,
 - Generating stakeholder buy-in matters,
 - Engaging substantively with the complications matters, and
@@ -176,7 +166,7 @@ The bottom line here is I'm looking for you to connect your ideas in very concre
 
 <br>
 
-### Bottom line: I'm **much** more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
+Bottom line: I'm **much** more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
 
 - My expectation is not that you've designed the ultimate plan that makes everyone happy.
     - That's not a thing that exists in the real world.
@@ -185,7 +175,149 @@ The bottom line here is I'm looking for you to connect your ideas in very concre
 
 <br>
 
-### Does that make sense?
+**Does that make sense?**
 
-### Any questions on the prompt or any of this advice
+- **Any questions on the prompt or any of this advice**
+
+<br>
+
+**SLIDE**: Let's get to work!
 :::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Develop your thesis statement**
+:::
+
+<br>
+
+::: {.r-fit-text}
+
+In a few words each:
+
+- Describe the problem
+
+- Describe the policy
+
+- Identify who has the power to create this policy
+
+:::
+
+::: notes 
+
+Let's get this paper off on the right foot
+
+- Everybody do these three things in a few words each
+
+<br>
+
+**SLIDE**: Let's put it together
+
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Develop your thesis statement**
+:::
+
+<br>
+
+::: {.r-fit-text}
+
+Actor X should do Y to address problem Z
+
+:::
+
+::: notes 
+
+Everybody convert their notes into a thesis statement of this style.
+
+<br>
+
+Let's go around the room and hear all of the thesis statements
+
+<br>
+
+**SLIDE**: With this style of thesis statement the structure of your paper becomes pretty clear...
+
+:::
+
+
+
+## {background-image="libs/Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Structuring the Final Policy Proposal**
+:::
+
+::: {.incremental}
+1. Actor X should do Y because problem Z is important
+
+2. Actor X should do Y because it is adapted to the science of the problem
+
+3. Actor X should do Y because it will appeal to the key stakeholders
+
+4. Actor X should do Y because it is adapted to the uncertainties in the problem
+
+5. Actor X should do Y because we can evaluate its effectiveness over time
+:::
+
+::: notes
+
+Every paragraph in the paper must advance your thesis (policy)!
+
+<br>
+
+What I want to map out for you now is one approach to building the body of your policy proposal
+
+- This is not the only way to organize this, HOWEVER
+
+- It will force you to hit the important elements AND ensure that your policy lives in EVERY paragraph of the paper
+
+<br>
+
+**REVEAL**: First key premise must convince the reader of the importance of the problem
+
+- This is a public problem
+
+- This requires a collective decision
+
+<br>
+
+**REVEAL**: Second premise should engage with the nature of the problem e.g. an argument that your proposal actually addresses the problem as it exists
+
+<br>
+
+**REVEAL**: Third premise connects you to your community
+
+- Your policy will require behavior change by real people, so make clear how your policy will accomplish that
+
+<br>
+
+**REVEAL**: Fourth premise is all about the complications we've been exploring over the last section of the class
+
+- This is your chance to enagage with complications like risk aversion, time horizons, uncertainty, tipping points, irreversibilities, inequality, greenwashing, etc.
+
+<br>
+
+**REVEAL**: Fifth premise is your chance to propose a method or approach to evaluating the effectiveness of your policy over time
+
+<br>
+
+**Questions on this approach?**
+
+<br>
+
+Rest of our time today I would suggest outlining the paper using these premises
+
+- Include the notes and evidence under each you would need to explain and support these premises
+
+:::
+
+
