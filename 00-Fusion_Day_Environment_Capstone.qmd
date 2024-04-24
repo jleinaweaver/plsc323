@@ -16,6 +16,12 @@ format: revealjs
 - Issues in Environmental Policy (PLSC 323)
 :::
 
+<br>
+
+*Certificate Director: Justin Leinaweaver*
+
+
+
 ## {background-image="libs/Images/14_1-Class_Poster_Example-Annie.png"  background-size='92%'}
 
 
@@ -38,4 +44,8 @@ format: revealjs
 
 - Issues in Environmental Policy (PLSC 323)
 :::
+
+<br>
+
+*Certificate Director: Justin Leinaweaver*
 
