@@ -1,0 +1,604 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+<br>
+
+**I. The Basics of Problem-Solving in a Community**
+
+- What are the key elements of a domestic process that aims to solve environmental problems?
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+2. Publish next discussion
+
+<br>
+
+Readings
+
+1. Clarke, T., & Peterson, T. R. (2016). *Environmental Conflict Management*. SAGE Publications, Inc. **ONLY chapters 1 and 2**
+2. Hughes, J. W. (2007). *Environmental problem solving: A how-to guide*. University Press of New England. **ONLY chapter 4**
+3. Kraft, M. E. (2011). Environmental Policy and Politics (5th ed.). Longman. **ONLY chapter 3**
+
+:::
+
+
+
+## Assignment 4 {background-image="Images/background-forest_v3.png" .center}
+
+**Getting Involved in our Community**
+
+<br>
+
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
+
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
+
+::: notes
+
+Let's warm up again today with more community engagement brainstorming!
+
+- Everybody get ready to name **A NEW** activity they could do this weekend to engage in their chosen environmental problem in our community!
+
+- Even if you already have your project approved, give us something else!
+
+<br>
+
+Go!
+
+<br>
+
+Don't forget you have to get my sign-off on your project BEFORE you do it
+
+- Submit your proposal on Canvas as an assignment.
+
+<br>
+
+### Any questions on the community engagement project?
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="35%"}
+::: {.r-fit-text}
+- "Politics"
+
+- "Environment"
+
+- "Policy"
+:::
+:::
+
+::: {.column width="60%"}
+
+:::
+::::
+
+::: notes
+
+Over the first three weeks of class:
+
+1. I have given you a crash course in the big ideas that underpin policy-making, AND
+
+2. You have selected and begun to explore a local environmental problem that you want to address.
+
+<br>
+
+I know you have a lot going in outside this class so I've also tried to keep these ideas bouncing around in your head.
+
+- Let's do that again!
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<br>
+
+<br>
+
+<br>
+
+**How does thinking about "politics" help us solve problems?**
+:::
+
+::: {.column width="40%"}
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/04_1-Problem_Solvers.jpg")
+```
+:::
+::::
+
+::: notes
+
+*Encourage this discussion*
+
+<br>
+
+A few things I'd throw in the mix:
+
+FIRST, problem-solvers know that all problems are rooted in specific communities
+- This means you have to understand the established stakeholders and rules BEFORE you can propose a solution
+
+<br>
+
+SECOND, problem-solvers know that solutions aren't worth the paper they are written on unless the commmunity recognizes them as legitimate
+- I would rather have weaker rules that the community accepts over strong rules the community opposes
+
+- I want to change behavior in ways that don't require strict oversight and enforcement
+
+<br>
+
+THIRD, problem-solvers know that all solutions impose costs on specific groups and they work to make sure those costs are addressed or considered carefully
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**How does thinking about the "environment" help us solve problems?**
+:::
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/04_1-Youth-Climate-Strike.png")
+```
+
+::: notes
+
+*Encourage this discussion*
+
+<br>
+
+FIRST, problem-solvers know that ALL environmental problems are at their root a dispute over definitions
+
+<br>
+
+SECOND, problem-solvers know that learning about how others define the "environment" tells you a ton about who they are, what they want and how you can appeal to them
+
+<br>
+
+THIRD, problem-solvers know that problem definitions narrow the policy design options that a stakeholder is willing to consider
+
+- Therefore, win the problem framing, win the policy
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**What baseline arguments do problem-solvers make BEFORE designing a solution?**
+:::
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/04_1-random_stock_image.png")
+```
+
+::: notes
+**What baseline arguments do problem-solvers make BEFORE designing a solution?**
+
+<br>
+
+BEFORE designing any policy you must first make TWO separate and convincing arguments:
+
+1. This is a public, not an individual problem
+
+2. It should be addressed collectively not privately
+
+<br>
+
+Important for us to realize the groundwork that must be completed before policy design truly comes into play.
+
+- Solving community problems are not for the faint at heart.
+
+- HOWEVER, if you lay the groundwork appropriately, the next steps become feasible!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="35%"}
+::: {.r-fit-text}
+- "Politics"
+
+- "Environment"
+
+- "Policy"
+:::
+:::
+
+::: {.column width="60%"}
+
+:::
+::::
+
+::: notes
+**How are we doing with all this big picture material?**
+
+- **Any questions or need for clarification?**
+
+<br>
+
+**SLIDE**: Today I'd like us to take all of these big ideas and see how we might organize them into a process that could guide our problem-solving activities.
+
+:::
+
+
+
+## For Today {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+What are **three** key elements you argue are necessary to **successfully navigate** a domestic policy-making process?
+
++ Hughes (2007)
+
++ Kraft (2011)
+
++ Clarke and Peterson (2016)
+
+::: notes
+
+All of this brings us to our work for today.
+
+- There are many, many textbooks out there all grappling with environmental problems from a variety of perspectives.
+
+<br>
+
+I choose these books to give you a few different perspectives on the process
+
+<br>
+
+Hughes (2007) is a treatment produced by an independent publisher that aims to be user friendly and accessible
+
+<br>
+
+Kraft (2011) represents the view of a specialist in American public policy mapping out the policy process
+
+<br>
+
+Clarke and Peterson (2016) represents an approach rooted in the communications and management literatures
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+What are **three** key elements you argue are necessary to **successfully navigate** a domestic policy-making process?
+
++ DOC'S KEY approach (Hughes 2007, ch4)
+
++ The Policy Process Model (Kraft 2011, ch3)
+
++ The Collaborative Approach to Environmental Conflict (Clarke and Peterson 2016, ch1 and 2)
+
+::: notes
+
+I've tried to pick out the chapter from each of these books that describes its central approach to our challenge.
+
+<br>
+
+### Which of the three approaches spoke to you more than the others? Why?
+
+<br>
+
+*Split class into groups of 3-4*
+- Work with someone new and go sit with your group!
+
+<br>
+
+Ok, first step, review all of today's submissions on Canvas and develop your list of the most important elements.
+
+<br>
+
+Round robin through the groups, what is one important piece of advice?
+- *ON BOARD: Hughes, Kraft, C&P*
+
+<br>
+
+Hughes 2007
+
+- Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should')
+
+Kraft 2011
+
+- Can be used to figure out where in the process to target different kinds of pressure. The "right" strategy depends on stage of the process
+- On the other hand, are we convinced these "stages" are really so distinct? How many feedback loops? How often does something go cleanly through the process?
+- In other words, how much does the end of that chapter (the complexities of the US system) put the lie to the process in the first half?
+
+C&P 2016
+
+- Makes a strong case for why a collaborative approach matters but the "required conditions" sound incredibly hard to achieve at anything but the very local level
+- Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+
+<br>
+
+**Longer Notes**
+
+DOC'S KEY approach (Hughes 2007, ch4)
+
+- People matter and perspectives differ (even on identical events)
+- Three types of problem and unstructured are the hardest to solve
+- DOC'S KEY: Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), Objectives (set clear targets), Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), Strategies (Brainstorm and be creative), Keepers (Choose the best strategy), Experiment (Test a strategy and adapt), Yes! (Implement)
+
+The Policy Process Model (Kraft 2011, ch3)
+
+Stages
+
+1. Agenda setting (critical stage, how a problem is perceived and how public reacts to it)
+2. Policy formulation
+3. Policy legitimation (giving legal force to decisions AND is the action perceived as legitimate)
+4. Policy implementation (Put the program into effect, fund and staff it)
+5. Policy and program evaluation
+6. Policy change
+
+Chapter ends by noting some of the unique complexities of the federal system of government in the US
+
+The Collaborative Approach to Environmental Conflict (C&P 2016, ch1 and 2)
+
+Chapter 1: Frames environmental conflict management as a communication process (2). Environmental problem-solving requires interdisciplinary approaches (4) to produce solutions that respect the identity (4) and culture (5) of the stakeholders, accounts for scientific uncertainty (7) and the discrepancies between issues and political boundaries (8).
+
+Chapter 2:
+
+- Complexity and difficulty of solving env problems encourage us to use a process that includes 11 important elements (p12)
+- Collaborative process should be adaptable, rely on appropriate science and tech, be implementable and have low transaction costs, has appropriate funding, is measurable, is socially legitimate
+- Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+- Benefits listed p18-
+:::
+
+
+
+
+## Let's design our own approach! {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+1. ?
+
+2. ?
+
+3. ...
+
+::: notes
+
+*Form NEW Groups!*
+- Let's keep moving!
+
+<br>
+
+Based on everything we've explored over the last three weeks PLUS the pre-class work you did, let's design our own series of key steps to attacking an environmental problem.
+
+- I'm not looking for you to copy out one of the processes described by a chapter.
+
+- I want you to think about what these processes tell us about environmental problem-solving at the domestic level.
+
+<br>
+
+Each group put your process on the board!
+
+*Present each and discuss*
+
+<br>
+
+**SLIDE**: Let me pitch you one possible version of a process.
+:::
+
+
+
+
+## A Possible (and evolving?) Process {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.incremental}
+::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) Consider **policy designs**...
+:::
+:::
+
+::: notes
+
+**Step 1 focuses on establishing a baseline on the problem**
+
+- Who or what is paying the costs?
+
+- What is the scientific basis of this problem?
+
+- What brought this problem to your attention?
+
+<br>
+
+**Step 2 asks you to investigate the stakeholders**
+
+- How do they define the basic concepts in play?
+
+- What are their preferred sources of wisdom or accountability?
+
+- Fundamentally speaking, do they already see this as a problem?
+
+<br>
+
+**Step 3 asks you to develop a problem framing that will draw in as many stakeholders as possible.**
+
+- Framing needs to present your problem in the most appealing light, AND
+
+- Make clear that this is a **public problem requiring a collective decision**
+
+<br>
+
+Step 4 still to come...
+
+<br>
+
+**SLIDE**: Let's evaluate this process across, what I think, are a few important criteria
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) Consider **policy designs**...
+:::
+
+<br>
+
+**If this is our process, where can regular people get involved in problem-solving?**
+
+::: notes
+
+First important criteria to me is that the process empowers individuals and groups in our community to make change.
+
+<br>
+
+### Does this proposed process do that? Why or why not?
+
+### - Could we strengthen this aspect?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) Consider **policy designs**...
+:::
+
+<br>
+
+**Is this process better at addressing some kinds of problems than others?**
+
+::: notes
+
+Second important criteria to me is that the process be adaptable to many different types of problem and community.
+
+<br>
+
+### Is this proposed process flexible enough to be useful? Why or why not?
+
+### - Could we strengthen this aspect?
+
+<br>
+
+Any big blindspots here?
+
+- Types of problem this cannot handle?
+
+- Systems this won't work in e.g. local vs state vs national vs global?
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) Consider **policy designs**...
+:::
+
+<br>
+
+**Does this process sufficiently incentivize small steps forward?**
+
+::: notes
+
+Finally, achieving change in society is hard, so I want a process that reinforces and incentivizes the small steps necessary to achieve great things
+
+<br>
+
+### So, does this process do that?
+
+### - Could we strengthen this aspect?
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+1. Miller (2009) ch3 on CAFE standards
+
+2. Grandoni, Siddiqui & Phillips (2021) on recent Biden Admin actions
+
+::: notes
+
+Thursday we shift our focus to analyzing stakeholders in a specific case study. 
+
+- Read Miller on CAFE standards, and
+
+- This more recent news piece on the Biden admin taking action on CAFE standards
+
+<br>
+
+### Questions on the assignment?
+:::

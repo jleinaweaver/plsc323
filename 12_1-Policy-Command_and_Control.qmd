@@ -1,0 +1,1596 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**II. Evaluating Policy Design Options**
+
+- "Command and Control" Regulations
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Put report 2 details on Canvas
+
+2. Prep discussion board for next class
+:::
+
+
+
+
+## The Semester: Three Sections {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. **The Basics of Problem-Solving in a Community**
+
+2. Evaluating Policy Design Options
+
+3. Designing Environmental Policies
+:::
+
+::: notes
+
+We've spent the last five weeks on section 1 of our class.
+
+- My hope is that this has given you a rough understanding of the basic ways you can organize your investigation of a societal problem.
+
+<br>
+
+Specifically we've explored:
+
+1) How "politics" matters for problem-solving
+- e.g. problems are often created by actions taken by individuals pursuing their own interests while interacting in a community
+
+<br>
+
+2) How "definitions" matter for problem-solving
+- e.g. problems often appear intractable simply because the stakeholders all define it differently
+
+<br>
+
+3) How "policy" matters for problem-solving
+- e.g. what a "good" policy needs, why it exists and how we might assess its effectiveness
+
+<br>
+
+Hopefully our work in Section 1 has helped you think more deeply about your chosen local environmental problem
+
+- e.g. whose actions have caused it, who benefits from its existence, what rules currently exist to address it, etc
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Evaluating Policy Design Options**
+
+1. Command & Control Regulations
+
+2. "Green" Taxes
+
+3. "Green" Subsidies
+
+4. Adaptive Governance
+:::
+
+::: notes
+
+Our next step in this process of addressing a local environmental problem job is to explore different policy design options.
+
+<br>
+
+Over the next four weeks we will analyze each of these approaches as tools for solving environmental problems.
+
+<br>
+
+**SLIDE**: At the end of this section you will write a report analyzing these four approaches as a fit for your environmental problem.
+:::
+
+
+
+## Paper 2 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Which of the four policy approaches is the "right" one for you?
+
+- Analyze the pros and cons of each option SEPERATELY for your chosen environmental problem
+
+::: notes
+
+The purpose of this paper is to help you select the "right" policy approach for your final policy proposal. 
+
+- To do that, this paper asks you to evaluate each design as a single, stand alone approach for addressing your problem
+
+- (e.g. without combining them to create a hybrid).
+
+<br>
+
+Your final policy proposal at the end of the semester may draw on as many approaches as you want, but this paper is a crucial step before that can happen. 
+
+- What are the pros and cons of using each design ALONE to tackle your problem?
+
+<br>
+
+My plan is that each week in this section of the class we'll attack these like we did the basic elements.
+
+- Each Tuesday I will give you readings on the background and a case to consider.
+
+- Each Thursday we'll apply the lessons to your specific environmental problems.
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Evaluating Policy Design Options**
+
+1. Command & Control Regulations
+
+2. "Green" Taxes
+
+3. "Green" Subsidies
+
+4. Adaptive Governance
+:::
+
+::: notes
+
+Today we start with the "command and control" policy approach.
+
+<br>
+
+### Big picture, explain to me what a "command and control" policy does to solve an environmental problem?
+
+- (**SLIDE**)
+
+:::
+
+
+## {background-image="Images/10-1-cartoon_measuring_smoke_stack.jpg" .center}
+
+::: notes
+
+[Command-and-Control Regulations](https://opentextbc.ca/principlesofeconomics/chapter/12-2-command-and-control-regulation/) represent a regulatory approach to reducing pollution
+- e.g. Government tells people what they can/can't do OR how they must do something
+
+<br>
+
+For Example:
+
+- You could put a ban on certain kinds of emissions (e.g. power plants may not release toxic mercury)
+
+- You could put a limitation on certain kinds of emissions (e.g. power plants may not release more than X pounds of toxic mercury)
+
+- You could mandate specific pollution-control technologies (e.g. power plants must install scrubbers that remove mercury from their emissions)
+
+<br>
+
+The Econ Textbook chapter I gave you argues that command-and-control approaches force polluters to pay the social costs of their pollution.
+
+- **SLIDE**: Let's talk about the economics of regulating pollution!
+
+:::
+
+## {background-image="Images/10-1-polluting_factory.jpg"}
+
+![](Images/10-1-simpsons-mr.-burns.png){.absolute width="30%" right=0 bottom=150}
+
+::: notes
+
+Imagine a local billionaire buys some land and builds a factory to produce widgets he can sell for a profit.
+
+<br>
+
+As part of the widget production process the factory emits a byproduct that:
+- makes the river water undrinkable, 
+
+- kills a local fishery, and 
+
+- adds enough fine particulate matter to the air to increase asthma rates, heart attacks and reduce the productivity of local farms.
+
+<br>
+
+### Why is this an example of pollution as an "externality"?
+
+<br>
+
+A market externality is "the effect of a market exchange on a third party who is outside or “external” to the exchange is called an externality" (OpenStax [Link](https://opentextbc.ca/principlesofeconomics/chapter/12-1-the-economics-of-pollution/))
+
+<br>
+
+The primary exchange here is a company selling widgets to consumers
+
+- The pollution impacts a third party, separate from that exchange
+
+- In other words, it is not the purpose of the factory to produce pollution, that is external to its primary market purpose
+
+<br>
+
+**In the absence of any laws against pollution, how many widgets should the factory owner produce?**
+
+<br>
+
+Per Econ 101, it depends on two primary factors:
+
+1. How much demand is there for the widgets?
+
+2. How expensive are they to produce? (e.g. marginal cost per unit)
+
+<br>
+
+In other words, and in the absence of environmental laws, the factory should produce widgets to meet the demand while remaining sensitive to the cost
+
+<br>
+
+### Make sense?
+
+<br>
+
+**SLIDE**: Let's do a quick refresher in marginal costs and demand!
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=6}
+## Let's build supply and demand curves
+p1 <- tibble(
+  Price = 1:100,
+  Quantity = 100:1
+) |>
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(x = "Quantity Produced", y = "Price per Widget")
+
+p1
+```
+
+::: notes
+
+[Time for a basic Econ 101 treatment of supply and demand](https://www.env-econ.net/negative-externality.html)
+
+<br>
+
+Here we see a visual representation of the factory owner's decision when running his factory.
+
+- On the y-axis are the different prices for a widget
+
+- On the x axis is the number of widgets produced
+
+<br>
+
+These are the two axes we need in order to illustrate demand, supply, profit and the effect of regulations on pollution levels.
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
+```
+
+::: notes
+
+This blue line is what we refer to as the supply curve.
+
+<br>
+
+### What does this "supply" line tell us about the production decision for this factory?
+
+- (The blue line represents the marginal cost per unit (MC) which tells you how much it costs to make one more widget at that level)
+
+- (The positive slope tells us that the cost per widget goes up as you produce more widgets)
+
+<br>
+
+### Why is it so often true that supply curves have a positive slope?
+
+### - In other words, why does producing more widgets typically cost more money?
+
+<br>
+
+- (**SLIDE**)
+
+:::
+
+
+## {background-image="Images/10-1-petroleum_seep.png" .center}
+
+::: notes
+
+Let's step through a hypothetical example to illustrate a positive sloped marginal cost curve.
+
+<br>
+
+Let's say you buy a piece of land that is rich in oil.
+
+<br>
+
+This photo shows what is called a "petroleum seep"
+- e.g. oil is bubbling up through the ground and onto the surface
+
+<br>
+
+As a wannabe tycoon, this makes your job super easy!
+
+- Just scoop the oil into barrels and sell it!
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
+```
+
+::: notes
+**At this point in your story, e.g. gathering oil from seeps, where are you on the supply curve?**
+
+- (**SLIDE**)
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("point", x = 5, y = 17.5, size = 5) +
+  annotate("text", x = 5, y = 28, label = "Seep")
+```
+
+::: notes
+
+Far left side of the curve. 
+
+- You are producing very little oil, but 
+
+- It costs you very little to collect, package and distribute it!
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("point", x = 5, y = 17.5, size = 5) +
+  annotate("segment", x = 5, xend = 5, y = 0, yend = 17.5, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 5, y = 17.5, yend = 17.5, linetype = "dashed") +
+  annotate("text", x = 5, y = 28, label = "Seep")
+```
+
+::: notes
+
+Specific to this proposed supply curve
+
+- You are producing about 5 barrels of oil per day
+
+- At a slightly better than break-even cost of $17 per barrel
+
+<br>
+
+### Does everybody understand how to translate a point on the curve to a quantity and price for widgets?
+
+<br>
+
+Congrats! This is really working and you're starting to make some money!
+
+- Unfortunately, you are limited to only 5 barrels per day using the seep and that's not going to keep you afloat!
+
+<br>
+
+So, what do you do?
+
+- **SLIDE**: Invest in production
+
+:::
+
+
+## {background-image="Images/10-1-oil_derrick.gif" .center}
+
+::: notes
+
+So you build an oil derrick in order to dig deeper and reach new oil supplies far under ground.
+
+<br>
+
+### How has building an oil derrick changed your business?
+
+- (Oil derrick construction is expensive and you have to pay upkeep to keep it running.)
+
+- (You have to hire a bunch of people to get them to run and maintain the equipment.)
+    - Each person gets a salary, benefits, insurance, etc.
+
+<br>
+
+**SLIDE**: Back to the curve
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("point", x = 5, y = 17.5, size = 5, alpha = .25) +
+  annotate("point", x = 55, y = 42.5, size = 5) +
+  annotate("segment", x = 55, xend = 55, y = 0, yend = 42.5, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 55, y = 42.5, yend = 42.5, linetype = "dashed") +
+  annotate("text", x = 5, y = 28, label = "Seep", alpha = .6) +
+  annotate("text", x = 55, y = 52, label = "Derrick")
+```
+
+::: notes
+
+Extracting more oil requires sizable investments in production
+
+- Sizable investments in production are only affordable if you can sell the oil at higher prices
+
+- You can now produce 55 barrels of oil per day, but the cost per barrel has now cleared $42
+
+<br>
+
+### Make sense?
+
+<br>
+
+You're doing well, but you know you can do better!
+
+- **SLIDE**
+:::
+
+
+
+## {background-image="Images/10-1-oil_rig.jpg" .center}
+
+::: notes
+
+Next step, take your company public!
+
+- You launch an IPO (sell shares on the stock market) and raise a fortune!
+
+<br>
+
+Unfortunately, investors demand infinite growth and the calls to fire you are getting louder.
+
+- You need to find more oil to sell...
+
+<br>
+
+**SLIDE**: SO, you build massive rigs in the ocean to really maximize your oil production.
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("point", x = 5, y = 17.5, size = 5, alpha = .25) +
+  annotate("point", x = 55, y = 42.5, size = 5, alpha = .25) +
+  annotate("text", x = 5, y = 28, label = "Seep", alpha = .6) +
+  annotate("text", x = 55, y = 52, label = "Derrick", alpha = .6) +
+  annotate("point", x = 90, y = 60, size = 5) +
+  annotate("segment", x = 90, xend = 90, y = 0, yend = 60, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 90, y = 60, yend = 60, linetype = "dashed") +
+  annotate("text", x = 90, y = 68, label = "Ocean\nRig")
+```
+
+::: notes
+
+You are now producing 90 barrels per day, which is great for you (and your shareholders)
+
+<br>
+
+But the costs have skyrocketed to $60 per barrel
+
+- Ocean damage (salt water is brutal), 
+
+- storms, 
+
+- pirates, 
+
+- huge numbers of employees who suddenly want to unionize,
+
+- harassment by environmental activists who argue you are destroying the planet...
+
+<br>
+
+I may be getting sidetracked.
+
+<br>
+
+### Is everybody clear on why we can assume increasing marginal costs of production?
+
+:::
+
+## {background-image="Images/10-1-polluting_factory2.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', out.width='40%', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5)
+```
+
+::: notes
+
+Back to the local factory
+
+<br>
+
+### Why can we probably assume increasing marginal costs for the widget factory?
+
+<br>
+
+The more widgets you want to make, the more materials, equipment, and staff you need to produce them
+
+- This is true for many, if not most, industrial production processes
+
+<br>
+
+Long story short, that's the supply curve and why it typically has a positive slope.
+
+- As you make more widgets, you have to charge more for each of them or you won't make a profit.
+
+<br>
+
+### Make sense?
+
+<br>
+
+**SLIDE**: Alright, let's talk demand which is the other half of this production function
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5)
+```
+
+::: notes
+
+Here's the demand curve.
+
+<br>
+
+### What do we learn about consumer demand for widgets from this negatively sloped line?
+
+- This indicates how many widgets people are willing to buy at different levels of the price.
+
+- Demand for widgets is price sensitive
+
+<br>
+
+**SLIDE**: For example
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("point", x = 25, y = 75, size = 3, color = "red") +
+  annotate("segment", x = 25, xend = 25, y = 75, yend = 0, color = "red", linetype = "dashed") +
+ annotate("segment", x = 0, xend = 25, y = 75, yend = 75, color = "red", linetype = "dashed") 
+```
+
+::: notes
+
+When the price is super high, few people are willing to buy the widgets.
+
+- For this factory, only 25 customers are willing to buy widgets at a $75 price point
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("point", x = 80, y = 20, size = 3, color = "red") +
+  annotate("segment", x = 80, xend = 80, y = 20, yend = 0, color = "red", linetype = "dashed") +
+  annotate("segment", x = 0, xend = 80, y = 20, yend = 20, color = "red", linetype = "dashed") 
+```
+
+::: notes
+
+However, as the price falls more customers are willing to purchase them
+
+- Here we see a price point of $20 finding customers for 80 widgets!
+
+<br>
+
+This can be a little confusing because the line is falling, but remember moving to the right means increasing the number of widgets made/sold.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 <- p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) +
+  annotate("text", x = 120, y = 67, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5)
+
+p2
+```
+
+::: notes
+
+In Econ 101 terms the factory owner should decide how many widgets to produce as a function of both curves
+
+- Here we see the marginal demand curve in red and the marginal cost curve in blue. 
+
+- Where the two lines cross is the point of equilibrium
+
+<br>
+
+### Why should the factory produce the number of widgets where the two lines cross each other?
+
+### - What is special about this equilibrium point?
+
+<br>
+
+Generally speaking, the equilibrium point maximizes the factory's profit
+
+<br>
+
+More precisely, this is the last point at which you can increase production of new widgets and still earn more than they cost to make
+
+
+<br>
+
+Beyond this point, making more widgets would require you to lower the price to find a buyer and the marginal costs begin to exceed the returns at the lower price
+
+<br>
+
+**SLIDE**: Let me illustrate this visually for you
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 56.5, y = 43, size = 4)
+```
+
+::: notes
+
+Here we see the sales for our factory at the equilibrium point
+
+- The red area represents the marginal costs of production (e.g. what you spend to make each widget in variable cost terms)
+
+- The blue area is the producer surplus (e.g. the sales at a level higher than what you need to break even)
+
+<br>
+
+**SLIDE**: In simple terms think of what each point along the supply line represents here.
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 10, y = 20, size = 3) +
+  annotate("point", x = 10, y = 43, size = 3) +
+  annotate("segment", x = 10, xend = 10, y = 23, yend = 40, arrow = arrow(length = unit(.15, "in"))) +
+  annotate("point", x = 56.5, y = 43, size = 4)
+```
+
+::: notes
+
+For example, the supply curve shows us that the 10th widget you produce costs you about $20 to make
+
+- But in this case, you are selling that $20 widget for $43!
+
+- A definite win for you!
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 56, 56, 0), y = c(0, 0, 43, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 35, y = 33, size = 3) +
+  annotate("point", x = 35, y = 43, size = 3) +
+  annotate("segment", x = 35, xend = 35, y = 35, yend = 41, arrow = arrow(length = unit(.15, "in"))) +
+  annotate("point", x = 56.5, y = 43, size = 4)
+
+# Total revenue
+revenue1 <- 56*43
+
+# Marginal Cost (triangle + square)
+rect_height <- 15
+rect_length <- 56
+
+tri_h <- 43-15
+tri_b <- 56
+
+# 1,624
+mc <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+
+# Producer surplus (v1)
+#revenue1 - mc
+
+# Producer surplus (v2)
+height <- 43-15
+base <- 56
+prod_surplus <- height*base/2
+```
+
+::: notes
+
+We can trace this logic along the line.
+
+- Here we see that the 35th widget we produce costs about $33, but again, we're sellig it for the equilibrium price of $43.
+
+<br>
+
+At each point of production below the equilibrium we are selling the widgets for more than it cost us to make them
+
+<br>
+
+BUT, as we move up the supply curve line, the marginal cost increases and the incentive for us to make another widget shrinks.
+
+<br>
+
+### Everybody understand the logic of the equilibrium point?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  #annotate("segment", x = 85, xend = 85, y = 57.5, yend = 0, linetype = "dashed") +
+  annotate("point", x = 85, y = 57.5, size = 6, color = "blue")
+```
+
+::: notes
+
+Let's make sure we understand this basic intuition about the incredible power of the equilibrium point.
+
+<br>
+
+### Why doesn't a factory owner want to produce 85 widgets in the business scenario described by these two curves?
+
+- (The cost of production for the 85th widget FAR, FAR exceeds what you can get for them!)
+
+<br>
+
+**SLIDE**: Illustrate the logic
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("segment", x = 85, xend = 0, y = 57.5, yend = 57.5, linetype = "dashed") +
+  annotate("segment", x = 85, xend = 85, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("polygon", x = c(0, 85, 85, 0), y = c(0, 0, 57.5, 15), fill = "pink3", alpha = .5) +
+  annotate("point", x = 85, y = 57.5, size = 6, color = "blue")
+
+# Cost area: rectangle + triangle
+rect <- 15*85
+triangle <- (85 * (57.5-15)) / 2
+#rect + triangle
+```
+
+::: notes
+
+The red area represents the sum of our marginal costs for producing those 85 widgets.
+
+- That's a lot of marginal cost!
+
+<br>
+
+Given these costs we'd need to sell our widgets for approximately $57 apiece
+
+<br>
+
+### Per this demand curve, how many widgets can we sell at this price point ($57)?
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("segment", x = 85, xend = 0, y = 57.5, yend = 57.5, linetype = "dashed") +
+  annotate("segment", x = 85, xend = 85, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("polygon", x = c(0, 85, 85, 0), y = c(0, 0, 57.5, 15), fill = "pink3", alpha = .5) +
+  annotate("polygon", x = c(0, 42, 42, 0), y = c(15, 36, 57.5, 57.5), fill = "cadetblue2", alpha = .5) +
+  annotate("point", x = 85, y = 57.5, size = 6, color = "blue") +
+  annotate("segment", x = 42, xend = 42, y = 0, yend = 57.5, linetype = "dashed") +
+  annotate("point", x = 42, y = 57.5, size = 6, color = "red")
+
+# Total revenue $2,415
+revenue2 <- 42*57.5
+
+# Marginal Cost (triangle + square)
+rect_height <- 15
+rect_length <- 85
+
+tri_h <- 57.5-15
+tri_b <- 85
+
+# 3,081
+mc2 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+
+# Producer surplus (v1) -$666
+revenue2 - mc2
+
+# Producer surplus (v2) - New blue area is bigger BUT costs have ballooned!
+rect_height <- 57.5-36
+rect_length <- 42
+
+tri_h <- 36-15
+tri_b <- 42
+
+# $1,344
+prod_sur2 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+```
+
+::: notes
+
+We trace the line for $57 onto the demand curve and it shows us there are only customers willing to buy 42 widgets at that price.
+
+<br>
+
+Per this plot we have 40 widgets we've paid for that are sitting in a warehouse costing us money that no one wants at these prices
+
+- In other words, we've spent the money to make widgets we can't sell
+
+<br>
+
+This represents a market surplus and that's really bad for the factory owner
+
+- Markets tend to exploit companies that screw up in this way
+
+- Prices fall and bankruptcies ensue
+
+<br>
+
+### Does this make sense in broad strokes?
+
+### - Is everybody clear about why you can't move up the supply curve just because you want to sell more widgets?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  #annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  #annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("point", x = 25, y = 27.5, size = 6, color = "blue")
+```
+
+::: notes
+
+Let's go the other way.
+
+### What happens if you choose to produce only 25 widgets?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("polygon", x = c(0, 25, 25, 0), y = c(15, 27.5, 75, 75), fill = "cadetblue2", alpha = .5) +
+  annotate("polygon", x = c(0, 25, 25, 0), y = c(0, 0, 27.5, 15), fill = "pink3", alpha = .5) +
+  annotate("segment", x = 25, xend = 25, y = 0, yend = 75, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 25, y = 75, yend = 75, linetype = "dashed") +
+  annotate("point", x = 25, y = 27.5, size = 6, color = "blue") +
+  annotate("point", x = 25, y = 75, size = 6, color = "red")
+
+# # Total revenue: 1,875
+# rev3 <- 25*75
+# 
+# # Marginal Cost (triangle + square): $531
+# rect_height <- 15
+# rect_length <- 25
+# 
+# tri_h <- 27.5-15
+# tri_b <- 25
+# 
+# mc3 <- (rect_height * rect_length) + (tri_h * tri_b / 2)
+# 
+# # Producer surplus (v1) 1,343
+# rev3 - mc3
+```
+
+::: notes
+
+Per this demand, you could charge $75 per widget which represents a HUGE profit per widget
+
+<br>
+
+However, you're leaving a fortune on the table and other companies are always looking for underserved markets!
+
+<br>
+
+According to this plot there is still quite a bit of production that can be done at prices low enough to satisfy consumer demand.
+
+- And just as before, markets respond to these screw ups in aggressive fashion
+
+- Where market demand exists but it is being unmet you are begging for competitors to come in and compete with you!
+
+<br>
+
+### Make sense?
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "lightblue", alpha = .5)
+```
+
+::: notes
+**Any questions on why the equilibrium point is a powerful motivator of factory production behavior?**
+
+<br>
+
+Alright, let's bring the environment back into this story.
+
+### Where does environmental harm exist on this hunt for equilibrium?
+
+- (**SLIDE**: It doesn't!)
+
+:::
+
+
+## {background-image="Images/10-1-cayuhoga-river-fire.jpg" .center}
+
+::: notes
+
+From this perspective, e.g. supply and demand, pollution is a problem of externality
+
+- It is a cost imposed on a third party outside the primary exchange of factory selling widgets to a consumer
+
+- Technically, these harms are separate to both the demand and the supply curves
+
+<br>
+
+This means that in a world with no environmental regulations the factory owner gets to make money and we all pay the costs of his/her business.
+
+- Hence our crazy polluted sky and water.
+
+<br>
+
+### Anybody recognize this famous photo?
+
+<br>
+
+The Cuyahoga River in Ohio was once one of the most polluted rivers in the United States.
+
++ It has caught fire a total of 13 times dating back to 1868, including this blaze in 1952.
+
++ Yes, the RIVER was so full of crap being dumped into it by steel mills and other industry it was able to catch fire.
+
++ That probably shouldn't happen.
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=0.618, fig.align='center', fig.width=8}
+p2 +
+  annotate("segment", x = 0, xend = 56, y = 43, yend = 43, linetype = "dashed") +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed") +
+  annotate("polygon", x = c(0, 56, 0), y = c(15, 43, 43), fill = "lightblue", alpha = .5)
+```
+
+::: notes
+
+Imagine the government decides to impose a command and control style regulation on the factory that limits its emissions into the air and water
+
+<br>
+
+### How would that change the supply and demand lines on this plot?
+
+- (**SLIDE**: Raises the MC curve)
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Regs)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", size = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5)
+  #annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed", color = "grey")
+  #annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  #annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed")
+```
+
+::: notes
+
+Here we see the effect of the regulation.
+
+- The marginal cost of producing each widget is increased to pay for the new processes required to be a cleaner factory
+
+- e.g. the cost of installing scrubbers on the smoke stack or cleaning the waste before dumping it into the river
+
+<br>
+
+### Does this make sense?
+
+<br>
+
+### What has this new regulation done to the market for widgets?
+
+- (**SLIDE**)
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.asp=0.618, fig.align='center', fig.width=8, cache=TRUE}
+p1 +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("text", x = 115, y = 85, label = "Supply\n(MC + Regs)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", size = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("segment", x = 56, xend = 56, y = 43, yend = 0, linetype = "dashed", color = "grey") +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed")
+```
+
+::: notes
+
+The equilibrium point has shifted to the left
+
+- The factory owner will now maximize profits by producing fewer widgets at a higher price, AND
+
+- Hopefully, each widget now produces fewer negative externalities than before
+
+<br>
+
+The benefit to society is that a command and control approach has the capacity to decrease the pollution immediately.
+
+- In essence, this regulation forces the factory owner to pay for the harms they are imposing on the rest of us.
+
+- Society still gets its widgets, but production of the widgets is now balanced against environmental harms.
+
+<br>
+
+### And why can't a factory owner simply produce the same number of widgets as before but sell them at the new higher price?
+
+- The market equilibrium point is self-enforcing!
+
+- If you produce more expensive widgets you can't sell you will go bankrupt
+
+<br>
+
+### Does this make sense?
+
+<br>
+
+### Is this process of increasing marginal costs and reducing the number of widgets automatically a bad thing for the economy?
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="Images/07-1-clean_tech.webp" .center}
+
+::: notes
+
+(Not necessarily!)
+
+<br>
+
+FIRST, a cleaner environment can have massive economic and health impacts
+- More people healthy, living longer, being more productive
+
+<br>
+
+SECOND, newer, cleaner technologies and refurbishing old buildings, etc. can boost employment!
+- You could absolutely employ more people than under the old system
+    
+<br>
+
+Anyone who tells you this process is always bad or always good is not someone you should take seriously.
+
+- Many, many complicated feedbacks to consider...
+
+<br>
+
+### Questions on the basics?
+
+<br>
+
+### Did this long walk along the Econ path help?
+:::
+
+
+## Federal Air Pollution Regulations {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
++ Air Pollution Control Act (1955)
+
++ Clean Air Act (1963)
+
++ The Air Quality Act (1967)
+
++ Clean Air Act Amendments (1970)
+
++ Clean Air Act Amendments (1977)
+
++ Clean Air Act Amendments (1990)
+
+::: notes
+
+For today I assigned you a collection of readings that we can treat as a crash course in the Clean Air Act (CAA).
+
+<br>
+
+What we'll refer to as the CAA is actually a reference to a series of laws (and amendments) over time.
+
+- Typically, when someone is talking about the CAA they could be referring to any of these primary sources (or the follow-on regulations created under the authority of these laws)
+
+<br>
+
+My goal is to use this material as a case study for thinking about how command and control regulations work, who pays their costs and who gets their benefits.
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '85%'}
+knitr::include_graphics("Images/06_1-EPA_CAA_Nutshell.png")
+```
+
+::: notes
+
+Everybody open up the ["The Clean Air Act in a Nutshell: How It Works"](https://www.epa.gov/clean-air-act-overview/clean-air-act-nutshell-how-it-works) document produced by the EPA.
+
+<br>
+
+Let's go through this document to build a list of C&C regulations created under the CAA on the board.
+
+- What I'm looking for are specific rules targeted at specific problems AND specific actors
+
+- Go!
+
+<br>
+
+*ON BOARD*
+
+- *Note: the EPA document is organized in its ToC around targeting specific problems if the class needs guidance*
+
+- ?
+
+<br>
+
+*Split class into groups (5 per group gets you 4 groups)*
+
+- Go sit with your group!
+
+<br>
+
+I need each group to pick one of the rules on the board
+
+- *Divy them out*
+
+:::
+
+
+## Analyze the CAA Rule {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+- Who does the rule target?
+
+- What does the target have to do?
+
+- Who enforces the rule?
+
+- What is the punishment for violating the rule?
+
+::: notes
+
+Groups, take 10 minutes to do some Googling!
+
+- Get ready to present your rule to us with whatever details you can find on these four elements of your rule
+
+- Be as specific as possible in each of these!
+    - Enforcement by EPA? By WHO? Which part? Who does this work?
+
+<br>
+
+### Questions?
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next question for our case study, has the CAA been effective?
+
+:::
+
+
+## {background-image="Images/10-1-1970s_Air_Pollution.webp" .center background-size='87%'}
+
+::: notes
+
+A couple big picture takeaways we have to acknowledge when evaluating the CAA
+
+<br>
+
+Per the WHO, particulate matter (PM) is a common proxy indicator for air pollution. 
+
++ It affects more people than any other pollutant. 
+
+<br>
+
+The major components of PM are sulfate, nitrates, ammonia, sodium chloride, black carbon, mineral dust and water. 
+
++ Chronic exposure to particles contributes to the risk of developing cardiovascular and respiratory diseases, as well as of lung cancer.
+
++ This means at high levels it tends to correlate with serious decreases in life expectancy.
+
+<br>
+
+WHO guidelines for 2021 break PM into coarse PM (< 10 microns) and fine PM (< 2.5 microns)
+
+- The guideline is to keep Fine PM below 15 micrograms and coarse PM below 45. (annual means)
+
+<br>
+
+The smallest circle here is 57 micrograms
+
+- **So, in 1970 EVERY circle on this map FAR exceeds WHO danger thresholds.**
+
+- And this is just where the monitoring was sufficient for reporting
+:::
+
+## {background-image="Images/10-1-WP-PM_US_Map_2014.webp" .center background-size='65%'}
+
+::: notes
+
+50 years later and things look VERY different.
+
+- Note here that dark red, the wors level, is only 19.7 micrograms!
+
+- Still dangerous, but the 1970 map bottomed out at 57!!!!
+
+<br>
+
+The research has been fairly resounding that air quality standards have improved dramatically over time.
+
+- You can see impressive improvements since the 1970s in this plot.
+
+<br>
+
+Notes of caution:
+
+- Too much red still on this map in areas above the WHO danger threshold, and
+
+- Over the last few years things have stopped improving. Not quite getting worse but with so much red on this map we need to keep making progress!
+
+<br>
+
+### Notes
++ EPA PM tracking plots across time
++ https://www.epa.gov/air-trends/particulate-matter-pm25-trends#pmnat
+:::
+
+
+## {background-image="Images/10-1-RFF-GDP_vs_Pollution.png" .center background-size='75%'}
+
+::: notes
+
+The remarkable piece of this story is captured a bit in this plot.
+
+- Here we see a visualization from Resources for the Future using data from the Federal Reserve.
+
+- This line plot shows us the trends over time of six common air pollutants AND GDP (the size of the US economy)
+
+<br>
+
+The fear was that reducing industrial production would harm our economy, but...
+
+- That hasn't happened!
+
+- All the while we've been using C&C regulations to address our air pollution problems our economy has kept growing!
+
+<br>
+
+**SLIDE**: The question is, can we credit the CAA with any of these outcomes or is it purely a coincidence?
+:::
+
+
+
+## {background-image="Images/10-1-Shapiro_Walker-Fig5.png" .center background-size='85%'}
+
+::: notes
+**What is the answer to this question according to the [Williamson (2016)](https://www.theregreview.org/2016/11/24/williamson-do-environmental-regulations-really-work/) reading for today?**
+
+- **"Do environmental regulations really work"?**
+
+<br>
+
+Williamson summarizes research by Walker and Shapiro who argue:
+
++ "By investing more capital in pollution control technology..., businesses had the capacity to produce more output while emitting fewer pollutants. Accordingly, this observation explains most of the air pollution reduction observed from 1990 to 2008."
+
++ They build a series of models that can simulate a counter-factual for emissions in the absence of the CAA. These show that in the absence of the regs, emissions much higher!
+
+<br>
+
+As I noted, the research is pretty overwhelming on this point.
+
+- The CAA has led directly to dramatic improvements of air quality across time.
+
+<br>
+
+### Notes
+
+The actual Shapiro and Walker article is CRAZY dense econometrics
+
+- Cool, right::: notes Maybe?
+
++ "To demonstrate the effectiveness of EPA’s Clean Air Act regulations, Shapiro and Walker also modeled carbon dioxide (CO 2 ), an air pollutant that EPA did not regulate during the study’s time period. EPA and Census data show that there was nearly no regulation of CO 2 from 1990 to 2008. In addition, CO 2 emissions did not noticeably change during this time period."
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/06_1-Elliott_top.png")
+```
+
+::: notes
+
+Ok, so CAA worked AND it was scary costly to industries across the country.
+
+- Then how did we get it done?
+
+<br>
+
+From 1989 through 1991, Donald Elliott served as General Counsel of the U.S. Environmental Protection Agency, where he was the primary legal advisor to EPA Administrator William Reilly. 
+
+- This means he was deep in the heart of the work to amend the CAA in 1990.
+
+<br>
+
+### What does Elliott credit with the government's successful effort to make these laws?
+
+<br>
+
+### Any policy-making advice we can take from Elliott that would help you design a C&C policy?
+
+<br>
+
+Notes
+
+He cites five main principles
+
+1. Establish and communicate clear priorities
+
+2. Develop a specific plan, with clear responsibilities and deadlines
+
+3. Early collaboration and cost-effective implementation
+
+4. Let others take the credit and win over the opposition
+
+5. Learn the lessons of history and keep it simple, stupid
+
+:::
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/06_1-WSJ_article.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/06_1-WSJ_article2.png")
+```
+:::
+::::
+
+::: notes
+
+Ok, lots of good news here, but let's not pretend the CAA hasn't been costly and that a 50 year old law is the right policy for the future!
+
+<br>
+
+### Per this article by Power (2010) what are the strongest reasons the CAA might not be the right tool going forward?
+
+<br>
+
+CAA Cons:
+
++ regulators don't have to consider costs when setting pollution standards
+
++ Even some experts who think the law is beneficial say its implementation has been overly expensive:
+
++ Because the law is so rigid, they argue, innovative pollution-fighting ideas are sometimes stifled, driving up costs.
+
++ Other critics say the law has a big blind spot: It gives the Environmental Protection Agency too little authority to combat pollution from one state that drifts into another
+
++ Many state and local governments, meanwhile, grumble about another aspect of the law: Even when they ratchet down emissions in their backyard, they say, they still wind up violating federal standards, because of pollution that blows from other jurisdictions.
+
+<br>
+
+### How persuasive do you find these arguments? Why or why not?
+:::
+
+
+## What are the pros and cons of using C&C regulations to address an environmental problem? {background-image="Images/background-forest_v3.png" .center}
+
+::: notes
+
+Let's end today with key takeaways.
+
+*ON BOARD*
+
+<br>
+
+Pros: 
+
+- Useful when the danger is most serious or time sensitive; 
+- when the problem/solution is well understood; 
+- when success demands compliance (flexibility is too risky), 
+- Clear lines of oversight and mechanisms of enforcement.
+
+Cons: 
+
+- Often inspires backlash (huge stakeholder opposition), 
+- government is often not great at "picking winners", 
+- offers no incentive to improve the quality of the environment beyond the standard set by a particular law, 
+- is inflexible, 
+- written by legislators and the EPA, and so they are subject to compromises in the political process, 
+- Almost certainly inefficient (slow to implement, slow to adapt, inconsistently enforced)
+:::
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
+
+::: notes
+
+Your assignment for Thursday is to help you get started writing the next report!
+
+<br>
+
+Now that you have the basics of this policy approach down, we need to see it in action.
+
+- And, even better, we need to see it in action targeting the type of problem you are working on!
+
+<br>
+
+So, before class Thursday **find and submit to CANVAS** an example of a **SPECIFIC C&C regulation** targeted at a problem that looks like the one you are working on.
+
+<br>
+
+Now REMEMBER, your problem is both environmental AND behavioral!
+
+- This means you could find a regulation that targets the specific type of problem you are working on, OR
+
+- You could find a regulation that targets the specific kinds of stakeholders you are working to influence!
+
+<br>
+
+### Does that make sense?
+
+- Lots of options here and you aren't necessarily trying to find something that targets your problem + stakeholders precisely!
+
+:::
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
+
+**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using C&C regulations.
+
+::: notes
+
+**Part 2**
+
+Your Canvas submission should be **AN ARGUMENT**: This case shows that addressing issue X can be done using policy design Y.
+
+- Include an APA citation to the evidence
+
+### Questions?
+:::
+
+

@@ -1,0 +1,2118 @@
+---
+format: revealjs
+---
+
+# Today's Agenda {background-image="Images/background-forest_v3.png" }
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+**II. Evaluating Policy Design Options**
+
+- "Green" Tax Policies
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Publish discussion board for next class
+:::
+
+
+
+## Assignment 4 {background-image="Images/background-forest_v3.png" }
+
+**Getting Involved in our Community**
+
+<br>
+
+**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
+
+**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
+
+::: notes
+
+Reminder, you have until April 26th to complete your community involvement piece of the project.
+
+- Don't let this fall off your radar
+
+- don't forget you must get my sign-off on the proposal as a Canvas assignment!
+
+- Spring Break is coming up and that's often a great time to get involved outside!
+
+<br>
+
+### Questions on this assignment?
+:::
+
+
+
+## Section 2 {background-image="Images/background-forest_v3.png"  .center}
+
+**Evaluating Policy Design Options**
+
+<br>
+
+1.  **Command & Control Regulations**
+
+2.  "Green" Taxes
+
+3.  "Green" Subsidies
+
+4.  Adaptive Governance
+
+::: notes
+
+Last week we explored command and control regulations.
+
+<br>
+
+### In broad strokes, what does it mean to use C&C regulations to address an environmental problem?
+
+- (Create rules that alter the behavior of specific actors)
+
+- Examples:
+    - Firms/Consumers must use technology X, OR
+    
+    - Firms/Consumers cannot emit more than a set limit of pollution Y
+
+<br>
+
+In Econ 101 speak, per the textbook: C&C means using rules to force polluters to adapt their production functions to the social costs of pollution
+
+- **SLIDE**: What does that mean? Back to the picture!
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 <- tibble(
+  Price = 1:100,
+  Quantity = 100:1
+) |>
+  ggplot(aes(x = Quantity, y = Price)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 20)) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(x = "Quantity Produced", y = "Price per Widget") +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "red", linewidth = 1.3) +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5)
+
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", linewidth = 1.3) #+
+  #annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  #annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed")
+```
+
+::: notes
+**What does the supply line represent and why is it increasing?**
+
+- (Marginal costs e.g. amount it costs to produce one more widget)
+
+- (Assumes marginal costs increase with quantity of product produced, e.g. sourcing more materials for your factory or building new equipment to extract oil from harder to work places, etc.)
+
+<br>
+
+### What does the demand line represent and why is it decreasing?
+- (Amount of widgets you can sell at a given price point)
+
+- (Only so many people want the product at all and (almost) everyone's desire for it will be sensitive to the price you charge for it.)
+
+<br>
+
+### As the owner of the factory how many widgets should I make?
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed")
+```
+
+::: notes
+
+The equilibrium point, where the lines cross, maximizes your profit!
+
+- The point where you balance the marginal costs of production against the demand of your customers at a given price point
+
+<br>
+
+### Why shouldn't I, the factory owner, simply make more widgets in order to boost my profits?
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed") +
+  annotate("text", x = 80, y = 60, label = "Racing to Bankruptcy", srt = 20, size = 4, color = "darkred")
+```
+
+::: notes
+
+Marginal cost per widget goes up SO you have to charge more for each of them, BUT consumers don't want your widgets at those prices
+
+- You are now losing money (in ever growing amounts) for every extra widget you produce
+
+- So, push up the line and go bankrupt!
+
+<br>
+
+### And why shouldn't I, the factory owner, reduce the number of widgets I make in order to take advantage of the very high demand for a small number of widgets?
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed") +
+  annotate("text", x = 80, y = 60, label = "Racing to Bankruptcy", srt = 20, size = 4, color = "darkred") +
+  annotate("text", x = 23, y = 22, label = "Invite Competition", srt = 21, size = 4, color = "darkred")
+```
+
+::: notes
+
+1. (You're leaving profit on the table, and)
+
+2. (You're daring other companies to come into your market in order to meet the consumer demand!)
+
+<br>
+
+The key for us here is to acknowledge how powerful the equilibrium point is for determining the behavior of the factory!
+
+- The equilibrium point will be somewhat self-enforcing!
+
+<br>
+
+### Now then, what happens if we add a C&C regulation requiring new, cleaner technology be added to the factory?
+
+- (**SLIDE**)
+:::
+
+  
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 90, label = "Supply\n(+ C&C)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3)
+```
+
+::: notes
+
+Rules that mandate emissions limits or the specific technology a factory has to use increases the marginal costs of production.
+
+- This shifts the equilibrium point to the left
+
+- The results: The factory will produce fewer widgets, the price for widgets goes up and the amount of pollution created goes down
+
+<br>
+
+And remember, this is not always a net negative for the economy!
+
+- Regulation design matters!
+
+- Higher costs can inspire innovation and efficiency
+    - New products can come online to replace the older, dirtier widgets
+
+- Higher costs and unmet demand can inspire competition
+
+<br>
+
+### Any questions on the basics of the approach?
+:::
+
+
+## {background-image="Images/10-1-cartoon_measuring_smoke_stack.jpg"}
+
+::: notes
+
+Last week we explored this approach to environmental problem-solving using case studies, opinion pieces and reviews of empirical research.
+
+### Bottom line, what do we, as policy-designers, need to keep in mind if we chose to address an environmental problem with command and control type regulations?
+
+<br>
+
+- Piggy-back on established institutions for support in oversight and enforcement
+
+- Useful especially if the problem is particularly dangerous or time horizons are VERY long
+
+- Be careful of economy wide effects (overall effect on the economy is hard to predict, could grow or shrink depending on many other factors involved)
+    - Must be paired with assistance for impacted workers?
+
+- Be careful of political interests in the design (lobbying and/or protection of well connected industries)
+
+- Regulations have got to keep up with changes in the market and technology (no drift!)
+
+- Depends on balance of "dirty" vs "clean" industries in the target economy
+
+- C&C most realistic if changes are small OR industries carefully targeted?
+
+- Enforcement at the individual level is hard if community doesn't buy-in
+
+<br>
+
+### In terms of your projects, is anybody leaning towards C&C so far? Why?
+
+<br>
+
+### Has anybody ruled it out completely? Why or why not?
+:::
+
+
+## Policy Design: "Green" Taxes {background-image="Images/11-1-Green_taxation_v2.png"}
+
+::: notes
+
+This week we shift to your next policy design option: "Green" taxation policies ([12.3 Market-Oriented Environmental Tools (OpenStax 2016)](https://openstax.org/books/principles-economics-3e/pages/12-3-market-oriented-environmental-tools))
+
+<br>
+
+Let's talk textbook treatment of the approach first.
+
+- Note that the textbook chapter also explores marketable permits and property rights as other ways to use the market to address pollution.
+
+- We'll focus this week just on the tax piece: "Pollution Charges"
+
+<br>
+
+### In super broad strokes, what does it mean to use a tax to address an environmental problem?
+
+- (Apply a charge to some behavior (emitting pollution) forcing the polluter to consider cutting back on those emissions)
+
+- (Instead of mandating a specific technology or emissions limit with a rule, use a tax to make some of the costs of the pollution you create part of your production function)  
+
+<br>
+
+Like last week, let's walk through some of the key elements of this mechanism before we dig into the political arguments about it.
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 90, label = "Supply\n(+ C&C)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 35, yend = 85, color = "blue", size = 1.3) +
+  annotate("segment", x = 43, xend = 43, y = 56, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 43, y = 56, yend = 56, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "grey", size = 1.3)
+```
+
+::: notes
+
+Let's root ourselves back in the logic of how a C&C regulation increases the marginal costs of production.
+
+- The key here is that our C&C regulations are essentially treating all factories the same way
+
+- Every polluter must limit their emissions or adopt a new technology (e.g. smokestack scrubber X)
+
+<br>
+
+HOWEVER, it turns out that:
+
+1. Not every factory has the same slope on their supply curve, and 
+
+2. It can be really hard for the government to know what the "right" regulation should be
+
+<br>
+
+**SLIDE**: Let's now try thinking about factories as engines of pollution
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## The Basics of Carbon Pricing
+## Set up the plot, clarify the axes
+p3 <- tibble(
+  Abatement_cost = 0:100,
+  Pollution = 0:100
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 100, 25), limits = c(0,100)) +
+  scale_y_continuous(breaks = seq(0, 100, 25), labels = str_c("$", seq(0, 100, 25))) +
+  labs(x = "Quantity of Pollution", y = "Price per unit of Pollution") 
+
+p3
+#ggtitle("The Basics of Taxing Pollution: A Single Firm")
+```
+
+::: notes
+
+In a sense, we don't actually care how many widgets a factory makes.
+
+- Our interest is in how much pollution they make and what it would cost to reduce it
+
+<br>
+
+This plot represents the pollution behavior of a single firm (e.g. widget factory)
+
+- The x-axis: The amount of pollution emitted
+
+- The y-axis: The price per unit of pollution
+
+<br>
+
+**SLIDE**: Let's start with a baseline of zero regulations or taxes on pollution.
+:::
+
+
+## The Basics of Taxing Pollution {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed") +
+  annotate("point", x = 56.5, y = 43, size = 5, color = "blue")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+## Pollution with zero tax
+p3 +
+  #annotate("segment", x = 0, xend = 100, y = 0, yend = 0, linetype = "dashed") +
+  annotate("point", x = 100, y = 0, size = 5, color = "blue")
+```
+:::
+
+::::
+
+::: notes
+
+Let's put our two plots side-by-side so we keep the story clear
+
+<br>
+
+The blue dot on each plot represents the current baseline for the factory
+
+- On the left, the production dot is at the equilibrium between supply and demand
+
+- On the right, the production dot is at 100 units of pollution
+
+<br>
+
+So, we begin this hypothetical with a factory producing 57 widgets and 100 units of pollution
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal cost of abatement
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm")
+```
+
+::: notes
+
+The first thing we need to estimate is the factory's marginal cost of abatement
+
+- The line tells us how much it costs the factory to reduce its pollution by one unit at a time
+
+<br>
+    
+Moving from right to left represents the cost of eliminating one more ton of emissions
+
+- e.g. adopt new technology, better processes, swapping components, etc.
+
+- Cost is super low at first, but becomes higher and higher as emissions approach zero.
+
+<br>
+    
+**SLIDE**: For example...
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal cost of abatement
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm") +
+  annotate("segment", x = 75, xend = 75, y = 0, yend = 25, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 75, y = 25, yend = 25, linetype = "dashed") +
+  annotate("point", x = 75, y = 25, size = 4)
+```
+
+::: notes
+
+Each point on the curve is the marginal cost so corresponds to a 1-unit change in pollution
+
+<br>
+
+Example: If we wanted to cut the factory's 75th unit of pollution (e.g. down to 74 units) it would cost $25
+
+<br>
+
+**SLIDE**: Example 2
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal cost of abatement
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm") +
+  annotate("segment", x = 25, xend = 25, y = 0, yend = 75, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 25, y = 75, yend = 75, linetype = "dashed") +
+  annotate("point", x = 25, y = 75, size = 4)
+```
+
+::: notes
+
+At the other end the costs go up dramatically
+
+- Example: If we wanted to cut the factory's 25th unit of pollution (e.g. down to 24 units) it would cost $75
+
+<br>
+
+### Does it make sense that the marginal cost of abatement has a negative slope? Why?
+
+- *Force the class to explain the intuition*
+
+<br>
+
+If this plot is meant to help us think about the costs of pollution then this is only half of the equation.
+
+### Who in society also pays the costs of the pollution produced by this factory?
+
+<br>
+
+- (**SLIDE**: Society!)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal external cost
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm")
+```
+
+::: notes
+
+This red line represents the marginal external cost of the pollution.
+
+<br>
+
+### Can anybody tell us what this means? How to read this line?
+
+<br>
+
+The marginal external cost of the pollution estimates the harms done by the factory's pollution
+- e.g. smog leading to more asthma cases and heart attacks, river pollution killing fisheries, etc
+
+<br>
+
+### Why is the slope of the line positive?
+
+- The cost is assumed to rise as emissions increase
+
+- A tiny bit of pollution is hardly noticeable, but as it increases so too do the harms
+
+<br>
+
+**SLIDE**: Example
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal external cost
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm") +
+  annotate("segment", x = 25, xend = 25, y = 0, yend = 25, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 25, y = 25, yend = 25, linetype = "dashed") +
+  annotate("point", x = 25, y = 25, size = 5)
+```
+
+::: notes
+Example: The 25th unit of pollution does $25 worth of harm to society
+
+- Small harms for small amounts of pollution
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal external cost
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm") +
+  annotate("segment", x = 75, xend = 75, y = 0, yend = 75, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 75, y = 75, yend = 75, linetype = "dashed") +
+  annotate("point", x = 75, y = 75, size = 5)
+```
+
+::: notes
+
+Example: the 75th unit of pollution does $75 worth of harm to society
+
+- Big pollution = Big harms
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Add marginal external cost
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 87, y = 30, label = "Marginal cost\nof abatement") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "Marginal external\n cost") +
+  ggtitle("The Basics of Taxing Pollution: A Single Firm")
+```
+
+::: notes
+
+So, these two lines represent the pollution problem from both the factory and societies' perspectives.
+
+<br>
+
+You will not be shocked to discover that many economists argue our goal should be to reduce pollution to the equilibrium point between these two lines!
+
+<br>
+
+**SLIDE**: Let's examine how a green tax works as a way to understand the argument in favor of the equilibrium
+:::
+
+
+
+## The Basics of Taxing Pollution {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+## Let's build supply and demand curves
+p1 +
+  annotate("text", x = 115, y = 72, label = "Supply\n(MC)", size = 5, color = "blue", hjust = .5) +
+  annotate("segment", x = 0, xend = 100, y = 15, yend = 65, color = "blue", size = 1.3) +
+  annotate("segment", x = 56.5, xend = 56.5, y = 43, yend = 0, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 56.5, y = 43, yend = 43, linetype = "dashed") +
+  annotate("point", x = 56.5, y = 43, size = 5)
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 92, y = 1, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 92, y = 100, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 100, xend = 100, y = 0, yend = 100, linetype = "dashed") +
+  ggtitle("No Regulations or Taxes") +
+  annotate("point", x = 100, y = 0, size = 5, color = "darkblue") +
+  annotate("point", x = 100, y = 100, size = 5, color = "darkred")
+```
+:::
+::::
+
+::: notes
+
+Back to our starting point: A factory producing at the equilibrium between supply and demand.
+
+<br>
+
+### Who is currently paying the costs for this factory's pollution?
+
+- (Society is paying the cost for ALL of the factory's pollution up to the 100th ton at a cost of $100)
+
+- The factory is paying nothing for dealing with its pollution
+
+- The definition of a negative externality
+
+<br>
+
+**SLIDE**: And now the tax!
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 25, yend = 25, linetype = "dashed") +
+  ggtitle("Setting a $25 Tax on Pollution") +
+  annotate("point", x = 100, y = 0, size = 5)
+```
+
+::: notes
+
+Imagine we place a $25 tax on EVERY ton of pollution produced by this factory.
+
+- Here I'm focusing just on the effect of the tax on the factory as determined by its marginal cost of abatement.
+
+<br>
+
+Remember, we're beginning at our baseline which is that the factory is emitting 100 units of pollution.
+
+- Thinking through the effect of this tax requires us to remember that these are MARGINAL cost curves
+
+- e.g. the cost to reduce each one unit of pollution
+
+<br>
+
+### So, according to this marginal cost of abatement curve, how much does it cost for the factory to reduce its pollution by 1 unit (e.g. move from 100 to 99 units)?
+
+- (**SLIDE**: $1)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 25, yend = 25, linetype = "dashed") +
+  ggtitle("Setting a $25 Tax on Pollution") +
+  annotate("segment", x = 0, xend = 100, y = 1, yend = 1, linetype = "dashed") +
+  annotate("point", x = 100, y = 0, size = 2, color = "blue") +
+  annotate("point", x = 100, y = 25, size = 2, color = "red") +
+  annotate("segment", x = 100, xend = 100, y = 20, yend = 5, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 99, y = 1, size = 1)
+```
+
+::: notes
+
+Hard to see, but a decrease of this 1 unit of pollution costs the factory $1
+
+<br>
+
+### Focused just on the 100th unit of pollution, if you're the factory owner would you rather pay the $25 tax or spend $1 to make your factory cleaner?
+
+- (Cleaning up your act is cheaper at the 100th unit)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 25, yend = 25, linetype = "dashed") +
+  ggtitle("Setting a $25 Tax on Pollution") +
+  annotate("segment", x = 0, xend = 100, y = 10, yend = 10, linetype = "dashed") +
+  annotate("point", x = 90, y = 10, size = 2, color = "blue") +
+  annotate("point", x = 90, y = 25, size = 2, color = "red") +
+  annotate("segment", x = 90, xend = 90, y = 22, yend = 13, arrow = arrow(ends = "both", length = unit(0.1, "inches")))
+```
+
+::: notes
+
+Humor me and let's keep tracking the logic.
+
+<br>
+
+As we move up the curve, cutting pollution gets more expensive.
+
+<br>
+
+### Would you rather pay the government $25 to emit the 90th unit of pollution or spend $10 to make your factory cleaner?
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  #annotate("text", x = 92, y = 100, label = label2, parse=TRUE) +
+  #annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 0, xend = 75, y = 25, yend = 25, linetype = "dashed") +
+  annotate("segment", x = 75, xend = 75, y = 0, yend = 25, linetype = "dashed") +
+  ggtitle("Setting our Pollution Tax: $25") +
+  annotate("point", x = 75, y = 25, size = 5)
+```
+
+::: notes
+
+We can follow this logic to this point.
+
+- Up to this point it is cheaper to improve your factory rather than pay the tax
+
+<br>
+
+However, beyond this point the trade-off flips
+
+- In order to cut your pollution from 75 units to 74 units presents a choice of either paying the government $25 or spending $26 to clean up your factory more.
+
+- From this point forward the tax is cheaper than improving your factory and we expect the cuts to stop
+
+<br>
+
+### Everybody with me on this?
+
+<br>
+
+**SLIDE**: Let's now switch to the other line and think about how much benefit society gets from cutting pollution at the extreme end
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 5, y = 86, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 5, y = 15, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 100, xend = 100, y = 0, yend = 95, linetype = "dashed", arrow = arrow(length = unit(.15, "in"))) +
+  #annotate("segment", x = 100, xend = 0, y = 100, yend = 100, linetype = "dashed", arrow = arrow(length = unit(.15, "in"))) +
+  ggtitle("Setting our Pollution Tax: $25") +
+  annotate("point", x = 100, y = 100, size = 4, color = "red") +
+  annotate("point", x = 100, y = 0, size = 4, color = "blue")
+```
+
+::: notes
+
+Here I'm showing you how the factory's pollution level determines the harms done to society.
+
+- As we noted previously, we're starting from a baseline production level of 100 units of pollution
+
+<br>
+
+### So, to be clear, how much benefit does society receive from the factory reducing pollution by only 1 unit? (e.g. move from 100 down to 99 units)
+
+- (**SLIDE**)
+:::
+
+
+
+## Total Marginal Costs to Society {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=8, cache=TRUE}
+## Total marginal cost at 100 units
+# Triangle area
+#100^2/2
+
+p3 +
+  annotate("text", x = 5, y = 15, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  #ggtitle("Total Marginal Costs to Society") +
+  annotate("point", x = 100, y = 100, color = "red", size = 4) +
+  annotate("polygon", x = c(0, 100, 100), y = c(0, 0, 100), fill = "red", alpha = .3) +
+  annotate("polygon", x = c(0, 99, 99), y = c(0, 0, 99), fill = "blue", alpha = .2) +
+  annotate("text", x = 70, y = 32, label = "$5,000", size = 8, color = "red") +
+  annotate("text", x = 70, y = 25, label = "vs", size = 8) +
+  annotate("text", x = 70, y = 18, label = "$4,900", size = 8, color = "blue")
+```
+
+::: notes
+
+Area of a triangle = (base * height)/2
+
+A 1 unit decrease at the highest level is worth $100!
+
+<br>
+
+Remember this is a marginal cost curve
+
+- Society pays $100 for the 100th unit and $99 for the 99th unit
+
+- If we don't have the 100th unit of pollution, we don't pay the extra $100 of costs
+
+<br>
+
+This is the direct reverse of what the factory faces at this end of the curve
+
+### Does that make sense?
+
+<br>
+
+**SLIDE**: Ok, let's put this all together 
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 5, y = 86, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 5, y = 15, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  ggtitle("Setting our Pollution Tax: $25") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 0, linetype = "dashed") +
+  annotate("point", x = 100, y = 0, size = 1) +
+  annotate("segment", x = 0, xend = 99, y = 1, yend = 1, linetype = "dashed") +
+  annotate("point", x = 99, y = 1, size = 1) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 100, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 99, y = 99, yend = 99, linetype = "dashed") 
+```
+
+::: notes
+
+This presents the societal trade-off in stark terms
+
+<br>
+
+At the extreme end of the pollution curve the choice is a simple one
+
+- The factory can cut the 100th unit of its pollution down to 99 units for only $1
+
+- Doing that removes the 100th unit of pollution which currently imposes $100 in harms on our community!
+
+- That's a trade of $1 for the factory to get $100 for society!
+
+<br>
+
+### Make sense?
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $25 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 5, y = 86, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 5, y = 15, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 75, xend = 75, y = 0, yend = 75, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 75, y = 25, yend = 25, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 75, y = 75, yend = 75, linetype = "dashed") +
+  ggtitle("Setting our Pollution Tax: $25") +
+  annotate("point", x = 75, y = 75, size = 5, color = "red") +
+  annotate("point", x = 75, y = 25, size = 5, color = "blue")
+```
+
+::: notes
+
+That brings us full circle to the result of a $25 "green" tax operating on the factory
+
+- At this level the factory emits 75 units of pollution and society pays $75 in costs for that final unit of pollution
+
+<br>
+
+### Why is this a worse outcome for society than pushing both dots to the equlibrium point?
+
+### - In other words, why is a $25 pollution tax not big enough?
+
+<br>
+
+You can see it clearly in the costs on the y-axis
+
+- At the 75th unit of pollution the factory pays $25 BUT society pays $75!
+
+- In other words, this tax treats the factory as THREE times more valuable than society
+
+<br>
+
+This set-up encourages us to think about how every widget the factory produces is actually paid for BOTH by society AND by the factory!
+
+- This means not applying a tax or setting a very low tax is explicitly deciding that society matters less than a widget factory.
+
+<br>
+
+### Does everybody understand this intuition?
+
+<br>
+
+**SLIDE**: Let's take it too far!
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Hypothetical $75 tax
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 10, y = 97, label = "MC[A]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 75, yend = 75, linetype = "dashed") +
+  ggtitle("Setting a $75 Tax on Pollution") +
+  annotate("point", x = 25, y = 75, color = "darkblue", size = 4) +
+  annotate("segment", x = 99, xend = 99, y = 70, yend = 5, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 99, y = 1, size = 3) +
+  annotate("segment", x = 80, xend = 80, y = 70, yend = 25, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 80, y = 20, size = 3) +
+  annotate("segment", x = 60, xend = 60, y = 70, yend = 45, arrow = arrow(ends = "both", length = unit(0.1, "inches"))) +
+  annotate("point", x = 60, y = 40, size = 3)
+```
+
+::: notes
+
+The $25 pollution tax leaves society accepting 3x the harms of the benefits being created.
+
+- So, we impose a $75 per unit tax on pollution and cut 75 units of pollution!
+
+<br>
+
+At each step from 100 units of pollution down to 25 the cost of improving your factory is less than the tax
+
+- So you invest in your factory and society gets less pollution.
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("text", x = 5, y = 86, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 5, y = 15, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 25, xend = 25, y = 0, yend = 75, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 25, y = 75, yend = 75, linetype = "dashed", color = "blue") +
+  annotate("segment", x = 0, xend = 25, y = 25, yend = 25, linetype = "dashed", color = "red") +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  ggtitle("Setting our Pollution Tax: $75") +
+  annotate("point", x = 25, y = 25, size = 5, color = "red") +
+  annotate("point", x = 25, y = 75, size = 5, color = "blue")
+```
+
+::: notes
+
+### Why would economists argue that this is equally "wrong" as a policy outcome?
+
+### - Why does the market wisdom object to this balance of costs and benefits?
+
+<br>
+
+We've reversed the imbalance, but haven't necessarily made things any better!
+
+- Remember, the production of the factory is needed for the local economy to function!
+    - The factory means jobs, growth, tax dollars for public goods, etc.
+
+- In terms of economic efficiency, the factory is now spending WAY more on harm reduction than society will benefit.
+    - At this level of pollution tax the factory is paying $3 in costs to provide society only $1 in benefit!
+    
+<br>
+
+### Does this make sense?
+
+<br>
+
+(**SLIDE**: The "market" wisdom solution = A Pigovian tax)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution") +
+  annotate("point", x = 50,y = 50, size = 4)
+```
+
+::: notes
+
+Early 20th century British economist Arthur Pigou proposed a tax focused on the equilibrium point between these two curves.
+
+- A Pigovian tax reduces the externality to the point where the marginal costs to society equals the marginal costs to the factory.
+
+- Anywhere to the right of that point, the harms to society outweigh the benefits to the factory.
+
+- Anywhere to the left of the intersection, it would cost more to eliminate a ton of emissions than the harm that additional ton would cause.
+
+<br>
+
+Pigou's aim was achieving an "efficient" economic outcome when determining the "optimal" pollution level in our community.
+
+<br>
+
+### Any questions on what we've covered so far?
+
+<br>
+
+*Split class into three groups*
+
+- Go sit with your group and claim space on the board!
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("Should We Adopt Pigou's Solution?", subtitle = "What are the pros and cons of setting this as the 'optimum' level of pollution?") +
+  annotate("point", x = 50,y = 50, size = 4)
+```
+
+::: notes
+
+Groups, I'd like you to evaluate Pigou's solution as a piece of policy advice.
+
+- On the board make a pros and cons list of using this equlibrium point as the optimum level of pollution in our community.
+
+<br>
+
+### Questions on the task?
+
+- Go!
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+FIRST, estimating marginal costs curves is REALLY hard
+- What is the value of a human life?
+
+- What is the value of enabling someone to get a job?
+
+- Is it likely the two sides will agree on these definitions?
+
+<br>
+
+SECOND, is $1 of societal harm always worth $1 of economic benefit?
+- e.g. is the value of one more beanie baby equal to five more childhood asthma cases?
+
+<br>
+
+THIRD, what about inequality in the distribution of the harms?
+- Where is this factory located? 
+
+- WHO is doing the suffering?
+
+<br>
+
+FOURTH, what if the marginal external cost curve is not linear?
+- This curve assumes an unending Earth, but...
+
+- What about tipping points and irreversibilities?
+
+<br>
+
+**SLIDE**: Let's go a bit deeper into the utility of "green" taxes by exploring a case study that impacts all of us
+:::
+
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+::: notes
+
+As a case study, let's talk about the "green" tax you probably experience the most: the gasoline tax
+
+- This refers to the taxes you pay for every gallon of gas you buy
+
+- To be clear, this tax impacts everyone not just those who own a car
+
+- Your groceries and Amazon deliveries all move by truck, trucks use gas and so the prices you pay for everything are impacted
+
+<br>
+
+### What is the policy justification typically made for gasoline taxes?
+
+### - In other words, how do governments typically frame driving as a public problem requiring a collective decisions (e.g. a tax)?
+
+<br>
+
+Gas taxes are frequently justified as a "use" tax
+
+- Driving on the roads damages them so those who drive the most (use the most gas), should pay the most in upkeep
+
+- This is why diesel trucks almost always pay higher tax rates (they do more damage to the roads)
+:::
+
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='60%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution") +
+  annotate("point", x = 50,y = 50, size = 4)
+```
+
+::: notes
+
+This "use" tax problem framing is different from the logic we have been exploring so far in class.
+
+<br>
+
+### Refresh my memory, what is the argument for a gasoline tax focusing on the MC_E and MC_A curves?
+- (Aim is to balance the costs to the driver with the harms done to society)
+
+- In green tax logic it is meant to force you to consider some of the social harms caused by your car when deciding how much to drive.
+
+<br>
+
+### Big picture, what options does a person have for reducing the amount of the tax they pay?
+
+- *ON BOARD*
+
+- More efficiency: Buy a hybrid or electric vehicle
+
+- Drive less
+    - Public Transit
+    - Carpool
+    - Bike, scooter, walk
+
+- Use less stuff / buy local
+    
+<br>
+
+What I hope you can see from this list is the options are varied in terms of their appeal to you personally.
+
+- This is an important point we need to dig into
+:::
+
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.8, fig.align='center', out.width='65%', fig.width=6, cache=TRUE}
+## Set up a bunch of different curves
+tibble(
+  Abatement_cost = 0:10,
+  Pollution = seq(0, 1, length.out = 11)
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 1, .1), labels = scales::percent_format()) +
+  scale_y_continuous(breaks = seq(0, 10, 1), labels = scales::dollar_format()) +
+  labs(x = "Amount you Drive (% of baseline)", y = "Gas Tax per Gallon",
+       title = "What is your personal marginal cost of abatement?")
+```
+
+::: notes
+
+What I'd like each of you to do is to draw your personal marginal cost of abatement curve
+
+- e.g. I want you to estimate how sensitive you personally would be to increases in the gas tax
+
+<br>
+
+I've tweaked the plot axes to make this a little easier for you
+
+- The x-axis tracks the amount you drive as a proportion of your baseline (e.g. current driving)
+      - For those who don't have a car, feel free to keep this hypothetical
+
+- The y-axis is a gasoline tax for every amount from $0 to 10$ per gallon
+
+<br>
+
+### To clarify this, what would your marginal cost curve look like if you were insensitive to price?
+
+### - e.g. you plan on driving 100% of your baseline NO MATTER WHAT?
+
+- (**SLIDE**)
+:::
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.8, fig.align='center', out.width='65%', fig.width=6, cache=TRUE}
+## Set up a bunch of different curves
+tibble(
+  Abatement_cost = 0:10,
+  Pollution = seq(0, 1, length.out = 11)
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 1, .1), labels = scales::percent_format()) +
+  scale_y_continuous(breaks = seq(0, 10, 1), labels = scales::dollar_format()) +
+  labs(x = "Amount you Drive (% of baseline)", y = "Gas Tax per Gallon",
+       title = "What is your personal marginal cost of abatement?") +
+  annotate("segment", x = 1, xend = 1, y = 0, yend = 10, color = "blue", linewidth = 1.3)
+```
+
+::: notes
+
+### Does everybody understand what this line indicates?
+
+<br>
+
+### Why might somebody have this as their personal MC_a?
+- Highest possible need (sick family member needing drives to hospital)
+- Super high personal wealth
+- Electric car
+
+<br>
+
+### And what would the opposite look like?
+
+### - Describe the MC_a curve for someone who basically stops driving if the tax hits $1 per gallon
+
+- (**SLIDE**)
+:::
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.8, fig.align='center', out.width='65%', fig.width=6, cache=TRUE}
+## Set up a bunch of different curves
+tibble(
+  Abatement_cost = 0:10,
+  Pollution = seq(0, 1, length.out = 11)
+) |>
+  ggplot(aes(x = Pollution, y = Abatement_cost)) +
+  geom_point(color = "white") +
+  theme_classic() +
+  #coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 1, .1), labels = scales::percent_format()) +
+  scale_y_continuous(breaks = seq(0, 10, 1), labels = scales::dollar_format()) +
+  labs(x = "Amount you Drive (% of baseline)", y = "Gas Tax per Gallon",
+       title = "What is your personal marginal cost of abatement?") +
+  annotate("segment", x = 1, xend = 0, y = 0, yend = 1, color = "blue", linewidth = 1.3)
+```
+
+::: notes
+
+### Does everybody understand what this line indicates?
+
+<br>
+
+### Why might somebody have this as their personal MC_a?
+- Very price sensitive
+
+<br>
+
+Ok, everybody take out a piece of paper and draw their personal MC_a curve!
+
+- *Walk around and check them out, select some different curves and have those students draw them on the board*
+
+- *PRESENT, EXPLAIN and DISCUSS each*
+
+<br>
+
+Alright, some good variation here in our class.
+
+- Let's compare this to the real-world!
+
+<br>
+
+### What is the current federal gas tax rate?
+- (Every gallon of gas you buy includes 18.4 cents of federal taxes)
+
+### And what is the current gas tax rate in Missouri?
+- (Every gallon of gas you buy includes 24.5 cents of Missouri taxes) [MODOT Link](https://www.modot.org/fast-facts))
+:::
+
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='60%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution") +
+  annotate("point", x = 50,y = 50, size = 4)
+```
+
+::: notes
+
+Add these together and you have a 42.9 cent "green" tax applied to every gallon of gas you buy in Missouri.
+
+### Per your marginal cost of abatement curves, how much does this 43 cent tax reduce your personal driving habits?
+
+<br>
+
+### What does our current tax rate imply about who pays most of the costs for your driving? 
+
+### - Is it you or is it society?
+
+<br>
+
+### If it is society, why is that the right policy choice?
+
+<br>
+
+How on Earth do low gas taxes get presented as the choice that is more pro-freedom? Blows my mind.
+
+- Such an important example of how winning the "collective decision" argument is a powerful strategy for stopping environmental problem-solving
+
+<br>
+
+So, does any state in the US do this better than Missouri?
+
+### Any idea where that 24 cents per gallon puts Missouri nationally?
+
+### - Where do we rank compared to other states?
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.618, cache=TRUE}
+## Make a US map of gas taxes
+library(sf)
+library(maps)
+
+## Input data (states should be lowercase for the shapefile)
+d <- read_excel("07_1-Gas_Taxes_by_State2023.xlsx") |>
+  mutate(
+    state = tolower(State),
+    gas_cat = case_when(
+      gasolineTax < .2381 ~ "Lowest 25%",
+      gasolineTax < .2860 ~ "Low-Middle 25%",
+      gasolineTax < .345 ~ "Upper-Middle 25%",
+      gasolineTax >= .345 ~ "Highest 25%",
+    ),
+    gas_cat = factor(gas_cat, levels = c("Lowest 25%", "Low-Middle 25%", "Upper-Middle 25%", "Highest 25%"))
+  )
+
+# Extract missouri data
+d_mo <- d |> 
+  arrange(desc(gasolineTax)) |> 
+  mutate(Rank = 1:50) |> 
+  filter(State == "Missouri") |> 
+  mutate(
+    gasolineTax = str_c("$", gasolineTax),
+    Rank = str_c(Rank, "th out of 50")
+    )
+
+## Define US states shapefile object
+states <- st_as_sf(map("state", plot = FALSE, fill = TRUE))
+
+left_join(states, d, by = c("ID" = "state")) |>
+  ggplot(aes(fill = gas_cat)) +
+  geom_sf() +
+  scale_fill_brewer(type = "seq", palette = 7, na.translate = F) +
+  labs(title = "Gasoline Taxes (2023)", fill = "$ Per Gallon",
+       caption = "Source: Federation of Tax Administrators (Jan 2023)") +
+  theme_minimal() +
+  coord_sf(datum = NA, crs = 5070)
+```
+
+::: notes
+
+This map visualizes gas taxes across the country and ranks states by their level of the tax.
+
+- Missouri's 24 cents per gallon ranks `r d_mo$Rank` states
+
+- The lowest national rate is in Alaska (approx 9 cents) and the highest is California (approx 63 cents)
+
+<br>
+
+### What would it take to actually change behavior for most people?
+
+- *DISCUSS*
+
+<br>
+
+### What are the individual characteristics that predict whether or not a gas tax would cause a person to use less gasoline as opposed to just paying the tax and keeping on the road?
+
+*ON BOARD*
+
+- Price of the tax itself
+- Access to public transit
+- Quality of public transit
+- Price of public transit
+- Price of hybrid or electric vehicles
+- Access to charging stations for an electric vehicle
+- Tax incentives to buy an electric vehicle
+- ?
+
+<br>
+
+<br>
+
+#### Notes
+
+[FEDERATION OF TAX ADMINISTRATORS -- JANUARY 2023 Current Rates Link](https://www.taxadmin.org/assets/docs/Research/Rates/mf.pdf)
+
+```{r, echo=TRUE}
+summary(d$gasolineTax)
+```
+:::
+
+
+## "Green" Tax Case Study: The Gas Tax {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='60%', fig.width=6, cache=TRUE}
+## Set a tax at the equilibrium, $50 per unit
+p3 +
+  annotate("text", x = 95, y = 15, label = "MC[A]", parse=TRUE) +
+  annotate("text", x = 95, y = 86, label = "MC[E]", parse=TRUE) +
+  annotate("segment", x = 0, xend = 100, y = 100, yend = 0, color = "blue", size = 1.3) +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 0, xend = 50, y = 50, yend = 50, linetype = "dashed") +
+  ggtitle("The Basics of Taxing Pollution: Pigou's Solution") +
+  annotate("point", x = 50,y = 50, size = 4)
+```
+
+::: notes
+
+Big Takeaways (so far)
+
+<br>
+
+FIRST, UNLIKE supply and demand, the pollution equilibrium is NOT self-enforcing.
+- Balancing the costs to the polluter and the wider society REQUIRES government action.
+
+<br>
+
+SECOND, EVERYONE has a different MC_a! 
+-Different resources (wealth), different access to public transit, different proximity to work and shopping, different pressures (sick family member needing to get to a distant hospital)
+
+<br>
+
+**SLIDE**: These individual differences are what make "green" taxes such a useful policy option
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.align='center', out.width='85%', fig.asp=0.7, fig.width=7, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## Firm 1 and Firm 2
+p4_both <- p3 +
+  annotate("segment", x = 0, xend = 100, y = 0, yend = 100, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "MC[E]", parse=TRUE) +
+  geom_abline(intercept = 75, slope = -1, color = "skyblue1", size = 1.3) +
+  geom_abline(intercept = 125, slope = -1, color = "skyblue3", size = 1.3) +
+  annotate("text", x = 60, y = 5, label = "MC[A1]", parse=TRUE, color = "skyblue1") +
+  annotate("text", x = 105, y = 5, label = "MC[A2]", parse=TRUE, color = "steelblue4") +
+  ggtitle("Pollution being generated by two firms")  +
+  scale_x_continuous(limits = c(0, 125), breaks = seq(0, 125, 25))
+
+p4_both
+```
+
+::: notes
+
+[Carbon Pricing and Regulations Compared: An Economic Explainer by the Niskanen Center](https://www.niskanencenter.org/carbon-pricing-and-regulations-compared-an-economic-explainer/)
+
+<br>
+
+Let's simultaneously examine a country with two factories (econspeak = firms)
+
+<br>
+
+Key 1: Both firms have identical marginal external cost curves (e.g. their pollution impacts society in the same ways)
+
+<br>
+
+Key 2: HOWEVER, the firms have very different abatement curves.
+
+- Firm 1 emits less pollution and can cut pollution more cheaply than Firm 2
+
+<br>
+
+**Remember, according to the "markets" wisdom the goal is to achieve pollution cuts while minimizing harms to our economy!**
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## Firm 1
+p4a <- p3 +
+  annotate("segment", x = 0, xend = 125, y = 0, yend = 125, color = "red", size = 1.3) +
+  annotate("text", x = 82, y = 95, label = "MC[E]", parse=TRUE) +
+  geom_abline(intercept = 75, slope = -1, color = "skyblue1", size = 1.3) +
+  annotate("text", x = 90, y = 1, label = "MC[A1]", parse=TRUE, color = "skyblue3") +
+  ggtitle("Firm 1")  +
+  scale_x_continuous(limits = c(0, 125), breaks = seq(0, 125, 25)) +
+  scale_y_continuous(limits = c(0, 125), breaks = seq(0, 125, 25), labels = scales::dollar_format())
+
+p4a
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+p4b <- p3 +
+  annotate("segment", x = 0, xend = 125, y = 0, yend = 125, color = "red", size = 1.3) +
+  annotate("text", x = 110, y = 95, label = "MC[E]", parse=TRUE) +
+  geom_abline(intercept = 125, slope = -1, color = "steelblue4", size = 1.3) +
+  annotate("text", x = 115, y = 20, label = "MC[A2]", parse=TRUE, color = "steelblue4") +
+  ggtitle("Firm 2") +
+  scale_x_continuous(limits = c(0, 125), breaks = seq(0, 125, 25)) +
+  scale_y_continuous(limits = c(0, 125), breaks = seq(0, 125, 25), labels = scales::dollar_format())
+
+p4b
+```
+:::
+::::
+
+::: notes
+
+Let's split these out so we can track the impacts of our policies for each of them.
+
+### Still with me?
+:::
+
+
+## Baseline {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## Baseline emissions
+## No regs and no taxes = 125 + 75 = 200 units of pollution
+p4a +
+  annotate("point", x = 75, y = 0, size = 5)
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+p4b +
+  annotate("point", x = 125, y = 0, size = 5)
+```
+:::
+::::
+
+Emissions = 75 (Firm 1) + 125 (Firm 2) = 200
+
+Abatement Costs = 0 (Firm 1) + 0 (Firm 2) = $0
+
+::: notes
+
+In a world without regulations or taxes each firm produces as many widgets as it thinks it can sell profitably
+
+- e.g. Produce at the equilibrium point between supply and demand
+
+<br>
+
+At the baseline:
+
+- Our society is paying the costs for 200 units of pollution (Firm 1 75, Firm 2 125)
+
+- The firms are paying nothing for these harms
+
+<br>
+
+### Everybody understand these calculations?
+
+<br>
+
+Let's now set a policy goal of cutting the pollution hitting society in half
+
+- e.g. Go down from 200 to 100 units of pollution from these two factories
+:::
+
+
+
+## Command and Control Regulation {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## C&C Option: Mandate all factories cut to 50 units
+p4a +
+  annotate("polygon", x = c(50, 75, 50), y = c(0, 0, 25.5), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75, y = 0, size = 5, color = "steelblue3") +
+  annotate("point", x = 50, y = 25.5, size = 5) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 25.5, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area_a <- round((25.5*25)/2, 0)
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+p4b +
+  annotate("polygon", x = c(50, 125, 50), y = c(0, 0, 74.5), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 125, y = 0, size = 5, color = "steelblue3") +
+  annotate("point", x = 50, y = 74.5, size = 5) +
+  annotate("segment", x = 50, xend = 50, y = 0, yend = 74.5, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area_b <- round((75*74.5)/2, 0)
+```
+:::
+::::
+
+Emissions = 50 (Firm 1) + 50 (Firm 2) = 100
+
+Abatement Costs = `r area_a` (Firm 1) + `r area_b` (Firm 2) = $`r area_a+area_b`
+
+::: notes
+
+Option 1: Let's implement a command and control regulation of 50 units of pollution per factory.
+
+- e.g. No factory is permitted to emit more than 50 units of pollution (50 + 50 = 100!)
+
+<br>
+
+Here we see the results of this regulation.
+
+- The area of the blue triangle is the cost of abatement to each firm.
+
+<br>
+
+### What can you tell me from these plots?
+
+1. This policy succeeds in cutting emissions in half
+    - Remember, the baseline was 200 units of pollution total
+
+2. The Firms collectively pay north of $3k in abatement costs
+    - Money not spent in production, e.g. lost to our economy
+
+3. The Firm with the harder production to clean up is forced to implement way more cuts.
+    - Not captured in these figures but this likely means a big negative impact to the economy
+
+<br>
+
+### Make sense?
+:::
+
+
+## Command and Control 2 (Pigou!) {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## C&C Option: Mandate all factories cut emissions in 1/2
+## Here we've accomplished a cut of 100 units of pollution BUT not the most efficient way to do it!
+p4a +
+  annotate("polygon", x = c(37.5, 75, 37.5), y = c(0, 0, 37.5), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75, y = 0, size = 5, color = "steelblue3") +
+  annotate("point", x = 37.5, y = 37.5, size = 5) +
+  annotate("segment", x = 37.5, xend = 37.5, y = 0, yend = 35, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area_a <- round((37.5*37.5)/2, 0)
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+p4b +
+  annotate("polygon", x = c(62.5, 125, 62.5), y = c(0, 0, 62.5), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 125, y = 0, size = 5, color = "steelblue3") +
+  annotate("point", x = 62.5, y = 62.5, size = 5) +
+  annotate("segment", x = 62.5, xend = 62.5, y = 0, yend = 62.5, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area_b <- round((62.5*62.5)/2, 0)
+```
+:::
+::::
+
+Emissions = 37.5 (Firm 1) + 62.5 (Firm 2) = 100
+
+Abatement Costs = `r area_a` (Firm 1) + `r area_b` (Firm 2) = $`r area_a+area_b`
+
+::: notes
+
+As an alternative, imagine an INCREDIBLY complicated regulation that aims to implement an absolute cut to EVERY individual firm's equilibrium point.
+
+- This regulation is almost certainly IMPOSSIBLE to write, BUT...
+
+<br>
+
+### What's the effect of this "market perfect" regulation?
+
+- This policy ALSO succeeds in cutting the emissions in half, and
+
+- Abatement costs cut DRAMATICALLY!
+    - 3,113 - 2,656 = $457!
+    
+<br>
+    
+### Is everybody clear on how this is "better" but likely impossible?
+
+- Requires information from each Firm they may not have or be willing to share, and
+
+- Requires concrete measures of societal harms we definitely don't have and everyone would argue about
+    - What is the cost of 1 asthma case or 1 heart attack prevented?
+
+<br>
+
+**SLIDE**: Now, let's replace these hard and fast regulations with a pollution tax
+:::
+
+
+
+## "Green" Taxes {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+## Niskanen examples in Fig 2a and 2b
+## Green tax approach: $50 tax
+p4a +
+  annotate("polygon", x = c(24.5, 75, 24.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75, y = 0, size = 5, color = "steelblue3") +
+  annotate("segment", x = 0, xend = 100, y = 50, yend = 50, linetype = "dashed") +
+  annotate("point", x = 24.5, y = 50, size = 5) +
+  annotate("segment", x = 24.5, xend = 24.5, y = 0, yend = 50, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area2_a <- round((50*50.5)/2, 0)
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.retina=3, fig.align='center', out.width='70%', fig.asp=0.85, fig.width=5.5, cache=TRUE}
+p4b +
+  annotate("polygon", x = c(75.5, 125, 75.5), y = c(0, 0, 50), fill = "lightblue", alpha = .5) +
+  annotate("point", x = 75.5, y = 50, size = 5) +
+  annotate("segment", x = 0, xend = 125, y = 50, yend = 50, linetype = "dashed") +
+  annotate("segment", x = 75.5, xend = 75.5, y = 0, yend = 50, linetype = "dashed")
+
+## Area of right triangle (ab/2)
+area2_b <- round((50*49.5)/2, 0)
+```
+:::
+::::
+
+Emissions = 24.5 (Firm 1) + 75.5 (Firm 2) = 100
+
+Abatement Costs = `r area2_a` (Firm 1) + `r area2_b` (Firm 2) = $`r area2_a+area2_b`
+
+::: notes
+
+Here we've chosen to implement a $50 per unit "green" tax on pollution
+
+<br>
+
+### Ok, what happened here?
+
+### - What do you see in these triangle sizes?
+
+<br>
+
+The tax creates an incentive to innovate and get more efficient!
+
+- This means that a well designed tax can get us to the same level of abatement as a firm cut, but at MUCH lower cost to the economy!
+
+<br>
+
+We don't end up cutting to the equilibrium points but instead the tax finds the cheapest places to cut across all the firms!
+
+- Remember, cuts and abatement costs represent real pain to real people in our community.
+
+- Pollution cuts are important but ideally we should achieve them at the lowest pain possible, right?
+
+<br>
+
+### Questions on this?
+
+<br>
+
+**SLIDE**: So, green taxes are more flexible, more efficient and... 
+:::
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='95%', fig.width=6, cache=TRUE, eval=TRUE}
+## Let's build supply and demand curves that move with innovation!
+## Have to install transformr for lines moving
+#install.packages("transformr")
+library(gganimate)
+
+d1 <- tibble(
+  Quantity = 1:100,
+  Supply1 = 42 + .5*Quantity,
+  Supply2 = 12 + .5*Quantity,
+  Demand = 100 - 1*Quantity
+) |>
+  pivot_longer(cols = Supply1:Supply2, names_to = "Scenario", values_to = "Value")
+
+d1 |>
+  ggplot(aes(x = Quantity)) +
+  geom_line(aes(y = Demand), color = "red", linewidth = 1.2) +
+  geom_line(aes(y = Value), color = "blue", linewidth = 1.2) +
+  theme_classic() +
+  coord_cartesian(xlim = c(0, 125)) +
+  scale_x_continuous(breaks = seq(0, 125, 25)) +
+  scale_y_continuous(breaks = seq(0, 100, 20), limits = c(0, 100), labels = scales::dollar_format()) +
+  labs(x = "Quantity Produced", y = "Price per Widget",
+       title = "Green taxes inspire innovation that lowers the MC") +
+  annotate("text", x = 115, y = 5, label = "Demand", size = 5, color = "red", hjust = .5) +
+  annotate("text", x = 119, y = 85, label = "Marginal\nCost", size = 5, color = "blue", hjust = .5) +
+  transition_states(Scenario, wrap=FALSE) +
+  shadow_wake(wake_length = .5, colour = "grey")
+```
+
+::: notes
+
+Designing a tax means using the power of the market to reduce pollution.
+
+<br>
+
+Markets move MUCH faster and more efficiently to produce profits than top-down regulators possibly can.
+
+- The key is that the tax makes finding a way to pollute less during production a profit-maximizing decision.
+
+- If you make "being green" profitable then the market will take care of it for you.
+
+<br>
+
+Regulations are hard to design and are inflexible by design
+
+- Everyone must hit a certain cap or use a specific technology
+
+- While the cap can inspire innovation, technology standards rarely do
+
+<br>
+
+For today I gave you a series of readings that aim to pitch you the pros and cons of "green" taxes.
+
+- I'd like to explore those arguments, but by focusing on our discussion of gasoline taxes
+:::
+
+
+
+## $5 Gas Tax vs No Gas Cars < 4 miles {background-image="Images/08-1-springfield_bike_trail_v3.png"}
+
+::: notes
+
+I would like you to help me evaluate two policy designs meant to reduce pollution levels in metro Springfield
+
+- Option 1: We implement a $5 per gallon gasoline tax
+
+- Option 2: We forbid the use of gasoline powered cars for any trip less than four miles long (so public transit, bikes, walking, escooters, electric vehicles)
+
+<br>
+
+Talk to the people around you, consider both options and then report back on which plan you think we should implement and why.
+
+- Go!
+
+<br>
+
+*REPORT back and DISCUSS*
+
+<br>
+
+### - Which cuts pollution faster?
+
+### - Which provides greater flexibility?
+
+### - Which policy reinforces inequality more?
+
+### - Which policy is cheaper/easier to implement?
+
+<br>
+
+<br>
+
+### Notes
+
+Loris and Williamson (2019) with Heritage
+- ?
+
+Ewall with Energy Justice Network
+- ?
+:::
+
+
+
+## Policy Design: "Green" Taxes {background-image="Images/11-1-Green_taxation_v2.png"}
+
+::: notes
+
+### Having discussed those two arguments and thought about the gas tax some more, where do you end up on the gas tax vs C&C regulation debate?
+
+### - Any early takeaways on how you would decide between these two design options?
+
+*Force this discussion*
+
+<br>
+
+**SLIDE**: If time remains, discuss the competing national plans
+
+**SLIDE**: Assignment for Thursday
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics("Images/11-1-carbon-tax-plans-compared.png")
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+[**The Energy Innovation and Carbon Dividend Act**](https://energyinnovationact.org/)
+
+<br>
+
+[**The Baker Shultz Carbon Dividends Plan: Bipartisan Climate Roadmap**](https://clcouncil.org/Bipartisan-Climate-Roadmap.pdf)
+:::
+::::
+
+::: notes
+
+Let's review some policy options for the US.
+
+- Lavelle 2019 ([Link](https://insideclimatenews.org/news/07032019/carbon-tax-proposals-compare-baker-shultz-exxon-conocophillips-ccl-congress/)) Reviews two competing carbon tax plans 
+
+<br>
+
+### If you had to pick one, which way do you lean and why?
+- *DISCUSS*
+
+<br>
+
+### Did anybody dislike both? Why?
+- *DISCUSS*
+:::
+
+
+
+## Assignment for Thursday {background-image="Images/background-forest_v3.png"  .center}
+
+<br>
+
+Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
+
+**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using "green" taxes.
+
+::: notes
+
+Thursday we repeat our model from last week!
+
+- Everybody submit evidence and an argument to Canvas for class on Thursday!
+
+<br>
+
+### Questions on the assignment?
+
+:::
+
