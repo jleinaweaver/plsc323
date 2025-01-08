@@ -1,0 +1,47 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Class Project: Taking our Framing into the Community**
+
+- ...
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. TBD
+
+:::
+
+
+
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+
+::: notes
+
+
+:::

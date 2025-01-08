@@ -691,7 +691,7 @@ Scenario 3 is a situation in which you still owe $1 million, but the deal was fo
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("12-2-Estimating your Discount Rate (Spring 2024).csv") |>
+d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2024).csv") |>
   select(name = `Name?`,
          benefit1 = `Benefit 1 ($10): What is the smallest total amount of money I could offer that would get you to wait one year for payment?`,
          benefit2 = `Benefit 2 ($1,000): What is the smallest total amount of money I could offer that would get you to wait one year for payment?`,

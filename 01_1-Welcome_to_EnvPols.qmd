@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Issues in Environmental Policy {background-image="Images/background-forest_v3.png" .center}
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
 
 ```{r}
 library(tidyverse)
@@ -10,51 +10,15 @@ library(readxl)
 library(kableExtra)
 ```
 
-**(PLSC 323)**
-
-<br>
-
-### What are the most important environmental problems facing us today at the **global**, **national** and **local** levels?
-
-<br>
-
-::: notes
-Prep for Class
-
-1. Prep simulation probability code in R OR bring D12 dice for the class to roll
-
-2. Need a way to record fishing results: sheet of paper or spreadsheet
-
-<br>
-
-*Encourage this conversation as people come in, get ideas up on the board IN THREE LISTS!*
-
-<br>
-
-Introduce yourselves to each other and start making lists!
-
-- "Climate change" isn't specific enough for this list. Do you mean rising sea levels? Spread of disease? More intense storms?
-
-<br>
-
-*Share lists and discuss*
-
-- How are you defining "important"?
-
-- "Who" matters most according to your list?
-:::
-
-
-
-## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
-
 <br>
 
 ::: {.r-fit-text}
 
-**Reviewing our plan for the semester**
+**Welcome to Issues in Environmental Policy!**
 
 :::
+
+<br>
 
 <br>
 
@@ -63,21 +27,65 @@ Justin Leinaweaver (Spring 2025)
 :::
 
 ::: notes
-Welcome to PLSC 323: Issues in Environmental Policy
+Prep for Class
 
-### Is everybody in the right place?
+1. Bring dice to class (probability engines!)
+
+2. Bring markers to class (3?)
 
 <br>
 
-This class is almost always a quirky collection of backgrounds and interests!
+Welcome to Issues in Environmental Policy
 
-- Some of you are here for the environment Fusion certificate, 
+- I'm Dr. Leinaweaver
 
-- Some are poli sci majors, and 
+- **Is everybody in the right place?**
 
-- Some are just interested in the topic
+<br>
 
-- (or are lost in the new building?).
+**SLIDE**: Warm up exercise
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The Most Important Environmental Problems**
+
+- Local?
+
+- National?
+
+- Global?
+:::
+
+::: notes
+
+*Split class into three parts based on where they are sitting*
+
+<br>
+
+Groups, introduce yourselves to each other and start making three lists on the board
+
+- What are currently the most important environmental problems we face at the global, national and local levels?
+
+- By the way, "climate change" is not a specific enough answer for these lists
+    - Climate change is a magnifier of other problems, list the specific problems
+
+<br>
+
+*Share lists and discuss*
+
+- How are you defining "important"?
+
+- "Who" matters most according to your list?
+
+<br>
+
+**SLIDE**: Introductions
+
 :::
 
 
@@ -93,9 +101,18 @@ This class is almost always a quirky collection of backgrounds and interests!
 
 4. Enrolled in the Environment Certificate?
 :::
+
 ::: notes
 
-Let's go around the room for introductions.
+This class is almost always a quirky collection of backgrounds and interests!
+
+- Some of you are here for the environment Fusion certificate, and
+
+- Some are poli sci or environmental biology majors
+
+<br>
+
+So, let's go around the room for introductions (and attendance).
 
 <br>
 
@@ -104,18 +121,19 @@ I'll go first.
 1. I'm Dr. Justin Leinaweaver.
 
 2. FSU undergrad, masters in IR at UCD and PhD at Trinity.
-  + My eleventh year at Drury
+    - My thirteenth year at Drury
 
 3. I'm a political scientist
-  + Research interests: international politics, environmental politics and bargaining / negotiations.
+    - Research interests: international policymaking, environmental politics and bargaining / negotiations.
   
 4. I'm the director of the certificate
 
 <br>
 
-### Your turn
+**Your turn**
 
 :::
+
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
@@ -182,9 +200,31 @@ The "Science of the Environment" class was designed to enable you to identify th
 
 
 
-## {background-image="Images/01_1-env_econ.jpg" background-size='93%'}
+## {background-image="Images/01_1-env_econ3.jpg"}
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
 **ECON 225 Introduction to Environmental Economics**
+:::
 
 ::: notes
 
@@ -255,15 +295,15 @@ In other words, given the science, the economics and the ethics of a given envir
 
 Given our large number of non-majors we should take a moment to define a key concept in our class: Politics
 
-### Non-majors, when you think of the word "politics" what do you think of?
+**Non-majors, when you think of the word "politics" what do you think of?**
 
-### - Is it compromise, good faith and teamwork?
+- **Is it compromise, good faith and teamwork?**
 
 <br>
 
-### When we describe someone as "political" what are we saying about them?
+**When we describe someone as "political" what are we saying about them?**
 
-### - Is it a flattering description?
+- **Is it a flattering description?**
 
 <br>
 
@@ -289,7 +329,7 @@ knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
 
 ::: notes
 
-As a team-building exercise you have all decided to go on a two week camping trip together.
+As a team-building exercise you have all decided to go on a one week camping trip together.
 
 - While on a hike on the first day you come across a small lake stocked with fish
 
@@ -305,182 +345,119 @@ As a team-building exercise you have all decided to go on a two week camping tri
 
 So, X goes fishing and successfully catches one fish
 
-- As the fish dies you get the distinct sense that your course grade has just gone up by one bonus point!
+- As you eat the fish you get the distinct sense that you just earned extra credit in this class
 
 - Congratulations! You've discovered a small lake of magical bonus point fish!
 
-<br>
+- Each fish you catch and consume adds 3 EC points on first paper grade
 
-Here's the deal: Each fish in this lake is worth one bonus point and now you, as a group, have to decide how to successfully manage this resource while taking advantage of it.
-
-- Your camping trip lasts two weeks and you will have the opportunity to fish everyday (14 days)
-
-- You can design any management rules you would like and enact them with a simple majority vote.
+- Catch 3 fish in our simulation, boost your first paper by almost a full letter grade
 
 <br>
 
-**SLIDE**: There's always a catch! (pun intended)
+**Everybody with me so far?**
+
+- **SLIDE**: Let's talk complications
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
+## Managing a Resource is Hard {background-image="Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="65%"}
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
 
-<br>
+::: {.incremental}
 
-![](Images/01_1-cartoon_lake.jpg)
+1. Your chance of catching a fish depends on the remaining stock and the number of fishers each day
+
+2. The health of the fishery depends on your collective use
 
 :::
-
-::: {.column width="35%"}
-```{r}
-tribble(
-  ~Fishers, ~Roll_Catch,
-  1, "1 to 11",
-  2, "1 to 10",
-  3, "1 to 9",
-  4, "1 to 8",
-  5, "1 to 7",
-  6, "1 to 6",
-  7, "1 to 5",
-  8, "1 to 4",
-  9, "1 to 3",
-  10, "1 or 2",
-  11, "1",
-  12, "1",
-  13, "1",
-  14, "1",
-  15, "1",
-  16, "1",
-  17, "1",
-) |>
-  kbl(align = "c", col.names = c("# Fishing", "Roll to Catch")) |>
-  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
-  kableExtra::kable_styling(font_size = 21) |>
-  kableExtra::column_spec(1:2, background = "white") |>
-  kableExtra::row_spec(0, background = "white")
-```
-:::
-::::
 
 ::: notes
 
-Catch #1: Your chance of catching a fish depends on how many people go fishing each day of the camping trip.
-- The more of you who fish in a day, the harder it is to catch a fish
+**REVEAL**: Your chance of catching a fish depends on two things:
+
+1. How many fish have you taken out of the lake so far
+
+    - As the stock of fish gets smaller, it is harder to catch what's left
+
+2. How many of you go fishing that day
+
+    - As the number of fishers goes up, the harder it is to catch a fish
 
 <br>
 
-We'll use d12 dice to simulate probabilities for us.
+**REVEAL**: The fishery is a finite, but sustainable, resource
 
-- The table tells you what the probability of catching a fish is depending on how many of you go fishing
+- If you remove fish beyond the maximum sustainable yield (MSY), the size of the fishery will decline over time
 
-- If two of you go fishing on day 1, then each of them rolls the d12 ONE TIME and must get any number between 1 and 10 to succeed. Easy!
-
-- If nine of you go fishing on day 1, then each has to roll a 1, 2 or 3 to succeed! Much harder.
+- If you remove too many fish, the fishery itself could collapse (insufficient stock to reproduce fast enough to survive)
 
 <br>
 
-### Does that make sense?
+**Any questions on the broad-strokes of the scenario?**
 
 <br>
 
-**SLIDE**: Catch #2
+Your camping trip lasts one week and you will have the opportunity to fish every day (7 days)
+
+- *Keep using the three groups from the board lists exercise*
+
+- I'm going to ask each group to make a proposal to the class for how they would like us to manage this resource
+
+- Groups, get ready to pitch us your plan
+
+- **SLIDE**: Plan needs to specify...
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
+## Propose a Management Policy {background-image="Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="65%"}
+1. How many fishers per day?
 
-<br>
+2. How should the fishers be chosen? 
 
-![](Images/01_1-cartoon_lake.jpg)
+3. How will you ensure compliance with these rules?
 
-:::
-
-::: {.column width="35%"}
-```{r}
-```{r}
-tribble(
-  ~Fishers, ~Roll_Catch, ~Roll_Collapse,
-  1, "1 to 11", "",
-  2, "1 to 10", "",
-  3, "1 to 9", "",
-  4, "1 to 8", "",
-  5, "1 to 7", "",
-  6, "1 to 6", "1",
-  7, "1 to 5", "1 or 2",
-  8, "1 to 4", "1 to 3",
-  9, "1 to 3", "1 to 4",
-  10, "1 or 2", "1 to 5",
-  11, "1", "1 to 6",
-  12, "1", "1 to 7",
-  13, "1", "1 to 8",
-  14, "1", "1 to 9",
-  15, "1", "1 to 10",
-  16, "1", "1 to 11",
-  17, "1", "1 to 12"
-) |>
-  kbl(align = "c", col.names = c("# Fishing", "Roll to Catch", "Roll to Collapse")) |>
-  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
-  kableExtra::kable_styling(font_size = 21) |>
-  kableExtra::column_spec(1:3, background = "white") |>
-  kableExtra::row_spec(0, background = "white")
-```
-:::
-::::
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Catch #2: The health of the fishery depends on your responsible use of the resource
+**Any questions on the exercise?**
 
-- The more of you who fish each day, the greater chance the fishery collapses (overfishing ends the resource)
-
-<br>
-
-After all of the day's fishing is done, one of you will roll a d12 to see if your overfishing has destroyed the fishery
-
-- e.g. did the magical fish population collapse?
+- Groups, get to brainstorming and get ready to pitch us on your plan.
 
 <br>
 
-As you see in the table, the risks are low, BUT remember that even low risks compound over time!
+*PRESENT and DISCUSS each*
 
-- Avoiding even a '1' in 12 chance gets harder and harder over time (see notes at bottom)
-
-<br>
-
-### Any questions on the game?
+- *Class chooses a plan*
 
 <br>
 
-Talk as a group and then let me know who is going fishing on day 1
+*Run the simulation*
 
-- *Run the simulated result for each fisher and the resource as a whole*
+- *ON BOARD: 7 columns (one for each day) with space below for names*
 
-- *Move to next day and repeat*
+- *Each day all fishers put name on board, roll for success and then circle the successes and strike out the fails*
 
-<br>
-
-**Notes**
+- *P(Catch) depends on # of fishers PLUS remaining stock*
+    
+    - *Each fisher beyond 1 takes us down the d12 table (1 fisher needs <=11, 2 needs <=10, 3 needs <=9, etc)*
+    
+    - *Each 10 fish removed takes our starting point 1 down the d12 table*
+    
+- *You track total removed and at end let them know what happens to the fishery: Starting stock 100 fish, a MSY of 65 and a tipping point at 30*
 
 **d12 probabilities**
 ```{r}
-rbind(1:12, round(1:12/12, 2))
+cbind("Roll"=11:1, "Probs"=round(11:1/12, 2))
 ```
 
-**Risks of 1/12 over time**
-```{r}
-# Risks of 1/12 over time
-rbind(1:14, round((1-1/12)^c(1:14), 2))
-```
 :::
 
 
@@ -499,23 +476,19 @@ Everybody take a moment to reflect on our game.
 
 <br>
 
-*Report back and discuss*
+**Bottom line, why did we end up with the outcome of the game that we did?**
+
+- **Biggest reason(s) in your mind?**
 
 <br>
 
-### Did everyone in class have the same goals?
+1. **Did everyone in class have the same goals?**
 
-<br>
+2. **Did making rules as a community help? Why or why not?**
 
-### Did making rules as a community help? Why or why not?
+3. **Did you worry much about compliance with the rules? Why or why not?**
 
-<br>
-
-### How did the risks of failure impact your behavior? Did it matter to you or not?
-
-<br>
-
-### Bottom line, why did we end up with the outcome of the game that we did? Biggest reason in your mind?
+4. **Did you care about the survival of the fishery? Why or why not?**
 
 <br>
 
@@ -572,15 +545,15 @@ A second way that we study "politics" is by focusing on **the rules**.
 
 <br>
 
-### Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?
+**Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?**
 
-### - Seriously, walk me through how our community changes and reacts to that change in policy.
+- **Seriously, walk me through how our community changes and reacts to that change in policy.**
 
 <br>
 
-### And what would happen if they completely stopped enforcing speed limits?
+**And what would happen if they completely stopped enforcing speed limits?**
 
-### - Again, walk me through how our community changes and reacts to that change in policy.
+- **Again, walk me through how our community changes and reacts to that change in policy.**
 
 :::
 
@@ -598,7 +571,9 @@ A third way that we study "politics" is by focusing on **the distribution of cos
 <br>
 
 Why do groups form? 
+
 - Often it is **to produce greater resources** than any individual could do on their own
+
     - This could be money, food, a division of labor, or collective security
 
 - HOWEVER, producing that good means **someone has to pay** and someone has to benefit
@@ -611,7 +586,7 @@ Who pays and who benefits is **a constant tension** in any society.
 
 Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
 
-### Any questions on this broad definition of the concept "politics"?
+- **Any questions on this broad definition of the concept "politics"?**
 :::
 
 
@@ -628,171 +603,18 @@ knitr::include_graphics("Images/01_1-environmental-issues.png")
 
 ::: notes
 
-And that brings us to our task in this class: Our task this semester is to learn how we can tackle environmental problems in a world of politics.
+And that brings us to our primary aim in this class: 
 
-- And remember, by "politics" all I mean is a world where solving these problems requires groups to work together
+- Our big goal this semester is to find a local environmental problem, learn a ton about it and then try to make a difference in it
 
-- This may involve making and enforcing new rules, but it doesn't have to!
+- I mean this. My ambition is that we get out into the world and get something done.
 
-<br>
-
-**All policy decisions create winners and losers. ALL OF THEM.**
-
-- The most obvious examples are often tax related
-    - e.g. your taxes go up so the government can build a new school
-
-- But the environmental arena is typically much more complicated
-    - e.g. reducing the amount of fine particulate matter in the air can save tens of thousands of lives BUT may force a local factory to either layoff workers or produce fewer goods for higher prices
-    
-<br>
-
-Your job is to find the balance of those costs and benefits so that:
-1. Society can successfully address a serious environmental problem,
-
-2. WITHOUT inspiring such push-back or suffering that people either ignore the rules or change them to undo your work!
+- Will we succeed? Who knows! But let's give it a shot!
 
 <br>
 
-### Does that make sense?
-:::
+**SLIDE**: Let's wrap up today by touching base on my expectations for the course
 
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-
-<br>
-
-<br>
-
-**What's going on in the world of environmental politics?**
-
-+ Global 
-
-+ National
-
-+ Local
-:::
-
-::: {.column width="50%"}
-
-![](Images/01_1-env_pols.jpg)
-
-:::
-::::
-
-::: notes
-
-We opened class today brainstorming important environmental problems.
-
-<br>
-
-*If enough time split into small groups to discuss and report back, otherwise just discuss as a class*
-
-### Q1: What is the most important local problem on the list? Why?
-
-### Q2: What is the most important national problem on the list? Why? Discuss
-
-### Q3: What is the most important global problem on the list? Why? Discuss
-
-### Q4: What is the most important single problem overall? Why?
-
-<br>
-
-Well, clearly we have a lot to do!
-
-- **SLIDE**: So, let's talk about our aims for the semester (e.g. the learning outcomes on the syllabus) 
-
-:::
-
-
-
-## Learning Outcomes {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-**1. Content Knowledge**
-
-- Students should demonstrate the ability to organize the investigation of an environmental problem in terms of its key stakeholders, institutions and uncertainties involved.
-
-::: notes
-
-Translated...
-
-<br>
-
-After this class I want you to be able to organize your investigation of any environmental problem in three parts:
-
-- Who are the key stakeholders and what do they want?
-
-- What are the institutions and how do they structure your options?
-
-- What are the big sources of uncertainty?
-
-:::
-
-
-
-## Learning Outcomes {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-**2. Critical Thinking and Problem-Solving Skills**
-
-- Students should demonstrate policy-based problem-solving skills by designing plans that balance the interests of stakeholders against the constraints of established institutions and uncertainty.
-
-::: notes
-
-Translated...
-
-The second LO is really about making sure you are always thinking about problem-solving in terms of balancing winners and losers.
-
-- No environmental problem can be successfully addressed over the long term without making this piece central to the plan.
-:::
-
-
-
-## Learning Outcomes {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-**3. Communication Skills**
-
-- Students should demonstrate the ability to communicate their policy proposals in clear, concise ways that are tailored to the relevant audiences.
-
-::: notes
-
-Translated...
-
-It doesn't matter how brilliant your plan is, if you can't sell it to the stakeholders it isn't going anywhere.
-
-### Any questions on the LOs?
-:::
-
-
-
-## The Semester: Three Sections {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-1. The Basics of Problem-Solving in a Community
-
-2. Evaluating Policy Design Options
-
-3. Designing Environmental Policies
-
-::: notes
-
-I have broken our semester into three parts.
-
-- Each part is designed to introduce you to the skills and tools you will need to engage with environmental problems in a political world.
-
-
-<br>
-
-**SLIDE**: While these three sections represent the conceptual tools in our semester, this is a capstone class and that means our big work is on each of you developing and executing your own project!
 :::
 
 
@@ -801,157 +623,85 @@ I have broken our semester into three parts.
 
 ```{r}
 tibble(
-  col1 = c("Attendance & Participation", "Outcome Reports", "1. Baseline Argument Report", "2. Problem Framing Report", "3. The Policy Evaluation Report", "4. The Policy Evaluation Report"),
-  col2 = c("", "", "(Feb 28)", "(Apr 11)", "(Apr 25)", "(Final)"),
-  col3 = c(50, 50, "", "", "", "")
+  col1 = c("Attendance & Participation", "Outcome Reports", "1. Baseline Argument Report", "2. Problem Framing Report", "3. The Policy Evaluation Report"),
+  col2 = c("", "", "(Feb 28)", "(Apr 11)", "(Final)"),
+  col3 = c("50%", "50%", "", "", "")
 ) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "")) |>
   kableExtra::kable_styling(font_size = 40) |>
   kableExtra::column_spec(1, width = "20em") |>
   kableExtra::column_spec(2, width = "7em") |>
   kableExtra::row_spec(0, background = "lightblue") |>
-  kableExtra::row_spec(1:6, background = "white")
+  kableExtra::row_spec(1:5, background = "white")
 ```
 
 ::: notes
 
-Each of you will select a local environmental problem and then attack it in five assignments.
+Everyone should download and read the syllabus.
 
-- Assignment 1 is a paper where you introduce us to the specific, local environmental problem you have chosen
-
-- Assignment 2 is a paper in which you evaluate the pros and cons of four design options for addressing the problem
-
-- Assignment 3 is a poster you will design for Fusion Day this semester in order to collect community feedback on your work
-
-- Assignment 4 requires you to get out and get your hands dirty in our community! 
-    - Each of you will find an opportunity to get actively involved in your issue locally (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.) and report back on what you learned.
-
-- Finally, in assignment 5 you will propose a policy to address your chosen problem that takes on board everything you did in the first four assignments.
+- Tons of important course policies in there and by taking this class you are agreeing to all of them
 
 <br>
 
-### Does the structure of the class make sense?
-:::
+Since this capstone class has ambitions of getting out into the world and making a difference, I need you all to come to class and be engaged
 
+- We're only going to get as far as you're willing to push.
 
-
-
-## {background-image="Images/01_1-coyote.jpg"}
-
-::: notes
-
-This is a capstone class with a very ambitious set of goals, so I need you to be in class every session!
+- The attendance and participation policies are meant to help motivate you!
 
 <br>
 
-To encourage that outcome I have designed an attendance cliff.
+Half your course grade this semester is about showing up, being prepared and engaging in the work of our class.
 
-- If you have more than three **unexcused** absences during the semester you will not be able to earn greater than a C in the class.
+- You'll see on the Modules page of Canvas that most of our class sessions have a reading plus an assignment
 
-- This is regardless of assignment grades.
-
-<br>
-
-### Questions on this?
-:::
-
-
-
-## {background-image="Images/01_1-office_space.jpg" background-size='75%'}
-
-::: notes
-
-What if you have an excused absence coming up?
-
-- It is your responsibility to email me **BEFORE** the absence in order to receive a make-up assignment.
-
-- Easy peasy
+- To get credit you must submit these assignments BEFORE class begins.
 
 <br>
 
-This is also the place where I say to you, whatever is going on that might keep you out of class, please keep me in the loop. 
+There is an attendance cliff in this class
 
-- I genuinely want you to make progress on our learning outcomes
+- Anyone with more than three unexcused absences in the semester cannot earn higher than a ‘C’ in the course (regardless of grades earned on other assignments).
+
+- IFF you have an excused absence coming up **YOU** are required to contact me by email for excused absences
+    
+    - Coach emails alone DO NOT COUNT
 
 <br>
 
-So, if things are getting rough for you please come talk to me.
+The other half of your grade will consist of reports presenting your analyses and action plans for our selected environmental problem
+
+- More to come on that soon.
 
 <br>
 
-**I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!**
-
-### Fair enough?
+**Any questions on these grades or policies?**
 
 :::
 
-
-
-## {background-image="Images/01_1-participation-points.jpg" background-size='92%'}
-
-::: notes
-
-Ok, so I've got you coming to class now how do I make sure you're doing the work?
-- Participation points!
-
-<br>
-
-Basically, if you:
-- Get to class on time,
-- Have the materials you need to work, and
-- Submit all daily required assignments BEFORE class,
-
-You'll be good to go and these are easy free points.
-
-<br>
-
-Before many of our classes we will have a reading and/or an assignment to complete.
-- You must submit any daily assignment to our Canvas discussion board BEFORE class begins to earn your participation point.
-
-The two most common ways people lose these points?
-- Come to class late, or 
-- Come to class without having completed the daily assignment.
-
-<br>
-
-### Questions on this?
-:::
-
-
-
-## {background-image="Images/01_1-matrix_meme.jpg" background-size='92%'}
-
-::: notes
-
-Your first job is to download the syllabus from Canvas and read it carefully.
-
-<br>
-
-It includes detail on everything you need to know.
-- Assignment deadlines
-- Readings
-- Drury policies
-
-ALSO, I can see who downloaded it, so don’t delay!
-
-<br>
-
-We'll be using Canvas for submitting assignments and sharing readings.
-
-- **All** of our readings this term are available on Canvas.
-
-- Let me know if you have trouble using our class Canvas page
-:::
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-
+### Check Canvas: What is due before next class?
 
 ::: notes
 
+1. Cronon 1996, "The Trouble with Wilderness or, Getting Back to the Wrong Nature"
+
+2. Canvas Assignment
+    
+    1. According to Cronon (1996), why is "the wilderness" a serious problem for environmental problem-solving? Explain the thesis of the article (2+ sentences)
+    
+    2. What is the strongest piece of evidence provided by Cronon in the article? (2+ sentences)
+    
+    3. If Cronon (1996) is correct, what do we need to do in order to engage productively in environmental problem-solving in our community? (2+ sentences)
+
+<br>
+
+**Questions on the assignment?**
 
 <br>
 
