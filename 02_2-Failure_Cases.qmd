@@ -15,7 +15,7 @@ library(kableExtra)
 
 **Comparative Case Studies**
 
-- ...
+- Local Communities Failing to Solve Environmental Problems
 
 :::
 
@@ -28,20 +28,221 @@ Justin Leinaweaver (Spring 2025)
 ::: notes
 Prep for Class
 
-1. TBD
+1. Review Canvas submissions
+
+<br>
+
+Today we continue our work from last class analyzing case studies of local communities attempting to solve environmental problems
+
+<br>
+
+My hopes for this exercise remain twofold:
+
+1. To give you a broader list of specific examples of local communities grappling with environmental problems that you can draw from in our work, and
+
+2. To give you a head start on thinking about policy-making in terms of theory and process
+
+<br>
+
+**SLIDE**: Last class...
 
 :::
 
 
 
+## Thinking Theoretically {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are our big picture takeaways from the success cases?
+
+- Are there certain kinds of environmental problem, community or policy approach that is more likely to succeed?
+
+::: notes
+
+**What were your takeaways from our work last class?**
+
+<br>
+
+**SLIDE**: Enough success, let's talk about the failures!
+
+:::
 
 
 
+## The Failure Cases {background-image="Images/background-forest_v3.png" .center}
 
-## For Next Class {background-image="Images/background-forest_v3.png" .center}
+::: {.r-fit-text}
+1. What happened?
+    - Failure to act, status quo bias, removing good policy
+
+2. Why are you convinced this was a failure?
+:::
+
+::: notes
+
+Let's speed around the room to introduce the cases
+
+- In a moment we'll dig more deeply into all of them, but let's begin with a broad overview
+
+- Be an active listener as we do this!
+
+<br>
+
+*PRESENT each*
+
+<br>
+
+*Split class into NEW (different than last class) small groups (five groups of four)*
+
+- Go sit with your group!
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**1. Characteristics of the Environmental Problems**
+
+- What are the common characteristics for the environmental problems in our failure stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- Focus JUST on the failure cases to begin. We'll compare to the successes in a moment.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+**Class Notes (2025-SP)**
+
+- ?
+
+<br>
+
+Ok, now I want you to compare and contrast the success cases against the failures as we think in terms of new theory
+
+- **What environmental problem characteristics do we suspect lead to success or failure? Why?**
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**2. Characteristics of the Community**
+
+- What are the common characteristics for the communities in our failure stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+**Class Notes (2025-SP)**
+
+- ?
+
+<br>
+
+Ok, now I want you to compare and contrast the success cases against the failures as we think in terms of new theory
+
+- **What community characteristics do we suspect lead to success or failure? Why?**
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**3. Characteristics of the Policy**
+
+- What are the common characteristics for the policies in our failure stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+**Class Notes (2025-SP)**
+
+- ?
+
+<br>
+
+Ok, now I want you to compare and contrast the success cases against the failures as we think in terms of new theory
+
+- **What policy characteristics do we suspect lead to success or failure? Why?**
+
+:::
+
+
+
+## Thinking Theoretically {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are our big picture takeaways from the comparative case study this week?
+
+- What should we keep in mind when trying to solve a local environmental problem?
+
+::: notes
+
+Groups, take a minute to reflect on all our cases and consider if there are any inferences we would like to draw so far
+
+- Any elements of our success cases that you suspect might be tied to the success or failure of environmental problem-solving?
+
+<br>
+
+*PRESENT and DISCUSS*
+
+- *Force this discussion*
+
+<br>
+
+**SLIDE**: For next week
+:::
+
+
+
+## Next Week: Public Policy {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_2-public-policy-examples.jpg)
 
 
 ::: notes
 
+What is policy? Why do we use it? How has SGF used it?
+
+<br>
+
+You have a reading and Canvas assignment due before next class
 
 :::
