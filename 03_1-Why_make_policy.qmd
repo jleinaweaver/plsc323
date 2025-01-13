@@ -11,13 +11,15 @@ library(kableExtra)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
-**I. The Basics of Problem-Solving in a Community**
+**A Crash Course in Public Policy**
 
-1. What should government do? 
+- Why do societies make policy?
 
-2. The pre-req's BEFORE designing a policy 
+- What are the basic pre-req's for making policy?
+
+:::
 
 <br>
 
@@ -28,12 +30,10 @@ Justin Leinaweaver (Spring 2025)
 ::: notes
 Prep for Class
 
-1. Bring the Munger book to class
+1. Review Canvas submissions
+
+2. Bring the Munger book to class
     - Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
-
-2. Publish Canvas discussion for Thursday
-
-3. Step through all this SLOWLY, it's brand new to them
 
 <br>
 
@@ -41,80 +41,7 @@ Prep for Class
 :::
 
 
-## Assignment 4 {background-image="Images/background-forest_v3.png" .center}
 
-**Getting Involved in our Community**
-
-<br>
-
-**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
-
-**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
-
-::: notes
-
-For the next few weeks I'm going to keep putting this assignment on your radar!
-
-- The idea is that doing this engagement activity will help you better complete your policy proposal
-
-- e.g. this activity should deepen your understanding of the problem, the stakeholders involved, etc.
-
-<br>
-
-Let's use this assignment prompt as a warm-up for today.
-
-### What is one thing you could do this weekend in our community that would help you learn more about the PROBLEM they've selected?
-
-- Take a minute to think and then we'll go around the room to hear them all!
-
-- Go!
-
-<br>
-
-Two things to keep in mind!
-
-First, You MUST get my sign-off on the project BEFORE you do it!
-
-- There is an assignment prompt on Canvas for community engagement proposals
-
-- Your proposal explains what you want to do AND how it connects to your project
-
-- Don't do the project without my sign-off
-
-<br>
-
-Second, be ready to do this brainstorming exercise again on Thursday! 
-
-- Have something new for us!
-
-<br>
-
-### Any questions on the engagement assignment or proposal?
-:::
-
-
-
-
-## The Semester: Three Sections {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-1. The Basics of Problem-Solving in a Community
-
-2. Evaluating Policy Design Options
-
-3. Designing Environmental Policies
-:::
-
-::: notes
-
-As I set out for you in week 1, our semester is organized in three sections.
-
-- Now that we're a couple of weeks in I'm hoping you're starting to get a sense of what I mean by "the basics."
-
-- Let's make sure of that!
-:::
 
 
 
@@ -132,25 +59,26 @@ knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
 
 In our first class we simulated a resource management problem.
 
-### What was the problem your community faced in our game?
+**What was the problem your community faced in our game?**
+
 - (How to manage a renewable resource)
 - (How to distribute benefits in a community)
 
 <br>
 
-### What "policy" or rules did you create? 
+**What "policy" or rules did you create?**
 
-### - Even if you think the answer was "none" there were certainly norms of behavior you all obeyed! What norms were operating and why?
-
-<br>
-
-### Were you, personally, happy with the outcome of the simulation? Why or why not?
+- **Even if you think the answer was "none" there were certainly norms of behavior you all obeyed! What norms were operating and why?**
 
 <br>
 
-### Did the community maximize its benefits in this simulation?
+**Were you, personally, happy with the outcome of the simulation? Why or why not?**
 
-### - Depends on what you call a "benefit", right? Resource survival vs human utility...
+<br>
+
+**Did the community maximize its benefits in this simulation?**
+
+- **Depends on what you call a "benefit", right? Resource survival vs human utility...**
 :::
 
 
@@ -189,7 +117,7 @@ Most of you were strangers to each other when we played the game and yet your be
 
 <br>
 
-### Is everybody clear on how "politics" plays a role in problem-solving?
+**Is everybody clear on how "politics" plays a role in problem-solving?**
 
 :::
 
@@ -213,28 +141,28 @@ Last week we shifted our focus to a key concept in this class: The Environment.
 
 <br>
 
-### For the purposes of problem-solving, what is "the environment" and what do we need to keep in mind as we work?
+**For the purposes of problem-solving, what is "the environment" and what do we need to keep in mind as we work?**
 
-1) "The Environment", or whatever specific piece of it you are focusing on in problem-solving, is a human construct.
-- Cronon (1996) argues that ALL environmental concepts are constructed by people and their meanings evolve over time!
+1. "The Environment", or whatever specific piece of it you are focusing on in problem-solving, is a human construct.
+    - Cronon (1996) argues that ALL environmental concepts are constructed by people and their meanings evolve over time!
 
 <br>
 
-2) The root of many "environmental" conflicts is often a conflict in definitions
-- Stakeholders will almost certainly define the key concept in your problem differently.
+2. The root of many "environmental" conflicts is often a conflict in definitions
+    - Stakeholders will almost certainly define the key concept in your problem differently.
 
-- This leads to actors arguing past each other
+    - This leads to actors arguing past each other
 
 <br>
     
-3) A good problem-solver must be flexible and adaptable which means not locking in on any single definition!
-- The key skill is learning to identify the stakeholders' definitions and knowing how to connect them!
+3. A good problem-solver must be flexible and adaptable which means not locking in on any single definition!
+    - The key skill is learning to identify the stakeholders' definitions and knowing how to connect them!
 
-- We must design solutions that either work to align those competing framings OR that are consistent with all relevant definitions.
+    - We must design solutions that either work to align those competing framings OR that are consistent with all relevant definitions.
     
 <br>
 
-### Is everybody clear on how "the environment" plays a role in problem-solving?
+**Is everybody clear on how "the environment" plays a role in problem-solving?**
 :::
 
 
@@ -257,15 +185,15 @@ This week we need to **define "policy"** and think carefully about what it means
 
 <br>
 
-### Does everybody have the chapter from Munger's book?
+**Does everybody have the chapter from Munger's book?**
 
 Michael Munger's *Analyzing Policy* is an excellent, although very technical book, all about learning to be a policy analyst.
 
 <br>
 
-### When you hear the word "policy," what immediately springs to mind?
+**When you hear the word "policy," what immediately springs to mind?**
 
-### - What are the "policy" examples that you've encountered?
+- **What are the "policy" examples that you've encountered?**
 
 - (Laws and regulations by government)
 
@@ -462,7 +390,8 @@ Munger kicks off his chapter with a longer version of this quote.
 
 <br>
 
-### What do you think of this as a defintion of "government" or "policy"?
+**What do you think of this as a defintion of "government" or "policy"?**
+
 - *Encourage reflection on this*
 
 <br>
@@ -524,7 +453,7 @@ This is why we work on local environmental problems in here
 
 <br>
 
-### Questions on this?
+**Questions on this?**
 
 <br>
 
@@ -552,25 +481,25 @@ Policy designers must NEVER forget that **all policies create winners and losers
 
 <br>
 
-### For example, who benefits when government increases the minimum wage?
+**For example, who benefits when government increases the minimum wage?**
 
-### And who pays the costs for it?
-
-<br>
-
-### Who benefits when the EPA introduces regulations meant to reduce smog in our cities?
-
-### And who pays the costs for it?
+**And who pays the costs for it?**
 
 <br>
 
-### Who benefits when the city council puts speed limits on our roads?
+**Who benefits when the EPA introduces regulations meant to reduce smog in our cities?**
 
-### And who pays the costs for it?
+**And who pays the costs for it?**
 
 <br>
 
-### Humor me, can we think of any policy or rule in our society whether implemented by government, school, or your employer, that does not impose costs on someone?
+**Who benefits when the city council puts speed limits on our roads?**
+
+**And who pays the costs for it?**
+
+<br>
+
+**Humor me, can we think of any policy or rule in our society whether implemented by government, school, or your employer, that does not impose costs on someone?**
 
 <br>
 
@@ -650,7 +579,7 @@ Before you attempt to design a policy to address a problem you should be able to
 
 <br>
 
-### Does this make sense in big picture terms?
+**Does this make sense in big picture terms?**
 
 <br>
 
@@ -683,7 +612,7 @@ Groups, in 10 minutes I want you to introduce your "wisdom" to the class.
 
 <br>
 
-### Questions on the four prompts?
+**Questions on the four prompts?**
 
 - Go!
 
@@ -696,14 +625,17 @@ Let's hear your answers!
 <br>
 
 The Market
+
 - Pros: Most efficient by definition (most bang for the resource buck)
 - Cons: Market failures such as 1) Monopolies (e.g. antitrust), 2) Externalities (e.g. pollution), 3) Under supply of public goods (e.g. free-riding), and 4) Information problems (e.g. drug safety); Reduces all problems to maximization of use issues
 
 Experts: "someone who has the goal of improving the functioning of politics or markets" (31).
+
 - Pros: Hopefully relies on transparent and verifiable knowledge; Plans built on expertise and designed with ongoing evaluation
 - Cons: May discourage wide participation; May privilege some uses/solutions over others; May lead to inequitable outcomes depending on "who" the experts are
 
 Politics
+
 - Pros: Can be done to maximize participation; 
 - Cons: Can be very slow; Can be very messy; Often has trouble with long time horizon problems
 
@@ -766,7 +698,7 @@ Groups, take a few minutes to think about our management problem from the perspe
 
 <br>
 
-### Questions?
+**Questions?**
 
 - Go!
 
@@ -809,11 +741,11 @@ When experts try to "fix" market failures we get efficiency policies.
 
 <br>
 
-### Can we see this specific tension when we compare the plans from the market and expert groups?
+**Can we see this specific tension when we compare the plans from the market and expert groups?**
 
 <br>
 
-### How much room for compromise here?
+**How much room for compromise here?**
 
 :::
 
@@ -834,17 +766,18 @@ When politics tries to "fix" market failures we get equity policies.
 
 <br>
 
-### Can we see this specific tension when we compare the plans from the market and politics groups?
+**Can we see this specific tension when we compare the plans from the market and politics groups?**
 
 <br>
 
-### How much room for compromise here?
+**How much room for compromise here?**
 
 <br>
 
-##### chapter notes
+**chapter notes**
 
 But there are two conflicting meanings of fairness too!
+
 1. "Fair" as in "average"
 2. "Fair" as in equitable
 :::
@@ -865,11 +798,11 @@ When experts try to "fix" political failures we get institutional reform policie
 
 <br>
 
-### Can we see this specific tension when we compare the plans from the expert and politics groups?
+**Can we see this specific tension when we compare the plans from the expert and politics groups?**
 
 <br>
 
-### How much room for compromise here?
+**How much room for compromise here?**
 :::
 
 
@@ -914,9 +847,9 @@ Let's now shift to one of my favorite thought experiments in any textbook ever.
 
 <br>
 
-### What is the Hun-gats tribe thought experiment?
+**What is the Hun-gats tribe thought experiment?**
 
-### - What details stood out for you?
+- **What details stood out for you?**
 
 - A tribe of hunter-gatherers in pre-history that are running out of food (or at least the food they know is safe to eat)
 
@@ -928,7 +861,7 @@ Let's now shift to one of my favorite thought experiments in any textbook ever.
 
 Now analyze it for me!
 
-### What are the concrete lessons we can take from the starving Hun-gats tribe to help us be better policy-makers?
+**What are the concrete lessons we can take from the starving Hun-gats tribe to help us be better policy-makers?**
 
 - *Don't dawdle setting this up or debating the state of nature. Get to the point. They read it so ask what the takeaways are!*
 
@@ -1011,9 +944,9 @@ Before you can propose a policy solution you must first convince the relevant co
 
 <br>
 
-### What does it mean to say something is a "public" problem?
+**What does it mean to say something is a "public" problem?**
 
-### - As opposed to what?
+- **As opposed to what?**
 
 - (**SLIDE**)
 :::
@@ -1040,21 +973,21 @@ Note that for clarity I am referring to these as debates about the problem
 
 <br>
 
-### Give me an example of something in your life that is clearly a "private problem" by this definition.
+**Give me an example of something in your life that is clearly a "private problem" by this definition.**
 
 <br>
 
-### Now give me an example of something in your life that is clearly a "public problem" by this definition.
+**Now give me an example of something in your life that is clearly a "public problem" by this definition.**
 
 <br>
 
-### How distinct are these two things?
+**How distinct are these two things?**
 
-### - Is it likely the case that people easily agree the difference between public and private problems?
+- **Is it likely the case that people easily agree the difference between public and private problems?**
 
 <br>
 
-### - Give me an example of a problem that straddles the line between public and private these days
+- **Give me an example of a problem that straddles the line between public and private these days**
 :::
 
 
@@ -1100,17 +1033,17 @@ Note that for clarity I am referring to these as debates about the problem
 
 <br>
 
-### Now give me an example of something in your life that should absolutely require a "collective decision" by this definition.
+**Now give me an example of something in your life that should absolutely require a "collective decision" by this definition.**
 
 <br>
 
-### How distinct are these two things?
+**How distinct are these two things?**
 
-### - Is it likely the case that people easily agree the difference between individual and collective decision problems?
+- **Is it likely the case that people easily agree the difference between individual and collective decision problems?**
 
 <br>
 
-### - Give me an example of a problem that straddles the line
+- **Give me an example of a problem that straddles the line**
 :::
 
 
@@ -1129,9 +1062,9 @@ Munger's Figure 2.4 combines these two arguments in order to convey more importa
 
 <br>
 
-### What do you get from this? 
+**What do you get from this?**
 
-### - How does this help us think about problem-solving in a community?
+- **How does this help us think about problem-solving in a community?**
 
 <br>
 
@@ -1162,7 +1095,7 @@ These boxes represent shortcuts to moving the views of a stakeholder
 
 <br>
 
-### Make sense?
+**Make sense?**
 
 :::
 
@@ -1186,27 +1119,20 @@ We live in a complex and diverse society filled with lots of different people li
 
 <br>
 
-### Questions on the Munger chapter or how we apply the material to your projects this semester?
+**Questions on the Munger chapter or how we apply the material to your projects this semester?**
 :::
+
+
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
-<br>
-
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/03_1-Assignment.png")
-```
 
 ::: notes
 
-On Thursday we'll work to continue refining your chosen envrionmental problem definitions and start applying our material from today to your projects.
-
-- Focus on making these two arguments clearly
-
-- Include evidence for any factual claims you make!
+On Thursday 
 
 <br>
 
-### Questions on this assignment?
+**Questions on this assignment?**
 :::
