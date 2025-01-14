@@ -315,7 +315,7 @@ The word politics these days is often attached to awful behavior by self-serving
 
 <br>
 
-Rather than start with a technical definition, let's simulate a political problem related to the environment and see if that clears things up
+**SLIDE**: Rather than start with a technical definition, let's simulate a political problem related to the environment and see if that clears things up
 
 :::
 
@@ -607,7 +607,11 @@ And that brings us to our primary aim in this class:
 
 - Our big goal this semester is to find a local environmental problem, learn a ton about it and then try to make a difference in it
 
-- I mean this. My ambition is that we get out into the world and get something done.
+<br>
+
+I mean this. 
+
+- My ambition is that we get out into the world and get something done.
 
 - Will we succeed? Who knows! But let's give it a shot!
 
