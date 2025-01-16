@@ -37,10 +37,9 @@ Prep for Class
 
 <br>
 
-**SLIDE**: *Brainstorming community engagement*
+**SLIDE**: Let's refresh our work so far in this class.
+
 :::
-
-
 
 
 
@@ -66,19 +65,32 @@ In our first class we simulated a resource management problem.
 
 <br>
 
-**What "policy" or rules did you create?**
+**What rules did you create? Why?**
 
-- **Even if you think the answer was "none" there were certainly norms of behavior you all obeyed! What norms were operating and why?**
-
-<br>
-
-**Were you, personally, happy with the outcome of the simulation? Why or why not?**
+- **e.g. number of fishers, selection of fishers, enforcement of the rules?**
 
 <br>
 
-**Did the community maximize its benefits in this simulation?**
+**Did the group succeed in its efforts? Why or why not?**
 
-- **Depends on what you call a "benefit", right? Resource survival vs human utility...**
+- **Were you maximizing the sustainability of the resource, the gains of the collective or the gains of one individual?**
+
+<br>
+
+I really like this opening simulation for a bunch of reasons:
+
+- It gives me a sense of who each of you are as individuals
+
+- It gives me a sense of who you are as a collective
+
+- It asks each of you to think about a community problem like a political scientist
+
+- And, frankly, it's a lot of fun
+
+<br>
+
+**SLIDE**: But there are also some lessons on problem-solving we should keep in mind
+
 :::
 
 
@@ -91,33 +103,50 @@ In our first class we simulated a resource management problem.
 
 <br>
 
-::: {.r-fit-text}
-**"Politics" in everything**
+Politics in everything!
+
+::: {.incremental}
+
+- EVERY problem exists in a community, and 
+
+- EVERY community is a complex mix of actors, rules and interactions
+
+- There are no "blank slates" or "state of nature" societies
 :::
 
 ::: notes
 
-Our first set of lessons about problem-solving in a community were introduced by our game
+**REVEAL 1 and 2**
+
+- *Read slide*
+
+<br>
+
+**REVEAL 3**: Importantly, this isn't just talking about the rules you created for this problem!
+
+- There is no "starting from scratch" anywhere in human societies!
+
+<br>
+
+Most of you were strangers to each other when we played the game and yet your behavior was HEAVILY influenced by:
+
+- Your individual expectations for how you will do in this class (e.g. is EC valuable or not?),
+
+- Your individual needs for progress towards your longer-term goals (graduation, grad school, etc)
+
+- Your desire to be seen by the rest of the group in a particular way (classmates and professor)
+
+- Your sense of how classrooms in college are supposed to function (e.g. what are the rules of behavior?)
+
+- Your desire (maybe?) to not exterminate a species
+
+- and so much more...
+
+<br>
+
+**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
 
 - As policy-makers you need to keep these lessons in mind
-
-<br>
-
-EVERY problem exists in a community, and every community is a complex mix of actors, rules and interactions
-
-<br>
-
-Most of you were strangers to each other when we played the game and yet your behavior was heavily influenced by the social dynamics and expectations YOU brought to it!
-
-- This means that new rules and processes must be adapted to the rules and processes already in place
-    - We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
-
-- This means that trust makes policy solutions MUCH easier to design!
-    - Societies with a lack of trust are in for a rough time trying to solve problems.
-
-<br>
-
-**Is everybody clear on how "politics" plays a role in problem-solving?**
 
 :::
 
@@ -129,7 +158,19 @@ Most of you were strangers to each other when we played the game and yet your be
 **1) The Basics of Problem-Solving in a Community**
 :::
 
-<br>
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-Oregon_Wilderness2.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-City_Street3_v2.png)
+
+:::
+::::
 
 ::: {.r-fit-text}
 **The Trouble with Wilderness**
@@ -137,18 +178,45 @@ Most of you were strangers to each other when we played the game and yet your be
 
 ::: notes
 
-Last week we shifted our focus to a key concept in this class: The Environment.
+After the simulation we shifted our focus to a big collection of key ideas discussed in the Cronon piece from 1996.
 
 <br>
 
-**For the purposes of problem-solving, what is "the environment" and what do we need to keep in mind as we work?**
+**For the purposes of problem-solving, what is "the trouble with wilderness" and what do we need to keep in mind as we work?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+
+<br>
+
+**The Trouble with Wilderness**
+
+1. The "environment" is a contested concept
+
+2. "Conflict" is often due to conflicting definitions
+
+3. **YOU** have to be curious and adaptable
+:::
+
+::: notes
+
 
 1. "The Environment", or whatever specific piece of it you are focusing on in problem-solving, is a human construct.
+
     - Cronon (1996) argues that ALL environmental concepts are constructed by people and their meanings evolve over time!
 
 <br>
 
 2. The root of many "environmental" conflicts is often a conflict in definitions
+
     - Stakeholders will almost certainly define the key concept in your problem differently.
 
     - This leads to actors arguing past each other
@@ -156,6 +224,7 @@ Last week we shifted our focus to a key concept in this class: The Environment.
 <br>
     
 3. A good problem-solver must be flexible and adaptable which means not locking in on any single definition!
+
     - The key skill is learning to identify the stakeholders' definitions and knowing how to connect them!
 
     - We must design solutions that either work to align those competing framings OR that are consistent with all relevant definitions.
@@ -175,19 +244,51 @@ Last week we shifted our focus to a key concept in this class: The Environment.
 
 <br>
 
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+After exploring the Cronon piece we shifted into a comparative case study exercise
+
+<br>
+
+**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
+
+- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
+
+<br>
+
+**SLIDE**: Our work for this week...
+
+:::
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
 ::: {.r-fit-text}
-**We need policy!**
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy!**
 :::
 
 ::: notes
+
+
 
 This week we need to **define "policy"** and think carefully about what it means to say that a problem **REQUIRES** a policy solution!
 
 <br>
 
-**Does everybody have the chapter from Munger's book?**
+For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
 
-Michael Munger's *Analyzing Policy* is an excellent, although very technical book, all about learning to be a policy analyst.
+- Munger's book is an excellent read for anyone interested in becoming a policy analyst or policymaker.
 
 <br>
 
@@ -226,7 +327,7 @@ As a problem-solver, our interest is in understanding concepts in the context of
 
 
 
-## Policy Defined {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -240,7 +341,7 @@ Let's step through the key elements from this definition
 
 
 
-## Policy Defined {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -267,7 +368,7 @@ Makes sense if you think of policy as a new rule or set of rules
 
 
 
-## Policy Defined {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -296,7 +397,7 @@ This means all policy, by definition, is choosing one set of rules over another
 
     
 
-## Policy Defined {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -327,7 +428,7 @@ THIS is the danger of groups tied or committed to a specific ideology.
 
 
 
-## Policy Defined {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
@@ -350,18 +451,20 @@ This means your plan must be adapted to the context of now AND the expected cont
 
 
 
-## A useful policy proposal MUST: {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
-<br>
+### To maximize your chances of success, your policy proposals must be:
 
 ::: {.r-fit-text}
-- Be specific,
+- Specific,
 
-- Be adapted to the specific stakeholders,
+- Adapted to the stakeholders,
 
-- Be adapted to the conditions on the ground, and
+- Adapted to the science of the problem, 
 
-- Include an evaluation of strong alternative proposals.
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
 :::
 
 ::: notes
@@ -378,11 +481,9 @@ Everybody write this down and consider it a guide for our work this semester and
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("Images/02-1-Burke_Quote.jpg")
-```
+![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -390,9 +491,9 @@ Munger kicks off his chapter with a longer version of this quote.
 
 <br>
 
-**What do you think of this as a defintion of "government" or "policy"?**
+**What do you think of this as a definition of "government" or "policy"?**
 
-- *Encourage reflection on this*
+- **By these terms, were you a government during our fishing simulation?**
 
 <br>
 
@@ -404,26 +505,20 @@ Burke frames government as a human effort to deliver what we want
 
 <br>
 
-In our resource management simulation there was no pre-existing government
-
-- only a group of people seeking to develop some rule that could solve a problem for them.
-
-- You tried to devise some rules to meet your wants
-
-<br>
-
 Importantly, this means that "government" is not impartial, perfect, or fixed in nature
 
 - It is a human operation run by a community to achieve the goals of that community.
+
+- In the simulation you were doing your best to manage a bunch of interests in the face of great uncertainty!
+
+- Government is hard.
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Murray-make-a-difference.jpg")
-```
+![](Images/02-1-Murray-make-a-difference.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -465,9 +560,7 @@ This is why we work on local environmental problems in here
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-winners.jpg")
-```
+![](Images/02-1-winners.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -481,21 +574,25 @@ Policy designers must NEVER forget that **all policies create winners and losers
 
 <br>
 
-**For example, who benefits when government increases the minimum wage?**
+For example, Missouri just raised its minimum wage
 
-**And who pays the costs for it?**
+- **Who benefits from increases to the minimum wage?**
 
-<br>
+- **Who pays the costs for those increases?**
 
-**Who benefits when the EPA introduces regulations meant to reduce smog in our cities?**
-
-**And who pays the costs for it?**
+- **Is there any way to pay workers more without distributing the costs to society?**
 
 <br>
 
-**Who benefits when the city council puts speed limits on our roads?**
+The same is true with environmental policies
 
-**And who pays the costs for it?**
+- Take the clean air standards set by the Clean Air Act and the EPA
+
+- **Who benefits from cleaner air?**
+
+- **And who pays the costs for it?**
+
+- **Is there any way to get cleaner air without impacting polluting industries?**
 
 <br>
 
@@ -503,36 +600,7 @@ Policy designers must NEVER forget that **all policies create winners and losers
 
 <br>
 
-**SLIDE**: Please keep these real world costs and benefits in mind as we now shift to what will feel like an incredibly abstract conversation about "wisdom"
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Munger_Fig2-1.png")
-```
-
-::: notes
-**Everybody open up to Figure 2.1 in the Munger chapter**
-
-<br>
-
-I really appreciate how this figure connects our discussions last week about problem framing to policy design.
-
-- As we noted last week, "framing" is like the packaging of a problem for sale
-
-- Framing takes your simple, clear problem description and packages it with the important context / an easily digestible story
-
-<br>
-
-Last week I tried to make clear to you how powerful problem framing can be for problem-solving
-
-- Today we step through how problem-framing creates path dependence 
-
-- In simpler terms, getting the stakeholders to accept your framing is a huge step to getting them to accept your policy design
-
+**SLIDE**: Please keep these real world costs and benefits in mind as we now shift to what will feel like an incredibly abstract conversation about the "wisdoms"
 :::
 
 
@@ -555,9 +623,9 @@ Last week I tried to make clear to you how powerful problem framing can be for p
 :::
 
 ::: {.column width="50%"}
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Munger_Fig2-1.png")
-```
+
+![](Images/02-1-Munger_Fig2-1.png){style="display: block; margin: 0 auto"}
+
 :::
 ::::
 
@@ -587,6 +655,55 @@ Before you attempt to design a policy to address a problem you should be able to
 
 - Go sit with your group and claim a section of the board!
 :::
+
+
+
+
+
+
+
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Munger_Fig2-1.png){style="display: block; margin: 0 auto"}
+
+
+::: notes
+**Everybody open up to Figure 2.1 in the Munger chapter**
+
+<br>
+
+
+
+
+
+
+
+
+
+I really appreciate how this figure connects our discussions last week about problem framing to policy design.
+
+- As we noted last week, "framing" is like the packaging of a problem for sale
+
+- Framing takes your simple, clear problem description and packages it with the important context / an easily digestible story
+
+<br>
+
+Last week I tried to make clear to you how powerful problem framing can be for problem-solving
+
+- Today we step through how problem-framing creates path dependence 
+
+- In simpler terms, getting the stakeholders to accept your framing is a huge step to getting them to accept your policy design
+
+:::
+
+
+
+
 
 
 
@@ -724,9 +841,7 @@ Groups, take a few minutes to think about our management problem from the perspe
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Munger_Fig2-1-efficiency.png")
-```
+![](Images/02-1-Munger_Fig2-1-efficiency.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -753,9 +868,7 @@ When experts try to "fix" market failures we get efficiency policies.
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Munger_Fig2-1-equity.png")
-```
+![](Images/02-1-Munger_Fig2-1-equity.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -785,9 +898,7 @@ But there are two conflicting meanings of fairness too!
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/02-1-Munger_Fig2-1-reform.png")
-```
+![](Images/02-1-Munger_Fig2-1-reform.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -809,9 +920,7 @@ When experts try to "fix" political failures we get institutional reform policie
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics('Images/02-1-Munger_Fig2-1.png')
-```
+![](Images/02-1-Munger_Fig2-1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 **Any questions or need for clarification on the sources of wisdom?**
@@ -889,9 +998,7 @@ I really appreciate how this distills down to the fundamental basics of how any 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/02-1-Munger_Fig2-3.png')
-```
+![](Images/02-1-Munger_Fig2-3.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -1050,9 +1157,7 @@ Note that for clarity I am referring to these as debates about the problem
 
 ## We Need a Policy {background-image="Images/background-forest_v3.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/02-1-Munger_Fig2-4.png')
-```
+![](Images/02-1-Munger_Fig2-4.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -1103,9 +1208,7 @@ These boxes represent shortcuts to moving the views of a stakeholder
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/02-1-Munger_Fig2-4.png')
-```
+![](Images/02-1-Munger_Fig2-4.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 

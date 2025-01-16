@@ -270,6 +270,10 @@ Being a kid in the 1980s and 90s meant coming of age in an era where environment
 
 - We got it in school, in the cartoons we watched and even in our extra-curricular activities
 
+<br>
+
+**SLIDE**: And we definitely got it in our movies!
+
 :::
 
 
@@ -281,9 +285,17 @@ Being a kid in the 1980s and 90s meant coming of age in an era where environment
 
 ::: notes
 
-Heck!
+**Does anybody know the plot of Star Trek IV?**
 
-I remember going to see Star Trek IV and thinking it made perfect sense that aliens were going to destroy the Earth because we had wiped out the whales!
+<br>
+
+I remember sitting in the theater watching this movie and thinking it made perfect sense
+
+- Whales, being natural and ancient, communicate on a level higher than we understand
+
+- So, of course, an advanced alien species coming to earth would seek to commune with the whales
+
+- And since we wiped them out, we were to be destroyed
 
 - If we couldn't protect the whales we probably deserved it!
 
@@ -313,7 +325,9 @@ All of this led me quite naturally into community activism.
 
 + Some of **our actions** destroy the wilderness
 
-**Therefore, we must stop those actions**
++ Once destroyed, **true wilderness can never be restored**
+
+**Therefore, we must stop those actions!**
 :::
 
 ::: notes
@@ -386,7 +400,7 @@ Today I want us to do three things: Clarify this argument, critically analyze it
 
 + *Premise 2*
 
-+ *Premise 3, 4, etc.*
++ *Premise 3*
 
 Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
 
@@ -428,7 +442,7 @@ Let's now evaluate the premises in Cronon's argument.
 
 + *Premise 2*
 
-+ *Premise 3, 4, etc.*
++ *Premise 3*
 
 Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
 
@@ -653,7 +667,7 @@ Time for the second premise, let's mix up the groups!
 
 + As American society "develops" we needed a domesticated wilderness that could indulge our myths
 
-+ *Premise 3, 4, etc.*
++ *Premise 3*
 
 Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
 
