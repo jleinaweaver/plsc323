@@ -30,11 +30,122 @@ Prep for Class
 
 1. Review Canvas submissions
 
+2. Open RStudio and update 2-2 slides with notes from groups today
+
 <br>
 
-**SLIDE**: Our work last week...
+Welcome back all!
+
+- **SLIDE**: Let's kick things off today with a quick refresher on last week
 
 :::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
+```
+
+::: notes
+
+In our first class last week we simulated a resource management problem.
+
+<br>
+
+**What was the problem your community faced in our game?**
+
+- (How to manage a renewable resource)
+- (How to distribute benefits in a community)
+
+<br>
+
+**What rules did you create? Why?**
+
+- **e.g. number of fishers, selection of fishers, enforcement of the rules?**
+
+<br>
+
+**Was this management effort a success? Why or why not?**
+
+<br>
+
+Clarify the terms of "success" here for me.
+
+- **What were you trying to maximize? What was a "good" result?**
+
+<br>
+
+- **Were you maximizing the sustainability of the resource, the gains of the collective or the gains of one individual?**
+
+<br>
+
+I really like this opening simulation for a bunch of reasons:
+
+- It gives me a sense of who each of you are as individuals
+
+- It gives me a sense of who you are as a collective
+
+- It asks each of you to think about a community problem like a political scientist
+
+- And, frankly, it's a lot of fun
+
+<br>
+
+**SLIDE**: But there are also some lessons on problem-solving we should keep in mind
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Politics in everything!**
+
+- EVERY problem exists in a community
+
+- EVERY community is a complex mix of:
+
+    - Actors
+    - Rules
+    - Interactions
+:::
+
+::: notes
+
+*Read slide*
+
+<br>
+
+Each proposal for managing the resource was evaluated by the class in terms of the rules and processes they already operate within
+
+- This means that new rules and processes must be adapted to the rules and processes already in place
+
+<br>
+
+Each proposal was altered based on the other proposals!
+
+- We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
+
+<br>
+
+You guys were rather eager to jump to murder as a means for enforcing the rules
+
+- This means that trust is a vital component of creating rules that will work
+
+- Societies with a lack of trust are in for a rough time trying to solve problems.
+
+<br>
+
+**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
+
+- As policy-makers you need to keep these lessons in mind
+
+:::
+
+
 
 
 
@@ -66,7 +177,7 @@ Prep for Class
 
 ::: notes
 
-Last week we dug into one of my favorite articles exploring our relationship to the environment.
+On Thursday we then dug into one of my favorite articles exploring our relationship to the environment.
 
 - Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
 
@@ -150,11 +261,83 @@ My hope is that these exercises will:
 
 <br>
 
-Today we explore the success stories and Thursday we shift to the failures
+**SLIDE**: What do I mean by "theory"?
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-topo-map-1.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Theories, in science, are the stories we have designed to help us explain the world
+
+- They are simplifications of complex processes meant to help us understand why things happen as they do
 
 <br>
 
-**SLIDE**: Introduce the cases
+**What is a theory you have in your major? What does it help you do?**
+
+- **e.g. gravity, evolution, the median voter?**
+
+<br>
+
+I particularly like the analogy of theories as maps
+
+- Maps are neither true nor false, they are useful or not
+
+- They are tailored to a specific use
+
+- They reflect the interests of their designers
+
+<br>
+
+This topographic map is super useful for planning a hike
+
+- Close together lines mean steep elevation changes, far apart means more gradual
+
+- We can use this to plan a gentle stroll or a strenuous challenge!
+
+<br>
+
+HOWEVER, this map would be terrible for predicting the weather
+
+- **SLIDE**
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-weather_radar.avif){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Now this map is designed to tell us something about the weather!
+
+- Neither map is "false" or "wrong", just suited for different tasks
+
+- Neither map aims to completely represent the entirety of reality, just the parts we need it to focus on
+
+<br>
+
+Theories of evolution, gravity, the median voter are all useful tools for some things and not others
+
+- Just like maps
+
+<br>
+
+**Everybody with me?**
+
+<br>
+
+I would like our work this week examining cases of success and failure to help us generate theories of environmental problem-solving
+
+- **SLIDE**: Ok, let's introduce the success cases!
 
 :::
 
@@ -163,9 +346,11 @@ Today we explore the success stories and Thursday we shift to the failures
 ## The Success Cases {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-1. What happened?
+1. What was the specific "environmental" problem?
 
-2. Why are you convinced this was a success?
+2. What was the specific action taken and by whom?
+
+3. Why are you convinced this was a success?
 :::
 
 ::: notes
@@ -182,9 +367,9 @@ Let's speed around the room to introduce the cases
 
 <br>
 
-*Split class into small groups (five groups of four)*
+*Split class into three groups*
 
-- Go sit with your group!
+- Go sit with your group and claim some space on the board!
 
 :::
 
@@ -208,13 +393,15 @@ Groups, take some time to review ALL of the cases submitted on Canvas in order t
 
 <br>
 
-*ON BOARD: Present and discuss each*
+*After they work for a while shift the focus to theory*
+
+Ok, groups, take your list of characteristics and use them to generate a theory or two
+
+- e.g. Environmental problems that look like X are more likely to be solved/addressed
 
 <br>
 
-**Class Notes (2025-SP)**
-
-- ?
+*ON BOARD: Present and discuss each*
 
 :::
 
@@ -278,71 +465,6 @@ Groups, take some time to review ALL of the cases submitted on Canvas in order t
 
 :::
 
-
-
-## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02_1-topo-map-1.webp){style="display: block; margin: 0 auto"}
-
-::: notes
-
-I want to end today with an exercise in generating theory
-
-- Theories, in science, are the stories we have designed to help us explain the world
-
-- They are simplifications of complex processes meant to help us understand why things happen as they do
-
-<br>
-
-I particularly like the analogy of theories as maps
-
-- Maps are neither true nor false, they are useful or not
-
-- They are tailored to a specific use
-
-- They reflect the interests of their designers
-
-<br>
-
-This topographic map is super useful for planning a hike
-
-- Close together lines mean steep elevation changes, far apart means more gradual
-
-- We can use this to plan a gentle stroll or a strenuous challenge!
-
-<br>
-
-HOWEVER, this map would be terrible for predicting the weather
-
-- **SLIDE**
-
-:::
-
-
-
-## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02_1-weather_radar.avif){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Now this map is designed to tell us something about the weather!
-
-- Neither map is "false" or "wrong", just suited for different tasks
-
-- Neither map aims to completely represent the entirety of reality, just the parts we need it to focus on
-
-<br>
-
-Theories of evolution, gravity, the median voter are all useful tools for some things and not others
-
-- Just like maps
-
-<br>
-
-**Everybody with me?**
-
-:::
 
 
 

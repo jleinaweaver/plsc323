@@ -58,42 +58,28 @@ knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
 
 ::: notes
 
-In our first class we simulated a resource management problem.
+Refresh my memory!
 
-**What was the problem your community faced in our game?**
+- In our first class we simulated a resource management problem.
+
+- **What was the problem your community faced in our game?**
 
 - (How to manage a renewable resource)
 - (How to distribute benefits in a community)
 
 <br>
 
-**What rules did you create? Why?**
+**HOW successful were you?**
 
-- **e.g. number of fishers, selection of fishers, enforcement of the rules?**
+- **In what ways was this a success?**
 
-<br>
-
-**Was this management effort a success? Why or why not?**
+- **In what ways was this a failure?**
 
 <br>
 
-- **Were you maximizing the sustainability of the resource, the gains of the collective or the gains of one individual?**
+**And what were the key lessons for us of this simulation?**
 
-<br>
-
-I really like this opening simulation for a bunch of reasons:
-
-- It gives me a sense of who each of you are as individuals
-
-- It gives me a sense of who you are as a collective
-
-- It asks each of you to think about a community problem like a political scientist
-
-- And, frankly, it's a lot of fun
-
-<br>
-
-**SLIDE**: But there are also some lessons on problem-solving we should keep in mind
+- (**SLIDE**)
 
 :::
 
@@ -1361,10 +1347,13 @@ So, policy is, in essence, a rule or rules adopted by a society to structure beh
 
 
 
-## For Next Class {background-image="Images/background-forest_v3.png" .center}
+## For Next Class {background-image="Images/background-forest_v3.png"}
 
-![](Images/03_1-SGF_Community_Report.png){style="display: block; margin: 0 auto"}
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
 
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
 
 ::: notes
 
