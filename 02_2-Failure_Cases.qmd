@@ -261,9 +261,9 @@ So, we want to use our failure cases today to BOTH:
 ::: {.r-fit-text}
 1. What was the specific "environmental" problem?
 
-2. What was the specific action taken and by whom?
+2. Did the community try anything specific to address it?
 
-3. Why are you convinced this was a success?
+3. Why are you convinced this was a failure?
 :::
 
 ::: notes
@@ -290,7 +290,7 @@ Let's speed around the room to introduce the cases
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-**What are the common characteristics for the environmental problems in our failure stories?**
+**What are the common characteristics for the ENVIRONMENTAL PROBLEMS in our failure stories?**
 
 <br>
 
@@ -325,7 +325,7 @@ Groups, take some time to review ALL of the cases submitted on Canvas in order t
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-**What are the common characteristics for the communities in our failure stories?**
+**What are the common characteristics for the COMMUNITIES in our failure stories?**
 
 <br>
 
@@ -360,7 +360,7 @@ Groups, take some time to review ALL of the cases submitted on Canvas in order t
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-**What are the common characteristics for the policies in our failure stories?**
+**What are the common characteristics for the ACTIONS TAKEN (if any) in our failure stories?**
 
 <br>
 

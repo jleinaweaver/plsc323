@@ -26,282 +26,332 @@ Prep for Class
 
 1. Review and record participation submissions
 
-2. Publish next canvas discussion
+<br>
+
+This week we have a VERY important task to complete
+
+- We need to agree on a local environmental problem to focus on this semester!
 
 <br>
 
-**SLIDE**: Let's kick things off with a refresher from last class
+**SLIDE**: But first, quick refresher on policy and Springfield from last week!
+
 :::
 
 
 
+## {background-image="Images/background-forest_v3.png"}
 
-## {background-image="Images/background-forest_v3.png" .center}
+Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." *Analyzing Policy: Choices, Conflicts, and Practices*. W.W. Norton and Company. 
 
-```{r}
-tibble(
-  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
-  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(TBD)", "(Apr 26)", "(Final)"),
-  col3 = c(20, 60, "", "", "", "", 20)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em", background = "white") |>
-  kableExtra::column_spec(2, width = "7em", background = "white") |>
-  kableExtra::column_spec(3, background = "white") |>
-  kableExtra::row_spec(0, background = "white")
-```
+![](Images/04_1-Munger_Cover.jpg){.absolute bottom=0 width="300" left=400}
 
 ::: notes
 
-**Any questions on the syllabus?**
-
-- **Clear on attendance, participation, assignments and how we'll be using Canvas?**
+We began last week by working to unpack and evaluate the arguments from Michael Munger's book *Analyzing Policy*.
 
 <br>
 
-Just a head's up, I don't check the inbox in Canvas. 
+I think the second chapter of this book does a really effective job helping us:
 
-- If you need to contact me please send me an email.
+1. Define what we mean by "policy",
+
+2. Think critically about the pre-requisites of making policy in any community, and
+
+3. Introducing us to ways of answering the question, "is this a good or wise policy?"
+
+<br>
+
+**According to Munger, what is policy and why do we need it?**
+
+- (**SLIDE**)
+
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
-
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
-```
-
-::: notes
-**What was the story of our in-class simulation?**
-
-- (Lake of magical bonus point fish)
-
-<br>
-
-### How did this help us to define "politics"?
-1. Decision-making in a community
-2. How we make and enforce "the rules"
-3. Who gets what, when and how?
-
-<br>
-
-Key for us is to remember that we need the science, the economics and the ethics to help us understand an environmental problem, but...
-
-- Without the politics we lack the tools needed to translate a "fix" into a specific plan that can make a difference in a real community.
-
-<br>
-
-### Any questions on what we covered last class?
-:::
-
-
-## For Today {background-image="Images/background-forest_v3.png" .center}
-
-
-
-::: notes
-
-**Everybody ready to go with this?**
-
-**Put another way, did everybody earn their participation point?**
-
-<br>
-
-In a moment we'll go around the room and hear about the cases you brought to class today.
-
-- I'd like everyone to present their case as the answer to a series of questions that will help us think broadly about environmental problems
-
-- Nobody here is yet an expert in their problem, so don't stress this.
-
-:::
-
-
-## Local Environmental Problems {background-image="Images/background-forest_v3.png" .center}
-
-::: {.incremental}
-1) Describe the problem
-
-2) Describe the harm done to a specific target
-
-3) Describe meaningful progress
-
-4) Describe three causes
-
-5) Identify an actor who benefits from each of these causes
-:::
-
-::: notes
-
-To start, make sure you can describe the problem as simply as possible.
-
-- I'm willing to bet this thing you have chosen is a problem for lots of people, places, things, etc.
-
-- As a first step I want you to zoom in on the problem in simple terms without involving the targets of it
-
-- Think of this like what we did splitting climate change into smaller pieces on Tuesday.
-
-<br>
-
-### Does that make sense? Go!
-
-<br>
-
-**REVEAL**: Now I want you to go from the simple problem in abstract terms, to the problem in very concrete terms.
-
-- Identify one target harmed by this problem and describe how it harms them. 
-
-- Be specific.
-
-- The target could be a community, a neighborhood, a company, or any other group of people
-
-- For now I will ask you to focus on a human impact rather than a purely non-human one.
-
-<br>
-
-### Does that make sense? Go!
-
-<br>
-
-**REVEAL**: For the second prompt you focused on a specific harm to a specific target.
-
-- For this prompt I want you to think about what progress would look like for that target alone
-
-<br>
-
-Your "big" goal might be to fully address a significant problem for all people and all time, but that's WAY down the road
-
-- I want you to describe what would be a meaningful improvement in the life of your specified target only.
-
-<br>
-
-- Thinking small can help you design feasible proposals, AND 
-
-- can help you more deeply understand why a problem matters to real people.
-
-<br>
-
-In other words, how much harm would need to be reduced to make a meaningful impact on this target?
-
-- What is the smallest amount we need to change to call our work a success?
-
-<br>
-
-### Does that make sense? Go!
-
-<br>
-
-**REVEAL**: We live in a probabilistic world where everything undoubtedly has multiple causes.
-
-- In this step I want you to brainstorm three causes of the problem. 
-
-<br>
-
-Think about what specific actions by specific actors lead to this problem.
-
-- I'm using "actor" collectively here e.g. can be a single person or any group
-
-<br>
-
-### Does that make sense? Go!
-
-<br>
-
-**REVEAL**: For each cause of the problem you have identified I want you to describe who benefits from that action.
-
-<br>
-
-This is our effort to think carefully about why the environmental problems we see exist in the world
-
-- I do not believe we live in a world of Disney villains out to destroy a river or a family of puppies for fun
-
-- Problems are typically caused by actions taken for reasons entirely unrelated to the environmental problem itself
-
-<br>
-
-So, your job is to give us one reason why each of these actions from prompt four is happening.
-
-- Who benefits from each cause?
-
-<br>
-
-### Does that make sense? Go!
-
-<br>
-
-### Everybody have their answer?
-:::
-
-
-## Local Environmental Problems {background-image="Images/background-forest_v3.png" .center}
-
-1) Describe the problem
-
-2) Describe the harm done to a specific target
-
-3) Describe meaningful progress
-
-4) Describe three causes
-
-5) Describe who benefits
-
-::: notes
-
-Ok, let's circle up as best we can and present the cases.
-
-*Go around the room to hear cases and discuss each*
-
-*Make sure they are specific and clear*
-
-<br>
-
-### So, how are we feeling? Do you have your case for the semester or are you going to look for something else?
-
-<br>
-
-**Everyone** needs to have their case **LOCKED IN** before class next Thursday.
-
-- We have a lot to accomplish and we can't spin our wheels on problem selection for too long.
-
-<br>
-
-### Any questions on that?
-:::
-
-
-
-## {background-image="Images/01-1-ozarks_forest.jpg"}
+## {background-image="Images/04-1-cavemen_both_filter.png"}
 
 ::: {.r-fit-text}
-<p style="color: white;">**Why is "the wilderness" a serious problem for society?**</p>
+**Policy as public rules of behavior**
+:::
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**Survival makes policy a necessity**
 :::
 
 ::: notes
 
-For Tuesday, I have assigned you an article by the historian William Cronon on the trouble with wilderness.
+Policy is, essentially, a public rule of behavior
 
-- I love this article. I really do.
+- e.g. don't commit murder, don't steal other people's stuff, don't run next to a pool!
 
 <br>
 
-My hope is that this article:
+And most importantly, survival makes policy a necessity
 
-1. Lays some of the foundations we need for environmental problem-solving, AND 
+- The Hun-Gats don't appear to have any option for avoiding starvation without it
 
-2. Gives you help thinking about the problem you are choosing to focus on this semester.
+<br>
+
+**SLIDE**: Dictionary definition...
 
 :::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+Again, the dictionary is NOT a be-all and end-all source for defining concepts
+
+- However, in this case it does usefully highlight elements I believe are useful for community problem-solvers
+
+<br>
+
+To maximize your chances of success, your policy proposals should be:
+
+- Specific,
+
+- Adapted to the stakeholders,
+
+- Adapted to the science of the problem,
+
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
+
+<br>
+
+**And, according to Munger, what are the pre-requisites for making policy?**
+
+- **In other words, what work do you have to do before you start designing a policy to solve a real-world problem?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+In other words, how do we decide how to decide?
+
+<br>
+
+**Why is this such an important step?**
+
+<br>
+
+- Policymaking is hard enough without having to fight the community while you do it
+
+- There is no "perfect" or "cost free" policy so you'd be crazy not to engage with the community to find out their needs and concerns
+
+- Rule enforcement is hard and costly so generate buy-in on the process from the community BEFORE starting policy design
+
+<br>
+
+In short, this is the work you MUST complete if you have any hope of making a policy in a community that the members will follow without strict and costly enforcement
+
+<br>
+
+**Finally, what tool and approach did Munger suggest for helping us think about whether or not a specific policy is the "right" one for a problem and a community?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Munger's (2000) Three "Wisdoms"**
+
+1. Markets
+
+2. Politics
+
+3. Experts
+:::
+
+![](Images/02-1-Munger_Fig2-1.png){.absolute right=0 bottom=0 width="600"}
+
+::: notes
+
+Munger notes that many policy debates in society reflect tensions between these three perspectives or "wisdoms"
+
+- Each represents a different way of evaluating what a "good" policy looks like.
+
+<br>
+
+**What does it mean to hold "markets" as your preferred wisdom?**
+
+- A preference for allocating resources AND solving problems using systems of private exchange. 
+
+- Concerned primarily with process, less so with outcomes
+
+- Preference for non-interventionist style policies wherever possible
+
+- Rules only to keep that market well functioning (contract enforcement, etc)
+
+<br>
+
+**What does it mean to hold "politics" as your preferred wisdom?**
+
+- A preference for allocating resources AND solving problems emphasizing the role of institutions and citizen involvement in the process. 
+
+- Institutions designed to coordinate and facilitate collective action 
+
+- Typically concerned about process and outcomes 
+
+<br>
+
+**What does it mean to hold "experts" as your preferred wisdom?**
+
+- Preference for allocating resources AND solving problems emphasizing deeper knowledge of the systems involved. 
+
+- "someone who has the goal of improving the functioning of politics or markets" (31).
+
+- Those systems can be economic, political or scientific.
+
+<br>
+
+**Does one of these wisdoms come closest to your perspective on policy?**
+
+<br>
+
+**Importantly, how does considering the three wisdoms help us as policymakers?**
+
+- Identifying the root causes of societal conflicts over specific problems
+
+- Brainstorming policy approaches / identifying compromise positions
+
+- etc
+
+<br>
+
+**SLIDE**: Our job this week
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/04_1-CleangreenSGF.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I have two big aims for this class:
+
+1. I want to teach you some of the basic tools you will need to engage productively in solving problems in our community, and
+
+2. I want us to take these skills, and your energy, into the community in order to accomplish something meaningful
+
+<br>
+
+This week we need to decide on what local environmental problem we are going to focus our work on!
+
+- **SLIDE**: The assignment for today
+
+:::
+
+
+
+## What are our options? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Let's build a list of current, local environmental problems
+
+- Who is being impacted? By how much?
+- Primary causes?
+- Does anyone benefit from the problem or causes?
+- What is meaningful progress?
+
+::: notes
+
+Alright, let's give all our proposed options a quick hearing
+
+- I have the general prompts from Canvas on the slide
+
+- I'll try to track the big picture options on the board as we go
+
+<br>
+
+At this point I am asking you to listen to each and consider your level of interest in that problem
+
+- Think of it like trying on hats.
+
+- Put each one on and think about what it would mean to try and tackle this problem this semester
+
+<br>
+
+To help us reflect on each problem I will ask you to NOT try and sell us on your problem
+
+- I don't want today to focus on the arguments, just the details
+
+- **Does that make sense?**
+
+<br>
+
+**Any questions?**
+
+- Go!
+
+:::
+
+
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
-
-
-::: notes
-**Questions on the assignment?**
-
 <br>
 
-Keep thinking about your problem selection and let me know if you want to discuss it.
+Pick **ONE** local environmental problem and make **three arguments**:
+
+1. This is an important public problem (with evidence)
+
+2. It requires a collective decision (with evidence)
+
+3. We should pick this as our focus for the semester because...
+
+::: notes
+
+**Questions on the assignment?**
+
 :::
