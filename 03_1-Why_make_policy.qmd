@@ -32,10 +32,14 @@ Prep for Class
 
 2. Bring markers x4
 
-3. TAKE YOUR TIME, this is dense material!
+3. Add some brainstormed hypotheses from week 2 here to the refresher material
 
-4. Bring the Munger book to class
+4. TAKE YOUR TIME, this is dense material!
+
+5. Bring the Munger book to class
     - Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
+
+6. OLD Wisdoms slides at bottom
 
 <br>
 
@@ -62,18 +66,27 @@ Refresh my memory!
 
 - In our first class we simulated a resource management problem.
 
-- **What was the problem your community faced in our game?**
+<br>
+
+**One more time, what was the problem your community faced in our game?**
 
 - (How to manage a renewable resource)
+
 - (How to distribute benefits in a community)
 
 <br>
 
-**HOW successful were you?**
+**In what ways can we think of this as a successful community effort in resource management?**
 
-- **In what ways was this a success?**
+- **In other words, tell me the success story version of what happened**
 
-- **In what ways was this a failure?**
+<br>
+
+Now reverse it!
+
+- **In what ways can we think of this as a failed effort in resource management?**
+
+- (Maximize individual results!)
 
 <br>
 
@@ -237,6 +250,36 @@ After exploring the Cronon piece we shifted into a comparative case study exerci
 
 <br>
 
+- (**SLIDE**: Examples from week 2)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+**P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear (and widely accepted)
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvement
+- The plan changes incentives (carrots or sticks)
+
+::: notes
+
+Lots of intriguing ideas from your work in Week 2.
+
+- Don't lose these as they imply strategies for attacking environmental problems in a local community!
+
+<br>
+
 **SLIDE**: Our work for this week...
 
 :::
@@ -267,17 +310,19 @@ For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
 
 <br>
 
-Let's set the table first in a big picture way.
+**Let's set the table first in a big picture way. When you hear the word "policy," what immediately springs to mind?**
 
-- **When you hear the word "policy," what immediately springs to mind?**
+- **What are the "policy" examples that you've encountered?**
 
-    - **What are the "policy" examples that you've encountered?**
+<br>
 
 - (Laws and regulations by government)
 
 - (Rules for behavior as a student at Drury)
 
 - (Rules tied to your contract with your employer at work)
+
+- (The class syllabus!)
 
 <br>
 
@@ -305,7 +350,7 @@ Let's start with Munger's discussion of the hypothetical Hun-gats tribe (p40-47)
 
 - **What options were available to them and what were the pros and cons of each?**
 
-- **What does Munger suggest they, and all societies, must do to survive?**
+- **Are you convinced there is no reasonable individual path to survival for the Hungats? Why or why not?**
 
 <br>
 
@@ -638,14 +683,19 @@ Let's practice making these kinds of arguments
 :::
 
 
+## {background-image="Images/background-forest_v3.png"}
 
-## {background-image="Images/background-forest_v3.png" .center}
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
 
 ::: {.r-fit-text}
 **Does our magical fishery require public policy?**
 :::
 
-![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+- Group 1: Private Problem, Individual Decision
+
+- Group 2: Public Problem, Individual Decision
+
+- Group 3: Public Problem, Collective Decision
 
 ::: notes
 
@@ -668,6 +718,20 @@ Each group will have ten minutes to put on the board the strongest argument they
 *PRESENT and DISCUSS each*
 
 - **What advice can we offer each group to help them strengthen their argument?**
+
+<br>
+
+Ok, groups, now you know the enemy!
+
+- Take some time to reinforce your argument AND to prepare a counter-argument against the other two groups
+
+- **Does everybody understand what I'm asking for?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
 
 <br>
 
@@ -789,11 +853,51 @@ Bottom line, I am convinced that this pre-requisite stage represents incredibly 
 
 <br>
 
-**SLIDE**: So we're going to make a policy, but which "policy" is the wise one?
+**SLIDE**: TBC next class!
 
 :::
 
 
+
+## For Next Class {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
+
+::: notes
+
+Next class we'll finish discussing the big elements of the Munger chapter AND dig into our local community!
+
+<br>
+
+For next class you will read the last 3 Springfield Community Focus Reports and be ready to discuss them in class
+
+- Report 2024, Report 2021, Report 2019
+
+To be clear, NOT just the environmental stuff, it's all connected! 
+
+- Get a sense of how our community identifies and addresses big challenges.
+
+<br>
+
+Canvas: How effective has the Springfield community been in identifying and solving big problems?
+
+Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
+
+1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
+
+2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
+
+<br>
+
+**Questions on this assignment?**
+:::
+
+
+## OLD SLIDES: The Wisdoms
 
 
 ## {background-image="Images/background-forest_v3.png"}
@@ -811,6 +915,10 @@ Bottom line, I am convinced that this pre-requisite stage represents incredibly 
 ![](Images/02-1-Munger_Fig2-1.png){.absolute right=0 bottom=0 width="600"}
 
 ::: notes
+
+**SLIDE**: So we're going to make a policy, but which "policy" is the wise one?
+
+
 
 Munger opens the chapter with three of what he describes as "wisdoms" or ways of people might evaluate the "correctness" of a policy
 
@@ -1004,378 +1112,7 @@ Cons:
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
 
-::: {.r-fit-text}
-**Policymaking Pre-Requisites**
 
-<br>
 
-You must convince the community that:
 
-1. We have a public problem, and
-
-2. We require a collective decision to solve it
-:::
-
-::: notes
-
-Let's go back to our pre-requisite arguments on the boards!
-
-<br>
-
-The big question becomes how can we use the wisdoms to help us persuade a community to accept that we have a public problem that requires a collective action?
-
-<br>
-
-**FIRST, can we recognize the wisdoms in the arguments being made?**
-
-- *Encourage this discussion: find examples of all three!*
-
-<br>
-
-**SECOND, how do the wisdoms help us tailor arguments for moving Groups 1 and 2 into Group 3?**
-
-- *Encourage this discussion: find examples of all three!*
-
-<br>
-
-Ironically, I want to end today by discussing one particular definition of the main concept we've been discussing all class-long: "policy"
-
-- I'm not pretending this is the "correct" or "true" definition, but it is a useful place to start
-
-- **SLIDE**
-
-:::
-
-
-
-## What is Policy? {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
-
-::: notes
-
-Let's step through the key elements from this definition
-
-:::
-
-
-
-## What is Policy? {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-"A **definite course or method of action** selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
-
-::: notes
-
-1) A policy, by definition, is a "definite" "course" or "method" of action
-
-<br>
-
-Makes sense if you think of policy as a new rule or set of rules
-
-- Without specificity and clarity the policy cannot hope to change behavior
-
-- e.g. Actor X must do Y
-
-- e.g. Companies investing in new equipment must...
-
-<br>
-
-**SLIDE**: The alternatives
-:::
-
-
-
-## What is Policy? {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-"A definite course or method of action selected (as by a government, institution, group or individual) **from among alternatives** and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
-
-::: notes
-
-2) A policy, by definition, is selected from among competing options
-
-- There is NEVER just one answer to an environmental problem
-
-- A BIG part of the reason a community typically has a problem in the first place is because there is dispute within that community over the possible answers
-
-<br>
-
-This means all policy, by definition, is choosing one set of rules over another
-
-- Effective problem-solvers MUST be able to explain their choices in the context of the policies not selected
-
-- In other words, you will be expected to have explicitly considered alternatives to your "definite" "course of action" AND be able to explain why you choose the way you did
-
-<br>
-
-**SLIDE**: conditions matter
-:::
-
-    
-
-## What is Policy? {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and **in the light of given conditions** to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
-
-::: notes
-
-3) A policy, by definition, must be adapted to the important "conditions" of the problem
-
-- In other words, the quality of your plan also DEPENDS on how well you've adapted it to the conditions on the ground.
-
-- No one-size-fits-all policy solutions are appropriate here.
-
-<br>
-
-THIS is the danger of groups tied or committed to a specific ideology.
-
-- Both cutting regulations and adding new ones are powerful options for influencing behavior, BUT
-
-- It is the context of the problem that should guide your policy design, not vice versa!
-
-- If you know the policy answer before you hear the problem you are not taking it seriously
-
-<br>
-
-**SLIDE**: stakeholders matter
-:::
-
-
-
-## What is Policy? {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions **to guide and usually determine present and future decisions**..." (Webster's Third International Dictionary).
-
-::: notes
-
-4) A policy, by definition, "guide[s]" or "determine[s]" future behavior by stakeholders
-
-- Stakeholders e.g. the people involved in the problem
-
-<br>
-
-This means your plan must be adapted to the context of now AND the expected context we face in the future
-
-<br>
-
-**SLIDE**: In sum
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-### To maximize your chances of success, your policy proposals must be:
-
-::: {.r-fit-text}
-- Specific,
-
-- Adapted to the stakeholders,
-
-- Adapted to the science of the problem, 
-
-- Adapted to the rules of the community, and
-
-- Be at least as good as the alternatives.
-:::
-
-::: notes
-**Does all of that make sense?**
-
-<br>
-
-Everybody write this down and consider it a guide for our work this semester and especially for the final paper!
-
-<br>
-
-**SLIDE**: Funnily enough, Munger starts his chapter with a different definition
-
-:::
-
-
-
-## What should government do? {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Munger kicks off his chapter with a longer version of this quote.
-
-<br>
-
-**What do you think of this as a definition of "government" or the purpose of "government"?**
-
-- **By these terms, were you a government during our fishing simulation?**
-
-<br>
-
-Burke frames government as a human effort to deliver what we want
-
-- Burke acknowledges that government is not "god-given" or part of the "natural order", it is a device built by us to achieve specific aims
-
-- "contrivance": "the use of skill to bring something about or create something" (OED)
-
-<br>
-
-Importantly, this means that "government" is not impartial, perfect, or fixed in nature
-
-- Governing is really hard.
-
-- It is a human operation run by a community to achieve the goals of that community.
-
-- In the simulation you were doing your best to manage a bunch of interests in the face of great uncertainty!
-
-<br>
-
-**SLIDE**: And I can't help but go from this to...
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02-1-Murray-make-a-difference.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Even MORE importantly, this means government is not separate from you.
-
-- It is not a building far away or a special class of people
-
-- It is the confusing name we apply to our community's efforts to solve problems
-
-<br>
-
-We live in a big, complicated country and its functioning well depends on you
-
-- Problem-solving is in your hands
-
-- The "decider" can be anyone, or any group, willing to put in the work 
-
-- If you design a plan that meets the needs of its stakeholders and the conditions on the ground, you can make a difference
-
-- THIS is how our government is designed to work
-
-<br>
-
-This is why we work on local environmental problems in here
-
-- I want us tied to a specific community, in a specific moment in time and at a level where we can find concrete ways to make a difference.
-
-<br>
-
-**Questions on this?**
-
-<br>
-
-**SLIDE**: One other important takeaway that the wisdoms should help you recognize
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**EVERY policy creates winners and losers**
-:::
-
-![](Images/02-1-winners.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Never forget, however, that in real-world problem-solving we play with live ammunition (so to speak)
-
-<br>
-
-Policy designers must NEVER forget that **all policies create winners and losers**.
-
-+ Policy-making is **ALWAYS a choice** and **all choices have consequences**.
-
-<br>
-
-For example, Missouri just raised its minimum wage
-
-- **Who benefits from increases to the minimum wage?**
-
-- **Who pays the costs for those increases?**
-
-- **Is there any way to pay workers more without distributing the costs to society?**
-
-<br>
-
-The same is true with environmental policies
-
-- Take the clean air standards set by the Clean Air Act and the EPA
-
-- **Who benefits from cleaner air?**
-
-- **And who pays the costs for it?**
-
-- **Is there any way to get cleaner air without impacting polluting industries?**
-
-<br>
-
-**Humor me, can we think of any policy or rule in our society whether implemented by government, school, or your employer, that does not impose costs on someone?**
-
-<br>
-
-So, policy is, in essence, a rule or rules adopted by a society to structure behavior.
-
-- All rules impose costs on some and provide benefits to others
-
-- Policy-making is often an exercise in deciding who will pay the costs and who will receive the benefits.
-
-<br>
-
-**SLIDE**: Next class
-
-:::
-
-
-
-## For Next Class {background-image="Images/background-forest_v3.png"}
-
-![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
-
-![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
-
-![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
-
-::: notes
-
-For next class you will read the last 3 Springfield Community Focus Reports and be ready to discuss them in class
-
-- Report 2024, Report 2021, Report 2019
-
-To be clear, NOT just the environmental stuff, it's all connected! 
-
-- Get a sense of how our community identifies and addresses big challenges.
-
-<br>
-
-Canvas: How effective has the Springfield community been in identifying and solving big problems?
-
-Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
-
-1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
-
-2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
-
-<br>
-
-**Questions on this assignment?**
-:::
