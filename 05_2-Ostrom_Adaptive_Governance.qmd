@@ -11,9 +11,13 @@ library(readxl)
 
 <br>
 
-**II. Evaluating Policy Design Options**
+::: {.r-fit-text}
 
--   Adaptive Governance Policies
+**I. The Basics of Problem-Solving in a Community**
+
+- Adaptive Governance as our bridge to designing a policy
+
+:::
 
 <br>
 
@@ -24,203 +28,100 @@ Justin Leinaweaver (Spring 2025)
 ::: notes
 Prep for Class
 
-1.  Publish discussion board for next class
+1. Check Canvas submissions
 
-2. Second slide is grade improvements in R&R process. Celebrate the great work!
+<br>
+
+This week we've been exploring some of the established literature that offers suggestions for engaging productively in community problem-solving.
+
+- **SLIDE**
+
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" }
+## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, fig.align='center', fig.asp=.618, fig.width=9}
-grades <- tribble(
-  ~Draft, ~Draft2, ~Revised, ~Revised2,
-  58, "F", 58, "F",
-  80, "B-", 95, "A",
-  95, "A", 100, "A",
-  78, "C+", 92, "A-",
-  95, "A", 100, "A",
-  80, "B-", 95, "A",
-  85, "B", 95, "A",
-  70, "C-", 85, "B",
-  80, "B-", 87, "B+",
-  90, "A-", 100, "A",
-  88, "B+", 95, "A",
-  75, "C", 100, "A"
-) |>
-  mutate(
-    Draft2_f = factor(Draft2, levels = c("F", "D-", "D", "D+", "C-", "C", "C+", "B-", "B", "B+", "A-", "A")),
-    Revised2_f = factor(Revised2, levels = c("F", "D-", "D", "D+", "C-", "C", "C+", "B-", "B", "B+", "A-", "A"))
-  )
+### What were our key takeaways? 
 
-# table(grades$Draft2)
-# table(grades$Revised2)
-
-# grades |>
-#   ggplot(aes(x = Draft2_f)) +
-#   geom_bar() +
-#   theme_bw() +
-#   scale_x_discrete(drop=FALSE) +
-#   scale_y_continuous(limits = c(0, 8), breaks = 1:8)
-# 
-# grades |>
-#   ggplot(aes(x = Revised2_f)) +
-#   geom_bar() +
-#   theme_bw() +
-#   scale_x_discrete(drop=FALSE) +
-#   scale_y_continuous(limits = c(0, 8), breaks = 1:8)
-  
-grades |>
-  ggplot(aes(x = Draft, y = Revised)) +
-  geom_count() +
-  scale_size_area(max_size = 3.5) +
-  theme_bw() +
-  scale_x_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
-  scale_y_continuous(limits = c(70, 100), breaks = seq(70, 100, 5)) +
-  geom_abline(slope = 1, intercept = 0) +
-  labs(x = "Draft Paper 1 Grades", y = "Revised Paper 1 Grades",
-       title = "The revised papers were excellent!")  +
-  theme(legend.position = "none")
-```
-
-::: notes
-We have to celebrate the great work of the revisions!
-
-- 11 revisions submitted
-
-- x-axis is the grades on the draft paper
-
-- y-axis is the grades after the revision
+### (e.g. the important elements to engage productively with our community)
 
 <br>
-
-Incredible improvements across the board
-
-- The diagonal line here shows where each point would be if the scores on both papers were the same
-
-- Every paper, bar one, made dramatic improvements
-
-:::
-
-
-## Assignment 4 {background-image="Images/background-forest_v3.png"}
-
-<br>
-
-**Getting Involved in our Community**
-
-**Find or create** an opportunity to get **actively involved in your issue locally** (e.g. litter pickup, river cleanup, working with a local NGO or city agency on your issue, etc.)
-
-**Write a report** describing what you did, who you worked with and what you learned that will help you with solving your chosen policy problem.
-
-::: notes
-Reminder, you have until the end of April to complete your community involvement piece of the project.
-
-<br>
-
-Don't forget:
-
-1.  I must sign off on your activity plan **BEFORE** you do it, AND
-
-2.  Your report must include evidence for all claims (e.g. documentation of the activity through photos, etc.)
-
-<br>
-
-### Questions on this assignment?
-:::
-
-
-
-## Evaluating Policy Design Options {background-image="Images/background-forest_v3.png" }
 
 ::: {.r-fit-text}
-1.  Command & Control Regulations
 
-2.  "Green" Taxes
++ DOC'S KEY approach (Hughes 2007)
 
-3.  **"Green" Subsidies**
++ The Policy Process Model (Kraft 2011)
 
-4.  Adaptive Governance
++ The Collaborative Approach (Clarke and Peterson 2016)
+
 :::
 
 ::: notes
-In this second section of the class we've been evaluating different options for designing an environmental policy.
+
+Refresh my memory!
+
+- **What were your key takeaways from exploring the literature last class?**
 
 <br>
 
-Given our break last week, let's dive in with a quick refresher!
-
-<br>
-
-**What does it mean to use command and control regulations to solve an environmental problem?**
-
-<br>
-
-**What does it mean to use "green" taxes to solve an environmental problem?**
-
-<br>
-
-**And what does it mean to use a "green" subsidy to address an environmental problem?**
-
-- (**SLIDE**: Pros and cons...)
+**SLIDE**: We ended last class with a proposed framework
 :::
 
 
 
-## Policy Design Approach 3 {background-image="Images/background-forest_v3.png" }
+## {background-image="Images/background-forest_v3.png" .center}
 
-**"Green" Subsidies**
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-<br>
+1) **Describe** the problem facing our community
 
-:::: {.columns}
+2) **Investigate** the relevant stakeholders
 
-::: {.column width="50%"}
-```{r, fig.retina=3, out.width='100%'}
-knitr::include_graphics('Images/12-1-consumers_v2.png')
-```
-:::
+3) **Frame** the problem
 
-::: {.column width="50%"}
-```{r, fig.retina=3, out.width='100%'}
-knitr::include_graphics('Images/12-1-manufacturing_v2.png')
-```
-:::
+4) **Design** a policy to address the problem
+
 ::::
 
 ::: notes
 
-**What are the pros and cons of choosing a subsidy approach to solving an environmental problem?**
+Keep refreshing my memory!
 
-- Pros: Easier to pass tax incentives than regulations of almost any kind; Can be targeted rather precisely; Requires low uncertainty
-
-- Cons: Requires government to pick winners and losers in the marketplace; May bolster the fortunes of companies who can't compete; May disproportionately benefit the rich
+- **What were the strengths and weaknesses of this process that we discussed (or new ones)?**
 
 <br>
 
-### What examples from our case studies were the most persuasive endorsements of this approach? Why?
+**SLIDE**: Our plan for today
 
-#### - Examples of diverse programs that all can be classified as subsidies? e.g. grants, low-interest loans, favorable tax treatment, and procurement mandates
 :::
+
 
 
 
 ## {background-image="Images/13-1-fishing.jpg"}
 
-<p style="color: white;">**Policy Design Option 4: Adaptive Governance**</p>
+<p style="color: white;">**Adaptive Governance**</p>
+
+<p style="color: white;">**- Connecting our Process to Policy-making**</p>
 
 ::: notes
 
-Today we shift to our final policy design option, adaptive governance.
+Today we shift to the work of Elinor Ostrom on adaptive governance.
 
 <br>
 
-As I think you saw in our reading for today this approach involves quite a bit more than the single mechanisms we've been considering so far.
+I think this is a great reading for at least two reasons:
+
+1. It beautifully reinforces the best lessons of last class about what it takes to locate our activism in a real community, and
+
+2. It helps us move into thinking theoretically about HOW to design the policies we need
 
 <br>
 
-However, before we get into this approach let's take a detour into discussing one of my favorite human beings, Elinor Ostrom, the author of the chapter you read for today.
+**SLIDE**: However, before we get into this approach let's take a detour into discussing one of my favorite human beings: Elinor Ostrom
 :::
 
 
@@ -229,20 +130,25 @@ However, before we get into this approach let's take a detour into discussing on
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, out.width='70%'}
-knitr::include_graphics('Images/10-1-Ostrom_Cover.jpg')
-```
+
+![](Images/10-1-Ostrom_Cover.jpg){.absolute width="350"}
+
 :::
 
 ::: {.column width="50%"}
-```{r, out.width='100%'}
-knitr::include_graphics('Images/13-1-ostrom.jpg')
-```
+
+![](Images/13-1-ostrom.jpg){.absolute width="450"}
+
 :::
 ::::
 
 ::: notes
-Her story is a super cool one!
+
+**Has anybody encountered Dr. Ostrom or her work before?**
+
+<br>
+
+Her story is brilliant
 
 <br>
 
@@ -258,19 +164,19 @@ Her response?
 :::
 
 
-## NOBEL PRIZE WINNER Elinor Ostrom {background-image="Images/background-forest_v3.png" }
+## NOBEL PRIZE WINNER Elinor Ostrom {background-image="Images/background-forest_v3.png"}
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, out.width='70%'}
-knitr::include_graphics('Images/10-1-Ostrom_Cover2.jpg')
-```
+
+![](Images/10-1-Ostrom_Cover2.jpg){.absolute width="375"}
+
 :::
 
 ::: {.column width="50%"}
-```{r, out.width='100%'}
-knitr::include_graphics('Images/13-1-ostrom.jpg')
-```
+
+![](Images/05_2-Ostrom_Nobel.jpg){.absolute width="400"}
+
 :::
 ::::
 
@@ -334,7 +240,8 @@ The thing was, as Ostrom explored the world of resource management she kept find
 
 <br>
 
-**SLIDE**: First step for us to explore Ostrom's work is to get our heads around the concept of common pool resources (CPR)
+**SLIDE**: Let's dig into adaptive governance by first discussing common pool resources (CPRs)
+
 :::
 
 
@@ -416,28 +323,30 @@ FINALLY, the "system" in a CPR must produce benefits to those who use it
 ::: {.column width="50%"}
 **Resource System**
 
-```{r}
-knitr::include_graphics('Images/13-1-ocean.jpg')
-```
+![](Images/13-1-ocean.jpg)
+
 :::
 
 ::: {.column width="50%"}
 **Resource Units**
 
-```{r}
-knitr::include_graphics('Images/13-1-cod-fish.jpg')
-```
+<br>
+
+![](Images/13-1-cod-fish.jpg)
+
 :::
 ::::
 
 ::: notes
-Think back to our cod fishery collapse
+We can now reframe the cod fishery collapse as a common pool resource management problem
 
-- The ocean is a natural system, that is hard to control access to and from which units of fish can be extracted that provide value
+- The ocean is the resource system and it is VERY hard to control who has access to it
+
+- The fish are the resource units and each one is valuable
 
 <br>
 
-Ostrom encourages us to recognize that our interest in this version of the problem is an issue of flow.
+Ostrom encourages us to think about CPR management as an issue of flow.
 
 - In a sense, managing a CPR is like taking water from a hose
 
@@ -447,15 +356,21 @@ Ostrom encourages us to recognize that our interest in this version of the probl
 
 <br>
 
-Why adopt this approach?
+Why is this approach better than alternative framings?
 
 <br>
 
-FIRST, it gives us a much more nuanced view of the resource problem
+FIRST, it allows us to study management problems in more productive ways:
 
-1. The health of the system exists separately from the health of the resource unit
+1. Successful management requires understanding the system itself
 
-2. The resource unit's flow can, and should, be managed
+    - A healthy system is more than just a source of resource units
+
+2. Successful management requires understanding the units themselves
+
+    - The health of the units is a more complex question than just asking about the system they live in
+
+3. Successful management requires understanding how the "flow" of units from the system impacts both
 
 <br>
 
@@ -476,8 +391,6 @@ SECOND, we can ask more useful questions
 
 ## Common Pool Resources (CPR) {background-image="Images/background-forest_v3.png" .center}
 
-<br>
-
 ```{r}
 tibble(
   "Resource Systems" = c("Fishing Grounds"),
@@ -494,7 +407,9 @@ So, Ostrom's first big shift in our efforts to manage natural resources focuses 
 
 - Most shared resource problems can be analyzed as CPR problems
 
-- CPRs can be thought of as resource systems that produce a flow of units
+<br>
+
+AND CPRs can be analyzed as resource systems that produce a flow of units
 
 - The system, the units and the dependence between them can each be analyzed separately
 
@@ -506,7 +421,7 @@ So, Ostrom's first big shift in our efforts to manage natural resources focuses 
 
 <br>
 
-**SLIDE**: Let's consider some shared resource problem examples and see how it hard it is to think of them as CPRs.
+**SLIDE**: Let's consider some shared resource problem examples and reframe each one as a CPR.
 :::
 
 
@@ -527,8 +442,6 @@ Imagine a freshwater source, e.g. a small lake, at the intersection of six farms
 
 
 ## Common Pool Resources (CPR) {background-image="Images/background-forest_v3.png"  .center}
-
-<br>
 
 ```{r}
 tibble(
@@ -576,8 +489,6 @@ Imagine a group of farmers all feeding their livestock on public lands.
 
 
 ## Common Pool Resources (CPR) {background-image="Images/background-forest_v3.png"  .center}
-
-<br>
 
 ```{r}
 tibble(
@@ -785,11 +696,7 @@ For today I had you read the chapter in her book where she describes six places 
 
 As you all know, case selection DRAMATICALLY impacts the conclusions we can draw from any analysis.
 
-- If I design a study of college students
-
-<br>
-
-So, let's start by discussing Ostrom's case selection.
+- So, let's start by discussing Ostrom's case selection.
 
 - **What criteria did Ostrom use to select her cases?**
 
@@ -817,7 +724,16 @@ So, let's start by discussing Ostrom's case selection.
 
 <br>
 
-**SLIDE**: From these success stories, and others, Ostrom proposes eight design principles she suggests may help us solve environmental problems with adaptive governance
+From these success stories, and others, Ostrom proposes eight design principles to help us solve environmental problems
+
+- In short, I want you to think about these as gateways into designing environmental policy
+
+- Each principle suggests a causal mechanism that has been associated with successfully managing an environmental resource
+
+<br>
+
+**SLIDE**: Let's step through them and then we can begin analyzing adaptive governance as an approach to environmental problem-solving
+
 :::
 
 
@@ -826,6 +742,7 @@ So, let's start by discussing Ostrom's case selection.
 ## 1. Clearly Defined Boundaries {background-image="Images/13-1-farm_fence_v2.png"}
 
 ::: notes
+
 The first principle is that successful CPRs have clearly defined boundaries
 
 <br>
@@ -838,9 +755,20 @@ This includes two BIG elements:
 
 <br>
 
-In short, Ostrom argues we must label who the “outsiders” are and agree on what is included in the CPR.
+In short, if anyone can come along and extract value from the CPR then what incentive do you have to sacrifice for the future?
 
-- If anyone can come along and appropriate CPR resources, what incentive do you have to sacrifice for the future?
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- Defining boundaries is HARD and will be contentious,
+
+- Defining the user base is hard and can lead to discrimination,
+
+- How do we maintain boundaries over time as the users or boundaries change due to natural processes or use?
+
 :::
 
 
@@ -859,13 +787,30 @@ For example, in the four garden areas experiencing water shortages in Spain:
 
 - The fees were indexed to local demand and supply of water.
 
-- Therefore, in those huertas where water was more available (e.g. more rain this season), fees were lower.
+- Lots of rain this year, fees go down
+
+- Not much rain, fees go up
+
+- Farmers choose to grow drought resistant crops, fees go down!
 
 <br>
 
-The hope is that people are more likely to comply with rules if they believe they are fair
+The hope is that:
 
-- Flexibility to local conditions might make people feel they are not being ruled by an unreasonable entity
+1. People are more likely to comply with rules if they believe they are fair, and 
+
+2. Well designed rules should encourage efficiency!
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- There will likely be debate about what the local conditions imply. 
+
+- Different rules for different people using the same CPR could lead to huge dissatisfaction (e.g. our area got more rain than yours so our fees are lower OR fewer people in my part of the valley so fees are lower)
+
 :::
 
 
@@ -879,7 +824,7 @@ Third principle, successful CPRs have inclusive Collective-Choice Arrangements
 
 Rules are not created and maintained by some external authority.
 
-- The appropriators themselves participate in making the operational rules.
+- The users themselves participate in making the rules
 
 <br>
 
@@ -889,6 +834,20 @@ The idea is that you put the users in charge of rule-making because:
 
 2. If they feel ownership of the process they will be more likely to comply with the rules
 
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- The bigger the group, the harder it is to make collective decisions.
+
+- Big disconnect possible between winners and losers from resource use.
+
+- Difficulty of understanding the science means not everyone has an informed opinion
+
+- Should everyone interested in the CPR get a vote or just a certain subset of users? What about kids who will inherit the farm?
+
 :::
 
 
@@ -896,20 +855,40 @@ The idea is that you put the users in charge of rule-making because:
 ## 4. Monitoring {background-image="Images/13-1-water_testing_v2.png"}
 
 ::: notes
-Fourth principle, successful CPRs arrange for monitoring
+Fourth principle, successful CPRs arrange for active monitoring of the resource
 
 <br>
 
-And, more precisely, the monitors must:
+By "active" we mean on site monitoring of BOTH:
 
-1. Actively audit CPR conditions, AND 
+- The health of the system, and
 
-2. Either be the appropriators themselves OR be fully accountable to them.
+- The extraction of the units by the users
 
 <br>
 
-So, the monitors are the users (or work directly for them)!
+Ostrom also notes that this monitoring works best if either:
+
+- The monitors ARE the users themselves (e.g. everybody pays attention), OR
+
+- The monitors are fully accountable to the users
+
+- This can't just be something you outsource to "government" to pay attention to!
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- Establishing monitors’ and scientists’ independence from appropriators; Must be able to trust their work.
+
+- Uncertainty about what to monitor.
+
+- Who here has a job? If you don't do what your boss asked or have to give her bad news, how do you do it?
+
 :::
+
 
 
 ## 5. Graduated Sanctions {background-image="Images/13-1-slap-on-wrist_v2.png"}
@@ -930,6 +909,19 @@ Rule breakers must be punished, but the punishment should fit the crime.
 Importantly, Ostrom notes that in many of the cases she studied it takes very little in the way of punishment to achieve wide compliance
 
 - Users frequently want to ensure they are not being taken advantage of and correcting minor rule-breaking with minor punishments reassures all users of fairness
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- How to agree the appropriate level of penalty amongst the appropriators?
+
+- Who benefits if the commons is a zero-sum game when someone gets punished? I might!
+
+- Possible conflicts of interest? Although I might deal fairly in the hope they will do the same for me.
+
 :::
 
 
@@ -940,9 +932,28 @@ Sixth principle, successful CPRs have Conflict-Resolution Mechanisms
 
 <br>
 
-In short, rapid access to low-cost local arenas to resolve conflicts.
+In short, conflicts will inevitably arise...
+
+- Users arguing about extracting resources, or the health of the system, or the the current context (e.g. amount of rain)
+
+<br>
+
+So, successful management plans provide rapid access to low-cost local arenas to resolve conflicts.
 
 - A full trial is very costly and time-consuming, not needed for many disputes.
+
+- Need local mediators to stop conflicts before they become serious
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- Finding acceptable local mediators is hard!
+
+- Need to carefully account for any right to appeal so as not to disrupt the balance of the management plan
+
 :::
 
 
@@ -957,6 +968,17 @@ Seventh principle, successful CPRs have Minimal Recognition of Rights to Organiz
 Local areas must be empowered to make rules the central government will not overrule.
 
 - If locals can appeal to central government to overrule the CPRs rules, then the local rules are meaningless.
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- Governments are reticent to cede their authority permanently
+
+- Other citizens may also feel strongly about the management of the resource
+
 :::
 
 
@@ -976,13 +998,23 @@ For CPRs part of larger systems, all of the important stuff is organized in leve
 Seems similar to the flexibility of rules advocated by the second principle
 
 - Chapter references the different kinds of rules needed for users of a small, tertiary canal vs those using a much larger secondary canal.
+
+<br>
+
+Analysis time!
+
+- **What are the substantial obstacles for any community trying to implement this principle?**
+
+- Adds complexity to an already challenging problem
+
 :::
+
 
 
 ## Ostrom's Design Principles {background-image="Images/background-forest_v3.png"  .center}
 
 1. Clearly defined boundaries
-2. Congruence between appropriation / provision rules and local conditions
+2. Congruence between rules and local conditions
 3. Collective-choice arrangements
 4. Monitoring
 5. Graduated Sanctions
@@ -994,13 +1026,7 @@ Seems similar to the flexibility of rules advocated by the second principle
 
 **Any questions on the design principles at an intuitive level?**
 
-- **Does everybody understand what including this principle in a policy design would require?**
-
 <br>
-
-
-
-
 
 *Create 3-4 groups*
 
@@ -1008,30 +1034,33 @@ Seems similar to the flexibility of rules advocated by the second principle
 
 <br>
 
-Ok, new groups I want you to evaluate ALL of these principles.
+Ostrom's book notes that future research is needed to identify if all of these are absolutely necessary and if any of them are sufficient conditions for successful management of a CPR. 
 
+- Groups, reach back to the success and failure cases we studied in week 2.
+    
+    - You still have access to these on Canvas
 
+- Do our cases offer supporting evidence for this list of design principles or not?
 
-- Which are the easiest principles to implement in the real world? Why?
-- Which is the hardest principles to implement in the real world? Why?
-- As policy designers, what order would you tackle these challenges in? Where would you start? Where go next? Why?
-- CLASS DISCUSS: Ostrom notes that future research is needed to identify if all of these are absolutely necessary and if any of them are sufficient conditions for successful management of a CPR. Based on the problems you've been studying this term, including the success cases you've brought to class, do you believe we absolutely have to have all 8 principles for success? Any sufficiency here?
+    - Which ones are best supported?
+    
+    - Which are least supported?
 
-
-
-- In other words, as policy designers, which is the best place to start when trying to implement an adaptive governance plan to address a CPR problem?
-
-- Which **ONE** would you start with? Why?
+- Get ready to report back your analyses!
 
 <br>
 
-*DISCUSS*
+*PRESENT and DISCUSS*
+
+<br>
 
 - **Any sufficient conditions or does accomplishing something require at least a handful of these?**
 
 - **Can we rank the principles? Are all equally necessary?**
 
-- **Where would you move next?**
+<br>
+
+**SLIDE**: Let's now apply these principles to our local environmental problem
 
 <br>
 
@@ -1039,17 +1068,15 @@ Ok, new groups I want you to evaluate ALL of these principles.
 
 - Hardin's oversimplification misses the many success stories around the world (e.g. Main lobsters, montreal protocol)
 
-Why a struggle? 
-
-- "...involves making tough decisions under uncertainty, complexity, and substantial biophysical constraints as well as conflicting human values and interests."
+- Why a struggle? "...involves making tough decisions under uncertainty, complexity, and substantial biophysical constraints as well as conflicting human values and interests."
 
 - 5 factors make it easier:
 
-1. Resources and use can be easily monitored
-2. only moderate rate of change in important factors (e.g. population, technology)
-3. social capital e.g. dense social networks
-4. easy to exclude outsiders
-5. users support monitoring and enforcement
+    1. Resources and use can be easily monitored
+    2. only moderate rate of change in important factors (e.g. population, technology)
+    3. social capital e.g. dense social networks
+    4. easy to exclude outsiders
+    5. users support monitoring and enforcement
 
 Selective Pressures
 
@@ -1069,66 +1096,69 @@ Strategies for accomplishing the above
 2. Nesting (Inst arrangements must be complex, redundant and nested in many layers; Sole authority, whether government or an individual, often leads to failure; efficiency of control is NOT a virtue in these systems)
 3. Institutional variety(Employ mixtures of institutional types (e.g. hierarchies, markets and community self-governance) to change incentives, increase information, monitor use and induce compliance. Bad actor may evade one but others will compensate.
 
-
-<br>
-
-Problems Implementing Each Principle
-
-1. Clearly Defined Boundaries
-    - Defining boundaries is HARD and will be contentious,
-    - Defining the user base is hard and can lead to discrimination,
-    - How do we maintain boundaries over time as the users or boundaries change due to natural processes or use?
-
-2. Match Rules to Local Conditions
-    - There will likely be debate about what the local conditions imply. 
-    - Different rules for different people using the same CPR could lead to huge dissatisfaction (e.g. our area got more rain than yours so our fees are lower OR fewer people in my part of the valley so fees are lower)
-    
-3. Collective-Choice Arrangements
-    - The bigger the group, the harder it is to make collective decisions.
-    - Big disconnect possible between winners and losers from resource use.
-    - Difficulty of understanding the science means not everyone has an informed opinion
-    - Should everyone interested in the CPR get a vote or just a certain subset of users? What about kids who will inherit the farm?
-    
-4. Monitoring
-    - Establishing monitors’ and scientists’ independence from appropriators; Must be able to trust their work.
-    - Uncertainty about what to monitor.
-    - Who here has a job? If you don't do what your boss asked or have to give her bad news, how do you do it?
-    
-5. Graduated Sanctions
-    - How to agree the appropriate level of penalty amongst the appropriators?
-    - Who benefits if the commons is a zero-sum game when someone gets punished? I might!
-    - Possible conflicts of interest? Although I might deal fairly in the hope they will do the same for me.
-
-6. Conflict-Resolution Mechanisms
-    - ?
-    
-7. Recognition of Rights to Organize
-    - ?
-    
-8. Nested Enterprises
-    - ?
 :::
 
 
 
-## For Next Class {background-image="Images/background-forest_v3.png"  .center}
+## Ostrom's Design Principles {background-image="Images/background-forest_v3.png"  .center}
 
-<br>
-
-Submit to Canvas a real world example of **this approach** being used to **successfully** address an environmental problem **similar to the one in your project**.
-
-**Present as an argument**: This case shows that addressing environmental problem X can be done successfully using adaptive governance policies.
+1. Clearly defined boundaries
+2. Congruence between rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
 
 ::: notes
-**Is everybody working on an environmental problem that can easily be conceptualized as a CPR? Any hard ones?**
+
+GROUPS, now I want you to apply the principles to our chosen local environmental problem
+
+- **As policy designers, what order should we tackle these challenges in?**
+
+- **In other words, where should our work on this problem begin? Why?**
 
 <br>
 
-**Anybody need help brainstorming how to find a relevant case?**
+*PRESENT and DISCUSS*
 
 <br>
 
-**Any other questions?**
+- Which are the easiest principles to implement on our case? Why?
+
+- Which are the hardest principles to implement on our case? Why?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+**Next Class: The Basics of the Problem - Science!**
+
+Go find us evidence that we can use to deepen our understanding of our chosen environmental problem in terms of the science involved. 
+
+- e.g. Why specifically is this a problem? How does it impact human health? Or society? Or ecosystems? etc.
+
+- This evidence does NOT have to be connected to Springfield. 
+
+- Please don't submit something that has already been submitted.
+
+::: notes
+
+Canvas: The Basics of the Problem - Science!
+
+- Go find us evidence that we can use to deepen our understanding of our chosen environmental problem in terms of the science involved.  We need reports and analyses on the science relevant to our chosen problem (e.g. Why specifically is this a problem? How does it impact human health? Or society? Or ecosystems? etc.). This evidence does NOT have to be connected to our local community. Please don't submit something that has already been submitted.
+
+1. APA citation to the evidence,
+2. Summarize the evidence (2+ sentences), and
+3. Explain how this evidence helps us understand our chosen environmental problem (2+ sentences)
+4. Explain how this evidence could be used to make the argument that this is an important problem (2+ sentences)
+
+<br>
+
+**Any questions on the assignment?**
 :::
 
 

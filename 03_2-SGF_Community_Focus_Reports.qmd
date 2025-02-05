@@ -416,6 +416,28 @@ So, policy is, in essence, a rule or rules adopted by a society to structure beh
 
 
 
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
+
+::: notes
+
+**Was this your first time reading any of these reports?**
+
+- **Big picture, what did you think of them?**
+
+<br>
+
+*Encourage broad discussion on reflections*
+
+:::
+
+
+
 
 
 ## Evaluating the Source {background-image="Images/background-forest_v3.png"}
