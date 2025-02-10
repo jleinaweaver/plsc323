@@ -12,7 +12,7 @@ library(kableExtra)
 <br>
 
 ::: {.r-fit-text}
-**It's time to pick our local environmental problem!**
+**It's time to pick our environmental problem!**
 :::
 
 <br>
@@ -46,16 +46,17 @@ We have a big job today!
 
 
 
-## The Brainstorming Session {background-image="Images/background-forest_v3.png" .center}
+## For Today {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-### Current, local environmental problems
+Pick **ONE** local environmental problem and make **three arguments**:
 
-- Who is being impacted? By how much?
-- Primary causes?
-- Does anyone benefit from the problem or causes?
-- What is meaningful progress?
+1. This is an important public problem (with evidence)
+
+2. It requires a collective decision (with evidence)
+
+3. We should pick this as our focus for the semester because...
 
 ::: notes
 

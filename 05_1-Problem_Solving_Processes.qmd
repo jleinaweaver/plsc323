@@ -44,11 +44,11 @@ Readings
 
 Last week we selected our target environmental problem for the semester
 
-- This week I want to explore additional theoretical tools that will help us approach this problem in a productive way
+- This week I want us to gather some guiding principles that will help us approach this problem in a productive way
 
 <br>
 
-As a segue into this new material, let's make connections to our work from the first four weeks of our class
+But first, a quick refresher round-up!
 
 - **SLIDE**: Let's start with "politics"
 
@@ -504,7 +504,7 @@ GROUPS, discuss and get ready to report back!
 
 - **Where do we end up after all this work?**
 
-- **In other words, what are the key elements you believe are the most useful pieces of advice for domestic problem-solving?**
+- **In other words, what are the key elements you believe are the most useful pieces of advice for domestic problem-solving in general terms?**
 
 <br>
 
@@ -514,7 +514,35 @@ GROUPS, discuss and get ready to report back!
 
 <br>
 
-**SLIDE**: Sum it up in a process
+**SLIDE**: Applied to our chosen problem
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Key elements from the processes we want to focus on for addressing food waste in our community?
+
+<br>
+
+::: {.r-fit-text}
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Policy Process Model (Kraft 2011)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+::: notes
+
+**Any key takeaways from our work today that we think might be important in addressing food waste in SGF?**
+
+<br>
+
+**SLIDE**: Sum it all up in a process
 
 :::
 
@@ -534,12 +562,14 @@ GROUPS, discuss and get ready to report back!
 3) **Frame** the problem
 
 4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
 :::
 ::::
 
 ::: notes
 
-My general advice goes like this:
+My general advice for community problem-solving goes something like this:
 
 <br>
 
@@ -571,13 +601,11 @@ My general advice goes like this:
 
 <br>
 
-**REVEAL:** Step 4 still to come...
+**REVEAL x 2:** Steps 4 and 5 still to come...
 
 <br>
 
 **Any questions on the process itself?**
-
-- **Any suggested modifications or additions to it?**
 
 <br>
 
@@ -600,6 +628,7 @@ My general advice goes like this:
 
 4) **Design** a policy to address the problem
 
+5) Take **action** to push the plan forward!
 ::::
 
 ::: notes
@@ -610,8 +639,6 @@ Important to recognize that all plans involve trade-offs
 
 <br>
 
-*ON BOARD*
-
 Strengths:
 
 - Empowers individuals to tackle real-world problems (e.g. are you willing to do all this work then I think you can make progress!)
@@ -621,6 +648,8 @@ Strengths:
 - Achieving change in society is hard, so I want a process that reinforces and incentivizes the small steps necessary to achieve great things
 
     - Pushing the proverbial ball forward, even by just one of these steps is a VERY useful outcome for moving towards meaningful change
+    
+<br>
 
 Weaknesses:
 
@@ -629,6 +658,8 @@ Weaknesses:
 - Assumes you can identify the key stakeholders and that they are open to working with you on this "problem"
 
 - Very focused on smaller problems (by # impacted, # involved, area impacted, etc)
+
+<br>
 
 :::
 
