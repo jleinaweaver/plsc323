@@ -30,6 +30,10 @@ Prep for Class
 
 1. Check Canvas submissions
 
+2. Update around line 715 with class problem definitions so class can discuss whether our chosen problem is a CPR or CPR adjacent
+
+3. Be ready to split class in half for assignment due next class
+
 <br>
 
 This week we've been exploring some of the established literature that offers suggestions for engaging productively in community problem-solving.
@@ -701,7 +705,69 @@ Bridge as a resource system
 So, Ostrom encouraged us to embrace a conceptual approach to problem solving that is incredibly adaptable to many kinds of resource issue.
 
 - AND, one that promises to help us ask and answer more useful questions / design better policies
+
+<br>
+
+**SLIDE**: Let's apply this to our problem!
+
 :::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Defining our Environmental Problem as a CPR**
+
+<br>
+
+**The problem of food waste defined as...**
+
+- Food insecurity
+
+- Food waste being generated
+
+- Food waste reaching the landfill
+
+- Food waste in the landfill (emissions &#8593;, capacity &#8595;)
+
+:::
+
+::: notes
+
+Last class we brainstormed these four ways of conceptualizing the food waste problem
+
+- What I'd like us to do is to try and convert these into the CPR terminology
+
+- e.g. resource systems and resource units
+
+<br>
+
+*Split class into four groups, assign one definition to each*
+
+- Groups, take a few minutes to brainstorm versions of your assigned definition in terms of systems and units
+
+- Don't just stop with one!
+
+- How many different can we conceive of this as a flow problem?
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**Ok, how are we doing with our problem definition exercises?**
+
+- **Are we getting closer to our preferred definition? Which one? Why?**
+
+<br>
+
+**SLIDE**: Time for the design principles
+:::
+
+
 
 
 ## Ostrom's CPR Cases {background-image="Images/09-1-Alpabzug-Alpine-Cow-Parade_v3.png" .center}
@@ -1149,10 +1215,6 @@ Strategies for accomplishing the above
 
 Ok, now take a step back from analyzing the principles themselves and let's talk about our developing project
 
-- **Can we frame the problem of food waste in our community as a common pool resource problem? Let's brainstorm!**
-
-- (*ON BOARD*)
-
 <br>
 
 **How does this list of principles help us attack the food waste problem in SGF, MO?**
@@ -1173,7 +1235,7 @@ In policy design terms this list represents a series of specific challenges we m
 
 <br>
 
-**SLIDE**: Plan for next week and assignment
+**SLIDE**: Plan for next week, assignment **AND SPLIT THE CLASS IN HALF!**
 
 :::
 
@@ -1193,7 +1255,17 @@ In policy design terms this list represents a series of specific challenges we m
 
 For next class: Describing the Problem - Human and Environmental Health
 
-- **Questions on the assignment?**
+- **Does the assignment make sense?**
+
+<br>
+
+In order to ensure we have good quality evidence for both elements here I want to split the class in half.
+
+- Half of you should focus on finding evidence of human health impacts and half on environmental health impacts
+
+- **Make sense?**
+
+- *Split the class!*
 
 <br>
 

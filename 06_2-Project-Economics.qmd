@@ -1,0 +1,320 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+### What are the economic causes and consequences of food waste?
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Bring markers x 2
+
+<br>
+
+**SLIDE**: The process
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+Last class we worked on step 1 of our process here
+
+<br>
+
+We developed two key arguments:
+
+1. Therefore, food waste negatively impacts human health
+
+2. Therefore, food waste negatively impacts the environment
+
+<br>
+
+**Does everybody have good notes on those arguments?**
+
+<br>
+
+**SLIDE**: Let's check!
+
+:::
+
+
+
+## Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Describe** the problem facing our community
+
+<br>
+
+- ?
+
+- ?
+
+- ?
+
+Therefore, food waste negatively impacts human health
+
+:::
+
+::: notes
+
+**What were the strongest premises we developed in this argument? Why?**
+
+<br>
+
+**Overall, is this a convincing argument? Why or why not?**
+
+- **Anything big we agreed was missing?**
+
+<br>
+
+**SLIDE**: Health Argument 2
+
+:::
+
+
+
+## Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Describe** the problem facing our community
+
+<br>
+
+- ?
+
+- ?
+
+- ?
+
+Therefore, food waste negatively impacts the environment
+
+:::
+
+::: notes
+
+**What were the strongest premises we developed in this argument? Why?**
+
+<br>
+
+**Overall, is this a convincing argument? Why or why not?**
+
+- **Anything big we agreed was missing?**
+
+<br>
+
+**SLIDE**: Today we add the economics to our description!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+**Describing the Problem - Economics**
+
+- Submit evidence we can use to deepen our understanding of **EITHER the economic causes or consequences** of our food waste problem.
+
+- Please don't submit something that has already been submitted.
+
+::: notes
+
+**Everybody ready to go on our assignment for today?**
+
+<br>
+
+*Split class into two groups by what they submitted: 1) Economic causes and 2) Economic consequences*
+
+- Go sit with your groups and claim space on the board
+
+<br>
+
+**SLIDE**: The prompt
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Describing the Problem - Economics**
+
+<br>
+
+::: {.r-fit-text}
+
+**Exploring the Evidence as Separate Arguments**
+
+- Therefore, there are significant economic factors creating food waste
+
+- Therefore, there are serious economic consequences of food waste
+
+:::
+
+::: notes
+
+We'll approach our work today in the same manner we did last class
+
+The first step I want you to do on your own.
+
+- Everybody take out a piece of paper and something to write with
+
+<br>
+
+**SLIDE**: Step 1
+
+:::
+
+
+
+## Describing the Problem: Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Summarize your assignment submission as a premise in this argument
+
+- e.g. Food waste is a problem caused by...
+
+- e.g. Food waste creates serious economic costs such as...
+
+::: notes
+
+Working on your own I want you to take a few minutes to reflect on your assignment submission and then convert it into a premise in your group's argument
+
+- Your premise should be a complete sentence that adopts this structure
+
+- Write the premise on the first line of the paper
+
+<br>
+
+Ok, below the premise I want you to describe the evidence you have brought to support this premise
+
+- Again, complete sentences!
+
+<br>
+
+Ok, next I need you to evaluate the quality of the evidence given your premise
+
+- Is this evidence high enough quality to convincingly establish the likelihood that your premise is correct? Why or why not?
+
+- Complete sentences!
+
+<br>
+
+**SLIDE**: Back to the group
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**The Arguments**
+
+- Therefore, there are significant economic factors creating food waste
+
+- Therefore, there are serious economic consequences of food waste
+
+<br>
+
+**The Argument Diagrams**
+
+1. Consolidate (and order) the premises, and
+
+2. Specify the evidence underpinning each
+
+:::
+
+::: notes
+
+Ok groups, review all the work that has been written down and work to develop your argument on the board
+
+- You'll likely have premises that overlap so combine them!
+
+- You should order them from strongest premises to weakest
+
+    - This is not a critique of what anyone submitted, but about building our most convincing argument!
+    
+- Under each premise you should specify the supporting evidence
+
+<br>
+
+**Questions on this step?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+1. **Is each of these a logical argument? e.g. do the premises support the conclusion?**
+
+2. **What specific parts of these arguments need more or better evidence?**
+
+3. **Are there any gaps in either argument we need to fill in?**
+
+    - e.g. types of people, species or places likely impacted but not included in our evidence?
+
+4. **How applicable are these arguments to our local community?**
+
+    - In other words, are these arguments too generic or general to apply to our backyard?
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+:::
+
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+
+::: notes
+
+
+:::
