@@ -445,6 +445,7 @@ Let's make sure we're clear on the basics.
 :::
 
 
+
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ```{r, cache=TRUE, fig.asp=.618, fig.width = 9}
@@ -456,7 +457,7 @@ d_long <- d |>
 
 # Plot 1: 1975 - 1985
 d |>
-  filter(Year < 1986) |>
+  filter(Year < 1978) |>
   ggplot(aes(x = Year, y = passenger_cars)) +
   annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
   annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
@@ -469,7 +470,7 @@ d |>
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   annotate("text", x = 1975, y = 11, label = "Estimated", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
   
 ```
@@ -482,20 +483,59 @@ Per the Department of Transportation the purpose of CAFE is to reduce energy con
 
 <br>
 
-The early 1970s saw a brutal oil price shock that sent oil prices into the stratosphere and people were pissed!
+Let's explore the story of CAFE in wildly oversimplified terms
 
-- A big problem for us was we were driving wildly inefficient cars
-    - 1975 estimate for passenger cars was approximately 13 mpg on average!
-
-- In 1975 Congress responds by enacting "the nation's first Corporate Average Fuel Economy (CAFE) standards" that "called for a doubling of passenger-vehicle efficiency—to 27.5 miles per gallon (mpg)—within 10 years" ([Pew Report](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2011/04/20/driving-to-545-mpg-the-history-of-fuel-economy))
-
-- At the time domestic automakers argued this would lead to economic crises and angry consumers
-
-- "In 1974, a Ford executive testified that the standards could “result in a Ford product line consisting . . . of all sub- Pinto-sized vehicles.”
+- Note that CAFE applies to both cars and light duty trucks but for now I just want to focus on cars.
 
 <br>
 
-CAFE applies to both cars and light duty trucks but for now I just want to focus on cars.
+The early 1970s saw a brutal oil price shock that sent oil prices into the stratosphere and people were pissed!
+
+- A big problem for us was we were driving wildly inefficient cars
+
+- 1975 estimate for passenger cars was approximately 13 mpg on average!
+    
+:::
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, cache=TRUE, fig.asp=.618, fig.width = 9}
+# Plot 1: 1975 - 1985
+d |>
+  filter(Year < 1978) |>
+  ggplot(aes(x = Year, y = passenger_cars)) +
+  annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
+  annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  #scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
+  scale_x_continuous(limits = c(1974, 1986), breaks = 1974:1986) +
+  annotate("point", x = 1975, y = 13, color = "red", size = 3) +
+  annotate("text", x = 1975, y = 11, label = "Estimated", color = "red") +
+  labs(x = "", y = "miles per gallon (mpg)",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
+       caption = "Source: Department of Energy") +
+  annotate("point", x = 1985, y = 27.5, size = 3, color = "darkblue") +
+  annotate("text", x = 1985, y = 25, label = "CAFE\n(1975)", color = "darkblue")
+  
+```
+
+::: notes
+
+In 1975 Congress responds by enacting "the nation's first Corporate Average Fuel Economy (CAFE) standards" that "called for a doubling of passenger-vehicle efficiency—to 27.5 miles per gallon (mpg)—within 10 years" ([Pew Report](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2011/04/20/driving-to-545-mpg-the-history-of-fuel-economy))
+
+<br>
+
+At the time domestic automakers argued this would lead to economic crises and angry consumers
+
+- "In 1974, a Ford executive testified that the standards could “result in a Ford product line consisting . . . of all sub- Pinto-sized vehicles.”
+
 :::
 
 
@@ -504,7 +544,7 @@ CAFE applies to both cars and light duty trucks but for now I just want to focus
 ```{r, cache=TRUE, fig.asp=.618, fig.width = 9}
 # Carter elected
 d |>
-  filter(Year < 1986) |>
+  filter(Year < 1982) |>
   ggplot(aes(x = Year, y = passenger_cars)) +
   annotate("rect", xmin = 1974, xmax = 1977, ymin = 0, ymax = 30, fill = "red", alpha = .1) +
   annotate("text", x = 1975.5, y = 1, label = "Gerald Ford", color = "red") +
@@ -518,13 +558,15 @@ d |>
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   annotate("text", x = 1975, y = 11, label = "Estimated", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
-       caption = "Source: Department of Energy")
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
+       caption = "Source: Department of Energy") +
+  annotate("point", x = 1985, y = 27.5, size = 3, color = "darkblue") +
+  annotate("text", x = 1985, y = 25, label = "CAFE\n(1975)", color = "darkblue")
 ```
 
 ::: notes
 
-Carter gets elected and keeps the proverbial train rolling ahead.
+Despite the fear-mongering, Carter gets elected and he keeps the proverbial train rolling ahead.
 
 - HOWEVER, his time in office is notoriously ROUGH
 
@@ -559,8 +601,12 @@ d |>
   scale_x_continuous(limits = c(1974, 1989), breaks = 1974:1989) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
-       caption = "Source: Department of Energy")
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
+       caption = "Source: Department of Energy") +
+  annotate("point", x = 1985, y = 27.5, size = 3, color = "darkblue") +
+  annotate("text", x = 1985, y = 25, label = "CAFE\n(1975)", color = "darkblue") +
+  annotate("point", x = 1986:1988, y = 26, size = 3, color = "red") +
+  annotate("text", x = 1987, y = 23.5, label = "CAFE\n('86-'88)", color = "red")
 ```
 
 ::: notes
@@ -570,6 +616,7 @@ Big success: "Between 1975 and 1985, average passenger vehicle mileage doubled f
 <br>
 
 Despite this success, Ford and General Motors aggressively "lobbied the Reagan administration to lower the standard" (Pew).
+
 - They succeeded and the National Highway Traffic Safety Administration (NHTSA) lowered the CAFE standard to 26 mpg for the next three years
 
 - ALSO the NHTSA at this time stopped raising the CAFE standards for light trucks
@@ -599,8 +646,14 @@ d |>
   scale_x_continuous(limits = c(1974, 1993), breaks = 1974:1993) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
-       caption = "Source: Department of Energy")
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
+       caption = "Source: Department of Energy") +
+  annotate("point", x = 1985, y = 27.5, size = 3, color = "darkblue") +
+  annotate("text", x = 1985, y = 25, label = "CAFE\n(1975)", color = "darkblue") +
+  annotate("text", x = 1991, y = 25, label = "CAFE\n(1975)", color = "darkblue") +
+  annotate("point", x = 1990:1992, y = 27.5, size = 3, color = "darkblue") +
+  annotate("point", x = 1986:1988, y = 26, size = 3, color = "red") +
+  annotate("text", x = 1987, y = 23.5, label = "CAFE\n('86-'88)", color = "red")
 ```
 
 ::: notes
@@ -608,6 +661,14 @@ d |>
 Presidency passes from Reagan to his VP, George HW Bush
 
 - In 1989 the three year pause on CAFE standards is ended and we return to the 1986 standard
+
+<br>
+
+So, economic crisis leads to rapid progress and then we completely stalled out for a couple of decades.
+
+- I'm starting to think that elections might matter for environmental policy progress...
+
+
 :::
 
 
@@ -637,21 +698,40 @@ d |>
   scale_x_continuous(limits = c(1974, 2001), breaks = seq(1974, 2001, 2)) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
-       caption = "Source: Department of Energy")
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
+       caption = "Source: Department of Energy") +
+  annotate("point", x = 1985, y = 27.5, size = 3, color = "darkblue") +
+  annotate("text", x = 1985, y = 25, label = "CAFE\n(1975)", color = "darkblue") +
+  annotate("point", x = 1986:1988, y = 26, size = 3, color = "red") +
+  annotate("text", x = 1987, y = 23.5, label = "CAFE\n('86-'88)", color = "red") +
+  annotate("text", x = 1991, y = 25, label = "CAFE\n(1975)", color = "darkblue") +
+  annotate("point", x = 1990:1992, y = 27.5, size = 3, color = "darkblue")
 ```
 
 ::: notes
-
-Lowered standards and increased truck/SUV sales meant that by the end of the 1990s cars and trucks were less efficient than they were a decade earlier (about 1mpg worse)
-
-<br>
 
 President Clinton comes in and tries to enact an increase in CAFE
 
 <br>
 
 Congress responds with an appropriations rider taking away the administration's authority to increase vehicle efficiency (lasts 1995 to 2000).
+
+<br>
+
+To be clear, by 2000 cars and trucks were LESS efficient than they were a decade earlier (about 1mpg worse)
+
+- Lowered standards
+
+- Increased truck and SUV sales
+
+<br>
+
+Also note, this lack of progress was NOT helping the American automotive industry
+
+- Throughout the late 1980s and 1990s US manufacturers are getting their lunch eaten by the Japanese and other countries with more stringent standards and more efficient cars on the market
+
+- So, Congress and the presidents succeeded in harming both the environment and the economy!
+
 
 :::
 
@@ -685,7 +765,7 @@ d |>
   scale_x_continuous(limits = c(1974, 2008), breaks = seq(1974, 2008, 2)) +
   annotate("point", x = 1975, y = 13, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
@@ -728,7 +808,7 @@ d |>
   annotate("point", x = 2020, y = 35, color = "red", size = 3) +
   annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
@@ -786,7 +866,7 @@ d |>
   annotate("point", x = 2020, y = 35, color = "red", size = 3) +
   annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
@@ -837,7 +917,7 @@ d |>
   annotate("point", x = 2020, y = 35, color = "red", size = 3) +
   annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
@@ -894,7 +974,7 @@ d |>
   annotate("point", x = 2020, y = 35, color = "red", size = 3) +
   annotate("segment", x = 2007, xend = 2020, y = 27.5, yend = 35, linetype = "dashed", color = "red") +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
@@ -955,7 +1035,7 @@ d |>
   annotate("segment", x = 2020, xend = 2025, y = 44.2, yend = 40, linetype = "dashed", color = "red") +
   annotate("point", x = 2025, y = 40, color = "red", size = 3) +
   labs(x = "", y = "miles per gallon (mpg)",
-       title = "Corporate Average Fuel Economy (CAFE) Standards",
+       title = "Corporate Average Fuel Economy (CAFE) Standards Across Time",
        caption = "Source: Department of Energy")
 ```
 
