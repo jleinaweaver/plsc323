@@ -20,42 +20,14 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 05_2-Ostrom_Adaptive_Governance.html
 
-06_1-Project-Scientific_Basis.html
+07_1-Project-Health_Impacts.html
 
-06_2-Project-TBD.html
-
-07_1-Uncertainty-Costs_and_Risks.html
-
-07_2-Uncertainty-Time.html
-
-08_1-Collective_Action_Problems.html
-
-08_2-Case-CAFE_Standards.html
+08_1-Project-Economics.html
 
 09_1-Project-Find_Stakeholders.html
 
-09_2-Project-Stakeholder_Draft_Analyses.html
+09_2-Stakeholders-Risk.html
 
-10_1-Project-Stakeholder_Analyses.html
+10_1-Stakeholders-Uncertainty.html
 
-10_2-Project-Stakeholder_Analyses_Gaps.html
-
-11_1-Project-Stakeholder_Analyses_Revised.html
-
-11_2-Project-Problem_Framing.html
-
-12_1-TBD.html
-
-12_2-TBD.html
-
-13_1-Policy-Command_and_Control.html
-
-13_2-Policy-Green_Taxes.html
-
-14_1-Policy-Green_Subsidies.html
-
-14_2-Policy-Evaluation.html
-
-15_1-TBD.html
-
-15_2-TBD.html
+10_2-Project-Stakeholder_Analyses.html
