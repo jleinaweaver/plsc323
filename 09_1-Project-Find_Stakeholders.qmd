@@ -12,13 +12,15 @@ library(readxl)
 
 <br>
 
-**I. The Basics of Problem-Solving in a Community**
+::: {.r-fit-text}
 
-<br>
+**Finding and Analyzing the Relevant Stakeholders**
 
-Working on Paper 1
+- Identifying stakeholders
 
-- Analyzing our Stakeholders
+- Developing a stakeholder map of the problem
+
+:::
 
 <br>
 
@@ -33,316 +35,671 @@ Prep for Class
 
 <br>
 
-This week we focus on writing and revising your first paper.
+*Announce grade rebalancing*
+
+- You're doing excellent work and I want to keep your focus on our community and getting into the world to take action
+
+- So, I'm proposing we rebalance the course grade 
+
+- Original plan: 50%-50% split participation vs papers
+
+- Proposed: 60-40% split with a greater emphasis on your participation and activities in the community
+
+- The better job we do pushing ourselves into the community, the more I will skew the grade to reward you for that work
+
+- **Any questions or concerns about the change?**
 
 <br>
 
-**SLIDE**: Let's discuss the assignment but start at the big picture
-:::
+**SLIDE**: Coming back from spring break so let's do a quick refresher
 
+:::
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r}
-tibble(
-  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
-  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(TBD)", "(Apr 26)", "(Final)"),
-  col3 = c(20, 60, "", "", "", "", 20)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(0, background = "lightblue") |>
-  kableExtra::row_spec(1:7, background = "white")
-```
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-::: notes
+1) **Describe** the problem facing our community
 
-The layout of the class is designed to give you a crash course in applied public policy-making in the "environmental" arena
+2) **Investigate** the relevant stakeholders
 
-- Each piece of this builds on the ones before it
+3) **Frame** the problem for the stakeholders
 
-<br>
+4) **Design** a policy to address the problem
 
-The ultimate goal is to produce a compelling and usable policy proposal to address a local environmental problem
+5) Take **action** to push the plan forward!
 
-- So far, our work has focused on attendance and participation so you can learn the concepts and tools we need
-
-- **SLIDE**: This week we segue to your first paper so you can clarify and explain the political baseline of your problem
-:::
-
-
-
-## {background-image="Images/02-2-politics1.png" .center}
-
-::: notes
-
-Paper 1 is meant to help you clarify and be able to explain the political baseline of your problem
-
-- This means presenting your problem in terms of the material we've covered on politics, policy and the environment
-
-<br>
-
-Why set up our projects this way?
-
-1. First, this baseline helps ensure that your project is being built on a strong foundation, and
-
-2. Second, this baseline is key to you being an effective problem-solver in the case
-
-<br>
-
-**SLIDE**: So, what do we mean by the "politics" of your problem?
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-**"Politics" means your problem is the result of...**
-
-:::: {.columns}
-::: {.column width="40%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_1-politics_cropped.png")
-```
-:::
-
-::: {.column width="60%"}
-
-<br>
-
-- Actors pursuing their interests,
-
-- Colliding with other actors doing the same thing,
-
-- In an established system of rules and expectations (community)
-:::
 ::::
 
 ::: notes
 
-*Read slide*
+Here is the problem-solving process we developed over the first half of the semester.
+
+- As a refresher, let's talk about the finer details underpinning this approach
 
 <br>
 
-An effective problem-solver needs to be able to:
+**If you were advising a group in this process, how would you explain the first step to them?**
+
+- **What needs to be described and what do we mean by community?**
 
 <br>
 
-1) Design problem-framings that do not depend on villainizing stakeholders
-- There are no villains in your problem, just people or groups pursuing the things they want
+I would encourage that group to begin with a description of BOTH the natural science and the social science involved in the problem
+
+- The natural science is key to understanding the mechanisms and reactions of the environment to our actions
+
+- The social science is key to understanding how the interests in that community make decisions and bind each other to those decisions
+
+- I feel strongly that you cannot understand a real-world problem without learning both elements
+
+- **Make sense?**
 
 <br>
 
-2) Design problem-framings that are adapted to real communities
-- There is no blank slate, we live in a community whose rules, identities and processes shape our interactions
+**If you were advising a group in this process, how would you explain why so much of it is focused on the stakeholders?**
+
+- **Aren't they the bad guys in our environmental problem story?**
 
 <br>
 
-**SLIDE**: Enough preamble, let's talk assignment details
+FIRST, I would emphasize that there is no single, correct definition of the environment (or any environmental problem) so ease off on the "bad guy" talk.
+
+<br>
+
+SECOND, the stakeholders are the entire ballgame in solving your problem
+
+- Even if it's unsatisfying in a "purity" sense, I would always rather have rules embraced by a community rather than imposed against their strong objections
+
+- I want the stakeholders making different decisions and owning those new decisions!
+
+<br>
+
+**Any questions on our process?**
+
+<br>
+
+**SLIDE**: Our work over the weeks building up to spring break was focused on deepening our understanding of the problem
+
 :::
-
-
-
-## Paper 1 {background-image="Images/background-forest_v3.png" .center}
-
-**Introducing the Problem**
-
-<br>
-
-Your report **must** include:
-
-1. A description of the **scientific basis** for your problem,
-
-2. An argument that this is a **public problem**,
-
-3. An argument that this requires a **collective decision**, and
-
-4. An analysis of **at least two stakeholders** with **opposing** viewpoints of the problem
-
-::: notes
-
-Your first paper introduces an interested reader to the political baseline of your local environmental problem
-
-- This description is posted on Canvas with additional details
-
-- Please see the "Paper Submission Requirements" in the syllabus
-
-<br>
-
-1) At this point I expect you each have a good sense of the scientific basis for your problem
-- For the paper you need to be able to explain this in detail and provide evidence of your claims
-
-<br>
-
-2) At this point I expect you each have drafted and revised a version of your framing argument (e.g. public problem and collective decision)
-- This also needs evidence to elevate it beyond your opinion!
-
-<br>
-
-We will work in class today on your stakeholder analyses
-- e.g. Who are they, what do they want and how do they frame the problem?
-
-<br>
-
-### Questions on the paper before we get to work?
-:::
-
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/04_2-Assignment.png")
-```
+::: {.r-fit-text}
+**Field Trip: Ozark's Food Harvest Distribution Center**
+:::
+
+![](Images/09_1-Ozark_Food_Harvest.webp){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-For today everybody identified and began to analyze two stakeholders with opposing viewpoints on their environmental problem.
+We didn't get to touch base after our last field trip, so let's do it now!
 
 <br>
 
-In class I am going to give you time to flesh out these analyses and get feedback from the class on them.
+**What were your big takeaways?**
+
+- **New stakeholders identified?**
+
+- **Aspects of the problem we hadn't considered?**
+
+- **Existing institutions or infrastructure to be aware of?**
+
+- **Curent projects we could help with?**
+
+- **Current needs identified?**
 
 <br>
 
-In short, for each stakeholder I would like you to produce a summary document presenting and analyzing their role in your problem
-
-- Please write in complete sentences so you can share what you produce
+**SLIDE**: Ok, the break is done and it's time to push our project forward!
 
 :::
 
 
 
-## Analyze your First Stakeholder {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
-::: {.incremental}
-1) Who are they and why did you pick them?
+### **Aim: Develop a useful problem-framing for food waste in our community**
 
-2) How do they frame the problem? (e.g. primary causes, public or private, collective or individual, etc.)
+:::: {.incremental}
 
-3) What are the best ways to appeal to this stakeholder?
+- Problem Framing Report due Apr 11th (end Wk 12)
 
-4) What are the deal-breakers for this stakeholder?
-:::
+- No in-person class Week 12 (Apr 8 and 10)
+
+- [https://ozarksfoodharvest.org/how-to-help/volunteer/]()
+
+- Sarah Byrd (sbyrd@ozarksfoodharvest.org), Andrew Magnus (amagnus@ozarksfoodharvest.org) or Dillon Smith (dsmith@ozarksfoodharvest.org) 
+
+::::
 
 ::: notes
 
-Let's get your analysis down on the page (electronic or paper) for **ONE** of your stakeholders.
+Over the next four weeks we will focus our energies on steps 2 and 3 in our process
+
+- Our aim is to develop a USEFUL problem-framing for food waste in our community
+
+- By useful I mean the framing is adapted to the science, the economics and the needs of the relevant stakeholders
+
+- THIS will be the version of the argument we can take into the community with a hope of moving stakeholders to our position
 
 <br>
 
-1) First, describe the actor (e.g. individual, group, organization, corporation, etc), and
+**REVEAL**: Your next written paper will be the Problem Framing Report that presents your revised argument
 
-- Describe your thinking in picking them
+- In essence, this is a revised version of your first report designed for a specific, targeted audience
 
-<br>
+- It's no longer about you or your preferred view of the world, it's now about the stakeholders and what they want
 
-2) Second, describe the problem framing
-- What do they think is the primary or most important cause of this "problem"?
+- Due Apr 11 which is the end of week 12
 
-- Public or private problem? e.g. individual action causes public harm vs doesn't
-
-- Collective or individual decision? e.g. society should decide vs Individuals should decide
+- Don't worry, we will build to this deliberately in class using literature, exercises and group analyses
 
 <br>
 
-3) Third, what do they value?
-- Based on all you've written so far, what do you think is the most promising ways to reach out to this stakeholder and get them on board with solving your problem?
+**REVEAL**: As part of this plan I am going to cancel our class meetings in Week 12 (Apr 8 and 10) so you can do two things: 
+
+1) Focus on writing the report, and 
+
+2) Making a difference in our community!
 
 <br>
 
-4) Finally, what are the clear lines they are unlikely to cross?
-- Values they hold deeply?
+**REVEAL x 2**: I will require each of you to volunteer for one shift (2 hours minimum) with Ozark's Food Harvest
 
-- Core interests that motivate them?
+- Please use this [website to sign-up](https://ozarksfoodharvest.org/how-to-help/volunteer/)
+
+- Trouble signing up reach out to: Sarah Byrd (sbyrd@ozarksfoodharvest.org), Andrew Magnus (amagnus@ozarksfoodharvest.org) or Dillon Smith (dsmith@ozarksfoodharvest.org)
+
+- You may complete this volunteer exercise anytime between now and Apr 11th, BUT it must be completed by then. 
 
 <br>
+
+**Any questions on this plan?**
+
+<br>
+
+**SLIDE**: Let's start building to this outcome report
+
+:::
+
+
+
+## Common Pool Resources (CPR) {background-image="Images/background-forest_v3.png"  .center}
+
+::: {.fragment}
+...refers to a natural or man-made resource system that is sufficiently large as to make it costly (but not impossible) to exclude potential beneficiaries from obtaining benefits from its use. 
+
+...it is essential to distinguish between the *resource system* and the flow of *resource units* produced by the system, while still recognizing the **dependence** of one on the other" (Ostrom 1990, 30).
+:::
+::: notes
+
+**Reach back in your memory to Elinor Ostrom's Nobel Prize winning work and tell me, what is a common pool resource (CPR)?**
+
+- (**REVEAL**)
+
+- Relatively large resource systems that produce value for their users
+
+- Often usefully thought of as a flow resource
+
+    - In a sense, managing a CPR is like taking water from a hose
     
-### Questions on this?
-
-- Everybody take 15 minutes to write this document
+    - You can turn the hose on or off to control when you are taking benefits from it, and
+    
+    - You can turn the hose up or down to control the rate of resource extraction
 
 <br>
 
-*As people finish, get them to share analyses with each other!*
+**And why did Dr. Ostrom want us to think about solving environmental problems in terms of CPRs?**
 
-- Go share. Give and get feedback!
+<br>
 
-- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
+FIRST, it makes us more productive problem-solvers
 
-- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
+- A healthy system is more than just a source of resource units
+
+- The health of the units is a more complex question than just asking about the system they live in
+
+<br>
+
+SECOND, it helps us ask more useful questions
+
+- Bad Question: How do we save the North Atlantic cod fishery?
+
+- Good Question: Under what conditions can we produce the "maximum quantity" of units "without harming the stock or the resource system itself"?
+
+<br>
+
+**SLIDE**: We used the CPR concept to help us brainstorm definitions of food waste as a flow problem
 
 :::
 
 
 
-## Analyze your Second Stakeholder {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .smaller}
 
-1) Who are they and why did you pick them?
+::: {.r-fit-text}
+**Defining Food Waste as a CPR**
 
-2) How do they frame the problem? (e.g. primary causes, public or private, collective or individual, etc.)
+<br>
 
-3) What are the best ways to appeal to this stakeholder?
+**1. The "flow" of food creating insecurity**
+:::
 
-4) What are the deal-breakers for this stakeholder?
+| **Resource System** | **Resource Units**         | **Notes**                              |
+|---------------------|----------------------------|----------------------------------------|
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | Food for humans, animals or industry |
 
 ::: notes
 
-Alright, let's do it again!
+First we explored how food insecurity could be thought of as a "flow" problem.
 
-- Take 15 minutes to write up your analysis of the second stakeholder
+- Communities must make choices about how to distribute food, grocery stores, and the production choices on farms
 
 <br>
 
-*As people finish, get them to share analyses with each other!*
-
-- Go share. Give and get feedback!
-
-- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
-
-- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
+**SLIDE**: Next...
 :::
 
 
+## {background-image="Images/background-forest_v3.png" .smaller}
 
+::: {.r-fit-text}
 
-## What problem framing could exist that both stakeholders would accept? {background-image="Images/background-forest_v3.png" .center}
+**Defining Food Waste as a CPR**
+
+<br>
+
+**2. The "flow" of waste being generated**
+
+:::
+
+| **Resource System** | **Resource Units**         | **Notes**                              |
+|---------------------|----------------------------|----------------------------------------|
+| Households          | Food waste (lbs)           | Productive use vs thrown away          |
+| Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
+| Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
+
 
 ::: notes
 
-Last step for today.
+Second we conceptualized food waste as a flow of waste problem
 
-- Take a step back from your two detailed analyses
+- This reads as the most direct version of the food waste problem
 
-- Can you identify areas of overlap between the framings of these two stakeholders?
-
-<br>
-
-Take a few minutes to brainstorm an overlapping frame.
-
-- Can you propose a problem framing that both stakeholders would accept?
+- Whereas we conceived of food insecurity as a community decision, this seems to locate the key flow as being controlled by more specific groups
 
 <br>
 
-*SHARE and PRESENT each*
+**SLIDE**: Next...
 :::
 
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+
+**Defining Food Waste as a CPR**
+
+<br>
+
+**3. The "flow" of waste being transported**
+
+:::
+
+| **Resource System** | **Resource Units**            | **Notes**                 |
+|---------------------|-------------------------------|---------------------------|
+| Community Roads     | Miles driven | More waste, more trucks, more road damage  |
+| Community Roads     | Trucks in service (#) | More waste, more trucks, more road damage  |
+| Community Health    | Food (lbs)                    | Used vs Donated vs Wasted |
+
+::: notes
+
+Third we conceptualized food waste as a transport and delivery problem
+
+- Back to a more holistic view of the community?
+
+<br>
+
+**SLIDE**: Finally...
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+
+**Defining Food Waste as a CPR**
+
+<br>
+
+**4. The "flow" as damage to the landfill**
+
+:::
+
+| **Resource System** | **Resource Units**        | **Notes**                                            |
+|---------------------|---------------------------|------------------------------------------------------|
+| Landfill            | Food Waste (lbs)                | Reaching its capacity |
+| Landfill            | Food Waste (lbs)                | Need for maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from food waste |
+
+::: notes
+
+Finally we conceptualized food waste as a landfill problem
+
+- This DEFINITELY showed up in your first reports!
+
+<br>
+
+**SLIDE**: Let's reflect on all of them
+
+:::
+
+
+## {.center .smaller}
+
+| **Resource System** | **Resource Units**        | **Notes**                              |
+|---------------------|---------------------------|----------------------------------------|
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | For humans, animals or industry |
+| Households          | Food waste (lbs)           | Productive use vs thrown away          |
+| Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
+| Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
+| Community Roads     | Miles driven or Trucks (#) | More waste = more trucks / damage  |
+| The Community    | Food (lbs)                    | Health: Used vs Donated vs Wasted |
+| Landfill            | Food Waste (lbs)                | Filling capacity |
+| Landfill            | Food Waste (lbs)                | Increased maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from waste  |
+
+::: notes
+
+The question for us is, which versions of the food waste problem do we want to focus on for the rest of the semester?
+
+- Don't answer this question out loud yet!
+
+<br>
+
+First, everybody take a few minutes to reflect on these options
+
+- For yourself, narrow down the list to **THREE** versions of the problem you would be most interested in tackling
+
+<br>
+
+*Lead class discussion, help them narrow down to three or four options*
+
+- Let's try to pick options that push us in different directions on the problem!
+
+- *ON BOARD*
+
+<br>
+
+*Split class into three (or four) groups and assign one of the CPR problem definitions to each*
+
+- GROUPS, sit together, away from the other groups
+
+<br>
+
+GROUPS: Take a few minutes to discuss this baseline CPR version of the problem. 
+
+- Get ready to report back to us your evaluation of this version of the problem
+
+1. In what specific ways does this problem definition help us address the problem? 
+
+2. In what specific ways does this problem definition make addressing the problem harder?
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+**SLIDE**: Stakeholder report time
+
+:::
+
+
+
+## Building a List of Stakeholders {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.fragment}
+
+::: {.r-fit-text}
+
+1. Who are they?
+
+2. Connections to the flow of food waste?
+
+3. Evidence of previous engagement?
+
+:::
+
+::::
+
+::: notes
+
+For today I asked you to help us begin to build a list of relevant stakeholders in our community.
+
+- I asked you to do some preliminary research focused on your chosen stakeholder
+
+- My assumption is that each of you have a stakeholder, have contact info for them and evidence of their presence in our community
+
+<br>
+
+**REVEAL**: In a moment we will go around the room to introduce each of your chosen stakeholders using three prompts
+
+1. Who are they?
+
+2. How are they relevant to our community's food waste problem?
+
+3. How have they engaged in the local community in the past?
+
+<br>
+
+GROUPS, this is an active listening exercise!
+
+- You need to build a list of the stakeholders you hear today that may be relevant to your specific version of the problem
+
+- Don't assume you know the answer before hearing each report! 
+
+- Listen to why each one was submitted and be open to including them on your list
+
+<br>
+
+**Questions?**
+
+- Go!
+
+<br>
+
+**SLIDE**: Building a stakeholder map
+
+:::
+
+
+## Building a Stakeholder Map {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are the types of stakeholder relevant to your specific problem definition?
+
+::: {.fragment}
+
+- Whose actions influence the flow of the units?
+
+- Whose buy-in to a plan would make policy change easier?
+
+:::
+
+::: notes
+
+Groups, I want you to take a few minutes to reflect on your problem definition and evolving stakeholder list. 
+
+- Your job is to create a stakeholder map of your problem 
+
+- By that I mean, a representation of the kinds of stakeholders relevant to your problem definition
+
+<br>
+
+**REVEAL**: *Read slide*
+
+<br>
+
+**Any questions on the exercise?**
+
+- We're doing this AFTER hearing the stakeholder assignment results because I'm hoping that pushed you to think more broadly about your problem
+
+- A more complete map is a more useful map of your problem
+
+<br>
+
+BEFORE you get to work, one important note!
+
+- Once you have your broad "types" identified, your next job is to think about the variation within them
+
+- **SLIDE**: Imagine one type for you is "restaurant"
+
+:::
+
+
+
+## Building a Stakeholder Map {background-image="Images/background-forest_v3.png"}
+
+![](Images/09_1-chain_restaurants.jpg){.absolute left=0 width="40%"}
+
+![](Images/09_1-fine_restaurants.jpg){.absolute right=0 width="40%"}
+
+![](Images/09_1-food_trucks.webp){.absolute right=325 bottom=0 width="40%"}
+
+::: notes
+
+If I was targeting "restaurants" I would want to think about how best to increase my coverage of that concept in our community
+
+- e.g. examples of different sizes, ownership structures, locations, etc
+
+<br>
+
+Your goal is to ensure this data collection process gives you a REPRESENTATIVE sample of the population
+
+- OTHERWISE, you wil be incredibly limited as to the inferences you can draw and the policy designs you can consider
+
+- In other words, if I wanted to be able to make inferences about "restaurants" in our community then my sample of restaurants better be broad and diverse!
+
+<br>
+
+This DOES NOT mean any future policy must be adapted to all of them
+
+- This work ensures you have the best chance of finding actual solutions that can be applied in the real world
+
+- Maybe we discover that food truck waste is "low hanging fruit"?!?
+
+<br>
+
+**Does this make sense?**
+
+<br>
+
+**SLIDE**: Groups prompt
+
+:::
+
+
+
+## Building a Stakeholder Map {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are the types of stakeholder relevant to your specific problem definition?
+
+- Whose actions influence the flow of the units?
+
+- Whose buy-in to a plan would make policy change easier?
+
+::: notes
+
+Let's get to work!
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+- *Aim for at least three types per problem*
+
+- *Help them identify any gaps in their maps of the problem*
+
+<br>
+
+**SLIDE**: Assignment for two weeks out!
+
+:::
+
+
+
+## The Stakeholder Map (Due Apr 1) {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Fill in your map of relevant stakeholders
+
+- **YOU** must submit **TWO** new stakeholders to Canvas
+
+- Coordinate within your group!
+
+:::
+
+::: notes
+
+The aim is for each group to have a ton of stakeholder information relevant to their problem definition
+
+- No overlap! Make sure you each find and submit new cases!
+
+- Make sure you have example stakeholders for ALL the types in your map!
+
+- Due before class April 1st
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
+
+**SLIDE**: In the meantime...
+
+:::
 
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
+<br>
+
 ::: {.r-fit-text}
-Writing Workshop
+
+**Analyzing Stakeholders: The Role of Risk**
+
+1. Ehrlich and Ehrlich (2008)
+
+2. Simon (1993)
+
 :::
 
 ::: notes
 
-Everybody bring a rough draft of your paper to class on Thursday so we can check in on it and give/get feedback.
+Over the next three classes I want to introduce you to some of the literature that will help us think about the variation in our stakeholders and our problems
+
+- Thursday we talk risk
+
+- Next week we talk uncertainty and collective action problems
 
 :::

@@ -47,7 +47,7 @@ Prep for Class
 
 2) **Investigate** the relevant stakeholders
 
-3) **Frame** the problem
+3) **Frame** the problem for the stakeholders
 
 4) **Design** a policy to address the problem
 
@@ -131,23 +131,21 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 
 
 
-## {background-image="Images/background-forest_v3.png" .center .smaller}
+## {background-image="Images/background-forest_v3.png" .smaller}
 
 ::: {.r-fit-text}
-
-**Defining our Environmental Problem as a CPR**
+**Defining Food Waste as a CPR**
 
 <br>
 
-**1. Food waste as food insecurity**
-
+**1. The "flow" of food creating insecurity**
 :::
 
 | **Resource System** | **Resource Units**         | **Notes**                              |
 |---------------------|----------------------------|----------------------------------------|
-| The Community       | Food                       | Businesses vs Families vs Charities    |
-| The Community       | Grocery stores             | Placement leading to food deserts      |
-| The Community       | Farm output                | Food for humans vs animals vs industry |
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | Food for humans, animals or industry |
 
 ::: notes
 
@@ -167,15 +165,15 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 
 
 
-## {background-image="Images/background-forest_v3.png" .center .smaller}
+## {background-image="Images/background-forest_v3.png" .smaller}
 
 ::: {.r-fit-text}
 
-**Defining our Environmental Problem as a CPR**
+**Defining Food Waste as a CPR**
 
 <br>
 
-**2. Food waste being generated**
+**2. The "flow" of waste being generated**
 
 :::
 
@@ -184,8 +182,6 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 | Households          | Food waste (lbs)           | Productive use vs thrown away          |
 | Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
 | Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
-| The Community       | Food waste (lbs)           | Productive use vs thrown away          |
-
 
 ::: notes
 
@@ -203,21 +199,23 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 
 
 
-## {background-image="Images/background-forest_v3.png" .center .smaller}
+## {background-image="Images/background-forest_v3.png" .smaller}
 
 ::: {.r-fit-text}
 
-**Defining our Environmental Problem as a CPR**
+**Defining Food Waste as a CPR**
 
 <br>
 
-**3. Food waste reaching the landfill**
+**3. The "flow" of waste being transported**
 
 :::
 
 | **Resource System** | **Resource Units**            | **Notes**                 |
+| **Resource System** | **Resource Units**            | **Notes**                 |
 |---------------------|-------------------------------|---------------------------|
-| Community Roads     | Miles driven or damage caused | More waste = more trucks  |
+| Community Roads     | Miles driven | More waste, more trucks, more road damage  |
+| Community Roads     | Trucks in service (#) | More waste, more trucks, more road damage  |
 | Community Health    | Food (lbs)                    | Used vs Donated vs Wasted |
 
 ::: notes
@@ -236,22 +234,24 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 
 
 
-## {background-image="Images/background-forest_v3.png" .center .smaller}
+## {background-image="Images/background-forest_v3.png" .smaller}
 
 ::: {.r-fit-text}
 
-**Defining our Environmental Problem as a CPR**
+**Defining Food Waste as a CPR**
 
 <br>
 
-**4. Food waste in the landfill**
+**4. The "flow" as damage to the landfill**
 
 :::
 
 | **Resource System** | **Resource Units**        | **Notes**                                            |
 |---------------------|---------------------------|------------------------------------------------------|
-| Landfill            | Food (lbs)                | Filling capacity, need for maintenance and expansion |
-| Atmosphere          | Emissions from food waste |                                                      |
+| Landfill            | Food Waste (lbs)                | Reaching its capacity |
+| Landfill            | Food Waste (lbs)                | Need for maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from food waste |
 
 ::: notes
 
@@ -273,17 +273,18 @@ Then on Thursday we explored reframing each of these as common pool resource pro
 
 | **Resource System** | **Resource Units**        | **Notes**                              |
 |---------------------|---------------------------|----------------------------------------|
-| The Community       | Food                      | Businesses vs Families vs Charities    |
-| The Community       | Grocery stores            | Placement leading to food deserts      |
-| The Community       | Farm output               | Food for humans, animals or industry   |
-| Households          | Food waste (lbs)          | Productive use vs thrown away          |
-| Grocery stores      | Food waste (lbs)          | Productive use vs thrown away          |
-| Restaurants         | Food waste (lbs)          | Productive use vs thrown away          |
-| The Community       | Food waste (lbs)          | Productive use vs thrown away          |
-| Community Roads     | Miles driven or damage    | More waste = more trucks               |
-| Community Health    | Food (lbs)                | Used vs Donated vs Wasted              |
-| Landfill            | Food (lbs)                | Capacity and need for maintenance      |
-| Atmosphere          | Emissions from waste      |                                        |
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | For humans, animals or industry |
+| Households          | Food waste (lbs)           | Productive use vs thrown away          |
+| Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
+| Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
+| Community Roads     | Miles driven or Trucks (#) | More waste = more trucks / damage  |
+| The Community    | Food (lbs)                    | Health: Used vs Donated vs Wasted |
+| Landfill            | Food Waste (lbs)                | Filling capacity |
+| Landfill            | Food Waste (lbs)                | Increased maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from waste  |
 
 ::: notes
 
@@ -500,23 +501,59 @@ Ok groups, review all the work that has been written down and work to develop yo
 
 *PRESENT and DISCUSS each*
 
-<br>
-
-1. **Is each of these a logical argument? e.g. do the premises support the conclusion?**
-
-2. **What specific parts of these arguments need more or better evidence?**
-
-3. **Are there any gaps in either argument we need to fill in?**
-
-    - e.g. types of people, species or places likely impacted but not included in our evidence?
-
-4. **How applicable are these arguments to our local community?**
-
-    - In other words, are these arguments too generic or general to apply to our backyard?
+- Present your argument to the other group making clear where evidence is lacking or uncertainty is high
 
 <br>
 
-**SLIDE**: Assignment for next week
+**What specific parts of these arguments need more or better evidence?**
+
+<br>
+
+**Are there any gaps in either argument we need to fill in?**
+
+- e.g. types of people, species or places likely impacted but not included in our evidence?
+
+<br>
+
+**How applicable are these arguments to our local community?**
+
+- **In other words, are these arguments too generic or general to apply to our backyard?**
+
+<br>
+
+**SLIDE**: Apply to report 1
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Outcome 1: Baseline Argument Report**
+:::
+
+<br>
+
+Make a three premise argument that we have an environmental problem to address in our community:
+
+- Premise 1 - This is an important problem
+
+- Premise 2 - This is a public problem
+
+- Premise 3 - The problem should be addressed collectively
+
+::: notes
+
+Apply to Report 1, Premise 1: Which premises from these arguments do you think would BEST help you make the importance argument?
+
+Apply to Report 1, Premise 2: Which premises from these arguments do you think would BEST help you make the argument that food waste is a public problem?
+
+Apply to Report 1, Premise 3: Which premises from these arguments do you think would BEST help you make the argument that addressing the food waste public problem SHOULD BE a collective decision?
+
+<br>
+
+**SLIDE**: Assignment for next WEEK (then do field trip next class)
 
 :::
 

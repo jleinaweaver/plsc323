@@ -30,4 +30,8 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 10_1-Stakeholders-Uncertainty.html
 
-10_2-Project-Stakeholder_Analyses.html
+10_2-Stakeholders-Collective_Action_Problems.html
+
+11_1-Project-Stakeholder_Analyses.html
+
+11_2-Project-Targeted_Framing.html

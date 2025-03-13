@@ -2,19 +2,22 @@
 format: revealjs
 ---
 
-# Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
 
 ```{r}
 library(tidyverse)
+library(kableExtra)
 library(readxl)
 ```
 
 <br>
 
 ::: {.r-fit-text}
-**III. Designing an Environmental Policy**
 
-- Complications 1: Risk Aversion / Acceptance
+**Finding and Analyzing the Relevant Stakeholders**
+
+- Different risk profiles complicate problem-solving
+
 :::
 
 <br>
@@ -30,198 +33,61 @@ Prep for Class
 
 2. Bring pennies to class for coin flipping (1 per person)
 
-3. Prep Google Form to collect county fair responses AND email to distribute it
-    - https://forms.gle/SbPGy5Mp73zN9wGd6
-:::
-
-
-
-
-## The Development of your Project {background-image="Images/background-forest_v3.png" .center}
-
+3. Prep Google Form to collect county fair responses AND publish it on Canvas
+    - https://forms.gle/VEZaRm7JEtM5ZeH2A
+    
 <br>
 
-:::: {.incremental}
-::: {.r-fit-text}
-1. Mapped the impact of a problem on our community
-
-2. Applied that map to four policy design options
-
-3. **Currently road testing your problem framing**
-:::
-::::
-
-::: notes
-
-Time to take stock of how far you've come in order to look ahead to your final paper.
-
-<br>
-
-**REVEAL**: Paper 1 asked you to map the contours of a problem in a real community
-
-- In your first paper you selected a problem, established an empirical basis for it and identified key stakeholders involved in it
-
-<br>
-
-**REVEAL**: In your second paper you used your map to evaluate four policy design options for addressing the problem
-
-- e.g. how does each policy meet the science of the problem and the needs of the stakeholders
-
-<br>
-
-**REVEAL**: Where we are now!
-
-- Your community engagement project and fusion day poster will force you to take these ideas into the real world
-
-- What does the problem really look like? AND
-
-- How does the community react to your developing problem-framing?
-:::
-
-
-## Our Planned Policy-Making Process {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-
-1) **Describe** the problem facing our community
-
-2) **Investigate** the relevant stakeholders
-
-3) **Frame** the problem
-
-4) Propose a **policy**
+**SLIDE**: Our current problem-solving process
 
 :::
-
-::: notes
-
-Going back to our policy-making process from week 4
-
-- Your work so far this semester has gotten you up to step 3!
-
-<br>
-
-Your final paper asks you to reflect on all of this in order to design a policy for addressing your chosen problem. 
-
-- We have lots of time before this is due but I want to keep reminding you of how all of these earlier pieces help you build to this.
-:::
-
-
-
-## Assignment 5: Proposing a Policy {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-Propose a policy to address your selected environmental problem that balances the interests of the relevant stakeholders against the constraints of established institutions and uncertainty.
-
-::: notes
-
-The Prompt
-
-<br>
-
-Let's talk about my expectations for this paper.
-
-- Note that I've put these details on Canvas.
-:::
-
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-<br>
+1) **Describe** the problem facing our community
 
-<br>
+2) **Investigate** the relevant stakeholders
 
-<br>
+3) **Frame** the problem for the stakeholders
 
-**Final proposal should be a complete, stand-alone policy proposal**
-:::
+4) **Design** a policy to address the problem
 
-::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics('Images/10-1-four_brains.jpg')
-```
-:::
+5) Take **action** to push the plan forward!
+
 ::::
 
 ::: notes
 
-Do NOT assume the reader is familiar with your other assignments or has a deep understanding of the problem itself.
+Alright, here's our process
+
+- Currently you are working in groups to complete Step 2
+
+- Remember, your new stakeholder submissions are due before class April 1st
 
 <br>
 
-You should be able to give your paper to a person interested in your problem and they should be able to understand why solving the problem is complicated and be convinced that your policy is a good idea.
+**How's the process of fleshing out your stakeholder maps going?**
 
-- This means you should DEFINITELY take the best bits from your earlier papers and add them to this one.
-
-<br>
-
-### Does that make sense?
+- **Any obstacles?**
 
 <br>
 
-SLIDE: Ok, let's get more specific
+**SLIDE**: Our plan for the rest of this week and next
+
 :::
 
 
-## A convincing policy proposal: {background-image="Images/background-forest_v3.png" .center}
 
-::: {.incremental}
-
-- Advances your policy recommendation in **EVERY** paragraph,
-
-- Includes a clear and compelling problem definition,
-
-- Identifies and appeals to specific stakeholders,
-
-- Considers the complications, and
-
-- Offers guidance for measuring its effectiveness over time.
-:::
-
-::: notes
-
-To be clear, we've covered the basics you'll need for the first three parts of this assignment.
-
-- The material we cover for the next few weeks will give you tools for the last two: Complications and thinking about impacts over time
+## Analyzing Stakeholders {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-The bottom line here is I'm looking for you to connect your ideas in very concrete ways to the material we've been studying all semester.
-
-- Problem framings matter,
-
-- Generating stakeholder buy-in matters,
-
-- Engaging substantively with the complications matters, and
-
-- Planning for measuring success matters.
-
-<br>
-
-I am much more interested in **small, specific proposals** that are adapted to the real obstacles you face rather than broad and impossible reconstructions of society.
-
-- My expectation is not that you've designed the ultimate plan that makes everyone happy.
-    - That's not a thing that exists in the real world.
-
-- My expectation is that you propose a policy that explicitly considers and tries to navigate past these complications.
-
-<br>
-
-**Any questions on the prompt or any of this advice?**
-:::
-
-
-## Complicating Factors to Consider When Designing Your Policy {background-image="Images/background-forest_v3.png" .center}
-
-<br>
+::: {.r-fit-text}
 
 - Risk aversion (or risk acceptance)
 
@@ -229,23 +95,29 @@ I am much more interested in **small, specific proposals** that are adapted to t
 
 - Collective action problems and free-riding
 
-- Inequality
-
-- Greenwashing
+:::
 
 ::: notes
 
-Over the next three weeks we'll explore these important topics.
+As I'm sure you are seeing from your own work, stakeholders vary in many idiosyncratic ways
 
-- Each of these represents an additional layer on top of our baseline model of politics.
+- e.g. unique to an individual
 
-- Each of these represents an additional way of thinking about the obstacles you will face with your stakeholders.
+- A plumber's view of water quality will certainly be different from a gardener's view
+
+<br>
+
+This list represents ways our stakeholders will vary from each other but in broadly generalizable ways
+
+- Analyzing stakeholders will be easier as you develop your understandings of these concepts
+
+- These will also become useful checklists for thinking about policy design and effectiveness
 
 <br>
 
 Today we explore risk aversion and risk acceptance.
 
-- Disputes over perceived risk tend to seriously complicate defining the problem and evaluating proposed solutions.
+- Disputes over perceived risk tend to seriously complicate how stakeholders define problems and how they evaluate proposed solutions.
 
 <br>
 
@@ -298,7 +170,7 @@ Ok, let's test your intuition!
 #   #heads = c()
 # )
 
-## SP24 Results
+## SP25 Results TBD
 #library(tidyverse)
 
 d <- tibble(
@@ -347,7 +219,7 @@ Over just a few flips of the coin, many results are possible.
 
 <br>
 
-SLIDE: If we average all of your flips together we get:
+**SLIDE**: If we average all of your flips together we get:
 :::
 
 
@@ -406,7 +278,7 @@ If you lived this day one hundred times, it would rain approximately 25 times.
 
 **So, when the weather forecast is for a 50% chance of rain today, what does that actually mean?**
 
-- (SLIDE)
+- (**SLIDE**)
 :::
 
 
@@ -462,7 +334,7 @@ Imagine you are at the county fair with your best girl or guy and you come acros
 ::::: {.columns}
 :::: {.column width="50%"}
 ::: {.r-fit-text}
-Flip a fair coin ONE time
+Flip a fair coin **ONE** time
 
 - Heads pays you **$5**
 
@@ -507,7 +379,7 @@ Ok, rewind your imaginary date and let's replay the game!
 ::::: {.columns}
 :::: {.column width="50%"}
 ::: {.r-fit-text}
-Flip a fair coin ONE time
+Flip a fair coin **ONE** time
 
 - Heads pays you **$100**
 
@@ -528,9 +400,9 @@ You and your date arrive at the fair and see this game where heads pays you $100
 
 <br>
 
-*Send out Email with Google Form link*
+*Send out Email with Google Form link OR point them to link on Canvas Modules page*
 
-- Update following with new data
+- *Update following with new data*
 :::
 
 
@@ -558,7 +430,13 @@ d |>
 
 Here are our results focused on the first version of the game.
 
-### Explain to me your choices here.
+**Explain to me your choices here.**
+
+- **Why did you choose the amount that you did?**
+
+<br>
+
+**Is one of these more "correct" than the others? Why or why not?**
 
 <br>
 
@@ -583,7 +461,13 @@ d |>
 
 Here are our results focused on the second version of the game.
 
-### Explain to me your choices here.
+**Explain to me your choices here.**
+
+- **Why did you choose the amount that you did?**
+
+<br>
+
+**Is one of these more "correct" than the others? Why or why not?**
 
 <br>
 
@@ -617,11 +501,23 @@ Here I've converted all of your maximums into a % of the possible winnings.
 
 - So, if you would pay $2.50 for the $5 game then you would pay half the possible winnings to play (e.g. 50%)
 
+- Anybody on the 45 degree line represents someone equally willing to take on the risk regardless of the stakes
+
 <br>
 
-Anybody on the 45 degree line represents someone equally willing to take on the risk regardless of the stakes
+**Ok, describe to me the risk profiles in our class**
 
-- **Why aren't all the observations on the diagonal line?**
+- **What do we learn from this?**
+
+<br>
+
+- **Is the group mostly risk averse or acceptant? Why?**
+
+- **Who, as individuals, stands out on the extremes?**
+
+<br>
+
+**Why aren't all the observations on the diagonal line?**
 
 - **Shouldn't your offer to play the $100 game be exactly 20 times your answer in the $5 game?**
 
@@ -647,12 +543,16 @@ Your relationship to risk is sensitive to both the size of the risk AND the size
 
 <br>
 
-**So, what do we learn about our class from this?**
+**SLIDE**: Not just an issue in toy games or lotteries, real world decisions too
+
 :::
 
 
 
-## {background-image="Images/05-1-intersection.jpg" .center}
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/09_2-4waystop_rural.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -662,78 +562,124 @@ Important note, this is not just about games of chance!
 
 <br>
 
-**Who here has a car?**
+Ok, drivers, so you're cruising down a country road in a rural part of the state and you see this ahead of you. 
+
+- There is not a single other car out here for MILES around
+
+- **What do you do at the stop sign?**
+
+- **Are you risk averse or acceptant here? Why?**
 
 <br>
 
-**Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?**
+**SLIDE**: Scenario 2
 
-- *Force discussion*
-
-<br>
-
-**Make this clear for me, how do stop lights illustrate different peoples' levels of risk aversion?**
-
-- **What are your options and how are they tied to the rewards?**
-
-<br>
-
-1. Run a red light and get home faster (value!), BUT 
-
-2. You MAY get pulled over OR cause an accident
-
-<br>
-
-**Any questions about these basic introductions to probabilities or risk aversion?**
 :::
-
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/05_1-monkey_darts_politics.jpg')
-```
+![](Images/05-1-intersection.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-In our discussions of "politics" and problem-solving in a political world I've encouraged you to think about:
+**Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?**
 
-- You live in a community that has long established institutions and identities that create expectations for behavior
-
-- You, personally, have multiple identities and each carries DIFFERENT obligations that change your behavior, and
-
-- In these complex situations problem definitions MUST be adapted to the community you are trying to change
+- **Are you risk averse or acceptant here? Why?**
 
 <br>
 
-**How does our discussion about risk today impact our models of politics and problem-solving?**
+**SLIDE**: Scenario 3
 
-<br>
-
-(A key complicating factor!)
-
-- Interests defined not just by what people want BUT ALSO by their risk tolerance!
-
-- Two stakeholders presented with the exact same policy may each choose to behave in completely different ways BECAUSE of their different willingnesses to accept risk!
-
-<br>
-
-**SLIDE**: Let's take this risk aversion complication into our readings for today
 :::
 
 
-## Ehrlich & Ehrlich (2008) {background-image="Images/background-forest_v3.png" .center}
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/09_2-car_and_train.avif){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Last one.
+
+- You're coming up to a train crossing and you can tell that train is REALLY long.
+
+- **Who goes for it?**
+
+- **Are you risk averse or acceptant here? Why?**
+
+<br>
+
+**SLIDE**: Takeaways
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<br>
+
+![](Images/09_2-4waystop_rural.jpg)
+:::
+
+::: {.column width="50%"}
+![](Images/05-1-intersection.jpg)
+
+![](Images/09_2-car_and_train.avif)
+:::
+
+::::
+
+::: notes
+
+**What do we learn about risk profiles from these three scenarios and your responses to them?**
+
+<br>
+
+Stakeholders risk profiles will vary with their perceptions
+
+- e.g. Context matters
+
+<br>
+
+AND, even more importantly, it means that you can move them with argument and good policy design!
+
+- **Does everybody see how risk profiles matter for understanding stakeholder decisionmaking?**
+
+<br>
+
+- **And does everybody see that it should be possible to influence stakeholder risk profiles?**
+
+<br>
+
+**Any questions about these basic introductions to probabilities or risk aversion?**
+
+<br>
+
+**SLIDE**: Let's take these concepts into the assigned readings for today
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
+**Ehrlich & Ehrlich (2008)**
+
 Too Many People, Too Much Consumption
 :::
 
 <br>
 
 ::: {.fragment}
-Therefore, a combination of overpopulation and overconsumption has us on track for disaster
+### Therefore, a combination of overpopulation and overconsumption has us on track for disaster
 :::
 
 ::: notes
@@ -786,22 +732,25 @@ Therefore, a combination of overpopulation and overconsumption has us on track f
 
 ::: notes
 
-*SAVE CONVINCINGNESS ARGUMENT FOR LATER*
+**Is this an argument that we should be risk averse or acceptant when thinking about populations and consumption?**
+
+- (VERY risk averse, right?)
 
 <br>
 
-
-**What are the strongest and weakest parts of this argument?**
-
-- *DISCUSS*
+**What are the most effective parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
 
 <br>
 
-**How does this argument help us think about the importance of risk aversion and acceptance when trying solve an environmental problem?**
+**What are the weakest parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
 
 <br>
 
-VERY risk averse, right?
+**Lessons for us on making these arguments?**
+
+<br>
+
+**SLIDE**: Switch to the Simon reading
 
 <br>
 
@@ -818,22 +767,21 @@ VERY risk averse, right?
 :::
 
 
-## Simon (1993) {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
+**Simon (1993)**
+
 Population Growth Is Not Bad for Humanity
 :::
 
 <br>
 
 ::: {.fragment}
-Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
+### Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
 :::
 
 ::: notes
-Let's jump to the second article.
-
-<br>
 
 **What is the conclusion of the article by Julian Simon?**
 
@@ -875,21 +823,21 @@ Therefore, "the energetic effort of humankind will prevail in the future" over w
 
 
 ::: notes
-*SAVE CONVINCINGNESS ARGUMENT FOR LATER*
+**Is this an argument that we should be risk averse or acceptant when thinking about populations and consumption?**
+
+- (VERY risk acceptant, right?)
 
 <br>
 
-**What are the strongest and weakest parts of this argument?**
-
-- *DISCUSS*
+**What are the most effective parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
 
 <br>
 
-**How does this argument help us think about the importance of risk aversion and acceptance when trying solve an environmental problem?**
+**What are the weakest parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
 
 <br>
 
-VERY risk acceptant, right?
+**Lessons for us on making these arguments?**
 
 <br>
 
@@ -909,49 +857,98 @@ Therefore, it is reasonable to expect "that the energetic effort of humankind wi
 
 
 
-## Risk aversion and population growth {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
-<br>
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-Ehrlich, P. & Ehrlich, A. (2008, August 4). Too Many People, Too Much Consumption. *Yale Environment 360*.
+1) **Describe** the problem facing our community
 
-<br>
+2) **Investigate** the relevant stakeholders
 
-Simon, J. (1993). Population Growth Is Not Bad for Humanity. *PRI Review*, 3(6).
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
 
 ::: notes
-**Bottom line, which side is more convincing to you? Why?**
 
-- **Is your feeling on this consistent with your risk level as determined by our game to start class?**
+**Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?**
 
 <br>
 
-*OPTIONAL or just jump to 10 minutes reflecting on their projects and then 5-10 minutes sharing*
+Today's work is meant to help you think critically about:
 
-Let's think about this as problem-solvers in a community.
+1. HOW stakeholders vary in their relationship to risk, and
 
-- **Where is the room between these two sides for addressing environmental harms?**
+2. HOW problem framing is often an exercise in trying to move stakeholders' risk profiles in relation to a specific problem
+
+<br>
+
+**Did you find one of these problem framing exercises today more convincing than the other (e.g. Ehrlich and Ehrlich vs Simon)? Why or why not?**
+
+<br>
+
+A big part of your job working in a community will be to develop a compelling problem framing that draws in both sets of actors across this divide.
+
+- **Is there any room between the Ehrlich's and Simon on these problems?**
 
 - **In other words, could we present a problem-framing that gets both these actors on our side?**
 
-<br>
-
-**Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?**
 :::
 
 
-## Complicating Factors to Consider When Designing Your Policy {background-image="Images/background-forest_v3.png" .center}
+
+
+##  {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Different risk profiles complicate problem-solving**
+:::
 
 <br>
 
-How does risk aversion (or risk acceptance) complicate your efforts to address your specific environmental problem?
+### How much variation is there in the risk profiles of the stakeholders in your map of the food waste problem?
 
 ::: notes
 
-Everybody take a few minutes to reflect on how our material from today impacts your specific environmental problem.
+*With time remaining*
+
+- Groups, let's take today's material into your ongoing work!
+
+- get ready to report back!
 
 <br>
 
-Alright, let's share!
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next class
 :::
 
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Analyzing Stakeholders: The Role of Uncertainty**
+
+1. Pindyck (2007)
+
+2. Gettleman (2015)
+
+3. Hart (2024)
+
+:::
+
+::: notes
+
+Next class we talk uncertainty, time horizons and temporal discounting
+
+:::

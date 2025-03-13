@@ -328,19 +328,61 @@ Ok groups, review all the work that has been written down and work to develop yo
 
 *PRESENT and DISCUSS each*
 
+- Present your argument to the other group making clear where evidence is lacking or uncertainty is high
+
+<br>
+
+**What specific parts of these arguments need more or better evidence?**
+
+<br>
+
+**Are there any gaps in either argument we need to fill in?**
+
+- e.g. types of people, species or places likely impacted but not included in our evidence?
+
+<br>
+
+**How applicable are these arguments to our local community?**
+
+- **In other words, are these arguments too generic or general to apply to our backyard?**
+
+<br>
+
+**SLIDE**: Apply to report 1
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Outcome 1: Baseline Argument Report**
+:::
+
+<br>
+
+Make a three premise argument that we have an environmental problem to address in our community:
+
+- Premise 1 - This is an important problem
+
+- Premise 2 - This is a public problem
+
+- Premise 3 - The problem should be addressed collectively
+
+::: notes
+
+Apply to Report 1, Premise 1: Which premises from these arguments do you think would BEST help you make the importance argument?
+
+Apply to Report 1, Premise 2: Which premises from these arguments do you think would BEST help you make the argument that food waste is a public problem?
+
+Apply to Report 1, Premise 3: Which premises from these arguments do you think would BEST help you make the argument that addressing the food waste public problem SHOULD BE a collective decision?
+
 <br>
 
 1. **Is each of these a logical argument? e.g. do the premises support the conclusion?**
 
-2. **What specific parts of these arguments need more or better evidence?**
 
-3. **Are there any gaps in either argument we need to fill in?**
-
-    - e.g. types of people, species or places likely impacted but not included in our evidence?
-
-4. **How applicable are these arguments to our local community?**
-
-    - In other words, are these arguments too generic or general to apply to our backyard?
 
 <br>
 

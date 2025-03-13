@@ -6,17 +6,19 @@ format: revealjs
 
 ```{r}
 library(tidyverse)
+library(kableExtra)
 library(readxl)
-library(haven)
 library(gganimate)
 ```
 
 <br>
 
 ::: {.r-fit-text}
-**III. Designing an Environmental Policy**
 
-- Complications 2: Temporal Discounting & Uncertainty
+**Finding and Analyzing the Relevant Stakeholders**
+
+- Uncertainty complicates problem-solving
+
 :::
 
 <br>
@@ -30,83 +32,80 @@ Prep for Class
 
 1. Run slides on laptop IF you are recording student values electronically
 
-2. Build a Google Form to collect data and prep email to distribute it
-    - https://forms.gle/pNtYq8RtixoeqTAB8
+2. Build a Google Form to collect data and prep email to distribute it OR distribute on Canvas
+    
+    - [https://forms.gle/esZZyxCjvsVzxVFC7]()
 
-3. Old US Public policy notes (14.2) covered temporal discounting
+3. Be ready to show the NYT video on youTube
+
+    - [https://www.youtube.com/watch?v=dJvooI1Ec9o]()
+
+<br>
+
+**SLIDE**: Our current problem-solving process
+
 :::
 
 
 
+## {background-image="Images/background-forest_v3.png" .center}
 
-## Complicating Factors to Consider When Designing Your Policy {background-image="Images/background-forest_v3.png" .center}
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-<br>
+1) **Describe** the problem facing our community
 
-- Risk aversion (acceptance)
+2) **Investigate** the relevant stakeholders
 
-- Temporal discounting and uncertainty
+3) **Frame** the problem for the stakeholders
 
-- Collective action problems and free-riding
+4) **Design** a policy to address the problem
 
-- Inequality
+5) Take **action** to push the plan forward!
 
-- Greenwashing
+::::
 
 ::: notes
 
-This final section of our class is our chance to dig into some of the complications you as policy designers need to be aware of when trying to solve environmental problems.
+Talk to me about our work on risk profiles last class
+
+- **How does that material help us move through this process?**
 
 <br>
 
-**SLIDE**: On Tuesday we started by exploring the complications created by stakeholders different perceptions of risk.
+FIRST, on step 2, stakeholders vary in terms of their relationship to risk on a given problem
+
+- Key component of understanding who they are and what they want
+
+<br>
+
+**Give me an example of a situation in your day-to-day life in which you are more risk averse**
+
+<br>
+
+**Give me an example of a situation in your day-to-day life in which you are more risk acceptant**
+
+<br>
+
+SECOND, on step 3, you may need to spend some portion of your problem framing developing an argument that shifts the risk profile of those stakeholders!
+
+<br>
+
+**Questions on the material from last class?**
+
+<br>
+
+**SLIDE**: Today we shift to uncertainty
+
 :::
 
-
-
-## {background-image="Images/06-1-risk_meter.jpeg" .center}
-
-::: notes
-
-Talk to me about how risk aversion complicates policy-making and problem-solving
-
-- **In other words, what were your takeaways from last class?**
-
-<br>
-
-All people vary in their attitudes towards risk
-
-- Depending on the context of a situation some people tend to be more willing than others to take on a risk in order to obtain a benefit
-
-- **Give me an example of a situation in your day-to-day life in which you are more risk averse**
-
-- **Give me an example of a situation in your day-to-day life in which you are more risk acceptant**
-
-<br>
-
-Let's take this into the projects you are working on.
-
-- **Give me an example of how risk complicates the problem you are trying to address.**
-
-<br>
-
-**Which of the four policy design options are best suited for dealing with stakeholders who have different levels of risk aversion?**
-
-- (Subsidies are AWESOME for this)
-    - Free money can pretty easily overcome small amounts of risk aversion
-
-- (C&C might not be popular but may be necessary if risk acceptance levels are too high)
-    - e.g. create a rule that says a specific industry may not gamble with public health for profit
-:::
 
 
 ## {background-image="Images/06-1-time_horizons_sharks.webp" .center}
 
 ::: notes
 
-Today we shift to our second set of complications: Temporal discounting and uncertainty
-
-- Just as people differ in their approaches to risk, they differ in their approaches to time and uncertainty.
+Stakeholders vary in their relationship to uncertainty and this also complicates problem-solving
 
 <br>
 
@@ -196,9 +195,11 @@ I assume we all intuitively understand that neither extreme is likely a good pri
 
 Key takeaways as policy designers:
 
-1. There is no "correct" time horizon (e.g. no "right" choice for everyone.), and
+1. There is no "correct" time horizon (e.g. no "right" choice for everyone.), 
 
-2. The same individuals will adopt different time horizons for different kinds of decisions.
+2. The same individuals will adopt different time horizons for different kinds of decisions, and
+
+3. Part of your problem framing job is to acknowledge and influence these time horizons!
 
 <br>
 
@@ -211,9 +212,7 @@ Key takeaways as policy designers:
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05-1-Discounting.webp")
-```
+![](Images/05-1-Discounting.webp){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -273,9 +272,8 @@ I loved these cartoons as a kid and they definitely got me to eat my spinach.
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06-1-wimpy_burger.jpeg")
-```
+![](Images/06-1-wimpy_burger.jpeg){style="display: block; margin: 0 auto"}
+
 
 ::: notes
 
@@ -296,7 +294,7 @@ Hilarious joke during the great depression, right?
 
 
 
-## {background-image="Images/12_2-Inflation-FRED-2024-03.png" .center}
+## {background-image="Images/12_2-Inflation-FRED-2025-03.png" .center}
 
 ::: notes
 
@@ -337,7 +335,7 @@ Looking at the recent US experience of inflation we see:
 
 
 
-## {background-image="Images/12_2-Inflation-FRED_longer-2024-03.png" .center}
+## {background-image="Images/12_2-Inflation-FRED_longer-2025-03.png" .center}
 
 ::: notes
 Here's quarterly inflation data going back to WW2
@@ -485,7 +483,9 @@ I want you to reflect on each decision and then write down your answers.
 
 ::: {.fragment}
 
-How much would I have to offer you (in total) to get you to wait one year for the payment?
+What is the **smallest** amount of interest I would have to pay you to get you to wait one year for the money?
+
+- 5% ($0.50), 10% ($1), 20% ($2), 50% ($5), 100% ($10), more?
 
 :::
 
@@ -507,7 +507,9 @@ DON'T think about this as a negotiation
 
 - We're trying to get a sense of your discount rate, not how to extract money from me.
 
-- So, what is **the smallest amount of money** I could offer you in total that would get you to wait one year for this payment?
+- So, what is **the smallest amount of interest** I could offer you in total that would get you to wait one year for this payment?
+
+- Would you want 10%, meaning an extra dollar, to wait one year? e.g. $11?
 
 <br>
 
@@ -527,7 +529,9 @@ DON'T think about this as a negotiation
 
 <br>
 
-How much would I have to offer you (in total) to get you to wait one year for the payment?
+What is the **smallest** amount of interest I would have to pay you to get you to wait one year for the money?
+
+- 5% ($50), 10% ($100), 20% ($200), 50% ($500), 100% ($1k), more?
 
 ::: notes
 For the second offer let's increase the stakes to $1,000.
@@ -553,7 +557,9 @@ The question again is what is the **smallest amount** you would accept in order 
 
 <br>
 
-How much would I have to offer you (in total) to get you to wait one year for the payment?
+What is the **smallest** amount of interest I would have to pay you to get you to wait one year for the money?
+
+- 5% ($50k), 10% ($100k), 20% ($200k), 50% ($500k), 100% ($1m), more?
 
 ::: notes
 For the third offer let's increase the stakes to $1 million.
@@ -578,15 +584,15 @@ The question here is what is the **smallest amount** you would accept in order t
 
 <br>
 
-**Debt 1: $1 million payable one year from today**
+**Debt 1: $1,000 owed today**
 
 <br>
 
 ::: {.fragment}
 
-What is **the most** you are willing to pay out of pocket right now to delay that bill by one year?
+What is the **maximum** amount of interest YOU would be willing to pay to delay this bill by **one year**?
 
-- e.g. 1 year &#8594; 2 years
+- 5% ($50), 10% ($100), 20% ($200), 50% ($500), 100% ($1k), more?
 
 :::
 
@@ -594,7 +600,7 @@ What is **the most** you are willing to pay out of pocket right now to delay tha
 
 Here's the new set-up: 
 
-- You are on the hook for a $1 million dollar debt payable in exactly one year
+- You are on the hook for a $1k dollar debt payable today
 
 - **Baseline make sense?**
 
@@ -604,11 +610,9 @@ Here's the new set-up:
 
 <br>
 
-I understand you're all broke students so I'm asking you to set aside reality for this exercise.
+We're trying to get a sense of how you think about future costs and the time value of money
 
-- We're trying to get a sense of how you think about future costs and the time value of money
-
-- So, as a proportion of the debt, what is the **most** you would be willing to pay to buy yourself an extra year to pay it off?
+- So, as a proportion of the debt, what is the **most** you would be willing to pay to buy yourself a year to pay it off?
 
 <br>
 
@@ -625,17 +629,17 @@ I understand you're all broke students so I'm asking you to set aside reality fo
 
 <br>
 
-**Debt 2: $1 million payable ten years from today**
+**Debt 2: $1,000 owed ten years from today**
 
 <br>
 
-What is **the most** you are willing to pay out of pocket right now to delay that bill by one year?
+What is the **maximum** amount of interest YOU would be willing to pay to delay this bill by **one ADDITIONAL year**?
 
-- e.g. 10 years &#8594; 11 years
+- 5% ($50), 10% ($100), 20% ($200), 50% ($500), 100% ($1k), more?
 
 ::: notes
 
-Scenario 2 is a situation in which you still owe $1 million, but the deal was for a ten year loan.
+Scenario 2 is a situation in which you still owe $1k, but the deal was for a ten year loan.
 
 - So, what is the **most** you would pay to buy yourself an extra year to pay it off?
 
@@ -656,17 +660,17 @@ Scenario 2 is a situation in which you still owe $1 million, but the deal was fo
 
 <br>
 
-**Debt 3: $1 million payable fifty years from today**
+**Debt 3: $1,000 owed fifty years from today**
 
 <br>
 
-What is **the most** you are willing to pay out of pocket right now to delay that bill by one year?
+What is the **maximum** amount of interest YOU would be willing to pay to delay this bill by **one ADDITIONAL year**?
 
-- e.g. 50 years &#8594; 51 years
+- 5% ($50), 10% ($100), 20% ($200), 50% ($500), 100% ($1k), more?
 
 ::: notes
 
-Scenario 3 is a situation in which you still owe $1 million, but the deal was for a fifty year loan.
+Scenario 3 is a situation in which you still owe $1k, but the deal was for a fifty year loan.
 
 - So, what is the **most** you would pay to buy yourself an extra year to pay it off?
 
@@ -691,37 +695,41 @@ Scenario 3 is a situation in which you still owe $1 million, but the deal was fo
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2024).csv") |>
+d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2025).csv") |>
   select(name = `Name?`,
-         benefit1 = `Benefit 1 ($10): What is the smallest total amount of money I could offer that would get you to wait one year for payment?`,
-         benefit2 = `Benefit 2 ($1,000): What is the smallest total amount of money I could offer that would get you to wait one year for payment?`,
-         benefit3 = `Benefit 3 ($1 million): What is the smallest total amount of money I could offer that would get you to wait one year for payment?`,
-         cost1 = `Cost 1 ($1 million): What is the most you are willing to pay out of pocket right now to delay that bill from one to two years?`,
-         cost2 = `Cost 2 ($1 million): What is the most you are willing to pay out of pocket right now to delay that bill from ten to eleven years?`,
-         cost3 = `Cost 3 ($1 million): What is the most you are willing to pay out of pocket right now to delay that bill from fifty to fifty-one years?`)
+         benefit1 = `Benefit 1 ($10): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
+         benefit2 = `Benefit 2 ($1,000): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
+         benefit3 = `Benefit 3 ($1 million): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
+         cost1 = `Cost 1 ($1,000 due today): What is the maximum amount of interest YOU would be willing to pay to delay this bill by one year? (%)`,
+         cost2 = `Cost 2 ($1,000 due in ten years): What is the maximum amount of interest YOU would be willing to pay to delay this bill by one year? (%)`,
+         cost3 = `Cost 3 ($1,000 due in 50 years): What is the maximum amount of interest YOU would be willing to pay to delay this bill by one year? (%)`)
 
-# Convert to interest rates
-d <- d |>
+# Convert % to interest in dollars
+d2 <- d |>
   mutate(
-    benefit1_pct = (benefit1 - 10) / 10,
-    benefit2_pct = (benefit2 - 1000) / 1000,
-    benefit3_pct = (benefit3 - 1e6) / 1e6
+    benefit1_usd = (benefit1/100) * 10,
+    benefit2_usd = (benefit2/100) * 1000,
+    benefit3_usd = (benefit3/100) * 1000000,
+    cost1_usd = (cost1/100) * 1000,
+    cost2_usd = (cost2/100) * 1000,
+    cost3_usd = (cost3/100) * 1000
   )
+  
 ```
 
 <br>
 
 **Offer 1: Wait one year for $10**
 
-- Average: `r scales::dollar(mean(d$benefit1))`
+- Average: `r scales::percent(mean(d$benefit1), scale = 1)`
 
 **Offer 2: Wait one year for $1,000**
 
-- Average: `r scales::dollar(mean(d$benefit2))`
+- Average: `r scales::percent(mean(d$benefit2), scale = 1)`
 
 **Offer 3: Wait one year for $1 million**
 
-- Average: `r scales::dollar(mean(d$benefit3))`
+- Average: `r scales::percent(mean(d$benefit3), scale = 1)`
 
 ::: notes
 Aggregate results focused on receiving a delayed benefit
@@ -749,7 +757,7 @@ d |>
   labs(x = "", y = "",
        title = "Offer 1: Wait one year for $10") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format())
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 
 ::: notes
@@ -775,7 +783,7 @@ d |>
   labs(x = "", y = "",
        title = "Offer 1: Wait one year for $10") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format())
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 
@@ -787,7 +795,7 @@ d |>
   labs(x = "", y = "",
        title = "Offer 2: Wait one year for $1,000") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format(scale = 1/1000, suffix = "k"))
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 
@@ -799,7 +807,7 @@ d |>
   labs(x = "", y = "",
        title = "Offer 3: Wait one year for $1,000,000") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format(scale = 1/1e6, suffix = "m"))
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 ::::
@@ -813,67 +821,6 @@ Here are our results focused on the three benefit choices.
 
 **What changed across the offers for you?**
 
-<br>
-
-**SLIDE**: Let's convert to the same scale
-:::
-
-
-
-## Results: Receiving a Benefit {background-image="Images/12_2-Fork_in_Road_v2.png" .center}
-
-:::: {.columns}
-::: {.column width="33%"}
-```{r, fig.align='center', fig.asp=1.5, fig.width=4.5}
-d |>
-  ggplot(aes(x = benefit1_pct, y = reorder(name, benefit1_pct))) +
-  geom_col() +
-  labs(x = "Interest Demanded", y = "",
-       title = "Offer 1: Wait one year for $10") +
-  theme_bw() +
-  scale_x_continuous(labels = scales::percent_format())
-```
-:::
-
-::: {.column width="33%"}
-```{r, fig.align='center', fig.asp=1.5, fig.width=4.5}
-d |>
-  ggplot(aes(x = benefit2_pct, y = reorder(name, benefit2_pct))) +
-  geom_col() +
-  labs(x = "Interest Demanded", y = "",
-       title = "Offer 2: Wait one year for $1,000") +
-  theme_bw() +
-  scale_x_continuous(labels = scales::percent_format())
-```
-:::
-
-::: {.column width="33%"}
-```{r, fig.align='center', fig.asp=1.5, fig.width=4.5}
-d |>
-  ggplot(aes(x = benefit3_pct, y = reorder(name, benefit3_pct))) +
-  geom_col() +
-  labs(x = "Interest Demanded", y = "",
-       title = "Offer 3: Wait one year for $1,000,000") +
-  theme_bw() +
-  scale_x_continuous(labels = scales::percent_format())
-```
-:::
-::::
-
-::: notes
-Here I've converted all of your reports into an interest rate.
-
-- e.g. In a sense, how much you would demand as a return for waiting one full year to get your money
-
-- Rank order is exactly the same but now all responses approximate the interest rate you would demand for waiting a year
-
-<br>
-
-**Make sense?**
-
-<br>
-
-**SLIDE**: Let's use the new scale to compare results
 :::
 
 
@@ -881,15 +828,15 @@ Here I've converted all of your reports into an interest rate.
 ## {background-image="Images/12_2-Fork_in_Road_v2.png" .center}
 
 ```{r, fig.align='center', fig.asp=.85, fig.width=7}
-max1 <- max(d$benefit1_pct, d$benefit2_pct, d$benefit3_pct)
+max1 <- max(d$benefit1, d$benefit2, d$benefit3)
 
 d |>
-  ggplot(aes(x = benefit1_pct, y = benefit1_pct)) +
+  ggplot(aes(x = benefit1, y = benefit1)) +
   ggrepel::geom_text_repel(aes(label = name), nudge_y = .2) +
   geom_point(size = 2) +
   theme_bw() +
-  scale_x_continuous(labels = scales::percent_format(), limits = c(0, max1)) +
-  scale_y_continuous(labels = scales::percent_format(), limits = c(0, max1)) +
+  scale_x_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max1)) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max1)) +
   labs(x = "Offer 1: Wait one year for $10", y = "Offer 1: Wait one year for $10") +
   geom_abline(intercept = 0, slope = 1, linewidth = .2)
 ```
@@ -920,23 +867,23 @@ Here I've put your demand for offer 1 on BOTH the x-axis and the y-axis
 # Offer 1 x offer 2 x offer 3
 d |>
   mutate(
-    extra_benefit1_pct = benefit1_pct
+    extra_benefit1 = benefit1
   ) |>
-  pivot_longer(cols = benefit1_pct:benefit3_pct, names_to = "Scenario", values_to = "Values") |>
+  pivot_longer(cols = benefit1:benefit3, names_to = "Scenario", values_to = "Values") |>
   mutate(
     Scenario = case_when(
-      Scenario == "benefit1_pct" ~ "Offer 1: Wait for $10",
-      Scenario == "benefit2_pct" ~ "Offer 2: Wait for $1,000",
-      Scenario == "benefit3_pct" ~ "Offer 3: Wait for $1,000,000"
+      Scenario == "benefit1" ~ "Offer 1: Wait for $10",
+      Scenario == "benefit2" ~ "Offer 2: Wait for $1,000",
+      Scenario == "benefit3" ~ "Offer 3: Wait for $1,000,000"
     )
   ) |>
-  ggplot(aes(x = extra_benefit1_pct, y = Values)) +
+  ggplot(aes(x = extra_benefit1, y = Values)) +
   geom_text(aes(label = name)) +
   #ggrepel::geom_text_repel(aes(label = name)) +
   geom_point(color = "white", size = 0) +
   theme_bw() +
-  scale_x_continuous(labels = scales::percent_format(), limits = c(0, max1)) +
-  scale_y_continuous(labels = scales::percent_format(), limits = c(0, max1)) +
+  scale_x_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max1)) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max1)) +
   geom_abline(intercept = 0, slope = 1, linewidth = .2) +
   transition_states(Scenario) +
   #shadow_mark(color = "grey") +
@@ -973,9 +920,9 @@ d |>
   ggplot(aes(x = cost1, y = reorder(name, cost1))) +
   geom_col() +
   labs(x = "", y = "",
-       title = "Pay to delay debt one year (1 to 2 yrs)") +
+       title = "Pay to delay debt one year (0 to 1 yrs)") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format())
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 
@@ -988,7 +935,7 @@ d |>
   labs(x = "", y = "",
        title = "Pay to delay debt one year (10 to 11 yrs)") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format())
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 
@@ -1001,7 +948,7 @@ d |>
   labs(x = "", y = "",
        title = "Pay to delay debt one year (50 to 51 yrs)") +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format())
+  scale_x_continuous(labels = scales::percent_format(scale = 1))
 ```
 :::
 ::::
@@ -1029,7 +976,7 @@ d |>
   pivot_longer(cols = cost1:cost3, names_to = "Scenario", values_to = "Values") |>
   mutate(
     Scenario = case_when(
-      Scenario == "cost1" ~ "Debt 1: Delay 1 to 2 years",
+      Scenario == "cost1" ~ "Debt 1: Delay 0 to 1 years",
       Scenario == "cost2" ~ "Debt 2: Delay 10 to 11 years",
       Scenario == "cost3" ~ "Debt 3: Delay 50 to 51 years"
     )
@@ -1039,8 +986,8 @@ d |>
   #ggrepel::geom_text_repel(aes(label = name)) +
   geom_point(color = "white", size = 0) +
   theme_bw() +
-  scale_x_continuous(labels = scales::dollar_format(), limits = c(0, max2)) +
-  scale_y_continuous(labels = scales::dollar_format(), limits = c(0, max2)) +
+  scale_x_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max2)) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1), limits = c(0, max2)) +
   geom_abline(intercept = 0, slope = 1, linewidth = .2) +
   transition_states(Scenario) +
   #shadow_mark(color = "grey") +
@@ -1059,99 +1006,58 @@ d |>
 
 
 
-## Results: Benefits vs Costs {background-image="Images/12_2-Fork_in_Road_v2.png" .center}
+## Results: Benefits vs Costs {background-image="Images/12_2-Fork_in_Road_v2.png" .center .smaller}
 
 <br>
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Offer 1: Wait for $10**
+**Offer 1: Wait one year for $10**
 
-- Average: `r scales::dollar(mean(d$benefit1))`
+- Average: `r scales::percent(mean(d$benefit1), scale = 1)`
 
-**Offer 2: Wait for $1,000**
+**Offer 2: Wait one year for $1,000**
 
-- Average: `r scales::dollar(mean(d$benefit2))`
+- Average: `r scales::percent(mean(d$benefit2), scale = 1)`
 
-**Offer 3: Wait for $1 million**
+**Offer 3: Wait one year for $1 million**
 
-- Average: `r scales::dollar(mean(d$benefit3))`
+- Average: `r scales::percent(mean(d$benefit3), scale = 1)`
 :::
 
 ::: {.column width="50%"}
-**Debt 1: Delay 1 to 2 years**
+**Debt 1: Delay 0 to 1 years**
 
-- Average: `r scales::dollar(mean(d$cost1))`
+- Average: `r scales::percent(mean(d$cost1), scale = 1)`
 
 **Debt 2: Delay 10 to 11 years**
 
-- Average: `r scales::dollar(mean(d$cost2))`
+- Average: `r scales::percent(mean(d$cost2), scale = 1)`
 
 **Debt 3: Delay 50 to 51 years**
 
-- Average: `r scales::dollar(mean(d$cost3))`
-:::
-::::
-
-::: notes
-**What do we learn from this about how time horizons affect stakeholders?**
-
-<br>
-
-**Which side, benefits or costs, represents the problem you are working on in this class?**
-
-<br>
-
-**SLIDE**: Unfortunately for our class material, the environment is almost always about costs!
-:::
-
-
-
-
-## Discount Rates & Environmental Risks {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-:::: {.columns}
-::: {.column width="35%"}
-
-<br>
-
-```{r, fig.align='center'}
-knitr::include_graphics("Images/12_2-walk_or_drive_v2.png")
-```
-:::
-
-::: {.column width="65%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06-1-flooding.jpg")
-```
+- Average: `r scales::percent(mean(d$cost3), scale = 1)`
 :::
 ::::
 
 ::: notes
 
-In environmental policy terms we are almost never estimating interest rates for future payouts
-
-- In environmental policy terms we are almost always talking about avoiding future harms.
-
-- e.g. What would you be willing to pay today to prevent bigger costs on you in the future?
+**Anybody surprised to see that we our time horizons are impacted by whether the question is about costs or benefits?**
 
 <br>
 
-For example, let's say we are on a trajectory of climate change producing ASTRONOMICAL costs on society 50 years from now
+As with our work on risk last class, the keys here are:
 
-- How much are you willing to pay out of pocket today to delay or reduce those future costs?
+1. The context of a stakeholder's personal situation will impact their view of these things
 
-<br>
+2. There is no "correct" time horizon or discount rate, and
 
-**Is everybody clear on how discount rates vary across people and across the context of different problems?**
-
-- Your discount rate is sensitive to so many things related to a problem
+3. We need to be ready to make arguments designed to move stakeholder's time horizons and discount rates!
 
 <br>
 
-**SLIDE**: Let's turn to the reading so we can talk more about uncertainty as a complicating factor in policy-making.
+**SLIDE**: Let's segue to the Pindyck (2007) argument about environmental uncertainty
+
 :::
 
 
@@ -1171,46 +1077,30 @@ For example, let's say we are on a trajectory of climate change producing ASTRON
 4. Very long time horizons
 
 ::: notes
-I really appreciate how this Pindyck (2007) helps us think through how uncertainty complicates environmental policy-making
 
-- Specifically he identifies a series of complications that he argues make environmental problem-solving harder than most other forms of public and private decision-making
-
-<br>
-
-**Is everybody clear on these four complications?**
-
-- **Any questions on these?**
+*Link to NYT video in headline above*
 
 <br>
 
-Let's see this uncertainty in action
+I really appreciate how Pindyck (2007) helps us think through how uncertainty complicates environmental policy-making
 
-- *Click link in title to open NYT video on malarial nets in Africa*
-
-<br>
-
-**Which uncertainties are being highlighted here?**
+- In fact, Pindyck argues that because of all this environmental problem-solving is harder than most other forms of public and private decision-making
 
 <br>
 
-This reporting is from Zambia in 2015 but the problem is widespread and growing
+**Is everybody clear on these four fundamental challnges to solving environmental problems?**
 
-- While the obvious harm is that these nets are not preventing cases of malaria, the environmental harms of this fishing are serious
-
-- Many of these insecticide-treated nets are dragged through the same lakes and rivers people drink from, raising concerns about toxins. 
-    - Specifically, the nets are typically treated with permethrin which is carcinogenic and toxic to fish
-    
-- The holes in the nets are so fine that they catch everything, wiping out juvenile fish stocks and preventing those fish from reproducing which threatens the fisheries they are used in
-
-- I do want to be careful here to say that the evidence bears out that the vast majority of mosquito nets are being used as intended!
+- **Everybody have these written down?**
 
 <br>
 
-**Does everybody see how uncertainty can undermine even a well designed policy?**
+Let's use our other readings today to highlight some of these elements in action
+
+- **SLIDE**: The Hart (2024) summarizes recent climate change research
 
 <br>
 
-**NOTES**
+*Reading Notes*
 
 Uncertainty in Three Levels
 
@@ -1237,8 +1127,75 @@ Very long time horizons
 - "A long time horizon exacerbates the uncertainty over policy costs and benefits. It is hard enough to predict the impact of pollution or the costs of abatement five or ten years from now. Over a fifty-year horizon, the uncertainties are much greater" (48).
 
 - "Clearly, with discount rates of 4 percent or more, it would be very hard to justify almost any policy that imposes costs today but yields benefits only fifty or a hundred years in the future."
+
 :::
 
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Kotz, Levermann & Wenz (2024)**
+
+![](Images/10_1-Kotz2024-Fig1.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Kotz, M., Levermann, A., & Wenz, L. (2024). The economic commitment of climate change. Nature, 628(8008), 551–557. https://doi.org/10.1038/s41586-024-07219-0
+
+<br>
+
+This is Figure 1 from an article published last year in Nature (and being summarized by the Hart piece)
+
+- In short, these lines represent the losses in per capita income under three different models of our climate future
+
+<br>
+
+RCP stands for "representative concentration pathway" and was created by the scientists working with the IPCC
+
+- Each of the four RCPs, 2.6, 4.5, 6.0 and 8.5, represent models for what would happen in the world given various greenhouse gas concentrations in the atmosphere
+
+<br>
+
+The top line, teal?, is RCP 2.6 and represents the most aggressive plan currently being modeled
+
+- Under this plan the world basically zeroes out carbon emissions by 2100 and actually achieves negative emissions by 2070
+
+- Think of this as the highest cost plan
+
+<br> 
+
+The purple and reddish orange lines show the expected damages in terms of percentage declines in per capita incomes
+
+- So, if we pay the teal costs we get the purple damages
+
+- If not, we get the reddish orange costs
+
+<br>
+
+**Given the astronomical costs threatened by climate change, why isn't the world moving aggressively to stop it?**
+
+<br>
+
+**Why is President Trump, in particular, acting so aggressively to prevent the US from doing anything about this?**
+
+<br>
+
+**How does risk acceptance play a role here?**
+
+<br>
+
+**How do each of the uncertainties raised by Pindyck help us understand this?**
+
+1. Uncertainty over ecological processes, economic impacts of the harms and the costs of limiting the damages
+2. Nonlinear costs and benefits (plus "tipping points")
+3. Irreversibilities
+4. Very long time horizons
+
+<br>
+
+**SLIDE**: Smaller scale example in the NYT
+
+:::
 
 
 
@@ -1258,87 +1215,89 @@ Very long time horizons
 
 ::: notes
 
-Everybody take 5 minutes to think about the problem they are working on in our community in terms of these uncertainties
-
-- Make a list of the ways these uncertainties complicate your specific problem
+*Click link in title to open NYT video on malarial nets in Africa*
 
 <br>
 
-Compare and contrast lists with the person next to you.
+This reporting is from Zambia in 2015 but the problem is widespread and growing
+
+- While the obvious harm is that these nets are not preventing cases of malaria, the environmental harms of this fishing are serious
+
+- Many of these insecticide-treated nets are dragged through the same lakes and rivers people drink from, raising concerns about toxins. 
+
+    - Specifically, the nets are typically treated with permethrin which is carcinogenic and toxic to fish
+    
+- The holes in the nets are so fine that they catch everything, wiping out juvenile fish stocks and preventing those fish from reproducing which threatens the fisheries they are used in
+
+- I do want to be careful here to say that the evidence bears out that the vast majority of mosquito nets are being used as intended!
 
 <br>
 
-Ok, report back!
-
-- **How does uncertainty complicate the problems you are working on?**
-
-- *PRESENT and DISCUSS*
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**Policymaking in the face of uncertainty**
-:::
+**What is the role of stakeholder risk at play here?**
 
 <br>
 
-:::: {.columns}
-::: {.column width="45%"}
-**Pindyck (2007)**
+**How do each of the uncertainties raised by Pindyck help us understand this?**
 
-1. Uncertainty over ecology and economics
+1. Uncertainty over ecological processes, economic impacts of the harms and the costs of limiting the damages
 
-2. Nonlinear costs and benefits
+2. Nonlinear costs and benefits (plus "tipping points")
 
 3. Irreversibilities
 
 4. Very long time horizons
+
+<br>
+
+**Does everybody see how uncertainty can undermine even a well designed policy?**
+
 :::
 
-::: {.column width="10%"}
 
-:::
 
-::: {.column width="45%"}
-**Policy Design Options**
+## Uncertainty and temporal discounting complicates problem-solving {background-image="Images/background-forest_v3.png" .center}
 
-- C&C
+<br>
 
-- Green Taxes
-
-- Green Subsidies
-
-- Adaptive Governance
-:::
-::::
+### Have you seen evidence of uncertainty, temporal discounting and differing time horizons in the stakeholders in your map of the food waste problem?
 
 ::: notes
-Work in small groups, get ready to report back
 
-- **Which policy design option is "best" for addressing environmental problems with very high uncertainty?**
+*With time remaining*
 
-- Be ready to explain your pick, or at the least, to explain what you definitely wouldn't pick!
+- Groups, let's take today's material into your ongoing work!
+
+- Get ready to report back!
 
 <br>
 
 *PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next class
 :::
+
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-1. Readings in Syllabus
+::: {.r-fit-text}
 
-2. Submit to Canvas **before class**: 
-    - What is the biggest obstacle to environmental cooperation according to Hardin (1968)?
-    - What is the biggest obstacle to environmental cooperation according to Olson (1965)?
+**Collective action problems and free-riding**
+
+- Readings and a Canvas assignment
+
+:::
 
 ::: notes
-TBD
+
+On Canvas for next class we have two readings and a participation assignment.
+
+<br>
+
+**Any questions on the assignment or what we covered today?**
+
 :::
