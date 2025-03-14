@@ -12,13 +12,17 @@ library(readxl)
 
 <br>
 
-**I. The Basics of Problem-Solving in a Community**
+::: {.r-fit-text}
 
-<br>
+**Finding and Analyzing the Relevant Stakeholders**
 
-Working on Paper 1
+- Finalizing your stakeholder map of the problem
 
-- Analyzing our Stakeholders
+- Working on the framing report
+
+- *Sit with your group*
+
+:::
 
 <br>
 
@@ -33,67 +37,11 @@ Prep for Class
 
 <br>
 
-This week we focus on writing and revising your first paper.
+As you come in, sit in your groups!
 
 <br>
 
-**SLIDE**: Let's discuss the assignment but start at the big picture
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-```{r}
-tibble(
-  col1 = c("Participation", "Project Development", "1. The Problem", "2. Evaluating Designs", "3. Community Feedback", "4. Getting Involved", "Proposing a Policy"),
-  col2 = c("", "", "(Feb 23)", "(Apr 5)", "(TBD)", "(Apr 26)", "(Final)"),
-  col3 = c(20, 60, "", "", "", "", 20)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(0, background = "lightblue") |>
-  kableExtra::row_spec(1:7, background = "white")
-```
-
-::: notes
-
-The layout of the class is designed to give you a crash course in applied public policy-making in the "environmental" arena
-
-- Each piece of this builds on the ones before it
-
-<br>
-
-The ultimate goal is to produce a compelling and usable policy proposal to address a local environmental problem
-
-- So far, our work has focused on attendance and participation so you can learn the concepts and tools we need
-
-- **SLIDE**: This week we segue to your first paper so you can clarify and explain the political baseline of your problem
-:::
-
-
-
-## {background-image="Images/02-2-politics1.png" .center}
-
-::: notes
-
-Paper 1 is meant to help you clarify and be able to explain the political baseline of your problem
-
-- This means presenting your problem in terms of the material we've covered on politics, policy and the environment
-
-<br>
-
-Why set up our projects this way?
-
-1. First, this baseline helps ensure that your project is being built on a strong foundation, and
-
-2. Second, this baseline is key to you being an effective problem-solver in the case
-
-<br>
-
-**SLIDE**: So, what do we mean by the "politics" of your problem?
+**SLIDE**: Our current step in the process
 
 :::
 
@@ -101,26 +49,155 @@ Why set up our projects this way?
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-**"Politics" means your problem is the result of...**
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
 
-:::: {.columns}
-::: {.column width="40%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_1-politics_cropped.png")
-```
-:::
+1) **Describe** the problem facing our community
 
-::: {.column width="60%"}
+2) **Investigate** the relevant stakeholders
 
-<br>
+3) **Frame** the problem for the stakeholders
 
-- Actors pursuing their interests,
+4) **Design** a policy to address the problem
 
-- Colliding with other actors doing the same thing,
+5) Take **action** to push the plan forward!
 
-- In an established system of rules and expectations (community)
-:::
 ::::
+
+::: notes
+
+Over the last few weeks we have:
+
+- Narrowed down each group's problem definition,
+
+- Designed a map of the problem that specifies the types of relevant stakeholders
+
+- AND collected specific examples of stakeholders in our community identified by that map
+
+<br>
+
+**SLIDE**: Let's start by taking some time to report back to your group on what you've found
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Filling in your Stakeholder Map**
+
+1. Who are they?
+
+2. Connections to the flow of food waste?
+
+3. Evidence of previous engagement?
+
+:::
+
+::: notes
+
+Groups we'll start today by making sure everybody is in the loop on what you found.
+
+- Share with the rest of your group what you learned about the two stakeholders you researched
+
+- Spend some time on each one and help your group see how this fills in your map
+
+- Go! (*Give them plenty of time to do this*)
+
+<br>
+
+Ok groups, let's check-in on your maps
+
+<br>
+
+**Is everyone confident they have a useful map of their problem in our community? e.g. all key types of stakeholders identified**
+
+<br>
+
+**Does each group have multiple examples of specific stakeholders for each of the types in their map?**
+
+<br>
+
+**Are you confident you have sufficient variation within each type to be able to draw inferences about the wider community?**
+
+<br>
+
+**SLIDE**: Ok, the next step requires talking about the second report
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**OUTCOME 2**
+
+**The Problem Framing Report (Due Apr 11)**
+:::
+
+<br>
+
+### The purpose of this paper is to reframe the "call to action" argument you made in the last report for the stakeholders you identified as relevant in your map of our community.
+
+::: notes
+
+Big picture...
+
+- *Read the slide*
+
+<br>
+
+Your second paper is an exercise in tailoring your argument to generate buy-in for collective action from specific groups.
+
+<br>
+
+Your goal remains the same!
+
+- Make a convincing argument that our community has an important, public environmental problem that should be addressed collectively.
+
+<br>
+
+HOWEVER! The test is how well that argument explicitly accounts for the preferences of the specific stakeholders you are working with
+
+- If you want their help, OR for them to change their behavior, you better frame the problem in a way they like!
+
+- e.g. Stakeholder Type A's businesses depend on tourism so an "importance" or "public problem" argument might focus on those interests 
+
+- e.g. Stakeholder Type B worries about invasive government regulations so your "collective decision" argument will need to adapt to that
+
+<br>
+
+**Questions on the big picture here?**
+
+<br>
+
+**SLIDE**: Add key notes
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**OUTCOME 2**
+
+**The Problem Framing Report (Due Apr 11)**
+:::
+
+<br>
+
+**Notes**
+
+- All claims connect to your stakeholders
+
+- All claims supported by evidence
+
+- All evidence cited using APA
+
+- Minimum 1,000 words
 
 ::: notes
 
@@ -128,221 +205,74 @@ knitr::include_graphics("Images/05_1-politics_cropped.png")
 
 <br>
 
-An effective problem-solver needs to be able to:
+Make sure you make the framing EXPLICIT in the text
 
-<br>
-
-1) Design problem-framings that do not depend on villainizing stakeholders
-- There are no villains in your problem, just people or groups pursuing the things they want
-
-<br>
-
-2) Design problem-framings that are adapted to real communities
-- There is no blank slate, we live in a community whose rules, identities and processes shape our interactions
-
-<br>
-
-**SLIDE**: Enough preamble, let's talk assignment details
-:::
-
-
-
-## Paper 1 {background-image="Images/background-forest_v3.png" .center}
-
-**Introducing the Problem**
-
-<br>
-
-Your report **must** include:
-
-1. A description of the **scientific basis** for your problem,
-
-2. An argument that this is a **public problem**,
-
-3. An argument that this requires a **collective decision**, and
-
-4. An analysis of **at least two stakeholders** with **opposing** viewpoints of the problem
-
-::: notes
-
-Your first paper introduces an interested reader to the political baseline of your local environmental problem
-
-- This description is posted on Canvas with additional details
-
-- Please see the "Paper Submission Requirements" in the syllabus
-
-<br>
-
-1) At this point I expect you each have a good sense of the scientific basis for your problem
-- For the paper you need to be able to explain this in detail and provide evidence of your claims
-
-<br>
-
-2) At this point I expect you each have drafted and revised a version of your framing argument (e.g. public problem and collective decision)
-- This also needs evidence to elevate it beyond your opinion!
-
-<br>
-
-We will work in class today on your stakeholder analyses
-- e.g. Who are they, what do they want and how do they frame the problem?
-
-<br>
-
-### Questions on the paper before we get to work?
-:::
-
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/04_2-Assignment.png")
-```
-
-::: notes
-
-For today everybody identified and began to analyze two stakeholders with opposing viewpoints on their environmental problem.
-
-<br>
-
-In class I am going to give you time to flesh out these analyses and get feedback from the class on them.
-
-<br>
-
-In short, for each stakeholder I would like you to produce a summary document presenting and analyzing their role in your problem
-
-- Please write in complete sentences so you can share what you produce
-
-:::
-
-
-
-## Analyze your First Stakeholder {background-image="Images/background-forest_v3.png" .center}
-
-::: {.incremental}
-1) Who are they and why did you pick them?
-
-2) How do they frame the problem? (e.g. primary causes, public or private, collective or individual, etc.)
-
-3) What are the best ways to appeal to this stakeholder?
-
-4) What are the deal-breakers for this stakeholder?
-:::
-
-::: notes
-
-Let's get your analysis down on the page (electronic or paper) for **ONE** of your stakeholders.
-
-<br>
-
-1) First, describe the actor (e.g. individual, group, organization, corporation, etc), and
-
-- Describe your thinking in picking them
-
-<br>
-
-2) Second, describe the problem framing
-- What do they think is the primary or most important cause of this "problem"?
-
-- Public or private problem? e.g. individual action causes public harm vs doesn't
-
-- Collective or individual decision? e.g. society should decide vs Individuals should decide
-
-<br>
-
-3) Third, what do they value?
-- Based on all you've written so far, what do you think is the most promising ways to reach out to this stakeholder and get them on board with solving your problem?
-
-<br>
-
-4) Finally, what are the clear lines they are unlikely to cross?
-- Values they hold deeply?
-
-- Core interests that motivate them?
+- Don't assume the reader is in your head (e.g. knows how your claims connect to the stakeholders)
+    
+- As you adapt each part of your argument be clear who that is meant to draw support from
 
 <br>
     
-### Questions on this?
+BUT, don't present this as manipulation!
+    
+- Your report is being designed to be read by your stakeholders
 
-- Everybody take 15 minutes to write this document
+- This is NOT a secret plan to trick those stakeholders
+    
+- **Distinction make sense?**
 
 <br>
 
-*As people finish, get them to share analyses with each other!*
+Note also the slightly longer required word count
 
-- Go share. Give and get feedback!
+- Based on your first reports I don't think this will be a problem for anybody in class
 
-- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
+<br>
 
-- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
+**Questions on the assignment?**
+
+<br>
+
+**SLIDE**: Assignment for next class
 
 :::
-
-
-
-## Analyze your Second Stakeholder {background-image="Images/background-forest_v3.png" .center}
-
-1) Who are they and why did you pick them?
-
-2) How do they frame the problem? (e.g. primary causes, public or private, collective or individual, etc.)
-
-3) What are the best ways to appeal to this stakeholder?
-
-4) What are the deal-breakers for this stakeholder?
-
-::: notes
-
-Alright, let's do it again!
-
-- Take 15 minutes to write up your analysis of the second stakeholder
-
-<br>
-
-*As people finish, get them to share analyses with each other!*
-
-- Go share. Give and get feedback!
-
-- Are you convinced we understand enough about this stakeholder to influence them? Why or why not?
-
-- What additional evidence would help us either understand them or demonstrate that our analyses of them are sufficiently credible?
-:::
-
-
-
-
-## What problem framing could exist that both stakeholders would accept? {background-image="Images/background-forest_v3.png" .center}
-
-::: notes
-
-Last step for today.
-
-- Take a step back from your two detailed analyses
-
-- Can you identify areas of overlap between the framings of these two stakeholders?
-
-<br>
-
-Take a few minutes to brainstorm an overlapping frame.
-
-- Can you propose a problem framing that both stakeholders would accept?
-
-<br>
-
-*SHARE and PRESENT each*
-:::
-
 
 
 
 ## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-Writing Workshop
+
+**Previewing your Problem Framing**
+
+<br>
+
+Where is the overlap across your stakeholders in terms of:
+
+- The importance of this problem?
+
+- The public nature of this problem?
+
+- The need for a collective decision on this problem?
+
 :::
 
 ::: notes
 
-Everybody bring a rough draft of your paper to class on Thursday so we can check in on it and give/get feedback.
+This is part of what I want you to submit before next class
+
+- The rest of the assignment is on Canvas
+
+<br>
+
+Groups, let's use the rest of our time today to start trying to find the overlap in your stakeholders view of the problem.
+
+- Use each other to brainstorm and bounce ideas around
+
+<br>
+
+**Questions on the assignment?**
+
+- Go!
 
 :::
