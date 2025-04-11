@@ -1,0 +1,288 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+1. Completing the Policy Guidance documents
+
+2. Planning the Fuse Day Capstone presentation
+
+3. Shifting our focus to Drury's food waste problems
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+2. Publish group assignment for today
+
+<br>
+
+As you come in, sit in your groups!
+
+<br>
+
+We have much to do today so let's get to work!
+
+- **SLIDE**: Task 1
+
+:::
+
+
+
+## Policy Guidance Statement {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Based on your analysis of the local food waste problem, what is your best advice for designing a policy that has a good chance of being implemented and would make a positive difference in our community?
+
+::: notes
+
+Last class each group produced a short document meant to offer anyone in our community key insights that would help them tackle the food waste problem in our backyard
+
+<br>
+
+Before class, each of you has submitted policy examples that illustrate the specific pieces of advice in your document
+
+<br>
+
+**SLIDE**: Our first job today is to put those pieces together!
+
+:::
+
+
+
+## Policy Guidance Statement (Version 2) {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Each "distinct and actionable suggestion" in your document should be connected to a real-world policy example
+
+- Explain how the policy illustrates the effectiveness of your advice, and
+
+- Link to the evidence
+
+::: notes
+
+In 30 minutes, each group will submit a revised version of their Policy Guidance Statement
+
+- This version should supplement each suggestion with a policy example of how that suggestion would work in the real-world
+
+- The reader of your Policy Guidance Statement will now get the best of your learned experience AND be provided policy models to illustrate how those lessons could be implemented in our community.
+
+<br>
+
+**Questions?**
+
+- Go!
+
+<br>
+
+Let's touch base on your work.
+
+- **Big picture, how confident are you based on your work that we can tackle this problem in our community in productive ways?**
+
+<br>
+
+**SLIDE**: Our next job relates to Fusion Day next week
+
+:::
+
+
+
+## Fusion Day (Apr 23) Capstone Panel {background-image="Images/background-forest_v3.png" .center .smaller}
+
+::: {.incremental}
+
+- 20 minute presentation given 2x (9am and 9:55am, OEC 220)
+
+- Outline
+    - What are the courses in the certificate? (me: 3 mins)
+    - Introduce capstone topic (me: 1 minute)
+        - Why is food waste important in SGF? (Student 1: 2 mins)
+        - Why is it a public problem? (Student 2: 2 mins)
+        - Why do we need a collective decision? (Student 3: 2 mins)
+        - Policy examples to address the problem (1 example per student, 1 min each)
+    - Q&A (7 mins)
+
+- Who wants to do it? I need 3 or 6 volunteers!
+
+:::
+
+::: notes
+
+Task: We have 20 minutes to present the work of the certificate and answer questions
+
+- **REVEAL x 9**
+
+<br>
+
+**Volunteers?**
+
+- You have to be in the certificate to volunteer
+
+<br>
+
+Volunteers, we'll touch base after class to get our ducks in a row
+
+<br>
+
+**SLIDE**: Shift focus to Drury
+
+:::
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+Ok, let's shift our focus to the food waste problem here on campus
+
+- We've got two weeks to get up to speed and get involved!
+
+<br>
+
+**SLIDE**: At this point I think you have a pretty strong sense of the food waste problem in SGF but now we need to start dialing in our focus even more narrowly
+
+:::
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+:::: {.r-fit-text}
+**Describe** the problem facing our community
+
+- Let's brainstorm the food waste CPRs on campus
+
+::::
+
+::: notes
+
+Let's begin by brainstorming the food waste CPRs here on campus
+
+- *ON BOARD*
+
+<br>
+
+- Dorms (no kitchen) -> Food waste (lbs)
+
+- Dorms (with kitchen) -> Food waste (lbs)
+
+- Fraternity/Sorority -> Food waste (lbs)
+
+- Cafeteria (back of house) -> Food waste (lbs)
+
+- Cafeteria (front of house) -> Food waste (lbs)
+
+- CX (back of house) -> Food waste (lbs)
+
+- CX (front of house) -> Food waste (lbs)
+
+- Einstein Bagels (back of house) -> Food waste (lbs)
+
+- Einstein Bagels (front of house) -> Food waste (lbs)
+
+<br>
+
+**Where do you want to focus on this list?**
+
+- **Given our time constraints I suggest we all focus on one.**
+
+<br>
+
+My two cents: I think we should focus on Drury students in different kinds of on-campus housing (apartment, no kitchen, greek life, etc)
+
+- Avoids going back to food services (students have already reached out a lot!)
+
+- Gives us more avenues for info gathering (students can reach out more comfortably to friend groups)
+
+- Might also offer more things we can do in week 15
+
+<br>
+
+**SLIDE**: Next Class
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**We need information on how Drury stakeholders:**
+
+- View the problem, 
+
+- Contribute to the problem, and 
+
+- How open they are to changing their behavior
+
+:::
+
+::: notes
+
+Before we end today I'd like us to agree on a set of common questions we plan on using to collect this information.
+
+<br>
+
+**Let's throw out some ideas!**
+
+- *ON BOARD*
+
+<br>
+
+1. Name of stakeholder
+
+2. Student, faculty or staff
+
+3. Year in school / years at Drury
+
+4. Other class Qs...
+
+<br>
+
+Assignment for next class: I want each of you to collect data from AT LEAST five Drury students, faculty or staff (target depends on our CPR focus).
+
+<br>
+
+**Questions on the assignment?**
+
+:::
