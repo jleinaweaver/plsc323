@@ -35,3 +35,7 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 11_1-Project-Stakeholder_Analyses.html
 
 11_2-Project-Targeted_Framing.html
+
+13_1-Project-Policy_Guidance.html
+
+13_2-Project-Policy_Examples.html
