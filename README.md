@@ -39,3 +39,11 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 13_1-Project-Policy_Guidance.html
 
 13_2-Project-Policy_Examples.html
+
+14_1-Drury_Stakeholders.html
+
+14_2-TBD.html
+
+15_1-TBD.html
+
+15_2-TBD.html

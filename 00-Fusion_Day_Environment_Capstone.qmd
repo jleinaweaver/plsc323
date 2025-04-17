@@ -1,0 +1,295 @@
+---
+format: revealjs
+---
+
+
+## {background-image="Images/00-environment_picture_v2.png"}
+
+::: {.r-fit-text}
+**Designing Solutions for Environmental Problems**
+
+*Dr. Justin Leinaweaver, Certificate Director*
+:::
+
+::: notes
+
+Our progress on improving environmental quality, at least in the developed world, has been really impressive over time
+
+- In the US we no longer have rivers catching on fire
+
+- We've dramatically cut the rates of acid rain that were destroying our crops
+
+- And we've slowly but surely been tackling smog problems around the country
+
+<br>
+
+The problems is that we've essentially taken care of all the low hanging fruit
+
+- What's left are the REALLY hard problems
+
+- Most people are happy to pay the costs to reduce sooty smog, but much harder to sell extra costs to reduce basically invisible particulate matter from the air that is also incredibly dangerous to human health
+
+- Nobody wants the Cuyahoga river to catch on fire, but once that risk is gone should we continue to shut down large factories to protect endangered species of fish?
+
+<br>
+
+The aim of this certificate is to give you a crash-course in the skills you need to engage in this kind of much harder environmental problem-solving
+
+<br>
+
+**SLIDE**: Courses in the certificate
+
+<br>
+
+*Website Description*
+
+The long-term success of any society is inextricably linked to its ability to maintain the health of its environment. Environmental problems arise as unintended side-effects of consumers seeking to provide for themselves, business owners seeking to earn profits, and government representatives seeking to stay in power. Therefore, solving environmental problems can only be successful over time if policies are carefully designed to ensure the sustainability of the resource and the community that depends on it in equal measure. This certificate aims to provide students with the skills necessary to understand and address complex environmental problems in this way.
+
+Real-World Experience
+
+You will identify, evaluate, and propose the solution for an environmental problem that is implementable in the short-to-medium term, feasible in terms of the community’s resources, and sensitive to the needs of the key interests in the society whose buy-in will be required to achieve long-term success. In these capstone projects, students might:
+
+- Create a plan to strengthen Missouri’s Renewable Portfolio Standards
+- Implement stronger standards governing the use of waterways in the Ozarks
+- Propose new standards for the city of Springfield to require greater use of renewable energy by consumers or corporations
+- Propose new funding mechanisms for the city of Springfield in order to facilitate specific environmental objectives
+- Design city ordinances to change Springfield land use policies related to siting of locally undesirable land uses
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Designing Solutions for Environmental Problems**
+
+- The Individual, Society and the Environment (PLSC 223)
+
+- Science of the Environment (BIOL 163)
+
+- Intro to Environmental Economics (ECON 225)
+
+- Issues in Environmental Policy (PLSC 323)
+:::
+
+::: notes
+
+As a first step into the certificate we encourage you to take either of the first two classes listed here
+
+<br>
+
+PLSC 223 is an "exploration of how our environment shapes human behavior and how individuals and societies shape the environment."
+
+- In this class we tackle the big picture relationship between human beings and the environment 
+
+- What does it mean to be a "green" consumer? Is it actually possible?
+
+- Should our goal be to "preserve" a natural environment or "conserve" it for use and prduction?
+
+- How should problem-solving change when we come to recognize how environmental harms disproportionately impact poorer communities?
+
+<br>
+
+In BIOL 163 Dr. Jansen gives you a crash course in the science underpinning many of today's most pressing environmental challenges.
+
+- Always good to get a natural scientist's view on this stuff even if we need to find a way to sell him on being a little more optimistic in class!
+
+<br>
+
+Your third course in the certificate is ECON 225
+
+- Given the economic basis of our society there's no way around it, you have to learn to speak econ if you want to engage in community problem-solving!
+
+<br>
+
+Finally you will take PLSC 323 which is the capstone in the certificate
+
+- In this class I give you a crash course in public policy-making while we work through a current problem in our community
+
+<br>
+
+**SLIDE**: Enough "tell", let's do some "show"!
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/00-Food_Waste.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Our capstone class this semester has chosen to focus on the food waste problem in SGF.
+
+<br>
+
+And speaking of, I have three students here from our current capstone to talk to you about their work this semester
+
+<br>
+
+**SLIDE**: Importance of the problem
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](Images/00-Food_Waste.png)
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<br>
+
+<br>
+
+### **Why is food waste an important problem?**
+:::
+
+::::
+
+::: notes
+
+**Student 1: Why is it important?** (2 mins)
+
+<br>
+
+**SLIDE**: Why public problem?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](Images/00-Food_Waste.png)
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<br>
+
+<br>
+
+### **Why is food waste a public problem?**
+:::
+
+::::
+
+::: notes
+
+**Student 2: Why is it a public problem?** (2 mins)
+
+<br>
+
+**SLIDE**: Why do we need a collective decision?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](Images/00-Food_Waste.png)
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<br>
+
+<br>
+
+### **Why does food waste require a collective decision?**
+:::
+
+::::
+
+::: notes
+
+**Student 3: Why do we need a collective decision?** (2 mins)
+
+<br>
+
+**SLIDE**: What can we do about it?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](Images/00-Food_Waste.png)
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<br>
+
+<br>
+
+### **What can we do about the food waste problem?**
+:::
+
+::::
+
+::: notes
+
+**Students: Policy examples we are exploring to address the problem**
+
+- (Each student highlights one policy example, 1 min each = 3 mins total)
+
+<br>
+
+**SLIDE**: Q&A time (8 mins)
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Designing Solutions for Environmental Problems**
+
+- The Individual, Society and the Environment (PLSC 223)
+
+- Science of the Environment (BIOL 163)
+
+- Intro to Environmental Economics (ECON 225)
+
+- Issues in Environmental Policy (PLSC 323)
+:::
+
+::: notes
+
+Q&A time
+
+:::
+
+

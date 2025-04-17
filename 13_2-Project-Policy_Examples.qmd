@@ -35,6 +35,8 @@ Prep for Class
 
 2. Publish group assignment for today
 
+3. After class designs questionnaire YOU post it on the Canvas assignment
+
 <br>
 
 As you come in, sit in your groups!
@@ -124,7 +126,7 @@ Let's touch base on your work.
         - Policy examples to address the problem (1 example per student, 1 min each)
     - Q&A (7 mins)
 
-- Who wants to do it? I need 3 or 6 volunteers!
+- **Volunteers?**
 
 :::
 
@@ -140,9 +142,11 @@ Task: We have 20 minutes to present the work of the certificate and answer quest
 
 - You have to be in the certificate to volunteer
 
-<br>
+- I need a minimum of three and a maximum of six
 
-Volunteers, we'll touch base after class to get our ducks in a row
+- **Important: We will set aside time in next class to figure out what we'd like the volunteers to say**
+
+    - No one has to do this on their own!
 
 <br>
 
@@ -236,9 +240,79 @@ My two cents: I think we should focus on Drury students in different kinds of on
 
 <br>
 
-**SLIDE**: Next Class
+**SLIDE**: Collecting stakeholder information
 
 :::
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**Investigate** the Relevant Stakeholders
+
+:::: {.fragment}
+
+- How do they view the problem?
+
+- How do they contribute to the problem?
+
+- What are the obstacles to changing their behavior?
+
+::::
+
+:::
+
+::: notes
+
+We need information on how Drury stakeholders think about and contribute to the food waste problem
+
+<br>
+
+With that aim in mind I'd like us to agree on a set of common questions we plan on using to collect this information.
+
+- In other words, let's design a simple questionnaire
+
+<br>
+
+We'll start with some basic info
+
+- *ON BOARD*
+
+1. Name of stakeholder
+
+2. Student, faculty or staff
+
+3. Year in school / years at Drury
+
+<br>
+
+**REVEAL**: Working with the people around you I want you to take a few minutes to brainstorm questions that would help organize our data collection
+
+- Don't make these complex, keep them simple
+
+- Design to get answers that are easy to record, but still provide context
+
+- In terms of obstacles, think about risk profiles, time horizons, reactions to uncertainty, etc
+
+<br>
+
+**Questions?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS ideas*
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+:::
+
 
 
 
@@ -247,39 +321,22 @@ My two cents: I think we should focus on Drury students in different kinds of on
 <br>
 
 ::: {.r-fit-text}
-**We need information on how Drury stakeholders:**
+**Investigate** the Relevant Stakeholders
 
-- View the problem, 
-
-- Contribute to the problem, and 
-
-- How open they are to changing their behavior
-
+- Go collect that data!
 :::
 
 ::: notes
 
-Before we end today I'd like us to agree on a set of common questions we plan on using to collect this information.
+The goal is for us to rapidly collect a bunch of information on the Drury community and its relationship to food waste.
 
 <br>
 
-**Let's throw out some ideas!**
+I want each of you to collect data from **AT LEAST four** Drury students, faculty or staff (target depends on our CPR focus).
 
-- *ON BOARD*
+- For each, we need to understand how they view the problem (e.g. their contribution to it, and the obstcles to changing their behavior).
 
-<br>
-
-1. Name of stakeholder
-
-2. Student, faculty or staff
-
-3. Year in school / years at Drury
-
-4. Other class Qs...
-
-<br>
-
-Assignment for next class: I want each of you to collect data from AT LEAST five Drury students, faculty or staff (target depends on our CPR focus).
+- Use the questions we designed during last class and submit the answers here.
 
 <br>
 
