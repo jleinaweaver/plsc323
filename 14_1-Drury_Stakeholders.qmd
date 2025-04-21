@@ -31,7 +31,7 @@ Prep for Class
 
 1. Record Canvas submissions
 
-2. Be ready to show them the fusion panel slides
+2. Be ready to show them the Fusion panel slides
 
 <br>
 
@@ -119,13 +119,13 @@ GROUPS, help the volunteer map out what they should cover in their 2 minutes
 
 ::: notes
 
-Ok, let's shift our focus to the food waste problem here on campus
-
-- We've got two weeks to get up to speed and get involved!
+Ok, last class we turned our focus to Drury.
 
 <br>
 
-**SLIDE**: At this point I think you have a pretty strong sense of the food waste problem in SGF but now we need to start dialing in our focus even more narrowly
+**What CPR did we decide to focus on?**
+
+- (**SLIDE**)
 
 :::
 
@@ -135,58 +135,258 @@ Ok, let's shift our focus to the food waste problem here on campus
 
 <br>
 
-:::: {.r-fit-text}
+::: {.r-fit-text}
 **Describe** the problem facing our community
 
-- Let's brainstorm the food waste CPRs on campus
+- System: Drury student community
 
-::::
+- Units: Food waste (lb)
+
+:::
 
 ::: notes
 
-Let's begin by brainstorming the food waste CPRs here on campus
-
-- *ON BOARD*
+We're focusing on students as a community that produces food waste
 
 <br>
 
-- Dorms (no kitchen) -> Food waste (lbs)
+**What are the different types of student we identified in our quick map of this community?**
 
-- Dorms (with kitchen) -> Food waste (lbs)
+- (*ON BOARD so we can discuss the sample*)
 
-- Fraternity/Sorority -> Food waste (lbs)
+- Dorms (no kitchen)
 
-- Cafeteria (back of house) -> Food waste (lbs)
+- Dorms (with kitchen)
 
-- Cafeteria (front of house) -> Food waste (lbs)
+- Those living in Greek housing
 
-- CX (back of house) -> Food waste (lbs)
+- Commuters living at home
 
-- CX (front of house) -> Food waste (lbs)
+- Commuters living on their own
 
-- Einstein Bagels (back of house) -> Food waste (lbs)
+- Diners in the Commons
 
-- Einstein Bagels (front of house) -> Food waste (lbs)
+- Diners in the CX
 
-<br>
-
-**Where do you want to focus on this list?**
-
-- **Given our time constraints I suggest we all focus on one.**
+- Diners at Einstein Bagels
 
 <br>
 
-My two cents: I think we should focus on Drury students in different kinds of on-campus housing (apartment, no kitchen, greek life, etc)
+**SLIDE**: Stakeholder work for today
 
-- Avoids going back to food services (students have already reached out a lot!)
+:::
 
-- Gives us more avenues for info gathering (students can reach out more comfortably to friend groups)
 
-- Might also offer more things we can do in week 15
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-**SLIDE**: Next Class
+::: {.r-fit-text}
+**Investigate** the Relevant Stakeholders
+
+- How do they view the problem?
+
+- How do they contribute to the problem?
+
+- What are the obstacles to changing their behavior?
+
+:::
+
+::: notes
+
+Ok, to start everybody take some time to review all of the stakeholder data submitted by the class
+
+- Let's get familiar with the data!
+
+<br>
+
+Ok, our first big questions have to focus on sample selection
+
+<br>
+
+**Do we have representative cases for each of the types in our stakeholder map?**
+
+- **Some better represented than others?**
+
+<br>
+
+**Any new somewhat distinct groups you want to add to the map based on your experience gathering this data?**
+
+<br>
+
+Now we clearly don't have a random sample of Drury students so generalizing about the population is very risky
+
+- **In what specific ways do we have to be cautious when analyzing this sample of stakeholders?**
+
+- **In other words, what forms of selection bias might be at play here?**
+
+<br>
+
+**SLIDE**: Alright, let's work our way through the results
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Investigating the Relevant Stakeholders**
+:::
+
+<br>
+
+### Q1. When you think about the challenges facing the Drury community, what are the most important issues that come to mind?
+
+::: notes
+
+**What do we learn about Drury and our student community from Q1?**
+
+- (*ON BOARD*)
+
+<br>
+
+*Other important lessons here about our community?**
+
+<br>
+
+**SLIDE**: Q2
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Investigating the Relevant Stakeholders**
+:::
+
+<br>
+
+### Q2. Do you believe that food waste, meaning food that is sent to the landfill without being consumed, deserves to be on the list of most important issues facing Drury? Why or why not?
+
+::: notes
+
+**How did the respondents respond to being prompted into considering food waste as an "important" problem?**
+
+- **Any surprising reactions?**
+
+<br>
+
+**SLIDE**: Q3
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Investigating the Relevant Stakeholders**
+:::
+
+<br>
+
+### Q3. In the last week, have you taken any specific actions meant to minimize the amount of food you purchase that gets sent to the landfill without being consumed? For example, taking smaller portions in the dining hall, bringing home leftovers, donating excess food to a shelter, participating in a composting program, etc.?
+
+::: notes
+
+**Help me list the specific actions taken?**
+
+- (*ON BOARD*)
+
+<br>
+
+**Did you believe all the responses you got here?**
+
+- **Any social desirability bias here?**
+
+<br>
+
+**SLIDE**: Q4
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Investigating the Relevant Stakeholders**
+:::
+
+<br>
+
+### Q4. In what specific ways have you noticed that Drury tries to help you minimize your personal production of food waste? Have those efforts been effective? Why or why not?
+
+::: notes
+
+**What do we learn about the students we interviewed from Q4?**
+
+<br>
+
+**What do we learn about Drury from the answers given to Q4?**
+
+<br>
+
+**SLIDE**: Q5
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Investigating the Relevant Stakeholders**
+:::
+
+<br>
+
+### Q5. What kind of incentive would be necessary for you to agree to join a composting program on campus (e.g. make a commitment to compost all of your food waste for an entire semester)?
+
+::: notes
+
+**Incentives suggested?**
+
+- **What do we learn from these ideas?**
+
+<br>
+
+**SLIDE**: Problem framing
+:::
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**Framing** the problem for the stakeholders
+
+- Importance
+
+- Public Problem
+
+- Collective Decision
+:::
+
+::: notes
+
+Ok, taking on board all of this information, let's try to unpack a problem framing that would convince most students on campus that food waste is an important and public problem that requires collective action.
+
+- Talk to the people around you and get ready to report back on the elements you think our framing would need to include
+
+<br>
+
+*REPORT back and DISCUSS each*
+
+<br>
+
+**SLIDE**: For next class
 
 :::
 
@@ -196,43 +396,13 @@ My two cents: I think we should focus on Drury students in different kinds of on
 
 <br>
 
-::: {.r-fit-text}
-**We need information on how Drury stakeholders:**
+Propose an action we could take on campus **NEXT WEEK** to reduce the amount of food waste produced by students. 
 
-- View the problem, 
+- Make sure to explicitly connect this to the data we collected and analyzed last class
 
-- Contribute to the problem, and 
+- Explain the action AND why you believe it would be effective
 
-- How open they are to changing their behavior
+- Don't forget, policy doesn't require formal rules or government to be effective!
 
-:::
 
-::: notes
 
-Before we end today I'd like us to agree on a set of common questions we plan on using to collect this information.
-
-<br>
-
-**Let's throw out some ideas!**
-
-- *ON BOARD*
-
-<br>
-
-1. Name of stakeholder
-
-2. Student, faculty or staff
-
-3. Year in school / years at Drury
-
-4. Other class Qs...
-
-<br>
-
-Assignment for next class: I want each of you to collect data from AT LEAST five Drury students, faculty or staff (target depends on our CPR focus).
-
-<br>
-
-**Questions on the assignment?**
-
-:::
