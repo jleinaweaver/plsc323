@@ -1,5 +1,7 @@
 Data, slides and errata for my class at Drury University (PLSC 323: Issues in Environmental Policy)
 
+00-Fusion_Day_Environment_Capstone.html
+
 01_1-Welcome_to_EnvPols.html
 
 01_2-Wilderness_Defined.html
