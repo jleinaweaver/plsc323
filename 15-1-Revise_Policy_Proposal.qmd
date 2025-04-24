@@ -1,0 +1,135 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Taking Action on Drury's Food Waste Problems**
+
+- Revising the final policy proposals
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+2. Send email to the class for collecting draft policy proposals
+
+<br>
+
+**SLIDE**: Our ongoing process
+
+:::
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+Our ongoing process for tackling environmental problems in our community
+
+<br>
+
+**SLIDE**: Your current assignment
+
+:::
+
+
+
+## Final Policy Proposal {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Revise your **problem framing report** to target **a specific audience** (the stakeholder who can approve our proposal) and advance **a specific policy** proposal.
+
+- Convince the stakeholder we have an **important, public problem** that requires **a new policy** to address (e.g. your proposal IS the collective decision argument)
+
+- Aim to be concise, persuasive and credible (e.g. invoke evidence to support claims)
+
+::: notes
+
+**Any big picture questions on the exercise?**
+
+<br>
+
+**SLIDE**: Our work for today
+
+:::
+
+
+
+## The Policy Proposals {background-image="Images/background-forest_v3.png" .center .smaller}
+
+1. Raise awareness - Orientation for incoming students on good food practices, minimizing food waste, shopping and eating at college (Austin, Audrey, Ryan and Briella)
+2. Proposal to the Commons - Offer students greater control of portion sizes (illustrated options?) (Katy, Brant, Danny, Brayden)
+3. Proposal to the City - Obtain D2D buckets to distribute to interested students (at lowest cost possible) (Marshall, Savannah, Eric)
+4. Proposal to the Commons - Add a bin for students to sort out their own food waste for adding to back of house food waste collected by city (Aisling, Joseph, Lexi)
+5. Proposal to SGA - Create a "Fight Food Waste" Week (Sam S., Gabe and Taylor)
+6. Proposal to Drury Facilities - Willingness to transport student food waste to the Franklin Ave recycling center (weekly?)
+
+::: notes
+
+Today I would like the class to give feedback on all of the proposals
+
+- Please have one person from your group "reply all" to my email and give us a copy of your draft proposal (or a link to Google doc?)
+
+<br>
+
+Ok, we have 10 minutes for each one so let's get to work
+
+- Read each proposal and let's give the group feedback on BOTH what we like and what we need revised, better supported or better explained.
+
+- Go!
+
+<br>
+
+**SLIDE**: For next class
+
+:::
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Reflect on the feedback from the class and then revise and resubmit the final policy paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::

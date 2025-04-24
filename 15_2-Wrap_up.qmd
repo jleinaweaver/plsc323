@@ -1,0 +1,124 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Taking Action on Drury's Food Waste Problems**
+
+- Next steps for the final policy proposals
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+2. Send Email to collect final policy proposals
+
+<br>
+
+**SLIDE**: IDEA eval day
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Please do the IDEA evaluations for this class**
+
+- [https://drury.campuslabs.com/eval-home/]()
+
+:::
+
+
+
+## Solving a Problem in a Community {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+One last time, our process!
+
+<br>
+
+**Any questions on the process?**
+
+<br>
+
+**With a semester's work under your belt, any changes you would propose to this process?**
+
+<br>
+
+**SLIDE**: The final policy proposals
+
+:::
+
+
+
+## The Policy Proposals {background-image="Images/background-forest_v3.png" .center .smaller}
+
+1. Raise awareness - Orientation for incoming students on good food practices, minimizing food waste, shopping and eating at college (Austin, Audrey, Ryan and Briella)
+2. Proposal to the Commons - Offer students greater control of portion sizes (illustrated options?) (Katy, Brant, Danny, Brayden)
+3. Proposal to the City - Obtain D2D buckets to distribute to interested students (at lowest cost possible) (Marshall, Savannah, Eric)
+4. Proposal to the Commons - Add a bin for students to sort out their own food waste for adding to back of house food waste collected by city (Aisling, Joseph, Lexi)
+5. Proposal to SGA - Create a "Fight Food Waste" Week (Sam S., Gabe and Taylor)
+6. Proposal to Drury Facilities - Willingness to transport student food waste to the Franklin Ave recycling center (weekly?)
+
+::: notes
+
+Please have one person from your group "reply all" to my email and give us a copy of your final proposal (or a link to Google doc?)
+
+<br>
+
+Today I want us to take a moment to do a few things:
+
+1. Let's enjoy the good work you've done
+
+2. Let's decide who the right targets are to receive this proposal, AND
+
+3. Decide as a class do we want to move forward with this (e.g. do we want to continue this process into the future post-semester)
+
+- It's ok if the answer is no
+
+- We should think about whether the proposal is useful even if we decide not to carry the actual project forward ourselves
+
+<br>
+
+Thanks for a very excellent semester.
+
+- Good luck in future!
+
+:::

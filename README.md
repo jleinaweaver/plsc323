@@ -44,8 +44,8 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 14_1-Drury_Stakeholders.html
 
-14_2-TBD.html
+14_2-Draft_Policy_Proposal.html
 
-15_1-TBD.html
+15-1-Revise_Policy_Proposal.html
 
-15_2-TBD.html
+15_2-Wrap_up.html

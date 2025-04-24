@@ -1,0 +1,108 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Taking Action on Drury's Food Waste Problems**
+
+- Policy options
+
+- Develop action proposals
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+<br>
+
+**SLIDE**: Our ongoing process
+
+:::
+
+
+
+
+## Food Waste at Drury University {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+Our process for tackling a problem in our community has led us all the way to the final steps
+
+<br>
+
+So, let's hear what you all came up with!
+
+- **Pitch us your proposals!**
+
+- *Track all ON BOARD*
+
+<br>
+
+*Help the class narrow down to a few specific proposals worth focusing on*
+
+- *Split class into groups, one proposal per group*
+
+<br>
+
+**SLIDE**: Final policy proposal
+
+:::
+
+
+
+## Final Policy Proposal (draft) {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Revise your **problem framing report** to target **a specific audience** (the stakeholder who can approve our proposal) and advance **a specific policy** proposal.
+
+::: {.fragment}
+
+- Convince the stakeholder we have an **important, public problem** that requires **a new policy** to address (e.g. your proposal IS the collective decision argument)
+
+- Aim to be concise, persuasive and credible (e.g. invoke evidence to support claims)
+
+:::
+
+::: notes
+
+*Discuss the assignment*
+
+<br>
+
+Completed draft due before next class.
+
+:::
