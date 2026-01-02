@@ -1,0 +1,437 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Comparative Case Studies**
+
+- Local Communities Failing to Solve Environmental Problems
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+<br>
+
+Today we continue our work from last class analyzing case studies of local communities attempting to solve environmental problems
+
+<br>
+
+My hopes for this exercise remain twofold:
+
+1. To give you a broader list of specific examples of local communities grappling with environmental problems that you can draw from in our work, and
+
+2. To give you a head start on thinking about policy-making in terms of theory and process
+
+<br>
+
+**SLIDE**: Last class...
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving**
+:::
+
+<br>
+
+### We are more likely to solve an environmental problem when...
+
+- The problem looks like X
+
+- The community looks like Y
+
+- The action taken looks like Z
+
+
+::: notes
+
+Last class we performed a comparative case study exercise looking at cases of successful environmental problem-solving
+
+- We used those cases to propose theories of causation
+
+<br>
+
+**Focusing just on the type of problem, what did we propose as possible theories of success?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving: Problem Type**
+:::
+
+<br>
+
+**P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear
+- The greater the agreement on the cause of the problem
+
+::: notes
+
+One of the BIG values of theory is that it enables us to design strategies of action!
+
+- If these theories represent causal tendencies in the world then they also tell us how to attack an environmental problem
+
+<br>
+
+**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
+
+<br>
+
+**Focusing just on the type of community, what did we propose as possible theories of success?**
+
+- (**SLIDE**)
+
+<br>
+
+*Class notes 2025-01-21*
+
+Environmental Problem Characteristics
+
+1. More visible the problem
+2. The more everyone defines the problem in the same way
+3. The more imminent the threat
+4. The clearer the source of the problem
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving: Community Type**
+:::
+
+<br>
+
+**P(Success) increases when**
+
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+
+::: notes
+
+**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
+
+<br>
+
+**Focusing just on the type of action, what did we propose as possible theories of success?**
+
+- (**SLIDE**)
+
+<br>
+
+*Class notes 2025-01-21*
+
+Community Characteristics
+
+1. Size (smaller more likely to act?)
+2. Shared values
+3. Demonstrated energy or activism / community
+4. Affluence of the affected
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving: Action Type**
+:::
+
+<br>
+
+**P(Success) increases when**
+
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvment
+- The plan changes incentives (carrots or sticks)
+
+::: notes
+
+One of the BIG values of theory is that it enables us to design strategies of action!
+
+- If these theories represent causal tendencies in the world then they also tell us how to attack an environmental problem
+
+<br>
+
+**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
+
+<br>
+
+Today we check our developing theories against failure cases
+
+- **SLIDE**: We have to avoid selecting on the dependent variable
+
+<br>
+
+*Class notes 2025-01-21*
+
+Policy Characteristics
+
+1. Financial backing
+2. Plan has criteria for measuring effectiveness / tracking progress
+3. High levels of community involvement
+4. Focus on changing incentives (carrots or sticks)
+
+:::
+
+
+
+## Selecting on the Dependent Variable {background-image="Images/background-forest_v3.png"}
+
+![](Images/02_2-Selecting_Dependent_Variable1.png){.absolute left=0 width="550"}
+
+![](Images/02_2-Selecting_Dependent_Variable2.png){.absolute right=0 width="450"}
+
+::: notes
+
+Selection bias is a serious problem in science
+
+- It happens when the sample of data you are analyzing is biased 
+
+- e.g. it systematically excludes some set of cases you need
+
+<br>
+
+Commonly this takes the form of selecting on the dependent variable
+
+- I'm guessing the authors of these pieces want you to think all you need to do is tweak your parenting or your breakfast routine and you too will be successful!
+
+- But without checking to see if unsuccessful people also eat chia seeds, you can't really know anything about how the world actually works
+
+<br>
+
+**Make sense**?
+
+<br>
+
+So, we want to use our failure cases today to BOTH:
+
+- Generate correlations between characteristics and failure, AND
+
+- To check and see if our intuitions from last class hold up!
+
+:::
+
+
+
+
+## The Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1. What was the specific "environmental" problem?
+
+2. Did the community try anything specific to address it?
+
+3. Why are you convinced this was a failure?
+:::
+
+::: notes
+
+Let's speed around the room to introduce the cases
+
+- In a moment we'll dig more deeply into all of them, but let's begin with a broad overview
+
+- Be an active listener as we do this!
+
+<br>
+
+*PRESENT each*
+
+<br>
+
+*Split class into NEW (different than last class) small groups (five groups of four)*
+
+- Go sit with your group!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**What are the common characteristics for the ENVIRONMENTAL PROBLEMS in our failure stories?**
+
+<br>
+
+**Success theories to re-evaluate: P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear
+- The greater the agreement on the cause of the problem
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
+
+1. List the common characteristics from the failure cases, and 
+
+2. Check and see if our intuitions from last class hold up!
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**What are the common characteristics for the COMMUNITIES in our failure stories?**
+
+<br>
+
+**Success theories to re-evaluate: P(Success) increases when**
+
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
+
+1. List the common characteristics from the failure cases, and 
+
+2. Check and see if our intuitions from last class hold up!
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**What are the common characteristics for the ACTIONS TAKEN (if any) in our failure stories?**
+
+<br>
+
+**Success theories to re-evaluate: P(Success) increases when**
+
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvment
+- The plan changes incentives (carrots or sticks)
+
+::: notes
+
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
+
+1. List the common characteristics from the failure cases, and 
+
+2. Check and see if our intuitions from last class hold up!
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+:::
+
+
+
+## Thinking Theoretically {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are our big picture takeaways from the comparative case study this week?
+
+- What should we keep in mind when trying to solve a local environmental problem?
+
+::: notes
+
+Groups, take a minute to reflect on all our cases and consider if there are any inferences we would like to draw so far
+
+- Any elements of our success cases that you suspect might be tied to the success or failure of environmental problem-solving?
+
+<br>
+
+*PRESENT and DISCUSS*
+
+- *Force this discussion*
+
+<br>
+
+**SLIDE**: For next week
+:::
+
+
+
+## Next Week: Public Policy {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_2-public-policy-examples.jpg)
+
+
+::: notes
+
+What is policy? Why do we use it? How has SGF used it?
+
+<br>
+
+You have a reading and Canvas assignment due before next class
+
+:::

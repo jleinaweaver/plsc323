@@ -1,0 +1,729 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+### How well equipped is Springfield to solve environmental problems?
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Copy theories generated in week 2 case studies to here
+
+3. SGF Community Focus Reports
+    - [2024 Report](https://springfieldcommunityfocus.org/2024_report/community-focus-report-2024.pdf)
+    - [2021 Report](https://springfieldcommunityfocus.org/2021_report/springfield-community-focus-report-2021.pdf)
+    - [2019 Report](https://springfieldcommunityfocus.org/2019_report/community-focus-2019-report.pdf)
+    
+4. Canvas Assignment Prompt: How effective has the Springfield community been in identifying and solving big problems? Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
+    1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
+    2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
+
+<br>
+
+I have a few aims for us today:
+
+1. We need to wrap up the key elements from the Munger chapter
+
+2. We need to get a better sense of how Springfield functions as a community when faced with challenges, and
+
+2. We should flag ongoing environmental challenges as identified by these reports
+
+<br>
+
+**SLIDE**: Last class we dug into the Munger chapter!
+
+:::
+
+
+
+## Our Aim for This Week {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy!**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=25 left=100 width="800"}
+
+::: notes
+
+Last class we began exploring the Munger chapter as a path into public policy
+
+<br>
+
+**According to the HunGats, why do we need public policy?**
+
+- (Deciding collectively maximizes the odds of survival!)
+
+<br>
+
+**And, according to Munger, what are the pre-requisites we have to cover before we can hope to make successful policy?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+**What does it mean to argue that we have a public problem?**
+
+- (My choices impact your welfare)
+
+<br>
+
+**And what does it mean to argue that we require a collective decision?**
+
+- (Choices should be made by a group, and are binding on all)
+
+<br>
+
+Before we segue into the Community Focus Reports I want to wrap up our discussion of policy with a definition
+
+- I'm not pretending this is the "correct" or "true" definition, but it is a useful place to start
+
+- **SLIDE**
+
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+Let's step through the key elements from this definition
+
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A **definite course or method of action** selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+1) A policy, by definition, is a "definite" "course" or "method" of action
+
+<br>
+
+Makes sense if you think of policy as a new rule or set of rules
+
+- Without specificity and clarity the policy cannot hope to change behavior
+
+- e.g. Actor X must do Y
+
+- e.g. Companies investing in new equipment must...
+
+<br>
+
+**SLIDE**: The alternatives
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) **from among alternatives** and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+2) A policy, by definition, is selected from among competing options
+
+- There is NEVER just one answer to an environmental problem
+
+- A BIG part of the reason a community typically has a problem in the first place is because there is dispute within that community over the possible answers
+
+<br>
+
+This means all policy, by definition, is choosing one set of rules over another
+
+- Effective problem-solvers MUST be able to explain their choices in the context of the policies not selected
+
+- In other words, you will be expected to have explicitly considered alternatives to your "definite" "course of action" AND be able to explain why you choose the way you did
+
+<br>
+
+**SLIDE**: conditions matter
+:::
+
+    
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and **in the light of given conditions** to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+3) A policy, by definition, must be adapted to the important "conditions" of the problem
+
+- In other words, the quality of your plan also DEPENDS on how well you've adapted it to the conditions on the ground.
+
+- No one-size-fits-all policy solutions are appropriate here.
+
+<br>
+
+THIS is the danger of groups tied or committed to a specific ideology.
+
+- Both cutting regulations and adding new ones are powerful options for influencing behavior, BUT
+
+- It is the context of the problem that should guide your policy design, not vice versa!
+
+- If you know the policy answer before you hear the problem you are not taking it seriously
+
+<br>
+
+**SLIDE**: stakeholders matter
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions **to guide and usually determine present and future decisions**..." (Webster's Third International Dictionary).
+
+::: notes
+
+4) A policy, by definition, "guide[s]" or "determine[s]" future behavior by stakeholders
+
+- Stakeholders e.g. the people involved in the problem
+
+<br>
+
+This means your plan must be adapted to the context of now AND the expected context we face in the future
+
+<br>
+
+**SLIDE**: In sum
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### To maximize your chances of success, your policy proposals must be:
+
+::: {.r-fit-text}
+- Specific,
+
+- Adapted to the stakeholders,
+
+- Adapted to the science of the problem, 
+
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
+:::
+
+::: notes
+**Does all of that make sense?**
+
+<br>
+
+Everybody write this down and consider it a guide for our work this semester and especially for the final paper!
+
+<br>
+
+**SLIDE**: Funnily enough, Munger starts his chapter with a different definition
+
+:::
+
+
+
+## What should government do? {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Munger kicks off his chapter with a longer version of this quote.
+
+<br>
+
+**What do you think of this as a definition of "government" or the purpose of "government"?**
+
+- **By these terms, were you a government during our fishing simulation?**
+
+<br>
+
+Burke frames government as a human effort to deliver what we want
+
+- Burke acknowledges that government is not "god-given" or part of the "natural order", it is a device built by us to achieve specific aims
+
+- "contrivance": "the use of skill to bring something about or create something" (OED)
+
+<br>
+
+Importantly, this means that "government" is not impartial, perfect, or fixed in nature
+
+- Governing is really hard.
+
+- It is a human operation run by a community to achieve the goals of that community.
+
+- In the simulation you were doing your best to manage a bunch of interests in the face of great uncertainty!
+
+<br>
+
+**SLIDE**: And I can't help but go from this to...
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Murray-make-a-difference.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Even MORE importantly, this means government is not separate from you.
+
+- It is not a building far away or a special class of people
+
+- It is the confusing name we apply to our community's efforts to solve problems
+
+<br>
+
+We live in a big, complicated country and its functioning well depends on you
+
+- Problem-solving is in your hands
+
+- The "decider" can be anyone, or any group, willing to put in the work 
+
+- If you design a plan that meets the needs of its stakeholders and the conditions on the ground, you can make a difference
+
+- THIS is how our government is designed to work
+
+<br>
+
+This is why we work on local environmental problems in here
+
+- I want us tied to a specific community, in a specific moment in time and at a level where we can find concrete ways to make a difference.
+
+<br>
+
+**Questions on this?**
+
+<br>
+
+**SLIDE**: One other important baseline we need for working on policy
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**EVERY policy creates winners and losers**
+:::
+
+![](Images/02-1-winners.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Never forget, however, that in real-world problem-solving we play with live ammunition (so to speak)
+
+<br>
+
+Policy designers must NEVER forget that **all policies create winners and losers**.
+
++ Policy-making is **ALWAYS a choice** and **all choices have consequences**.
+
+<br>
+
+For example, Missouri just raised its minimum wage
+
+- **Who benefits from increases to the minimum wage?**
+
+- **Who pays the costs for those increases?**
+
+- **Is there any way to pay workers more without distributing the costs to society?**
+
+<br>
+
+The same is true with environmental policies
+
+- Take the clean air standards set by the Clean Air Act and the EPA
+
+- **Who benefits from cleaner air?**
+
+- **And who pays the costs for it?**
+
+- **Is there any way to get cleaner air without impacting polluting industries?**
+
+<br>
+
+**Humor me, can we think of any policy or rule in our society whether implemented by government, school, or your employer, that does not impose costs on someone?**
+
+<br>
+
+So, policy is, in essence, a rule or rules adopted by a society to structure behavior.
+
+- All rules impose costs on some and provide benefits to others
+
+- Policy-making is often an exercise in deciding who will pay the costs and who will receive the benefits.
+
+<br>
+
+**SLIDE**: Let's talk about problem-solving in our backyard
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
+
+::: notes
+
+**Was this your first time reading any of these reports?**
+
+- **Big picture, what did you think of them?**
+
+<br>
+
+*Encourage broad discussion on reflections*
+
+:::
+
+
+
+
+
+## Evaluating the Source {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
+
+::: notes
+
+Talk to me about these reports as sources of information about our community
+
+- **What did you learn about these reports in terms of their validity and reliability based on how they present themselves in the writing?**
+
+-*ON BOARD: Elements that boost your confidence vs elements that lower it*
+
+<br>
+
+- **Who are the sources of this information?**
+
+- **Who decides on the topics to focus on? e.g. Who is the agenda setter?**
+
+- **Who does the actual writing?**
+
+- **What do you think of the caliber of the writing? Are these well written?**
+
+<br>
+
+**How do the SGF Community Focus Reports fit in the material we covered in the Munger chapter last class?**
+
+- **What role are they trying to play in our community?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+I see these reports VERY much as an effort to "decide how to decide"!
+
+- The pre-reqs in action!
+
+<br>
+
+Let's keep these two tasks in mind later in our class today when we discuss the challenges you highlighted in your Canvas submissions
+
+<br>
+
+**SLIDE**: But first, let's start with what you identified as the "most impressive accomplishments" from the last three reports
+
+:::
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### What are Springfield's "most impressive accomplishments" over the last five years?
+
+::: notes
+
+*ON BOARD: col 1 with room to match "why" to each in col 2*
+
+- Help me list all of the "most impressive accomplishments" from the last three Springfield Community Focus Reports submitted to Canvas.
+
+- Tell me what happened and in which report we can read about it
+
+<br>
+
+**Ok, analysis time. Why are these the "big" accomplishments?**
+
+- **In other words, and based on this list, what are the criteria you were using for choosing what is and is not "impressive"?**
+
+<br>
+
+Don't forget to reflect on your own assumptions and biases along the way!
+
+- **What do we learn from this list of criteria about you as a group of community problem-solvers?**
+
+<br>
+
+Remember, we have to constantly be interrogating our own assumptions as we go or we are liable to stumble into problems that could have been avoided.
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### What do the reports highlight as the reasons for these "most impressive accomplishments"?
+
+::: notes
+
+*ON BOARD: col 2 next to each accomplishment*
+
+- **Per the reports, what are the specific reasons we accomplished these "impressive" things? How do the reports explain them?**
+
+<br>
+
+**Any overlap in this list with the mechanisms we brainstormed using our case studies last week?**
+
+- **Would we have been able to predict these using our theories of local problem-solving?**
+
+<br>
+
+*Class notes*
+
+P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear
+- The greater the agreement on the cause of the problem
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvment
+- The plan changes incentives (carrots or sticks)
+
+<br>
+
+**SLIDE**: Challenges time!
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### What are the "specific challenges we have been unable to address" over the last five years?
+
+::: notes
+
+*ON BOARD: col 3*
+
+- Help me list all of the "specific challenges we have been unable to address" from the last three Springfield Community Focus Reports submitted to Canvas.
+
+- Tell me what happened and in which report we can read about it
+
+<br>
+
+**Per the reports, why are we struggling to overcome these challenges?**
+
+- **How do the reports explain the lack of progress?**
+
+<br>
+
+**Any overlap in this list with the mechanisms we brainstormed using our case studies last week?**
+
+- **Would we have been able to predict these challenges using our theories of local problem-solving?**
+
+<br>
+
+Let's rank these challenges
+
+- **Which specific challenges are the most important for Springfield to address? Why?**
+
+- I know I'm asking for value-based judgements here, but I' understand that.'m curious to learn more about your values.
+
+<br>
+
+**SLIDE**: Evaluate the pre-reqs
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+Let's now talk about the role of these reports in the policymaking process.
+
+<br>
+
+**How effectively do you think these reports are making the pre-req arguments on these specific challenges?**
+
+- **Which ones are they doing the best job with? Why?**
+
+- **Which the weakest? Why?**
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### How well equipped is Springfield to solve environmental problems?
+
+::: notes
+
+Big picture, where do we end up in our evaluation of Springfield as a community prepared to solve big problems?
+
+<br>
+
+**What kind of picture does the current report present of our local community?** 
+
+- **e.g. big picture strengths and weaknesses?**
+
+<br>
+
+**SLIDE**: Next week we need to collectively select the local environmental problem we are going to work on this semester
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Submit a local news story or other piece of evidence describing a current, local environmental problem we could work on this semester**
+
+- No overlaps!
+
+- Prompts on Canvas
+
+::: notes
+
+As a class we need to brainstorm a list of current, local environmental problems
+
+- To kick us off on the brainstorming
+
+- *Read the slide*
+
+- Canvas has more of the details on the assignment page
+
+<br>
+
+**With that task in mind, what are the primary environmental problems we still face in our area as identified by the reports?**
+
+- *ON BOARD*
+
+<br>
+
+**Any questions on the assignment?**
+
+- Remember, no overlap! Let's build a big list of options!
+
+<br>
+
+Canvas: Local Environmental Problems
+
+Help us brainstorm a list of current, local environmental problems. Submit a local news story or piece of evidence describing a current, local environmental problem you could target this semester. Do not overlap!
+
+1. APA citation for the evidence
+
+2. Describe the problem you've identified. Be as specific as you can in terms of who (or what) is being impacted and what those specific impacts are. (3+ sentences)
+
+3. Make a short argument that we should select this problem as our focus for the semester (3+ sentences)
+
+
+:::

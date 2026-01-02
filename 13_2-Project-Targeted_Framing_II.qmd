@@ -1,0 +1,252 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Analyzing the Relevant Stakeholders**
+
+- Developing your problem framing argument
+
+- *Sit with your group*
+
+:::
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+<br>
+
+Today we continue our work on the problem framing reports
+
+- **SLIDE**: Let's talk big picture first
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**OUTCOME 2**
+
+**The Problem Framing Report (Due Apr 11)**
+:::
+
+<br>
+
+### The purpose of this paper is to reframe the "call to action" argument you made in the last report for the stakeholders you identified as relevant in your map of our community.
+
+::: notes
+
+**Questions on the assignment?**
+
+<br>
+
+Remember, this should be a report you could distribute to the stakeholders in our community and THEY would find it convincing!
+
+<br>
+
+*NOTES from last class*
+
+- Make a convincing argument that our community has an important, public environmental problem that should be addressed collectively.
+
+- BUT frame the argument to generate buy-in for collective action from specific groups.
+
+- The test of your argument being "convincing" is how well it explicitly accounts for the preferences of the specific stakeholders you are working with
+
+<br>
+
+Today I want you to have a chance to work with your groups on the process of analyzing the stakeholders in your map
+
+- **SLIDE**: Prompt 1 - "Importance"
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Analyzing your Stakeholder Map**
+:::
+
+<br>
+
+### Prompt 1
+
+- **Argument: Our community faces an "important" environmental problem**
+
+- Where is the overlap in the interests of your stakeholders in terms of the importance of this problem?
+
+::: notes
+
+Groups, discuss the first prompt in terms of the data you have gathered, the map you have built and the specific problem you are working on
+
+- Get some ideas on the board so we can see what you are developing
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Prompt 2
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Analyzing your Stakeholder Map**
+:::
+
+<br>
+
+### Prompt 2
+
+- **Argument: Our community faces a "public" environmental problem**
+
+- Where is the overlap in the interests of your stakeholders in terms of the public nature of this problem?
+
+::: notes
+
+Remember, public here means "My choices affect your welfare"
+
+- NOT "My choice has no consequence for your welfare"
+
+<br>
+
+Groups, discuss this prompt in terms of the data you have gathered, the map you have built and the specific problem you are working on
+
+- Get some ideas on the board so we can see what you are developing
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Prompt 3
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Analyzing your Stakeholder Map**
+:::
+
+<br>
+
+### Prompt 3
+
+- **Argument: Our community should make a collective decision to address this environmental problem**
+
+- Where is the overlap in the interests of your stakeholders in terms of the need for collective action on this problem?
+
+::: notes
+
+Remember, "collective" here means "choices are made by a group, and are binding on all"
+
+- NOT “I can choose, alone and without interference”
+
+<br>
+
+Groups, discuss this prompt in terms of the data you have gathered, the map you have built and the specific problem you are working on
+
+- Get some ideas on the board so we can see what you are developing
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: The report...
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**OUTCOME 2**
+
+**The Problem Framing Report (Due Apr 11)**
+:::
+
+<br>
+
+### The purpose of this paper is to reframe the "call to action" argument you made in the last report for the stakeholders you identified as relevant in your map of our community.
+
+::: notes
+
+**Ok, are we in good shape for this report?**
+
+<br>
+
+**Any questions after this work today?**
+
+<br>
+
+**SLIDE**: Next week
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**No in-person class next week**
+
+<br>
+
+- Problem Framing Report due Apr 11th
+
+- Volunteer with [Ozarks Food Harvest](https://ozarksfoodharvest.org/how-to-help/volunteer/)
+
+:::
+
+::: notes
+
+I will require each of you to volunteer for one shift (2 hours minimum) with Ozark's Food Harvest
+
+- Please use this [website to sign-up](https://ozarksfoodharvest.org/how-to-help/volunteer/)
+
+- Trouble signing up reach out to: Sarah Byrd (sbyrd@ozarksfoodharvest.org), Andrew Magnus (amagnus@ozarksfoodharvest.org) or Dillon Smith (dsmith@ozarksfoodharvest.org)
+
+- You may complete this volunteer exercise anytime between now and Apr 11th, BUT it must be completed by then. 
+
+:::

@@ -1,0 +1,522 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Comparative Case Studies**
+
+- Local Communities Solving Environmental Problems
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Open RStudio and update 2-2 slides with notes from groups today
+
+<br>
+
+Welcome back all!
+
+- **SLIDE**: Let's kick things off today with a quick refresher on last week
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
+```
+
+::: notes
+
+In our first class last week we simulated a resource management problem.
+
+<br>
+
+**What was the problem your community faced in our game?**
+
+- (How to manage a renewable resource)
+- (How to distribute benefits in a community)
+
+<br>
+
+**What rules did you create? Why?**
+
+- **e.g. number of fishers, selection of fishers, enforcement of the rules?**
+
+<br>
+
+**Was this management effort a success? Why or why not?**
+
+<br>
+
+Clarify the terms of "success" here for me.
+
+- **What were you trying to maximize? What was a "good" result?**
+
+<br>
+
+- **Were you maximizing the sustainability of the resource, the gains of the collective or the gains of one individual?**
+
+<br>
+
+I really like this opening simulation for a bunch of reasons:
+
+- It gives me a sense of who each of you are as individuals
+
+- It gives me a sense of who you are as a collective
+
+- It asks each of you to think about a community problem like a political scientist
+
+- And, frankly, it's a lot of fun
+
+<br>
+
+**SLIDE**: But there are also some lessons on problem-solving we should keep in mind
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Politics in everything!**
+
+- EVERY problem exists in a community
+
+- EVERY community is a complex mix of:
+
+    - Actors
+    - Rules
+    - Interactions
+:::
+
+::: notes
+
+*Read slide*
+
+<br>
+
+Each proposal for managing the resource was evaluated by the class in terms of the rules and processes they already operate within
+
+- This means that new rules and processes must be adapted to the rules and processes already in place
+
+<br>
+
+Each proposal was altered based on the other proposals!
+
+- We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
+
+<br>
+
+You guys were rather eager to jump to murder as a means for enforcing the rules
+
+- This means that trust is a vital component of creating rules that will work
+
+- Societies with a lack of trust are in for a rough time trying to solve problems.
+
+<br>
+
+**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
+
+- As policy-makers you need to keep these lessons in mind
+
+:::
+
+
+
+
+
+## {background-image="Images/02_1-Rockymountain_wilderness.jpg"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+
+<p style="color: white;">What is the "Trouble with Wilderness"?</p>
+
+:::
+
+::: notes
+
+On Thursday we then dug into one of my favorite articles exploring our relationship to the environment.
+
+- Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
+
+<br>
+
+**So, what is the "trouble with wilderness" according to Cronon?**
+
+<br>
+
+**And what is the lesson of this article for us if we want to solve real-world environmental problems?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Setting the Stage for Problem-Solving**
+
+1) All environmental concepts are contested
+
+2) Your chosen definition narrows your options
+
+3) Many disputes arise from conflicting definitions
+::::
+
+::: notes
+
+To refresh where we ended last week...
+
+1. We must remember that all of the concepts related to environmental problems will be contested (e.g. fought over),
+
+    - No matter how obvious you think the problem is, I assure you that all of the stakeholders view it somewhat differently
+
+2. Your chosen definition automatically narrows the options of policies you think are acceptable vs not
+
+    - Definitions set the agenda of future action
+
+    - Be strategic when establishing a definition and be flexible in considering alternative viewpoints
+
+3. Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.
+
+    - The most effective policy solutions begin with clear definitions that generate buy-in from the relevant stakeholders
+
+<br>
+
+**Questions on any of this?**
+
+<br>
+
+**SLIDE**: Our work for this week
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Environmental Problems in Local Communities**
+
+- Today: Success Cases
+
+- Thursday: Failure Cases
+:::
+
+::: notes
+
+I want us to use our class time this week to explore cases of local communities engaging with environmental problems
+
+<br>
+
+My hope is that these exercises will:
+
+1. Give you a broader list of specific examples of local communities grappling with environmental problems that you can draw from in our work, and
+
+2. Give you a head start on thinking about policy-making in terms of theory and process
+
+<br>
+
+**SLIDE**: What do I mean by "theory"?
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-topo-map-1.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Theories, in science, are the stories we have designed to help us explain the world
+
+- They are simplifications of complex processes meant to help us understand why things happen as they do
+
+<br>
+
+**What is a theory you have in your major? What does it help you do?**
+
+- **e.g. gravity, evolution, the median voter?**
+
+<br>
+
+I particularly like the analogy of theories as maps
+
+- Maps are neither true nor false, they are useful or not
+
+- They are tailored to a specific use
+
+- They reflect the interests of their designers
+
+<br>
+
+This topographic map is super useful for planning a hike
+
+- Close together lines mean steep elevation changes, far apart means more gradual
+
+- We can use this to plan a gentle stroll or a strenuous challenge!
+
+<br>
+
+HOWEVER, this map would be terrible for predicting the weather
+
+- **SLIDE**
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-weather_radar.avif){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Now this map is designed to tell us something about the weather!
+
+- Neither map is "false" or "wrong", just suited for different tasks
+
+- Neither map aims to completely represent the entirety of reality, just the parts we need it to focus on
+
+<br>
+
+Theories of evolution, gravity, the median voter are all useful tools for some things and not others
+
+- Just like maps
+
+<br>
+
+**Everybody with me?**
+
+<br>
+
+I would like our work this week examining cases of success and failure to help us generate theories of environmental problem-solving
+
+- **SLIDE**: Ok, let's introduce the success cases!
+
+:::
+
+
+
+## The Success Cases {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1. What was the specific "environmental" problem?
+
+2. What was the specific action taken and by whom?
+
+3. Why are you convinced this was a success?
+:::
+
+::: notes
+
+Let's speed around the room to introduce the cases
+
+- In a moment we'll dig more deeply into all of them, but let's begin with a broad overview
+
+- Be an active listener as we do this!
+
+<br>
+
+*PRESENT each*
+
+<br>
+
+*Split class into three groups*
+
+- Go sit with your group and claim some space on the board!
+
+:::
+
+
+
+## Analyzing the Success Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**1. Characteristics of the Environmental Problems**
+
+- What are the common characteristics for the environmental problems in our success stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*After they work for a while shift the focus to theory*
+
+Ok, groups, take your list of characteristics and use them to generate a theory or two
+
+- e.g. Environmental problems that look like X are more likely to be solved/addressed
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+:::
+
+
+
+## Analyzing the Success Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**2. Characteristics of the Community**
+
+- What are the common characteristics for the communities in our success stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+<br>
+
+**Class Notes (2025-SP)**
+
+- ?
+
+:::
+
+
+
+## Analyzing the Success Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**3. Characteristics of the Policy**
+
+- What are the common characteristics for the policies in our success stories?
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+*ON BOARD: Present and discuss each*
+
+<br>
+
+**Class Notes (2025-SP)**
+
+- ?
+
+:::
+
+
+
+
+## Thinking Theoretically {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### What are our big picture takeaways from the success cases today?
+
+- Are there certain kinds of environmental problem, community or policy approach that is more likely to succeed?
+
+::: notes
+
+Groups, take a minute to reflect on all our cases and consider if there are any inferences we would like to draw so far
+
+- Any elements of our success cases that you suspect might be tied to the success or failure of environmental problem-solving?
+
+<br>
+
+*PRESENT and DISCUSS*
+
+- *Force this discussion*
+
+<br>
+
+**SLIDE**: For Thursday...
+:::
+
+
+
+## For Next Class: Case Studies {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Local Communities Failing to Solve Environmental Problems**
+
+- Find us an example of a LOCAL community anywhere in the world failing to solve an environmental problem
+
+Good examples include communities...:
+
+- Not creating the policies to solve a problem,
+
+- Removing the policies already in place, or
+
+- Persisting with policies that are not working
+
+::: notes
+
+No overlap in cases! (e.g. don't submit a case someone has already submitted)
+
+<br>
+
+**Questions on the assignment?**
+
+:::

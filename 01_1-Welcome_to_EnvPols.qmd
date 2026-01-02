@@ -1,0 +1,714 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Welcome to Issues in Environmental Policy!**
+
+:::
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Bring dice to class (probability engines!)
+
+2. Bring markers to class (3?)
+
+<br>
+
+Welcome to Issues in Environmental Policy
+
+- I'm Dr. Leinaweaver
+
+- **Is everybody in the right place?**
+
+<br>
+
+**SLIDE**: Warm up exercise
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The Most Important Environmental Problems**
+
+- Local?
+
+- National?
+
+- Global?
+:::
+
+::: notes
+
+*Split class into three parts based on where they are sitting*
+
+<br>
+
+Groups, introduce yourselves to each other and start making three lists on the board
+
+- What are currently the most important environmental problems we face at the global, national and local levels?
+
+- By the way, "climate change" is not a specific enough answer for these lists
+    - Climate change is a magnifier of other problems, list the specific problems
+
+<br>
+
+*Share lists and discuss*
+
+- How are you defining "important"?
+
+- "Who" matters most according to your list?
+
+<br>
+
+**SLIDE**: Introductions
+
+:::
+
+
+
+## Introductions {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+1. Name
+
+2. Year in school
+
+3. Major
+
+4. Enrolled in the Environment Certificate?
+:::
+
+::: notes
+
+This class is almost always a quirky collection of backgrounds and interests!
+
+- Some of you are here for the environment Fusion certificate, and
+
+- Some are poli sci or environmental biology majors
+
+<br>
+
+So, let's go around the room for introductions (and attendance).
+
+<br>
+
+I'll go first.
+
+1. I'm Dr. Justin Leinaweaver.
+
+2. FSU undergrad, masters in IR at UCD and PhD at Trinity.
+    - My thirteenth year at Drury
+
+3. I'm a political scientist
+    - Research interests: international policymaking, environmental politics and bargaining / negotiations.
+  
+4. I'm the director of the certificate
+
+<br>
+
+**Your turn**
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Designing Solutions for Environmental Problems**
+
+<br>
+
+**Required Courses**
+
+- BIOL 163 Science of the Environment
+
+- ECON 225 Introduction to Environmental Economics
+
+- PHIL 320 Environmental Ethics
+
+- PLSC 323 Issues in Environmental Policy
+
+::: notes
+
+As I mentioned, this class is the capstone for the "Designing Solutions for Environmental Problems" Fusion Certificate.
+
+<br>
+
+**SLIDE**: For those who haven't had the pleasure of the pre-reqs, let's ask the certificate students to tell us what they learned!
+:::
+
+
+
+## {background-image="Images/01_1-Environmental-Scientist.webp"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+<p style="color: white;">**BIOL 163 Science of the Environment**</p>
+:::
+
+::: notes
+
+The "Science of the Environment" class was designed to enable you to identify the scientific basis of environmental problems (see certificate LOs).
+
+### How did Dr. Jansen help you do this? 
+
+<br>
+
+### What kinds of assignments did you complete?
+:::
+
+
+
+## {background-image="Images/01_1-env_econ3.jpg"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**ECON 225 Introduction to Environmental Economics**
+:::
+
+::: notes
+
+The "Environmental Economics" class was designed to enable you to evaluate the business conditions that contribute to these problems (see certificate LOs).
+
+### How did this class help you do this? 
+
+<br>
+
+### What kinds of assignments did you complete?
+
+:::
+
+
+
+## {background-image="Images/01_1-env_ethics_2.png"}
+
+::: {.r-fit-text}
+<p style="color: white;">**PHIL 320 Environmental Ethics**</p>
+:::
+
+::: notes
+
+The "Environmental Ethics" class was designed to enable you to compare and contrast alternative ethical perspectives of an environmental problem and its potential solutions (see certificate LOs).
+
+### How did Dr. Browning help you do this? 
+
+<br>
+
+### What kinds of assignments did you complete?
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Designing Solutions for Environmental Problems**
+
+<br>
+
+**Required Courses**
+
+- BIOL 163 Science of the Environment
+
+- ECON 225 Introduction to Environmental Economics
+
+- PHIL 320 Environmental Ethics
+
+- **PLSC 323 Issues in Environmental Policy**
+
+::: notes
+
+That brings us to the capstone experience, e.g. this class!
+
+- In here we bring the politics and policy to the table.
+
+<br>
+
+In other words, given the science, the economics and the ethics of a given environmental problem, what can we feasibly do to address it?
+:::
+
+
+
+
+## {background-image="Images/01_1-politics1.png"}
+
+::: notes
+
+Given our large number of non-majors we should take a moment to define a key concept in our class: Politics
+
+**Non-majors, when you think of the word "politics" what do you think of?**
+
+- **Is it compromise, good faith and teamwork?**
+
+<br>
+
+**When we describe someone as "political" what are we saying about them?**
+
+- **Is it a flattering description?**
+
+<br>
+
+The word politics these days is often attached to awful behavior by self-serving morons.
+
+- That is decidedly not what we study in political science
+
+- Or, that is not the only thing we study in political science
+
+<br>
+
+**SLIDE**: Rather than start with a technical definition, let's simulate a political problem related to the environment and see if that clears things up
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '87%'}
+knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
+```
+
+::: notes
+
+As a team-building exercise you have all decided to go on a one week camping trip together.
+
+- While on a hike on the first day you come across a small lake stocked with fish
+
+<br>
+
+### Anybody like to go fishing?
+
+### - Are you good at it?
+
+- *Use volunteer, give a d12 and see if they can roll a 1-11 (92% chance of success)*
+
+<br>
+
+So, X goes fishing and successfully catches one fish
+
+- As you eat the fish you get the distinct sense that you just earned extra credit in this class
+
+- Congratulations! You've discovered a small lake of magical bonus point fish!
+
+- Each fish you catch and consume adds 3 EC points on first paper grade
+
+- Catch 3 fish in our simulation, boost your first paper by almost a full letter grade
+
+<br>
+
+**Everybody with me so far?**
+
+- **SLIDE**: Let's talk complications
+
+:::
+
+
+
+## Managing a Resource is Hard {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+
+::: {.incremental}
+
+1. Your chance of catching a fish depends on the remaining stock and the number of fishers each day
+
+2. The health of the fishery depends on your collective use
+
+:::
+
+::: notes
+
+**REVEAL**: Your chance of catching a fish depends on two things:
+
+1. How many fish have you taken out of the lake so far
+
+    - As the stock of fish gets smaller, it is harder to catch what's left
+
+2. How many of you go fishing that day
+
+    - As the number of fishers goes up, the harder it is to catch a fish
+
+<br>
+
+**REVEAL**: The fishery is a finite, but sustainable, resource
+
+- If you remove fish beyond the maximum sustainable yield (MSY), the size of the fishery will decline over time
+
+- If you remove too many fish, the fishery itself could collapse (insufficient stock to reproduce fast enough to survive)
+
+<br>
+
+**Any questions on the broad-strokes of the scenario?**
+
+<br>
+
+Your camping trip lasts one week and you will have the opportunity to fish every day (7 days)
+
+- *Keep using the three groups from the board lists exercise*
+
+- I'm going to ask each group to make a proposal to the class for how they would like us to manage this resource
+
+- Groups, get ready to pitch us your plan
+
+- **SLIDE**: Plan needs to specify...
+
+:::
+
+
+
+## Propose a Management Policy {background-image="Images/background-forest_v3.png" .center}
+
+1. How many fishers per day?
+
+2. How should the fishers be chosen? 
+
+3. How will you ensure compliance with these rules?
+
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Any questions on the exercise?**
+
+- Groups, get to brainstorming and get ready to pitch us on your plan.
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- *Class chooses a plan*
+
+<br>
+
+*Run the simulation*
+
+- *ON BOARD: 7 columns (one for each day) with space below for names*
+
+- *Each day all fishers put name on board, roll for success and then circle the successes and strike out the fails*
+
+- *P(Catch) depends on # of fishers PLUS remaining stock*
+    
+    - *Each fisher beyond 1 takes us down the d12 table (1 fisher needs <=11, 2 needs <=10, 3 needs <=9, etc)*
+    
+    - *Each 10 fish removed takes our starting point 1 down the d12 table*
+    
+- *You track total removed and at end let them know what happens to the fishery: Starting stock 100 fish, a MSY of 65 and a tipping point at 30*
+
+**d12 probabilities**
+```{r}
+cbind("Roll"=11:1, "Probs"=round(11:1/12, 2))
+```
+
+:::
+
+
+
+## {background-image="Images/01_1-politics1_v1.png"}
+
+::: {.r-fit-text}
+**What explains the outcome of our game?**
+:::
+
+::: notes
+
+Everybody take a moment to reflect on our game.
+
+- Get ready to explain, from your perspective, what just happened?
+
+<br>
+
+**Bottom line, why did we end up with the outcome of the game that we did?**
+
+- **Biggest reason(s) in your mind?**
+
+<br>
+
+1. **Did everyone in class have the same goals?**
+
+2. **Did making rules as a community help? Why or why not?**
+
+3. **Did you worry much about compliance with the rules? Why or why not?**
+
+4. **Did you care about the survival of the fishery? Why or why not?**
+
+<br>
+
+Games and simulations are often a useful tool for exploring politics.
+
+- What we just played was a fairly basic resource distribution game.
+
+- It highlights a ton of important stuff, but let me know draw out a few important ideas
+
+<br>
+
+**SLIDE**: Standard definitions of politics...
+:::
+
+
+
+## {background-image="Images/01_1-politics1_v1.png"}
+
+::: {.r-fit-text}
+**1. Decision-making in a community**
+:::
+
+::: notes
+
+One way that we study "politics" is by focusing on **how groups make decisions**.
+
+- Group decision-making is complex and multi-layered
+
+- It is also one of the **fundamental building blocks** of our society 
+
+<br>
+
+I set a fairly simple rule in your game, a majority vote.
+
+- But that is FAR from the only way we could have done it! 
+:::
+
+
+
+
+## {background-image="Images/01_1-politics1_v1.png"}
+
+::: {.r-fit-text}
+**2. How we make and enforce "the rules"**
+:::
+
+::: notes
+
+A second way that we study "politics" is by focusing on **the rules**.
+
+- Once a society has established rules, many political scientists study how those rules are interpreted, revised and enforced
+
+- **The decision to punish a rule-breaker is a huge decision** that often sends ripples out through a community
+
+<br>
+
+**Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?**
+
+- **Seriously, walk me through how our community changes and reacts to that change in policy.**
+
+<br>
+
+**And what would happen if they completely stopped enforcing speed limits?**
+
+- **Again, walk me through how our community changes and reacts to that change in policy.**
+
+:::
+
+
+## {background-image="Images/01_1-politics1_v1.png"}
+
+::: {.r-fit-text}
+**3. Who gets what, when and how?**
+:::
+
+::: notes
+
+A third way that we study "politics" is by focusing on **the distribution of costs and benefits**.
+
+<br>
+
+Why do groups form? 
+
+- Often it is **to produce greater resources** than any individual could do on their own
+
+    - This could be money, food, a division of labor, or collective security
+
+- HOWEVER, producing that good means **someone has to pay** and someone has to benefit
+
+<br>
+
+Who pays and who benefits is **a constant tension** in any society.
+
+<br>
+
+Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
+
+- **Any questions on this broad definition of the concept "politics"?**
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Solving Environmental Problems in a Political World**
+:::
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/01_1-environmental-issues.png")
+```
+
+::: notes
+
+And that brings us to our primary aim in this class: 
+
+- Our big goal this semester is to find a local environmental problem, learn a ton about it and then try to make a difference in it
+
+<br>
+
+I mean this. 
+
+- My ambition is that we get out into the world and get something done.
+
+- Will we succeed? Who knows! But let's give it a shot!
+
+<br>
+
+**SLIDE**: Let's wrap up today by touching base on my expectations for the course
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+tibble(
+  col1 = c("Attendance & Participation", "Outcome Reports", "1. Baseline Argument Report", "2. Problem Framing Report", "3. The Policy Evaluation Report"),
+  col2 = c("", "", "(Feb 28)", "(Apr 11)", "(Final)"),
+  col3 = c("50%", "50%", "", "", "")
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "")) |>
+  kableExtra::kable_styling(font_size = 40) |>
+  kableExtra::column_spec(1, width = "20em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(0, background = "lightblue") |>
+  kableExtra::row_spec(1:5, background = "white")
+```
+
+::: notes
+
+Everyone should download and read the syllabus.
+
+- Tons of important course policies in there and by taking this class you are agreeing to all of them
+
+<br>
+
+Since this capstone class has ambitions of getting out into the world and making a difference, I need you all to come to class and be engaged
+
+- We're only going to get as far as you're willing to push.
+
+- The attendance and participation policies are meant to help motivate you!
+
+<br>
+
+Half your course grade this semester is about showing up, being prepared and engaging in the work of our class.
+
+- You'll see on the Modules page of Canvas that most of our class sessions have a reading plus an assignment
+
+- To get credit you must submit these assignments BEFORE class begins.
+
+<br>
+
+There is an attendance cliff in this class
+
+- Anyone with more than three unexcused absences in the semester cannot earn higher than a ‘C’ in the course (regardless of grades earned on other assignments).
+
+- IFF you have an excused absence coming up **YOU** are required to contact me by email for excused absences
+    
+    - Coach emails alone DO NOT COUNT
+
+<br>
+
+The other half of your grade will consist of reports presenting your analyses and action plans for our selected environmental problem
+
+- More to come on that soon.
+
+<br>
+
+**Any questions on these grades or policies?**
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Check Canvas: What is due before next class?
+
+::: notes
+
+1. Cronon 1996, "The Trouble with Wilderness or, Getting Back to the Wrong Nature"
+
+2. Canvas Assignment
+    
+    1. According to Cronon (1996), why is "the wilderness" a serious problem for environmental problem-solving? Explain the thesis of the article (2+ sentences)
+    
+    2. What is the strongest piece of evidence provided by Cronon in the article? (2+ sentences)
+    
+    3. If Cronon (1996) is correct, what do we need to do in order to engage productively in environmental problem-solving in our community? (2+ sentences)
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
+
+See you Thursday!
+
+:::

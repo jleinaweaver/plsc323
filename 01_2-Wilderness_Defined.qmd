@@ -1,0 +1,1387 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+# library(readxl)
+# library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Section 1: Introduction to Environmental Policymaking**
+
+- **What is the "Trouble with Wilderness"?**
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Bring VIDEO CLIP (Disney-Hiawatha.mp4) on USB for classroom computer
+
+<br>
+
+Welcome back everybody.
+
+**FIRST, now that you've reviewed the syllabus any questions on the plan of the class or the course policies?**
+
+<br>
+
+**SECOND, did everybody submit their pre-class assignment to earn participation for today?**
+
+<br>
+
+**My Notes: Cronon's Argument**
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+Therefore, our current understanding of the wilderness is at the root of many of our serious environmental problems.
+
+Therefore, wilderness is a human creation and it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
+
+1. Up to the 18th century "wilderness" meant deserted, savage, desolate, barren, and a waste (8).
+    - Biblical references to the wilderness as a place of "moral confusion and despair" (8)
+    - "Wilderness, in short, was a place to which one came only against one's will, and always in fear and trembling. Whatever value it might have arose solely from the possibility that it might be "reclaimed" and turned toward human ends..." (9).
+
+2. 19th c forward, the wilderness is a temple of restoration
+    - By the end of the 19th century the meaning of wilderness has been transformed
+    - Thoreau in 1862 could declare wildness to be the preservation of the world
+    - John Muir arrived in the Sierra Nevada in 1869, he would declare, "No description of Heaven that I have ever heard or read of seems half so fine."
+    - US begins creating national parks with Yellowstone in 1872
+    - The seemingly unprecedented battle over the dam that flooded the Hetch Hetchy valley (1908-1913)
+
+3. Wilderness Transforms 1: Domestication of the Sublime (10-13)
+    - Wilderness once connected to the "awesome power of the sublime"; Wordsworth describing his climbing the Alps as one of terror when brought face-to-face with the divine. A sense of awe/dismay, not joy/pleasure.
+    - By the second half of the 19th century tourism into the wilderness had begun to domesticate the sublime; transform it into a "sacred temple" that offered restoration not fear.
+
+4. Explaining the transformation 2: The end of the Frontier
+    - Belief in the frontier as source of national renewal; To be an American meant to be connected to the land, to a more primitive existence that inspired vigor, individualism and democracy (13).
+    - By the 1890s the argument was that the frontier was being lost and that meant wilderness needed to be preserved.
+    - Perception by many elites that civilization was sapping men of their rugged manliness, feminizing them and that they needed wilderness experiences to compensate.
+    - The quasi-religious aspects of modern environmentalism are very problematic (15-)
+    - Wilderness as revitalizing frontier deeply ironic.
+    - Wilderness as a toy of the well-to-do, projecting their fantasies onto the landscape (15)
+    - "Virgin" wilderness ignores native populations that called it home; removing them to make it uninhabited shows just how artificial this construct is.
+    - Making the wilderness safe for tourists does not reflect actual violence of the frontier
+    - "Only people whose relation to the land was already alienated could hold up wilderness as a model for human life in nature, for the romantic ideology of wilderness leaves precisely nowhere for human beings actually to make their living from the land" (17).
+
+5. Wilderness that places humanity outside of nature poses a serious threat to responsible environmentalism
+    - The central paradox is that wilderness places humanity outside of nature which poses a serious threat to responsible environmentalism at the end of the twentieth century (17).
+    - If protecting wilderness is the metric for a good society then we deny ourselves "hope of discovering what an ethical, sustainable, honorable human place in nature might actually look like."
+    - By pretending our "real home" is in the wilderness, we allow ourselves to ignore and avoid dealing with the problems where we actually live.
+    - "Wilderness" as an untouched and pure thing is too frequently the implicit rationale for pursuing "environmental" ends (see endangered species act example p18).
+    - An absurd paradox: "if nature dies because we enter it, then the only way
+to save nature is to kill ourselves" (19).
+    - "Idealizing a distant wilderness too often means not idealizing the environment in which we actually live, the landscape that for better or worse we call home. Most of our most serious environmental problems start right here, at home, and if we are to solve those problems, we need an environmental ethic that will tell us as much about using nature as about not using it" (21).
+    - "Indeed, my principal objection to wilderness is that it may teach us to be dismissive or even contemptuous of such humble places and experiences" (22). e.g. the flower or tree in your yard.
+    - We must abandon "the dualism that sees the tree in the garden as artificial -completely fallen and unnatural -and the tree in the wilderness as natural -completely pristine and wild. Both trees in some ultimate sense are wild; both in a practical sense now depend on our management and care" (24).
+
+*Setting aside end of essay that makes the case for a healthier approach to nature / wilderness. All important in ethics terms but not for our definitional exercises*
+
+- Wilderness is a human creation and, therefore, it cannot solve the problem of "our culture's problematic relationships with the nonhuman world" (p8)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<br>
+
+<br>
+
+Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
+:::
+
+::: {.column width="40%"}
+
+![](Images/02_1-cronon_uncommonground2.jpg)
+
+:::
+::::
+
+::: notes
+
+For today I assigned you an EXCELLENT article by the historian William Cronon.
+
+- This article is also Chapter 1 of his book *Uncommon Ground: Rethinking the Human Place in Nature*
+
+<br>
+
+Book blew my damn mind as an undergrad
+
++ Transformed my thinking about environmental politics and policy
+
+<br>
+
+Before we dive into the argument, let's root ourselves in one of the key words in the title of the article: Wilderness
+
+<br>
+
+**Before doing this reading, how would you have defined the "wilderness"?**
+
+- **What pops into your mind when you hear that word?**
+
+:::
+
+
+## {background-image="Images/02_1-Rockymountain_wilderness.jpg"}
+
+::: notes
+
+Something like this, no?
+
+- This is the first image that pops up on Wikipedia when you search for the word, "wilderness"
+
+<br>
+
+**Has anybody had a "wilderness" experience in the past that was important to them or that influenced how they feel about environmental issues?**
+
+- **Anything you're willing to share?**
+
+<br>
+
+**If we all agree that this is "the wilderness," then what characterizes this concept in typical usage?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/02_1-Rockymountain_wilderness2.png" .center}
+
+"Wilderness or wildlands (usually in the plural) are natural environments on Earth that have not been significantly modified by human activity, or any nonurbanized land not under extensive agricultural cultivation" (The National Weather Service; The International Wilderness Leadership Foundation).
+
+::: notes
+
+This is the defintion that leads off the Wikipedia entry
+
+- Cites both the National Weather Service and The International Wilderness Leadership Foundation
+
+- So, government agency experts and a nonprofit agree!
+
+<br>
+
+**SLIDE**: However, this is not the simplest phrasing!
+:::
+
+
+
+## {background-image="Images/02_1-Rockymountain_wilderness2.png" .center}
+
+"Wilderness or wildlands (usually in the plural) are natural environments on Earth that have not been significantly modified by human activity, or any nonurbanized land not under extensive agricultural cultivation" (The National Weather Service; The International Wilderness Leadership Foundation).
+
+<br>
+
+"A wilderness is an area of land that has been largely undisturbed by modern human development" (National Geographic).
+
+::: notes
+
+National Geographic defines wilderness much more simply
+
+<br>
+
+Wilderness, in common usage, refers to essentially two qualities or characteristics:
+
+1. Must be a "natural" environment, and
+
+2. Must be mostly untransformed by human activity
+
+<br>
+
+**So, how would Cronon react to this definition?**
+
+- **Is he on board with the two characteristics that basically everyone assumes are required to call soemthing the wilderness?**
+
+- (**SLIDE**: Lord, no!)
+:::
+
+
+
+## The Trouble with Wilderness {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-Oregon_Wilderness2.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-City_Street3_v2.png)
+
+:::
+::::
+
+::: notes
+**When Cronon looks at these two images, what does he see?**
+
+<br>
+
+(Two things created by humans!)
+
+- Wilderness is as much a social construct as a city is.
+
+- Both exist because people created them and govern them.
+
+<br>
+
+I'm not going to lie, being told that the "wilderness" is a human creation **BLEW MY MIND**.
+
+<br>
+
+**SLIDE**: Why do I say "blew my mind"?
+
+:::
+
+
+
+## {background-image="Images/01-2-captain_planet.webp"}
+
+::: notes
+
+I came to my love of the environment a long, long time ago.
+
+<br>
+
+Being a kid in the 1980s and 90s meant coming of age in an era where environmentalism was our new mission
+
+- We'd finished off the Soviet Union, the economy was booming and our society needed a new villain
+
+- Enter Pollution and Polluters 
+
+- We got it in school, in the cartoons we watched and even in our extra-curricular activities
+
+<br>
+
+**SLIDE**: And we definitely got it in our movies!
+
+:::
+
+
+
+
+## {background-image="Images/02_1-star_trek4-Cetacean_Probe.webp"}
+
+![](Images/02_1-star_trek_4.jpg){.absolute width="40%" right=0}
+
+::: notes
+
+**Does anybody know the plot of Star Trek IV?**
+
+<br>
+
+I remember sitting in the theater watching this movie and thinking it made perfect sense
+
+- Whales, being natural and ancient, communicate on a level higher than we understand
+
+- So, of course, an advanced alien species coming to earth would seek to commune with the whales
+
+- And since we wiped them out, we were to be destroyed
+
+- If we couldn't protect the whales we probably deserved it!
+
+<br>
+
+All of this led me quite naturally into community activism.
+
+- I volunteered with Sierra Club, interned with the Florida Public Interest Research Group (PIRG), etc.
+
+- Then I chose majors and classes in college that I thought would help me solve environmental problems
+
+<br>
+
+**SLIDE**: Underpinning all of this activity was an argument that was deep in me that I had never bothered to think much about...
+
+:::
+
+
+## My Implicit Argument {background-image="Images/01-2-captain_planet_v2.png" .center}
+
+<br>
+
+::: {.r-fit-text}
++ Wilderness is **irreplaceable and vital** to human life
+
++ We **must protect** things that are irreplaceable and vital
+
++ Some of **our actions** destroy the wilderness
+
++ Once destroyed, **true wilderness can never be restored**
+
+**Therefore, we must stop those actions!**
+:::
+
+::: notes
+
+Using 'wilderness' here as synonym for nature or the natural world.
+
+**Does anybody else recognize this argument for themselves?**
+
+<br>
+
+**So, sticking with the big picture here, how does starting from this argument make solving environmental problems harder?**
+
+<br>
+
+It is a series of absolutes with essentially no room for compromise
+
+- Any action that alters wilderness, destroys it
+
+- And every bit of wilderness destruction harms us irreparably
+
+- Irreparably being key here: There is no possible restoration in this argument.
+
+<br>
+
+**And how does Cronon's argument that "wilderness is a human construct" challenge this way of thinking?**
+
+- (In every way possible **without disagreeing** that we must take action!)
+
+<br>
+
+**SLIDE**: So, let's dig into Cronon's argument
+
+:::
+
+
+
+## The Trouble with Wilderness {background-image="Images/background-forest_v3.png" .center}
+
+**(Cronon 1996)**
+
+<br>
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+Cronon makes a number of important arguments in this chapter but I've tried to focus us in on the part that's most relevant to our class.
+
+<br>
+
+Today I want us to do three things: Clarify this argument, critically analyze it and then reflect on its lessons for our work as environmental problem-solvers.
+
+<br>
+
+### Does everybody have this written down?
+
+- This is our touchstone for the day and we should keep referring back to it.
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ *Premise 1*
+
++ *Premise 2*
+
++ *Premise 3*
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+Every argument can be thought of as a series of premises leading to a conclusion.
+
+- A "premise" is just a claim (assumption) being used to support the conclusion.
+
+<br>
+
+The ultimate goal is an inductively logical argument
+
+- That means an argument in which the premises directly support the conclusion
+
+- In other words, if you accept the premises as true, is the conclusion more likely to be true?
+
+- A very low bar, but you'd be shocked how many arguments in our political arena fail this test
+
+<br>
+
+Let's now evaluate the premises in Cronon's argument.
+
+- *Split class into small groups (3-4)*
+
+- Go sit with your group!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ Pre-19th century humans define the wilderness as sublime
+
++ *Premise 2*
+
++ *Premise 3*
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+The first key premise in Cronon's argument focuses on describing societies' relationship with the wilderness prior to 1800.
+
+<br>
+
+Groups, your first job is to explain this premise to me and evaluate the evidence he provides that it is accurate
+
+<br>
+
+**Questions on what I want?**
+
+- Go!
+
+<br>
+
+*Report back!*
+
+**What does the premise mean?**
+
+- **What does it mean to think of the wilderness as "sublime"?**
+
+- (Synonyms of sublime: Fear, reverence, dread, fright, terror)
+
+<br>
+
+**What evidence does he provide and is it convincing? Why or why not?**
+
+<br>
+
+**SLIDE**: Let's take a look at the art for ourselves!
+
+:::
+
+
+
+## {background-image="Images/01-2-Everdingen_Landscape_with_waterfall.jpg" background-size='65%'}
+
+::: notes
+
+"Landscape with waterfall"
+
+- Painter: Allaert van Everdingen
+
+- Year: Somewhere between 1671 and 1675.
+
+<br>
+
+Talk to me about the wilderness here
+
+- **What adjectives would you use to describe the "wilderness" in this painting?**
+
+- **Is it "sublime"?**
+
+:::
+
+
+
+## {background-image="Images/01-2-deLoutherbourg1803.jpg"}
+
+::: notes
+
+"An Avalanche in the Alps"
+
+- Painter: Philip James De Loutherbourg
+
+- Year: the late 18th century
+
+<br>
+
+Talk to me about the wilderness here. How does it make you feel?
+
+- **What adjectives would you use to describe the "wilderness" in this painting?**
+
+- **Is it "sublime"?**
+
+<br>
+
+*Notes for You*
+
++ "An Avalanche in the Alps"
++ 1740–1812 
++ De Loutherbourg was born in Strasbourg, France and had a successful career in Paris as a landscape painter. In 1771 he moved to London and began also working as a set and costume designer. In this scene, De Loutherbourg combines nature and human drama, to theatrical effect. An avalanche is shown advancing towards three figures and a dog. De Loutherbourg has captured the moment before they are overwhelmed by the powerful natural force.
+
+:::
+
+
+
+## {background-image="Images/01-2-shipwreck.png"}
+
+::: notes
+
+“A Shipwreck in Stormy Seas”
+
+- Painter: Claude-Joseph Vernet
+
+- Year: 1773
+
+<br>
+
+Talk to me about the wilderness here. How does it make you feel?
+
+- **What adjectives would you use to describe the "wilderness" in this painting?**
+
+- **Is it "sublime"?**
+
+<br>
+
+Very subtle messaging here, right?
+
+- Civilization, e.g. city in the distance, is shining in the sun
+
+- What happens to the men who venture out to sea? Lightning, wind, whipping water, death
+
+:::
+
+
+
+## {background-image="Images/01-2-Expulsion_Eden_Cole.jpg"}
+
+::: notes
+
+Last one from this period and it's a VERY famous painting.
+
+<br>
+
+"Expulsion from the Garden of Eden" (or Expulsion from Paradise) 
+
+- Painter: English-born American painter Thomas Cole
+
+- Year: 1828
+
+<br>
+
+**Ok biblical scholars, what's being depicted here?**
+
+<br>
+
+**Compare and contrast the Garden of Eden to the wilderness in this painting for me. What stands out for you?**
+
++ (Volcano in distance.)
+
++ (Wolf feasting on elk, vulture attacking?)
+:::
+
+
+
+## {background-image="Images/02_1-Old_Mountain_Climbing_1700pixels.png" background-size='75%'}
+
+::: notes
+
+It's not just the painters reflecting this definition either.
+
+- Some intriguing references to incredible writers of the period
+
+<br>
+
+**How did Wordsworth describe his experiences climbing the Alps in 1936?**
+
+- (p11; emotions remarkably close to terror; awe in the face of a near-religious experience)
+
+<br>
+
+**What about Thoreau's climb up Mount Katahdin in 1846?**
+
+- (An unwelcoming sort of nature, punishing, dismissive and not happy to see you there.)
+:::
+
+
+
+## {background-image="Images/02_1-Old_Mountain_Climbing_1700pixels.png" background-size='75%'}
+
+**Pre-19th Century:** 
+
+**The Wilderness is Sublime**
+
+::: notes
+
+In short, the wilderness is a dangerous place.
+
+<br>
+
+**Is this similar to how we use the words sublime and awesome today?**
+
+- (Not exactly...)
+
+<br>
+
+**In a world surrounded by sublime wilderness, what is civilization?**
+
+- (Our only protection! Our only hope for survival!)
+
+- (Civilization pushes the wilderness away!)
+
+<br>
+
+**And, if civilization is our only protection, what is our duty when it comes to dealing with wilderness?**
+
+- (Wilderness is a waste, we must make it productive and useful!)
+
+- (We must subdue it!)
+
+<br>
+
+Time for the second premise, let's mix up the groups!
+
+- Go sit with your new group!
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ Pre-19th century humans define the wilderness as sublime
+
++ As American society "develops" we needed a domesticated wilderness that could indulge our myths
+
++ *Premise 3*
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+The second premise in Cronon's argument focuses on how changes in American society changed our definition of the wilderness
+
+<br>
+
+Groups, your next job is to explain this premise to me and evaluate the evidence he provides that it is accurate
+
+- Go!
+
+<br>
+
+*Report back!*
+
+**What does the premise mean?**
+
+- **How has american society "developed"?**
+
+- **What is a "domesticated" wilderness?**
+
+- **What myths needed to be indulged?**
+
+<br>
+
+**What evidence does he provide and is it convincing? Why or why not?**
+
+<br>
+
+**SLIDE**: Let's once again take a look at the art for ourselves!
+
+:::
+
+
+
+## {background-image="Images/01-2-Bierstadt-in_the_mountains.jpg"}
+
+::: notes
+
+"In the Mountains"
+
+- Painter: Albert Bierstadt
+
+- Year: 1867
+
+<br>
+
+Talk to me about the wilderness here. How does it make you feel?
+
+- **What adjectives would you use to describe the "wilderness" in this painting?**
+
+- **Is it "sublime"?**
+
+<br>
+
+Even the shadows, the places of "darkness" are peaceful and welcoming.
+
+:::
+
+
+
+## {background-image="Images/01-2-Shishkin_forest.jpg"}
+
+::: notes
+
+"A Walk in the Forest"
+
+- Painter: Ivan Ivanovich Shishkin
+
+- Year: 1869
+
+<br>
+
+Talk to me about the wilderness here. How does it make you feel?
+
+- **What adjectives would you use to describe the "wilderness" in this painting?**
+
+- **Is it "sublime"?**
+
+<br>
+
+Just a lovely day, going for a hike.
+
+:::
+
+
+
+## {background-image="Images/01-2-Shishkin_forest.jpg"}
+
+::: {.r-fit-text}
+<p style="color: white;">**Post-19th Century:**</p>
+
+<p style="color: white;">**Wilderness as a temple of restoration**</p>
+:::
+
+::: notes
+
+So, Cronon, who is by training a historian, looks to our art as a reflection on human society and our values over time.
+
+- He argues this change in representation is so stark something important must have fundamentally changed in our society.
+
+<br>
+
+**What do we think of this method for measuring humanity's relationship to nature over time?**
+
+- **Do you believe we can interpret changes in art as implying changes in society? Why or why not?**
+
+<br>
+
+Cronon now has to shift from identifying his first puzzle to trying to explain it.
+
+**According to Cronon, what two things happened in the middle of the 19th century to so dramatically transform the human relationship to the wilderness?**
+
+1. (Domestication of the Sublime, p10-13)
+
+2. (Myth of the end of the frontier)
+
+<br>
+
+**What does he mean by domestication of the sublime? How did it happen?**
+
+- (**SLIDE**)
+:::
+
+
+
+
+## {background-image="Images/01-2-London_1890.jpg"}
+
+::: notes
+
+By the turn of the 19th century our cities were filthy
+
+- Here we see a photo of London in 1890
+
+- In short, economic development had far outpaced technology and public works;  ([Link](https://www.npr.org/2015/03/12/392332431/dirty-old-london-a-history-of-the-victorians-infamous-filth)).
+
+<br>
+
+From reporting about London at the time:
+
++ "It had choking, sooty fogs; the Thames River was thick with human sewage; and the streets were covered with mud."
+
++ "mud" was a euphemism for horse poop mixed with urine and dirt. 
+
++ Shopkeepers complained the ammonia in the horse urine was so strong it would discolor their shop fronts and discourage shoppers due to the smell. 
+
++ There was a constant stench of filth from blocked drains and cesspools below houses.
+
++ The air itself was so filled with soot and smoke the "respectable" people had to go home to wash their hands and faces multiple times each day to look presentable.
+
+:::
+
+
+
+## {background-image="Images/01-2-family_hike.jpg"}
+
+::: notes
+
+Small wonder then that by the second half of the 19th century the wilderness had become a tourist destination.
+
+- As Cronon notes: Not a place of fear, but a temple of restoration (the "sacred temple").
+
+<br>
+
+As our lives became more automated, as our cities grew, our eyes shifted to the natural world and we saw its beauty and cleanliness contrasted with our creations.
+
+- This transformation reflected in the art and writing of the time.
+
+- Cronon is arguing that the very MEANING of the word wilderness changed.
+
+<br>
+
+Ok, so that's the first big transformation.
+
+<br>
+
+The second concerned the frontier itself.
+
+**What is the myth of the end of the frontier and what role did it play in changing the meaning of wilderness?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/02_1-Wagon_Train.png"}
+
+::: {.r-fit-text}
+**The Myth of the Frontier**
+:::
+
+::: notes
+
+(By the 1890s the argument was that we were running out of frontier land and that meant wilderness needed to be preserved.)
+
+<br>
+
+To be an American meant to be connected to the land, to a more primitive existence that inspired vigor, individualism and democracy (13).
+
++ The frontier was viewed as a source of national renewal
+
++ A growing perception by many elites that civilization was sapping men of their rugged manliness, feminizing them and that they needed wilderness experiences to compensate.
+
+<br>
+
+**Why does Cronon describe this as a doubly ironic process?**
+
+- **What are the two depressing ironies of this new "the wilderness will save us" mentality?**
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/01-2-luxury_safari.png"}
+
+::: notes
+
+Wilderness as Restorative: Irony Part 1
+
+<br>
+
+The first big irony was that this "wilderness is a magic temple of manliness" was not meant for you.
+
+- The marketing of the wilderness was aimed at the well-to-do, not the public at-large.
+
+- Luxury safaris and big game hunts allowing the rich to project their fantasies onto the landscape.
+
+<br>
+
+Wilderness preservation was for the rich who needed an escape from the filth of the cities, the weakness created by white collar jobs and the rest of us!
+:::
+
+
+
+## {background-image="Images/01-2-native_protest.jpg"}
+
+::: notes
+
+Wilderness as Restorative: Irony Part 2
+
+<br>
+
+The second painful irony in this "wilderness is a magic temple of manliness" is that creating the paradise required extensive violence against the people who had lived there.
+
+- In order to create a "virgin" wilderness we had to remove all the native populations that called it home.
+
+- That we removed so many in order to make the land wilderness SHOWS US how artificial this construct is.
+
+<br>
+
+So, where does that leave us? 
+
+- Why does our modern conception of the wilderness present such a serious problem for today's world?
+
+<br>
+
+Mix up the groups one last time!
+
+- **SLIDE**: On to the final premise!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ Pre-19th century humans define the wilderness as sublime
+
++ As American society "develops" we needed a domesticated wilderness that could indulge our myths
+
++ A romanticized wilderness creates an impossible standard of management
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+The final premise in Cronon's argument focuses on how, basically, I am the problem.
+
+<br>
+
+Groups, your last job today is to explain this premise to me and evaluate the evidence he provides that it is accurate
+
+- Go!
+
+<br>
+
+*Report back!*
+
+**What does the premise mean?**
+
+<br>
+
+**What evidence does he provide and is it convincing? Why or why not?**
+
+:::
+
+
+
+## {background-image="Images/01-2-captain_planet.webp" .center}
+
+::: notes
+
+Fundamentally, Cronon argues that I was the problem.
+
+- The quasi-religious aspects of modern environmentalism are very problematic (15-)
+
+<br>
+
+The central paradox is that wilderness places humanity outside of nature which poses a serious threat to responsible environmentalism at the end of the twentieth century (17).
+
+- "Only people whose relation to the land was already alienated could hold up wilderness as a model for human life in nature, for the romantic ideology of wilderness leaves precisely nowhere for human beings actually to make their living from the land" (17).
+
+<br>
+
+Let's dig into this key element that "all human action" related to the environment is now problematic.
+
+<br>
+
+**Growing up, who did your teachers tell you lived within and of the land?**
+
+- **Who did this claim about civilization distancing humanity from the wilderness not apply to?**
+
+- (**SLIDE**: Native Americans!)
+:::
+
+
+
+## {background-image="Images/02_1-native_painting.jpg"}
+
+::: notes
+
+It was part of the reason we justified taking their land from them.
+
+- They were not "making improvements" to it that would represent sufficient civilization that makes ownership meaningful.
+
+<br>
+
+**Growing up, what were you told about the relationship between native americans and the land?**
+
++ (They were at one with it; use all of the buffalo)
+
++ (Specially connected to the animals)
+
+:::
+
+
+
+## {background-image="Images/02_1-disney_hiawatha.jpg" .center}
+
+::: notes
+**Growing up, was anyone every exposed to Disney's animated cartoon of Hiawatha?**
+
+<br>
+
+**Only if tons of time left, show the Disney Hiawatha video**
+
+- (PLAY: (7 mins) Disney’s Hiawatha cartoon.)
+- 0:00 - 1:30 Sets the story in motion
+- 3:00 - 5:05 Can’t bring himself to kill the rabbit
+- 6:00 - End Hiawatha comes across a bear and is saved by the forest creatures
+
+<br>
+
+**What does this cartoon teach us about the relationship between native americans and the environment?**
+
++ (They were at one with it; use all of the buffalo)
+
++ (Specially connected to the animals)
+
+<br>
+
+**Are depictions like this disrespectful to native Americans? Why or why not?**
+
+- Why is there so much nudity?
+
+- Is the appropriation of music, dances and chants respectfully done?
+
+<br>
+
+**Does it change your feelings if I tell you that Hiawatha was a historical figure? A great leader of the Iroquois nation?**
+
+- Infantilizes the native Americans, doesn't it?
+:::
+
+
+
+## {background-image="Images/01-2-native_proscribed_burning.jpg" .center}
+
+::: notes
+
+Here's one of the keys to unmaking our myths
+
+<br>
+
+The idea any human society ever lived in perfect balance with nature is a dangerous myth.
+
+- It has set up an impossible standard for what makes “good” environmental policy.
+
+- Man, in all of our societal forms, has always managed nature in order to survive.
+
+<br>
+
+For example, native groups frequently used forest fires to reshape the landscape and clear out underbrush in forests.
+
++ Makes it easier to move through them and see what you are hunting. 
+
++ Fire can also encourage new shoots to start on the ground which attracts hungry deer.
+
++ In other words, forest fires created prime hunting ground.
+
+<br>
+
+Bottom line, they dramatically reshaped the local ecosystems to make hunting easier.
+
+:::
+
+
+
+## {background-image="Images/01-2-native_fishing.jpg" .center}
+
+::: notes
+
+We have evidence of Native American fish farming.
+
+- Rivers dammed or redirected to capture fish or encourage them to breed in pools where collection was easier
+
+<br>
+
+River ecosystems dramatically transformed so we could more easily feed ourselves.
+
+:::
+
+
+
+## {background-image="Images/01-2-native_seal_farming.jpg"}
+
+::: notes
+
+Seal hunting was easy because the seals were docile and could be herded like cattle.
+
+- They walked on their flippers.
+
+- Made the massive slaughters much easier.
+
+<br>
+
+Evidence that some seal populations greatly diminished by native hunting techniques.
+
+- These modifications were not massively disruptive because of small population numbers.
+
+<br>
+
+Let me be clear, none of this evidence is meant to convince you that Native tribes were **as destructive** as our modern societies.
+
+- That's nonsense.
+
+<br>
+
+However, we need to learn to build our understandings from actual history and not fairy tales.
+
+- Human populations have always had to manage environmental resources in order to survive.
+
+- When our population numbers are low, these actions are WAY less destructuve
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ Pre-19th century humans define the wilderness as sublime
+
++ As American society "develops" we needed a domesticated wilderness that could indulge our myths
+
++ A romanticized wilderness creates an impossible standard of management
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+So, let's root ourselves back in the subject of our class: Solving environmental problems.
+
+**How does Cronon's argument help us think about that challenge?**
+
+- *Encourage THIS discussion*
+
+<br>
+
+(**SLIDE**: The modern conceptualization of the wilderness has made compromise between environmentalists and industry almost impossible)
+
+(**SLIDE**: Recognize wildness around us and work to respect it everywhere)
+
+:::
+
+
+
+## {background-image="Images/01-2-forest_protest.jpg"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<p style="color: white;">**1. The wilderness myth makes compromise impossible**</p>
+
+::: notes
+
+The wilderness myth makes compromise impossible and this thinking infects both sides of these debates
+
+<br>
+
+For many environmentalists, a romanticized wilderness means that:
+
+1. Many are fighting to protect a wilderness that does not exist (e.g. a "natural world" devoid of human impact), and
+
+2. Compromise of any kind on wilderness protection shrinks something that cannot be replaced
+
+:::
+
+
+
+## {background-image="Images/01-2-mining_pollution.webp"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<p style="color: white;">**1. The wilderness myth makes compromise impossible**</p>
+
+::: notes
+
+For many "polluters" or users of wilderness resources, a romanticized wilderness means that:
+
+1. There is no point trying to work with environmental activists who will not accept any compromises you offer and see your actions as reprehensible, and
+
+2. Once a wilderness is unmade, future damage to that area is no big deal
+    - These are the tar sands in Canada
+
+<br>
+
+Fundamentally, Cronon is arguing that our conception of wilderness itself is creating many, many of our most serious environmental problems.
+
+**Ultimately, has Cronon convinced you that the "wilderness" is an obstacle to solving environmental problems? Why or why not?**
+
+- *Force this discussion*
+
+<br>
+
+**Out of curiosity, where does Cronon take this argument in the article?**
+
+- **What is his "solution" to the wilderness problem?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+## {background-image="Images/01-2-nature_backyard.webp"}
+
+<p style="color: white;">**2. Recognize the wildness around you, and**</p>
+
+<p style="color: white;">**consider the needs of the people living on Earth**</p>
+
+::: notes
+
+Cronon's First Answer: Recognize that "wilderness" is a social construct
+
+- We must abandon "the dualism that sees the tree in the garden as artificial...and the tree in the wilderness as natural... Both trees in some ultimate sense are wild; **both in a practical sense now depend on our management and care**" (24).
+
+- This means we have responsibilities to resource management both in the artifical "wild places" AND where humans live too!
+
+<br>
+
+Cronon's Second Answer: Environmental problem-solving must begin at home and must consider the needs of the people (the creatures?) living on the Earth.
+
+- **By pretending our "real home" is in the wilderness, we allow ourselves to ignore and avoid dealing with the problems where we actually live.**
+
+<br>
+
+**What do you think of this conclusion?**
+
+- **Are you persuaded this is a useful way forward for solving environmental problems?**
+
+- *Force this discussion*
+
+<br>
+
+Ultimately, this article, and the book it comes from, helped me think very differently about environmental policy and solving problems in a community.
+
++ I realized I should not assume that the construct I like (wilderness) is automatically "better than" or "more valuable than" the one you like (industry, jobs, feeding your family).
+
++ I also came to see how humans have managed "the wilderness" in an active way which means I shouldn't oppose management and use policies simply to keep things to a "pristine" standard that never existed.
+
+<br>
+
+**SLIDE**: To end today, let's talk about this in broader terms for a moment.
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Setting the Stage for Problem-Solving**
+
+::: {.incremental}
+1) All environmental concepts are contested
+
+2) Your chosen definition narrows your options
+
+3) Many disputes arise from conflicting definitions
+:::
+::::
+
+::: notes
+
+As I mentioned last week, this first section of our class focuses on building our foundations for thinking about policy-making.
+
+- Cronon's arguments help us solve real-world environmental problems by thinking critically about problem definitions.
+
+<br>
+
+**REVEAL**: 1) We must remember that all of the concepts related to environmental problems will be contested (e.g. fought over),
+
+- No matter how obvious you think the problem is, I assure you that all of the stakeholders view it somewhat differently
+
+<br>
+
+**REVEAL**: 2) Your chosen definition automatically narrows the options of policies you think are acceptable vs not
+
+- Definitions set the agenda of future action
+
+- Be strategic when establishing a definition and be flexible in considering alternative viewpoints
+
+<br>
+
+**REVEAL**: 3) Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.
+
+- The most effective policy solutions begin with clear definitions that generate buy-in from the relevant stakeholders
+
+<br>
+
+**Questions on this?**
+:::
+
+
+
+## For Next Class: Case Studies {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Local Communities Solving Environmental Problems**
+
+- Find us an example of a LOCAL community anywhere in the world solving an environmental problem
+
+- Local: Focus on small communities, cities or counties
+
+- No overlaps: First-come, first-served
+
+::: notes
+
+Next week I want us to explore cases of local communities engaging with environmental problems
+
+- That in mind you have an assignment prompt for next class
+
+- The Canvas assignment gives more details and specific questions for you to answer about your case.
+
+<br>
+
+**Questions on the assignment?**
+:::

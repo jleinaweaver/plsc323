@@ -1,0 +1,985 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Finding and Analyzing the Relevant Stakeholders**
+
+- Different risk profiles complicate problem-solving
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. **Run slides off of laptop today so you can update the slides as we go**
+
+2. Bring pennies to class for coin flipping (1 per person)
+
+3. Prep Google Form to collect county fair responses AND publish it on Canvas
+    - https://forms.gle/VEZaRm7JEtM5ZeH2A
+    
+<br>
+
+**SLIDE**: Our current problem-solving process
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+Currently you are working in groups to complete Step 2
+
+- Remember, your new stakeholder submissions are due before class April 1st
+
+<br>
+
+*This time only because you changed the assignment after class*
+
+Given the specific and smaller nature of some of the stakeholders we are focused on for this problem I emailed everyone a slight modification to the assignment prompt for Apr 1st
+
+- Reach out to your selected stakeholder for information relevant to your problem definition. 
+
+- Be respectful of their time, but don't be afraid to introduce yourself and your work on this problem to see if they have thoughts about food waste they would be willing to share. 
+- **BEFORE you do this you must share with me your proposed questions so I can keep an eye on the process and help steer you in positive directions.**
+
+<br>
+
+**Any questions on the exercise? Concerns about reaching out?**
+
+<br>
+
+**SLIDE**: Reminder on Week 12 assignments
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### **Aim: Develop a useful problem-framing for food waste in our community**
+
+- Problem Framing Report due Apr 11th (end Wk 12)
+
+- Week 12: No in-person class Week 12 (Apr 8 and 10)
+
+- Register for volunteer hours here: [https://ozarksfoodharvest.org/how-to-help/volunteer/]()
+
+- **Submit a reflection on the exercise to Canvas**
+
+::: notes
+
+Quick reminder on our plan for Week 12
+
+<br>
+
+**SLIDE**: Our plan for the rest of this week and next
+
+:::
+
+
+
+## Analyzing Stakeholders {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+- Risk aversion (or risk acceptance)
+
+- Temporal discounting and uncertainty
+
+- Collective action problems and free-riding
+
+:::
+
+::: notes
+
+As I'm sure you are seeing from your own work, stakeholders vary in many idiosyncratic ways
+
+- e.g. unique to an individual
+
+- A plumber's view of water quality will certainly be different from a gardener's view
+
+<br>
+
+This list represents ways our stakeholders will vary from each other but in broadly generalizable ways
+
+- Analyzing stakeholders will be easier as you develop your understandings of these concepts
+
+- These will also become useful checklists for thinking about policy design and effectiveness
+
+<br>
+
+Today we explore risk aversion and risk acceptance.
+
+- Disputes over perceived risk tend to seriously complicate how stakeholders define problems and how they evaluate proposed solutions.
+
+<br>
+
+**SLIDE**: Of course, to talk about risk we have to first talk about probability.
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/05-1-coin_flip.gif){.absolute width="75%" right=0}
+
+![](Images/05-1-penny.jpg){.absolute width="30%" left=50 bottom=200}
+
+::: notes
+
+*Distribute pennies*
+
+<br>
+
+**Let’s start with this, what is the probability of getting heads when you flip a penny?**
+
+- **How do you know?**
+
+<br>
+
+**Assuming a probability of 50%, how many heads would you expect if i asked you to flip your coin ten times?**
+
+- (5 heads, right?)
+
+<br>
+
+Ok, let's test your intuition!
+
+- Flip your penny ten times and record the number of heads.
+
+<br>
+
+*Gather results and update next slide*
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width = '95%', fig.width=5}
+## Testing with fake data
+# classsize <- 17
+# d <- tibble(
+#   heads = rbinom(n = classsize, size = 10, prob = .5)
+#   #heads = c()
+# )
+
+## SP25 Results TBD
+#library(tidyverse)
+
+d <- tibble(
+ heads = c(5,3,7,7,4,4,5,4,6,6,6,4,6,6,5,5,3),
+ tails = 0
+)
+
+classsize = nrow(d)
+
+## Make bar plot
+p1 <- ggplot(data = d, aes(x = heads)) +
+  geom_bar() +
+  labs(y = "", x = "Number of Heads in Ten Flips") +
+  scale_x_continuous(breaks = 0:10, limits = c(0,10)) +
+  geom_hline(yintercept = seq(2,6,2), color = "white") +
+  theme_minimal()
+
+p1
+
+## SP23 Results
+# d <- tibble(
+#  heads = c(6, 6, 4, 2, 5, 4, 4, 7, 5, 6, 7, 8, 1, 7, 6, 6, 5, 2),
+#  tails = 0
+# )
+
+# SP22 Results
+# d <- tibble(
+#  heads = c(6, 4, 4, 8, 7, 2, 2, 7, 4, 4, 6, 4, 6, 4, 9, 8, 5, 6, 5),
+#  tails = 0
+# )
+```
+
+::: notes
+
+**What do we learn from our experiment?**
+
+- **Was our estimate of the probability of getting heads wrong or did we do our experiment wrong?**
+
+<br>
+
+Over just a few flips of the coin, many results are possible.
+
+- However, as a class you just flipped the coin `r classsize*10` times.
+
+- That is plenty times to start to zoom in on the actual probability of these pennies. 
+
+<br>
+
+**SLIDE**: If we average all of your flips together we get:
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.align='center', fig.asp=0.618, fig.width=5}
+## Make bar plot with mean
+p1 +
+  geom_vline(xintercept = mean(d$heads), color = "red", size = 1.2) +
+  annotate("text", x = 8, y = 5, label = str_c("Mean: ", round(mean(d$heads), 1)), color = "red", size = 6)
+
+```
+
+::: notes
+
+**Given this result, what is the probability of heads using our pennies?**
+
+<br>
+
+Ok, let's make sure we're clear.
+
+**Based on this exercise, I want you to define the word probabiility for me.**
+
+<br>
+
+(The probability is the likelihood of an event over the long run.)
+
+- If we flip these pennies many, many, many times we should get heads about this proportion of the time.
+
+- In other words, the probability is what we expect to happen if we could repeat a choice or an action many, many times.
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/05-1-weather_forecast.png')
+```
+
+::: notes
+
+Think about this as it relates to the weather.
+
+<br>
+
+**When the weather person tells you there is a 25% chance of rain today, what are they telling you?**
+
+<br>
+
+If you lived this day one hundred times, it would rain approximately 25 times.
+
+- in other words, they ran a computer simulation of today's weather a bunch of times and on one quarter of their simulations it rained, and on 3/4's of them it didn't
+
+<br>
+
+**So, when the weather forecast is for a 50% chance of rain today, what does that actually mean?**
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/05-1-confused_weatherman.jpg" .center}
+
+::: notes
+
+(It rained in half of the simulations)
+
+- In other words, they have no idea what is going to happen today.
+
+<br>
+
+**What does this mean for us, a group of people who will only live today one time?**
+
+- **Do I bring an umbrella to work on a 50% chance of rain day or not?**
+
++ ?
+
+<br>
+
+THIS is where your personal level of risk aversion or acceptance comes in!
+
+- The probability tells you the tendency of an event, but not the certainty of it.
+
+- YOU then have to decide the risks and rewards of acting as if that event will or won't happen.
+
+<br>
+
+### Don’t worry about the math, just tell me, does the intuition of a  probability make sense?
+
++ It is the likelihood of an event **over the long run**.
+:::
+
+
+## {background-image="Images/05-1-County_Fair.webp" .center}
+
+::: notes
+Now that you are all masters of probability, let’s dig into each of your risk profiles by gambling!
+
+<br>
+
+Imagine you are at the county fair with your best girl or guy and you come across a game called "Heads you win, Tails you lose."
+:::
+
+
+
+## Let's play a game! {background-image="Images/12_11-County_Fair_v2.png" .center}
+
+<br>
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.r-fit-text}
+Flip a fair coin **ONE** time
+
+- Heads pays you **$5**
+
+- Tails pays you **nothing**
+:::
+::::
+
+:::: {.column width="50%"}
+
+::::
+:::::
+
+::: notes
+
+The game is simple: Heads you win, Tails you lose 
+
+- Flip a fair coin, heads pays $5, tails you get nothing.
+
+<br>
+
+Everybody take a minute to think about this game.
+
+- Now, write down the maximum amount of money you would pay to play this game.
+
+- Don't say it out loud, just write down your answer!
+
+<br>
+
+**Everybody have their answer written down?**
+
+<br>
+
+Ok, rewind your imaginary date and let's replay the game!
+:::
+
+
+
+## Let's play a game! {background-image="Images/12_11-County_Fair_v2.png" .center}
+
+<br>
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.r-fit-text}
+Flip a fair coin **ONE** time
+
+- Heads pays you **$100**
+
+- Tails pays you **nothing**
+:::
+::::
+
+:::: {.column width="50%"}
+
+::::
+:::::
+
+::: notes
+
+You and your date arrive at the fair and see this game where heads pays you $100!
+
+- Take a minute to think about it and write down the maximum amount you would pay to play this game.
+
+<br>
+
+*Send out Email with Google Form link OR point them to link on Canvas Modules page*
+
+- *Update following with new data*
+:::
+
+
+## {background-image="Images/12_11-County_Fair_v2.png" .center}
+
+```{r, fig.align='center', fig.asp=1, fig.width=7}
+# Import the Data (Fake data SP23)
+d <- read_csv("CLASS_DATA-County Fair Game (Spring 2026).csv") |>
+  select(name = `Name?`,
+         choice5 = `Flip a fair coin: Heads pays you $5, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`,
+         choice100 = `Flip a fair coin: Heads pays you $100, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`)
+
+# Outputs
+# bars of choice 5
+d |>
+  ggplot(aes(x = choice5, y = reorder(name, choice5))) +
+  geom_col() +
+  labs(x = "Maximum amount you would pay", y = "",
+       title = "Version 1: Heads Pays $5") +
+  theme_bw() +
+  scale_x_continuous(labels = scales::dollar_format())
+```
+
+::: notes
+
+Here are our results focused on the first version of the game.
+
+**Explain to me your choices here.**
+
+- **Why did you choose the amount that you did?**
+
+<br>
+
+**Is one of these more "correct" than the others? Why or why not?**
+
+<br>
+
+**SLIDE**: Version 2
+
+:::
+
+## {background-image="Images/12_11-County_Fair_v2.png" .center}
+
+```{r, fig.align='center', fig.asp=1, fig.width=7}
+# bars of choice 100
+d |>
+  ggplot(aes(x = choice100, y = reorder(name, choice100))) +
+  geom_col() +
+  labs(x = "Maximum amount you would pay", y = "",
+       title = "Version 2: Heads Pays $100") +
+  theme_bw() +
+  scale_x_continuous(labels = scales::dollar_format())
+```
+
+::: notes
+
+Here are our results focused on the second version of the game.
+
+**Explain to me your choices here.**
+
+- **Why did you choose the amount that you did?**
+
+<br>
+
+**Is one of these more "correct" than the others? Why or why not?**
+
+<br>
+
+**SLIDE**: Link the results!
+:::
+
+
+## {background-image="Images/12_11-County_Fair_v2.png" .center}
+
+```{r, fig.align='center', fig.asp=.9, fig.width=7}
+d |>
+  mutate(
+    percent_win5 = choice5/5,
+    percent_win100 = choice100/100
+  ) |>
+  ggplot(aes(x = percent_win5, y = percent_win100)) +
+  geom_abline(slope = 1, intercept = 0, linewidth = .1) +
+  geom_point() +
+  ggrepel::geom_text_repel(aes(label = name)) +
+  theme_bw() +
+  scale_x_continuous(labels = scales::percent_format(), limits = c(0,1)) +
+  scale_y_continuous(labels = scales::percent_format(), limits = c(0,1)) +
+  labs(x = "Version 1 (% of $5)", y = "Version 2 (% of $100)",
+       title = "What are you willing to pay to play these games?")
+#title = "How much variation in our risk profiles?"
+```
+
+::: notes
+
+Here I've converted all of your maximums into a % of the possible winnings.
+
+- So, if you would pay $2.50 for the $5 game then you would pay half the possible winnings to play (e.g. 50%)
+
+- Anybody on the 45 degree line represents someone equally willing to take on the risk regardless of the stakes
+
+<br>
+
+**Ok, describe to me the risk profiles in our class**
+
+- **What do we learn from this?**
+
+<br>
+
+- **Is the group mostly risk averse or acceptant? Why?**
+
+- **Who, as individuals, stands out on the extremes?**
+
+<br>
+
+**Why aren't all the observations on the diagonal line?**
+
+- **Shouldn't your offer to play the $100 game be exactly 20 times your answer in the $5 game?**
+
+<br>
+
+Everyone has a different relationship to risk
+
+- Some people are more willing to take on risk to win greater rewards and some people are not
+
+- Not right or wrong, just different willingness to accept risk.
+
+<br>
+
+Your relationship to risk is sensitive to both the size of the risk AND the size of the reward!
+
+- If you are above the diagonal line then you are someone who is more willing to take on risk when the stakes are high, e.g. you are risk acceptant
+
+- If you are below the line then you are more price sensitive, e.g. you are more risk averse
+
+<br>
+
+**Does that make sense?**
+
+<br>
+
+**SLIDE**: Not just an issue in toy games or lotteries, real world decisions too
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/09_2-4waystop_rural.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Important note, this is not just about games of chance!
+
+- Your decision-making is constantly influenced by your feelings about risk.
+
+<br>
+
+Ok, drivers, so you're cruising down a country road in a rural part of the state and you see this ahead of you. 
+
+- There is not a single other car out here for MILES around
+
+- **What do you do at the stop sign?**
+
+- **Are you risk averse or acceptant here? Why?**
+
+<br>
+
+**SLIDE**: Scenario 2
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/05-1-intersection.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Ok, drivers, so you're cruising down the road and you see this ahead of you. What do you see and what do you do about it?**
+
+- **Are you risk averse or acceptant here? Why?**
+
+<br>
+
+**SLIDE**: Scenario 3
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/09_2-car_and_train.avif){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Last one.
+
+- You're coming up to a train crossing and you can tell that train is REALLY long.
+
+- **Who goes for it?**
+
+- **Are you risk averse or acceptant here? Why?**
+
+<br>
+
+**SLIDE**: Takeaways
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<br>
+
+![](Images/09_2-4waystop_rural.jpg)
+:::
+
+::: {.column width="50%"}
+![](Images/05-1-intersection.jpg)
+
+![](Images/09_2-car_and_train.avif)
+:::
+
+::::
+
+::: notes
+
+**What do we learn about risk profiles from these three scenarios and your responses to them?**
+
+<br>
+
+Stakeholders risk profiles will vary with their perceptions
+
+- e.g. Context matters
+
+<br>
+
+AND, even more importantly, it means that you can move them with argument and good policy design!
+
+- **Does everybody see how risk profiles matter for understanding stakeholder decisionmaking?**
+
+<br>
+
+- **And does everybody see that it should be possible to influence stakeholder risk profiles?**
+
+<br>
+
+**Any questions about these basic introductions to probabilities or risk aversion?**
+
+<br>
+
+**SLIDE**: Let's take these concepts into the assigned readings for today
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Ehrlich & Ehrlich (2008)**
+
+Too Many People, Too Much Consumption
+:::
+
+<br>
+
+::: {.fragment}
+### Therefore, a combination of overpopulation and overconsumption has us on track for disaster
+:::
+
+::: notes
+Ok, let's examine the Ehrlich and Ehrlich paper first.
+
+<br>
+
+**What is the conclusion of the argument by Ehrlich and Ehrlich?**
+
+- (**REVEAL**: Therefore, a combination of overpopulation x overconsumption has us on track for disaster.)
+
+<br>
+
+**Take a few minutes on your own to identify the key premises the authors use to support this conclusion.**
+
+<br>
+
+*Split class into three groups*
+
+<br>
+
+Groups, work together to get a diagram of this argument up on the board!
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS*
+
+<br>
+
+**SLIDE**: My version
+
+:::
+
+
+## Ehrlich & Ehrlich (2008) {background-image="Images/background-forest_v3.png" .center}
+
+- We are rapidly depleting the natural capital of the Earth
+
+- Damage = Population x Consumption x Technology
+
+- Population control is controversial
+
+- Overconsumption is complex and difficult to reduce
+
+- Technology improvements cannot save us
+
+Therefore, a combination of overpopulation and overconsumption has us on track for disaster
+
+::: notes
+
+**Is this an argument that we should be risk averse or acceptant when thinking about populations and consumption?**
+
+- (VERY risk averse, right?)
+
+<br>
+
+**What are the most effective parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
+
+<br>
+
+**What are the weakest parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
+
+<br>
+
+**Lessons for us on making these arguments?**
+
+<br>
+
+**SLIDE**: Switch to the Simon reading
+
+<br>
+
+**OLD Notes**
+
++ (We are rapidly depleting the natural capital of the Earth; soil, groundwater, biodiversity)
++ (Negative Impact = Pop x Consumption x Technology)
++ (Technology improvements can help but cannot save us)
++ (Many past human societies have collapsed under the weight of overpopulation and environmental neglect, e.g. see Easter Island, the Mayans, and Nineveh)
++ (It is getting harder to locate the resources we need, e.g. have to mine deeper, use poorer soils, etc)
++ (Population control is controversial on both the left and the right though for different reasons and the media is "pro-natalist" in its framings of these stories, e.g. more births are good)
++ (Tackling overconsumption is complex and very, very difficult)
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Simon (1993)**
+
+Population Growth Is Not Bad for Humanity
+:::
+
+<br>
+
+::: {.fragment}
+### Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
+:::
+
+::: notes
+
+**What is the conclusion of the article by Julian Simon?**
+
+- (**REVEAL**)
+
+<br>
+
+**Take a few minutes on your own to identify the key premises Simon uses to support this conclusion.**
+
+<br>
+
+Groups, work together to get a diagram of this argument up on the board!
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS*
+
+<br>
+
+**SLIDE**: My version
+
+:::
+
+
+
+## Simon (1993) {background-image="Images/background-forest_v3.png" .center}
+
+- Overpopulation hysteria is costly to society
+
+- Trusting markets means trusting that shortages produce innovation
+
+- The only limit to innovation is a shortage of people!
+
+- More people = Larger stock of human knowledge
+
+Therefore, "the energetic effort of humankind will prevail in the future" over whatever environmental challenges we face.
+
+
+::: notes
+**Is this an argument that we should be risk averse or acceptant when thinking about populations and consumption?**
+
+- (VERY risk acceptant, right?)
+
+<br>
+
+**What are the most effective parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
+
+<br>
+
+**What are the weakest parts of this argument for pushing a reader to adopt a risk averse perspective on this problem?**
+
+<br>
+
+**Lessons for us on making these arguments?**
+
+<br>
+
+**Old NOTES**
+
++ (Overpopulation hysteria has cost us dearly, distracted us from improving lives through targeting economic and political systems)
++ (The research shows "that faster population growth is not associated with slower economic growth")
++ (Market-directed economies do better than centrally planned ones)
++ (As with man-made production capital, so it is with natural resources: Shortages lead to the discovery of substitutes)
++ (Shortages ACTUALLY tend to leave us better off than before)
++ (The only serious shortage is ACTUALLY human beings!)
++ (The most important benefit of population size and growth is the increase it brings to the stock of useful knowledge.)
++ (Progress is limited largely by the availability of trained workers.)
+
+Therefore, it is reasonable to expect "that the energetic effort of humankind will prevail in the future, as they have in the past, to increase worldwide our numbers, our health, our wealth, and our opportunities" (10))
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+**Is everybody clear on how differing levels of risk aversion complicate environmental problem-solving?**
+
+<br>
+
+Today's work is meant to help you think critically about:
+
+1. HOW stakeholders vary in their relationship to risk, and
+
+2. HOW problem framing is often an exercise in trying to move stakeholders' risk profiles in relation to a specific problem
+
+<br>
+
+**Did you find one of these problem framing exercises today more convincing than the other (e.g. Ehrlich and Ehrlich vs Simon)? Why or why not?**
+
+<br>
+
+A big part of your job working in a community will be to develop a compelling problem framing that draws in both sets of actors across this divide.
+
+- **Is there any room between the Ehrlich's and Simon on these problems?**
+
+- **In other words, could we present a problem-framing that gets both these actors on our side?**
+
+:::
+
+
+
+
+##  {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Different risk profiles complicate problem-solving**
+:::
+
+<br>
+
+### How much variation is there in the risk profiles of the stakeholders in your map of the food waste problem?
+
+::: notes
+
+*With time remaining*
+
+- Groups, let's take today's material into your ongoing work!
+
+- get ready to report back!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next class
+:::
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Analyzing Stakeholders: The Role of Uncertainty**
+
+1. Pindyck (2007)
+
+2. Gettleman (2015)
+
+3. Hart (2024)
+
+:::
+
+::: notes
+
+Next class we talk uncertainty, time horizons and temporal discounting
+
+:::

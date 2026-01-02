@@ -1,0 +1,1118 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**The "What" and "Why" of Public Policy**
+
+- Definitions, pre-requisites and standards of assessment
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Bring markers x4
+
+3. Add some brainstormed hypotheses from week 2 here to the refresher material
+
+4. TAKE YOUR TIME, this is dense material!
+
+5. Bring the Munger book to class
+    - Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
+
+6. OLD Wisdoms slides at bottom
+
+<br>
+
+**SLIDE**: Let's refresh our work so far in this class.
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+```{r, echo = FALSE, fig.align = 'center'}
+knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
+```
+
+::: notes
+
+Refresh my memory!
+
+- In our first class we simulated a resource management problem.
+
+<br>
+
+**One more time, what was the problem your community faced in our game?**
+
+- (How to manage a renewable resource)
+
+- (How to distribute benefits in a community)
+
+<br>
+
+**In what ways can we think of this as a successful community effort in resource management?**
+
+- **In other words, tell me the success story version of what happened**
+
+<br>
+
+Now reverse it!
+
+- **In what ways can we think of this as a failed effort in resource management?**
+
+- (Maximize individual results!)
+
+<br>
+
+**And what were the key lessons for us of this simulation?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+<br>
+
+Politics in everything!
+
+- EVERY problem exists in a community, and 
+
+- EVERY community is a complex mix of actors, rules and interactions
+
+::: notes
+
+*Read slide*
+
+<br>
+
+Each proposal for managing the resource was evaluated by the class in terms of the rules and processes they already operate within
+
+- This means that new rules and processes must be adapted to the rules and processes already in place
+
+<br>
+
+Each proposal was altered based on the other proposals!
+
+- We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
+
+<br>
+
+You guys were rather eager to jump to murder as a means for enforcing the rules
+
+- This means that trust is a vital component of creating rules that will work
+
+- Societies with a lack of trust are in for a rough time trying to solve problems.
+
+<br>
+
+**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
+
+- As policy-makers you need to keep these lessons in mind
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-Oregon_Wilderness2.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-City_Street3_v2.png)
+
+:::
+::::
+
+::: {.r-fit-text}
+**The Trouble with Wilderness**
+:::
+
+::: notes
+
+After the simulation we shifted our focus to a big collection of key ideas discussed in the Cronon piece from 1996.
+
+<br>
+
+**For the purposes of problem-solving, what is "the trouble with wilderness" and what do we need to keep in mind as we work?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+
+<br>
+
+**The Trouble with Wilderness**
+
+1. The "environment" is a contested concept
+
+2. "Conflict" is often due to conflicting definitions
+
+3. **YOU** have to be curious and adaptable
+:::
+
+::: notes
+
+
+1. "The Environment", or whatever specific piece of it you are focusing on in problem-solving, is a human construct.
+
+    - Cronon (1996) argues that ALL environmental concepts are constructed by people and their meanings evolve over time!
+
+<br>
+
+2. The root of many "environmental" conflicts is often a conflict in definitions
+
+    - Stakeholders will almost certainly define the key concept in your problem differently.
+
+    - This leads to actors arguing past each other
+
+<br>
+    
+3. A good problem-solver must be flexible and adaptable which means not locking in on any single definition!
+
+    - The key skill is learning to identify the stakeholders' definitions and knowing how to connect them!
+
+    - We must design solutions that either work to align those competing framings OR that are consistent with all relevant definitions.
+    
+<br>
+
+**Is everybody clear on how "the environment" plays a role in problem-solving?**
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+After exploring the Cronon piece we shifted into a comparative case study exercise
+
+<br>
+
+**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
+
+- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
+
+<br>
+
+- (**SLIDE**: Examples from week 2)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+**P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear (and widely accepted)
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvement
+- The plan changes incentives (carrots or sticks)
+
+::: notes
+
+Lots of intriguing ideas from your work in Week 2.
+
+- Don't lose these as they imply strategies for attacking environmental problems in a local community!
+
+<br>
+
+**SLIDE**: Our work for this week...
+
+:::
+
+
+
+## Our Aim for This Week {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy!**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=25 left=100 width="800"}
+
+::: notes
+
+This week we need to **define "policy"** and think carefully about what it means to say that a problem **REQUIRES** a policy solution!
+
+<br>
+
+For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
+
+- Munger's book is an excellent read for anyone interested in becoming a policy analyst or policymaker.
+
+- Munger makes a series of arguments about policymaking that I want us to unpack together and then evaluate
+
+- We should keep the parts we think will be useful and discard the others
+
+<br>
+
+**Let's set the table first in a big picture way. When you hear the word "policy," what immediately springs to mind?**
+
+- **What are the "policy" examples that you've encountered?**
+
+<br>
+
+- (Laws and regulations by government)
+
+- (Rules for behavior as a student at Drury)
+
+- (Rules tied to your contract with your employer at work)
+
+- (The class syllabus!)
+
+<br>
+
+**SLIDE**: "Requires" is a strong claim here, so let's discuss it.
+
+:::
+
+
+
+## {background-image="Images/02-1-cavemen.jpg" .center}
+
+::: notes
+
+Let's start with Munger's discussion of the hypothetical Hun-gats tribe (p40-47)
+
+- This is absolutely one of my favorite thought experiments
+
+<br>
+
+**Talk to me about the tribe. What details stood out for you in this thought experiment?**
+
+<br>
+
+- **What dilemma was the tribe facing?**
+
+- **What options were available to them and what were the pros and cons of each?**
+
+- **Are you convinced there is no reasonable individual path to survival for the Hungats? Why or why not?**
+
+<br>
+
+A tribe of hunter-gatherers in pre-history that are running out of food (or at least the food they know is safe to eat)
+
+- Option: They can stay independent and "free" (every man for himself), but that will almost certainly wipe them out
+
+- Option: Create policy to share risk and increase chances of survival over time
+
+<br>
+
+**Why is Munger telling us this story?**
+
+- **What does he hope aspiring policy analysts will learn from this?**
+
+- (**SLIDE**: *These bullets on next slide*)
+    1. There was never a "state of nature"
+    2. Survival makes policy a necessity
+    3. Battles over expertise are unavoidable
+    4. Policy effectiveness depends on authority
+
+:::
+
+
+
+## {background-image="Images/02_1-Cavemen_filtered.png" .center}
+
+:::: {.incremental}
+::: {.r-fit-text}
+**The Lessons of the Hun-gats**
+
+1. There was never a "state of nature"
+
+2. Survival makes policy a necessity
+
+3. Battles over expertise are unavoidable
+
+4. Policy effectiveness depends on authority
+
+:::
+::::
+
+::: notes
+
+**REVEAL 1**: The "state of nature" baseline is probably a stupid one as it never could have existed (not even in this thought experiment)
+
+<br>
+
+Think back to our simulation on the first day of class.
+
+- Most of you were strangers to each other when we played the game and yet your behavior was HEAVILY influenced by:
+
+    - Your individual expectations for how you will do in this class (e.g. is EC valuable or not?),
+
+    - Your individual needs for progress towards your longer-term goals (graduation, grad school, etc)
+
+    - Your desire to be seen by the rest of the group in a particular way (classmates and professor)
+
+    - Your sense of how classrooms in college are supposed to function (e.g. what are the rules of behavior?)
+
+    - Your desire (maybe?) to not exterminate a species
+
+    - and so much more...
+
+<br>
+
+There is no "starting from scratch" anywhere in human societies!
+
+- All new policies are built on top of a mess of established policies and there's no avoiding that
+
+<br>
+
+**REVEAL 2**: Survival odds are maximized by sharing risks and benefits in a community
+
+- Socialism for the win, eh?
+
+- Community's require rules to function
+
+<br>
+
+**REVEAL 3**: Battles over expertise are central to policy-making
+
+- There is no single, perfect standard for evaluating outcomes
+
+- Different perspectives and interests will prefer different standards
+
+<br>
+
+**REVEAL 4**: Policy can only ever be as effective as the authority that compels the behavior, e.g. the birth of religious rules?
+
+<br>
+
+**Is everybody clear on these four "lessons"?**
+
+:::
+
+
+
+## Our Aim for This Week {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy!**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=25 left=100 width="800"}
+
+::: notes
+
+Back to the big argument!
+
+- *Key discussion number 1, encourage this debate*
+
+<br>
+
+**Are you persuaded that problem-solving in a community requires policy? Why or why not?**
+
+- **In other words, could you imagine a functional society that operated in the absence of policy? Why or why not?**
+    
+<br>
+    
+**Are there elements of Munger's thought experiment you think are problematic for supporting this argument? Why or why not?**
+
+<br>
+
+Bottom line, I really appreciate how Munger's thought experiment distills down to the fundamental basics of how any human society functions.
+
+- The creation of policy helps maximize the odds of survival
+
+<br>
+
+**SLIDE**: That takes us to the second policymaking argument we need to evaluate
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Problem-solving in a community requires policy, but policymaking has pre-requisites!
+
+
+![](Images/02-1-Munger_Fig2-3.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Just because you now accept that a problem is serious and needs policy to address it, doesn't mean the community is on board!
+
+- In Figure 2.3 Munger lays out his "three stages of policy choice"
+
+- aka "Deciding How to Decide"
+
+<br>
+
+In essence, Munger's three steps are:
+
+1. Convince the community that there is a problem,
+
+2. Convince the community that it should be addressed collectively, and
+
+3. Convince the community of how the specific policy should be adopted
+
+<br>
+
+Fundamentally, this figure is a reminder for ALL policymakers: **BEFORE you try to solve ANY problem, you MUST make a number of convincing arguments**
+
+<br>
+
+**SLIDE**: For our purposes, I'm going to boil these down to two distinct steps I'm describing as the pre-requisites of policy
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+Each pre-requisite is a distinct argument that you have to successfully make before moving to any actual policy-design
+
+<br>
+
+In other words, before we can debate rules, new taxes, subsidies or anything else you first must succeed in convincing the community that collective action is needed.
+
+- This is NOT an easy step, but the better you do this the easier the rest of the process becomes.
+
+<br>
+
+Let's start with the first of these
+
+- **SLIDE**: What does it mean to argue that we have a public problem?
+
+:::
+
+
+
+## Policymaking Pre-Requisite 1 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Private Problem**
+
+- "My choice has no consequence for your welfare"
+
+**Public Problem**
+
+- "My choices affect your welfare"
+
+:::
+
+::: notes
+
+First you must establish who is being impacted by the choices that are creating the problem, as you see it
+
+- Note that for clarity I am referring to these as debates about the "problem" instead of "decisions" as Munger does in the chapter
+
+<br>
+
+**Give me an example of something in your life that is clearly a "private problem" by this definition.**
+
+<br>
+
+**Now give me an example of something in your life that is clearly a "public problem" by this definition.**
+
+<br>
+
+**How distinct are these two things?**
+
+- **Is it likely the case that people easily agree the difference between public and private problems?**
+
+<br>
+
+- **Give me an example of a problem that straddles the line between public and private these days**
+
+<br>
+
+Ok, so you've convinced the community that we have a public problem, now what?
+
+- **SLIDE**: Now we make the argument that this problem requires a collective decision to solve it
+:::
+
+
+## Policymaking Pre-Requisite 2 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Individual Decision**
+
+- "I can choose, alone and without interference"
+
+**Collective Decision**
+
+- "Choices are made by a group, and are binding on all"
+:::
+
+::: notes
+The second pre-requisite is that you convince the community that this problematic "choice" should be governed by rules set by us all collectively.
+
+<br>
+
+**Give me an example of something in your life that should definitely remain an "individual decision" by this definition.**
+
+<br>
+
+**Now give me an example of something in your life that should absolutely require a "collective decision" by this definition.**
+
+<br>
+
+**How distinct are these two things?**
+
+- **Is it likely the case that people easily agree the difference between individual and collective decision problems?**
+
+<br>
+
+- **Give me an example of a problem that straddles the line**
+
+<br>
+
+**SLIDE**: Set up the practice exercise
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+**Ok, any questions on the two pre-requisites we must complete?**
+
+<br>
+
+Let's practice making these kinds of arguments
+
+- *Split class into three groups*
+
+- Go sit with your group and claim some space on the board!
+
+<br>
+
+**SLIDE**: We're going back to the magical fishery!
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Does our magical fishery require public policy?**
+:::
+
+- Group 1: Private Problem, Individual Decision
+
+- Group 2: Public Problem, Individual Decision
+
+- Group 3: Public Problem, Collective Decision
+
+::: notes
+
+Each group will have ten minutes to put on the board the strongest argument they can that supports one of three possible answers to this question
+
+- Group 1, your conclusion is that the magical fishery is a private problem that should be left to the individual to manage
+
+- Group 2, your conclusion is that the magical fishery is a public problem, BUT it should still be left to the individual to manage
+
+- Group 3, your conclusion is that the magical fishery is a public problem, AND it should be managed collectively
+
+<br>
+
+**Everybody clear on the job?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- **What advice can we offer each group to help them strengthen their argument?**
+
+<br>
+
+Ok, groups, now you know the enemy!
+
+- Take some time to reinforce your argument AND to prepare a counter-argument against the other two groups
+
+- **Does everybody understand what I'm asking for?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**Out of curiosity, and in terms of our fishery, which of these do you find the most convincing? Why?**
+
+<br>
+
+**SLIDE**: Persuason as setting the foundation for policymaking
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Setting the Foundation for Policymaking**
+
+<br>
+
+**Moving Group 1 to Group 2**
+
+:::
+
+- Group 1: The magical fishery is a private problem that should be left to the individual to manage
+
+- Group 2: The magical fishery is a public problem, BUT it should still be left to the individual to manage
+
+::: notes
+
+Now that we've mapped out the obstacles, our job is to work to overcome them!
+
+<br>
+
+Typically, your first job is to develop consensus in the community around the idea that we have a public problem (not private).
+
+- This means not yet challenging the belief that this is none of your business!
+
+<br>
+
+**Ok, let's brainstorm from strategies for moving someone from Group 1 to Group 2**
+
+- *DISCUSS*
+
+<br>
+
+**Does everybody understand why we start with Group 1 and not Group 2?**
+
+<br>
+
+**SLIDE**: Now the usually much harder job!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Setting the Foundation for Policymaking**
+
+<br>
+
+**Moving Group 2 to Group 3**
+
+:::
+
+- Group 2: The magical fishery is a public problem, BUT it should still be left to the individual to manage
+
+- Group 3: The magical fishery is a public problem, AND it should be managed collectively
+
+::: notes
+
+**What kinds of argument would you suggest for the second type, e.g. moving someone from Group 2 to Group 3?**
+
+- *DISCUSS*
+
+<br>
+
+**SLIDE**: Evaluating the second argument
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+Alright, now we need to evaluate this second big argument.
+
+<br>
+
+**Are you convinced that these are the required pre-requisites for policymaking in a community? Why or why not?**
+
+- **What is the value in mapping out the positions like this before starting policymaking?**
+
+<br>
+
+- **And what is the value in spending time and effort moving the groups BEFORE beginning policymaking?**
+
+<br>
+
+Bottom line, I am convinced that this pre-requisite stage represents incredibly important time spent laying the foundation for future success in a community: 
+
+- Find the stakeholders, learn about their framings, identify obstacles and work to smooth them!
+
+<br>
+
+**SLIDE**: TBC next class!
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
+
+::: notes
+
+Next class we'll finish discussing the big elements of the Munger chapter AND dig into our local community!
+
+<br>
+
+For next class you will read the last 3 Springfield Community Focus Reports and be ready to discuss them in class
+
+- Report 2024, Report 2021, Report 2019
+
+To be clear, NOT just the environmental stuff, it's all connected! 
+
+- Get a sense of how our community identifies and addresses big challenges.
+
+<br>
+
+Canvas: How effective has the Springfield community been in identifying and solving big problems?
+
+Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
+
+1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
+
+2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
+
+<br>
+
+**Questions on this assignment?**
+:::
+
+
+## OLD SLIDES: The Wisdoms
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Munger's (2000) Three "Wisdoms"**
+
+1. Markets
+
+2. Politics
+
+3. Experts
+:::
+
+![](Images/02-1-Munger_Fig2-1.png){.absolute right=0 bottom=0 width="600"}
+
+::: notes
+
+**SLIDE**: So we're going to make a policy, but which "policy" is the wise one?
+
+
+
+Munger opens the chapter with three of what he describes as "wisdoms" or ways of people might evaluate the "correctness" of a policy
+
+- The third argument for us to evaluate today is whether or not these wisdoms are a useful tool for policymakers
+
+- Let's step through each in broad terms
+
+<br>
+
+**SLIDE**: Markets
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Munger's (2000) Three "Wisdoms"**
+
+1. **Markets**
+
+2. Politics
+
+3. Experts
+:::
+
+![](Images/03_1-Market-economies.webp){.absolute right=0 bottom=75 width="600"}
+
+::: notes
+
+**What would it mean to adopt the markets as your primary "wisdom" for policymaking?**
+
+- **In other words, how might a markets-focus be used to solve environmental problems?**
+
+<br>
+
+Preference for allocating resources AND solving problems using systems of private exchange. 
+
+- Concerned primarily with process, less so with outcomes
+
+- Preference for non-interventionist style policies wherever possible
+
+- Rules only to keep that market well functioning (contract enforcement, etc)
+
+<br>
+
+**What would a market-based solution to our magical fishery resource look like?**
+
+- **How many fishers? Who fishes? What about enforcement?**
+
+<br>
+
+**According to the chapter, what are the pros and cons of prioritizing a markets focus over the others?**
+
+Pros: 
+
+- Most efficient by definition (most bang for the resource buck)
+
+<br>
+
+Cons - Market failures such as:
+
+1) Monopolies (e.g. antitrust), 
+
+2) Externalities (e.g. pollution), 
+
+3) Under supply of public goods (e.g. free-riding), and 
+
+4) Information problems (e.g. drug safety); Reduces all problems to maximization of use issues
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Munger's (2000) Three "Wisdoms"**
+
+1. Markets
+
+2. **Politics**
+
+3. Experts
+:::
+
+![](Images/03_1-politics.jpg){.absolute right=0 bottom=125 width="600"}
+
+::: notes
+
+**What would it mean to adopt politics as your primary "wisdom" for policymaking?**
+
+- **In other words, how might a politics-focus prefer we solve environmental problems?**
+
+<br>
+
+Preference for allocating resources AND solving problems emphasizing the role of institutions and citizen involvement in the process. 
+
+- Institutions designed to coordinate and facilitate collective action 
+
+- Typically concerned about process and outcomes 
+
+<br>
+
+**What would a politics-based solution to our magical fishery resource look like?**
+
+- **How many fishers? Who fishes? What about enforcement?**
+
+<br>
+
+**According to the chapter, what are the pros and cons of prioritizing a politics focus over the others?**
+
+Pros: 
+
+- Can be done to maximize participation; 
+
+<br>
+
+Cons: 
+
+- Can be very slow; 
+
+- Can be very messy; 
+
+- Often has trouble with long time horizon problems
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Munger's (2000) Three "Wisdoms"**
+
+1. Markets
+
+2. Politics
+
+3. **Experts**
+:::
+
+![](Images/03_1-social_science.png){.absolute right=0 bottom=125 width="600"}
+
+::: notes
+
+**What would it mean to adopt expertise as your primary "wisdom" for policymaking?**
+
+- **In other words, how might an experts-based focus prefer we solve environmental problems?**
+
+<br>
+
+Preference for allocating resources AND solving problems emphasizing deeper knowledge of the systems involved. 
+
+- "someone who has the goal of improving the functioning of politics or markets" (31).
+
+- Those systems can be economic, political or scientific.
+
+<br>
+
+**What would an expert driven solution to our magical fishery resource look like?**
+
+- **How many fishers? Who fishes? What about enforcement?**
+
+<br>
+
+**According to the chapter, what are the pros and cons of prioritizing a politics focus over the others?**
+
+Pros: 
+
+- Hopefully relies on transparent and verifiable knowledge; 
+
+- Plans built on expertise and designed with ongoing evaluation
+
+<br>
+
+Cons: 
+
+- May discourage wide participation; 
+
+- May privilege some uses/solutions over others; 
+
+- May lead to inequitable outcomes depending on "who" the experts are
+
+<br>
+
+**SLIDE**: Let's play with these ideas
+
+:::
+
+
+
+
+
+
+

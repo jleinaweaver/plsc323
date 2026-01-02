@@ -1,0 +1,639 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+### What are the impacts of food waste on human and environmental health?
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Bring markers x2 for group work
+
+3. Take CPR notes from last class, clean them up and share on slides
+
+<br>
+
+**SLIDE**: Refresh our process
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem for the stakeholders
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+The process we are following this semester is informed by everything we've done over the last five weeks
+
+<br>
+
+The process acknowledges that all community problems exist in political arenas
+
+- e.g. places with established patterns of interests, institutions and interactions
+
+- Considering the "politics" of the problem is meant to help us navigate the community and maximize our chances of success!
+
+<br>
+
+The process acknowledges the importance of contested concepts in problem-solving
+
+- "Environment" is an ever-evolving and contested concept with no "correct" answer
+    
+- BUT getting everyone to accept a common definition is incredibly powerful!
+
+- And that's why we don't actually "frame" the problem for the community until AFTER hearing from the community!
+
+<br>
+
+**Questions on our process?**
+
+<br>
+
+**SLIDE**: Last week's work on process also gave us a chance to refine our definition of the problem we are working on
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Defining our Environmental Problem as a CPR**
+
+<br>
+
+**The problem of food waste defined as...**
+
+- Food insecurity
+
+- Food waste being generated
+
+- Food waste reaching the landfill
+
+- Food waste in the landfill (emissions &#8593;, capacity &#8595;)
+
+:::
+
+::: notes
+
+Last Tuesday we followed the advice in Hughes (2006) in order to generate this list.
+
+- **Everybody has this in their notes, right?**
+
+<br>
+
+Then on Thursday we explored reframing each of these as common pool resource problems
+
+- As you remember, thinking about environmental problems as CPRs means thinking about the health of a system, the health of the units and how we, as managers, can adjust the flow of units from the system to maximize some valuable goals
+
+- Thanks Elinor Ostrom!
+
+<br>
+
+**SLIDE**: I took your notes from the board and cleaned them up a bit
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+**Defining Food Waste as a CPR**
+
+<br>
+
+**1. The "flow" of food creating insecurity**
+:::
+
+| **Resource System** | **Resource Units**         | **Notes**                              |
+|---------------------|----------------------------|----------------------------------------|
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | Food for humans, animals or industry |
+
+::: notes
+
+**Do all of these CPR versions of our problem make sense?**
+
+- Remember to think about these in terms of systems that produce units whose flow can be controlled
+
+<br>
+
+**Group 1, did I miss anything you want to re-raise from your notes?**
+
+<br>
+
+**SLIDE**: Definition 2
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+
+**Defining Food Waste as a CPR**
+
+<br>
+
+**2. The "flow" of waste being generated**
+
+:::
+
+| **Resource System** | **Resource Units**         | **Notes**                              |
+|---------------------|----------------------------|----------------------------------------|
+| Households          | Food waste (lbs)           | Productive use vs thrown away          |
+| Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
+| Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
+
+::: notes
+
+**Do all of these CPRs make sense?**
+
+<br>
+
+**Group 2, did I miss anything you want to re-raise from your notes?**
+
+<br>
+
+**SLIDE**: Definition 3
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+
+**Defining Food Waste as a CPR**
+
+<br>
+
+**3. The "flow" of waste being transported**
+
+:::
+
+| **Resource System** | **Resource Units**            | **Notes**                 |
+| **Resource System** | **Resource Units**            | **Notes**                 |
+|---------------------|-------------------------------|---------------------------|
+| Community Roads     | Miles driven | More waste, more trucks, more road damage  |
+| Community Roads     | Trucks in service (#) | More waste, more trucks, more road damage  |
+| Community Health    | Food (lbs)                    | Used vs Donated vs Wasted |
+
+::: notes
+
+**Do all of these CPRs make sense?**
+
+<br>
+
+**Group 3, did I miss anything you want to re-raise from your notes?**
+
+<br>
+
+**SLIDE**: Definition 4
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+::: {.r-fit-text}
+
+**Defining Food Waste as a CPR**
+
+<br>
+
+**4. The "flow" as damage to the landfill**
+
+:::
+
+| **Resource System** | **Resource Units**        | **Notes**                                            |
+|---------------------|---------------------------|------------------------------------------------------|
+| Landfill            | Food Waste (lbs)                | Reaching its capacity |
+| Landfill            | Food Waste (lbs)                | Need for maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from food waste |
+
+::: notes
+
+**Do all of these CPRs make sense?**
+
+<br>
+
+**Group 4, did I miss anything you want to re-raise from your notes?**
+
+<br>
+
+**SLIDE**: Let's put them all up!
+
+:::
+
+
+
+## {.center .smaller}
+
+| **Resource System** | **Resource Units**        | **Notes**                              |
+|---------------------|---------------------------|----------------------------------------|
+| The Community       | Food (lbs)                 | Businesses vs Families vs Charities    |
+| The Community       | Grocery store placement    | Neighborhood food deserts      |
+| The Community       | Farm output (lbs)          | For humans, animals or industry |
+| Households          | Food waste (lbs)           | Productive use vs thrown away          |
+| Grocery stores      | Food waste (lbs)           | Productive use vs thrown away          |
+| Restaurants         | Food waste (lbs)           | Productive use vs thrown away          |
+| Community Roads     | Miles driven or Trucks (#) | More waste = more trucks / damage  |
+| The Community    | Food (lbs)                    | Health: Used vs Donated vs Wasted |
+| Landfill            | Food Waste (lbs)                | Filling capacity |
+| Landfill            | Food Waste (lbs)                | Increased maintenance |
+| Landfill            | Food Waste (lbs)                | Need for expansion / replacement |
+| Atmosphere          | Food waste (lbs) |  Emissions from waste  |
+
+::: notes
+
+**How does this help us do our work this semester?**
+
+- **Talk me through the results of our work last week.**
+
+<br>
+
+
+**SLIDE**: Let's connect this progress back to the report you are working on right now
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Outcome 1: Baseline Argument Report**
+:::
+
+<br>
+
+Make a three premise argument that we have an environmental problem to address in our community:
+
+- Premise 1 - This is an important problem
+
+- Premise 2 - This is a public problem
+
+- Premise 3 - The problem should be addressed collectively
+
+::: notes
+
+Here's what is due by the end of next week.
+
+<br>
+
+This is your chance to get down on paper how you perceive and frame the problem
+
+- Before we work with the stakeholders, we must interrogate our own assumptions!
+
+<br>
+
+HOWEVER, just because this is YOUR framing, DOES NOT mean this paper is an opinion piece
+
+- Each premise should be explained, supported by evidence and critically analyzed
+
+- All evidence must be cited using APA formatted in-text citations and be included in a bibliography
+
+- The paper must be a minimum of 850 words (not counting the bibliography)
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
+
+**SLIDE**: Your position in this paper must be informed by high quality evidence and a deeep understanding of the problem, so let's work on that!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+**Describing the Problem - Human and Environmental Health**
+
+- Submit evidence we can use to deepen our understanding of our chosen environmental problem in terms of its impacts on human and/or environmental health
+
+- In other words, how does food waste negatively impact the HEALTH of individuals, groups or our environment? 
+
+- Please don't submit something that has already been submitted.
+
+::: notes
+
+**Everybody ready to go on our assignment for today?**
+
+<br>
+
+*Split class into two groups by what they submitted: 1) Human health and 2) Environmental health*
+
+- Go sit with your groups and claim space on the board
+
+<br>
+
+**SLIDE**: The prompt
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Describing the Problem - Human and Environmental Health**
+
+<br>
+
+::: {.r-fit-text}
+
+**Exploring the Evidence as Separate Arguments**
+
+- Therefore, food waste negatively impacts human health
+
+- Therefore, food waste negatively impacts the environment
+
+:::
+
+::: notes
+
+The aim of our work today is to familiarize ourselves with ALL of this evidence in order to deepen our understanding of the problem
+
+<br>
+
+To do that I will ask each group to develop a logical and convincing argument diagram on the board that leads to this conclusion
+
+- So, group 1 you will work on the human health argument and group 2 on the environmental health argument
+
+- **Make sense?**
+
+<br>
+
+The first step I want you to do on your own.
+
+- Everybody take out a piece of paper and something to write with
+
+<br>
+
+**SLIDE**: Step 1
+
+:::
+
+
+## Describing the Problem: Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Summarize your assignment submission as a premise in this argument
+
+- e.g. Food waste negatively impacts human health by...
+
+- e.g. Food waste negatively impacts environmental health by...
+
+::: notes
+
+Working on your own I want you to take a few minutes to reflect on your assignment submission and then convert it into a premise in your group's argument
+
+- Your premise should be a complete sentence that adopts this structure
+
+- Write the premise on the first line of the paper
+
+<br>
+
+Ok, below the premise I want you to describe the evidence you have brought to support this premise
+
+- Again, complete sentences!
+
+<br>
+
+Ok, next I need you to evaluate the quality of the evidence given your premise
+
+- Is this evidence high enough quality to convincingly establish the likelihood that your premise is correct? Why or why not?
+
+- Complete sentences!
+
+<br>
+
+**SLIDE**: Back to the group
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**The Arguments**
+
+- Therefore, food waste negatively impacts human health
+
+- Therefore, food waste negatively impacts the environment
+
+<br>
+
+**The Argument Diagrams**
+
+1. Consolidate (and order) the premises, and
+
+2. Specify the evidence underpinning each
+
+:::
+
+::: notes
+
+Ok groups, review all the work that has been written down and work to develop your argument on the board
+
+- You'll likely have premises that overlap so combine them!
+
+- You should order them from strongest premises to weakest
+
+    - This is not a critique of what anyone submitted, but about building our most convincing argument!
+    
+- Under each premise you should specify the supporting evidence
+
+<br>
+
+**Questions on this step?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- Present your argument to the other group making clear where evidence is lacking or uncertainty is high
+
+<br>
+
+**What specific parts of these arguments need more or better evidence?**
+
+<br>
+
+**Are there any gaps in either argument we need to fill in?**
+
+- e.g. types of people, species or places likely impacted but not included in our evidence?
+
+<br>
+
+**How applicable are these arguments to our local community?**
+
+- **In other words, are these arguments too generic or general to apply to our backyard?**
+
+<br>
+
+**SLIDE**: Apply to report 1
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Outcome 1: Baseline Argument Report**
+:::
+
+<br>
+
+Make a three premise argument that we have an environmental problem to address in our community:
+
+- Premise 1 - This is an important problem
+
+- Premise 2 - This is a public problem
+
+- Premise 3 - The problem should be addressed collectively
+
+::: notes
+
+Apply to Report 1, Premise 1: Which premises from these arguments do you think would BEST help you make the importance argument?
+
+Apply to Report 1, Premise 2: Which premises from these arguments do you think would BEST help you make the argument that food waste is a public problem?
+
+Apply to Report 1, Premise 3: Which premises from these arguments do you think would BEST help you make the argument that addressing the food waste public problem SHOULD BE a collective decision?
+
+<br>
+
+**SLIDE**: Assignment for next WEEK (then do field trip next class)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+**Describing the Problem - Economics**
+
+- Submit evidence we can use to deepen our understanding of **EITHER the economic causes or consequences** of our food waste problem.
+
+- Please don't submit something that has already been submitted.
+
+
+::: notes
+
+For next week: Describing the Problem - Human and Environmental Health
+
+- **Does the assignment make sense?**
+
+<br>
+
+In order to ensure we have good quality evidence for both elements here I want to split the class in half again.
+
+- Half of you should focus on finding evidence on the economic causes of food waste and half on the economic consequences of food waste
+
+- **Make sense?**
+
+- *Split the class!*
+
+<br>
+
+**Any questions on the assignment?**
+
+<br>
+
+**SLIDE**: Next class!
+
+<br>
+
+Canvas: Describing the Problem - Economics
+
+- Let's gather material that will help us understand the economic aspects of our chosen environmental problem. Specifically, I'd like you to find and submit evidence that will help us understand EITHER the economic causes or consequences of our food waste problem. Please don't submit something that has already been submitted.
+
+1. APA citation to the evidence,
+2. Summarize the evidence and clarify if this is meant to focus on the economic causes or consequences of the problem (2+ sentences), and
+3. Explain how this evidence helps us understand our chosen environmental problem (2+ sentences)
+4. Explain how this evidence could be used to make the argument that this is an important problem (2+ sentences)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Field Trip: Noble Hills Landfill**
+:::
+
+![](Images/07_1-Landfill.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Next class - Field Trip!
+
+- Springfield Noble Hills Landfill
+
+- 9:45a - 10:45a
+
+- Please carpool if possible (parking is sometimes limited)
+
+- Driving into the landfill is tough so let's try to arrange trucks / SUVs
+
+- Wear boots and close that can get dirty!
+
+- Note: Apple Maps directs to the wrong entrance, use Google (but ignore the u-turn step and just make the left turn)
+
+:::
+
+
+
+
+

@@ -1,0 +1,417 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+### What are the economic causes and consequences of food waste?
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Bring markers x 2
+
+<br>
+
+**SLIDE**: The process
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+
+::::
+
+::: notes
+
+This week we continue our work in step 1 of this process.
+
+- What I hope you are seeing is that all this work to describe and conceptualize the problem is opening up our avenues into the other steps
+
+<br>
+
+The more ways we find to describe the problem or the deeper we come to understand it:
+
+- The more stakeholders we identify as important resources,
+
+- The more institutions we identify as obstacles or opportunities for change, and
+
+- The more ideas we will encounter that have been proposed to address our problem
+
+<br>
+
+**SLIDE**: Let's talk landfill!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Field Trip: Noble Hills Landfill**
+:::
+
+![](Images/07_1-Landfill.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I thought this was an EXCELLENT trip!
+
+<br>
+
+**What were your big takeaways?**
+
+- **New stakeholders identified?**
+
+- **Aspects of the problem we hadn't considered?**
+
+- **Existing institutions or infrastructure to be aware of?**
+
+- **Curent projects we could help with?**
+
+- **Current needs identified?**
+
+<br>
+
+*ON BOARD*
+
+<br>
+
+Alright, last week before our trip we gathered and evaluated evidence meant to help us better understand the health impacts of our chosen problem
+
+- **SLIDE**: Let's recap those
+
+:::
+
+
+
+
+## Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Describe** the problem facing our community
+
+<br>
+
+- ?
+
+- ?
+
+- ?
+
+Therefore, food waste negatively impacts human health
+
+:::
+
+::: notes
+
+**What were the strongest premises we developed in this argument? Why?**
+
+<br>
+
+**Overall, is this a convincing argument? Why or why not?**
+
+- **Anything big we agreed was missing?**
+
+<br>
+
+**SLIDE**: Health Argument 2
+
+:::
+
+
+
+## Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Describe** the problem facing our community
+
+<br>
+
+- ?
+
+- ?
+
+- ?
+
+Therefore, food waste negatively impacts the environment
+
+:::
+
+::: notes
+
+**What were the strongest premises we developed in this argument? Why?**
+
+<br>
+
+**Overall, is this a convincing argument? Why or why not?**
+
+- **Anything big we agreed was missing?**
+
+<br>
+
+**SLIDE**: Today we add the economics to our description!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+**Describing the Problem - Economics**
+
+- Submit evidence we can use to deepen our understanding of **EITHER the economic causes or consequences** of our food waste problem.
+
+- Please don't submit something that has already been submitted.
+
+::: notes
+
+**Everybody ready to go on our assignment for today?**
+
+<br>
+
+*Split class into two groups by what they submitted: 1) Economic causes and 2) Economic consequences*
+
+- Go sit with your groups and claim space on the board
+
+<br>
+
+**SLIDE**: The prompt
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**Describing the Problem - Economics**
+
+<br>
+
+::: {.r-fit-text}
+
+**Exploring the Evidence as Separate Arguments**
+
+- Therefore, there are significant economic factors creating food waste
+
+- Therefore, there are serious economic consequences of food waste
+
+:::
+
+::: notes
+
+We'll approach our work today in the same manner we did last class
+
+The first step I want you to do on your own.
+
+- Everybody take out a piece of paper and something to write with
+
+<br>
+
+**SLIDE**: Step 1
+
+:::
+
+
+
+## Describing the Problem: Step 1 {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Summarize your assignment submission as a premise in this argument
+
+- e.g. Food waste is a problem caused by...
+
+- e.g. Food waste creates serious economic costs such as...
+
+::: notes
+
+Working on your own I want you to take a few minutes to reflect on your assignment submission and then convert it into a premise in your group's argument
+
+- Your premise should be a complete sentence that adopts this structure
+
+- Write the premise on the first line of the paper
+
+<br>
+
+Ok, below the premise I want you to describe the evidence you have brought to support this premise
+
+- Again, complete sentences!
+
+<br>
+
+Ok, next I need you to evaluate the quality of the evidence given your premise
+
+- Is this evidence high enough quality to convincingly establish the likelihood that your premise is correct? Why or why not?
+
+- Complete sentences!
+
+<br>
+
+**SLIDE**: Back to the group
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**The Arguments**
+
+- Therefore, there are significant economic factors creating food waste
+
+- Therefore, there are serious economic consequences of food waste
+
+<br>
+
+**The Argument Diagrams**
+
+1. Consolidate (and order) the premises, and
+
+2. Specify the evidence underpinning each
+
+:::
+
+::: notes
+
+Ok groups, review all the work that has been written down and work to develop your argument on the board
+
+- You'll likely have premises that overlap so combine them!
+
+- You should order them from strongest premises to weakest
+
+    - This is not a critique of what anyone submitted, but about building our most convincing argument!
+    
+- Under each premise you should specify the supporting evidence
+
+<br>
+
+**Questions on this step?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- Present your argument to the other group making clear where evidence is lacking or uncertainty is high
+
+<br>
+
+**What specific parts of these arguments need more or better evidence?**
+
+<br>
+
+**Are there any gaps in either argument we need to fill in?**
+
+- e.g. types of people, species or places likely impacted but not included in our evidence?
+
+<br>
+
+**How applicable are these arguments to our local community?**
+
+- **In other words, are these arguments too generic or general to apply to our backyard?**
+
+<br>
+
+**SLIDE**: Apply to report 1
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Outcome 1: Baseline Argument Report**
+:::
+
+<br>
+
+Make a three premise argument that we have an environmental problem to address in our community:
+
+- Premise 1 - This is an important problem
+
+- Premise 2 - This is a public problem
+
+- Premise 3 - The problem should be addressed collectively
+
+::: notes
+
+Apply to Report 1, Premise 1: Which premises from these arguments do you think would BEST help you make the importance argument?
+
+Apply to Report 1, Premise 2: Which premises from these arguments do you think would BEST help you make the argument that food waste is a public problem?
+
+Apply to Report 1, Premise 3: Which premises from these arguments do you think would BEST help you make the argument that addressing the food waste public problem SHOULD BE a collective decision?
+
+<br>
+
+1. **Is each of these a logical argument? e.g. do the premises support the conclusion?**
+
+
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+:::
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Field Trip: Ozark's Food Harvest**
+:::
+
+![](Images/08_1-Food_Harvest_Parking_Map.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Next class - Field Trip!
+
+- Ozarks Food Harvest Distribution Center
+
+- 9:45a - 10:45a
+
+- Please carpool (parking is limited)
+
+- You MUST wear close toed shoes or they won't let you in
+
+:::

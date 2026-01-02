@@ -1,0 +1,697 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. The Basics of Problem-Solving in a Community**
+
+- Exploring processes of community problem-solving
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Check Canvas submissions
+
+2. Reserve some board space for "most useful" elements from each approach
+
+<br>
+
+Readings
+
+1. Clarke, T., & Peterson, T. R. (2016). *Environmental Conflict Management*. SAGE Publications, Inc. **ONLY chapters 1 and 2**
+2. Hughes, J. W. (2007). *Environmental problem solving: A how-to guide*. University Press of New England. **ONLY chapter 4**
+3. Kraft, M. E. (2011). Environmental Policy and Politics (5th ed.). Longman. **ONLY chapter 3**
+
+<br>
+
+Last week we selected our target environmental problem for the semester
+
+- This week I want us to gather some guiding principles that will help us approach this problem in a productive way
+
+<br>
+
+But first, a quick refresher round-up!
+
+- **SLIDE**: Let's start with "politics"
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<br>
+
+<br>
+
+### How does thinking about "politics" help us solve problems?
+
+:::
+::: {.column width="40%"}
+
+![](Images/04_1-Problem_Solvers.jpg)
+
+:::
+::::
+
+::: notes
+
+*Encourage this discussion*
+
+<br>
+
+A few things I'd throw in the mix:
+
+FIRST, problem-solvers know that all problems are rooted in specific communities
+- This means you have to understand the established stakeholders and rules BEFORE you can propose a solution
+
+<br>
+
+SECOND, problem-solvers know that solutions aren't worth the paper they are written on unless the commmunity recognizes them as legitimate
+- I would rather have weaker rules that the community accepts over strong rules the community opposes
+
+- I want to change behavior in ways that don't require strict oversight and enforcement
+
+<br>
+
+THIRD, problem-solvers know that all solutions impose costs on specific groups and they work to make sure those costs are addressed or considered carefully
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+
+![](Images/05_1-SGF_Park.jpg)
+
+:::
+::: {.column width="60%"}
+
+<br>
+
+<br>
+
+<br>
+
+### How does thinking about the "environment" help us solve problems?
+
+:::
+::::
+
+::: notes
+
+*Encourage this discussion*
+
+<br>
+
+FIRST, problem-solvers know that ALL environmental problems are at their root a dispute over definitions
+
+<br>
+
+SECOND, problem-solvers know that learning about how others define the "environment" tells you a ton about who they are, what they want and how you can appeal to them
+
+<br>
+
+THIRD, problem-solvers know that problem definitions narrow the policy design options that a stakeholder is willing to consider
+
+- Therefore, win the problem framing, win the policy
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<br>
+
+<br>
+
+### What baseline arguments do problem-solvers need to make BEFORE designing a solution?
+
+:::
+::: {.column width="40%"}
+
+![](Images/05_1-outdoor-public-speaking.jpg)
+
+:::
+::::
+
+::: notes
+
+**What baseline arguments do problem-solvers make BEFORE designing a solution?**
+
+<br>
+
+BEFORE designing any policy you must first make TWO separate and convincing arguments:
+
+1. This is a public, not an individual problem
+
+2. It should be addressed collectively not privately
+
+<br>
+
+Important for us to realize the groundwork that must be completed before policy design truly comes into play.
+
+- Solving community problems are not for the faint at heart.
+
+- HOWEVER, if you lay the groundwork appropriately, the next steps become feasible!
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+
+- "Politics"
+
+- "Environment"
+
+- "Policy"
+
+:::
+
+::: notes
+**How are we doing with all this big picture material?**
+
+- **Any questions or need for clarification?**
+
+<br>
+
+**SLIDE**: Today I'd like us to take all of these big ideas and see how we might organize them into a process that could guide our problem-solving activities.
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Engaging with the Domestic Policy-Making Process**
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Policy Process Model (Kraft 2011)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+::: notes
+
+All of this brings us to our work for today.
+
+- There are many, many textbooks out there all grappling with environmental problems from a variety of perspectives.
+
+<br>
+
+I chose these books to give you a few different perspectives on the process
+
+- Hughes (2007) is a treatment produced by an independent publisher that aims to be user friendly and accessible
+
+- Kraft (2011) represents the view of a specialist in American public policy mapping out the policy process
+
+- Clarke and Peterson (2016) represents an approach rooted in the communications and management literatures
+
+<br>
+
+**In big picture terms, did any one of these approaches or styles speak to you more than the others?**
+
+<br>
+
+*Split class into groups of 3-4 (doesn't matter who because you'll make them swap each time!)*
+
+- Go sit with your group!
+
+<br>
+
+Let's begin our analyses by stepping through each of these approaches
+
+- **SLIDE**: Hughes (2007)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The DOC'S KEY Approach (Hughes 2007)**
+:::
+
+- **D**efinition
+- **O**bjectives
+- **C**onstraints
+- **S**trategies
+- **K**eepers
+- **E**xperiment
+- **Y**es!
+
+::: notes
+
+Groups, start by making sure you are all clear on the process Hughes is proposing.
+
+- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+
+- In other words, how hard would it be to implement this approach?
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+One of the elements I like a great deal from this book is Hughes discussion of constructing a problem definition
+
+- Help me unpack the "D" in DOC'S KEY!
+
+- **What is Hughes advice for us about constructing a definition?**
+
+<br>
+
+- Three types of problem and unstructured are the hardest to solve
+- Some really important concerns raised here about not confusing problems with strategies, but maybe not enough from him on how to do it well. 
+- Problem and outcome
+- Avoid letting strategies be presented as the problem
+- Problems are neutral and don't typically need 'must' or 'should'
+
+<br>
+
+**Is there anything else in this chapter or approach you want to highlight or unpack?**
+
+<br>
+
+**SLIDE**: Form new groups of 3-4 and get ready for next approach!
+
+<br>
+
+DOC'S KEY approach (Hughes 2007, ch4)
+
+- People matter and perspectives differ (even on identical events)
+
+- Three types of problem and unstructured are the hardest to solve
+
+- Some really important concerns raised here about not confusing problems with strategies, but maybe not enough from him on how to do it well. 
+
+- Problem and outcome
+
+- Avoid letting strategies be presented as the problem
+
+- Problems are neutral and don't typically need 'must' or 'should'
+
+- DOC'S KEY: 
+
+    - Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), 
+    - Objectives (set clear targets), 
+    - Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), 
+    - Strategies (Brainstorm and be creative), 
+    - Keepers (Choose the best strategy), 
+    - Experiment (Test a strategy and adapt), 
+    - Yes! (Implement)
+
+:::
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The Policy Process Model (Kraft 2011)**
+:::
+
+1. Agenda Setting
+2. Policy Formulation
+3. Policy Legitimation
+4. Policy Implementation
+5. Policy and Program Evaluation
+6. Policy Change
+
+::: notes
+
+Groups, start by making sure you are all clear on the process Kraft is discussing.
+
+- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+
+- In other words, how hard would it be to implement this approach?
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+Points to Highlight
+
+**FIRST, what does it mean to say that the "stage" should determine our "strategy"? How specifically do we do this?**
+
+- Can be used to figure out where in the process to target different kinds of pressure. 
+    
+- The "right" strategy depends on stage of the process
+
+<br>
+
+**SECOND, on the other hand, are we convinced these "stages" are really so distinct? How often do we suspect something goes cleanly through the process?**
+
+<br>
+
+**Is there anything else in this chapter or approach you want to highlight or unpack?**
+
+<br>
+
+**SLIDE**: Form new groups of 3-4 and get ready for next approach!
+
+<br>
+
+The Policy Process Model (Kraft 2011, ch3)
+
+1. Agenda setting (critical stage, how a problem is perceived and how public reacts to it)
+2. Policy formulation
+3. Policy legitimation (giving legal force to decisions AND is the action perceived as legitimate)
+4. Policy implementation (Put the program into effect, fund and staff it)
+5. Policy and program evaluation
+6. Policy change
+
+- Chapter ends by noting some of the unique complexities of the federal system of government in the US
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The Collaborative Approach (Clarke & Peterson 2016)**
+:::
+
+- Is an adaptive process
+- Uses the most appropriate science and technology
+- Is implementable
+- Incurs low transaction costs
+- Has appropriate funding
+- Is measurable
+- Is socially legitimate
+
+
+::: notes
+
+Groups, start by making sure you are all clear on the process Clarke & Peterson are proposing.
+
+- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+
+- In other words, how hard would it be to implement this approach?
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+Points to Discuss
+
+**FIRST, p16-18 lays out the conditions required to implement a truly "collaborative approach." The question is, are these conditions realistic under real-world conditions? Why or why not?**
+    
+- Makes a strong case for why a collaborative approach matters but the "required conditions" sound incredibly hard to achieve at anything but the very local level. 
+1. Representation of multiple interests
+2. voluntary participation
+3. direct engagement
+4. mutual agreement on process
+5. mutual agreement on decisions.
+    
+<br>
+
+**SECOND, how substantial are the possible benefits of this approach on p18 and 19?**
+
+- **Do these benefits outweigh the challenges we just discussed? Why or why not?**
+    
+<br>
+
+**Is there anything else in this chapter or approach you want to highlight or unpack?**
+
+<br>
+
+The Collaborative Approach to Environmental Conflict (C&P 2016, ch1 and 2)
+
+- Makes a strong case for why a collaborative approach matters but the "required conditions" sound incredibly hard to achieve at anything but the very local level
+
+- Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+
+- Chapter 1: Frames environmental conflict management as a communication process (2). Environmental problem-solving requires interdisciplinary approaches (4) to produce solutions that respect the identity (4) and culture (5) of the stakeholders, accounts for scientific uncertainty (7) and the discrepancies between issues and political boundaries (8).
+
+- Chapter 2:
+
+    - Complexity and difficulty of solving env problems encourage us to use a process that includes 11 important elements (p12)
+    - Collaborative process should be adaptable, rely on appropriate science and tech, be implementable and have low transaction costs, has appropriate funding, is measurable, is socially legitimate
+    - Required conditions for a collaborative approach (p16-18): Representation of multiple interests, voluntary participation, direct engagement, mutual agreement on process, mutual agreement on decisions
+    - Benefits listed p18-
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### What are our key takeaways? 
+
+### (e.g. the important elements to engage productively with our community)
+
+<br>
+
+::: {.r-fit-text}
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Policy Process Model (Kraft 2011)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+::: notes
+
+GROUPS, discuss and get ready to report back!
+
+- **Where do we end up after all this work?**
+
+- **In other words, what are the key elements you believe are the most useful pieces of advice for domestic problem-solving in general terms?**
+
+<br>
+
+*ON BOARD*
+
+- ?
+
+<br>
+
+**SLIDE**: Applied to our chosen problem
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Key elements from the processes we want to focus on for addressing food waste in our community?
+
+<br>
+
+::: {.r-fit-text}
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Policy Process Model (Kraft 2011)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+::: notes
+
+**Any key takeaways from our work today that we think might be important in addressing food waste in SGF?**
+
+<br>
+
+**SLIDE**: Sum it all up in a process
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+::: {.incremental}
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+:::
+::::
+
+::: notes
+
+My general advice for community problem-solving goes something like this:
+
+<br>
+
+**REVEAL:** Step 1 focuses on establishing a baseline on the problem
+
+- Who or what is paying the costs?
+
+- What is the scientific basis of this problem?
+
+- What brought this problem to your attention?
+
+<br>
+
+**REVEAL:** Step 2 asks you to investigate the stakeholders
+
+- How do they define the basic concepts in play?
+
+- What are their preferred sources of wisdom or accountability?
+
+- Fundamentally speaking, do they already see this as a problem?
+
+<br>
+
+**REVEAL:** Step 3 asks you to develop a problem framing that will draw in as many stakeholders as possible.
+
+- Framing needs to present your problem in the most appealing light, AND
+
+- Make clear that this is a **public problem requiring a collective decision**
+
+<br>
+
+**REVEAL x 2:** Steps 4 and 5 still to come...
+
+<br>
+
+**Any questions on the process itself?**
+
+<br>
+
+**SLIDE**: Let's talk strengths and weaknesses of this general approach
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Engaging Productively as Problem-Solvers**
+
+1) **Describe** the problem facing our community
+
+2) **Investigate** the relevant stakeholders
+
+3) **Frame** the problem
+
+4) **Design** a policy to address the problem
+
+5) Take **action** to push the plan forward!
+::::
+
+::: notes
+
+Important to recognize that all plans involve trade-offs
+
+- **GROUPS, what are the strengths and weaknesses of adopting this approach to community problem solving?**
+
+<br>
+
+Strengths:
+
+- Empowers individuals to tackle real-world problems (e.g. are you willing to do all this work then I think you can make progress!)
+
+- This process is HIGHLY adaptable to the context of a given problem
+
+- Achieving change in society is hard, so I want a process that reinforces and incentivizes the small steps necessary to achieve great things
+
+    - Pushing the proverbial ball forward, even by just one of these steps is a VERY useful outcome for moving towards meaningful change
+    
+<br>
+
+Weaknesses:
+
+- May limit your role in defining the "good" or normative objectives, makes you a facilitator of action rather than a definer of the end goal
+
+- Assumes you can identify the key stakeholders and that they are open to working with you on this "problem"
+
+- Very focused on smaller problems (by # impacted, # involved, area impacted, etc)
+
+<br>
+
+:::
+
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+1. Ostrom (1990) ch3 on Adaptive Governance
+
+2. Canvas assignment
+
+:::
+::: notes
+
+Thursday we shift to the work of one of my personal heroes, Elinor Ostrom
+
+- She was awesome and her work invaluable for problem-solvers
+
+- Chapter 3 is our focus, but I've also posted chapter 2 if your interested in better understanding the key concepts she is working from
+
+<br>
+
+**Any questions on the assignment?**
+
+<br>
+
+Canvas: Lessons from Adaptive Governance
+
+- What are THE THREE MOST IMPORTANT principles you argue we should adopt from Ostrom's Adaptive Governance? e.g. the principles you argue will help us successfully navigate a domestic policy-making process. Make sure to fully explain each of your points. 
+
+:::
