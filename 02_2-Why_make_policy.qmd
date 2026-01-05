@@ -859,6 +859,38 @@ Bottom line, I am convinced that this pre-requisite stage represents incredibly 
 
 
 
+## For Next Class: Case Studies {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Local Communities Failing to Solve Environmental Problems**
+
+- Find us an example of a LOCAL community anywhere in the world failing to solve an environmental problem
+
+Good examples include communities...:
+
+- Not creating the policies to solve a problem,
+
+- Removing the policies already in place, or
+
+- Persisting with policies that are not working
+
+::: notes
+
+No overlap in cases! (e.g. don't submit a case someone has already submitted)
+
+<br>
+
+**Questions on the assignment?**
+
+:::
+
+
+
+
+
+
+
 ## For Next Class {background-image="Images/background-forest_v3.png"}
 
 ![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}

@@ -29,7 +29,10 @@ Justin Leinaweaver (Spring 2026)
 ::: notes
 Prep for Class
 
-1. Bring dice to class (probability engines!)
+1. Bring d12 dice to class (probability engines!)
+    
+    - d12 probs to roll this or lower: 11 (92%), 10 (83%), 9 (75%), 8 (67%), 7 (58%), 6 (50%), 5 (42%), 4 (33%), 3 (25%), 2 (17%), 1 (8%)
+
 
 2. Bring markers to class (3?)
 
@@ -51,15 +54,16 @@ Welcome to Issues in Environmental Policy
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
+### **What are the most important environmental problems we currently face?**
+
+:::: {.incremental}
 ::: {.r-fit-text}
-**The Most Important Environmental Problems**
+1. Be as specific as possible
 
-- Local?
+2. AT LEAST FIVE problems in a RANKED list
 
-- National?
-
-- Global?
 :::
+::::
 
 ::: notes
 
@@ -67,20 +71,49 @@ Welcome to Issues in Environmental Policy
 
 <br>
 
-Groups, introduce yourselves to each other and start making three lists on the board
+Groups, introduce yourselves to each other and start making a list on the board
 
-- What are currently the most important environmental problems we face at the global, national and local levels?
-
-- By the way, "climate change" is not a specific enough answer for these lists
-    - Climate change is a magnifier of other problems, list the specific problems
+- TWO instructions for this exercise
 
 <br>
 
-*Share lists and discuss*
+**REVEAL**: Be specific!
 
-- How are you defining "important"?
+- "Climate change" is an umbrella term for a TON of things
 
-- "Who" matters most according to your list?
+- There isn't enough water to drink in South Sudan is a very specific problem (e.g. tied to a place and a people)
+
+- If our goal is to solve problems then we need to be clear on what the problem is.
+
+- **Make sense?**
+
+<br>
+
+**REVEAL**: Give me a ranked list of AT LEAST FIVE problems
+
+- Ranked means as a list of priorities
+
+- **Make sense?**
+
+- Go!
+
+<br>
+
+*Groups present each list, then Q's for the class*
+
+<br>
+
+**How are you defining "important"?**
+
+- **Is each group defining it the same way?**
+
+<br>
+
+**"Who" matters most according to your list?**
+
+<br>
+
+**Do our high priority lists tend towards problems at the global, national or local levels? Why?**
 
 <br>
 
@@ -90,7 +123,7 @@ Groups, introduce yourselves to each other and start making three lists on the b
 
 
 
-## Introductions {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
 1. Name
@@ -99,7 +132,7 @@ Groups, introduce yourselves to each other and start making three lists on the b
 
 3. Major
 
-4. Enrolled in the Environment Certificate?
+4. Pathway into this class?
 :::
 
 ::: notes
@@ -132,34 +165,102 @@ I'll go first.
 
 **Your turn**
 
+<br>
+
+**SLIDE**: Let's discuss the certificate
+
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
 **Designing Solutions for Environmental Problems**
+:::
 
 <br>
 
 **Required Courses**
 
+- PLSC 223 The Individual, Society and the Environment
+
 - BIOL 163 Science of the Environment
 
 - ECON 225 Introduction to Environmental Economics
-
-- PHIL 320 Environmental Ethics
 
 - PLSC 323 Issues in Environmental Policy
 
 ::: notes
 
-As I mentioned, this class is the capstone for the "Designing Solutions for Environmental Problems" Fusion Certificate.
+As I mentioned, this class is the capstone for the "Designing Solutions for Environmental Problems" Fusion Certificate
+
+- This is a professional certificate meant to give you a crash course to thinking about and, hopefully, addressing environmental problems
+
+- The goal of these three pre-requisite courses is to set us up for success in this class
 
 <br>
 
 **SLIDE**: For those who haven't had the pleasure of the pre-reqs, let's ask the certificate students to tell us what they learned!
 :::
+
+
+
+## {background-image="Images/01_1-Wilderness1.jpg" .center}
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+<p style="color: white;">**PLSC 223 The Individual, Society and the Environment**</p>
+:::
+
+::: notes
+
+We just launched the brand new intro class for the certificate: The Individual, Society and the Environment
+
+- Some of you got to take Dr. Browning's environmental ethics class on the way here, but moving forward this will be the entry point
+
+<br>
+
+In that class we explore:
+
+- The contested concept of the environment, 
+    
+- The history of humanity's relationship to the environment and different ways of framing an environmental ethic, and
+    
+- Some of the pressing challenges facing us like environmental justice and the capitalist impulse to consume
+
+<br>
+
+**For those of you who just took this class with me, what did you take away from the class?**
+
+<br>
+
+**What kinds of assignments did I ask you to complete?**
+
+<br>
+
+**SLIDE**: The other intro class in the certificate focuses on the natural science
+
+:::
+
 
 
 
@@ -191,11 +292,17 @@ As I mentioned, this class is the capstone for the "Designing Solutions for Envi
 
 The "Science of the Environment" class was designed to enable you to identify the scientific basis of environmental problems (see certificate LOs).
 
-### How did Dr. Jansen help you do this? 
+<br>
+
+**How did Dr. Jansen help you do this?**
 
 <br>
 
-### What kinds of assignments did you complete?
+**What kinds of assignments did you complete?**
+
+<br>
+
+**SLIDE**: The final pre-req focuses on the economics of the environment
 :::
 
 
@@ -236,27 +343,13 @@ The "Environmental Economics" class was designed to enable you to evaluate the b
 
 ### What kinds of assignments did you complete?
 
-:::
-
-
-
-## {background-image="Images/01_1-env_ethics_2.png"}
-
-::: {.r-fit-text}
-<p style="color: white;">**PHIL 320 Environmental Ethics**</p>
-:::
-
-::: notes
-
-The "Environmental Ethics" class was designed to enable you to compare and contrast alternative ethical perspectives of an environmental problem and its potential solutions (see certificate LOs).
-
-### How did Dr. Browning help you do this? 
-
 <br>
 
-### What kinds of assignments did you complete?
+**SLIDE**: Brings us to this class
 
 :::
+
+
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
@@ -267,11 +360,11 @@ The "Environmental Ethics" class was designed to enable you to compare and contr
 
 **Required Courses**
 
+- PLSC 223 The Individual, Society and the Environment
+
 - BIOL 163 Science of the Environment
 
 - ECON 225 Introduction to Environmental Economics
-
-- PHIL 320 Environmental Ethics
 
 - **PLSC 323 Issues in Environmental Policy**
 
@@ -279,11 +372,15 @@ The "Environmental Ethics" class was designed to enable you to compare and contr
 
 That brings us to the capstone experience, e.g. this class!
 
-- In here we bring the politics and policy to the table.
+- In here we bring the politics and policy to the table in order to make a difference in our community
 
 <br>
 
-In other words, given the science, the economics and the ethics of a given environmental problem, what can we feasibly do to address it?
+In other words, given the science, the economics and the political context of a given environmental problem, what can we feasibly do to address it?
+
+<br>
+
+**SLIDE**: Defining politics
 :::
 
 
@@ -295,9 +392,11 @@ In other words, given the science, the economics and the ethics of a given envir
 
 Given our large number of non-majors we should take a moment to define a key concept in our class: Politics
 
-**Non-majors, when you think of the word "politics" what do you think of?**
+<br>
 
-- **Is it compromise, good faith and teamwork?**
+**Non-majors, when you hear someone say the sentence, "I really don't like politics", what are they talking about?**
+
+- **What don't they like?**
 
 <br>
 
@@ -305,7 +404,18 @@ Given our large number of non-majors we should take a moment to define a key con
 
 - **Is it a flattering description?**
 
-<br>
+- (**SLIDE**)
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/01_1-Politics_meme1_v3.png){style="display: block; margin: 0 auto"}
+
+::: notes
 
 The word politics these days is often attached to awful behavior by self-serving morons.
 
@@ -335,9 +445,9 @@ As a team-building exercise you have all decided to go on a one week camping tri
 
 <br>
 
-### Anybody like to go fishing?
+**Anybody like to go fishing?**
 
-### - Are you good at it?
+- **Are you good at it?**
 
 - *Use volunteer, give a d12 and see if they can roll a 1-11 (92% chance of success)*
 
@@ -349,9 +459,9 @@ So, X goes fishing and successfully catches one fish
 
 - Congratulations! You've discovered a small lake of magical bonus point fish!
 
-- Each fish you catch and consume adds 3 EC points on first paper grade
+- Each fish you catch and consume adds 3 EC points on your final paper grade
 
-- Catch 3 fish in our simulation, boost your first paper by almost a full letter grade
+- Catch 3 fish in our simulation, boost your final paper by almost a full letter grade
 
 <br>
 
@@ -363,37 +473,55 @@ So, X goes fishing and successfully catches one fish
 
 
 
-## Managing a Resource is Hard {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
-
-::: {.incremental}
-
-1. Your chance of catching a fish depends on the remaining stock and the number of fishers each day
-
-2. The health of the fishery depends on your collective use
-
-:::
-
-::: notes
-
-**REVEAL**: Your chance of catching a fish depends on two things:
-
-1. How many fish have you taken out of the lake so far
-
-    - As the stock of fish gets smaller, it is harder to catch what's left
-
-2. How many of you go fishing that day
-
-    - As the number of fishers goes up, the harder it is to catch a fish
+## Let's Manage a Resource {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-**REVEAL**: The fishery is a finite, but sustainable, resource
+:::: {.r-fit-text}
+
+::: {.incremental}
+
+1. Seven day trip & fishing is a full day activity
+
+2. p(Catch a fish) &#8595; as the number of fishers &#8593;
+
+3. p(Catch a fish) &#8595; as the stock of fish &#8595;
+
+4. p(Resource collapse) &#8593; as the amount of fishing &#8593;
+
+:::
+
+::::
+
+::: notes
+
+A few things I want you to keep in mind
+
+<br>
+
+**REVEAL**: Your camping trip lasts one week and you each will have the opportunity to fish every day (7 days)
+
+<br>
+
+**REVEAL**: Each day, your chance of catching a fish falls as the number of other people fishing goes up 
+
+- Think added distractions and noise, lures, food, etc
+
+<br>
+
+**REVEAL**: Each day, your chance of catching a fish falls as the number of fish in the lake gets smaller
+
+- Fewer fish available to catch makes it harder to catch one
+
+<br>
+
+**REVEAL**: This fishery is a finite, but sustainable, resource
+
+- At a certain rate of fishing there are enough fish in the population to sustain a healthy and stable population
 
 - If you remove fish beyond the maximum sustainable yield (MSY), the size of the fishery will decline over time
 
-- If you remove too many fish, the fishery itself could collapse (insufficient stock to reproduce fast enough to survive)
+- If you remove too many fish, the fishery itself will collapse (insufficient stock to reproduce fast enough to survive)
 
 <br>
 
@@ -401,9 +529,7 @@ So, X goes fishing and successfully catches one fish
 
 <br>
 
-Your camping trip lasts one week and you will have the opportunity to fish every day (7 days)
-
-- *Keep using the three groups from the board lists exercise*
+*Keep using the three groups from the board lists exercise*
 
 - I'm going to ask each group to make a proposal to the class for how they would like us to manage this resource
 
@@ -623,65 +749,124 @@ I mean this.
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
+## The answer is probably on Canvas {background-image="Images/background-forest_v3.png" .center}
 
-```{r}
-tibble(
-  col1 = c("Attendance & Participation", "Outcome Reports", "1. Baseline Argument Report", "2. Problem Framing Report", "3. The Policy Evaluation Report"),
-  col2 = c("", "", "(Feb 28)", "(Apr 11)", "(Final)"),
-  col3 = c("50%", "50%", "", "", "")
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "")) |>
-  kableExtra::kable_styling(font_size = 40) |>
-  kableExtra::column_spec(1, width = "20em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(0, background = "lightblue") |>
-  kableExtra::row_spec(1:5, background = "white")
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Canvas_Homepage.png")
 ```
 
 ::: notes
 
-Everyone should download and read the syllabus.
+Everybody log into Canvas, open the syllabus and let's hit the highlights!
 
-- Tons of important course policies in there and by taking this class you are agreeing to all of them
-
-<br>
-
-Since this capstone class has ambitions of getting out into the world and making a difference, I need you all to come to class and be engaged
-
-- We're only going to get as far as you're willing to push.
-
-- The attendance and participation policies are meant to help motivate you!
+- *Give them time to do this*
 
 <br>
 
-Half your course grade this semester is about showing up, being prepared and engaging in the work of our class.
+1. **Any questions about the LOs or components of your grade?**
 
-- You'll see on the Modules page of Canvas that most of our class sessions have a reading plus an assignment
+    - 90% is showing up and doing the daily work before class starts
 
-- To get credit you must submit these assignments BEFORE class begins.
-
-<br>
-
-There is an attendance cliff in this class
-
-- Anyone with more than three unexcused absences in the semester cannot earn higher than a ‘C’ in the course (regardless of grades earned on other assignments).
-
-- IFF you have an excused absence coming up **YOU** are required to contact me by email for excused absences
+2. **Any questions about the attendance policy?**
+    
+    - Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
+    
+    - YOU are required to contact me by email for excused absences
     
     - Coach emails alone DO NOT COUNT
 
+3. **Any questions about the participation points?**
+
+    - MOST classes have short pre-class assignments that must be submitted to Canvas
+    
+    - Other ways to lose participation: Lateness, distracting classmates
+
 <br>
 
-The other half of your grade will consist of reports presenting your analyses and action plans for our selected environmental problem
+The Modules page of our Canvas site is where I will provide all of the readings and links to the daily assignments.
 
-- More to come on that soon.
+- **Any question on the Modules page?**
 
 <br>
 
-**Any questions on these grades or policies?**
+Bottom line, please keep me in the loop this semester!
+
+- I genuinely want you to make progress on our learning outcomes
+
+- So, if things are getting rough for you please come talk to me.
+
+- I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+
+<br>
+
+**Questions on this?**
+
+<br>
+
+**SLIDE**: AI policy
 
 :::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+You may not use any AI tools in this class. Any AI use will be treated as plagiarism.
+
+<br>
+
+That means: 
+
+- No AI search
+
+- No AI summaries of articles or books
+
+- No AI for outlining or writing
+
+- No AI for data analysis
+
+- No AI to simply clean up your grammar (e.g. Grammarly).
+
+<br>
+
+Think of this class like training to play a sport
+
+- The time you spend in the gym getting stronger and more flexible makes you a better athlete regardless of the sport you end up playing. 
+
+- That's what we're doing in this class when we learn to critically analyze texts and become better writers.
+
+- I'm getting you ready to succeed out in the real world
+
+- Using AI tools is like bringing a forklift into the weight room. Yeah, you lifted the weights, but it was a waste of your time.
+
+<br>
+
+Other key point: Lots of people are worried about AI taking their jobs, e.g. replacing them in the workforce. 
+
+- If you use AI to do your thinking for you then you are literally replacing yourself with AI
+
+- You are setting yourself up with skills that are basically without value
+
+<br>
+
+So, let's not waste this opportunity working together this semester
+
+- Let's get stronger and be better adapted to whatever the world looks like when you graduate
+
+<br>
+
+**Questions on this policy?**
+
+<br>
+
+**SLIDE**: Next class
+
+:::
+
 
 
 
@@ -689,7 +874,13 @@ The other half of your grade will consist of reports presenting your analyses an
 
 <br>
 
-### Check Canvas: What is due before next class?
+::: {.r-fit-text}
+
+**Check the Modules page on Canvas**
+
+- **What is due before next class?**
+
+:::
 
 ::: notes
 
