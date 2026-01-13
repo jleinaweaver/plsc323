@@ -13,9 +13,9 @@ library(kableExtra)
 
 ::: {.r-fit-text}
 
-**The "What" and "Why" of Public Policy**
+**Section 1: Introduction to Environmental Policymaking**
 
-- Definitions, pre-requisites and standards of assessment
+- Why do societies make "public policy"?
 
 :::
 
@@ -30,16 +30,8 @@ Prep for Class
 
 1. Review Canvas submissions
 
-2. Bring markers x4
-
-3. Add some brainstormed hypotheses from week 2 here to the refresher material
-
-4. TAKE YOUR TIME, this is dense material!
-
-5. Bring the Munger book to class
+2. Bring the Munger book to class
     - Munger, M. C. (2000). Deciding How to Decide: "Experts," "The People," and "The Market." In *Analyzing Policy: Choices, Conflicts and Practices* (pp. 30–53). W.W. Norton & Company.
-
-6. OLD Wisdoms slides at bottom
 
 <br>
 
@@ -53,12 +45,10 @@ Prep for Class
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
+**Simulating a Resource Management Problem**
 :::
 
-```{r, echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("Images/01_1-cartoon_lake.jpg")
-```
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -101,16 +91,17 @@ Now reverse it!
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
+**Simulating a Resource Management Problem**
 :::
 
 <br>
 
-Politics in everything!
+The Lesson: Politics in everything!
 
 - EVERY problem exists in a community, and 
 
-- EVERY community is a complex mix of actors, rules and interactions
+- EVERY community is a mix of actors, rules & interactions
+
 
 ::: notes
 
@@ -142,6 +133,10 @@ You guys were rather eager to jump to murder as a means for enforcing the rules
 
 - As policy-makers you need to keep these lessons in mind
 
+<br>
+
+**SLIDE**: Next to Cronon
+
 :::
 
 
@@ -149,9 +144,8 @@ You guys were rather eager to jump to murder as a means for enforcing the rules
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
+**The Trouble with Wilderness (Cronon 1996)**
 :::
-
 :::: {.columns}
 ::: {.column width="50%"}
 
@@ -165,10 +159,6 @@ You guys were rather eager to jump to murder as a means for enforcing the rules
 
 :::
 ::::
-
-::: {.r-fit-text}
-**The Trouble with Wilderness**
-:::
 
 ::: notes
 
@@ -187,11 +177,11 @@ After the simulation we shifted our focus to a big collection of key ideas discu
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
+**The Trouble with Wilderness (Cronon 1996)**
 
 <br>
 
-**The Trouble with Wilderness**
+The Lesson: 
 
 1. The "environment" is a contested concept
 
@@ -225,88 +215,79 @@ After the simulation we shifted our focus to a big collection of key ideas discu
     
 <br>
 
-**Is everybody clear on how "the environment" plays a role in problem-solving?**
+**SLIDE**: Finally we shifted to an audit of Drury's environment
+
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
 
-::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
-:::
+## Auditing our Environment {background-image="Images/background-forest_v3.png" .center}
 
-![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+![](Images/02_1-Drury_Campus.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-After exploring the Cronon piece we shifted into a comparative case study exercise
+Each of you spent time exploring our campus environment in order to report back on what we do well and what we need to do better
 
 <br>
 
-**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
+**What were our takeaways?**
 
-- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
+- **What is Drury doing well?**
+
+- **What do we need to do better?**
 
 <br>
 
-- (**SLIDE**: Examples from week 2)
+**SLIDE**: The lesson
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .smaller}
+## Auditing our Environment {background-image="Images/background-forest_v3.png" .center}
 
-**P(Success) increases when**
+<br>
 
-- The visibility of the problem increases
-- The threat of harm is imminent
-- The source of the problem is clear (and widely accepted)
-- The size of the impacted community is smaller
-- The community has a greater sense of shared values
-- The community has a demonstrated pattern of activism
-- The community is more affluent
-- The money available to act is greater
-- The plan includes criteria for measuring effectiveness
-- The plan includes greater levels of community involvement
-- The plan changes incentives (carrots or sticks)
+::: {.r-fit-text}
+
+The Lesson: 
+
+- There is wildness to be fostered **EVERYWHERE**
+
+- Stop waiting for an invitation to **GET INVOLVED**
+
+:::
+
 
 ::: notes
 
-Lots of intriguing ideas from your work in Week 2.
-
-- Don't lose these as they imply strategies for attacking environmental problems in a local community!
+Think of this like applying Cronon's conclusions to the Drury campus
 
 <br>
 
-**SLIDE**: Our work for this week...
+**SLIDE**: All of this brings us to our work for today, making an argument that policy is non-optional for community problem-solvers!
 
 :::
 
 
 
-## Our Aim for This Week {background-image="Images/background-forest_v3.png"}
+## Our Aim for Today {background-image="Images/background-forest_v3.png"}
 
 ::: {.r-fit-text}
-**Problem-solving in a community requires policy!**
+**Argument: Problem-solving in a community requires policy**
 :::
 
 ![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=25 left=100 width="800"}
 
 ::: notes
 
-This week we need to **define "policy"** and think carefully about what it means to say that a problem **REQUIRES** a policy solution!
-
-<br>
-
 For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
 
 - Munger's book is an excellent read for anyone interested in becoming a policy analyst or policymaker.
 
-- Munger makes a series of arguments about policymaking that I want us to unpack together and then evaluate
-
-- We should keep the parts we think will be useful and discard the others
+- Munger makes a series of arguments about policymaking that I want us to unpack together and reflect upon
 
 <br>
 
@@ -326,10 +307,161 @@ For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
 
 <br>
 
-**SLIDE**: "Requires" is a strong claim here, so let's discuss it.
+**SLIDE**: Let's start where Munger does
 
 :::
 
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Munger kicks off his chapter with a longer version of this quote.
+
+<br>
+
+**What do you think of this as a definition of "government" or the purpose of "government"?**
+
+- **By these terms, were you a government during our fishing simulation?**
+
+<br>
+
+Burke frames government as a human effort to deliver what we want
+
+- Burke acknowledges that government is not "god-given" or part of the "natural order", it is a device built by us to achieve specific aims
+
+- "contrivance": "the use of skill to bring something about or create something" (OED)
+
+<br>
+
+Importantly, this means that "government" is not impartial, perfect, or fixed in nature
+
+- Governing is really hard.
+
+- It is a human operation run by a community to achieve the goals of that community.
+
+- In the simulation you were doing your best to manage a bunch of interests in the face of great uncertainty!
+
+<br>
+
+**SLIDE**: And I can't help but go from this to...
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Murray-make-a-difference.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Even MORE importantly, this means government is not separate from you.
+
+- It is not a building far away or a special class of people
+
+- It is the confusing name we apply to our community's efforts to solve problems
+
+<br>
+
+We live in a big, complicated country and its functioning well depends on you
+
+- Problem-solving is in your hands
+
+- The "decider" can be anyone, or any group, willing to put in the work 
+
+- If you design a plan that meets the needs of its stakeholders and the conditions on the ground, you can make a difference
+
+- THIS is how our government is designed to work
+
+<br>
+
+This is why we work on local environmental problems in here
+
+- I want us tied to a specific community, in a specific moment in time and at a level where we can find concrete ways to make a difference.
+
+<br>
+
+**Questions on this?**
+
+<br>
+
+**SLIDE**: One other important baseline we need for working on policy
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**EVERY policy creates winners and losers**
+:::
+
+![](Images/02-1-winners.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Never forget, however, that in real-world problem-solving we play with live ammunition (so to speak)
+
+<br>
+
+Policy designers must NEVER forget that **all policies create winners and losers**.
+
++ Policy-making is **ALWAYS a choice** and **all choices have consequences**.
+
+<br>
+
+For example, Missouri just raised its minimum wage
+
+- **Who benefits from increases to the minimum wage?**
+
+- **Who pays the costs for those increases?**
+
+- **Is there any way to pay workers more without distributing the costs to society?**
+
+<br>
+
+The same is true with environmental policies
+
+- Take the clean air standards set by the Clean Air Act and the EPA
+
+- **Who benefits from cleaner air?**
+
+- **And who pays the costs for it?**
+
+- **Is there any way to get cleaner air without impacting polluting industries?**
+
+<br>
+
+**Humor me, can we think of any policy or rule in our society whether implemented by government, school, or your employer, that does not impose costs on someone?**
+
+<br>
+
+So, policy is, in essence, a rule or rules adopted by a society to structure behavior.
+
+- All rules impose costs on some and provide benefits to others
+
+- Policy-making is often an exercise in deciding who will pay the costs and who will receive the benefits.
+
+<br>
+
+Ok, so:
+
+1. Government is the label we apply to efforts by human societies to provide for the needs of their own community, and
+
+2. EVERY policy is designed to help someone but inevitably hurts someone else
+
+<br>
+
+Then the question must become, why can't we get the positive ends without the negatives
+
+- **SLIDE**: Let's indulge the libertarian fantasy!
+
+:::
 
 
 ## {background-image="Images/02-1-cavemen.jpg" .center}
@@ -445,7 +577,221 @@ There is no "starting from scratch" anywhere in human societies!
 
 **Is everybody clear on these four "lessons"?**
 
+<br>
+
+SLIDE: The wisdoms as one way to think about problem framing and battles over expertise
+
+- It's not just "let's trust the experts" and be done with it!
+
 :::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+Let's step through the key elements from this definition
+
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A **definite course or method of action** selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+1) A policy, by definition, is a "definite" "course" or "method" of action
+
+<br>
+
+Makes sense if you think of policy as a new rule or set of rules
+
+- Without specificity and clarity the policy cannot hope to change behavior
+
+- e.g. Actor X must do Y
+
+- e.g. Companies investing in new equipment must...
+
+<br>
+
+**SLIDE**: The alternatives
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) **from among alternatives** and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+2) A policy, by definition, is selected from among competing options
+
+- There is NEVER just one answer to an environmental problem
+
+- A BIG part of the reason a community typically has a problem in the first place is because there is dispute within that community over the possible answers
+
+<br>
+
+This means all policy, by definition, is choosing one set of rules over another
+
+- Effective problem-solvers MUST be able to explain their choices in the context of the policies not selected
+
+- In other words, you will be expected to have explicitly considered alternatives to your "definite" "course of action" AND be able to explain why you choose the way you did
+
+<br>
+
+**SLIDE**: conditions matter
+:::
+
+    
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and **in the light of given conditions** to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+
+::: notes
+
+3) A policy, by definition, must be adapted to the important "conditions" of the problem
+
+- In other words, the quality of your plan also DEPENDS on how well you've adapted it to the conditions on the ground.
+
+- No one-size-fits-all policy solutions are appropriate here.
+
+<br>
+
+THIS is the danger of groups tied or committed to a specific ideology.
+
+- Both cutting regulations and adding new ones are powerful options for influencing behavior, BUT
+
+- It is the context of the problem that should guide your policy design, not vice versa!
+
+- If you know the policy answer before you hear the problem you are not taking it seriously
+
+<br>
+
+**SLIDE**: stakeholders matter
+:::
+
+
+
+## What is Policy? {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions **to guide and usually determine present and future decisions**..." (Webster's Third International Dictionary).
+
+::: notes
+
+4) A policy, by definition, "guide[s]" or "determine[s]" future behavior by stakeholders
+
+- Stakeholders e.g. the people involved in the problem
+
+<br>
+
+This means your plan must be adapted to the context of now AND the expected context we face in the future
+
+<br>
+
+**SLIDE**: In sum
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### To maximize your chances of success, your policy proposals must be:
+
+::: {.r-fit-text}
+- Specific,
+
+- Adapted to the stakeholders,
+
+- Adapted to the science of the problem, 
+
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
+:::
+
+::: notes
+**Does all of that make sense?**
+
+<br>
+
+Everybody write this down and consider it a guide for our work this semester and especially for the final paper!
+
+<br>
+
+**SLIDE**: Funnily enough, Munger starts his chapter with a different definition
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1141,6 +1487,8 @@ Cons:
 **SLIDE**: Let's play with these ideas
 
 :::
+
+
 
 
 

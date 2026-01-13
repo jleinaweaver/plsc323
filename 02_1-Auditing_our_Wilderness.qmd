@@ -31,8 +31,13 @@ Prep for Class
 
 1. Review Canvas submissions
 
+2. Circle-up, seminar style!
+
 <br>
 
+Welcome back all!
+
+- **SLIDE**: Let's kick things off today with a quick refresher on last week
 
 :::
 
@@ -40,26 +45,416 @@ Prep for Class
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="60%"}
+![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+In our first class last week we simulated a resource management problem.
+
+<br>
+
+**What was the problem your community faced in our game?**
+
+- (How to manage a renewable resource)
+- (How to distribute benefits in a community)
+
+<br>
+
+**What rules did you create? Why?**
+
+- **e.g. number of fishers, selection of fishers, enforcement of the rules?**
+
+<br>
+
+**Was this management effort a success? Why or why not?**
+
+<br>
+
+Clarify the terms of "success" here for me.
+
+- **What were you trying to maximize? What was a "good" result?**
+
+<br>
+
+- **Were you maximizing the sustainability of the resource, the gains of the collective or the gains of one individual?**
+
+<br>
+
+I really like this opening simulation for a bunch of reasons:
+
+- It gives me a sense of who each of you are as individuals
+
+- It gives me a sense of who you are as a collective
+
+- It asks each of you to think about a community problem like a political scientist
+
+- And, frankly, it's a lot of fun
+
+<br>
+
+**SLIDE**: But there are also some lessons on problem-solving we should keep in mind
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Politics in everything!**
+
+- EVERY problem exists in a community
+
+- EVERY community is a complex mix of:
+
+    - Actors
+    - Rules
+    - Interactions
+:::
+
+::: notes
+
+*Read slide*
+
+<br>
+
+Each proposal for managing the resource was evaluated by the class in terms of the rules and processes they already operate within
+
+- This means that new rules and processes must be adapted to the rules and processes already in place
+
+<br>
+
+Each proposal was altered based on the other proposals!
+
+- We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
+
+<br>
+
+You guys were rather eager to jump to murder as a means for enforcing the rules
+
+- This means that trust is a vital component of creating rules that will work
+
+- Societies with a lack of trust are in for a rough time trying to solve problems.
+
+<br>
+
+**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
+
+- As policy-makers you need to keep these lessons in mind
+
+:::
+
+
+
+
+
+## {background-image="Images/02_1-Rockymountain_wilderness.jpg"}
 
 <br>
 
 <br>
 
-Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+
+<p style="color: white;">What is the "Trouble with Wilderness"?</p>
+
 :::
 
-::: {.column width="40%"}
+::: notes
 
-![](Images/02_1-cronon_uncommonground2.jpg)
+On Thursday we then dug into one of my favorite articles exploring our relationship to the environment.
+
+- Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
+
+<br>
+
+**So, what is the "trouble with wilderness" according to Cronon?**
+
+- (**SLIDE**: The argument we explored in class)
 
 :::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+**The Trouble with Wilderness (Cronon 1996)**
+
+<br>
+
++ Pre-19th century humans define the wilderness as sublime
+
++ As American society "develops" we needed a domesticated wilderness that could indulge our myths
+
++ A romanticized wilderness creates an impossible standard of management
+
+Therefore, wilderness is a human creation and our mythologizing about it makes it harder to solve environmental problems.
+
+::: notes
+
+**What did you think of Cronon's approach to making this argument using a lens on society primarily framed by history, art and literature?**
+
+- **Strengths and weaknesses of this approach?**
+
+<br>
+
+For those of you coming out of PLSC 223 you know the American relationship to wilderness is more complicated than this
+
+- It's not that Cronon is wrong, he's not, but he is focusing primarily on the divide between the Edenic and a preservation view of wilderness
+
+- There are a number of other competing environmental ethics in our society but I think Cronon does an excellent job zooming in on one of the primary divides we grapple with in problem-solving today
+
+<br>
+
+**And what is the lesson of this article for us if we want to solve real-world environmental problems?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+**Setting the Stage for Problem-Solving**
+
+1) All environmental concepts are contested
+
+2) Your chosen definition narrows your options
+
+3) Many disputes arise from conflicting definitions
 ::::
 
 ::: notes
 
+To refresh where we ended last week...
 
+1. We must remember that all of the concepts related to environmental problems will be contested (e.g. fought over),
+
+    - No matter how obvious you think the problem is, I assure you that all of the stakeholders view it somewhat differently
+    
+<br>
+
+2. Your chosen definition automatically narrows the options of policies you think are acceptable vs not
+
+    - Definitions set the agenda of future action
+
+    - Be strategic when establishing a definition and be flexible in considering alternative viewpoints
+
+<br>
+
+3. Conflicts over problem definitions often drive the most serious disputed regarding environmental problem.
+
+    - The most effective policy solutions begin with clear definitions that generate buy-in from the relevant stakeholders
+
+<br>
+
+**Questions on any of this?**
+
+<br>
+
+Our work for this week is to explore and adopt a policy-focused lens for analyzing problems in our community
+
+- Think, less historical narrative a la Cronon or our PLSC 223 class
+
+- More like our simulation game last week with individuals, constrained by rules, making decisions and enforcing standards
+
+<br>
+
+**SLIDE**: Your assignment for today
+
+:::
+
+
+
+## {background-image="Images/02_1-Drury_Campus.jpg" .center}
+
+::: notes
+
+For class today I asked each of you to spend an hour exploring the Drury campus and surrounding streets thinking critically about the “wilderness” in our backyard. 
+
+- I'm hoping you embraced the spirit of Cronon's work and adopted VERY broad definitions of the "environment".
+
+    - e.g. the usual (plants, animals, air, soil) and other aspects of our well-being (transportation, food, safety, etc.)
+    
+<br>
+
+First I want you to talk to me about the experience of doing the exercise
+
+- **What was it like to spend an hour wandering our campus? Did you get bored? Did you get distracted? Did you let yourself relax?**
+
+<br>
+
+**Did you zoom in on the people at all? e.g. How they used the campus and interacted with each other?**
+
+- **Any patterns stand out?**
+
+<br>
+
+As I said to you last week, environmental problem-solving is rooted in complex and inter-dependent communities
+
+- The better you get at seeing the world in different ways, the more effective you will be as a problem-solver
+
+<br>
+
+**SLIDE**: Let's report back on the first prompt
+
+:::
+
+
+## Canvas Question 1 {background-image="Images/02_1-Drury_Campus_v2.png" .center}
+
+<br>
+
+### What are examples of Drury’s “wilderness” that we are managing well?
+
+::: notes
+
+*Canvas Q1: Share examples of successful management*
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+**All in all, how much WILDNESS is there on campus?**
+
+- **Not wilderness, WILDNESS**
+
+<br>
+
+**What are the characteristics of "successful management" in these examples?**
+
+- **e.g. What is being prioritized and for whom?**
+
+<br>
+
+**SLIDE**: Next prompt
+
+:::
+
+
+
+## Canvas Question 2 {background-image="Images/02_1-Drury_Campus_v2.png" .center}
+
+<br>
+
+### What specific actions do you take AS PART OF YOUR TYPICAL ROUTINE that contributes to the protection and promotion of wilderness on Drury’s campus?
+
+::: notes
+
+*Canvas Q2: Share examples of positive individual actions*
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+**From our submitted examples, what individual choices have the biggest bang for the proverbial buck?**
+
+- **In other words, what actions on this campus do you think have the biggest possible positive impact on our environment?**
+
+<br>
+
+**Generally speaking, but building from our examples, do we suspect that the biggest impact actions always carry the biggest costs to us as individuals to do them?**
+
+- **In other words, IFF we decide that changing individual behavior is key, are we going to be asking people to make impossible sacrifices for abstract "environmental" gains? Why or why not?**
+
+<br>
+
+**SLIDE**: Next prompt
+
+:::
+
+
+## Canvas Question 3 {background-image="Images/02_1-Drury_Campus_v2.png" .center}
+
+<br>
+
+### What specific aspects of Drury’s “wilderness” need to be improved or managed better?
+
+::: notes
+
+*Canvas Q3: Share examples of Drury's environmental needs*
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+Imagine we could address each of these needs
+
+- **What specific benefits would we observe on campus from addressing each one?**
+
+- **How substantial would these impacts be?**
+
+<br>
+
+<br>
+
+**SLIDE**: Final prompt
+
+:::
+
+
+
+## Canvas Question 4 {background-image="Images/02_1-Drury_Campus_v2.png" .center}
+
+<br>
+
+### What specific actions do you take as part of your typical routine that contribute to these problems?
+
+::: notes
+
+*Canvas Q4: Share examples of problematic actions*
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+**What can we infer about the people that make these choices?**
+
+- **Are these choices reflective of our character?**
+
+- **In other words, does doing these things make us "bad" people? Why or why not?**
+
+<br>
+
+**SLIDE**: Big picture reflections on Drury's campus environment
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Environmental project ideas focused on Drury's campus?
+
+![](Images/02_1-Drury_Campus.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**All of these reflections in mind, are there the makings of some good community projects we could design and execute targeting Drury's environment?**
+
+- **Let's brainstorm!**
+
+- (*ON BOARD*)
+
+<br>
+
+**SLIDE**: For next class
 
 :::
 
@@ -70,15 +465,36 @@ Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nat
 
 <br>
 
-**TBD**
+::: {.r-fit-text}
 
-- ...
+**How do we make "wise" public policy?**
+
+- Read Chapter 2 in Munger (2000)
+
+- Submit reflections on Canvas
+
+:::
 
 ::: notes
 
+Next class we do a crash course in public policy analysis
 
+- Why do societies use policy to solve problems?
+
+What specific actions do you take as part of your typical routine that contribute to these problems?
+
+- How do we approach policy-making?
 
 <br>
 
 **Questions on the material from today or our assignment for next class?**
+
+<br>
+
+Canvas Assignment: How do we make "wise" public policy? (4pts)
+
+What are the THREE most useful pieces of advice in the Munger chapter for ensuring that we design "wise" policy solutions for our environmental problems? 
+
+- Be specific both in terms of how it helps us solve real-world problems, AND include in-text citations to the pages you are referring to (APA formatted).
+
 :::

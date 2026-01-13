@@ -58,6 +58,64 @@ But first, a quick refresher round-up!
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
+**1) The Basics of Problem-Solving in a Community**
+:::
+
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+After exploring the Cronon piece we shifted into a comparative case study exercise
+
+<br>
+
+**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
+
+- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
+
+<br>
+
+- (**SLIDE**: Examples from week 2)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .smaller}
+
+**P(Success) increases when**
+
+- The visibility of the problem increases
+- The threat of harm is imminent
+- The source of the problem is clear (and widely accepted)
+- The size of the impacted community is smaller
+- The community has a greater sense of shared values
+- The community has a demonstrated pattern of activism
+- The community is more affluent
+- The money available to act is greater
+- The plan includes criteria for measuring effectiveness
+- The plan includes greater levels of community involvement
+- The plan changes incentives (carrots or sticks)
+
+::: notes
+
+Lots of intriguing ideas from your work in Week 2.
+
+- Don't lose these as they imply strategies for attacking environmental problems in a local community!
+
+<br>
+
+**SLIDE**: Our work for this week...
+
+:::
+
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
 :::: {.columns}
 ::: {.column width="60%"}
 
