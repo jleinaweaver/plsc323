@@ -15,7 +15,7 @@ library(kableExtra)
 
 **Comparative Case Studies**
 
-- Local Communities Failing to Solve Environmental Problems
+- Local Communities **Failing** to Solve Environmental Problems
 
 :::
 
@@ -30,21 +30,36 @@ Prep for Class
 
 1. Review Canvas submissions
 
-<br>
-
-Today we continue our work from last class analyzing case studies of local communities attempting to solve environmental problems
+2. Save the final theories brainstormed by class today in slides for next class (3-2) so we can evaluate them with the success cases
 
 <br>
 
-My hopes for this exercise remain twofold:
+Welcome back all!
 
-1. To give you a broader list of specific examples of local communities grappling with environmental problems that you can draw from in our work, and
+- **SLIDE**: We ended last week discussing the lessons of Munger's book chapter on public policy
 
-2. To give you a head start on thinking about policy-making in terms of theory and process
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Let's refresh some of the big arguments from our discussions
 
 <br>
 
-**SLIDE**: Last class...
+**First and foremost, what is "policy"?**
+
+- (**SLIDE**: The Burke quote)
 
 :::
 
@@ -52,79 +67,58 @@ My hopes for this exercise remain twofold:
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-::: {.r-fit-text}
-**Theories of Environmental Problem-Solving**
-:::
-
-<br>
-
-### We are more likely to solve an environmental problem when...
-
-- The problem looks like X
-
-- The community looks like Y
-
-- The action taken looks like Z
-
+![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Last class we performed a comparative case study exercise looking at cases of successful environmental problem-solving
+I like the Burke quote just because it puts the focus in the right place
 
-- We used those cases to propose theories of causation
+- Government is a human effort to deliver what we want
+
+- Policy is, in essence, rules created by a government or community for managing our needs
 
 <br>
 
-**Focusing just on the type of problem, what did we propose as possible theories of success?**
+**According to Munger, why is policy a non-optional requirement for all communities?**
 
-- (**SLIDE**)
+- **Why can't we just leave each other alone?**
+
+- (**SLIDE**: The Hun-gats thought experiment)
 
 :::
 
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**Theories of Environmental Problem-Solving: Problem Type**
-:::
-
-<br>
-
-**P(Success) increases when**
-
-- The visibility of the problem increases
-- The threat of harm is imminent
-- The source of the problem is clear
-- The greater the agreement on the cause of the problem
+## {background-image="Images/02-1-cavemen.jpg" .center}
 
 ::: notes
 
-One of the BIG values of theory is that it enables us to design strategies of action!
+Munger described the Hun-gats tribe as a pre-historic human community  that was running out of food
 
-- If these theories represent causal tendencies in the world then they also tell us how to attack an environmental problem
+- The tribe lacks information on what new foods are safe to eat and what are not
 
-<br>
+- Survival odds are maximized by coordinating our experimentation on food!
 
-**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
-
-<br>
-
-**Focusing just on the type of community, what did we propose as possible theories of success?**
-
-- (**SLIDE**)
+- Every man for himself leads to rampant death through wasted experimentation
 
 <br>
 
-*Class notes 2025-01-21*
+Bottom line:
 
-Environmental Problem Characteristics
+1. Policy is not optional in a community if you want to survive
 
-1. More visible the problem
-2. The more everyone defines the problem in the same way
-3. The more imminent the threat
-4. The clearer the source of the problem
+2. There was never a "state of nature"
+
+    - Stop pretending your intuitions about what people would do without government matter for how we should govern ourselves
+
+3. Battles over expertise are unavoidable and a key part of the process!
+
+    - There is no "perfect" policy, all policies create winners and losers
+
+<br>
+
+**SLIDE**: If there is no perfect policy, what do we aim for?
 
 :::
 
@@ -132,39 +126,31 @@ Environmental Problem Characteristics
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
+### To maximize your chances of success, your policy proposals must be:
+
 ::: {.r-fit-text}
-**Theories of Environmental Problem-Solving: Community Type**
+- Specific,
+
+- Adapted to the stakeholders,
+
+- Adapted to the science of the problem, 
+
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
 :::
-
-<br>
-
-**P(Success) increases when**
-
-- The size of the impacted community is smaller
-- The community has a greater sense of shared values
-- The community has a demonstrated pattern of activism
-- The community is more affluent
 
 ::: notes
 
-**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
+*Read slide*
 
 <br>
 
-**Focusing just on the type of action, what did we propose as possible theories of success?**
-
-- (**SLIDE**)
+I'm not saying you can't create rules that violate these characteristics, but you shouldn't if the goal is to produce durable and positive change in a community!
 
 <br>
 
-*Class notes 2025-01-21*
-
-Community Characteristics
-
-1. Size (smaller more likely to act?)
-2. Shared values
-3. Demonstrated energy or activism / community
-4. Affluence of the affected
+**SLIDE**: And that took us to the SUPER important pre-requisites for all public policy
 
 :::
 
@@ -174,84 +160,96 @@ Community Characteristics
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**Theories of Environmental Problem-Solving: Action Type**
-:::
+**Policymaking Pre-Requisites**
 
 <br>
 
-**P(Success) increases when**
+You must convince the community that:
 
-- The money available to act is greater
-- The plan includes criteria for measuring effectiveness
-- The plan includes greater levels of community involvment
-- The plan changes incentives (carrots or sticks)
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
 
 ::: notes
 
-One of the BIG values of theory is that it enables us to design strategies of action!
-
-- If these theories represent causal tendencies in the world then they also tell us how to attack an environmental problem
+Each pre-requisite is a distinct argument that you have to successfully make before moving to any actual policy-design
 
 <br>
 
-**If these are our theories of success, then what specific menu of strategies should we consider when trying to solve a problem in a community?**
+**What does it mean to say we have a public problem? As opposed to what?**
+
+- (**Private Problem**: "My choice has no consequence for your welfare")
+
+- (**Public Problem**: "My choices affect your welfare"
 
 <br>
 
-Today we check our developing theories against failure cases
+**What does it mean to say we require a collective decision? As opposed to what?**
 
-- **SLIDE**: We have to avoid selecting on the dependent variable
+- (**Individual Decision**: "I can choose, alone and without interference")
+
+- (**Collective Decision**: "Choices are made by a group, and are binding on all")
 
 <br>
 
-*Class notes 2025-01-21*
+**Any questions on the material from last week?**
 
-Policy Characteristics
+<br>
 
-1. Financial backing
-2. Plan has criteria for measuring effectiveness / tracking progress
-3. High levels of community involvement
-4. Focus on changing incentives (carrots or sticks)
+**SLIDE**: This week I want us to perform a comparative case study of local communities dealing with environmental problems
 
 :::
 
 
 
-## Selecting on the Dependent Variable {background-image="Images/background-forest_v3.png"}
+## {background-image="Images/background-forest_v3.png" .center}
 
-![](Images/02_2-Selecting_Dependent_Variable1.png){.absolute left=0 width="550"}
+::: {.r-fit-text}
 
-![](Images/02_2-Selecting_Dependent_Variable2.png){.absolute right=0 width="450"}
+**Environmental Problems in Local Communities**
+
+- Today: Failure Cases
+
+- Thursday: Success Cases
+
+:::
+
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Selection bias is a serious problem in science
-
-- It happens when the sample of data you are analyzing is biased 
-
-- e.g. it systematically excludes some set of cases you need
+*NOTE: Moved the "explaining theory" slides to right before that part of the exercise*
 
 <br>
 
-Commonly this takes the form of selecting on the dependent variable
-
-- I'm guessing the authors of these pieces want you to think all you need to do is tweak your parenting or your breakfast routine and you too will be successful!
-
-- But without checking to see if unsuccessful people also eat chia seeds, you can't really know anything about how the world actually works
+This case study exercise has two broad aims:
 
 <br>
 
-**Make sense**?
+FIRST, I want us to help each other develop a broader list of specific examples of local communities grappling with environmental problems
+
+- As we move into community work, the broader your base of examples the more adaptable you will be to the needs of specific communities
+
+- You don't have to reinvent the wheel for each problem you confront
+
+- Use the examples to help you avoid common roadblocks and select more effective strategies
 
 <br>
 
-So, we want to use our failure cases today to BOTH:
+SECOND, we use a comparative case study exercise to give you a head start on thinking about policy-making in terms of theory and process
 
-- Generate correlations between characteristics and failure, AND
+- While our work in this class will tend to focus on hands-on activities...
 
-- To check and see if our intuitions from last class hold up!
+- Learning to think about these problems as a social scientist, in terms of observation, measurement and theory, will make you a more effective community activist
+
+<br>
+
+**SLIDE**: Ok, let's introduce the failures!
 
 :::
+
+
 
 
 
@@ -280,158 +278,406 @@ Let's speed around the room to introduce the cases
 
 <br>
 
-*Split class into NEW (different than last class) small groups (five groups of four)*
+*Split class into small groups (groups of four)*
 
 - Go sit with your group!
 
+<br>
+
+**SLIDE**: Characteristics of the problem
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**1. Characteristics of the Environmental Problems**
+
+- What are the common characteristics for the environmental problems in our failure stories?
+
+- Make a list of at least FIVE characteristics
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+**SLIDE**: Characteristics of the Community
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**2. Characteristics of the Community**
+
+- What are the common characteristics for the communities in our failure stories?
+
+- Make a list of at least FIVE characteristics
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- **Questions on the task?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+**SLIDE**: Characteristics of the Policy
+
+:::
+
+
+
+## Analyzing the Failure Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**3. Characteristics of the Policy**
+
+- What are the common characteristics for the policies in our failure stories?
+
+- Make a list of at least FIVE characteristics
+
+::: notes
+
+Groups, take some time to review ALL of the cases submitted on Canvas in order to make this list.
+
+- This assumes the submitted case described a failed policy
+
+- If no policy was attempted then feel free to skip that one for this list
+
+- **Questions on the task?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+Ok, groups, you have reflected on all of the cases today and used them to generate lists of characteristics common to these failures
+
+- Our job now shifts from classifying cases to theorizing explanations
+
+<br>
+
+**SLIDE**: What do I mean by "theorizing explanations"?
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Why do some communities successfully solve serious environmental problems while others do not?
+
+::: notes
+
+Let's say this is the research question we are exploring this week with our case studies.
+
+<br>
+
+**Give me one of the characteristics you just brainstormed for environmental policy failure**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+```{r, fig.align='center', fig.width = 10, fig.height=2}
+## Manual DAG
+d1 <- tibble(
+  x = c(-3, 3),
+  y = c(1, 1),
+  labels = c("Predictor", "Policy\nOutcomes")
+)
+
+ggplot(data = d1, aes(x = x, y = y)) +
+  geom_point(size = 0, color = "white") +
+  theme_void() +
+  coord_cartesian(xlim = c(-4, 4)) +
+  geom_label(aes(label = labels), size = 7) +
+  annotate("segment", x = -1.9, xend = 1.85, y = 1, yend = 1, arrow = arrow())
+```
+
+::: notes
+
+Ok, put that characteristic in this diagram in place of the word "predictor"
+
+- e.g. that is the variable we are suggesting causes variation in policy outcomes
+
+- The arrow represents the direction of causality
+
+- Here variations in the predictor cause variations in the outcome
+
+- You may refer to this in other classes as an independent and dependent variable
+
+<br>
+
+**Now, tell me the story of WHY you believe THIS specific predictor causes variation in policy outcomes**
+
+- **Why does this arrow exist AND why does it point in this direction?**
+
+- (*DISCUSS*)
+
+<br>
+
+Your explanation why (e.g. the story behind this arrow) IS your theory
+
+- Theories, in science, are the stories we have designed to help us explain the world
+
+- They are simplifications of complex processes meant to help us understand why things happen the way that they do
+
+<br>
+
+Somebody give us an example from their major!
+
+- **What is a theory you have studied and what does it help us explain?**
+
+- *REPEAT*
+
+<br>
+
+**SLIDE**: Why do scientists spend time generating and testing theories?
+
+:::
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-topo-map-1.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I particularly like the analogy of theories as maps
+
+- This topographic map is super useful for planning a hike
+
+- Close together lines mean steep elevation changes, far apart means more gradual
+
+- We can use this to plan a gentle stroll or a strenuous challenge!
+
+<br>
+
+Thanks to this map we don't have to start from scratch in navigating the world
+
+- The map provides guidance to navigating a complex set of processes
+
+- As community problem-solvers the more we understand the maps, the more effective we can be in our community
+
+<br>
+
+**Any big picture questions on theory as scientific explanations?**
+
+<br>
+
+**SLIDE**: Back to our cases
+
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-**What are the common characteristics for the ENVIRONMENTAL PROBLEMS in our failure stories?**
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving**
+:::
 
 <br>
 
-**Success theories to re-evaluate: P(Success) increases when**
+### We are LESS likely to solve an environmental problem when...
 
-- The visibility of the problem increases
-- The threat of harm is imminent
-- The source of the problem is clear
-- The greater the agreement on the cause of the problem
+- The problem looks like X
+
+- The community looks like Y
+
+- The action taken looks like Z
 
 ::: notes
 
-Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
+Ok, groups, take your lists of characteristics and use them to generate theories of environmental problem-solving
 
-1. List the common characteristics from the failure cases, and 
+- Basically, I want you to describe for me the characteristics you believe make addressing an environmental problem harder AND give us the reason WHY
 
-2. Check and see if our intuitions from last class hold up!
+- Aim for at least one theory per category!
 
-<br>
-
-**Questions on the task?**
+- **Make sense?**
 
 - Go!
 
 <br>
 
-*ON BOARD: Present and discuss each*
+*ON BOARD: Problems vs Community vs Policies*
+
+- Ok, groups, let's go round robin and add theories to the board under each heading
+
+- Let's get at least one theory in each category from each group
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+Now, in research design terms, our work today has been focused on theory generation, NOT testing
+
+- **For those who have taken research design before, why can't we call our work today scientific testing of these new theories?**
+
+- **Haven't we confirmed them with our empirical data?**
+
+- (**SLIDE**: Two substantial problems with that idea)
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
 
-**What are the common characteristics for the COMMUNITIES in our failure stories?**
+## Problem 1 {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-**Success theories to re-evaluate: P(Success) increases when**
+**An example of circular reasoning and overfitting** 
 
-- The size of the impacted community is smaller
-- The community has a greater sense of shared values
-- The community has a demonstrated pattern of activism
-- The community is more affluent
+![](Images/03_1-Overfitting.png){style="display: block; margin: 0 auto"}
+
 
 ::: notes
 
-Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
+Imagine you dropped ten marbles on the ground from a height of 2 feet
 
-1. List the common characteristics from the failure cases, and 
+- Then you drew a line connecting all of the marbles
 
-2. Check and see if our intuitions from last class hold up!
+- How confident are you that redoing the experiment would end with ten new marbles all hitting the ground and staying on the line you just drew?
 
-<br>
-
-**Questions on the task?**
-
-- Go!
+- That's the danger of overfitting your data
 
 <br>
 
-*ON BOARD: Present and discuss each*
+Useful theory explains MORE than just the cases we have in hand
+
+- Confirmation of our theories using the same data that generated them tells us nothing about the theory
+
+- The goal is general answers to important questions, not limited answers specific to a small subset of cases
+
+<br>
+
+In a very real sense, the theories we have brainstormed today are overfit to the cases we have because we designed them to fit these specific cases as perfectly as possible
+
+<br>
+
+Only if our theories prove predictive on NEW cases should we feel confident about what we've created!
+
+<br>
+
+**SLIDE**: The second problem
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
-
-**What are the common characteristics for the ACTIONS TAKEN (if any) in our failure stories?**
+## Problem 2 {background-image="Images/background-forest_v3.png"}
 
 <br>
 
-**Success theories to re-evaluate: P(Success) increases when**
+**Selecting on the Dependent Variable**
 
-- The money available to act is greater
-- The plan includes criteria for measuring effectiveness
-- The plan includes greater levels of community involvment
-- The plan changes incentives (carrots or sticks)
+![](Images/02_2-Selecting_Dependent_Variable1.png){.absolute left=0 width="500"}
+
+![](Images/02_2-Selecting_Dependent_Variable2.png){.absolute right=0 width="400"}
 
 ::: notes
 
-
-Groups, take some time to review ALL of the cases submitted on Canvas in order to make do TWO jobs
-
-1. List the common characteristics from the failure cases, and 
-
-2. Check and see if our intuitions from last class hold up!
+Problem 2 is that we have been selecting on the dependent variable which is a form of selection bias
 
 <br>
 
-**Questions on the task?**
+Generally speaking, selection bias happens when the sample of data you are analyzing is biased in some way
 
-- Go!
+- And by "biased" we mean it doesn't represent the variety of cases we need it to
 
 <br>
 
-*ON BOARD: Present and discuss each*
+One specific form of selection bias is selecting on the dependent variable
+
+- I'm guessing the authors of these pieces want you to think all you need to do is tweak your parenting or your breakfast routine and you too will be successful!
+
+- But without checking to see if unsuccessful people also eat chia seeds, you can't really know anything about how the world actually works
+
+<br>
+
+Our work today focused on failures only so we can't know if the mechanisms we brainstormed are predictors of failure or simply correlated with these specific cases
+
+<br>
+
+**Make sense**?
+
+<br>
+
+So, that means we need variation on the key outcome of policy success!
+
+- **SLIDE**: Assignment for next class
 
 :::
 
 
 
-## Thinking Theoretically {background-image="Images/background-forest_v3.png" .center}
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-### What are our big picture takeaways from the comparative case study this week?
+Find an example of a **LOCAL** community **SUCCESSFULLY** addressing an environmental problem
 
-- What should we keep in mind when trying to solve a local environmental problem?
+- Report on the policy and evaluate it using the concepts from the Munger chapter
 
 ::: notes
 
-Groups, take a minute to reflect on all our cases and consider if there are any inferences we would like to draw so far
+For next class we shift to the successs stories!
 
-- Any elements of our success cases that you suspect might be tied to the success or failure of environmental problem-solving?
-
-<br>
-
-*PRESENT and DISCUSS*
-
-- *Force this discussion*
+- We need more data in order to see if the obstacles we identified today are real issues or just selection bias
 
 <br>
 
-**SLIDE**: For next week
-:::
-
-
-
-## Next Week: Public Policy {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02_2-public-policy-examples.jpg)
-
-
-::: notes
-
-What is policy? Why do we use it? How has SGF used it?
+**Questions on the assignment or any of the material from today?**
 
 <br>
 
-You have a reading and Canvas assignment due before next class
+Canvas DISCUSSION: Cases Illustrating Local Communities Solving Environmental Problems (10pts)
+
+Find us an example of a LOCAL community anywhere in the world solving an environmental problem (focus on small communities, cities or counties).  
+
+- No overlap in cases! (e.g. don't submit a case someone has already submitted)
+- Make sure to provide evidence to support your claims (APA citations)
+
+1. Describe the environmental problem they confronted, 
+2. Describe the community facing the problem (Who are they? Where are they located? What do they look like demographically?), 
+3. What specifically did they do to address the problem?
+4. Why do they believe it worked?
+5. Apply the Munger material to your case: How is this an example of a community choosing to frame this problem as "public" rather than "private"?
+6. Apply the Munger material to your case: How is this an example of a community choosing to frame this problem as requiring a "collective" rather than an "individual" decision to address it?
 
 :::

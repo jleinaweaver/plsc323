@@ -575,9 +575,9 @@ A few things I want you to keep in mind
     
     - *Each fisher beyond 1 takes us down the d12 table (1 fisher needs <=11, 2 needs <=10, 3 needs <=9, etc)*
     
-    - *Each 10 fish removed takes our starting point 1 down the d12 table*
+    - *Each 5 fish removed takes our starting point 1 down the d12 table*
     
-- *You track total removed and at end let them know what happens to the fishery: Starting stock 100 fish, a MSY of 65 and a tipping point at 30*
+- *You track total removed and at end let them know what happens to the fishery: Starting stock 30 fish, a MSY of 22 and a tipping point at 18*
 
 **d12 probabilities**
 ```{r}
@@ -874,13 +874,9 @@ So, let's not waste this opportunity working together this semester
 
 <br>
 
-::: {.r-fit-text}
+Cronon (1996) "The Trouble with Wilderness or, Getting Back to the Wrong Nature"
 
-**Check the Modules page on Canvas**
-
-- **What is due before next class?**
-
-:::
+- Submit reflections on Canvas 
 
 ::: notes
 

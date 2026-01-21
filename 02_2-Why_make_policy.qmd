@@ -15,7 +15,9 @@ library(kableExtra)
 
 **Section 1: Introduction to Environmental Policymaking**
 
-- Why do societies make "public policy"?
+- Why do societies make policy?
+
+- What are the pre-requisites of policy?
 
 :::
 
@@ -35,204 +37,55 @@ Prep for Class
 
 <br>
 
-**SLIDE**: Let's refresh our work so far in this class.
+**SLIDE**: So far in this class...
 
 :::
 
 
 
+## {background-image="Images/background-forest_v3.png"}
 
-## {background-image="Images/background-forest_v3.png" .center}
+![](Images/01_1-cartoon_lake.jpg){.absolute left=0 top=0 width="500"}
 
-::: {.r-fit-text}
-**Simulating a Resource Management Problem**
-:::
+![](Images/02_1-Oregon_Wilderness2.png){.absolute right=0 top=0 width="450"}
 
-![](Images/01_1-cartoon_lake.jpg){style="display: block; margin: 0 auto"}
+![](Images/02_1-Drury_Campus.jpg){.absolute bottom=0 width="500" left=300}
 
 ::: notes
 
-Refresh my memory!
+We have simulated a resource management problem, debated the concept of wilderness and turned our analytical eye to Drury's campus.
 
-- In our first class we simulated a resource management problem.
-
-<br>
-
-**One more time, what was the problem your community faced in our game?**
-
-- (How to manage a renewable resource)
-
-- (How to distribute benefits in a community)
+- Each of these was meant to help set the table for community problem-solving
 
 <br>
 
-**In what ways can we think of this as a successful community effort in resource management?**
+**What was the intended lesson of our simulation game?**
 
-- **In other words, tell me the success story version of what happened**
-
-<br>
-
-Now reverse it!
-
-- **In what ways can we think of this as a failed effort in resource management?**
-
-- (Maximize individual results!)
-
-<br>
-
-**And what were the key lessons for us of this simulation?**
-
-- (**SLIDE**)
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**Simulating a Resource Management Problem**
-:::
+- **What did I ask you to remember from this experience?**
 
 <br>
 
 The Lesson: Politics in everything!
 
-- EVERY problem exists in a community, and 
-
-- EVERY community is a mix of actors, rules & interactions
-
-
-::: notes
-
-*Read slide*
-
-<br>
-
-Each proposal for managing the resource was evaluated by the class in terms of the rules and processes they already operate within
+- EVERY problem exists in a community and EVERY community is a mix of actors & expectations
 
 - This means that new rules and processes must be adapted to the rules and processes already in place
 
-<br>
-
-Each proposal was altered based on the other proposals!
-
-- We all have to live together and even the "best" rules will fail if the community does not recognize them as legitimate
-
-<br>
-
-You guys were rather eager to jump to murder as a means for enforcing the rules
-
-- This means that trust is a vital component of creating rules that will work
-
-- Societies with a lack of trust are in for a rough time trying to solve problems.
-
-<br>
-
-**Is everybody clear on the importance of thinking about the "politics" when problem-solving?**
-
-- As policy-makers you need to keep these lessons in mind
-
-<br>
-
-**SLIDE**: Next to Cronon
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**The Trouble with Wilderness (Cronon 1996)**
-:::
-:::: {.columns}
-::: {.column width="50%"}
-
-![](Images/02_1-Oregon_Wilderness2.png)
-
-:::
-
-::: {.column width="50%"}
-
-![](Images/02_1-City_Street3_v2.png)
-
-:::
-::::
-
-::: notes
-
-After the simulation we shifted our focus to a big collection of key ideas discussed in the Cronon piece from 1996.
+- You guys were eager to jump to murder as a means for enforcing the rules which means that trust is a vital component of creating rules that will work
 
 <br>
 
 **For the purposes of problem-solving, what is "the trouble with wilderness" and what do we need to keep in mind as we work?**
 
-- (**SLIDE**)
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-**The Trouble with Wilderness (Cronon 1996)**
-
-<br>
-
-The Lesson: 
-
-1. The "environment" is a contested concept
-
-2. "Conflict" is often due to conflicting definitions
-
-3. **YOU** have to be curious and adaptable
-:::
-
-::: notes
-
-
-1. "The Environment", or whatever specific piece of it you are focusing on in problem-solving, is a human construct.
-
-    - Cronon (1996) argues that ALL environmental concepts are constructed by people and their meanings evolve over time!
-
-<br>
+1. The "environment" is a contested concept and its meaning over time has been fluid
 
 2. The root of many "environmental" conflicts is often a conflict in definitions
 
-    - Stakeholders will almost certainly define the key concept in your problem differently.
-
-    - This leads to actors arguing past each other
-
-<br>
-    
 3. A good problem-solver must be flexible and adaptable which means not locking in on any single definition!
 
-    - The key skill is learning to identify the stakeholders' definitions and knowing how to connect them!
-
-    - We must design solutions that either work to align those competing framings OR that are consistent with all relevant definitions.
-    
 <br>
 
-**SLIDE**: Finally we shifted to an audit of Drury's environment
-
-:::
-
-
-
-
-## Auditing our Environment {background-image="Images/background-forest_v3.png" .center}
-
-![](Images/02_1-Drury_Campus.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Each of you spent time exploring our campus environment in order to report back on what we do well and what we need to do better
-
-<br>
-
-**What were our takeaways?**
+**What were your takeaways from evaluating Drury's campus in environmental terms?**
 
 - **What is Drury doing well?**
 
@@ -240,36 +93,19 @@ Each of you spent time exploring our campus environment in order to report back 
 
 <br>
 
-**SLIDE**: The lesson
+For me the lesson is twofold:
 
-:::
-
-
-
-## Auditing our Environment {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-
-The Lesson: 
-
-- There is wildness to be fostered **EVERYWHERE**
+- There is wildness to be fostered **EVERYWHERE**, SO
 
 - Stop waiting for an invitation to **GET INVOLVED**
 
-:::
-
-
-::: notes
-
-Think of this like applying Cronon's conclusions to the Drury campus
-
 <br>
 
-**SLIDE**: All of this brings us to our work for today, making an argument that policy is non-optional for community problem-solvers!
-
+**SLIDE**: Our aim for today
 :::
+
+
+
 
 
 
@@ -320,6 +156,8 @@ For today I assigned you a chapter from Michael Munger's *Analyzing Policy* book
 ::: notes
 
 Munger kicks off his chapter with a longer version of this quote.
+
+- "Government is a contrivance of human wisdom to provide for human wants. Men have a right that these wants should be provided for by this wisdom" (Edmund Burke, Reflections on the Revolution in France, November 1790).
 
 <br>
 
@@ -474,23 +312,23 @@ Let's start with Munger's discussion of the hypothetical Hun-gats tribe (p40-47)
 
 <br>
 
-**Talk to me about the tribe. What details stood out for you in this thought experiment?**
+Talk to me about the tribe. 
+
+- **What details stood out for you in this thought experiment?**
 
 <br>
 
-- **What dilemma was the tribe facing?**
+**What dilemma was the tribe facing?**
 
-- **What options were available to them and what were the pros and cons of each?**
+- (A tribe of hunter-gatherers in pre-history that are running out of food (or at least the food they know is safe to eat))
 
-- **Are you convinced there is no reasonable individual path to survival for the Hungats? Why or why not?**
+**What options were available to them and what were the pros and cons of each?**
 
-<br>
+- (Option: They can stay independent and "free" (every man for himself), but that will almost certainly wipe them out)
 
-A tribe of hunter-gatherers in pre-history that are running out of food (or at least the food they know is safe to eat)
+- (Option: Create policy to share risk and increase chances of survival over time)
 
-- Option: They can stay independent and "free" (every man for himself), but that will almost certainly wipe them out
-
-- Option: Create policy to share risk and increase chances of survival over time
+**Are you convinced there is no reasonable individual path to survival for the Hungats? Why or why not?**
 
 <br>
 
@@ -557,9 +395,9 @@ There is no "starting from scratch" anywhere in human societies!
 
 **REVEAL 2**: Survival odds are maximized by sharing risks and benefits in a community
 
-- Socialism for the win, eh?
-
 - Community's require rules to function
+
+- Socialism for the win, eh?
 
 <br>
 
@@ -579,37 +417,9 @@ There is no "starting from scratch" anywhere in human societies!
 
 <br>
 
-SLIDE: The wisdoms as one way to think about problem framing and battles over expertise
-
-- It's not just "let's trust the experts" and be done with it!
+**SLIDE**: Alright, let's get more precise in defining our key terms
 
 :::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -622,7 +432,13 @@ SLIDE: The wisdoms as one way to think about problem framing and battles over ex
 
 ::: notes
 
-Let's step through the key elements from this definition
+I don't present this as the "right" or "correct" definition of policy
+
+- Instead, this is a clear definition that takes a position on a few key elements I want us to highlight
+
+<br>
+
+**SLIDE**: Policy is a concrete action
 
 :::
 
@@ -632,7 +448,7 @@ Let's step through the key elements from this definition
 
 <br>
 
-"A **definite course or method of action** selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+"A [**definite course or method of action**]{style="color:blue;"} selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
 
 ::: notes
 
@@ -640,9 +456,9 @@ Let's step through the key elements from this definition
 
 <br>
 
-Makes sense if you think of policy as a new rule or set of rules
+Think of this like creating a rule of behavior
 
-- Without specificity and clarity the policy cannot hope to change behavior
+- Without specificity and clarity the policy cannot hope to change behavior because no one will know what has changed
 
 - e.g. Actor X must do Y
 
@@ -659,23 +475,37 @@ Makes sense if you think of policy as a new rule or set of rules
 
 <br>
 
-"A definite course or method of action selected (as by a government, institution, group or individual) **from among alternatives** and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+"A definite course or method of action selected (as by a government, institution, group or individual) [**from among alternatives**]{style="color:blue;"} and in the light of given conditions to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
 
 ::: notes
 
-2) A policy, by definition, is selected from among competing options
+This inclusion is excellent but also seems more proscriptive than descriptive
+
+- In other words, I agree that effective policy should be selected from among competing options
 
 - There is NEVER just one answer to an environmental problem
 
-- A BIG part of the reason a community typically has a problem in the first place is because there is dispute within that community over the possible answers
+- BUT that seems more like advice to making good policy rather than defining policy
 
 <br>
 
-This means all policy, by definition, is choosing one set of rules over another
+Either way, I like making it definitional here
+
+- Let's set out to do good work and not just "work"
+
+- The power of defining a concept in action!
+
+<br>
+
+This means I want you to think about ALL policy as choosing one set of rules over another
 
 - Effective problem-solvers MUST be able to explain their choices in the context of the policies not selected
 
 - In other words, you will be expected to have explicitly considered alternatives to your "definite" "course of action" AND be able to explain why you choose the way you did
+
+<br>
+
+**Make sense?**
 
 <br>
 
@@ -688,7 +518,7 @@ This means all policy, by definition, is choosing one set of rules over another
 
 <br>
 
-"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and **in the light of given conditions** to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and [**in the light of given conditions**]{style="color:blue;"} to guide and usually determine present and future decisions..." (Webster's Third International Dictionary).
 
 ::: notes
 
@@ -697,6 +527,13 @@ This means all policy, by definition, is choosing one set of rules over another
 - In other words, the quality of your plan also DEPENDS on how well you've adapted it to the conditions on the ground.
 
 - No one-size-fits-all policy solutions are appropriate here.
+
+<br>
+
+This seems like another piece of advice rather than a simple definition
+
+- But I love this advice too so let's keep it!
+
 
 <br>
 
@@ -719,7 +556,7 @@ THIS is the danger of groups tied or committed to a specific ideology.
 
 <br>
 
-"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions **to guide and usually determine present and future decisions**..." (Webster's Third International Dictionary).
+"A definite course or method of action selected (as by a government, institution, group or individual) from among alternatives and in the light of given conditions [**to guide and usually determine present and future decisions**]{style="color:blue;"}..." (Webster's Third International Dictionary).
 
 ::: notes
 
@@ -729,7 +566,9 @@ THIS is the danger of groups tied or committed to a specific ideology.
 
 <br>
 
-This means your plan must be adapted to the context of now AND the expected context we face in the future
+And now we're back to the definition rather than the advice
+
+- If your rule is sufficiently clear then it will move behavior now AND guide future behavior too!
 
 <br>
 
@@ -763,71 +602,11 @@ Everybody write this down and consider it a guide for our work this semester and
 
 <br>
 
-**SLIDE**: Funnily enough, Munger starts his chapter with a different definition
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Our Aim for This Week {background-image="Images/background-forest_v3.png"}
-
-::: {.r-fit-text}
-**Problem-solving in a community requires policy!**
-:::
-
-![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=25 left=100 width="800"}
-
-::: notes
-
-Back to the big argument!
-
-- *Key discussion number 1, encourage this debate*
+**Ok any questions about defining policy or the elements of "good" policy we've been discussing?**
 
 <br>
 
-**Are you persuaded that problem-solving in a community requires policy? Why or why not?**
-
-- **In other words, could you imagine a functional society that operated in the absence of policy? Why or why not?**
-    
-<br>
-    
-**Are there elements of Munger's thought experiment you think are problematic for supporting this argument? Why or why not?**
-
-<br>
-
-Bottom line, I really appreciate how Munger's thought experiment distills down to the fundamental basics of how any human society functions.
-
-- The creation of policy helps maximize the odds of survival
-
-<br>
-
-**SLIDE**: That takes us to the second policymaking argument we need to evaluate
+**SLIDE**: Let's now shift to the next important piece of the Munger chapter and that is thinking about the policy-making process
 
 :::
 
@@ -1199,80 +978,91 @@ Bottom line, I am convinced that this pre-requisite stage represents incredibly 
 
 <br>
 
-**SLIDE**: TBC next class!
+Next week we perform a comparative case study to help develop our intuitions about why some communities can solve environmental problems and others cannot
+
+- **SLIDE**: We'll kick things off next class with the FAILURES!
 
 :::
 
 
 
-## For Next Class: Case Studies {background-image="Images/background-forest_v3.png" .center}
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-**Local Communities Failing to Solve Environmental Problems**
+Find an example of a **LOCAL** community **FAILING** to solve an environmental problem
 
-- Find us an example of a LOCAL community anywhere in the world failing to solve an environmental problem
+::: {.fragment}
+- Choosing NOT to create a needed policy,
 
-Good examples include communities...:
+- Removing or weakening environmental policies, OR
 
-- Not creating the policies to solve a problem,
-
-- Removing the policies already in place, or
-
-- Persisting with policies that are not working
-
+- Persisting with policies that are not working.
+:::
 ::: notes
 
-No overlap in cases! (e.g. don't submit a case someone has already submitted)
+By local I'm asking you to focus on smaller communities
+
+- e.g. neighborhoods, cities or, at most, counties
 
 <br>
 
-**Questions on the assignment?**
+Countries and states often struggle to make policy due to the complexity of their policy-making structures
+
+- This means a failure to solve a problem likely has a million causes completely unrelated to the environment or the needs of the immediate stakeholders
+
+- For example, California often tries to address serious environmental problems that exist entirely within its own borders but is frequently stopped by the Republicans in Congress on ideological grounds or by the Supreme Court on supremacy clause grounds
+
+- Neither of those tell us much about the key policy trade-offs of interest 
+
+<br>
+
+Our focus on smaller communities means we get to zoom in on negotiation dynamics that focus on the environmental problem itself
+
+- A city may decide not to act, but even that decisions will be couched in an evaluation of the problem and its impacts
+
+<br>
+
+**Does that make sense?**
+
+<br>
+
+Ok, what are you looking for?
+
+- **REVEAL**
+
+<br>
+
+Other notes:
+
+- No overlap in cases! (e.g. don't submit a case someone has already submitted)
+
+- On Canvas I will ask you to describe the case and then apply the Munger material to analyze it
+
+<br>
+
+**Questions on the assignment or any of the material from today?**
+
+<br>
+
+Canvas DISCUSSION: Cases Illustrating Local Communities Failing to Solve Environmental Problems (10pts)
+
+Find us an example of a LOCAL community anywhere in the world failing to solve an environmental problem (focus on small communities, cities or counties).  Look for an example of a community unable to make rules to address an environmental problem, a community that removed rules that then led to environmental harm, OR a community whose rules are not working to address an environmental problem. 
+
+- No overlap in cases! (e.g. don't submit a case someone has already submitted)
+- Make sure to provide evidence to support your claims (APA citations)
+
+1. Describe the environmental problem they confronted, 
+2. Describe the community facing the problem (Who are they? Where are they located? What do they look like demographically?), 
+3. What has been the impact of this failure on the community? What harms have been done (or been allowed to continue)?
+4. Apply the Munger material to your case: How is this an example of a community choosing to frame this problem as "private" rather than "public"?
+5. Apply the Munger material to your case: How is this an example of a community choosing to frame this problem as requiring an "individual" rather than a "collective" decision to address it?
+
 
 :::
 
 
 
-
-
-
-
-## For Next Class {background-image="Images/background-forest_v3.png"}
-
-![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=130 width="325"}
-
-![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=165 width="325"}
-
-![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=150 width="350"}
-
-::: notes
-
-Next class we'll finish discussing the big elements of the Munger chapter AND dig into our local community!
-
-<br>
-
-For next class you will read the last 3 Springfield Community Focus Reports and be ready to discuss them in class
-
-- Report 2024, Report 2021, Report 2019
-
-To be clear, NOT just the environmental stuff, it's all connected! 
-
-- Get a sense of how our community identifies and addresses big challenges.
-
-<br>
-
-Canvas: How effective has the Springfield community been in identifying and solving big problems?
-
-Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
-
-1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
-
-2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
-
-<br>
-
-**Questions on this assignment?**
-:::
 
 
 ## OLD SLIDES: The Wisdoms
