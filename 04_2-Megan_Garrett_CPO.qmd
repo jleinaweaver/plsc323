@@ -2,83 +2,54 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
 
-```{r}
-library(tidyverse)
-# library(readxl)
-# library(kableExtra)
-```
+## Welcome to Megan and Brian! {background-image="Images/background-forest_v3.png"}
 
-<br>
+![](Images/04_1-Megan_Garrett.png){.absolute width="250" left=150}
 
-::: {.r-fit-text}
-
-**Section 1: Introduction to Environmental Policymaking**
-
-- **Auditing the "wilderness" in our backyard**
-
-:::
+![](Images/04_1-Brian_Fogle.png){.absolute width="275" right=150}
 
 <br>
-
-::: r-stack
-Justin Leinaweaver (Spring 2026)
-:::
-
-::: notes
-Prep for Class
-
-1. Review Canvas submissions
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
-
-:::
-
+**The nonprofit perspective on environmental problem-solving in our community**
 
 
-## {background-image="Images/background-forest_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="60%"}
+## For Next Class {background-image="Images/background-forest_v3.png"}
+
+![](Images/03_1-SGF_Community_Report19.png){.absolute left=0 bottom=140 width="325"}
+
+![](Images/03_1-SGF_Community_Report21.png){.absolute left=350 bottom=190 width="325"}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute right=0 bottom=180 width="350"}
 
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
-Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
-:::
-
-::: {.column width="40%"}
-
-![](Images/02_1-cronon_uncommonground2.jpg)
-
-:::
-::::
+- Submit reflections to Canvas
 
 ::: notes
 
+Canvas ASSIGNMENT: How effective has the Springfield community been in identifying and solving big problems? (4pts)
 
+Read these reports in order to get a sense of how our community identifies and addresses big challenges. Don't just focus on the environmental stuff, it's all connected!
 
-:::
+1. Over the last five years, what are the THREE most impressive accomplishments identified in the Springfield Community Focus Reports?
 
+2. Over the last five years, what are THREE specific challenges we have been unable to address? Why do these stand out for you?
 
-
-
-## For Next Class {background-image="Images/background-forest_v3.png" .center}
-
-<br>
-
-**TBD**
-
-- ...
-
-::: notes
-
-
-
-<br>
-
-**Questions on the material from today or our assignment for next class?**
 :::

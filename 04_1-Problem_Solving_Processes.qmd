@@ -13,9 +13,9 @@ library(kableExtra)
 
 ::: {.r-fit-text}
 
-**I. The Basics of Problem-Solving in a Community**
+**Effective Policies Require Community Buy-in**
 
-- Exploring processes of community problem-solving
+- Textbook processes of community problem-solving
 
 :::
 
@@ -30,7 +30,7 @@ Prep for Class
 
 1. Check Canvas submissions
 
-2. Reserve some board space for "most useful" elements from each approach
+2. The IDEA: Use DOC'S KEY to fill out the whiteboard THEN use Kraft to make tweaks to the plans THEN C&P to modify and tweak
 
 <br>
 
@@ -42,79 +42,71 @@ Readings
 
 <br>
 
-Last week we selected our target environmental problem for the semester
+This week we wrap up the first section of our class which was meant to introduce you to environmental policymaking
 
-- This week I want us to gather some guiding principles that will help us approach this problem in a productive way
-
-<br>
-
-But first, a quick refresher round-up!
-
-- **SLIDE**: Let's start with "politics"
+- **SLIDE**: speedy recap
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png"}
 
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
+**Section 1: Introduction to Environmental Policymaking**
 :::
 
-![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+![](Images/01_1-cartoon_lake.jpg){.absolute bottom=0 left=100 width="800"}
+
+::: {.fragment}
+![](Images/02_1-Oregon_Wilderness2.png){.absolute bottom=0 left=100 width="700"}
+:::
+
+::: {.fragment}
+![](Images/04_1-Drury_Stone_Chapel.jpg){.absolute bottom=0 left=100 width="750"}
+:::
+
+::: {.fragment}
+![](Images/03_1-Public-Policy-Research.jpg){.absolute bottom=0 left=100 width="900"}
+:::
+
+::: {.fragment}
+![](Images/02-1-Munger_Fig2-3.png){.absolute bottom=0 left=200 width="575"}
+:::
+
+::: {.fragment}
+![](Images/02_1-case_studies.png){.absolute bottom=100 left=100 width="950"}
+:::
 
 ::: notes
 
-After exploring the Cronon piece we shifted into a comparative case study exercise
+So far this semester we've:
+
+- Simulated a resource distribution problem, 
+
+- **REVEAL**: Debated the wilderness and tracked its evolution over time, 
+- **REVEAL**: Explored our Drury backyard, 
+
+- **REVEAL**: Reflected on the what's and why's of policymaking, and 
+
+- **REVEAL**: Mapped out the pre-requisites for making new policy in a community
+
+- **REVEAL**: Then, last week, we explored case studies of success and failure
 
 <br>
 
-**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
-
-- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
-
-<br>
-
-- (**SLIDE**: Examples from week 2)
+**SLIDE**: We've done all this to hopefully reinforce some important problem-solving advice in your minds
 
 :::
-
-
-
-## {background-image="Images/background-forest_v3.png" .smaller}
-
-**P(Success) increases when**
-
-- The visibility of the problem increases
-- The threat of harm is imminent
-- The source of the problem is clear (and widely accepted)
-- The size of the impacted community is smaller
-- The community has a greater sense of shared values
-- The community has a demonstrated pattern of activism
-- The community is more affluent
-- The money available to act is greater
-- The plan includes criteria for measuring effectiveness
-- The plan includes greater levels of community involvement
-- The plan changes incentives (carrots or sticks)
-
-::: notes
-
-Lots of intriguing ideas from your work in Week 2.
-
-- Don't lose these as they imply strategies for attacking environmental problems in a local community!
-
-<br>
-
-**SLIDE**: Our work for this week...
-
-:::
-
-
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
+
+
+::: {.r-fit-text}
+**Section 1: Introduction to Environmental Policymaking**
+:::
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -142,11 +134,13 @@ Lots of intriguing ideas from your work in Week 2.
 A few things I'd throw in the mix:
 
 FIRST, problem-solvers know that all problems are rooted in specific communities
+
 - This means you have to understand the established stakeholders and rules BEFORE you can propose a solution
 
 <br>
 
-SECOND, problem-solvers know that solutions aren't worth the paper they are written on unless the commmunity recognizes them as legitimate
+SECOND, problem-solvers know that solutions aren't worth the paper they are written on unless the community recognizes them as legitimate
+
 - I would rather have weaker rules that the community accepts over strong rules the community opposes
 
 - I want to change behavior in ways that don't require strict oversight and enforcement
@@ -155,11 +149,19 @@ SECOND, problem-solvers know that solutions aren't worth the paper they are writ
 
 THIRD, problem-solvers know that all solutions impose costs on specific groups and they work to make sure those costs are addressed or considered carefully
 
+<br>
+
+**SLIDE**: Lessons from thinking about the environment
+
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Section 1: Introduction to Environmental Policymaking**
+:::
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -198,11 +200,19 @@ THIRD, problem-solvers know that problem definitions narrow the policy design op
 
 - Therefore, win the problem framing, win the policy
 
+<br>
+
+**SLIDE**: Lessons from thinking about policy-making
+
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Section 1: Introduction to Environmental Policymaking**
+:::
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -241,33 +251,39 @@ Important for us to realize the groundwork that must be completed before policy 
 
 - HOWEVER, if you lay the groundwork appropriately, the next steps become feasible!
 
+<br>
+
+**SLIDE**: Lessons from analyzing case studies
+
 :::
 
 
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
-<br>
-
 ::: {.r-fit-text}
-**1) The Basics of Problem-Solving in a Community**
-
-- "Politics"
-
-- "Environment"
-
-- "Policy"
-
+**Section 1: Introduction to Environmental Policymaking**
 :::
 
-::: notes
-**How are we doing with all this big picture material?**
+<br>
 
-- **Any questions or need for clarification?**
+### We are MORE/LESS likely to solve an environmental problem when...
+
+- The problem looks like X
+
+- The community looks like Y
+
+- The action taken looks like Z
+
+::: notes
+
+**For the purposes of problem-solving, what did we learn from our success and failure case studies last week?**
+
+- **Are there certain kinds of environmental problem, community or policy approach that is more or less likely to succeed?**
 
 <br>
 
-**SLIDE**: Today I'd like us to take all of these big ideas and see how we might organize them into a process that could guide our problem-solving activities.
+**SLIDE**: Today we add process to all of this
 
 :::
 
@@ -288,6 +304,22 @@ Important for us to realize the groundwork that must be completed before policy 
 + The Collaborative Approach (Clarke and Peterson 2016)
 
 :::
+
+::::: {.fragment}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+<br>
+
+**Drury problem to focus on?**
+:::
+
+::: {.column width="50%"}
+![](Images/04_1-Drury2.webp){.absolute width="350"}
+:::
+::::
+:::::
 
 ::: notes
 
@@ -311,15 +343,19 @@ I chose these books to give you a few different perspectives on the process
 
 <br>
 
-*Split class into groups of 3-4 (doesn't matter who because you'll make them swap each time!)*
+**REVEAL**: I'd like us to have a specific, local environmental problem in mind as we discuss these approaches
+
+- **What do you guys want to use as our example?**
+
+<br>
+
+*Split class into groups of 3-4*
 
 - Go sit with your group!
 
 <br>
 
-Let's begin our analyses by stepping through each of these approaches
-
-- **SLIDE**: Hughes (2007)
+**SLIDE**: Let's start by applying the Hughes (2007) to our chosen problem
 
 :::
 
@@ -341,11 +377,126 @@ Let's begin our analyses by stepping through each of these approaches
 
 ::: notes
 
-Groups, start by making sure you are all clear on the process Hughes is proposing.
+Here's the Hughes (2007) approach he has coined as DOC'S KEY
 
-- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+- It is, essentially, a seven step process for problem-solving
 
-- In other words, how hard would it be to implement this approach?
+<br>
+
+One of the elements I like a great deal from this book is Hughes discussion of constructing a problem definition
+
+- **What is Hughes advice for us about constructing a definition? (e.g. the "D" in DOC'S KEY)**
+
+<br>
+
+1. He suggests there are three types of problem and that "unstructured" is the hardest to solve
+
+    - "right-wrong problem" (e.g. math problems, puzzles, standardized test questions)
+    - "rule-laden problem" (e.g. problem-solver bound by established rules or procedures; legal problems, recipes, tax prep)
+    - "unstructured problems" (e.g. no right or wrong answer and no established rules to follow)
+
+2. Some really important concerns raised here about not confusing problems with strategies
+    
+    - Avoid letting strategies be presented as the problem
+    - Problems are neutral and don't typically need 'must' or 'should'
+
+<br>
+
+**Ok groups, get ready to report back on how you would apply the "D" of DOC'S KEY to our chosen problem**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+<br>
+
+**Groups, now tackle the "O" and the "C"**
+
+- e.g. objectives meaning clear targets and constraints meaning boundaries, limitations, assumptions, unacceptable impacts
+
+- *REPORT BACK and UPDATE the BOARD*
+
+<br>
+
+**Ok groups, given these objectives and constraints brainstorm some possible strategies we could consider**
+
+- *REPORT BACK and UPDATE the BOARD*
+
+<br>
+
+**Ok groups, pick a strategy and give us a way to experiment with it**
+
+- What could we try and how would we know if it is working?
+
+- *REPORT BACK and UPDATE the BOARD*
+
+<br>
+
+**SLIDE**: Ok, let's take a step back and evaluate Hughes (2007) in big picture terms
+
+<br>
+
+*Chapter Notes*
+
+DOC'S KEY approach (Hughes 2007, ch4)
+
+- People matter and perspectives differ (even on identical events)
+
+- Three types of problem and unstructured are the hardest to solve
+
+- Some really important concerns raised here about not confusing problems with strategies, but maybe not enough from him on how to do it well. 
+
+- Problem and outcome
+
+- Avoid letting strategies be presented as the problem
+
+- Problems are neutral and don't typically need 'must' or 'should'
+
+- DOC'S KEY: 
+
+    - Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), 
+    - Objectives (set clear targets), 
+    - Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), 
+    - Strategies (Brainstorm and be creative), 
+    - Keepers (Choose the best strategy), 
+    - Experiment (Test a strategy and adapt), 
+    - Yes! (Implement)
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The DOC'S KEY Approach (Hughes 2007)**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+- **D**efinition
+- **O**bjectives
+- **C**onstraints
+- **S**trategies
+- **K**eepers
+- **E**xperiment
+- **Y**es!
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+**Evaluate**
+
+1. Strengths of the approach?
+
+2. Weaknesses of the approach?
+:::
+::::
+
+::: notes
+
+Big picture, let's evaluate this process
+
+- **What are the strengths and weaknesses of DOC'S KEY?**
 
 <br>
 
@@ -353,27 +504,11 @@ Groups, start by making sure you are all clear on the process Hughes is proposin
 
 <br>
 
-One of the elements I like a great deal from this book is Hughes discussion of constructing a problem definition
-
-- Help me unpack the "D" in DOC'S KEY!
-
-- **What is Hughes advice for us about constructing a definition?**
-
-<br>
-
-- Three types of problem and unstructured are the hardest to solve
-- Some really important concerns raised here about not confusing problems with strategies, but maybe not enough from him on how to do it well. 
-- Problem and outcome
-- Avoid letting strategies be presented as the problem
-- Problems are neutral and don't typically need 'must' or 'should'
-
-<br>
-
 **Is there anything else in this chapter or approach you want to highlight or unpack?**
 
 <br>
 
-**SLIDE**: Form new groups of 3-4 and get ready for next approach!
+**SLIDE**: On to the next approach!
 
 <br>
 
@@ -419,11 +554,94 @@ DOC'S KEY approach (Hughes 2007, ch4)
 
 ::: notes
 
-Groups, start by making sure you are all clear on the process Kraft is discussing.
+The Kraft (2011) model is definitely aimed more at thinking about national policy-making rather than individual actions in a local community
 
-- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+- HOWEVER, that doesn't mean we can't use the stages to help us think about the process of engaging in a community
 
-- In other words, how hard would it be to implement this approach?
+- SO, let's keep the DOC'S KEY plan but tweak it to draw on the lessons from Kraft's discussion of policy-making
+
+<br>
+
+**Groups, get ready to report back, what can we take from the "agenda setting" stage to help us tackle our chosen environmental problem here on campus?**
+
+- *REPORT BACK and TRACK on the BOARD (modify doc's key)*
+
+- *Agenda setting (critical stage, how a problem is perceived and how public reacts to it)*
+
+<br>
+
+**Ok groups, get ready to report back on the lessons we can take and apply from the "policy formulation" stage?**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+<br>
+
+**Ok groups, get ready to report back on the lessons we can take and apply from the "policy legitimation" stage?**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+- *Policy legitimation (giving legal force to decisions AND is the action perceived as legitimate)*
+
+<br>
+
+**Ok groups, get ready to report back on the lessons we can take and apply from the "policy Implementation" stage?**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+<br>
+
+**Ok groups, get ready to report back on the lessons we can take and apply from the "policy and program evaluation" stage?**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+<br>
+
+**Ok groups, get ready to report back on the lessons we can take and apply from the final stage: "policy change"?**
+
+- *REPORT BACK and TRACK on the BOARD*
+
+<br>
+
+**SLIDE**: Big picture evaluation
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**The Policy Process Model (Kraft 2011)**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+1. Agenda Setting
+2. Policy Formulation
+3. Policy Legitimation
+4. Policy Implementation
+5. Policy and Program Evaluation
+6. Policy Change
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+**Evaluate**
+
+1. Strengths of the approach?
+
+2. Weaknesses of the approach?
+:::
+::::
+
+::: notes
+
+Big picture, let's evaluate this process
+
+- **What are the strengths and weaknesses of Kraft's model?**
 
 <br>
 
@@ -431,7 +649,9 @@ Groups, start by making sure you are all clear on the process Kraft is discussin
 
 <br>
 
-Points to Highlight
+**Is there anything else in this chapter or approach you want to highlight or unpack?**
+
+<br>
 
 **FIRST, what does it mean to say that the "stage" should determine our "strategy"? How specifically do we do this?**
 
@@ -445,11 +665,7 @@ Points to Highlight
 
 <br>
 
-**Is there anything else in this chapter or approach you want to highlight or unpack?**
-
-<br>
-
-**SLIDE**: Form new groups of 3-4 and get ready for next approach!
+**SLIDE**: On to the last approach!
 
 <br>
 
@@ -482,18 +698,21 @@ The Policy Process Model (Kraft 2011, ch3)
 - Is measurable
 - Is socially legitimate
 
-
 ::: notes
 
-Groups, start by making sure you are all clear on the process Clarke & Peterson are proposing.
+Alright groups, help me step through each of these pieces of advice
 
-- Get ready to report back on how feasible you believe this would be as a plan of attack in our community for our chosen problem.
+- **How do these elements change or improve our current plan?**
 
-- In other words, how hard would it be to implement this approach?
+- **Are we clear on each of these?**
 
 <br>
 
 *REPORT BACK and DISCUSS*
+
+<br>
+
+**SLIDE**: Big picture evaluation
 
 <br>
 
@@ -540,6 +759,57 @@ The Collaborative Approach to Environmental Conflict (C&P 2016, ch1 and 2)
 
 ## {background-image="Images/background-forest_v3.png" .center}
 
+::: {.r-fit-text}
+**The Collaborative Approach (Clarke & Peterson 2016)**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+- Is an adaptive process
+- Uses the most appropriate science and technology
+- Is implementable
+- Incurs low transaction costs
+- Has appropriate funding
+- Is measurable
+- Is socially legitimate
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+**Evaluate**
+
+1. Strengths of the approach?
+
+2. Weaknesses of the approach?
+:::
+::::
+
+::: notes
+
+Big picture, let's evaluate this process
+
+- **What are the strengths and weaknesses of Clarke & Peterson's model?**
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+**Is there anything else in this chapter or approach you want to highlight or unpack?**
+
+<br>
+
+**SLIDE**: Big picture eval
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
 ### What are our key takeaways? 
 
 ### (e.g. the important elements to engage productively with our community)
@@ -569,34 +839,6 @@ GROUPS, discuss and get ready to report back!
 *ON BOARD*
 
 - ?
-
-<br>
-
-**SLIDE**: Applied to our chosen problem
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-### Key elements from the processes we want to focus on for addressing food waste in our community?
-
-<br>
-
-::: {.r-fit-text}
-
-+ DOC'S KEY approach (Hughes 2007)
-
-+ The Policy Process Model (Kraft 2011)
-
-+ The Collaborative Approach (Clarke and Peterson 2016)
-
-:::
-
-::: notes
-
-**Any key takeaways from our work today that we think might be important in addressing food waste in SGF?**
 
 <br>
 
@@ -719,37 +961,42 @@ Weaknesses:
 
 <br>
 
-:::
-
-
-
-
-
-## For Next Class {background-image="Images/background-forest_v3.png" .center}
-
-::: {.r-fit-text}
-
-1. Ostrom (1990) ch3 on Adaptive Governance
-
-2. Canvas assignment
+**SLIDE**: Next class
 
 :::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png"}
+
+<br>
+
+**Meeting with Nonprofit Reps**
+
+![](Images/04_1-Megan_Garrett.png){.absolute width="275" left=150}
+
+![](Images/04_1-Brian_Fogle.png){.absolute width="300" right=150}
+
 ::: notes
 
-Thursday we shift to the work of one of my personal heroes, Elinor Ostrom
+Next class we connect Section 1 to Section 2 of our semester
 
-- She was awesome and her work invaluable for problem-solvers
+- Section 2 moves us into our community to find a specific problem to work on
 
-- Chapter 3 is our focus, but I've also posted chapter 2 if your interested in better understanding the key concepts she is working from
-
-<br>
-
-**Any questions on the assignment?**
+- To help us do that we'll be heading into the community to do hands-on work AND inviting guests into class with local experties
 
 <br>
 
-Canvas: Lessons from Adaptive Governance
+Next class we invite in:
 
-- What are THE THREE MOST IMPORTANT principles you argue we should adopt from Ostrom's Adaptive Governance? e.g. the principles you argue will help us successfully navigate a domestic policy-making process. Make sure to fully explain each of your points. 
+1. Megan Garrett, the Director of Community Collaboratives with the Environmental Sustainability Collaborative at CPO, and
+
+2. Brian Fogle, Former President of the Community Foundation of the Ozarks (CFO)
+
+<br>
+
+I'd like you to take this opportunity to learn about problem-solving in our community
+
+- What does the landscape of environmental problem-solving in Springfield look like?
 
 :::
