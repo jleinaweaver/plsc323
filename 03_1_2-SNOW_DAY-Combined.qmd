@@ -1,0 +1,562 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Comparative Case Studies**
+
+- Local Communities **Failing** to Solve Environmental Problems
+
+- Local Communities **Succeeding** in Solving Environmental Problems
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Save the final theories brainstormed by class today in slides for next class (3-2) so we can evaluate them with the success cases
+
+<br>
+
+Snow day slightly complicates our work for this week, but we'll roll with it!
+
+- Its been a while so let's recap our work last week
+
+- **SLIDE**: We ended last week discussing the lessons of Munger's book chapter on public policy
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+::: {.r-fit-text}
+**Problem-solving in a community requires policy**
+:::
+
+![](Images/03_1-Public-Policy-Research.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Let's refresh some of the big arguments from our discussions
+
+<br>
+
+**First and foremost, what is "policy"?**
+
+- (**SLIDE**: The Burke quote)
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Burke_Quote.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I like the Burke quote just because it puts the focus in the right place
+
+- Government is a human effort to deliver what we want
+
+- Policy is, in essence, rules created by a government or community for managing our needs
+
+<br>
+
+**According to Munger, why is policy a non-optional requirement for all communities?**
+
+- **Why can't we just leave each other alone?**
+
+- (**SLIDE**: The Hun-gats thought experiment)
+
+:::
+
+
+
+
+## {background-image="Images/02-1-cavemen.jpg" .center}
+
+::: notes
+
+Munger described the Hun-gats tribe as a pre-historic human community  that was running out of food
+
+- The tribe lacks information on what new foods are safe to eat and what are not
+
+- Survival odds are maximized by coordinating our experimentation on food!
+
+- Every man for himself leads to rampant death through wasted experimentation
+
+<br>
+
+Bottom line:
+
+1. Policy is not optional in a community if you want to survive
+
+2. There was never a "state of nature"
+
+    - Stop pretending your intuitions about what people would do without government matter for how we should govern ourselves
+
+3. Battles over expertise are unavoidable and a key part of the process!
+
+    - There is no "perfect" policy, all policies create winners and losers
+
+<br>
+
+**SLIDE**: If there is no perfect policy, what do we aim for?
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### To maximize your chances of success, your policy proposals must be:
+
+::: {.r-fit-text}
+- Specific,
+
+- Adapted to the stakeholders,
+
+- Adapted to the science of the problem, 
+
+- Adapted to the rules of the community, and
+
+- Be at least as good as the alternatives.
+:::
+
+::: notes
+
+*Read slide*
+
+<br>
+
+I'm not saying you can't create rules that violate these characteristics, but you shouldn't if the goal is to produce durable and positive change in a community!
+
+<br>
+
+**SLIDE**: And that took us to the SUPER important pre-requisites for all public policy
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Policymaking Pre-Requisites**
+
+<br>
+
+You must convince the community that:
+
+1. We have a public problem, and
+
+2. We require a collective decision to solve it
+:::
+
+::: notes
+
+Each pre-requisite is a distinct argument that you have to successfully make before moving to any actual policy-design
+
+<br>
+
+**What does it mean to say we have a public problem? As opposed to what?**
+
+- (**Private Problem**: "My choice has no consequence for your welfare")
+
+- (**Public Problem**: "My choices affect your welfare"
+
+<br>
+
+**What does it mean to say we require a collective decision? As opposed to what?**
+
+- (**Individual Decision**: "I can choose, alone and without interference")
+
+- (**Collective Decision**: "Choices are made by a group, and are binding on all")
+
+<br>
+
+**Any questions on the material from last week?**
+
+<br>
+
+**SLIDE**: This week I want us to perform a comparative case study of local communities dealing with environmental problems
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Environmental Problems in Local Communities**
+
+- Tuesday: Snow Day (whoops)
+
+- Thursday: Failure & Success Cases
+
+:::
+
+![](Images/02_1-case_studies.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+*NOTE: Moved the "explaining theory" slides to right before that part of the exercise*
+
+<br>
+
+This case study exercise has two broad aims:
+
+<br>
+
+FIRST, I want us to help each other develop a broader list of specific examples of local communities grappling with environmental problems
+
+- As we move into community work, the broader your base of examples the more adaptable you will be to the needs of specific communities
+
+- You don't have to reinvent the wheel for each problem you confront
+
+- Use the examples to help you avoid common roadblocks and select more effective strategies
+
+<br>
+
+SECOND, we use a comparative case study exercise to give you a head start on thinking about policy-making in terms of theory and process
+
+- While our work in this class will tend to focus on hands-on activities...
+
+- Learning to think about these problems as a social scientist, in terms of observation, measurement and theory, will make you a more effective community activist
+
+<br>
+
+*Split class in half and assign one half to successes and other to failures*
+
+- Groups, sit together and claim space on 1/2 the big board
+
+<br>
+
+Normally we'd take a few minutes to introduce the cases, but we have work to do and that would take ages!
+
+- **SLIDE**: Ok, groups let's start by identifying the common characteristics
+
+:::
+
+
+
+
+## Analyzing the Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**1. Characteristics of the Environmental Problems**
+
+- What are the common characteristics for the environmental problems in our cases?
+
+- Make a list of **AT LEAST FIVE** characteristics
+
+::: notes
+
+Group 1, you focus on the failure cases only and group 2 focus on the successes only
+
+- **Is everybody clear on what I'm asking you to do?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+**SLIDE**: Characteristics of the Community
+
+:::
+
+
+
+## Analyzing the Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**2. Characteristics of the Community**
+
+- What are the common characteristics for the communities in our cases?
+
+- Make a list of **AT LEAST FIVE** characteristics
+
+::: notes
+
+Ok, groups let's do it again but now focus on the community in each case
+
+- What do these communities have in common?
+
+- Group 1 still focus on the failures and Group 2 on the successes
+
+- **Questions on the task?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+**SLIDE**: Characteristics of the Policy
+
+:::
+
+
+
+## Analyzing the Cases {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**3. Characteristics of the Policy**
+
+- What are the common characteristics for the policies in our cases?
+
+- Make a list of **AT LEAST FIVE** characteristics
+
+::: notes
+
+Ok, groups, last time but now focus on what the policies in your cases have in common
+
+- Group 1 still focus on the failures and Group 2 on the successes
+
+- **Questions on the task?**
+
+- Go!
+
+- *You go around and keep pushing them to make five clear ideas*
+
+<br>
+
+Ok, groups, you have reflected on all of the cases today and used them to generate lists of characteristics common to these failures
+
+- Our job now shifts from classifying cases to theorizing explanations
+
+<br>
+
+**SLIDE**: What do I mean by "theorizing explanations"?
+
+:::
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+### Why do some communities successfully solve serious environmental problems while others do not?
+
+::: notes
+
+Let's say this is the research question we are exploring this week with our case studies.
+
+<br>
+
+**Give me one of the characteristics you just brainstormed for environmental policy failure**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+```{r, fig.align='center', fig.width = 10, fig.height=2}
+## Manual DAG
+d1 <- tibble(
+  x = c(-3, 3),
+  y = c(1, 1),
+  labels = c("Predictor", "Policy\nOutcomes")
+)
+
+ggplot(data = d1, aes(x = x, y = y)) +
+  geom_point(size = 0, color = "white") +
+  theme_void() +
+  coord_cartesian(xlim = c(-4, 4)) +
+  geom_label(aes(label = labels), size = 7) +
+  annotate("segment", x = -1.9, xend = 1.85, y = 1, yend = 1, arrow = arrow())
+```
+
+::: notes
+
+Ok, put that characteristic in this diagram in place of the word "predictor"
+
+- e.g. that is the variable we are suggesting causes variation in policy outcomes
+
+- The arrow represents the direction of causality
+
+- Here variations in the predictor cause variations in the outcome
+
+- You may refer to this in other classes as an independent and dependent variable
+
+<br>
+
+**Now, tell me the story of WHY you believe THIS specific predictor causes variation in policy outcomes**
+
+- **Why does this arrow exist AND why does it point in this direction?**
+
+- (*DISCUSS*)
+
+<br>
+
+Your explanation why (e.g. the story behind this arrow) IS your theory
+
+- Theories, in science, are the stories we have designed to help us explain the world
+
+- They are simplifications of complex processes meant to help us understand why things happen the way that they do
+
+<br>
+
+Somebody give us an example from their major!
+
+- **What is a theory you have studied and what does it help us explain?**
+
+- *REPEAT*
+
+<br>
+
+**SLIDE**: Why do scientists spend time generating and testing theories?
+
+:::
+
+
+## Theory as a Scientific Tool {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02_1-topo-map-1.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I particularly like the analogy of theories as maps
+
+- This topographic map is super useful for planning a hike
+
+- Close together lines mean steep elevation changes, far apart means more gradual
+
+- We can use this to plan a gentle stroll or a strenuous challenge!
+
+<br>
+
+Thanks to this map we don't have to start from scratch in navigating the world
+
+- The map provides guidance to navigating a complex set of processes
+
+- As community problem-solvers the more we understand the maps, the more effective we can be in our community
+
+<br>
+
+**Any big picture questions on theory as scientific explanations?**
+
+<br>
+
+**SLIDE**: Back to our cases
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Theories of Environmental Problem-Solving**
+:::
+
+<br>
+
+### We are MORE / LESS likely to solve an environmental problem when...
+
+- The problem looks like X
+
+- The community looks like Y
+
+- The action taken looks like Z
+
+::: notes
+
+*Split each big group into three smaller groups and assign each sub-group to one category*
+
+<br>
+
+Ok, groups, take your lists of characteristics and use them to generate theories of environmental problem-solving
+
+- Basically, I want you to describe for me the characteristics you believe make addressing an environmental problem harder AND give us the reason WHY
+
+- Aim for one theory per category!
+
+- **Make sense?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next class
+
+:::
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Textbook processes of community problem-solving**
+
+- Clarke and Peterson (2016)
+
+- Hughes (2007)
+
+- Kraft (2011)
+
+- Submit reflections to Canvas
+
+::: notes
+
+Next week we continue to refine our thinking about what it takes to successfully navigate community problem-solving
+
+- Tuesday we will review a series of proposed processes for success
+
+- Thursday we will invite reps from nonprofits into class to share with us their perspectives of working in Springfield and SW MO
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
+
+Canvas ASSIGNMENT: Designing a plan of attack for solving problems in our community (4pts)
+
+What are THREE key elements you argue are necessary to successfully navigate a domestic policy-making process? 
+
+- Make sure to fully explain each point using complete sentences
+
+:::

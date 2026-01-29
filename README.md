@@ -8,6 +8,8 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 02_2-Why_make_policy.html
 
+03_1_2-SNOW_DAY-Combined.html
+
 03_1-Failure_Cases.html
 
 03_2-Success_Cases.html
