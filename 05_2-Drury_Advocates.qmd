@@ -2,83 +2,66 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
 ```{r}
 library(tidyverse)
-# library(readxl)
-# library(kableExtra)
+library(kableExtra)
 ```
 
-<br>
+**Welcome to the representatives from:**
 
-::: {.r-fit-text}
+- The President's Council on Sustainability
 
-**Section 1: Introduction to Environmental Policymaking**
+- Think Green!
 
-- **Auditing the "wilderness" in our backyard**
-
-:::
+- The Student Government Association
 
 <br>
 
-::: r-stack
-Justin Leinaweaver (Spring 2026)
-:::
+**Our Topic**
+
+- How well equipped is Drury to solve environmental problems?
+
 
 ::: notes
 Prep for Class
 
-1. Review Canvas submissions
+1. Let's grab the tall chairs from the hallway and set them up along the window facing the class
 
 <br>
+
+Welcome all and thank you so much to the reps for joining us today!
+
+- Our class is currently gathering information on our community and the environmental problems we face
+
+- The plan is to select a specific problem and spend the second half of the semester working to address it
+
+<br>
+
+Each of you belongs to a group, or has a role, that gives you some very interesting experience of dealing with problem-solving on Drury's campus
+
+- Our hope is to learn more about what you do and what you see on our campus to help us in our work moving forward
+
+<br>
+
+**To start, would each of you introduce yourselves and tell us a bit about your group and its role on campus?**
+
+**What are the most pressing (short-term) environmental concerns you have about campus?**
+
+**What are the longer-term concerns or big-picture needs you see on our campus?**
+
+**What has been your experience of problem-solving on campus? Any advice for getting things done or obstacles to avoid?**
+
+**In what ways are we doing a good job connecting to the student body on these issues? How could we do this better?**
 
 
 :::
 
 
 
-## {background-image="Images/background-forest_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="60%"}
-
-<br>
-
-<br>
-
-Cronon, W. (1996). The Trouble with Wilderness or, Getting Back to the Wrong Nature. *Environmental History*. 1(1), 7–28.
-:::
-
-::: {.column width="40%"}
-
-![](Images/02_1-cronon_uncommonground2.jpg)
-
-:::
-::::
-
-::: notes
-
-
-
-:::
 
 
 
 
-## For Next Class {background-image="Images/background-forest_v3.png" .center}
 
-<br>
-
-**TBD**
-
-- ...
-
-::: notes
-
-
-
-<br>
-
-**Questions on the material from today or our assignment for next class?**
-:::
