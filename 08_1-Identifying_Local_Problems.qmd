@@ -1,0 +1,510 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+**Making an Argument for Action**
+
+- Identifying local environmental problems
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Record Canvas submissions
+
+2. Markers x MANY
+
+<br>
+
+**SLIDE**: Semester overview
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/05_1-Syllabus_1b.png)
+
+::: {.fragment}
+
+![](Images/03_1-SGF_Community_Report.png){.absolute width="300" left=0 bottom=175}
+
+![](Images/08_1-watershed.jpg){.absolute width="400" left=125 bottom=0}
+
+![](Images/08_1-SGF_Gardens.webp){.absolute width="400" right=100 bottom=175}
+
+![](Images/08_1-Nature_Center.jpeg){.absolute width="350" right=0 bottom=0}
+
+:::
+
+::: notes
+
+Section 2 of our class has focused on identifying the environmental needs in our community
+
+<br>
+
+**REVEAL**
+
+Specifically, we've spent the last three weeks exploring and engaging with groups working on concrete problems in our community
+
+- We reviewed the Springfield Community Focus Reports to get a sense of community priorities, stakeholders, successes and areas of need
+
+- We met with representatives from local nonprofits (CPO and CFO) to get a sense of how organizations in our community approach problem-solving
+
+- At the Fairbanks location of the Springfield Community Gardens we learned about their mission and got our hands dirty with composting, weeding, and building new planting structures
+
+- At the Springfield Conservation Nature Center we tackled, literally at times, invasive species (bush honeysuckle) in order to promote better spring growth and the health of the center
+
+- At the Watershed we...
+
+<br>
+
+**SLIDE**: Before we move forward I want to use all of this material as a chance to reflect on the work we've done in the first half of our semester
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+**In what ways did our work illustrate the role of "politics" in community problem-solving?**
+
+- **How was politics involved in the work being done at each of those sites?**
+
+![](Images/03_1-SGF_Community_Report.png){.absolute width="275" left=0 bottom=100}
+
+![](Images/08_1-watershed.jpg){.absolute width="350" left=250 bottom=0}
+
+![](Images/08_1-SGF_Gardens.webp){.absolute width="300" left=500 bottom=170}
+
+![](Images/08_1-Nature_Center.jpeg){.absolute width="300" left=750 bottom=0}
+
+::: notes
+
+**REFLECTIONS: In what ways did our work illustrate the role of "politics" in community problem-solving?** 
+
+- **How was politics involved in the work being done at each of those sites?**
+
+<br>
+
+**Did our efforts in the field at each site improve the wilderness in Springfield or shrink it?**
+
+- **Are you sure?**
+
+<br>
+
+**SLIDE**: Argument pre-req 1
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+<br>
+<br>
+
+**In what ways did the stakeholders working at each site make clear that we have a public problem, and not a private one?**
+
+![](Images/03_1-SGF_Community_Report.png){.absolute width="275" left=0 bottom=100}
+
+![](Images/08_1-watershed.jpg){.absolute width="350" left=250 bottom=0}
+
+![](Images/08_1-SGF_Gardens.webp){.absolute width="300" left=500 bottom=170}
+
+![](Images/08_1-Nature_Center.jpeg){.absolute width="300" left=750 bottom=0}
+
+::: notes
+
+Munger's first pre-requisite argument to making policy!
+
+<br>
+
+**In what ways did the stakeholders working at each site make clear that we have a public problem, and not a private one?**
+
+<br>
+
+**SLIDE**: Pre-req 2
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+<br>
+
+**In what ways did the stakeholders working at each site make clear that we need collective decisions, not individual ones to address these problems?**
+
+![](Images/03_1-SGF_Community_Report.png){.absolute width="275" left=0 bottom=100}
+
+![](Images/08_1-watershed.jpg){.absolute width="350" left=250 bottom=0}
+
+![](Images/08_1-SGF_Gardens.webp){.absolute width="300" left=500 bottom=170}
+
+![](Images/08_1-Nature_Center.jpeg){.absolute width="300" left=750 bottom=0}
+
+::: notes
+
+Munger's second pre-requisite argument to making policy
+
+- **In what ways did the stakeholders working at each site make clear that we need collective decisions, not individual ones to address these problems?**
+
+<br>
+
+**SLIDE**: Processes of problem-solving
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Engaging with the Domestic Policy-Making Process**
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+![](Images/08_1-gardens1.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**What elements of the problem-solving processes we discussed in Week 4 are illustrated by the work at the community gardens?**
+
+<br>
+
+**SLIDE**: Nature Center
+
+<br>
+
+*NOTES*
+
+DOC'S KEY: 
+
+- Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), 
+- Objectives (set clear targets), 
+- Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), 
+- Strategies (Brainstorm and be creative), 
+- Keepers (Choose the best strategy), 
+- Experiment (Test a strategy and adapt), 
+- Yes! (Implement)
+
+The Collaborative Approach (Clarke & Peterson 2016)
+
+- Is an adaptive process
+- Uses the most appropriate science and technology
+- Is implementable
+- Incurs low transaction costs
+- Has appropriate funding
+- Is measurable
+- Is socially legitimate
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Engaging with the Domestic Policy-Making Process**
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+![](Images/08_1-Nature_Center.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**What elements of the problem-solving processes we discussed in Week 4 are illustrated by the work at the Springfield Conservation Nature Center?**
+
+<br>
+
+**SLIDE**: Watershed
+
+<br>
+
+*NOTES*
+
+DOC'S KEY: 
+
+- Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), 
+- Objectives (set clear targets), 
+- Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), 
+- Strategies (Brainstorm and be creative), 
+- Keepers (Choose the best strategy), 
+- Experiment (Test a strategy and adapt), 
+- Yes! (Implement)
+
+The Collaborative Approach (Clarke & Peterson 2016)
+
+- Is an adaptive process
+- Uses the most appropriate science and technology
+- Is implementable
+- Incurs low transaction costs
+- Has appropriate funding
+- Is measurable
+- Is socially legitimate
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Engaging with the Domestic Policy-Making Process**
+
++ DOC'S KEY approach (Hughes 2007)
+
++ The Collaborative Approach (Clarke and Peterson 2016)
+
+:::
+
+![](Images/08_1-watershed.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**What elements of the problem-solving processes we discussed in Week 4 are illustrated by the work at the Watershed Committee of the Ozarks?**
+
+<br>
+
+**SLIDE**: Takeaways?
+
+<br>
+
+*NOTES*
+
+DOC'S KEY: 
+
+- Definition (problem and outcome; avoid letting strategies be presented as the problem; problems are neutral and don't typically need 'must' or 'should'), 
+- Objectives (set clear targets), 
+- Constraints (be aware of boundaries, limitations, assumptions, unacceptable impacts), 
+- Strategies (Brainstorm and be creative), 
+- Keepers (Choose the best strategy), 
+- Experiment (Test a strategy and adapt), 
+- Yes! (Implement)
+
+The Collaborative Approach (Clarke & Peterson 2016)
+
+- Is an adaptive process
+- Uses the most appropriate science and technology
+- Is implementable
+- Incurs low transaction costs
+- Has appropriate funding
+- Is measurable
+- Is socially legitimate
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/05_1-Syllabus_1b.png)
+
+![](Images/03_1-SGF_Community_Report.png){.absolute width="300" left=0 bottom=175}
+
+![](Images/08_1-watershed.jpg){.absolute width="400" left=125 bottom=0}
+
+![](Images/08_1-SGF_Gardens.webp){.absolute width="400" right=100 bottom=175}
+
+![](Images/08_1-Nature_Center.jpeg){.absolute width="350" right=0 bottom=0}
+
+::: notes
+
+**Any other takeaways for you from our work over the last few weeks?**
+
+<br>
+
+**SLIDE**: My takeaway remains
+
+::: 
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/02-1-Murray-make-a-difference.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Problem-solving is not someone else's responsibility
+
+- It is not the purview of some faraway government, and it's not someone else's fault if things aren't getting better.
+
+<br>
+
+It is for us to do right here in our backyards.
+
+- It takes so little to make a substantial difference and you can have an impact right away if you're willing to put a little sweat into it
+
+<br>
+
+**SLIDE**: Next steps
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/08_1-Outline23.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Our work this week is meant to segue us into the third section of the class
+
+- Today we share all of the environmental problems you submitted to Canvas as a chance to hear a bunch of options and think big picture about what solving them would take
+
+- For Thursday you will select one of them and it will be your focus for the rest of the semester
+
+- You don't have to pick the one you submitted to Canvas!
+
+<br>
+
+Then in Section 3 we will:
+
+1. Continue to find opportunities to volunteer in the community,
+
+2. Learn concepts and tools for analyzing environmental problems in ways that makes solving them easier, and
+
+3. Give you chances to deepen your analysis of the problem you select this week
+
+<br>
+
+**SLIDE**: Today we hear all the options!
+
+:::
+
+
+
+## Local Environmental Problems {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.r-fit-text}
+::: {.incremental}
+
+1. What is the specific problem you submitted?
+
+2. Identify three causes of this specific problem
+
+3. Who currently benefits from this problem?
+
+4. What would MEANINGFUL progress look like?
+:::
+::::
+
+::: notes
+
+I'm going to ask each of you to claim some space on the board, and describe your canvas submission for the class
+
+- I'll give you the prompts and we'll discuss as we go
+
+- Save space to work down the list of prompts
+
+<br>
+
+**REVEAL**: What is the specific problem you submitted? (Canvas Q2)
+
+- *PRESENT EACH*
+
+<br>
+
+**DISCUSS: Are all of these problems per the "D" in Hughes (2007)?**
+
+- e.g. not strategies masquerading as problems, neutral statements, no "must" or "should"
+
+<br>
+
+**REVEAL**: Identify three causes of this specific problem (e.g. why is this important?)
+
+<br>
+
+**DISCUSS: How and why did you zoom in on these three?**
+
+- **Was it hard to pick only three? Or hard to stretch it to three?**
+
+<br>
+
+**REVEAL**: Who benefits?
+
+<br>
+
+**DISCUSS: Will these benefits be a serious obstacle to solving the problem? Why or why not?**
+
+<br>
+
+**REVEAL**: What would SPECIFIC and MEANINGFUL progress on this problem look like?
+
+<br>
+
+**DISCUSS: Which problems would have the greatest positive impact on the community if we could solve them?**
+
+<br>
+
+**SLIDE**: For next class
+
+:::
+
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Pick **ONE** local environmental problem and submit to Canvas:
+
+1. Define the problem
+
+2. Argue: This is an IMPORTANT problem
+
+3. Argue: This is a PUBLIC problem
+
+4. Argue: This problem requires a COLLECTIVE decision
+
+::: notes
+
+**Questions on the assignment?**
+
+<br>
+
+Canvas ASSIGNMENT: Drafting an Argument for Action (15pts)
+
+Pick ONE local environmental problem and submit the following:
+
+1. A thesis statement: Define your selected local, environmental problem as clearly as you can. Keep Hughes' (2007) advice in mind and don't define the problem using your preferred strategy. 
+
+2. Make an argument that this is an IMPORTANT problem (4-5 sentences)
+
+3. Make an argument that this is a PUBLIC problem (per Munger (2000), 4-5 sentences)
+
+4. Make an argument that this problem requires a COLLECTIVE decision (per Munger (2000), 4-5 sentences)
+
+NOTES: These three arguments are certainly related to each other, but your job is to keep them distinct. Your over-arching argument needs to convince the reader that your problem is important, that specific individual choices impact community welfare, and that we require a community decision to address it.
+
+
+:::

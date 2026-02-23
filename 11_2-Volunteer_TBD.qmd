@@ -1,0 +1,45 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Finding and Analyzing the Relevant Stakeholders**
+
+- Different risk profiles complicate problem-solving
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. **Run slides off of laptop today so you can update the slides as we go**
+
+2. Bring pennies to class for coin flipping (1 per person)
+
+3. Prep Google Form to collect county fair responses AND publish it on Canvas
+    - https://forms.gle/VEZaRm7JEtM5ZeH2A
+    
+<br>
+
+**SLIDE**: Our current problem-solving process
+
+:::
+
+

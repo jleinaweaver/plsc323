@@ -1,0 +1,334 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+**Making an Argument for Action**
+
+- Drafting a baseline argument targeting your problem
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+<br>
+
+**SLIDE**: First off, let's talk about the week after Spring Break
+
+:::
+
+
+
+## Week 9 {background-image="Images/background-forest_v3.png" .center}
+
+- March 17: No Class
+
+- March 19: Volunteering 9:30a to noon
+
+::::: {.fragment}
+
+:::: {.columns}
+::: {.column width="70%"}
+
+**Ozark's Food Harvest Distribution Center**
+
+- 2810 N. Cedarbrook Ave
+
+- **PLEASE carpool** (limited parking)
+
+- You **MUST** wear closed toe shoes
+
+- Details on Canvas
+
+:::
+
+::: {.column width="30%"}
+![](Images/09_1-Ozark_Food_Harvest.jpg){style="display: block; margin: 0 auto"}
+:::
+
+::::
+
+:::::
+
+::: notes
+
+Tons of good news for you!
+
+- Tuesday after break, no class! You're welcome!
+
+- Thursday after break we get to volunteer at OFH's distribution center
+
+<br>
+
+**REVEAL**
+
+- Very much an organization working to promote social justice and address serious environmental challenges in our community
+
+- An excellent organization and I'm looking forward to working with them again
+
+<br>
+
+**Questions on our field trip?**
+
+- There's a release form you'll have to sign and I'll get that to you soon
+
+<br>
+
+**SLIDE**: Ok, back to our work this week
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/08_1-Outline23.png)
+
+::: notes
+
+As we discussed last class we are now shifting from identifying environmental problems to analyzing them
+
+- Last class we heard a bunch of different pressing local problems that need our attention
+
+<br>
+
+**SLIDE**: For today
+
+:::
+
+
+
+## For Today {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+Pick **ONE** local environmental problem and submit to Canvas:
+
+1. Define the problem
+
+2. Argue: This is an IMPORTANT problem
+
+3. Argue: This is a PUBLIC problem
+
+4. Argue: This problem requires a COLLECTIVE decision
+
+::: notes
+
+For today I asked each of you to select a local environmental problem and then brainstorm the basic elements of an argument that we must act on it!
+
+<br>
+
+**How did this go?**
+
+- **Any difficulty differentiating between these three inter-related elements?**
+
+<br>
+
+**SLIDE**: This exercise is meant to get you ready for our next assignment!
+
+:::
+
+
+
+##  {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Baseline Argument Report (30pts, due Mar 20)**
+:::
+
+- Submit an argument paper advancing a central thesis that we have an important, public environmental problem to address in our community.
+
+::: notes
+
+After the break you will submit an argument paper version of the work you started on Canvas for class today
+
+<br>
+
+This is the big picture aim of that paper
+
+- I am looking for you to write a simple argument paper
+
+- Your job will be to convince the reader that you have selected an important, public environmental problem that requires a collective decision to improve.
+
+<br>
+
+Your work on the assignment for today explicitly mirrors what I want from this paper
+
+- This means you have a huge jumpstart on this exercise!
+
+<br>
+
+**SLIDE**: Let's talk details!
+
+:::
+
+
+
+##  {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Baseline Argument Report (30pts, due Mar 20)**
+:::
+
+- Thesis: X is an important, public environmental problem we need to address in our community.
+
+::: {.incremental}
+
+- Five-paragraph essay (e.g. intro, body and conclusion)
+
+- Body: Three premises you drafted for today
+
+- All claims of fact require evidence; all evidence requires in-text APA citations and a bibliography
+
+- Minimum of 900 words (not counting the bibliography)
+
+:::
+
+::: notes
+
+Let's be super prescriptive with this
+
+- I want everyone to adopt a version of this sentence as the thesis of their paper
+
+- This is NOT an exercise in poetry, it is an exercise in writing a clear and compelling argument
+
+<br>
+
+Other key elements of the assignment:
+
+- **REVEAL x 4**
+
+<br>
+
+**Any questions on the assignment or the required elements I am specifying here?**
+
+<br>
+
+**SLIDE**: Back to your prep work for today
+
+<br>
+
+Canvas ASSIGNMENT: Baseline Argument Report (30pts, due Mar 20)
+
+Submit an argument paper advancing a central thesis that we have an important, public environmental problem to address in our community.
+
+- This paper should be structured as a simple, five-paragraph essay with an introduction, a body consisting of three premises and a conclusion
+	  - Premise 1 - This is an important problem
+- Premise 2 - This is a public problem
+- Premise 3 - The problem should be addressed collectively
+- Each premise gets one paragraph in the body of the paper in order to explain the premise and support it with evidence
+- All evidence must be cited using APA formatted in-text citations and you must include a bibliography at the end of the paper
+- The paper must be a minimum of 900 words (not counting the bibliography)
+
+:::
+
+
+
+## The Body of the Paper {background-image="Images/background-forest_v3.png" .center}
+
+- Premise 1: This is an IMPORTANT problem
+
+- Premise 2: This is a PUBLIC problem
+
+- Premise 3: This problem requires a COLLECTIVE decision
+
+<br>
+
+**Each** premise must be **clearly explained** and supported by **multiple** pieces of high quality evidence!
+
+
+::: notes
+
+The three short arguments you submitted to Canvas represent a rough draft of the body of your paper
+
+- I'd now like each of you to read EVERYBODY elses draft in class
+
+- Go see how other people are tackling this exercise
+
+<br>
+
+The aim is to get and give feedback!
+
+- Help the writer identify the parts of the argument that are not clear enough AND the parts that need more evidence!
+
+<br>
+
+**Questions?**
+
+- Go!
+
+<br>
+
+**SLIDE**: the assignment
+
+<br>
+
+Canvas ASSIGNMENT: Drafting an Argument for Action (15pts)
+
+Pick ONE local environmental problem and submit the following:
+
+1. A thesis statement: Define your selected local, environmental problem as clearly as you can. Keep Hughes' (2007) advice in mind and don't define the problem using your preferred strategy. 
+2. Make an argument that this is an IMPORTANT problem (4-5 sentences)
+3. Make an argument that this is a PUBLIC problem (per Munger (2000), 4-5 sentences)
+4. Make an argument that this problem requires a COLLECTIVE decision (per Munger (2000), 4-5 sentences)
+NOTES: These three arguments are certainly related to each other, but your job is to keep them distinct. Your over-arching argument needs to convince the reader that your problem is important, that specific individual choices impact community welfare, and that we require a community decision to address it.
+
+:::
+
+
+
+##  {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Baseline Argument Report (30pts, due Mar 20)**
+:::
+
+- Thesis: X is an important, public environmental problem we need to address in our community.
+
+- Five-paragraph essay (e.g. intro, body and conclusion)
+
+- Body: Three premises you drafted for today
+
+- All claims of fact require evidence; all evidence requires in-text APA citations and a bibliography
+
+- Minimum of 900 words (not counting the bibliography)
+
+::: notes
+
+**Did everybody get some useful feedback?**
+
+<br>
+
+**Any questions on the assignment?**
+
+<br>
+
+Alright, let's use the rest of our time today to work on this paper!
+
+- Strike while the iron is hot!
+
+<br>
+
+Don't forget, no class on the Tuesday after break!
+
+- See you at Ozark's Food Harvest!
+
+:::
+
