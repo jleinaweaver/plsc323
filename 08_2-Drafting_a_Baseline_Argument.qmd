@@ -30,7 +30,7 @@ Prep for Class
 
 <br>
 
-**SLIDE**: First off, let's talk about the week after Spring Break
+**SLIDE**: REMINDER for the week after Spring Break
 
 :::
 
@@ -41,8 +41,6 @@ Prep for Class
 - March 17: No Class
 
 - March 19: Volunteering 9:30a to noon
-
-::::: {.fragment}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -65,8 +63,6 @@ Prep for Class
 
 ::::
 
-:::::
-
 ::: notes
 
 Tons of good news for you!
@@ -76,8 +72,6 @@ Tons of good news for you!
 - Thursday after break we get to volunteer at OFH's distribution center
 
 <br>
-
-**REVEAL**
 
 - Very much an organization working to promote social justice and address serious environmental challenges in our community
 

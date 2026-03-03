@@ -30,24 +30,26 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 07_2-Volunteering_Watershed.html
 
-08_1-Brainstorm_Local_Problems.html
+08_1-Identifying_Local_Problems.html
 
-08_2-Project-Selecting_our_Problem.html
+08_2-Drafting_a_Baseline_Argument.html
 
-09_1-Project-Health_Impacts.html
+09_1-NO_CLASS_Volunteer_Thurs.html
 
-09_2-Project-Economics.html
+09_2-Volunteer_OFH.html
 
 10_1-Project-Success_Cases.html
 
 10_2-Ostrom_Adaptive_Governance.html
 
-11_1-Project-Find_Stakeholders.html
+11_1-Local_Activists.html
 
-13_1-Project-Targeted_Framing.html
+11_2-Volunteer_TBD.html
 
-13_2-Project-Targeted_Framing_II.html
+13_1-Stakeholders-Collective_Action_Problems.html
 
-14_1-Planning_Intervention1.html
+13_2-Volunteer_TBD.html
 
-14_2-Planning_Intervention2.html
+14_1-Project-Targeted_Framing_II.html
+
+14_2-Volunteer-Greenways.html

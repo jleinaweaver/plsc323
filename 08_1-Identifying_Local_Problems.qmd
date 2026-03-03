@@ -32,7 +32,68 @@ Prep for Class
 
 <br>
 
-**SLIDE**: Semester overview
+**SLIDE**: First off, let's talk about the week after Spring Break
+
+:::
+
+
+
+## Week 9 {background-image="Images/background-forest_v3.png" .center}
+
+- March 17: No Class
+
+- March 19: Volunteering 9:30a to noon
+
+::::: {.fragment}
+
+:::: {.columns}
+::: {.column width="70%"}
+
+**Ozark's Food Harvest Distribution Center**
+
+- 2810 N. Cedarbrook Ave
+
+- **PLEASE carpool** (limited parking)
+
+- You **MUST** wear closed toe shoes
+
+- Details on Canvas
+
+:::
+
+::: {.column width="30%"}
+![](Images/09_1-Ozark_Food_Harvest.jpg){style="display: block; margin: 0 auto"}
+:::
+
+::::
+
+:::::
+
+::: notes
+
+Tons of good news for you!
+
+- Tuesday after break, no class! You're welcome!
+
+- Thursday after break we get to volunteer at OFH's distribution center
+
+<br>
+
+**REVEAL**
+
+- Very much an organization working to promote social justice and address serious environmental challenges in our community
+
+- An excellent organization and I'm looking forward to working with them again
+
+<br>
+
+**Questions on our field trip?**
+
+- There's a release form you'll have to sign and I'll get that to you soon
+
+<br>
+
+**SLIDE**: Ok, let's talk about our work so far this semester
 
 :::
 
