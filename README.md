@@ -38,13 +38,17 @@ Data, slides and errata for my class at Drury University (PLSC 323: Issues in En
 
 09_2-Volunteer_OFH.html
 
-10_1-Project-Success_Cases.html
+10_1-Ostrom_Adaptive_Governance.html
 
-10_2-Ostrom_Adaptive_Governance.html
+10_2-Project-Success_Cases.html
 
 11_1-Local_Activists.html
 
-11_2-Volunteer_TBD.html
+11_2-Stakeholders-Risk.html
+
+12_1-Volunteer_James_River_Basin.html
+
+12_2-Stakeholders-Uncertainty.html
 
 13_1-Stakeholders-Collective_Action_Problems.html
 

@@ -47,30 +47,48 @@ Quick reminders and announcements
 
 
 
-## Thursday (Apr 2) {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
-<br>
-
-**River Clean-up (9:30a - 11:30a)**
-
-- Meet at the pavilion at Silver Springs Park (1100 N. Hampton Ave)
-
-- Wear appropriate shoes (ideally ones they don't mind getting a little wet) and bring a reusable water bottle
-
-- You MUST complete the waiver and bring it
-
-
-
-## Next Week {background-image="Images/background-forest_v3.png" .center}
+::: {.r-fit-text}
+**New Plan for Thursday**
 
 <br>
 
 **Analyzing Complex Problems (I)**
 
-- Tuesday: The Role of Risk in Decision-making
+- The Role of Risk in Decision-making
 
-- Thursday: The Role of Uncertainty in Environmental Problem-solving
+- Ehrlich and Ehrlich (2008) vs Simon (1993)
+:::
+::: notes
 
+Weather delay on our river clean-up
+
+- Postpone to next Tuesday (fingers crossed)
+
+<br>
+
+So we'll move our material on risk profiles and decision-making forward one class
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+
+**Next Week**
+
+<br>
+
+**Analyzing Complex Problems (I)**
+
+- Tuesday: River clean-up!
+
+- Thursday: Uncertainty in Environmental Problem-solving
+
+:::
 ::: notes
 
 Over the next three classes I want to introduce you to some of the literature that will help us think about the variation in our stakeholders and our problems
@@ -119,14 +137,17 @@ Over the next three classes I want to introduce you to some of the literature th
 
 
 
+
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
 **Overcoming the Collective Action Problem**
 
-- How was your group formed?
+- What is your group's mission or purpose?
 
-- What was your path to the group?
+- How was your group initially formed?
+
+- What was your personal path to the group?
 
 :::
 
@@ -134,13 +155,13 @@ Over the next three classes I want to introduce you to some of the literature th
 ## {background-image="Images/background-forest_v3.png" .center}
 
 ::: {.r-fit-text}
-**Running an Organization**
+**Day-to-Day Operations**
 
-- Are you member-driven? 
+- Do you have FT staff?
 
-- How much fundraising do you do? 
+- How do you use volunteers effectively?
 
-- How large is your FT staff?
+- Do you have internship opportunities?
 
 :::
 
@@ -173,3 +194,23 @@ Over the next three classes I want to introduce you to some of the literature th
 - Where can the students plug into your work?
 
 
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Questions?
+
+
+
+## Old slides
+
+## Thursday (Apr 2) {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**River Clean-up (9:30a - 11:30a)**
+
+- Meet at the pavilion at Silver Springs Park (1100 N. Hampton Ave)
+
+- Wear appropriate shoes (ideally ones they don't mind getting a little wet) and bring a reusable water bottle
+
+- You MUST complete the waiver and bring it
