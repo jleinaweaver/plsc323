@@ -1,0 +1,545 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-forest_v3.png" .center}
+
+```{r}
+library(tidyverse)
+# library(readxl)
+# library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Section 3: Analyzing an Environmental Problem**
+
+- Evaluating Ostrom's principles of adaptive governance
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. NOTE: End of class announce plans for next week (meeting with activists and river clean-up)
+
+<br>
+
+YOU REINVENTED THIS ON THE FLY IN CLASS
+
+1. Quick recap of last class without the Q&A
+2. Groups go straight to work: Most and least common characteristics (Make clear this is not importance, just commonality, what gets flagged the most and least? This gives the groups time to review all the cases)
+3. Groups dig deeper: Which principles were most important for this policy to succeed? Where did they start? Why?
+4. Necessary or sufficient conditions on this list? (need a slide introducing those concepts); Be ready for conversation to go to "it depends" on the context of the problem. Also, highlight the power of starting VERY small to avoid the big conflicts and then building up once success is achieved
+5. Individuals: Reflect on the specifics of your chosen problem and pitch us a plan of attack (e.g. a strategy to draw on these principles in order to make a difference on your problem). Where would you start and why?
+
+<br>
+
+**SLIDE**: Last class I had the pleasure of introducing you to Dr. Elinor Ostrom
+
+:::
+
+
+
+## NOBEL PRIZE WINNER Elinor Ostrom {background-image="Images/background-forest_v3.png"}
+
+:::: {.columns}
+::: {.column width="35%"}
+
+![](Images/10-1-Ostrom_Cover2.jpg){.absolute width="325"}
+
+:::
+
+::: {.column width="65%"}
+
+<br>
+
+<br>
+
+1. Environmental problems as common pool resources (CPRs)
+
+2. The design principles of adaptive governance
+
+:::
+::::
+
+::: notes
+
+We read a chapter from her excellent book and used it to think about
+
+1. How we can frame an environmental problem as a common pool resource problem, and
+
+2. A set of eight design principles that can enable communities to solve difficult environmental problems
+
+<br>
+
+**Remind me, what are the characteristics of a common pool resource?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Common Pool Resources (CPR) {background-image="Images/background-forest_v3.png"  .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Resource System**
+
+![](Images/13-1-ocean.jpg)
+
+:::
+
+::: {.column width="50%"}
+**Resource Units**
+
+<br>
+
+![](Images/13-1-cod-fish.jpg)
+
+:::
+::::
+
+::: notes
+
+1. They are large systems
+
+    - Resource systems that are so large "as to make it costly (but not impossible) to exclude potential beneficiaries from obtaining benefits from its use."
+
+2. That produce a flow of resource units
+
+    - "...it is essential to distinguish between the *resource system* and the flow of *resource units* produced by the system, while still recognizing the **dependence** of one on the other" (Ostrom 1990, 30).
+
+3. With an aim of maximizing flow without harming the stock
+
+    - "Resource systems are best thought of as **stock variables** that are capable, under favorable conditions, of producing **maximum quantity of a flow variable without harming the stock** or the resource system itself (Ostrom 1990, 30)."
+
+<br>
+
+**Give me examples of how you translated your specific environmental problem into a CPR problem**
+
+- **Did you come up with more than one?**
+
+<br>
+
+**Did anybody have a problem that did not fit in this approach?**
+
+<br>
+
+**SLIDE**: In our reading from her book, Dr. Ostrom introduced us to these six case studies
+
+:::
+
+
+
+## Ostrom's CPR Cases {background-image="Images/09-1-Alpabzug-Alpine-Cow-Parade_v3.png" .center}
+
+<br>
+
+1. Torbel, Switzerland
+2. Villages in Japan
+3. Huertas in Valencia
+4. Huertas in Murcia and Orihuela
+5. Huertas in Alicante
+6. Zanjeras in the Philippines
+
+::: notes
+
+**Remind me, what was the case selection criteria for choosing these six cases to study?**
+
+- (Small CPRs only)
+- (CPR fits in one country)
+- (15,000 maximum participants)
+- (Users dependent on CPR)
+
+<br>
+
+**How limiting is this case selection?**
+
+- **In other words, how do these selection criteria impact our understanding of how generalizable the design principles are beyond these cases?**
+
+<br>
+
+**SLIDE**: From these case studies, and others, we get the eight design principles
+
+:::
+
+
+
+## Ostrom's Design Principles {background-image="Images/background-forest_v3.png"  .center}
+
+1. Clearly defined boundaries
+2. Congruence between rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+
+::: notes
+
+I want to be clear here:
+
+- Dr. Ostrom was selecting on the dependent variable, e.g. focusing on success stories
+
+- This list of principles are the characteristics these success stories have in common
+
+- This list is NOT a test of the causal argument that implementing these eight principles will lead to success
+
+- I think of this list as a set of keys relevant to being a useful environmental activist in a community
+
+- But we'll get to that in a second...
+
+<br>
+
+For today I asked each of you to go out and find us an example of a local community solving your type of environmental problem
+
+- My goal is that these success cases will allow us to both:
+
+    - critically analyze Dr. Ostrom's design principles, AND 
+    
+    - help you deepen your thinking about solving your chosen problem
+
+<br>
+
+**Everybody ready to go?**
+
+<br>
+
+*Split class into four groups (maximize board space)*
+
+- Go sit with your group!
+
+<br>
+
+**SLIDE**: Prompt
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png"  .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.r-fit-text}
+**Ostrom's Design Principles**
+
+1. Clearly defined boundaries
+2. Congruence between rules and conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+:::
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="45%"}
+
+<br>
+
+**Make Two Lists**
+
+1. Most common principles
+
+2. Least common principles
+
+:::
+::::
+
+::: notes
+
+Ok, groups, review all of the cases on the discussion board and make us two lists on the white board
+
+- Which of the design principles appear most frequently in our success cases?
+
+- Which of the design principles appears least in our success cases?
+
+<br>
+
+Let me be clear, this is not a list focused on importance of the principles
+
+- I want us to begin with the VISIBILITY of the principles
+
+- Which stood out the clearest in these cases and which were the most hidden?
+
+- **Make sense?**
+
+- Go!
+
+<br>
+
+*PRESENT each and see if we're flagging the same principles in these cases*
+
+<br>
+
+**SLIDE**: Now let's shift our focus
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="47%"}
+
+::: {.r-fit-text}
+**Ostrom's Design Principles**
+
+1. Clearly defined boundaries
+2. Congruence between rules and conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+:::
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="48%"}
+
+<br>
+
+**Add TWO MORE Lists**
+
+3. Most important principles
+
+4. Least important principles
+
+:::
+::::
+
+::: notes
+
+Groups, it is now time to dig deeper into these cases
+
+- REGARDLESS of the level of visibility, based on your review of the cases which of the principles most directly lead to these successes?
+
+- This should NOT just be you adopting the principles flagged by your classmates when they submitted their case
+
+- I want your deeper analysis of what made these policies successful (based on the summary information you have)
+
+- **Make sense?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each group's list*
+
+<br>
+
+**SLIDE**: Necessary and sufficient conditions
+
+:::
+
+
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+::: {.r-fit-text}
+**Qualitative Comparative Analysis (QCA)**
+:::
+
+<br>
+
+- A necessary condition is a factor that must be present for an outcome to occur (e.g. a requirement)
+
+- A sufficient condition is a factor that guarantees an outcome (e.g. a trigger)
+
+::: notes
+
+**Has anybody done any QCA work or other qualitative work with necessary and sufficient conditions?**
+
+<br>
+
+Examples of necessary conditions:
+
+- Being a citizen to vote: You must be a citizen to vote in the US, but not all citizens vote.
+
+- Having wheels for a car: A car must have wheels, but wheels alone do not make a car.
+
+<br>
+
+Examples of sufficient conditions:
+
+- Winning the lottery for being rich: If you win, you are rich, but you could become rich other ways.
+
+- Rain for wet ground: If it rains, the ground is guaranteed to be wet, but it could be wet from a sprinkler.
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: Let's apply it
+
+:::
+
+
+
+## Ostrom's Design Principles {background-image="Images/background-forest_v3.png"  .center}
+
+1. Clearly defined boundaries
+2. Congruence between rules and local conditions
+3. Collective-choice arrangements
+4. Monitoring
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+
+::: notes
+
+*NOTES: Be ready for conversation to go to "it depends" on the context of the problem.*
+
+- *Also, highlight the power of starting VERY small to avoid the big conflicts and then building up once success is achieved*
+
+<br>
+
+**Do we believe that all eight of these principles are necessary for policy success?**
+
+- **could we imagine environmental policy success in the absence of one or more of these principles? Why or why not?**
+
+<br>
+
+**Do we believe any of the eight principles are sufficient to ensure policy success? Why or why not?**
+
+<br>
+
+**SLIDE**: Let's apply these lessons
+
+:::
+
+
+
+## Ostrom's Design Principles {background-image="Images/background-forest_v3.png" .center .smaller}
+
+:::: {.columns}
+::: {.column width="48%"}
+1. Clearly defined boundaries
+2. Congruence between rules and conditions
+3. Collective-choice arrangements
+4. Monitoring
+:::
+
+::: {.column width="48%"}
+5. Graduated Sanctions
+6. Conflict-resolution mechanisms
+7. Minimal recognition of rights to organize
+8. Nested enterprises
+:::
+::::
+
+<br>
+
+**Reflect on these principles and the specifics of your chosen problem and pitch us a plan of attack**
+
+- **e.g. a strategy to draw on these principles in order to make a difference on your problem**
+
+::: notes
+
+Ok, now take all this work into your own project
+
+- We know different problems present different opportunities, SO, which principles would you start with to design a plan of attack for your chosen problem?
+
+- Get ready to report back: Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- *Help each student connect the principles they selected as good places to start into concrete strategies of action!*
+
+<br>
+
+**SLIDE**: Let's talk about next week, but backwards!
+
+:::
+
+
+
+## Next Thursday (Apr 2) {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**River Clean-up (9:30a - 11:30a)**
+
+- Meet at the pavilion at Silver Springs Park (1100 N. Hampton Ave)
+
+- Wear appropriate shoes (ideally ones they don't mind getting a little wet) and bring a reusable water bottle
+
+- You MUST complete the waiver and bring it
+
+::: notes
+
+Next Thursday we're doing a river clean-up with the James River Basin partnership
+
+- Details on Canvas
+
+<br>
+
+**SLIDE**: But before that (Tuesday)!
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-forest_v3.png" .center}
+
+<br>
+
+**Identify Advocates Working on your Environmental Issue**
+
+- Find THREE groups ACTIVELY working on your selected environmental problem in the LOCAL area
+
+- Details on Canvas
+
+::: notes
+
+*Read slide*
+
+<br>
+
+**Questions on the material from today or our assignment for next class?**
+
+<br>
+
+Canvas ASSIGNMENT: Identify Advocates Working on your Issue
+
+Before tackling a real-world project in our community you need a sense of who is already organized in our area working on these issues.
+
+Find THREE groups ACTIVELY working on your selected environmental problem (or overlapping problem) in the LOCAL area and submit the following details FOR EACH group:
+
+1. Describe the stakeholder in general terms (4-5 sentences with evidence): Who are they, what is their mission, why are they relevant for your chosen problem and how do we contact them?
+2. How have they engaged in the local community in the past? Give us AT LEAST TWO concrete examples of actions they have taken in our community in the past (with evidence!)
+
+:::

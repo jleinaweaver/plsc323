@@ -34,7 +34,7 @@ Prep for Class
 
 2. Build a Google Form to collect data and prep email to distribute it OR distribute on Canvas
     
-    - [https://forms.gle/esZZyxCjvsVzxVFC7]()
+    - [https://docs.google.com/forms/d/e/1FAIpQLSf16C8QAUGp8QyRDVYj287PnVY1xRTWMZWFN5B5Lc-uISxgsQ/viewform?usp=dialog]()
 
 3. Be ready to show the NYT video on youTube
 
@@ -167,7 +167,7 @@ d1 <- tibble(
 )
 
 ggplot(data = d1, aes(x = x, y = y)) +
-  geom_point(size = 8) +
+  geom_point(size = 0, color = "white") +
   theme_void() +
   coord_cartesian(xlim = c(-4, 4)) +
   geom_label(aes(label = labels), size = 7) +
@@ -294,7 +294,10 @@ Hilarious joke during the great depression, right?
 
 
 
-## {background-image="Images/12_2-Inflation-FRED-2025-03.png" .center}
+
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/12_2-Inflation-FRED-2026-03.png)
 
 ::: notes
 
@@ -335,7 +338,10 @@ Looking at the recent US experience of inflation we see:
 
 
 
-## {background-image="Images/12_2-Inflation-FRED_longer-2025-03.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
+
+![](Images/12_2-Inflation-FRED_longer-2026-03.png)
+
 
 ::: notes
 Here's quarterly inflation data going back to WW2
@@ -703,7 +709,7 @@ Scenario 3 is a situation in which you still owe $1k, but the deal was for a fif
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2026).csv") |>
+d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2025).csv") |>
   select(name = `Name?`,
          benefit1 = `Benefit 1 ($10): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
          benefit2 = `Benefit 2 ($1,000): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,

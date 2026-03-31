@@ -14,7 +14,7 @@ library(readxl)
 
 ::: {.r-fit-text}
 
-**Finding and Analyzing the Relevant Stakeholders**
+**Analyzing Complex Problems (I)**
 
 - Different risk profiles complicate problem-solving
 
@@ -34,78 +34,9 @@ Prep for Class
 2. Bring pennies to class for coin flipping (1 per person)
 
 3. Prep Google Form to collect county fair responses AND publish it on Canvas
-    - https://forms.gle/VEZaRm7JEtM5ZeH2A
+
+    - https://docs.google.com/forms/d/e/1FAIpQLSdvMzhqPVCGP97TcQ1OB3i4GL9Gt0So7Xrt7gOEa0FCB1JqEQ/viewform?usp=sharing&ouid=100952406343405950492
     
-<br>
-
-**SLIDE**: Our current problem-solving process
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-:::: {.r-fit-text}
-**Engaging Productively as Problem-Solvers**
-
-1) **Describe** the problem facing our community
-
-2) **Investigate** the relevant stakeholders
-
-3) **Frame** the problem for the stakeholders
-
-4) **Design** a policy to address the problem
-
-5) Take **action** to push the plan forward!
-
-::::
-
-::: notes
-
-Currently you are working in groups to complete Step 2
-
-- Remember, your new stakeholder submissions are due before class April 1st
-
-<br>
-
-*This time only because you changed the assignment after class*
-
-Given the specific and smaller nature of some of the stakeholders we are focused on for this problem I emailed everyone a slight modification to the assignment prompt for Apr 1st
-
-- Reach out to your selected stakeholder for information relevant to your problem definition. 
-
-- Be respectful of their time, but don't be afraid to introduce yourself and your work on this problem to see if they have thoughts about food waste they would be willing to share. 
-- **BEFORE you do this you must share with me your proposed questions so I can keep an eye on the process and help steer you in positive directions.**
-
-<br>
-
-**Any questions on the exercise? Concerns about reaching out?**
-
-<br>
-
-**SLIDE**: Reminder on Week 12 assignments
-
-:::
-
-
-
-## {background-image="Images/background-forest_v3.png" .center}
-
-### **Aim: Develop a useful problem-framing for food waste in our community**
-
-- Problem Framing Report due Apr 11th (end Wk 12)
-
-- Week 12: No in-person class Week 12 (Apr 8 and 10)
-
-- Register for volunteer hours here: [https://ozarksfoodharvest.org/how-to-help/volunteer/]()
-
-- **Submit a reflection on the exercise to Canvas**
-
-::: notes
-
-Quick reminder on our plan for Week 12
-
 <br>
 
 **SLIDE**: Our plan for the rest of this week and next
@@ -201,7 +132,7 @@ Ok, let's test your intuition!
 #   #heads = c()
 # )
 
-## SP25 Results TBD
+## SP26 Results
 #library(tidyverse)
 
 d <- tibble(
@@ -220,6 +151,12 @@ p1 <- ggplot(data = d, aes(x = heads)) +
   theme_minimal()
 
 p1
+
+## SP25 Results
+# d <- tibble(
+#  heads = c(5,3,7,7,4,4,5,4,6,6,6,4,6,6,5,5,3),
+#  tails = 0
+# )
 
 ## SP23 Results
 # d <- tibble(
@@ -441,7 +378,7 @@ You and your date arrive at the fair and see this game where heads pays you $100
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("CLASS_DATA-County Fair Game (Spring 2026).csv") |>
+d <- read_csv("CLASS_DATA-County Fair Game (Spring 2025).csv") |>
   select(name = `Name?`,
          choice5 = `Flip a fair coin: Heads pays you $5, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`,
          choice100 = `Flip a fair coin: Heads pays you $100, tails you get nothing\nWhat is the maximum amount of money you would pay to play this game?`)
@@ -942,15 +879,21 @@ A big part of your job working in a community will be to develop a compelling pr
 
 <br>
 
-### How much variation is there in the risk profiles of the stakeholders in your map of the food waste problem?
+In what specific ways do the stakeholders relevant to your problem vary in terms of their risk profiles? 
+
+- How does variation in levels of risk aversion or risk acceptance complicate addressing your problem?
 
 ::: notes
 
 *With time remaining*
 
-- Groups, let's take today's material into your ongoing work!
+<br>
 
-- get ready to report back!
+Everybody take a minute to reflect on our material from today
+
+- Get ready to report back your answer to this question
+
+
 
 <br>
 
