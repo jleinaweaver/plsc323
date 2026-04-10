@@ -37,6 +37,12 @@ Prep for Class
     
 <br>
 
+Don't forget, we are back to the Community Garden on Thursday!
+
+- Details on Canvas!
+
+<br>
+
 **SLIDE**: Our ongoing process of problem-solving
 
 :::
@@ -1227,23 +1233,23 @@ This represents the first kind of collective action problem that makes environme
 
 <br>
 
-Back to your groups!
-
-- GROUPS, take a few minutes to reflect on your problem definition and current stakeholders map
-
-- **Do you see evidence of this kind of collective action problem at play? Why or why not?**
-
-<br>
-
-*Report back and DISCUSS*
-
-<br>
-
 **Per your Canvas submissions today, what are the policy options proposed by Harding for addressing these kinds of problems?**
 
 - (Privatize the commons, OR regulate access to the commons by government)
 
+<br>
+
+**What are the costs and benefits of privatizing the commons?**
+
+<br>
+
+**What are the costs and benefits of using government regulations to protect the commons?**
+
 <br> 
+
+**On balance, how do we choose between those two options?**
+
+<br>
 
 **SLIDE**: Mancur Olson gives us another version of a collective action problem we may encounter 
 
@@ -1417,18 +1423,6 @@ Mancur Olson identifies that flipping the costs and benefits ALSO leads to a ser
 
 <br>
 
-Back to your groups!
-
-- GROUPS, take a few minutes to reflect on your problem definition and current stakeholders map
-
-- **Do you see evidence of this kind of collective action problem at play? Why or why not?**
-
-<br>
-
-*Report back and DISCUSS*
-
-<br>
-
 **Per your Canvas submissions today, what are the policy options proposed by Olson for addressing these kinds of problems?**
 
 - (Smaller groups advantaged for stopping free-riding)
@@ -1441,13 +1435,15 @@ Back to your groups!
 
 <br>
 
-**SLIDE**: Sum up
+**SLIDE**: Apply to your cases
 
 :::
 
 
 
-## Collective Action Problems {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
+
+### Examples of collective action problems in your local, environmental problems?
 
 <br>
 
@@ -1458,6 +1454,19 @@ Back to your groups!
 :::
 
 ::: notes
+
+Reflect on our discussions today and what you submitted on Canvas
+
+- Get ready to report back with examples of these dynamics in the local environmental problem you have been working on
+
+- *PRESENT and DISCUSS examples*
+
+<br>
+
+**In these cases, do the policy suggestions from Hardin and Olson help or not? Why?**
+
+<br>
+
 **Any questions on the collective action problems we've been discussing today?**
 :::
 
@@ -1470,14 +1479,36 @@ Back to your groups!
 
 ::: {.r-fit-text}
 
-**Finish that stakeholder map of your problem**
+**Preparing to Target a Stakeholder**
 
-- TWO new stakeholders per person
-
+- Let's get ready to make a persuasive argument!
 :::
 
 ::: notes
 
-**Questions on the assignment?**
+Your final paper for this class will be to design an argument tailored to one of the stakeholders involved in your chosen environmental problem
+
+- This needs to be a stakeholder who is either directly contributing to the problem or who is an obstacle to us addressing it.
+
+- We'll get into the details on that next week, but first I have an assignment that will set us up for that paper
+
+<br>
+
+Everybody open the Canvas assignment, read the details and let me know if you have questions
+
+- **Questions on the assignment?**
+
+<br>
+
+Canvas ASSIGNMENT: Preparing to Target a Stakeholder (25 pts)
+
+Our next step in taking effective action in our community depends on generating buy-in from the relevant stakeholders, and that depends on convincing them we have a policy problem. For this assignment I want you to select one of the stakeholders in our community whose actions contribute to your chosen environmental problem (or who is a serious obstacle to addressing it) and prepare to target them with an argument.
+
+1. What is the local environmental problem you are targeting?
+2. Who is the stakeholder you are targeting?
+3. How does this stakeholder directly contribute to our environmental problem? (explain AND provide evidence)
+4. Why does this stakeholder do this "problematic" action(s)? In other words, what benefit do they derive from this action? (explain AND provide evidence)
+5. Evaluate this stakeholder in terms of their risk profile. How does their risk aversion or acceptance complicate your efforts to change their behavior?
+6. Evaluate this stakeholder in terms of their relationship to time and uncertainty. How do their time horizons on this problem complicate your efforts to change their behavior? 
 
 :::

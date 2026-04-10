@@ -42,6 +42,49 @@ Prep for Class
 
 <br>
 
+**SLIDE**: Debriefing the river clean-up
+
+:::
+
+
+
+
+## {background-image="Images/background-forest_v3.png"}
+
+![](Images/12_2-Volunteer_River1.jpg){.absolute left=0 width="450"}
+
+![](Images/12_2-Volunteer_River2.jpg){.absolute right=0 bottom=150 width="500"}
+
+::: notes
+
+On Tuesday you volunteered with the James River Basin Partnership on a creek clean-up in Silver Springs Park.
+
+- **Given how close that park is to Drury, does anybody ever use its facilities? Go for a walk, a picnic or to play sports?**
+
+<br>
+
+**Big picture, what did you think of the experience as a volunteer?**
+
+- **How does the James River Basin Partnership set-up and facilitate these activities?**
+
+- **Would you volunteer with them again in future?**
+
+<br>
+
+Talk to me about the importance of the activity
+
+- **How does litter clean-up from this spring and creek impact our community?**
+
+- (Brett did a really good job connecting the dots for us from this small spring and creek all the way to the Mississippi and Gulf of Mexico)
+
+<br>
+
+Head's up, our next volunteer trip will take us back to the Springfield Community Gardens next Thursday
+
+- Details on Canvas
+
+<br>
+
 **SLIDE**: Our current problem-solving process
 
 :::
@@ -709,7 +752,7 @@ Scenario 3 is a situation in which you still owe $1k, but the deal was for a fif
 
 ```{r, fig.align='center', fig.asp=1, fig.width=7}
 # Import the Data (Fake data SP23)
-d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2025).csv") |>
+d <- read_csv("CLASS_DATA-Estimating your Discount Rate (Spring 2026).csv") |>
   select(name = `Name?`,
          benefit1 = `Benefit 1 ($10): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
          benefit2 = `Benefit 2 ($1,000): What is the smallest amount of interest I would have to pay you to get you to wait one year for the money? (%)`,
@@ -1269,23 +1312,21 @@ This reporting is from Zambia in 2015 but the problem is widespread and growing
 
 
 
-## Uncertainty and temporal discounting complicates problem-solving {background-image="Images/background-forest_v3.png" .center}
+## {background-image="Images/background-forest_v3.png" .center}
 
 <br>
 
-### Have you seen evidence of uncertainty, temporal discounting and differing time horizons in the stakeholders in your map of the food waste problem?
+### Have you seen evidence of uncertainty, temporal discounting and differing time horizons in the stakeholders involved in your local environmental problem?
 
 ::: notes
 
-*With time remaining*
+Undoubtedly, uncertainty and temporal discounting complicates environmental problem-solving
 
-- Groups, let's take today's material into your ongoing work!
+- Everybody take a minute to reflect on their chosen environmental problem
 
-- Get ready to report back!
+- Get ready to report back how these elements impact the problem and/or complicate the problem-solving
 
-<br>
-
-*PRESENT and DISCUSS each*
+- (*REPORT BACK and DISCUSS*)
 
 <br>
 

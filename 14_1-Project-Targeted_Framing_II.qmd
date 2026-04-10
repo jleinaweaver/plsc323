@@ -31,13 +31,20 @@ Prep for Class
 
 1. Record Canvas submissions
 
-<br>
-
-Today we continue our work on the problem framing reports
-
-- **SLIDE**: Let's talk big picture first
+2. IDEA evals day
 
 :::
+
+
+
+## IDEA Evaluations {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+[https://drury.campuslabs.com/eval-home/](https://drury.campuslabs.com/eval-home/)
+:::
+
 
 
 
